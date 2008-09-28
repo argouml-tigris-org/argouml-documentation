@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<!-- $Id: build.xml 15811 2008-09-27 22:06:01Z linus $ -->
+<!-- $Id$ -->
 <!-- ArgoUML Manuals & Documentation Build file                             -->
 <!-- Author: Kunle Odutola  31-March-2001                                   -->
 <!--                                                                        -->
-<!-- Modified: Jeremy Bennett, Thierry Lach, Linus Tolke                    -->
+<!-- Modified: Jeremy Bennett, Thierry Lach, Linus Tolke, Dave Thompson     -->
 <!-- 
 
 About this file
@@ -353,15 +353,6 @@ To get it, call ant with target - docbook-xsl-get
            <param name="doc.subdir"  value="javahelp"/>
            <param name="doc.prefix"  value="javahelp"/>
          </antcall>  -->
-
-    <!-- The developers' cookbook -->
-
-    <antcall target="internal-dispatcher">
-      <!-- sub-dir of 'documentation' with xml file -->
-      <param name="doc.subdir"  value="cookbook"/>
-      <!-- DocBook filename without xml extension   -->
-      <param name="doc.prefix"  value="cookbook"/>
-    </antcall>
 
     <!-- The quick guide -->
 

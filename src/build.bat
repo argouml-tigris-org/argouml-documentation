@@ -7,11 +7,13 @@ rem
 setlocal
 echo Searching for tools dir...
 
-set ANT_HOME=..\tools\apache-ant-1.7.0
+:: Look in the typical command-line checkout location.
+set ANT_HOME=..\..\argouml\tools\apache-ant-1.7.0
 echo trying %ANT_HOME%
 if exist %ANT_HOME% goto antpathok
 
-set ANT_HOME=..\argouml-core-tools\apache-ant-1.7.0
+:: Lookin the typical eclipse checkout location.
+set ANT_HOME=..\..\argouml-core-tools\apache-ant-1.7.0
 echo trying %ANT_HOME%
 if exist %ANT_HOME% goto antpathok
 
