@@ -35,12 +35,17 @@ What tools do I need to use this build file?
   <property name="argo.core.version" value="PRE-0.27.1"/>
 
   <!-- we really need an absolute path for argo.root.dir -->
-  <property name="argo.root.dir" value="${basedir}/.."/>
+  <property name="argo.root.dir" value="${basedir}/../.."/>
   
   <property name="argo.build.dir" value="${basedir}/build"/>
   <property name="argo.docs.output.dir" value="${argo.build.dir}/documentation"/>
-
-  <property name="argo.tools.dir" value="${argo.root.dir}/tools"/>
+                                                            
+  <!-- first place to look for tools dir -->
+  <available file="${argo.root.dir}/argouml-core-tools" property="argo.tools.dir"
+          value="${argo.root.dir}/argouml-core-tools"/>
+  <!-- second place to look for tools dir -->
+  <available file="${argo.root.dir}/argouml/tools" property="argo.tools.dir"
+          value="${argo.root.dir}/argouml/tools"/>
   <property name="argo.tools.lib" value="${argo.tools.dir}/lib"/>
 
   <!-- Our defaults depend on and don't override main props, so they go 2nd -->
