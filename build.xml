@@ -488,7 +488,7 @@ To get it, call ant with target - docbook-xsl-get
     <java classname="com.icl.saxon.StyleSheet"
           fork="yes"
 	  taskname="saxon"
-          dir="${source.dir}">
+          dir=".">
       <classpath>
         <path refid="saxon.classpath"/>
       </classpath>
