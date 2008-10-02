@@ -650,5 +650,11 @@ To get it, call ant with target - docbook-xsl-get
     <delete dir="${build.dir}"/>
   </target>
   
+  <!-- =================================================================== -->
+  <!-- Dummy target                                                        -->
+  <!-- =================================================================== -->
+
+  <target name="install" description="Do nothing."/>
+  
 </project>
 
