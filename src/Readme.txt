@@ -1,6 +1,10 @@
 Welcome to ArgoUML!
 -------------------
 
+WARNING: THIS FILE IS MOSTLY OUT OF DATE.  
+It will be updated once the argouml -> argouml-documentation migration
+process is complete.
+
 
 This is the ArgoUML Documentation README file. In it you will find basic 
 information on how to build and use the ArgoUML documentation.
