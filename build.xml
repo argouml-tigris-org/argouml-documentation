@@ -9,23 +9,36 @@
 About this file
 ===============
 
-This file is the build file for ArgoUML Manuals & Documentation. This
+This file is the build file for ArgoUML Manuals & Quick Guide. This
 build file is designed to be read by ANT. See http://jakarta.apache.org/ant/
 
 What tools do I need to use this build file?
 
-  You need the following to be able to build the ArgoUML Manuals and
-  Documentation:
+  The source repository contains most of the tools you needs:
+  - "Ant"
+  - The ArgoUML documentation source files (.xml).
+  - Norman Walsh's DocBook system.
+  - Tool 'FOP' (only requred for pdf versions)
+  
+  In addition to tbe above you will need:
   - The Java 2 SDK.
-  - The ArgoUML manual's source files.
-  - Tool "Ant".
-  - The DocBook system (http://www.docbook.org/). Downloaded from this
-    ant script using the target docbook-xsl-get.
 
   If you are going to build pdf versions you also need:
   - Tool "FOP". This is available in the source repository.
   - JIMI (see the fop readme file).
 
+  to run the build:
+  
+  To run the build in Windows:
+  
+  > build.bat
+  
+  To run the build in Linux/Unix/Cygwin/(+Mac?):
+  
+  $ ./build.sh
+  
+  This will run the default target which generates the user manual and quick guide
+  in all languages, in the multi-page 'chunked' html format only.
  -->
 
 <project name="ArgoDocs" default="defaulthtml" basedir=".">
@@ -196,7 +209,7 @@ directory for further information.
 
 
   <!-- =================================================================== -->
-  <!-- javahelp: Download docbook-xsl                                      -->
+  <!-- docbook-xsl-check: Check for docbook                                -->
   <!-- =================================================================== -->
 
   <target name="docbook-xsl-check" depends="prepare"
@@ -206,38 +219,9 @@ directory for further information.
 The docbook-xsl package is not available or is not the correct version. 
 It is not possible to generate the documentation without it.
 
-To get it, call ant with target - docbook-xsl-get 
-          
-          build docbook-xsl-get
+Please try updating your working copy.
           
       </fail>
-  </target>
-
-  <target name="docbook-xsl-get" depends="prepare"
-          description="Download the docbook-xsl stylesheets."
- 	  unless="docbook-xsl-is-available">
-    <get src="${docbook-xsl-source-url}"
-         dest="${tools.dir}/docbook-xsl-${docbook-xsl-version}.zip"
-	 usetimestamp="true"
-	 verbose="false"
-	 ignoreerrors="true"/>
-
-    <unzip src="${tools.dir}/docbook-xsl-${docbook-xsl-version}.zip"
-           dest="${tools.dir}"/>
-
-    <!-- Make directory name version independent (deleting any old files) 
-         and move it to the right place.
-      -->
-    <delete dir="${docbook-xsl-root}"/>
-    <move todir="${docbook-xsl-root}">
-    	<fileset dir="${tools.dir}/docbook-xsl-${docbook-xsl-version}"/>
-    </move>
-  	          
-	<!-- TFM - this needs updating -->
-    <!-- Check availability again - if the get worked, it will be there. -->
-    <available property="docbook-xsl-is-available"
-	       file="${docbook-xsl-root}/xhtml/xref.xsl"/>
-
   </target>
 
 
