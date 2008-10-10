@@ -34,6 +34,13 @@ What tools do I need to use this build file?
 
   <!-- we really need an absolute path for argo.root.dir -->
   <property name="argo.root.dir" value="${basedir}/../.."/>
+	
+  <!-- 
+      Default master list of languages to generate (comma separated).
+      The languages listed must use the same codes as found in
+      src/docbook-setup/docbook-xsl/common/l10n.xml 
+  -->
+  <property name="doc.languages.list" value="en,de"/>
   
   <property name="build.dir" value="build"/>
   <property name="tools.dir" value="tools"/>
@@ -70,6 +77,10 @@ What tools do I need to use this build file?
   <property name="docbook-xsl-source-url"
             value="${docbook-xsl-source-url-base}docbook-xsl-${docbook-xsl-version}.zip"/>
 
+  <!-- allows us to use the 'for' task from lib/ant-contrib, 
+  required for looping through the languages -->
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+
   <echo> "${fop.build.dir}"</echo>
   <echo> "${saxon.jar.path}"</echo>
   <path id="saxon.classpath">
@@ -78,11 +89,6 @@ What tools do I need to use this build file?
 
   <target name="init">
     <echo message="Using ${ant.version}"/>
-
-    <property name="printablehtml.dir" value="${build.dir}/printablehtml"/>
-    <property name="defaulthtml.dir"   value="${build.dir}/defaulthtml"/>
-    <property name="pdf.dir"           value="${build.dir}/pdf"/>
-    <property name="javahelp.dir"      value="${build.dir}/javahelp"/>
 
     <available property="jimi-is-available"
                value="true"
@@ -108,10 +114,6 @@ What tools do I need to use this build file?
 
   <target name="prepare" depends="init">
     <mkdir dir="${build.dir}"/>
-    <mkdir dir="${defaulthtml.dir}"/>
-    <mkdir dir="${printablehtml.dir}"/>
-    <mkdir dir="${javahelp.dir}"/>
-    <mkdir dir="${pdf.dir}"/>
   </target>
   
   <!-- =================================================================== -->
@@ -282,6 +284,9 @@ To get it, call ant with target - docbook-xsl-get
 
     <!-- First we set up some properties to make our job easier     -->
 
+    <property name="profile.xsl"
+              value="${docbook-setup}/docbook-xsl/profiling/profile.xsl"/>
+              
     <property name="chunked.xsl"
               value="${docbook-setup}/create-chunked.xsl"/>
 
@@ -347,23 +352,30 @@ To get it, call ant with target - docbook-xsl-get
            <param name="doc.prefix"  value="javahelp"/>
          </antcall>  -->
 
-    <!-- The quick guide -->
-
-    <antcall target="internal-dispatcher">
-      <!-- sub-dir of 'documentation' with xml file -->
-      <param name="doc.subdir"  value="quick-guide"/>
-      <!-- DocBook filename without xml extension   -->
-      <param name="doc.prefix"  value="quickguide"/>
-    </antcall>
-
-    <!-- The user manual -->
-
-    <antcall target="internal-dispatcher">
-      <!-- sub-dir of 'documentation' with xml file -->
-      <param name="doc.subdir"  value="manual"/>
-      <!-- DocBook filename without xml extension   -->
-      <param name="doc.prefix"  value="argomanual"/>
-    </antcall>
+    <for list="${doc.languages.list}" param="lang">
+  	  <sequential>
+  	    <!-- The quick guide -->
+        <antcall target="internal-dispatcher">
+          <!-- sub-dir of 'documentation' with xml file -->
+          <param name="doc.subdir"  value="quick-guide"/>
+          <!-- DocBook filename without xml extension   -->
+          <param name="doc.prefix"  value="quickguide"/>
+          <!-- language to generate -->
+          <param name="doc.lang" value="@{lang}"/>
+        </antcall>
+    
+        <!-- The user manual -->
+        <antcall target="internal-dispatcher">
+          <!-- sub-dir of 'documentation' with xml file -->
+          <param name="doc.subdir"  value="manual"/>
+          <!-- DocBook filename without xml extension   -->
+          <param name="doc.prefix"  value="argomanual"/>
+          <!-- language to generate -->
+          <param name="doc.lang" value="@{lang}"/>
+        </antcall>
+  	  </sequential>
+    </for>
+    	
 
     <delete file="${titlepage-html.xsl}"/>
     <delete file="${titlepage-pdf.xsl}"/>
@@ -398,46 +410,62 @@ To get it, call ant with target - docbook-xsl-get
       </filterset>
     </copy>
 
+    <echo message="Profiling for language '${doc.lang}'"/>
+
+    <java classname="com.icl.saxon.StyleSheet"
+          fork="yes"
+	  taskname="saxon"
+          dir=".">
+      <classpath>
+        <path refid="saxon.classpath"/>
+      </classpath>
+      <arg line="-o 'src/${doc.subdir}/${doc.prefix}-generated-${doc.lang}.xml'"/>
+      <arg value="src/${doc.subdir}/${doc.prefix}-generated.xml"/>
+      <arg value="${profile.xsl}"/>
+      <arg value="profile.lang=${doc.lang}"/>
+    </java>
+
     <!-- Now invoke each of the targets. They will only do anything if their
          trigger (generate-XXX) has been set true earlier. -->
 
     <antcall target="create-defaulthtml">     
       <param name="source.dir"  value="src/${doc.subdir}"/>
-      <param name="source.xml"  value="src/${doc.subdir}/${doc.prefix}-generated.xml"/>
+      <param name="source.xml"  value="src/${doc.subdir}/${doc.prefix}-generated-${doc.lang}.xml"/>
       <param name="source.xsl"  value="${chunked.xsl}"/>
-      <param name="target.dir"  value="${defaulthtml.dir}/${doc.subdir}"/>
+      <param name="target.dir"  value="${build.dir}/${doc.lang}/defaulthtml/${doc.subdir}"/>
     </antcall>
 
     <antcall target="create-printablehtml">   
       <param name="source.dir"  value="src/${doc.subdir}"/>
-      <param name="source.xml"  value="src/${doc.subdir}/${doc.prefix}-generated.xml"/>
+      <param name="source.xml"  value="src/${doc.subdir}/${doc.prefix}-generated-${doc.lang}.xml"/>
       <param name="source.xsl"  value="${printable.xsl}"/>
-      <param name="target.dir"  value="${printablehtml.dir}/${doc.subdir}"/>
+      <param name="target.dir"  value="${build.dir}/${doc.lang}/printablehtml/${doc.subdir}"/>
       <param name="target.html" value="${doc.prefix}.html"/>
     </antcall>
 
     <antcall target="create-pdf">     
       <param name="source.dir"  value="src/${doc.subdir}"/>
-      <param name="source.xml"  value="src/${doc.subdir}/${doc.prefix}-generated.xml"/>
+      <param name="source.xml"  value="src/${doc.subdir}/${doc.prefix}-generated-${doc.lang}.xml"/>
       <param name="source.xsl"  value="${pdf.xsl}"/>
       <param name="preprocess.xsl"  value="${preprocess-pdf.xsl}"/>
       <param name="source.fo"   value="${doc.prefix}.fo"/>
-      <param name="target.dir"  value="${pdf.dir}/${doc.subdir}"/>
+      <param name="target.dir"  value="${build.dir}/${doc.lang}/pdf/${doc.subdir}"/>
       <param name="target.pdf"  value="${doc.prefix}.pdf"/>
     </antcall>
 
     <antcall target="create-javahelp">        
       <param name="source.dir"  value="src/${doc.subdir}"/>
-      <param name="source.xml"  value="src/${doc.subdir}/${doc.prefix}-generated.xml"/>
+      <param name="source.xml"  value="src/${doc.subdir}/${doc.prefix}-generated-${doc.lang}.xml"/>
       <param name="source.xsl"  value="${javahelp.xsl}"/>
       <param name="source.fo"   value="${doc.prefix}.fo"/>
-      <param name="target.dir"  value="${javahelp.dir}/${doc.subdir}"/>
+      <param name="target.dir"  value="${build.dir}/${doc.lang}/javahelp/${doc.subdir}"/>
       <param name="target.javahelp"  value="${doc.prefix}.jh"/>
       <param name="target.jar"  value="${doc.subdir}.jar"/>
       <param name="target.hs"  value="${doc.subdir}.hs"/>
     </antcall>
 
     <delete file="src/${doc.subdir}/${doc.prefix}-generated.xml"/>
+    <delete file="src/${doc.subdir}/${doc.prefix}-generated-${doc.lang}.xml"/>
   </target>
   
   <!-- =================================================================== -->
@@ -461,6 +489,7 @@ To get it, call ant with target - docbook-xsl-get
       <arg value="${source.xml}"/>
       <arg value="${source.xsl}"/>
       <arg value="base.dir=${target.dir}/"/>
+      <arg value="l10n.gentext.default.language=${doc.lang}" />    
     </java>
 
     <!-- Delete spurious ld-*.html files created in the source directory. -->
@@ -495,6 +524,7 @@ To get it, call ant with target - docbook-xsl-get
       <arg line="-o '${target.dir}/${target.html}'"/>
       <arg value="${source.xml}"/>
       <arg value="${source.xsl}"/>
+      <arg value="l10n.gentext.default.language=${doc.lang}" />    
     </java>
 
     <!-- Delete spurious ld-*.html files created in the source directory. -->
@@ -551,6 +581,7 @@ To get it, call ant with target - docbook-xsl-get
       <arg line='-o "${source.dir}/${source.fo}"'/>
       <arg value="${source.xml}.prep"/>
       <arg value="${source.xsl}"/>
+      <arg value="l10n.gentext.default.language=${doc.lang}" />    
     </java>
   	
     <!-- Invoke Fop on our terms. This is the only place we need more memory
@@ -617,6 +648,7 @@ To get it, call ant with target - docbook-xsl-get
       <arg value="${source.xml}"/>
       <arg value="${javahelp.xsl}"/>
       <arg value="base.dir=${target.dir}/"/>
+      <arg value="l10n.gentext.default.language=${doc.lang}" />    
     </java>
 
     <!-- Delete spurious ld-*.html files created in the source directory. -->

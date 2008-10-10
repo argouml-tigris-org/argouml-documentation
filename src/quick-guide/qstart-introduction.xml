@@ -54,11 +54,17 @@
 	-->
 	<sect1>
 		<title>Welcome to &argo;</title>
-		<para>
-&argo; is a powerful yet 
-			easy-to-use interactive, graphical software design environment that supports the design, 
-			development and documentation of object-oriented software applications.
-		</para>
+        <para lang="en">
+            &argo; is a powerful yet 
+            easy-to-use interactive, graphical software design environment that supports the design, 
+            development and documentation of object-oriented software applications.
+        </para>
+        <para lang="de">
+            &argo; ist ein leistungsfähiges schon bedienungsfreundliche wechselwirkende, grafische 
+            Software-Entwurfsumwelt, die den Entwurf stützt, Entwicklung und Unterlagen der 
+            objektorientierten Software-Anwendungen.
+        </para>
+
 		<para>
 			If you are familiar with a family of software applications called Computer Aided Software 
 			Engineering (CASE) tools then you should find &argo; instantly familiar. 
