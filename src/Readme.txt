@@ -5,17 +5,6 @@ WARNING: THIS FILE IS MOSTLY OUT OF DATE.
 It will be updated once the argouml -> argouml-documentation migration
 process is complete.
 
--- New sections
-FILE LISTING
-
-build.bat      - Batch file for initiating build on windows
-build.sh       - Batch file for initiating build on linux/cygwin
-build.xml      - Build configuration file, controls the build process.
-src/.project   - Unknown purpose!
-src/Documentation defaulthtml.launch - unknown purpse
-src/Documentation pdf.launch - unknown purpose
-src/eclipse-ant-documentation.properties - unknown purpse
-src/Readme.txt - this file.
 
 This is the ArgoUML Documentation README file. In it you will find basic 
 information on how to build and use the ArgoUML documentation.

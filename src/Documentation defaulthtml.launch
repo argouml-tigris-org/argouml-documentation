@@ -22,8 +22,8 @@
 <mapEntry key="argouml.eclipse.root" value="${workspace_loc}"/>
 <mapEntry key="eclipse.pdebuild.home" value="/C:/Program Files/Eclipse/eclipse33/eclipse/plugins/org.eclipse.pde.build_3.3.0.v20070612/./"/>
 </mapAttribute>
-<stringAttribute key="org.eclipse.ui.externaltools.ATTR_ANT_PROPERTY_FILES" value="${workspace_loc:/argouml-documentation/eclipse-ant-documentation.properties},"/>
-<stringAttribute key="org.eclipse.ui.externaltools.ATTR_ANT_TARGETS" value="docbook-xsl-get,defaulthtml,"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_ANT_PROPERTY_FILES" value="${workspace_loc:/argouml-documentation/src/eclipse-ant-documentation.properties},"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_ANT_TARGETS" value="defaulthtml,"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${workspace_loc:/argouml-documentation/build.xml}"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/argouml-documentation}"/>
 <stringAttribute key="process_factory_id" value="org.eclipse.ant.ui.remoteAntProcessFactory"/>

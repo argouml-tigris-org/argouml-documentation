@@ -92,7 +92,11 @@ What tools do I need to use this build file?
 
   <!-- allows us to use the 'for' task from lib/ant-contrib, 
   required for looping through the languages -->
-  <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+	<classpath>
+	  <pathelement location="${tools.lib}/ant-contrib-0.6.jar"/>
+	</classpath>
+  </taskdef>
 
   <echo> "${fop.build.dir}"</echo>
   <echo> "${saxon.jar.path}"</echo>
