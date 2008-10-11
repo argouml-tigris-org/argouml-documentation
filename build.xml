@@ -15,7 +15,7 @@ build file is designed to be read by ANT. See http://jakarta.apache.org/ant/
 What tools do I need to use this build file?
 
   The source repository contains most of the tools you needs:
-  - "Ant"
+  - Tool 'Ant'
   - The ArgoUML documentation source files (.xml).
   - Norman Walsh's DocBook system.
   - Tool 'FOP' (only requred for pdf versions)
@@ -24,11 +24,8 @@ What tools do I need to use this build file?
   - The Java 2 SDK.
 
   If you are going to build pdf versions you also need:
-  - Tool "FOP". This is available in the source repository.
   - JIMI (see the fop readme file).
 
-  to run the build:
-  
   To run the build in Windows:
   
   > build.bat
@@ -66,14 +63,6 @@ What tools do I need to use this build file?
   <property name="fop.build.dir" value="${tools.dir}/${fop.version}/build"/>
   <property name="fop.lib.dir" value="${tools.dir}/${fop.version}/lib"/>
 
-  <property name="docbook-xsl-source-url-base" 
-            value="http://internap.dl.sourceforge.net/sourceforge/docbook/"
-  />
-  <!-- 
-       The mirror below may be faster from Europe 
-       (or can be used as an alternative)
-            value="http://puzzle.dl.sourceforge.net/sourceforge/docbook/"
-  -->
   <property name="docbook-xsl-version" value="1.69.1"/>
 
   <property name="saxon.jar.path" value="${tools.lib}/saxon-6.5.2.jar"/>
