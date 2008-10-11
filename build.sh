@@ -20,6 +20,16 @@ echo
 echo Starting Ant...
 echo
 
+echo Checking JAVA_HOME...
+if [ -e "$JAVA_HOME/bin" ] ; then
+    echo "JAVA_HOME is set OK."
+else
+    echo "***************************************************************"
+    echo "  WARNING: JAVA_HOME not set correctly or no JRE installed.    "
+    echo "***************************************************************"
+fi
+
+
 $ANT_HOME/bin/ant $*
 
 exit
