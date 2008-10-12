@@ -1110,55 +1110,117 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title lang="en">Reference Manual Structure</title>
         <title lang="de">Die Struktur des Referenzhandbuches</title>
 
-        <para lang="en"><xref linkend="ch.ref.ui"/> is an overview of the user 
-        interface and provides a summary of the support for the various 
-        UML diagram types in ArgoUML.
-        <xref linkend="ch.ref.menu"/> and <xref linkend="ch.ref.navpane"/>  
-        describe the menu bar, and each of the sub-windows of the user interface, known as <emphasis>Panes</emphasis>.</para>
+        <para lang="en">
+	        <xref linkend="ch.ref.ui"/> is an overview of the user 
+	        interface and provides a summary of the support for the various 
+	        UML diagram types in ArgoUML.
+	        <xref linkend="ch.ref.menu"/> and <xref linkend="ch.ref.navpane"/>  
+	        describe the menu bar, and each of the sub-windows of the user 
+	        interface, known as <emphasis>Panes</emphasis>.
+        </para>
+        <para lang="de">
+	        <xref linkend="ch.ref.ui"/> ist ein Überblick über die 
+	        Anwenderschnittstelle und enthält eine Zusammenfassung der 
+	        verschiedenen UML-Diagrammtypen von ArgoUML.
+	        <xref linkend="ch.ref.menu"/> und <xref linkend="ch.ref.navpane"/>
+	        beschreiben die Menüzeile und jedes Fenster der Anwenderschnittstelle.
+        </para>
 
-        <para lang="en"><xref linkend="ch.ref.critics"/> gives details of all the 
-        cognitive critics within the system. Eventually ArgoUML will 
-        link directly to this manual when giving advice on 
-        critics.</para>
+        <para lang="en">
+	        <xref linkend="ch.ref.critics"/> gives details of all the 
+	        cognitive critics within the system. Eventually ArgoUML will 
+	        link directly to this manual when giving advice on 
+	        critics.
+        </para>
+        <para lang="de">
+	        <xref linkend="ch.ref.critics"/> beschreibt Details aller im 
+	        System vorhandenen kognitiven Kritiken. Unter Umständen wird ArgoUML 
+	        direkt auf dieses Handbuch verweisen, wenn es die Hilfestellung zu 
+	        einer Kritik gibt.
+        </para>
 
-        <para lang="en"><xref linkend="ch.ref.entities"/> is an overview of the 
-        model elements (i.e. the UML entities that can be placed on 
-        diagrams) within ArgoUML. The following chapters (
-        <xref linkend="ch.ref.entusecase"/> through 
-        <xref linkend="ch.ref.entbuiltin"/>) describe, the model elements 
-        that can be created through each ArgoUML diagram, and their 
-        properties, as well as some standard model elements provided with 
-        the system.</para>
+        <para lang="en">
+	        <xref linkend="ch.ref.entities"/> is an overview of the 
+	        model elements (i.e. the UML entities that can be placed on 
+	        diagrams) within ArgoUML. The following chapters (
+	        <xref linkend="ch.ref.entusecase"/> through 
+	        <xref linkend="ch.ref.entbuiltin"/>) describe, the model elements 
+	        that can be created through each ArgoUML diagram, and their 
+	        properties, as well as some standard model elements provided with 
+	        the system.
+        </para>
+        <para lang="de">
+	        <xref linkend="ch.ref.entities"/> ist ein Überblick über die 
+	        Modellelemente (z.B. die UML-Elemente, die in den Diagrammen verwendet 
+	        werden können) von ArgoUML. Die folgenden Kapitel (
+	        <xref linkend="ch.ref.entusecase"/> bis 
+	        <xref linkend="ch.ref.entbuiltin"/>) beschreiben die Modellelemente, 
+	        die in jedem ArgoUML-Diagramm erzeugt werden können, deren 
+	        Eigenschaften, sowie einige Standard-Modellelemente die im System 
+	        enthalten sind.
+        </para>
 
-        <para lang="en">A complete <xref linkend="glossary"/> is provided. 
-        <xref linkend="app.casestudy"/> provides material to supplement 
-        the case study used throughout the document. 
-        <xref linkend="app.umlres"/> and <xref linkend="app.umlcase"/> 
-        identify background information on UML and UML CASE tools. 
-        <xref linkend="app.cppmod"/> explains the use of the C++ module.
-        <xref linkend="app.legal"/> is a copy of the GNU Free 
-        Documentation License.</para>
+        <para lang="en">
+	        A complete <xref linkend="glossary"/> is provided. 
+	        <xref linkend="app.casestudy"/> provides material to supplement 
+	        the case study used throughout the document. 
+	        <xref linkend="app.umlres"/> and <xref linkend="app.umlcase"/> 
+	        identify background information on UML and UML CASE tools. 
+	        <xref linkend="app.cppmod"/> explains the use of the C++ module.
+	        <xref linkend="app.legal"/> is a copy of the GNU Free 
+	        Documentation License.
+        </para>
+        <para lang="de">
+	        Es ist ein vollständiges <xref linkend="glossary"/> vorhanden. 
+	        <xref linkend="app.casestudy"/> enthält Material, die die 
+	        im Dokument durchgehend benutzte Fallstudie unterstützt. 
+	        <xref linkend="app.umlres"/> und <xref linkend="app.umlcase"/> 
+	        verweisen auf Hintergrundinformationen über UML und UML-CASE-Tools. 
+	        <xref linkend="app.legal"/> ist eine Kopie der &quot;GNU Free 
+	        Documentation License&quot;.
+        </para>
 
       </sect2>
 
       <sect2 id="s2.intro.user.feedback">
 
         <title lang="en">User Feedback</title>
+        <title lang="de">Anwender-Feedback</title>
 
-        <indexterm><primary>Feedback</primary></indexterm>
-        <indexterm><primary>User Feedback</primary></indexterm>
-        <indexterm><primary>Contributing</primary><secondary>to the 
+        <indexterm lang="en"><primary>Feedback</primary></indexterm>
+        <indexterm lang="en"><primary>User Feedback</primary></indexterm>
+        <indexterm lang="en"><primary>Contributing</primary><secondary>to the 
         User Manual</secondary></indexterm>
-        <para lang="en">Please tell us what you think about this User Manual. 
-        Your comments will help us make improvements.
-        Email your 
-        thoughts to the <ulink url="mailto:users@argouml.tigris.org">
-        ArgoUML Users Mailing List</ulink>.
-        In case you would like to add to the missing chapters you should contact the 
-        <ulink url="mailto:dev@argouml.tigris.org">ArgoUML Developer Mailing List</ulink>
-        to check whether anyone else is working on this part.
-        You can subscribe to either of the mailing lists via the
-        <ulink url="http://argouml.tigris.org">ArgoUML web site</ulink>.</para>
+        <indexterm lang="de"><primary>Feedback</primary></indexterm>
+        <indexterm lang="de"><primary>Anwender-Feedback</primary></indexterm>
+        <indexterm lang="de"><primary>Überblick</primary><secondary>über das 
+        Anwenderhandbuch</secondary></indexterm>
+        <para lang="en">
+	        Please tell us what you think about this User Manual. 
+	        Your comments will help us make improvements.
+	        Email your 
+	        thoughts to the <ulink url="mailto:users@argouml.tigris.org">
+	        ArgoUML Users Mailing List</ulink>.
+	        In case you would like to add to the missing chapters you should 
+	        contact the 
+	        <ulink url="mailto:dev@argouml.tigris.org">ArgoUML Developer 
+	        Mailing List</ulink>
+	        to check whether anyone else is working on this part.
+	        You can subscribe to either of the mailing lists via the
+	        <ulink url="http://argouml.tigris.org">ArgoUML web site</ulink>.
+        </para>
+        <para lang="de">
+	        Bitte teilen Sie uns mit, was Sie über dieses Anwenderhandbuch 
+	        denken. Ihre Kommentare helfen uns, Verbesserungen vorzunehmen.
+	        Mailen Sie Ihre Gedanken an <ulink url="mailto:users@argouml.tigris.org">
+	        die &quot;ArgoUML Users Mailing List&quot;</ulink>.
+	        Sollten Sie ein fehlendes Kapitel hinzufügen wollen, kontaktieren Sie 
+	        bitte <ulink url="mailto:dev@argouml.tigris.org">
+	        ArgoUML Developer Mailing List</ulink>. Darüber können Sie prüfen, ob 
+	        bereits jemand anderes an diesem Teil arbeitet. Sie können sich zu 
+	        jeder dieser Maillisten über die <ulink url="http://argouml.tigris.org">
+	        ArgoUML Webseite</ulink> anmelden.
+        </para>
 
       </sect2>
 
@@ -1167,14 +1229,29 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     <sect1>
 
       <title lang="en">Assumptions</title>
+      <title lang="de">Annahmen</title>
 
-      <para lang="en">This release of the manual assumes the reader is very 
-      familiar with UML already. This is reflected in the sparseness of 
-      the description of UML concepts in the tutorial.</para>
+      <para lang="en">
+	      This release of the manual assumes the reader is very 
+	      familiar with UML already. This is reflected in the sparseness of 
+	      the description of UML concepts in the tutorial.
+      </para>
+      <para lang="de">
+	      Diese Version des Handbuches unterstellt, dass der Leser mit 
+	      UML sehr vertraut ist. Dies zeigt sich durch die sparsame Beschreibung 
+	      der UML-Konzepte in diesem Übungshandbuch.
+      </para>
 
-      <para lang="en">The case study is described, but not yet fully realized 
-      throughout the tutorial. This will be achieved in future releases 
-      of the manual.</para>
+      <para lang="en">
+	      The case study is described, but not yet fully realized 
+	      throughout the tutorial. This will be achieved in future releases 
+	      of the manual.
+      </para>
+      <para lang="de">
+	      Die Fallstudie ist beschrieben, aber noch nicht vollständig in dieser 
+	      Übungsanleitung realisiert.
+	      Dies wird erst in zukünftigen Versionen dieses Handbuches der Fall sein.
+      </para>
 
     </sect1>
 
@@ -1183,14 +1260,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
   <part>
 
     <title lang="en">Tutorial</title>
+    <title lang="de">Übungsanleitung</title>
 
     <chapter id="ch.tut.uml">
 
       <title lang="en">Introduction (being written)</title>
+      <title lang="de">Einleitung</title>
 
       <para lang="en">
         This tutorial will be taking you through a tour of the use of
         ArgoUML to model a system.
+      </para>
+      <para lang="de">
+        Diese Übungsanleitung führt Sie in Modellierung eines Systems mit Hilfe 
+        von ArgoUML ein.
       </para>
 
       <para lang="en">
@@ -1199,6 +1282,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         Not every nook and cranny of the product will be demonstrated.
         That degree of detail is given in the reference materials to be
         found in subsequent parts of this document.
+      </para>
+      <para lang="de">
+        Zuerst werden Sie mit dem Erscheinungsbild des Produktes vertraut 
+        gemacht und dann werden wir mit einem Testfall durch den Analyse- und 
+        Entwicklungsprozess gehen. Es wird aber nicht jeder Winkel und jede 
+        Ritze des Produktes demonstriert. Dieser Detaillierungsgrad wird im 
+        Referenzmaterial bereitgehalten, das Sie in den nachfolgenden Teilen 
+        dieses Dokumentes finden.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
       </para>
 
       <para lang="en">
@@ -1210,6 +1301,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         These .zargo files will be identified at the end of the sections whose
         work they represent.
       </para>
+      <para lang="de">
+        Der Zustand des Modelles am Ende der Hauptabschnitte wird in  
+        .zargo-Dateien verfügbar sein. Diese sind vorhanden, damit Sie 
+        verschiedene, nicht in dieser Übungsanleitung speziell behandelten 
+        Aspekte durchspielen und dann zum richtigen Zustand des Modelles  
+        zurückkehren können. Diese .zargo-Dateien werden am Ende der Abschnitte, 
+        deren Arbeit sie repräsentieren, ausgewiesen. 
+      </para>
 
       <para lang="en">
         An ATM (automated teller machine) project has been chosen as a case study
@@ -1217,6 +1316,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         In subsequent sections we are going to develop the ATM example into
         a complete description in UML.
         The tutorial, however, will only walk you through part of it.
+      </para>
+      <para lang="de">
+        Ein ATM (automated teller machine) Geldautomaten-Projekt wurde 
+        als Fallstudie ausgewählt, um die verschiedenen Aspekte der von ArgoUML 
+        angebotenen Modellierungen zu demonstrieren. In den nachfolgenden 
+        Abschnitten werden wir einen <quote>Geldautomaten</quote> vollständig 
+		in UML beschreiben. Die Übungsanleitung wird Sie allerdings nur durch 
+		bestimmte Teile davon führen.
       </para>
 
       <para lang="en">
@@ -1226,6 +1333,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         You should name the contents and any subdirectories as directed for reasons
         that will become apparent.
       </para>
+      <para lang="de">
+        Jetzt sollten Sie ein Verzeichnis erzeugen, das Ihr 
+        Projekt aufnimmt. Benennen Sie das Verzeichnis so, dass es zum Rest 
+        Ihres Dateisystems passt. Die Inhalte und die Unterverzeichnisse 
+        sollten Sie so bezeichnen, wie nachfolgend beschrieben.
+      </para>
 
       <para lang="en">
         The case study will be an ATM system.
@@ -1233,11 +1346,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         You are going to play two roles.
         That of the Project Manager and that of the Designer Analyst.
       </para>
+      <para lang="de">
+        Die Fallstudie ist ein Geldautomat. Ihre Firma heißt 
+        <quote>FlyByNight Industries</quote>. Sie werden zwei Rollen spielen. 
+        Die des Projektmanagers und die des Analytikers.
+      </para>
 
       <para lang="en">
         We are not going to build a physical ATM, of course.
         The product that we will build as a case study will be an ATM simulator
         to be used for testing the design of a physical ATM.
+      </para>
+      <para lang="de">
+        Wir werden natürlich keinen physikalisch existierenden Geldautomaten 
+        erstellen. Das Produkt, das wir als Fallstudie erzeugen 
+        werden, ist ein Geldautomatensimulator, der zum Testen und Entwerfen  
+        eines physikalisch vorhandenen Geldautomaten verwendet wird.
       </para>
 
       <para lang="en">
@@ -1247,87 +1371,173 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         We will go into how you structure the project itself once one has been
         defined.
       </para>
+      <para lang="de">
+        Wie Ihre Firma die Arbeit in Projekten organisiert, ist gewöhnlich mehr 
+        durch politische, als durch andere Einflüsse bestimmt. Aus diesem Grund 
+        steht dies nicht im Mittelpunkt dieses Dokumentes. Wir werden zeigen, 
+        wie Sie Ihr Projekt nach dessen Definition selbst strukturieren können.
+      </para>
 
     </chapter>
 
     <chapter id="ch.tut.ooad">
 
       <title lang="en">UML Based OOA&amp;D</title>
+      <title lang="de">UML basierte OOA&amp;D</title>
 
       <para lang="en">
         In this chapter, we look at how UML as a notation is used 
         within OOA&amp;D.
       </para>
+      <para lang="de">
+        In diesem Kapitel sehen Sie, wie UML als Notation innerhalb 
+        der OOA&amp;D verwendet wird.
+      </para>
 
       <sect1>
 
         <title lang="en">Background to UML</title>
+        <title lang="de">Hintergrundinformationen zu UML</title>
 
-        <para lang="en"><emphasis>Object orientation</emphasis> as a concept has 
-        been around since the 1960&apos;s, and as a design concept 
-        since 1972. However it was in the 1980&apos;s that it started 
-        to develop as a credible alternative to a <emphasis>functional 
-        approach</emphasis> in analysis and design. We can identify a 
-        number of drivers.</para>
+        <para lang="en">
+	        <emphasis>Object orientation</emphasis> as a concept has 
+	        been around since the 1960&apos;s, and as a design concept 
+	        since 1972. However it was in the 1980&apos;s that it started 
+	        to develop as a credible alternative to a <emphasis>functional 
+	        approach</emphasis> in analysis and design. We can identify a 
+	        number of drivers.
+        </para>
+        <para lang="de">
+	        <emphasis>Objektorientierung</emphasis> als Konzept kam in den 
+	        60&apos;er Jahren auf und als Designkonzept ab 1972. Erst in den 
+	        80&apos;ern entwickelte sie sich im Bereich Analyse und Design als 
+	        ernstzunehmende Alternative zum <emphasis>funktionalen Ansatz
+	        </emphasis>. 
+	        Wir können hierfür eine Anzahl von Treibern identifizieren.
+        </para>
 
         <orderedlist>
 
           <listitem>
 
-            <para lang="en">The emergence of mainstream OO programming languages 
-            like SmallTalk and particularly C++. C++ was a pragmatic OO 
-            language derived from C, widely used because of its 
-            association with Unix.</para>
+            <para lang="en">
+	            The emergence of mainstream OO programming languages 
+	            like SmallTalk and particularly C++. C++ was a pragmatic OO 
+	            language derived from C, widely used because of its 
+	            association with Unix.
+            </para>
+            <para lang="de">
+	            Das Erscheinen der OO-Programmiersprachen, wie SmallTalk 
+	            und teilweise C++. C++ war eine pragmatische, von C abgeleitete 
+	            OO-Sprache, die wegen ihrer Verknüpfung mit UNIX sehr weit 
+	            verbreitet war.
+			</para>
 
           </listitem>
 
           <listitem>
 
-            <para lang="en">The development of powerful workstations, and with 
-            them the emergence into the mainstream of windowing 
-            operating user environments. Graphical User Interfaces 
-            (GUI) have an inherent object structure.</para>
+            <para lang="en">
+	            The development of powerful workstations, and with 
+	            them the emergence into the mainstream of windowing 
+	            operating user environments. Graphical User Interfaces 
+	            (GUI) have an inherent object structure.
+            </para>
+            <para lang="de">
+	            Die Entwicklung leistungsfähiger Workstations und das 
+	            Erscheinen von fensterbasierten Anwenderumgebungen. 
+	            Grafische Anwenderschnittstellen (GUI) haben eine 
+	            eingebaute Objektstruktur.
+			</para>
 
           </listitem>
 
           <listitem>
 
-            <para lang="en">A number of very public major project failures, 
-            suggesting that current approaches were not 
-            satisfactory.</para>
+            <para lang="en">
+	            A number of very public major project failures, 
+	            suggesting that current approaches were not 
+	            satisfactory.
+            </para>
+            <para lang="de">
+	            Eine Vielzahl sehr bekannter Projektfehlschläge, die 
+	            nahelegten, dass der aktuelle Ansatz nicht mehr tragfähig
+	            war.
+            </para>
 
           </listitem>
 
         </orderedlist>
 
-        <para lang="en">A number of researchers proposed OOA&amp;D processes, and 
-        with them notations. Those that achieved some success include 
-        Coad-Yourdon, Booch, Rumbaugh OMT, OOSE/Jacobson, 
-        Shlaer-Mellor, ROOM (for real-time design) and the hybrid 
-        Jackson Structured Development.</para>
+        <para lang="en">
+	        A number of researchers proposed OOA&amp;D processes, and 
+	        with them notations. Those that achieved some success include 
+	        Coad-Yourdon, Booch, Rumbaugh OMT, OOSE/Jacobson, 
+	        Shlaer-Mellor, ROOM (for real-time design) and the hybrid 
+	        Jackson Structured Development.
+        </para>
+        <para lang="de">
+	        Mehrere Forscher schlugen OOA&amp;D-Prozesse und Notationen vor. 
+	        Denjenigen, denen tatsächlich etwas Erfolg beschieden war, waren 
+	        Coad-Yourdon, Booch, Rumbaugh OMT, OOSE/Jacobson, Shlaer-Mellor,  
+	        ROOM (für Echtzeit-Design) und die hybride &quot;Strukturierte 
+	        Programmierung&quot; von Jackson.
+        </para>
 
-        <para lang="en">During the early 1990&apos;s it became clear that these 
-        approaches had many good ideas, often very similar. A major 
-        stumbling block was the diversity of notation, meaning 
-        engineers tended to be familiar with one OOA&amp;D methodology, 
-        rather than the approach in general.</para>
+        <para lang="en">
+	        During the early 1990&apos;s it became clear that these 
+	        approaches had many good ideas, often very similar. A major 
+	        stumbling block was the diversity of notation, meaning 
+	        engineers tended to be familiar with one OOA&amp;D methodology, 
+	        rather than the approach in general.
+        </para>
+        <para lang="de">
+	        Während der frühen 90&apos;er wurde klar, dass diese Ansätze viele 
+	        gute, oft sehr einfache Ideen enthielten. Ein Haupt-Stolperstein  
+	        waren jedoch die unterschiedlichen Notationen, was bedeutete, dass  
+	        die Ingenieure mehr mit einer bestimmten OOA&amp;D-Methode als mit  
+	        dem generellen Ansatz vertraut waren.
+        </para>
 
-        <para lang="en">UML was conceived as a common notation, that would be in 
-        the interests of all involved. The original standard was driven 
-        by Rational Software (
-        <ulink url="http://www.rational.com">www.rational.com</ulink>, 
-        in which three of the key researchers in the field (Booch, 
-        Jacobson and Rumbaugh were involved). They produced documents 
-        describing UML v0.9 and v0.91 during 1996. The effort was taken 
-        industry wide through the Object Management Group (OMG), 
-        already well known for the CORBA standard. A first proposal, 
-        1.0 was published in early 1997, with an improved version 1.1 
-        approved that autumn.</para>
+        <para lang="en">
+	        UML was conceived as a common notation, that would be in 
+	        the interests of all involved. The original standard was driven 
+	        by Rational Software (
+	        <ulink url="http://www.rational.com">www.rational.com</ulink>, 
+	        in which three of the key researchers in the field (Booch, 
+	        Jacobson and Rumbaugh were involved). They produced documents 
+	        describing UML v0.9 and v0.91 during 1996. The effort was taken 
+	        industry wide through the Object Management Group (OMG), 
+	        already well known for the CORBA standard. A first proposal, 
+	        1.0 was published in early 1997, with an improved version 1.1 
+	        approved that autumn.
+        </para>
+        <para lang="de">
+	        UML wurde als gemeinsame Notation erdacht, die alle Interessen  
+	        berücksichtigen sollte. Der Originalstandard wurde durch Rational 
+	        Rose vorangetrieben (<ulink url="http://www.rational.com">
+	        www.rational.com</ulink>, in der drei der wichtigsten Forscher 
+	        arbeiteten (Booch, Jacobson und Rumbaugh waren involviert)). Sie 
+	        produzierten im Laufe des Jahres 1996 Dokumente, die die UML, 
+	        Version 0.9 und Version 0.91 beschrieben. Der Aufwand wurde 
+	        industrieweit durch die Object Management Group (OMG) fortgesetzt,  
+	        die bereits durch den CORBA-Standard sehr bekannt war. Ein erster  
+	        Vorschlag, Version 1.0 wurde im Frühjahr 1997 veröffentlicht. Eine 
+	        verbesserte Version 1.1 erschien im Herbst.
+        </para>
 
-        <para lang="en">ArgoUML is based on UML v1.4, which was adopted by OMG in 
-        September 2001. The current official version, supported by ArgoUML, 
-         is UML v1.4.2 dated July 2004, adopted as ISO/IEC 19501.
-        The latest UML version is UML v2.1.2, from November 2007.
+        <para lang="en">
+	        ArgoUML is based on UML v1.4, which was adopted by OMG in 
+	        September 2001. The current official version, supported by ArgoUML, 
+	         is UML v1.4.2 dated July 2004, adopted as ISO/IEC 19501.
+	        The latest UML version is UML v2.1.2, from November 2007.
+        </para>
+        <para lang="de">
+	        ArgoUML basiert auf UML, Version 1.4, die durch die OMG im September  
+	        2001 herausgegeben wurde. Die aktuelle offizielle Version, die durch 
+	        ArgoUML unterstützt wird, ist UML, Version 1.4.2 vom Juli 2004, 
+	        herausgegeben als ISO/IEC 19501. Die aktuelle UML Version ist 
+	        UML, Version 2.1.2 vom November 2007.
         </para>
 
       </sect1>
@@ -1335,6 +1545,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <sect1>
 
         <title lang="en">UML Based Processes for OOA&amp;D</title>
+        <title lang="de">UML basierter Prozess für OOA&amp;D</title>
 
         <para lang="en">
           It is important to understand that UML is a notation for OOA&amp;D.
@@ -1342,52 +1553,98 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           Whatever process is adopted, it must take the system 
           being constructed through a number of phases.
         </para>
+        <para lang="de">
+          Sie müssen verstehen, dass UML eine Notation für die OOA&amp;D ist. 
+          Sie schreibt keinen bestimmten Prozess vor. Welcher Prozess auch immer 
+          angewendet wird, ein System wird in mehreren Phasen konstruiert.
+        </para>
 
         <orderedlist>
 
           <listitem>
 
-            <para lang="en">Requirements Capture. This is where we identify the 
-            requirements for the system, using the language of the 
-            <emphasis>problem domain</emphasis>. In other words we 
-            describe the problem in the <quote>customer&apos;s</quote> 
-            terms.</para>
+            <para lang="en">
+	            Requirements Capture. This is where we identify the 
+	            requirements for the system, using the language of the 
+	            <emphasis>problem domain</emphasis>. In other words we 
+	            describe the problem in the <quote>customer&apos;s</quote> 
+	            terms.
+            </para>
+            <para lang="de">
+	            Erfassen der Anforderungen. In dieser Phase identifizieren 
+	            wir die Anforderungen an das System. Dabei verwenden wir die 
+	            Sprache des <emphasis>Problembereiches</emphasis>. Mit anderen 
+	            Worten, wir beschreiben das Problem mit den Begrifflichkeiten 
+	            des <quote>Kunden</quote>.
+            </para>
 
           </listitem>
 
           <listitem>
-            <indexterm><primary>Analysis</primary></indexterm> 
+            <indexterm lang="en"><primary>Analysis</primary></indexterm> 
+            <indexterm lang="de"><primary>Analyse</primary></indexterm>
 
-            <para lang="en">Analysis. We take the requirements and start to 
-            recast them in the language of a putative solution&mdash;the 
-            <emphasis>solution domain</emphasis>. At this stage, 
-            although thinking in terms of a solution, we ensure we keep 
-            things at a high level, away from concrete details of a 
-            specific solution&mdash;what is known as 
-            <emphasis>abstraction</emphasis>.</para>
+            <para lang="en">
+	            Analysis. We take the requirements and start to 
+	            recast them in the language of a putative solution&mdash;the 
+	            <emphasis>solution domain</emphasis>. At this stage, 
+	            although thinking in terms of a solution, we ensure we keep 
+	            things at a high level, away from concrete details of a 
+	            specific solution&mdash;what is known as 
+	            <emphasis>abstraction</emphasis>.
+            </para>
+            <para lang="de">
+	            Analyse. Wir nehmen die Anforderungen und beginnen diese 
+	            in die Sprache der vermeintlichen Lösung umzuformen, in den 
+	            <emphasis>Lösungsbereich</emphasis>. Zu diesem Zeitpunkt halten 
+	            wir die Dinge auf einer hohen Abstraktionsebene, obwohl wir 
+	            bereits in den Begrifflichkeiten der Lösung denken&mdash;  
+	            abseits von den konkreten Details einer spezifischen Lösung.  
+	            Dieser Vorgang ist als <emphasis>Abstraktion</emphasis> bekannt.
+            </para>
 
           </listitem>
 
           <listitem>
-            <indexterm><primary>Design</primary></indexterm>
+            <indexterm lang="en"><primary>Design</primary></indexterm>
+            <indexterm lang="de"><primary>Design</primary></indexterm>
 
-            <para lang="en">Design. We take the specification from the Analysis 
-            phase and construct the solution in full detail. We are 
-            moving from <emphasis>abstraction</emphasis> of the problem 
-            to its <emphasis>realization</emphasis> in concrete 
-            terms.</para>
+            <para lang="en">
+	            Design. We take the specification from the Analysis 
+	            phase and construct the solution in full detail. We are 
+	            moving from <emphasis>abstraction</emphasis> of the problem 
+	            to its <emphasis>realization</emphasis> in concrete 
+	            terms.
+            </para>
+            <para lang="de">
+	            Design. Wir nehmen die Spezifikation aus der Analysephase und 
+	            konstruieren die Lösung ganz detailliert. Wir bewegen uns von 
+	            der <emphasis>Abstraktion</emphasis> des Problemes, hin zu seiner 
+	            <emphasis>Realisierung</emphasis> in konkreter Form.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para lang="en">Build Phase. We take the actual design and write it 
-            in a real programming language. This includes not just the 
-            programming, but the testing that the program meets the 
-            requirements (<emphasis>verification</emphasis>), testing 
-            that the program actually solves the customer&apos;s 
-            problem (<emphasis>validation</emphasis>) and writing all 
-            user documentation.</para>
+            <para lang="en">
+	            Build Phase. We take the actual design and write it 
+	            in a real programming language. This includes not just the 
+	            programming, but the testing that the program meets the 
+	            requirements (<emphasis>verification</emphasis>), testing 
+	            that the program actually solves the customer&apos;s 
+	            problem (<emphasis>validation</emphasis>) and writing all 
+	            user documentation.
+            </para>
+            <para lang="de">
+	            Build-Phase. Wir nehmen das aktuelle Design und setzen es in 
+	            eine reale Programmiersprache um. Das schliesst nicht nur die 
+	            Programmierung ein, sondern auch das Testen, ob das Programm den 
+	            Anforderungen (<emphasis>Verifikation</emphasis>) entspricht, 
+	            testen, ob das Programm das aktuelle Kundenproblem löst (<emphasis>
+	            Validierung</emphasis>) und das Schreiben der gesamten 
+	            Anwenderdokumentation.
+            </para>
 
           </listitem>
 
@@ -1396,31 +1653,59 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <sect2 id="s2.proctypes">
 
           <title lang="en">Types of Process</title>
+          <title lang="de">Prozesstypen</title>
 
-          <para lang="en">In this section we look at the two main types of 
-          process in use for software engineering. There are others, 
-          but they are less widely used.</para>
+          <para lang="en">
+	          In this section we look at the two main types of 
+	          process in use for software engineering. There are others, 
+	          but they are less widely used.
+          </para>
+          <para lang="de">
+	          In diesem Abschnitt sehen wir uns die beiden Hauptprozesstypen 
+	          an, die im Software-Engineering verwendet werden. Es gibt noch 
+	          weitere, diese werden aber weniger häufig eingesetzt.
+          </para>
 
-          <para lang="en">In recent years there has also been a move to reduce 
-          the effort required in developing software. This has led to 
-          the development of a number of lightweight variants of 
-          processes (often known as <emphasis>agile 
-          computing</emphasis> or <emphasis>extreme 
-          programming</emphasis>) that are suited to small teams 
-          of engineers.</para>
+          <para lang="en">
+	          In recent years there has also been a move to reduce 
+	          the effort required in developing software. This has led to 
+	          the development of a number of lightweight variants of 
+	          processes (often known as <emphasis>agile 
+	          computing</emphasis> or <emphasis>extreme 
+	          programming</emphasis>) that are suited to small teams 
+	          of engineers.
+          </para>
+          <para lang="de">
+	          In den letzten Jahren gab es auch eine Bewegung, den für die 
+	          Entwicklung von Software notwendigen Aufwand zu reduzieren. Dies 
+	          führte in der Entwicklung zu einer Anzahl von kleineren 
+	          Prozessvarianten (oft als <emphasis>agile computing</emphasis> oder 
+	          <emphasis>extreme programming</emphasis> bekannt), die auf sehr 
+	          kleine Ingenieurteams zugeschnitten waren.
+          </para>
 
           <sect3>
 
             <title lang="en">The Waterfall Process</title>
+            <title lang="de">Der Wasserfall-Prozess</title>
 
-            <para lang="en">In this process, each stage of the 
-            process&mdash;requirements, analysis, design and build (code and 
-            test) is completed before the next one starts. This is 
-            illustrated in <xref linkend="fig.waterfallsteps"/>.</para>
+            <para lang="en">
+	            In this process, each stage of the 
+	            process&mdash;requirements, analysis, design and build (code and 
+	            test) is completed before the next one starts. This is 
+	            illustrated in <xref linkend="fig.waterfallsteps"/>.
+            </para>
+            <para lang="de">
+	            In diesem Prozess wird jeder Prozessschritt&mdash; Erfassen 
+	            der Anforderungen, Analyse, Design und Build (Code und Test) 
+	            abgeschlossen, bevor der nächste beginnt. Dies ist in 
+	            <xref linkend="fig.waterfallsteps"/> illustriert.
+            </para>
 
             <figure float="1" id="fig.waterfallsteps">
 
               <title lang="en">The Waterfall Process</title>
+              <title lang="de">Der Wasserfall-Prozess</title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -1428,32 +1713,68 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="PNG"/></imageobject></mediaobject></screenshot>
             </figure>
 
-            <para lang="en">This is a very satisfactory process where 
-            requirements are well designed and not expected to change, 
-            for example automating a well proven manual system.</para>
+            <para lang="en">
+	            This is a very satisfactory process where 
+	            requirements are well designed and not expected to change, 
+	            for example automating a well proven manual system.
+            </para>
+            <para lang="de">
+	            Dies ist ein sehr zufriedenstellender Prozess, in dem  
+	            Anforderungen gut entworfen und keine Änderungen erwartet 
+	            werden&mdash; zum Beispiel die Automatisierung eines bewährten, 
+	            manuellen Systems.
+            </para>
 
-            <para lang="en">The weaknesses of this approach show with less well 
-            defined problems. Invariably some of the uncertainties in 
-            the requirements will not be clarified until well into the 
-            analysis and design, or even code phases, requiring 
-            backtracking to redo work.</para>
+            <para lang="en">
+	            The weaknesses of this approach show with less well 
+	            defined problems. Invariably some of the uncertainties in 
+	            the requirements will not be clarified until well into the 
+	            analysis and design, or even code phases, requiring 
+	            backtracking to redo work.
+            </para>
+            <para lang="de">
+	            Der Schwachpunkt dieses Ansatzes zeigt sich bei weniger gut 
+	            definierten Problemen. Offene Punkte in den Anforderungen bleiben 
+	            bis zur Phase Analyse und Design, oder auch bis zur Codephase 
+	            ungeklärt. Dies erfordert dann ein Zurückgehen, um diese Arbeit 
+	            nachzuholen.
+            </para>
 
-            <para lang="en">The worst aspect of this, is that working code does 
-            not become available until near the end of the project, and 
-            very often it is only at this stage that problems with the 
-            original requirements (for example with the user interface) 
-            become apparent.</para>
+            <para lang="en">
+	            The worst aspect of this, is that working code does 
+	            not become available until near the end of the project, and 
+	            very often it is only at this stage that problems with the 
+	            original requirements (for example with the user interface) 
+	            become apparent.
+            </para>
+            <para lang="de">
+	            Der schlechteste Aspekt davon ist, dass ausführbarer Code erst 
+	            zum Ende des Projektes verfügbar wird. Sehr häufig ist es so,  
+	            dass erst zu diesem Zeitpunkt Probleme mit den ursprünglichen 
+	            Anforderungen (zum Beispiel mit der Anwenderschnittstelle) in 
+	            Erscheinung treten.
+            </para>
 
-            <para lang="en">This is exacerbated, by each successive stage 
-            requiring more effort, than the previous, so that the costs 
-            of late problem discovery are hugely expensive. This is 
-            illustrated by the pyramid in 
-            <xref linkend="fig.waterfall"/>.</para>
+            <para lang="en">
+	            This is exacerbated, by each successive stage 
+	            requiring more effort, than the previous, so that the costs 
+	            of late problem discovery are hugely expensive. This is 
+	            illustrated by the pyramid in 
+	            <xref linkend="fig.waterfall"/>.
+            </para>
+            <para lang="de">
+	            Dies ist besonders schlimm, weil jeder folgende Schritt mehr 
+	            Aufwand als der vorhergehende erfordert, so dass die Kosten spät 
+	            entdeckter Probleme extrem teuer sind. Dies wird durch die  
+	            Pyramide in <xref linkend="fig.waterfall"/> dargestellt.
+            </para>
 
             <figure float="1" id="fig.waterfall">
 
               <title lang="en">Effort Involved in the Steps of the Waterfall 
               Process</title>
+              <title lang="de">Zu erwartender Aufwand je Schritt des 
+              Wasserfallmodelles</title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -1461,54 +1782,105 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="PNG"/></imageobject></mediaobject></screenshot>
             </figure>
 
-            <para lang="en">The waterfall process is still probably the dominant 
-            design process. However because of its limitations it is 
-            increasingly replaced by <emphasis>iterative</emphasis> 
-            processes, particularly for projects where the requirements 
-            are not well defined.</para>
+            <para lang="en">
+	            The waterfall process is still probably the dominant 
+	            design process. However because of its limitations it is 
+	            increasingly replaced by <emphasis>iterative</emphasis> 
+	            processes, particularly for projects where the requirements 
+	            are not well defined.
+            </para>
+            <para lang="de">
+	            Der Wasserfallprozess ist wahrscheinlich der dominante 
+	            Designprozess. Durch seine Beschränkungen wird er jedoch mehr und 
+	            mehr durch <emphasis>iterative</emphasis> Prozesse ersetzt. 
+	            Insbesondere bei Projekten, bei denen die Anforderungen schlecht  
+	            definiert sind.
+            </para>
 
           </sect3>
 
           <sect3>
 
             <title lang="en">Iterative Development Processes</title>
-            <indexterm><primary>Iterative Processes</primary></indexterm>
+            <title lang="de">Iterative Entwicklungsprozesse</title>
+            <indexterm lang="en"><primary>Iterative Processes</primary></indexterm>
+            <indexterm lang="de"><primary>Iterative Prozesse</primary></indexterm>
 
-            <para lang="en">In recent years a new approach has been used, which 
-            aims to get at least part of the code up and running as 
-            quickly as possible, to bring discovery of problems forward 
-            in the development cycle.</para>
+            <para lang="en">
+	            In recent years a new approach has been used, which 
+	            aims to get at least part of the code up and running as 
+	            quickly as possible, to bring discovery of problems forward 
+	            in the development cycle.
+            </para>
+            <para lang="de">
+	            In den letzten Jahren wurde ein neuer Ansatz verwendet, dessen 
+	            Ziel es war, einen minimalen Teil Code fertigzustellen und 
+	            schnellstmöglichst ausführen zu können, um Probleme im 
+	            Entwicklungszyklus sehr schnell aufzudecken.
+            </para>
 
-            <para lang="en">These processes use a series of 
-            <quote>mini-waterfalls</quote>, defining a few requirements 
-            (the most important) first, taking them through analysis, 
-            design and build to get an early version of the product, 
-            with limited functionality, related to the most important 
-            requirements. Feedback from this can then be used to refine 
-            the requirements, spot problems etc before more work is 
-            done.</para>
+            <para lang="en">
+	            These processes use a series of 
+	            <quote>mini-waterfalls</quote>, defining a few requirements 
+	            (the most important) first, taking them through analysis, 
+	            design and build to get an early version of the product, 
+	            with limited functionality, related to the most important 
+	            requirements. Feedback from this can then be used to refine 
+	            the requirements, spot problems etc before more work is 
+	            done.
+            </para>
+            <para lang="de">
+	            Diese Prozesse verwenden eine Reihe von <quote>Mini-Wasserfällen
+	            </quote>, definieren einige Anforderungen (die wichtigsten zuerst, 
+	            bringen diese durch den Analyse- und Design-, sowie den 
+	            Buildprozess, um eine frühe Version des Produktes mit 
+	            eingeschränkter Funktionalität zu erhalten. Die Rückmeldungen 
+	            können dann dazu verwendet werden, die Anforderungen zu 
+	            überarbeiten, punktuelle Probleme zu identifizieren usw. bevor 
+	            noch mehr Arbeit investiert wird.
+            </para>
 
-            <para lang="en">The process is then repeated for further requirements 
-            to construct a product with a step up in functionality. 
-            Again further feedback can be applied to the 
-            requirements.</para>
+            <para lang="en">
+	            The process is then repeated for further requirements 
+	            to construct a product with a step up in functionality. 
+	            Again further feedback can be applied to the 
+	            requirements.
+            </para>
+            <para lang="de">
+	            Dieser Prozess wird dann für alle weiteren Anforderungen 
+	            wiederholt, um ein Produkt mit wachsender Funktionalität zu 
+	            konstruieren. Erneutes Feedback kann wieder in die Anforderungen 
+	            einfliessen. 
+            </para>
 
             <para lang="en">
               The process is repeated, until eventually all 
               requirements have been implemented and the product is 
               complete.
-              <indexterm><primary>Iteration</primary></indexterm>
+              <indexterm lang="en"><primary>Iteration</primary></indexterm>
               It is this <emphasis>iteration</emphasis> that 
               gives these processes their name. 
               <xref linkend="fig.iterative"/> shows how this process 
               compares to the pyramid structure of the Waterfall 
               Process.
             </para>
+            <para lang="de">
+              Dieser Prozess wird wiederholt, bis alle Anforderungen 
+              implementiert wurden und das Produkt fertig ist.
+              <indexterm lang="de"><primary>Iteration</primary></indexterm>
+              Es ist diese <emphasis>Iteration</emphasis>, die diesem 
+              Prozess seinen Namen gab.
+              <xref linkend="fig.iterative"/> zeigt, wie dieser Prozess 
+              mit der Pyramidenstruktur des Wasserfallprozesses verglichen 
+              werden kann.
+            </para>
 
             <figure float="1" id="fig.iterative">
 
               <title lang="en">Effort Involved in the Steps of an Iterative 
               Process</title>
+              <title lang="de">Zu erwartender Aufwand je Schritt des iterativen 
+              Prozesses</title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -1516,70 +1888,135 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="PNG"/></imageobject></mediaobject></screenshot>
             </figure>
 
-            <para lang="en">The growth in popularity of iterative processes is 
-            closely tied to the growth of OOA&amp;D. It is the clean 
-            encapsulation of objects that allows a part of a system to 
-            be built with stubs for the remaining code clearly 
-            defined.</para>
+            <para lang="en">
+	            The growth in popularity of iterative processes is 
+	            closely tied to the growth of OOA&amp;D. It is the clean 
+	            encapsulation of objects that allows a part of a system to 
+	            be built with stubs for the remaining code clearly 
+	            defined.
+            </para>
+            <para lang="de">
+	            Das Wachsen der Popularität iterativer Prozesse ist mit dem 
+	            Wachsen der OOA&amp;D eng verknüpft. Es ist die saubere Kapselung 
+	            von Objekten, die es erlaubt, einen Teil des Systems mit klar 
+	            definierten Leerroutinen für den verbleibenden Code zu bauen. 
+            </para>
 
             <sect4>
 
               <title lang="en">The Rational Unified Process</title>
+              <title lang="de">Der Rational Unified Process</title>
 
-              <para lang="en">Perhaps the best known Iterative Process is the 
-              Rational Unified Process (RUP) from Rational Software (
-              <ulink url="http://www.rational.com">www.rational.com</ulink>).</para>
+              <para lang="en">
+	              Perhaps the best known Iterative Process is the 
+	              Rational Unified Process (RUP) from Rational Software (
+	              <ulink url="http://www.rational.com">www.rational.com</ulink>).
+              </para>
+              <para lang="de">
+	              Der wahrscheinlich bekannteste, iterative Prozess ist der 
+	              Rational Unified Process (RUP) von Rational Software (
+	              <ulink url="http://www.rational.com">www.rational.com</ulink>).
+              </para>
 
-              <para lang="en">This process recognizes that our pyramid view of 
-              even slices of the waterfall is not realistic. In 
-              practice the early iterations tend to be heavy on the 
-              requirements end of things (you need to define a 
-              reasonable amount even to get started), while the later 
-              iterations have more of their effort in the design and 
-              build areas.</para>
+              <para lang="en">
+	              This process recognizes that our pyramid view of 
+	              even slices of the waterfall is not realistic. In 
+	              practice the early iterations tend to be heavy on the 
+	              requirements end of things (you need to define a 
+	              reasonable amount even to get started), while the later 
+	              iterations have more of their effort in the design and 
+	              build areas.
+              </para>
+              <para lang="de">
+	              Dieser Prozess berücksichtigt, dass unsere Pyramidensicht der 
+	              Wasserfallebenen nicht realistisch ist. In der Praxis neigen 
+	              frühe Iterationen dazu, zu gross zu werden (sie müssen zu 
+	              Beginn eine beträchtliche Menge definieren), während spätere 
+	              Iterationen sehr viel Aufwand in der Design- und Buildphase 
+	              benötigen.
+              </para>
 
-              <para lang="en">RUP recognizes that iterations can be grouped into 
-              a number of <emphasis>phases</emphasis> according to 
-              their stage in the overall project. Each phase may have 
-              one or more iterations.</para>
+              <para lang="en">
+	              RUP recognizes that iterations can be grouped into 
+	              a number of <emphasis>phases</emphasis> according to 
+	              their stage in the overall project. Each phase may have 
+	              one or more iterations.
+              </para>
+              <para lang="de">
+	              RUP erkannte, dass Iterationen entsprechend Ihrer Lage im 
+	              Gesamtprojekt in <emphasis>Phasen</emphasis> aufgeteilt werden  
+	              können. Jede Phase kann eine oder mehrere Iterationen umfassen.
+              </para>
 
               <itemizedlist>
 
                 <listitem>
 
-                  <para lang="en">In the <emphasis>inception phase</emphasis> 
-                  iterations tend to be heavy on the 
-                  requirements/analysis end, while any build activity 
-                  may be limited to emulation of the design within a 
-                  CASE tool.</para>
+                  <para lang="en">
+	                  In the <emphasis>inception phase</emphasis> 
+	                  iterations tend to be heavy on the 
+	                  requirements/analysis end, while any build activity 
+	                  may be limited to emulation of the design within a 
+	                  CASE tool.
+                  </para>
+                  <para lang="de">
+	                  In der <emphasis>Anfangsphase</emphasis> neigen 
+	                  Iterationen dazu, mit Blick auf die Gesamtanforderung/
+	                  Analyse zu gross zu werden, während jede Build-Aktivität 
+	                  bezüglich der Emulation des Desgins durch das CASE-Tool 
+	                  eingeschränkt sein kann.
+                  </para>
 
                 </listitem>
 
                 <listitem>
 
-                  <para lang="en">In the <emphasis>elaboration phase</emphasis> 
-                  iterations tend to be completing the specification of 
-                  the requirements, and starting to focus on the 
-                  analysis and design, and possibly the first real 
-                  built code.</para>
+                  <para lang="en">
+	                  In the <emphasis>elaboration phase</emphasis> 
+	                  iterations tend to be completing the specification of 
+	                  the requirements, and starting to focus on the 
+	                  analysis and design, and possibly the first real 
+	                  built code.
+                  </para>
+                  <para lang="de">
+	                  In der <emphasis>Ausarbeitungsphase</emphasis> werden die 
+	                  Iterationen dazu benutzt, die Spezifikation der  
+	                  Anforderungen zu vervollständigen. Ihr Schwerpunkt liegt 
+	                  auf Analyse und Design und dem wahrscheinlich ersten real 
+	                  erzeugten Code.
+				  </para>
 
                 </listitem>
 
                 <listitem>
 
-                  <para lang="en">In the <emphasis>construction phase</emphasis> 
-                  iterations the requirements and analysis are more or
-                  less completed, and the effort is mostly in design
-                  and build.</para>
+                  <para lang="en">
+	                  In the <emphasis>construction phase</emphasis> 
+	                  iterations the requirements and analysis are more or
+	                  less completed, and the effort is mostly in design
+	                  and build.
+                  </para>
+                  <para lang="de">
+	                  In der <emphasis>Konstruktionsphase</emphasis> sind 
+	                  die Anforderungen und Analyse mehr oder weniger vollständig, 
+	                  der Aufwand liegt häufig im Design und in der Buildphase. 
+                  </para>
 
                 </listitem>
 
                 <listitem>
 
-                  <para lang="en">Finally, in the <emphasis>deployment 
-                  phase</emphasis> iterations are largely about build 
-                  activity, and in particular the testing of the 
-                  software.</para>
+                  <para lang="en">
+	                  Finally, in the <emphasis>deployment 
+	                  phase</emphasis> iterations are largely about build 
+	                  activity, and in particular the testing of the 
+	                  software.
+                  </para>
+                  <para lang="de">
+	                  In der abschliessenden <emphasis>Deploymentphase</emphasis>
+	                  finden Iterationen weitestgehend in den Buildaktivitäten 
+	                  und teilweise beim Test der Software statt.
+				  </para>
 
                 </listitem>
 
@@ -1587,21 +2024,36 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <note>
 
-                <para lang="en">It should be clear that testing is an integral 
+                <para lang="en">
+                It should be clear that testing is an integral 
                 part of all phases. Even in the early phases the 
                 requirements and design should be tested, and this is 
-                facilitated by a good CASE tool.</para>
+                facilitated by a good CASE tool.
+                </para>
+                <para lang="de">
+                Es sollte klar sein, dass Testen ein integraler Bestandteil 
+                aller Phasen ist. Gerade in den frühen Phasen sollten die 
+                Anforderungen und das Design getestet werden. Und dies wird 
+                durch ein gutes CASE-Tool unterstützt.
+                </para>
 
               </note>
 
-              <para lang="en">We shall use an iterative process in this manual, 
-              that is loosely based on the RUP.</para>
+              <para lang="en">
+	              We shall use an iterative process in this manual, 
+	              that is loosely based on the RUP.
+              </para>
+              <para lang="de">
+	              Wir wollen in diesem Handbuch einen iterativen Prozess 
+	              verwenden, der lose auf dem RUP basiert.
+              </para>
 
             </sect4>
 
             <sect4>
 
               <title lang="en">Iteration Size</title>
+              <title lang="de">Iterationsgröße</title>
 
               <para lang="en">
                 A good rule of thumb is that an iteration should take
@@ -1613,6 +2065,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 requirements to make a significant advance.
                 In this case the additional overhead associated with an
                 interation will become a problem.
+              </para>
+              <para lang="de">
+                Eine gute Regel ist es, dass eine Iteration in typischen 
+                kommerziellen Projekten zwischen sechs und zehn Wochen umfassen 
+                sollte. Bei längeren Zeiträumen haben Sie sich wahrscheinlich 
+                mehr Anforderungen vorgenommen, als Sie in einem Schritt 
+                verarbeiten können. Sie verlieren auch den Fokus auf den 
+                nächsten vollständigen Iterationsschritt. Bei kürzeren Zeiten 
+                haben Sie wahrscheinlich nicht genügend Anforderungen um einen 
+                spürbaren Fortschritt zu erzielen. In diesem Fall wird der mit 
+                einer Iteration verbundene zusätzliche Overhead zum Problem.
               </para>
 
               <para lang="en">
@@ -1627,17 +2090,44 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 example) will tend to be heavier on the early 
                 phases.
               </para>
+              <para lang="de">
+                Die Gesamtanzahl von Iterationen hängt von der Grösse des 
+                Projektes ab. Nehmen Sie die voraussichtliche Gesamtdauer  
+                (geschätzte Ausarbeitungzeit für das gesamte Subjekt) und 
+                unterteilen diese in 8 Wochen grosse Abschnitte. Die Erfahrung 
+                sagt, dass Iterationen im Verhältnis 1:2:3:3 bezüglich der 
+                RUP-Phasen <quote>Anfangsphase</quote>, <quote>
+                Ausarbeitungsphase</quote>, <quote>Konstruktionsphase</quote> 
+                und <quote>Deploymentphase</quote> aufgeteilt werden sollten. Ein 
+                Projekt, dass grosse Unsicherheiten in seiner Spezifikation 
+                aufweist (einige Forschungsprojekte zum Beispiel) wird viel 
+                grössere frühe Phasen aufweisen. 
+              </para>
 
-              <para lang="en">When building a product to contract for a customer 
-              the end point is well defined. However when developing a 
-              new product for the market place, a strategy that can be 
-              used is to decide the product launch date, and hence the 
-              end date for completion of engineering (some time 
-              before). The time is then divided into iterations, and as 
-              much of the product as can be built in that time 
-              developed. The iterative process is very effective where 
-              time to market is more important than the exact 
-              functionality.</para>
+              <para lang="en">
+	              When building a product to contract for a customer 
+	              the end point is well defined. However when developing a 
+	              new product for the market place, a strategy that can be 
+	              used is to decide the product launch date, and hence the 
+	              end date for completion of engineering (some time 
+	              before). The time is then divided into iterations, and as 
+	              much of the product as can be built in that time 
+	              developed. The iterative process is very effective where 
+	              time to market is more important than the exact 
+	              functionality.
+              </para>
+              <para lang="de">
+	              Wenn Sie ein Produkt per Vertrag für einen Kunden erstellen, 
+	              ist der Endpunkt wohl definiert. Jedoch, wenn Sie ein neues 
+	              Produkt für den Markt entwickeln, kann es eine Strategie sein, 
+	              die Produktveröffentlichung zu nehmen und den Zeitpunkt für 
+	              das Ende des Engieering zu bestimmen (einige Zeit vorher). 
+	              Dieser Zeitraum wird dann in Iterationen unterteilt. In 
+	              dieser Zeit wird so viel von dem Produkt entwickelt wie 
+	              möglich. Der iterative Prozess ist sehr effektiv, wenn der 
+	              Zeitpunkt der Markteinführung wichtiger ist als die exakte 
+	              Funktionalität.
+              </para>
 
             </sect4>
 
@@ -1646,6 +2136,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <sect3>
 
             <title lang="en">Recursive Development Processes</title>
+            <title lang="de">Rekursive Entwicklungsprozesse</title>
 
             <para lang="en">Very few software systems are conceived as monolithic 
             artifacts. They are broken down into subsystems, modules 
