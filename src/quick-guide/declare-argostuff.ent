@@ -31,3 +31,18 @@
 													later (the latest version is presently available at 
 													http://www.opencontent.org/openpub/).
 												</para>'>
+<!-- German Entities -->
+
+	<!ENTITY argo-homepage-de  '<ulink url="http://www.argouml.org/">&argo; Webseite</ulink>'>
+	<!ENTITY argo-project-link-de '<ulink url="http://www.argouml.org/">&argo; Projekt</ulink>'>
+	<!ENTITY argo-website-de		 '<ulink url="http://www.argouml.org/">&argo; Projekt-Webseite</ulink>'>
+	
+	<!ENTITY argo-source-de		 '<ulink url="http://argouml.tigris.org/servlets/ProjectSource">&argo; Quellcode</ulink>'>
+
+	<!ENTITY open-content-license-de	'<para>
+													Dieses Material darf nur nach den in der Open Publication Lizenz, 
+													Version 1.0 oder höher beschriebenen Regeln und Bedingungen weitergegeben 
+													werden (die letzte Version ist unter http://www.opencontent.org/openpub/ 
+													verfügbar).
+												</para>'>
+												

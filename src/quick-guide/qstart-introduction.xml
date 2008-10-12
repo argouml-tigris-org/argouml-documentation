@@ -46,30 +46,37 @@
 		&author-kunle.odu;
 		&address-kunle.odu;
 	</chapterinfo>	
-	<title>Introduction</title>
+	<title lang="en">Introduction</title>
+	<title lang="de">Einleitung</title>
 	<!--
 		===========================================================
 			 Chapter "INTRODUCTION" section 
 		===========================================================
 	-->
 	<sect1>
-		<title>Welcome to &argo;</title>
+		<title lang="en">Welcome to &argo;</title>
+		<title lang="de">Willkommen bei &argo;</title>
         <para lang="en">
             &argo; is a powerful yet 
             easy-to-use interactive, graphical software design environment that supports the design, 
             development and documentation of object-oriented software applications.
         </para>
         <para lang="de">
-            &argo; ist ein leistungsfähiges schon bedienungsfreundliche wechselwirkende, grafische 
-            Software-Entwurfsumwelt, die den Entwurf stützt, Entwicklung und Unterlagen der 
-            objektorientierten Software-Anwendungen.
+            &argo; ist eine leicht anzuwendende, interaktive grafische Software-
+            Design-Umgebung, die das Design, die Entwicklung und die 
+            Dokumentation von objektorientieren Softwareanwendungen unterstützt.
         </para>
 
-		<para>
+		<para lang="en">
 			If you are familiar with a family of software applications called Computer Aided Software 
 			Engineering (CASE) tools then you should find &argo; instantly familiar. 
 		</para>
-		<para>
+		<para lang="de">
+			Wenn Sie mit der Familie von Softwareanwendungen vertraut sind, die 
+			Computer Aided Software Engineering (CASE) Tools genannt werden, 
+			sollten Sie mit &argo; sofort zurecht kommen.
+		</para>
+		<para lang="en">
 			The users of &argo; are software designers
 			&amp; architects, software developers, 
 			business analysts, systems analysts and other professionals involved in the analysis, design and 
@@ -77,25 +84,57 @@
 			Main features:
 			<itemizedlist>
 				<listitem>
-					<para>
+					<para lang="en">
 Open standards: XMI, SVG and PGML
 					</para>
 				</listitem>
 				<listitem>
-					<para>
+					<para lang="en">
             100% Platform independent thanks to the exclusive use of Java
 					</para>
 				</listitem>
 				<listitem>
-					<para>
+					<para lang="en">
             Open Source, which allows extending or customizeing.
 					</para>
 				</listitem>
 				<listitem>
-					<para>
+					<para lang="en">
             Cognitive features like:
             reflection-in-action, opportunistic design, 
             comprehension and problem solving
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+		<para lang="de">
+			Die Anwender von &argo; sind Software-Designer &amp; -Architekten, 
+			Software-Entwickler, Geschäftsprozess-Analytiker, System-Analytiker 
+			und andere in Analyse, Design und Entwicklung
+			von Softwareanwendungen involvierte Experten.
+			Haupteigenschaften:
+			<itemizedlist>
+				<listitem>
+					<para lang="de">
+						Offene Standards: XMI, SVG und PGML
+					</para>
+				</listitem>
+				<listitem>
+					<para lang="de">
+            			durch die ausschliessliche Nutzung von Java 100% 
+            			plattformunabhängig 
+					</para>
+				</listitem>
+				<listitem>
+					<para lang="de">
+            			Open Source, was Erweiterungen oder Anpassungen erlaubt.
+					</para>
+				</listitem>
+				<listitem>
+					<para lang="de">
+            			Kognitive Eigenschaften wie:
+            			Reflektion während der Aktionen, passendes Design, 
+            			Verständlichkeit und Problemlösung
 					</para>
 				</listitem>
 			</itemizedlist>
@@ -108,8 +147,9 @@ Open standards: XMI, SVG and PGML
 		===========================================================
 	-->
 	<sect1>
-		<title>About this guide...</title>
-		<para>
+		<title lang="en">About this guide...</title>
+		<title lang="de">Über diese Kurzanleitung...</title>
+		<para lang="en">
 			This guide - the &document-title;	- is provided to help you get up and running as quickly as 
 			possible with &argo;.
 			It provides step-by-step instructions 
@@ -120,6 +160,16 @@ If you need further details please look in the
 <ulink url="http://argouml-stats.tigris.org/documentation/defaulthtml/manual/">
 User Manual
 </ulink>.
+		</para>
+		<para lang="de">
+			Diese Kurzanleitung - &document-title-de;  - soll es Ihnen 
+			ermöglichen, schnellstmöglichst mit &argo; arbeiten zu können.
+			Sie enthält Schritt-für-Schritt-Anweisungen zum Installieren und 
+			Starten von &argo;, die Ausführung gemeinsamer Schritte und wie 
+			man mehr über &argo; lernt.	Wenn Sie weitergehende Details 
+			benötigen, sehen Sie bitte unter 
+<ulink url="http://argouml-stats.tigris.org/documentation/defaulthtml/manual/">Anwenderhandbuch
+</ulink> nach.
 		</para>
 	</sect1>
 </chapter>

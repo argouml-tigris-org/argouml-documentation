@@ -57,11 +57,14 @@
   -->
   <!ENTITY document-title   'ArgoUML Quick Guide'>
   <!ENTITY document-subtitle  'Get started with ArgoUML @VERSION@'>
+  <!ENTITY document-title-de   'ArgoUML Kurzanleitung'>
+  <!ENTITY document-subtitle-de  'Beginnen Sie mit ArgoUML @VERSION@'>
 ]>
 
 
 <book>
-  <title>&document-title;</title>
+  <title lang="en">&document-title;</title>
+  <title lang="de">&document-title-de;</title>
   <bookinfo>
 
     <mediaobject>
@@ -71,7 +74,8 @@
       </imageobject>
     </mediaobject>
     
-    <subtitle>&document-subtitle;</subtitle>
+    <subtitle lang="en">&document-subtitle;</subtitle>
+    <subtitle lang="de">&document-subtitle-de;</subtitle>
     <authorgroup>
       &author-kunle.odu;
       &author-anthony.ogu;
@@ -92,11 +96,18 @@
       <year>2004-2008</year>
       <holder>Michiel van der Wulp</holder>
     </copyright>
-    <legalnotice>
+    <copyright lang="de">
+      <year lang="de">2008</year>
+      <holder lang="de">Übersetzung: Harald Braun</holder>
+    </copyright>
+    <legalnotice lang="en">
       &open-content-license;
     </legalnotice>
+    <legalnotice lang="de">
+      &open-content-license-de;
+    </legalnotice>
   </bookinfo>
-
+&preface.xml;
 &chapter-introduction.xml;
 &chapter-installation.xml;
 &chapter-running.xml;

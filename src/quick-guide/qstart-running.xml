@@ -27,23 +27,38 @@
 
 
 <chapter id="running">
-	<title>ArgoUML Principles</title>
-	<para>
+	<title lang="en">ArgoUML Principles</title>
+	<title lang="de">ArgoUML Prinzipien</title>
+	<para lang="en">
     When ArgoUML starts, it shows an empty class diagram
     on which you can add various objects. ArgoUML works according the following
     principles:
   </para>
+	<para lang="de">
+	Nach dem Start von ArgoUML wird ein leeres Klassendiagramm angezeigt, in 
+	das Sie die unterschiedlichsten Objekte hinzufügen können. ArgoUML 
+	arbeitet nach folgenden Prinzipien:
+  </para>
 
   <section>
-    <title>Project, Model and Diagram</title>
-    <para>
+    <title lang="en">Project, Model and Diagram</title>
+    <title lang="de">Projekt, Modell und Diagramm</title>
+    <para lang="en">
       The file operations save and open handle one 
       <literal>project</literal> at a
       time. One <literal>project</literal> corresponds to a
       <literal>model</literal> plus diagram information, 
       i.e. everything you can edit within the ArgoUML window. 
     </para>
-    <para>
+    <para lang="de">
+       Die Dateioperationen Speichern und Öffnen bearbeiten ein 	
+       <literal>Projekt</literal>. 
+       Ein <literal>Projekt</literal> enthält ein  
+       <literal>Modell</literal> plus Diagramm-Informationen. Zum 
+       Beispiel alles, was Sie innerhalb des ArgoUML-Fensters 
+       bearbeiten können.
+    </para>
+    <para lang="en">
       The <literal>model</literal> may contain many
       objects (ModelElements) which
       form the complete UML description 
@@ -58,7 +73,19 @@
       <literal>model</literal> - you 
       do not need any diagrams for this.
     </para>
-    <para>
+    <para lang="de">
+      Das <literal>Modell</literal> kann viele Objekte 
+      (Modellelemente) enthalten, welche die vollständige 
+      UML-Beschreibung des von Ihnen zu beschreibenden 
+      Systems bilden. Alle Modellelemente können in einem Diagramm 
+      dargestellt werden, aber dies ist nicht erforderlich.
+      Folglich ist das in ArgoUML gespeicherte 
+      <literal>Modell</literal> unabhängig vom Inhalt der 
+      Diagramme. Dadurch haben Sie die Möglichkeit, 
+      Programmcode vom <literal>Modell</literal> generieren 
+      zu können - Sie benötigen hierfür kein Diagramm.
+     </para>
+    <para lang="en">
       An ArgoUML <literal>project</literal> also contains 
       all diagram information, i.e.
       the shapes (presentation) used 
@@ -67,7 +94,14 @@
       Some ModelElements appear on multiple diagrams, 
       some on one or none.
     </para>
-    <para>
+    <para lang="de">
+      Ein ArgoUML-<literal>Projekt</literal> enthält auch 
+      alle Diagramminformationen, z.B. die zur Darstellung der 
+      verschiedenen UML-Modellelemente benötigten Symbole 
+      (Präsentation), deren Positionen, Farben, etc.
+      Einige Modellelemente erscheinen in mehreren Diagrammen.
+    </para>
+    <para lang="en">
       Hence, saving and opening projects 
       retains all this information. 
       There is a way to only save the 
@@ -79,22 +113,46 @@
       with an external tool 
       that understands XMI.
     </para>
+    <para lang="de">
+      Daraus folgt, dass das Speichern und Öffnen von 
+      Projekten all diese Informationen beinhaltet.
+      Es gibt einen Weg, nur die Informationen eines 
+      <literal>Modells</literal> zu speichern. Dies geschieht 
+      über das Menü "Datei" -> "Exportiere als XMI...".
+      Dies ist nützlich, wenn Sie den Programmcode 
+      mit einem externen Tool generieren, das XMI 
+      versteht.
+    </para>
   </section>
 
   <section>
-    <title>Objects</title>
-    <para>
+    <title lang="en">Objects</title>
+    <title lang="de">Objekte</title>
+    <para lang="en">
       Select objects by left-clicking on them.
       The functionality of ArgoUML can be activated in the menu, 
       in toolbars,
       or in pop-up menus when right-clicking above an object.
       Many of these functions work on the selected objects.
     </para>
-    <para>
+    <para lang="de">
+      Sie wählen ein Objekt aus, indem Sie es mit der linken 
+      Maustaste anklicken.
+      Die Funktionlität von ArgoUML kann über das Menü der 
+      Symbolleisten oder über Popup-Menüs aktiviert werden, die 
+      durch Anklicken des Objektes mit Hilfe der rechten Maustaste 
+      erscheinen.
+      Viele dieser Funktionen bearbeiten die ausgewählten Objekte.
+    </para>
+    <para lang="en">
       All diagrams have toolbars at the top which are used 
       to create objects on the diagram.
     </para>
-    <para>
+    <para lang="de">
+      Alle Diagramme haben oben Symbolleisten mit deren Hilfe 
+      Objekte im Diagramm erzeugt werden können.
+    </para>
+    <para lang="en">
       Most objects can be added to a diagram and removed from a diagram without
       deleting it from the <literal>model</literal>! 
       Select an object on a diagram, and then the menu item 
@@ -110,23 +168,50 @@
       Alternatively, you can drag objects 
       from the explorer and drop them onto a diagram.
     </para>
+    <para lang="de">
+      Die meisten Objekte können zu einem Diagramm hinzugefügt oder entfernt 
+      werden ohne diese aus dem <literal>Modell</literal> zu löschen!
+      Wenn Sie im Diagramm ein Objekt und dann den Menüeintrag 
+      "Bearbeiten" -> "Aus Diagramm entfernen" auswählen, wird das Objekt 
+      aus dem Diagramm entfernt, aber das Objekt verbleibt vollständig im 
+      Modell, was Sie auch im Explorer sehen können, z.B. in der Baumstruktur 
+      auf der linken Seite.
+      Nach dem Entfernen kann das Element erneut in das Diagramm ( oder in 
+      ein anderes Diagramm) eingefügt werden. Sie markieren es hierfür im 
+      Explorer und wählen über das Popup-Menü den Eintrag 
+      "Zum Diagramm hinzufügen" aus. Alternativ dazu können Sie Objekte vom 
+      Explorer in das Diagramm ziehen und dort loslassen.
+    </para>
   </section>
 
 	<section>
-		<title>Overview of the window</title>
-		<para>
+		<title lang="en">Overview of the window</title>
+		<title lang="de">Überblick über das Fenster</title>
+		<para lang="en">
       The top of the window contains a menu bar with commands available.
       In the <literal>File</literal> menu you can store the project or 
       open another project instead.
     </para>
-		<para>
+		<para lang="de">
+	  		Im oberen Bereich enthält das Fenster eine Menüzeile mit den 
+	  		verfügbaren Kommandos. Im Menü <literal>Datei</literal> 
+	  		können Sie das Projekt speichern oder ein anderes Projekt 
+	  		öffnen.
+    	</para>
+		<para lang="en">
       The upper left part of the ArgoUML window shows a tree model 
       of diagrams and objects. 
       This view can be adapted to your needs 
       by filtering the objects that are shown, 
       and the structure in which they are shown.
     </para>
-		<para>
+		<para lang="de">
+		Der obere linke Teil des ArgoUML-Fensters zeigt ein Baummodell 
+		der Diagramme und Objekte an.
+		Diese Sicht kann an Ihre Bedürfnisse durch Filtern der dargestellten 
+		Objekte und deren angezeigter Struktur angepasst werden.
+	    </para>
+		<para lang="en">
       The upper right part of ArgoUML shows the current diagram (one at a time).
       You can drag and drop the objects in the diagrams,
       and you can use the quick-links 
@@ -134,15 +219,32 @@
       to create new objects connected to the
       already present objects.
     </para>
-		<para>
+		<para lang="de">
+		Der obere rechte Teil von ArgoUML zeigt das aktuelle Diagramm.
+		Sie können die Objekte in den Diagrammen hin- und herziehen und Sie 
+		können Quick-Links verwenden, die erscheinen, wenn Sie die Maus über 
+		das markierte Objekt bewegen, um neue Objekte zu erzeugen, welche die 
+		bereits vorhandenen Objekte verbinden.
+	    </para>
+		<para lang="en">
       The lower right part contains various details of the currently selected 
       object: You select the object in one of the upper
       levels and choose what details you want to examine using the
       tabs.
     </para>
-		<para>
+		<para lang="de">
+		Der untere rechte Teil enthält verschiedene Details des aktuell 
+		markierten Objektes: Sie markieren das Objekt in einem der darüber 
+		befindlichen Ebenen und wählen über die Register aus, welche Details 
+		Sie überprüfen wollen.
+    </para>
+		<para lang="en">
       The lower left part contains a list of all ToDo items for this
       model.
+    </para>
+		<para lang="de">
+		Der untere linke Teil enthält eine Liste aller "Noch zu bearbeiten"-
+		Elemente dieses Modelles.
     </para>
 	</section>
 
