@@ -65,6 +65,7 @@
 <book>
   <title lang="en">&document-title;</title>
   <title lang="de">&document-title-de;</title>
+  <title lang="sv">ArgoUML Snabbguide</title>
   <bookinfo>
 
     <mediaobject>
@@ -76,6 +77,7 @@
     
     <subtitle lang="en">&document-subtitle;</subtitle>
     <subtitle lang="de">&document-subtitle-de;</subtitle>
+    <subtitle lang="sv">Komma ig&aring;ng med ArgoUML @VERSION@</subtitle>
     <authorgroup>
       &author-kunle.odu;
       &author-anthony.ogu;
@@ -100,11 +102,18 @@
       <year lang="de">2008</year>
       <holder lang="de">Übersetzung: Harald Braun</holder>
     </copyright>
+    <copyright lang="sv">
+      <year>2008</year>
+      <holder>&Ouml;vers&auml;ttare: Linus Tolke</holder>
+    </copyright>
     <legalnotice lang="en">
       &open-content-license;
     </legalnotice>
     <legalnotice lang="de">
       &open-content-license-de;
+    </legalnotice>
+    <legalnotice lang="sv">
+      &open-content-license;
     </legalnotice>
   </bookinfo>
 &preface.xml;

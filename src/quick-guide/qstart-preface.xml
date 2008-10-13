@@ -27,12 +27,17 @@
 <preface>
 	<title lang="en">Preface</title>
 	<title lang="de">Vorwort</title>
+
 	<para lang="en">
 		1 April 2001
 	</para>
 	<para lang="de">
 		1. April 2001
 	</para>
+        <para lang="sv">
+                1:e april 2001
+        </para>
+
 	<para lang="en">
 		In the last decade of the last millenium, object-oriented (OO) technology finally completed it's 
 		transformation from a laboratory curiousity in the 1960s to become <emphasis>the</emphasis> mainstream 
@@ -50,6 +55,20 @@
 		-entwicklern und anderen, in den Softwareentwicklungsprozess 
 		involvierten Personen erforderte.
 	</para>
+	<para lang="sv">
+		I f&ouml;rra &aring;rtusendets sista decennium,
+		gick objektorienterad teknologi (OO) fr&aring;n att vara
+		ett lustigt fenomen i 1960-talets laboratoriemilj&ouml;
+                till att bli den huvudsakliga mjukvaruutvecklingsparadigmen.
+                Det har varit en l&aring;ng och sv&aring;r resa -
+                och det var n&auml;ra att det slutade i dunkel -
+                framf&ouml;rallt f&ouml;r att OO-teknologi kr&auml;ver
+                en stor f&ouml;r&auml;ndring
+                i tankeprocessen hos de som designar systemet,
+                utvecklarna, och 
+                andra inblandade i mjukvaruutvecklingens livscykel.
+	</para>
+
 	<para lang="en">
 		It wasn't until the introduction of OO-hybrid languages such as C++, Classic Ada and Object Pascal in  
 		the eighties that the mainstream was introduced to and, given the opportunity to experiment with OO technology. 
@@ -71,6 +90,7 @@
 		war nun für die Entwicklung verfügbar...
 		gut, die OO-Programmierung war das Mindeste.
 	</para>
+
 	<para lang="en">
 		Simulation is the basic premise that underpins OO technology. An OO system is designed and implemented 
 		essentially as a simulation of the real world using software artifacts. This premise is as powerful 
@@ -95,6 +115,7 @@
 		in die Lage, sehr viel komplexere Systeme als vorher zu designen und 
 		erfolgreich zu implementieren.
 	</para>
+
 	<para lang="en">
 		The availabilty of various OO methodologies and the eventual adoption of the Unified Modelling Language 
 		(UML) as the standard language for communicating OO concepts continued the advance of OO technology into 
@@ -113,6 +134,7 @@
 		für die rasante Übernahme der OO-Technologie in die 
 		Hauptentwicklungsrichtung vorantrieb.
 	</para>
+
 	<para lang="en">
 		ArgoUML was conceived as a tool and environment for use in the analysis and design of object-oriented software 
 		systems. In this sense it is similar to many of the commercial CASE tools that are sold as tools for modelling 
@@ -186,6 +208,7 @@
 			</listitem>
 		</itemizedlist>
 	</para>
+
 	<para lang="en">
 		In creating the ArgoUML development tool and environment, Jason Robbins and the rest of his research team at 
 		UCL leveraged the benefits of UML as the most prevalent OO modelling language and Java as one of the most 
@@ -201,6 +224,7 @@
 		Testumgebung für die Evolution der Entwicklung und Forschung von 
 		OO-CASE-Tools.
 	</para>
+
 	<para>
 		Kunle Odutola
 	</para>
