@@ -65,6 +65,7 @@
 <book>
   <title lang="en">&document-title;</title>
   <title lang="de">&document-title-de;</title>
+  <title lang="es">ArgoUML Quick Guide</title>
   <title lang="sv">ArgoUML Snabbguide</title>
   <bookinfo>
 
@@ -77,6 +78,7 @@
     
     <subtitle lang="en">&document-subtitle;</subtitle>
     <subtitle lang="de">&document-subtitle-de;</subtitle>
+    <subtitle lang="es">Get started with ArgoUML @VERSION@</subtitle>
     <subtitle lang="sv">Komma ig&aring;ng med ArgoUML @VERSION@</subtitle>
     <authorgroup>
       &author-kunle.odu;
@@ -106,15 +108,25 @@
       <year>2008</year>
       <holder>&Ouml;vers&auml;ttare: Linus Tolke</holder>
     </copyright>
+
     <legalnotice lang="en">
       &open-content-license;
     </legalnotice>
     <legalnotice lang="de">
       &open-content-license-de;
     </legalnotice>
+    <legalnotice lang="es">
+      <para>
+Este material se puede distribuir solamente conforme a los terminos y
+a las condiciones dispuestos en la licencia abierta de
+publicacion(Open Publication License), v1.0 o superior (la version mas
+actual estÅ√Å° disponible en http://www.opencontent.org/openpub/)
+</para>
+    </legalnotice>
     <legalnotice lang="sv">
       &open-content-license;
     </legalnotice>
+
   </bookinfo>
 &preface.xml;
 &chapter-introduction.xml;
