@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id$ -->
 <!--
-// Copyright (c) 1996-2005 The Regents of the University of California. All
+// Copyright (c) 1996-2008 The Regents of the University of California. All
 // Rights Reserved. Permission to use, copy, modify, and distribute this
 // software and its documentation without fee, and without a written
 // agreement is hereby granted, provided that the above copyright notice
@@ -27,6 +27,7 @@
 <preface>
 	<title lang="en">Preface</title>
 	<title lang="de">Vorwort</title>
+        <title lang="sv">F&ouml;rord</title>
 
 	<para lang="en">
 		1 April 2001
@@ -89,6 +90,9 @@
 		in Simula in den 1960ern und ist nun abgeschlossen. Die OO-Technologie 
 		war nun für die Entwicklung verfügbar...
 		gut, die OO-Programmierung war das Mindeste.
+	</para>
+	<para lang="sv">
+                Det var inte f&ouml;rr&auml; ...XXX...
 	</para>
 
 	<para lang="en">
