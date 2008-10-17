@@ -2138,30 +2138,90 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title lang="en">Recursive Development Processes</title>
             <title lang="de">Rekursive Entwicklungsprozesse</title>
 
-            <para lang="en">Very few software systems are conceived as monolithic 
-            artifacts. They are broken down into subsystems, modules 
-            etc.</para>
+            <para lang="en">
+	            Very few software systems are conceived as monolithic 
+	            artifacts. They are broken down into subsystems, modules 
+	            etc.
+            </para>
+            <para lang="de">
+	            Sehr wenige Softwaresysteme sind als monolitische Werkzeuge 
+	            geplant. Sie werden in Subsysteme, Module usw. unterteilt.
+            </para>
 
-            <para lang="en">Software processes are the same, with early parts of 
-            the process defining a top level structure, and the process 
-            reapplying to parts of the structure in turn to define ever 
-            greater details.</para>
+            <para lang="en">
+	            Software processes are the same, with early parts of 
+	            the process defining a top level structure, and the process 
+	            reapplying to parts of the structure in turn to define ever 
+	            greater details.
+            </para>
+            <para lang="de">
+	            Die Softwareprozesse sind die gleichen. Mit frühen Abschnitten  
+	            in denen der Prozess eine Top-Level-Struktur definiert und die 
+	            wiederholte Anwendung des Prozesses auf Teile der Struktur, um 
+	            jedes grössere Detail zu definieren.
+            </para>
 
-            <para lang="en">For example the initial design of a telephone system 
-            might identify objects to i) handle the phone lines, ii) 
-            process the calls, iii) manage the system and iv) bill the 
-            customer. The software process can then be reapplied to 
-            each of these four components to identify their 
-            design.</para>
+            <para lang="en">
+	            For example the initial design of a telephone system 
+	            might identify objects to i) handle the phone lines, ii) 
+	            process the calls, iii) manage the system and iv) bill the 
+	            customer. The software process can then be reapplied to 
+	            each of these four components to identify their 
+	            design.
+            </para>
+            <para lang="de">
+	            Zum Beispiel könnte das grundlegende Design eines 
+	            Telefonsystemes Objekte identifizieren um 
+            </para>
+            <orderedlist numeration="lowerroman">
+            	<listitem>
+            		<para lang="de">
+            			Telefonleitungen zu belegen, 
+            		</para>
+            	</listitem>
+            	<listitem>
+            		<para lang="de">
+            			Anrufe zu verarbeiten, 
+            		</para>
+            	</listitem>
+            	<listitem>
+            		<para lang="de">
+            			das System zu verwalten und, 
+            		</para>
+            	</listitem>
+            	<listitem>
+            		<para lang="de">
+            			den Kunden abzurechnen. 
+            		</para>
+            	</listitem>
+            </orderedlist>
+            <para lang="de">
+	           	Der Softwareprozess kann dann auf jedes dieser vier Komponenten 
+	           	erneut angewendet werden, um deren Design zu identifizieren.
+            </para>
 
-            <para lang="en">OOA&amp;D with its clean boundaries to objects, 
-            naturally supports this approach. Such OOA&amp;D with 
-            recursive development is sometimes abbreviated as 
-            OOA&amp;D/RD.</para>
+            <para lang="en">
+	            OOA&amp;D with its clean boundaries to objects, 
+	            naturally supports this approach. Such OOA&amp;D with 
+	            recursive development is sometimes abbreviated as 
+	            OOA&amp;D/RD.
+            </para>
+            <para lang="de">
+	            OOA&amp;D mit seinen klaren Objektgrenzen unterstützt diesen  
+	            Ansatz natürlich. Eine OOA&amp;D mit rekursiver Entwicklung wird 
+	            manchmal als OOA&amp;D/RD abgekürzt.
+            </para>
 
-            <para lang="en">Recursive development can be applied equally well to 
-            waterfall or iterative processes. It is not an alternative 
-            to them.</para>
+            <para lang="en">
+	            Recursive development can be applied equally well to 
+	            waterfall or iterative processes. It is not an alternative 
+	            to them.
+            </para>
+            <para lang="de">
+	            Die rekursive Entwicklung kann parallel zu Wasserfall- oder 
+	            iterativen Prozessen angewendet werden. Sie ist keine 
+	            Alternative zu diesen Prozessen.
+            </para>
 
           </sect3>
 
@@ -2169,104 +2229,226 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title lang="en">A Development Process for This Tutorial</title>
+          <title lang="en">
+          	A Development Process for This Tutorial
+          </title>
+          <title lang="de">
+          	Ein Entwicklungsprozess für dieses Übungshandbuch
+          </title>
 
-          <para lang="en">For the purpose of this tutorial we will use a stripped 
-          down iterative process with recursive development, loosely 
-          akin to RUP. The case study will take us through the first 
-          iteration, although at the end of the tutorial section of the 
-          manual we will look at how the project will develop to 
-          completion.</para>
+          <para lang="en">
+	          For the purpose of this tutorial we will use a stripped 
+	          down iterative process with recursive development, loosely 
+	          akin to RUP. The case study will take us through the first 
+	          iteration, although at the end of the tutorial section of the 
+	          manual we will look at how the project will develop to 
+	          completion.
+          </para>
+          <para lang="de">
+	          In dieser Übungsanleitung wollen wir einen reduzierten, iterativen 
+	          Prozess mit rekursiver Entwicklung verwenden, der mit RUP lose 
+	          gekoppelt ist. 
+	          Die Fallstudie bringt uns durch die erste Iteration, am Ende des 
+	          Abschnittes der Übungsanleitung werden wir sehen, wie das Projekt 
+	          vollständig entwickelt wird.
+          </para>
 
-          <para lang="en">Within that first iteration, we will tackle each of the 
-          requirements capture, analysis, design and build activities 
-          in turn. Not all parts of the process are based on UML or 
-          ArgoUML. We will look at what other material is needed 
-          outside.</para>
+          <para lang="en">
+	          Within that first iteration, we will tackle each of the 
+	          requirements capture, analysis, design and build activities 
+	          in turn. Not all parts of the process are based on UML or 
+	          ArgoUML. We will look at what other material is needed 
+	          outside.
+          </para>
+          <para lang="de">
+	          Innerhalb der ersten Iteration werden wir jede Aktivität wie das 
+	          Erfassen der Anforderungen, die Analyse, das Design und den Build 
+	          angehen. Nicht alle Teile des Prozesses basieren auf UML oder 
+	          ArgoUML. 
+	          Wir werden sehen, welches andere Material hierfür benötigt wird.
+          </para>
 
-          <para lang="en">Within this process we will have an opportunity to see 
-          the various UML diagrams in use. The full range of UML 
-          diagrams and how they are supported is described in the 
-          reference manual (see <xref linkend="s1.ref.diagram_types"/>
-          ).</para>
+          <para lang="en">
+	          Within this process we will have an opportunity to see 
+	          the various UML diagrams in use. The full range of UML 
+	          diagrams and how they are supported is described in the 
+	          reference manual (see <xref linkend="s1.ref.diagram_types"/>
+	          ).
+          </para>
+          <para lang="de">
+	          Innerhalb dieses Prozesses werden wir die Möglichkeit haben, die 
+	          verschiedenen UML-Diagramme in ihrer Anwendung zu sehen. Der 
+	          vollständige Umfang der UML-Diagramme und wie sie angewendet  
+	          werden ist im Referenzhandbuch beschrieben
+	          (siehe <xref linkend="s1.ref.diagram_types"/>).
+          </para>
 
           <sect3>
 
             <title lang="en">Requirements Capture</title>
+            <title lang="de">Erfassen der Anforderungen</title>
 
-            <para lang="en">Our requirements capture will use the UML concept of 
-            <emphasis>Use Cases</emphasis>. Starting with a 
-            <emphasis>Vision Document</emphasis> we will see how Use 
-            Cases can be developed to describe all aspects of the 
-            system&apos;s behavior in the problem domain.</para>
+            <para lang="en">
+	            Our requirements capture will use the UML concept of 
+	            <emphasis>Use Cases</emphasis>. Starting with a 
+	            <emphasis>Vision Document</emphasis> we will see how Use 
+	            Cases can be developed to describe all aspects of the 
+	            system&apos;s behavior in the problem domain.
+            </para>
+            <para lang="de">
+	            Unsere Anforderungsaufnahme wird das UML-Konzept 
+	            der <emphasis>Anwendungsfälle</emphasis> verwenden. Beginnend 
+	            mit einem <emphasis>Visions-Dokument</emphasis> werden wir sehen, 
+	            wie Anwendungsfälle entwickelt werden können, um alle Aspekte  
+	            des Systemverhaltens im Problembereich zu beschreiben.
+            </para>
 
           </sect3>
 
           <sect3>
 
             <title lang="en">Analysis</title>
+            <title lang="de">Analyse</title>
 
-            <indexterm><primary>Analysis</primary></indexterm> 
-            <para lang="en">During the analysis stage, we will introduce the UML 
-            concept of <emphasis>classes</emphasis> to allow us to 
-            build a top level view of the objects that will make up the 
-            solution&mdash;sometimes known as a <emphasis>concept 
-            diagram</emphasis>.</para>
+            <indexterm lang="en"><primary>Analysis</primary></indexterm> 
+            <indexterm lang="de"><primary>Analyse</primary></indexterm> 
+            <para lang="en">
+	            During the analysis stage, we will introduce the UML 
+	            concept of <emphasis>classes</emphasis> to allow us to 
+	            build a top level view of the objects that will make up the 
+	            solution&mdash;sometimes known as a <emphasis>concept 
+	            diagram</emphasis>.
+            </para>
+            <para lang="de">
+	            Während der Analyse werden wir in das UML-Konzept der <emphasis>
+	            Klassen</emphasis> einführen. Dieses Konzept erlaubt es uns, 
+	            eine Top-Level-Sicht von Objekten zu erzeugen, die die Lösung 
+	            darstellen&mdash; manchmal auch als <emphasis>Konzept-Diagramm
+	            </emphasis> bekannt.
+            </para>
 
-            <para lang="en">We will introduce the UML <emphasis>sequence 
-            diagram</emphasis> and <emphasis>statechart 
-            diagram</emphasis> to capture requirements for the overall 
-            behavior of the system.</para>
+            <para lang="en">
+	            We will introduce the UML <emphasis>sequence 
+	            diagram</emphasis> and <emphasis>statechart 
+	            diagram</emphasis> to capture requirements for the overall 
+	            behavior of the system.
+            </para>
+            <para lang="de">
+	            Wir werden in das UML <emphasis>Sequenzdiagramm</emphasis> und  
+	            das <emphasis>Zustandsdiagramm</emphasis> einführen, um die 
+	            Anforderungen für das Gesamtverhalten des Systems zu erfassen.
+            </para>
 
-            <para lang="en">Finally we will take the Use Cases from the 
-            requirements capture stage, and recast them in the language 
-            of the solution domain. This will illustrate the UML ideas 
-            of <emphasis>stereotyping</emphasis> and 
-            <emphasis>realization</emphasis>.</para>
+            <para lang="en">
+	            Finally we will take the Use Cases from the 
+	            requirements capture stage, and recast them in the language 
+	            of the solution domain. This will illustrate the UML ideas 
+	            of <emphasis>stereotyping</emphasis> and 
+	            <emphasis>realization</emphasis>.
+            </para>
+            <para lang="de">
+	            Abschliessend nehmen wir die Anwendungsfälle aus dem Abschnitt 
+	            Anforderungsaufnahme und wandeln diese in die 
+	            Sprache des Lösungsbereiches um. Dies wird die UML-Ideen von 
+	            <emphasis>Stereotypen</emphasis> und <emphasis>Realisierung
+	            </emphasis> illustrieren.
+            </para>
 
           </sect3>
 
           <sect3>
 
             <title lang="en">Design</title>
+            <title lang="de">Design</title>
 
-            <indexterm><primary>Design</primary></indexterm>
-            <para lang="en">We use the UML <emphasis>package diagram</emphasis> 
-            to organize the components of the project. We then revisit 
-            the class diagram, sequence diagram and statechart diagram, 
-            to show how they can be used recursively to design the 
-            complete solution.</para>
+            <indexterm lang="en"><primary>Design</primary></indexterm>
+            <indexterm lang="de"><primary>Design</primary></indexterm>
+            <para lang="en">
+	            We use the UML <emphasis>package diagram</emphasis> 
+	            to organize the components of the project. We then revisit 
+	            the class diagram, sequence diagram and statechart diagram, 
+	            to show how they can be used recursively to design the 
+	            complete solution.
+            </para>
+            <para lang="de">
+	            Wir verwenden das UML-<emphasis>Paketdiagramm</emphasis>, um die 
+	            Komponenten des Projektes zu organisieren. Wir besuchen dann 
+	            erneut das Klassendiagramm, das Sequenzdiagramm und das 
+	            Zustandsdiagramm, um zu zeigen, wie diese rekursiv verwendet 
+	            werden können, um die vollständige Lösung zu designen.
+            </para>
 
-            <para lang="en">During this part of the process, we need to develop 
-            our system architecture, to define how all the components 
-            will fit together and operate.</para>
+            <para lang="en">
+	            During this part of the process, we need to develop 
+	            our system architecture, to define how all the components 
+	            will fit together and operate.
+            </para>
+            <para lang="de">
+	            Während dieses Teils des Prozesses müssen wir unsere 
+	            Systemarchitektur entwickeln, um zu definieren, wie alle 
+	            Komponenten zusammenpassen und miteinander zusammenarbeiten.
+            </para>
 
-            <para lang="en">Although not strictly part of our process, we&apos;ll 
-            look at how the UML <emphasis>collaboration 
-            diagram</emphasis> can be used as an alternative to, or to 
-            complement the <emphasis>sequence diagram</emphasis>. 
-            Similarly we will look at the UML <emphasis>activity 
-            diagram</emphasis> as an alternative or complement to the 
-            statechart diagram.</para>
+            <para lang="en">
+	            Although not strictly part of our process, we&apos;ll 
+	            look at how the UML <emphasis>collaboration 
+	            diagram</emphasis> can be used as an alternative to, or to 
+	            complement the <emphasis>sequence diagram</emphasis>. 
+	            Similarly we will look at the UML <emphasis>activity 
+	            diagram</emphasis> as an alternative or complement to the 
+	            statechart diagram.
+            </para>
+            <para lang="de">
+	            Obwohl es kein zwingend erforderlicher Teil unseres Prozesses 
+	            ist, werden wir uns ansehen, wie das UML-<emphasis>
+	            Kollaborationsdiagramm</emphasis> als Alternative oder Ergänzung 
+	            zum <emphasis>Sequenzdiagramm</emphasis> verwendet werden kann. 
+	            Desweiteren werden wir uns das UML-<emphasis>
+	            Aktivitätsdiagramm</emphasis> als Alternative oder Ergänzung zum 
+	            Zustandsdiagramm ansehen.
+            </para>
 
-            <para lang="en">Finally we shall use the UML <emphasis>deployment 
-            diagram</emphasis> to specify how the system will actually 
-            be realized.</para>
+            <para lang="en">
+	            Finally we shall use the UML <emphasis>deployment 
+	            diagram</emphasis> to specify how the system will actually 
+	            be realized.
+            </para>
+            <para lang="de">
+	            Zum Schluß wollen wir das UML-<emphasis>Deploymentdiagramm
+	            </emphasis> verwenden, um zu spezifizieren, wie das System 
+	            aktuell realisiert werden soll.
+            </para>
 
           </sect3>
 
           <sect3>
 
             <title lang="en">Build</title>
+            <title lang="de">Build</title>
 
-            <indexterm><primary>Build</primary></indexterm>
-            <para lang="en">UML is not really concerned with code writing. 
-            However at this stage we will show how ArgoUML can be used 
-            for code generation.</para>
+            <indexterm lang="en"><primary>Build</primary></indexterm>
+            <indexterm lang="de"><primary>Build</primary></indexterm>
+            <para lang="en">
+	            UML is not really concerned with code writing. 
+	            However at this stage we will show how ArgoUML can be used 
+	            for code generation.
+            </para>
+            <para lang="de">
+	            UML ist nicht wirklich mit dem Schreiben von Code verknüpft. 
+	            Jedoch wollen wir an dieser Stelle zeigen, wie ArgoUML für 
+	            die Codegenerierung eingesetzt werden kann.
+            </para>
 
-            <para lang="en">We will also look at how the UML Use Case Diagram and 
-            Use Case Specification are invaluable tools for a test 
-            program.</para>
+            <para lang="en">
+	            We will also look at how the UML Use Case Diagram and 
+	            Use Case Specification are invaluable tools for a test 
+	            program.
+            </para>
+            <para lang="de">
+	            Wir wollen uns auch ansehen, wie das UML-Anwendungsfalldiagramm 
+	            und die Anwendungsfall-Spezifikation unschätzbare Werkzeuge für 
+	            ein Testprogramm sind.
+            </para>
 
           </sect3>
 
@@ -2277,29 +2459,87 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <sect1>
 
         <title lang="en">Why ArgoUML is Different</title>
+        <title lang="de">Warum ist ArgoUML anders</title>
 
-        <para lang="en">In the introduction, we listed the four key things that 
-        make ArgoUML different: i) it makes use of ideas from cognitive 
-        psychology, ii) it is based on open standards; iii) it is 100% 
-        pure Java; and iv) it is an open source project.</para>
+        <para lang="en">
+	        In the introduction, we listed the four key things that 
+	        make ArgoUML different: i) it makes use of ideas from cognitive 
+	        psychology, ii) it is based on open standards; iii) it is 100% 
+	        pure Java; and iv) it is an open source project.
+        </para>
+        <para lang="de">
+        In der Einleitung listeten wir vier Dinge auf, die ArgoUML anders 
+        machen:
+        </para>
+        <orderedlist numeration="lowerroman">
+        	<listitem>
+        		<para lang="de">
+        			es macht Gebrauch von den Ideen der kognitiven Psychologie, 
+        		</para>
+        	</listitem>
+        	<listitem>
+        		<para lang="de">
+        			es basiert auf offenen Standards; 
+        		</para>
+        	</listitem>
+        	<listitem>
+        		<para lang="de">
+        			es ist 100% reines Java; und 
+        		</para>
+        	</listitem>
+        	<listitem>
+        		<para lang="de">
+        			es ist ein Open-Source-Projekt.
+        		</para>
+        	</listitem>
+        </orderedlist>
 
         <sect2 id="tut.cog.psych">
 
           <title lang="en">Cognitive Psychology</title>
+          <title lang="de">Kognitive Psychologie</title>
 
           <sect3>
 
             <title lang="en">Theory</title>
+            <title lang="de">Theorie</title>
 
-            <para lang="en">ArgoUML is particularly inspired by three theories 
-            within cognitive psychology: i) reflection-in-action, ii) 
-            opportunistic design iii) and comprehension and problem 
-            solving.</para>
+            <para lang="en">
+	            ArgoUML is particularly inspired by three theories 
+	            within cognitive psychology: i) reflection-in-action, ii) 
+	            opportunistic design iii) and comprehension and problem 
+	            solving.
+            </para>
+            <para lang="de">
+            ArgoUML ist teilweise durch die drei Theorien der kognitiven 
+            Psychologie inspiriert: 
+            </para>
+            <orderedlist>
+            	<listitem>
+            		<para lang="de">Reflektion-während-Aktion,</para>
+            	</listitem>
+            	<listitem>
+            		<para lang="de">Opportunistisches Design und</para>
+            	</listitem>
+            	<listitem>
+            		<para lang="de">Verständnis und Problemlösung.</para>
+            	</listitem>
+            </orderedlist>
 
             <itemizedlist>
 
-              <listitem><para lang="en"><emphasis>Reflection-in-Action</emphasis>
-                <indexterm><primary>Reflection-in-Action</primary></indexterm>
+              <listitem>
+              	<para lang="en">
+	              	<emphasis>Reflection-in-Action</emphasis>
+	                <indexterm>
+	                	<primary>Reflection-in-Action</primary>
+	                </indexterm>
+                </para>
+              	<para lang="de">
+	              	<emphasis>Reflektion-während-Aktion</emphasis>
+	                <indexterm>
+	                	<primary>Reflektion-während-Aktion</primary>
+	                </indexterm>
                 </para>
                 
                 <para lang="en">
@@ -2308,15 +2548,38 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   they must construct a partial design, evaluate, reflect 
                   on, and revise it, until they are ready to extend it further.
                 </para>
+                <para lang="de">
+                  Diese Theorie unterstellt, dass sich die Designer eines 
+                  komplexen Systems das vollständig ausgeformte Design nicht 
+                  vorstellen können. Stattdessen müssen Sie ein Teil-Design 
+                  entwerfen, evaluieren, es reflektieren und überarbeiten, bis 
+                  Sie soweit sind, es weiter zu erweitern. 
+                </para>
 
                 <para lang="en">
                   As developers work hands-on with the design, their mental model
                   of the problem situation improves, hence improving their design.
                 </para>
+                <para lang="de">
+                  Da sich die Entwickler sehr intensiv mit dem Design 
+                  beschäftigen, verbessert sich auch ihr mentales Modell der 
+                  Problemsituation. Und dies führt zur Verbesserung Ihres 
+                  Designs.
+                </para>
               </listitem>
 
-              <listitem><para lang="en"><emphasis>Opportunistic Design</emphasis>
-                <indexterm><primary>Opportunistic Design</primary></indexterm>
+              <listitem>
+              	<para lang="en">
+	              	<emphasis>Opportunistic Design</emphasis>
+	                <indexterm>
+	                	<primary>Opportunistic Design</primary>
+	                </indexterm>
+                </para>
+              	<para lang="de">
+	              	<emphasis>Opportunistisches Design</emphasis>
+	                <indexterm>
+	                	<primary>Opportunistisches Design</primary>
+	                </indexterm>
                 </para>
 
                 <para lang="en">
@@ -2325,18 +2588,37 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   fashion, in reality, they choose successive tasks based on the
                   criteria of cognitive cost.
                 </para>
+                <para lang="de">
+                  Eine Theorie innerhalb der kognitiven Psychologie besagt, dass 
+                  obwohl Designer ihre Arbeit in einer geordneten, 
+                  hierarchischen Art und Weise beschreiben, sie in der Realität 
+                  aufeinanderfolgende Aktivitäten auf der Basis kognitiver 
+                  Kosten wählen.
+                </para>
 
                 <para lang="en">
                   Simply stated, designers do not follow even their own plans in
                   order, but choose steps that are mentally least expensive among
                   alternatives.
                 </para>
+                <para lang="de">
+                  Einfach ausgedrückt, Designer folgen nicht ihrer selbst 
+                  geplanten Reihenfolge, sondern wählen Schritte, die mental 
+                  weniger aufwändige Alternativen darstellen.
+                </para>
               </listitem>
 
-              <listitem><para lang="en"><emphasis>Comprehension and Problem Solving</emphasis>
-                <indexterm><primary>Comprehension</primary></indexterm>
-                <indexterm><primary>Problem Solving</primary></indexterm>
+              <listitem>
+              	<para lang="en">
+	              	<emphasis>Comprehension and Problem Solving</emphasis>
+	                <indexterm><primary>Comprehension</primary></indexterm>
+	                <indexterm><primary>Problem Solving</primary></indexterm>
                 </para>
+              	<para lang="de">
+	              	<emphasis>Verständlichkeit und Problemlösung</emphasis>
+	                <indexterm><primary>Verständlichkeit</primary></indexterm>
+	                <indexterm><primary>Problemlösung</primary></indexterm>
+              	</para>
 
                 <para lang="en">
                   A design visualization theory within cognitive psychology.
@@ -2344,9 +2626,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   mental model of the problem or situation and the formal model of
                   a solution or system.
                 </para>
+                <para lang="de">
+                  Eine Design-Visualisierungstheorie innerhalb der kognitiven 
+                  Psychologie. Die Theorie beschreibt, dass Designer eine 
+                  Brücke zwischen Ihrem mentalen Modell des Problemes oder der 
+                  Situation und dem formalen Modell einer Lösung oder eines 
+                  Systems überwinden müssen.
+                </para>
 
                 <para lang="en">
                   This theory suggests that programmers will benefit from:
+                </para>
+                <para lang="de">
+                  Diese Theorie besagt, dass Programmierer Vorteile haben von:
                 </para>
 
                 <orderedlist>
@@ -2361,6 +2653,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       readily create a mapping between their situation models and
                       working system models.
                     </para>
+                    <para lang="de">
+                      Mehreren Darstellungsweisen, wie die syntaktische 
+                      Programmzerlegung, Zustandsübergänge, Steuer- und 
+                      Datenfluss. Diese erlauben es dem Programmierer, die 
+                      Elemente und Beziehungen innerhalb des Problemes und der 
+                      Lösung besser zu identifizieren und daher die Abbildung 
+                      zwischen deren Situationsmodellen und den funktionierenden 
+                      Systemmodellen leichter herstellen zu können.
+                    </para>
 
                   </listitem>
 
@@ -2369,6 +2670,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                     <para lang="en">
                       Familiar aspects of a situation model, which improve
                       designers&apos; abilities to formulate solutions.
+                    </para>
+                    <para lang="de">
+                      Vertraute Aspekte eines Situationsmodelles, welche die 
+                      Fähigkeiten des Designers verbessern, Lösungen zu 
+                      formulieren.
                     </para>
 
                   </listitem>
@@ -2383,46 +2689,82 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <sect3>
 
             <title lang="en">Practical Application in ArgoUML</title>
+            <title lang="de">Praktische Anwendung in ArgoUML</title>
 
             <para lang="en">
               ArgoUML implements these theories using a number of techniques.
             </para>
+            <para lang="de">
+              ArgoUML implementiert diese Theorien durch eine bestimmte Anzahl 
+              von Techniken.
+             </para>
 
 
             <orderedlist>
 
               <listitem>
 
-                <para lang="en">The design of a user interface which allows the 
-                user to view the design from a number of different 
-                perspectives, and allows the user to achieve goals 
-                through a number of alternative routes.</para>
+                <para lang="en">
+	                The design of a user interface which allows the 
+	                user to view the design from a number of different 
+	                perspectives, and allows the user to achieve goals 
+	                through a number of alternative routes.
+	                </para>
+                <para lang="de">
+	                Das Design der Anwenderschnittstelle, die es dem Anwender 
+	                erlaubt, das Design aus unterschiedlichen Sichten zu 
+	                betrachten und es dem Anwender ermöglicht, Ziele über 
+	                eine Anzahl alternativer Wege zu erreichen.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para lang="en">The the use of processes running in parallel with 
-                the design tool, evaluating the current design against 
-                models of how <quote>best practice</quote> design might 
-                work. These processes are known as <emphasis>design 
-                critics</emphasis>.</para>
+                <para lang="en">
+	                The the use of processes running in parallel with 
+	                the design tool, evaluating the current design against 
+	                models of how <quote>best practice</quote> design might 
+	                work. These processes are known as <emphasis>design 
+	                critics</emphasis>.
+                </para>
+                <para lang="de">
+	                Die Verwendung von parallel ablaufenden Prozessen im  
+	                Designtool, die das aktuelle Design gegen  
+	                <quote>best practice</quote>-Entwurfsmodelle überprüfen. 
+	                Diese Prozesse sind als 
+	                <emphasis>Design-Kritiken</emphasis> bekannt.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para lang="en">The use of <emphasis>to-do lists</emphasis> to 
-                convey suggestions from the design critics to the user, 
-                as well as allowing the user to record areas for future 
-                action.</para>
+                <para lang="en">
+	                The use of <emphasis>to-do lists</emphasis> to 
+	                convey suggestions from the design critics to the user, 
+	                as well as allowing the user to record areas for future 
+	                action.
+                </para>
+                <para lang="de">
+	                Die Nutzung von <emphasis><quote>zu bearbeiten Listen</quote> 
+	                </emphasis>, die dem Anwender Vorschläge aus den  
+	                Designkritiken unterbreiten und es ihm auch erlauben, 
+	                Bereiche für künftige Aktionen aufzuzeichnen.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para lang="en">The use of checklists, to guide the user through 
-                a complex process.</para>
+                <para lang="en">
+	                The use of checklists, to guide the user through 
+	                a complex process.
+                </para>
+                <para lang="de">
+	                Die Verwendung von Checklisten, um den Anwender durch einen 
+	                komplexen Prozess zu führen.
+                </para>
 
               </listitem>
 
@@ -2435,9 +2777,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <sect2>
 
           <title lang="en">Open Standards</title>
+          <title lang="de">Offene Standards</title>
 
-          <para lang="en">UML is itself an open standard. ArgoUML throughout has 
-          tried to use open standards for all its interfaces.</para>
+          <para lang="en">
+	          UML is itself an open standard. ArgoUML throughout has 
+	          tried to use open standards for all its interfaces.
+          </para>
 
           <para lang="en">
             The key advantage of adherence to open standards is that it
