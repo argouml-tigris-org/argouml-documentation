@@ -35,7 +35,7 @@ What tools do I need to use this build file?
   $ ./build.sh
   
   This will run the default target which generates the user manual and quick guide
-  in all languages, in the multi-page 'chunked' html format only.
+  in the multi-page 'chunked' html format, English translation only.
  -->
 
 <project name="ArgoDocs" default="htmlchunked-en" basedir=".">
@@ -44,10 +44,8 @@ What tools do I need to use this build file?
 
   <!-- we really need an absolute path for argo.root.dir -->
   <property name="argo.root.dir" value="${basedir}/../.."/>
-	
   <property name="build.dir" value="build"/>
   <property name="tools.dir" value="tools"/>
-                                                            
   <property name="tools.lib" value="${tools.dir}/lib"/>
 
   <!-- Our defaults depend on and don't override main props, so they go 2nd -->
@@ -55,14 +53,11 @@ What tools do I need to use this build file?
   <property name="fop.version" value="fop-0.20.5"/>
   <property name="fop.build.dir" value="${tools.dir}/${fop.version}/build"/>
   <property name="fop.lib.dir" value="${tools.dir}/${fop.version}/lib"/>
-
   <property name="docbook-xsl-version" value="1.69.1"/>
-
   <property name="saxon.jar.path" value="${tools.lib}/saxon-6.5.2.jar"/>
   <property name="jimi.jar.path" value="${tools.lib}/JimiProClasses.zip"/>
 
   <property name="docbook-setup.dir" value="src/docbook-setup"/>
-
   <property name="docbook-xsl-root" 
 	    value="${docbook-setup.dir}/docbook-xsl"/>
   <property name="docbook-xsl-source-url"
