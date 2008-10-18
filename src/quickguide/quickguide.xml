@@ -63,10 +63,12 @@
 
 
 <book>
-  <title lang="en">&document-title;</title>
-  <title lang="de">&document-title-de;</title>
-  <title lang="es">ArgoUML Quick Guide</title>
-  <title lang="sv">ArgoUML Snabbguide</title>
+  <title>
+    <phrase lang="en">&document-title;</phrase>
+    <phrase lang="de">document-title-de;</phrase>
+    <phrase lang="es">ArgoUML Quick Guide</phrase>
+    <phrase lang="sv">ArgoUML Snabbguide</phrase>
+  </title>
   <bookinfo>
 
     <mediaobject>
@@ -76,10 +78,12 @@
       </imageobject>
     </mediaobject>
     
-    <subtitle lang="en">&document-subtitle;</subtitle>
-    <subtitle lang="de">&document-subtitle-de;</subtitle>
-    <subtitle lang="es">Get started with ArgoUML @VERSION@</subtitle>
-    <subtitle lang="sv">Komma ig&aring;ng med ArgoUML @VERSION@</subtitle>
+    <subtitle>
+      <phrase lang="en">&document-subtitle;</phrase>
+      <phrase lang="de">&document-subtitle-de;</phrase>
+      <phrase lang="es">Get started with ArgoUML @VERSION@</phrase>
+      <phrase lang="sv">Komma ig&aring;ng med ArgoUML @VERSION@</phrase>
+    </subtitle>
     <authorgroup>
       &author-kunle.odu;
       &author-anthony.ogu;
@@ -109,23 +113,17 @@
       <holder>&Ouml;vers&auml;ttare: Linus Tolke</holder>
     </copyright>
 
-    <legalnotice lang="en">
-      &open-content-license;
-    </legalnotice>
-    <legalnotice lang="de">
-      &open-content-license-de;
-    </legalnotice>
-    <legalnotice lang="es">
+    <legalnotice>
+      <para lang="en">&open-content-license;</para>
+      <para lang="de">&open-content-license-de;</para>
 <!-- REMOVED illegal characters from line below (dthompson)-->
-      <para>
+      <para lang="es">
 Este material se puede distribuir solamente conforme a los terminos y
 a las condiciones dispuestos en la licencia abierta de
 publicacion(Open Publication License), v1.0 o superior (la version mas
 actual est disponible en http://www.opencontent.org/openpub/)
 </para>
-    </legalnotice>
-    <legalnotice lang="sv">
-      &open-content-license;
+      <para lang="sv">&open-content-license;</para>
     </legalnotice>
 
   </bookinfo>
