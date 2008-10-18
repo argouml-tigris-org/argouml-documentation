@@ -639,9 +639,8 @@ Please try updating your working copy.
     <profile-tidy doc="quickguide" lang="en"/>
     <profile-tidy doc="manual" lang="de"/>
     <profile-tidy doc="quickguide" lang="de"/>
-    <delete file="src/@{doc}/@{doc}-generated.xml"/>
-    <delete file="src/@{doc}/@{doc}-generated-@{lang}.xml"/>
-    <delete file="${docbook-setup.dir}/titlepage-html.xsl"/>
+
+  	<delete file="${docbook-setup.dir}/titlepage-html.xsl"/>
     <delete file="${docbook-setup.dir}/titlepage-pdf.xsl"/>
   </target>
   
