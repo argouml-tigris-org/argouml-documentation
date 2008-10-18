@@ -264,9 +264,15 @@ The Jimi file is not available. The pdf result will be poor since
 most of the images cannot be included and you will get several
 [fop] [ERROR]:-messages.
 
+To remove this warning, 
+1) point your web browser to http://java.sun.com/products/jimi/, 
+2) download jimi1_0.zip or jimi1_0.tar.Z,
+3) extract JimiProClasses.zip to 
+   argouml-documentation/tools/lib/JimiProClasses.zip
+4) Retry the build.
+      	
 Please refer to the readme file in the tools/fop-0.20.3
 directory for further information.
-
       </echo>
   </target>
 
