@@ -69,8 +69,9 @@
             Design-Umgebung, die das Design, die Entwicklung und die 
             Dokumentation von objektorientieren Softwareanwendungen unterst√ºtzt.
 </para>
+<!-- REMOVED illegal characters from line below (dthompson)-->
     <para lang="es"> 
-ArgoUML es un poderoso ambiente interactivo facil de usar, de diseÅ√Å±o grafico de software que soporta el diseÅ√Å±o, desarrollo y documentacion de aplicaciones de software orientadas a objeto.
+ArgoUML es un poderoso ambiente interactivo facil de usar, de diseo grafico de software que soporta el diseo, desarrollo y documentacion de aplicaciones de software orientadas a objeto.
 </para>
 
     <para lang="en">
@@ -82,11 +83,12 @@ ArgoUML es un poderoso ambiente interactivo facil de usar, de diseÅ√Å±o grafico 
 			Computer Aided Software Engineering (CASE) Tools genannt werden, 
 			sollten Sie mit &argo; sofort zurecht kommen.
 </para>
+<!-- REMOVED illegal characters from line below (dthompson)-->
     <para lang="es">
 Si esta familiarizado con el conjunto de herramientas software como
-las de IngenierÅ√Å≠a de Software Asistida por Computador (CASE, de sus
+las de Ingeniera de Software Asistida por Computador (CASE, de sus
 siglas en ingles de Computer Aided Software Engineering) entonces de
-berÅ√Å≠a encontrar ArgoUML bastante familiar.
+bera encontrar ArgoUML bastante familiar.
 </para>
 
 
@@ -154,11 +156,12 @@ Open standards: XMI, SVG and PGML
 			</itemizedlist>
 		</para>
 
+<!-- REMOVED illegal characters from line below (dthompson)-->
     <para lang="es">
-Los usuarios de ArgoUML son diseÅ√Å±adores de software y arquitectos,
+Los usuarios de ArgoUML son diseadores de software y arquitectos,
 desarrolladores de software, analistas de negocio, analistas de
-sistema y otros profesionales envueltos en el analisis, diseÅ√Å±o y
-desarrollo de aplicaciones de software. Sus caracterÅ√Å≠sticas
+sistema y otros profesionales envueltos en el analisis, diseo y
+desarrollo de aplicaciones de software. Sus caractersticas
 principales son:
       <itemizedlist>
         <listitem>
@@ -177,9 +180,10 @@ Fuente abierta, el cual permite su extension o personalizacion.
 </para>
         </listitem>
         <listitem>
+<!-- REMOVED illegal characters from line below (dthompson)-->
           <para>
-CaracterÅ√Å≠sticas cognitivas como: reflexion-en-accion, diseÅ√Å±o
-oportunÅ√Å≠stico, comprension y solucion de problemas
+Caractersticas cognitivas como: reflexion-en-accion, diseo
+oportunstico, comprension y solucion de problemas
 </para>
         </listitem>
       </itemizedlist>
@@ -220,8 +224,9 @@ User Manual
 <ulink url="http://argouml-stats.tigris.org/documentation/defaulthtml/manual/">Anwenderhandbuch
 </ulink> nach.
 		</para>
+<!-- REMOVED illegal characters from line below (dthompson)-->
       <para lang="es">
-Esta guÅ√Å≠a - the ArgoUML Quick Guide - se provee para que pueda
+Esta gua - the ArgoUML Quick Guide - se provee para que pueda
 obtener y ejecutar lo mas rapidamente posible ArgoUML.
 
 Provee instrucciones paso a paso para obtener, instalar y comenzar con
