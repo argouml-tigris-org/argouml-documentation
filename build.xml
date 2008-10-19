@@ -136,6 +136,38 @@ What tools do I need to use this build file?
     <create-pdf doc="manual" lang="de"/>
   </target>
   
+  <!-- targets for Spanish translations -->
+  <target name="quickguide-profile-es" depends="prepare" >
+    <profile doc="quickguide" lang="es" />
+  </target>
+  <target name="quickguide-htmlchunked-es" depends="quickguide-profile-es"
+  	      description="Generate quickguide-htmlchunked-es" >
+    <create-htmlchunked doc="quickguide" lang="es"/>
+  </target>
+  <target name="quickguide-htmlsingle-es" depends="quickguide-profile-es"
+    description="Generate quickguide-htmlsingle-es" >
+    <create-htmlsingle doc="quickguide" lang="es"/>
+  </target>
+  <target name="quickguide-pdf-es" depends="jimi-check,quickguide-profile-es"
+    description="Generate quickguide-pdf-es" >
+  	<create-pdf doc="quickguide" lang="es"/>
+  </target>
+  <target name="manual-profile-es" depends="prepare" >
+    <profile doc="manual" lang="es" />
+  </target>
+  <target name="manual-htmlchunked-es" depends="manual-profile-es"
+          description="Generate manual-htmlchunked-es" >
+    <create-htmlchunked doc="manual" lang="es"/>
+  </target>
+  <target name="manual-htmlsingle-es" depends="manual-profile-es"
+    description="Generate manual-htmlsingle-es" >
+    <create-htmlsingle doc="manual" lang="es"/>
+  </target>
+  <target name="manual-pdf-es" depends="jimi-check,manual-profile-es"
+    description="Generate manual-pdf-es" >
+    <create-pdf doc="manual" lang="es"/>
+  </target>
+  
   <!-- =================================================================== -->
   <!-- htmlchunked-en: Create Englished chunked HTML documentation only    -->
   <!-- =================================================================== -->
