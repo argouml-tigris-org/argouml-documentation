@@ -116,12 +116,11 @@
     <legalnotice>
       <para lang="en">&open-content-license;</para>
       <para lang="de">&open-content-license-de;</para>
-<!-- REMOVED illegal characters from line below (dthompson)-->
       <para lang="es">
 Este material se puede distribuir solamente conforme a los terminos y
-a las condiciones dispuestos en la licencia abierta de
-publicacion(Open Publication License), v1.0 o superior (la version mas
-actual est disponible en http://www.opencontent.org/openpub/)
+a las condiciones dispuestos en la licencia abierta de publicacion 
+(Open Publication License), v1.0 o superior (la version mas actual
+está disponible en http://www.opencontent.org/openpub/) 
 </para>
       <para lang="sv">&open-content-license;</para>
     </legalnotice>
