@@ -2229,38 +2229,36 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para lang="en">
 	            For example the initial design of a telephone system 
-	            might identify objects to i) handle the phone lines, ii) 
-	            process the calls, iii) manage the system and iv) bill the 
-	            customer. The software process can then be reapplied to 
-	            each of these four components to identify their 
-	            design.
+	            might identify objects to 
             </para>
             <para lang="de">
 	            Zum Beispiel könnte das grundlegende Design eines 
 	            Telefonsystemes Objekte identifizieren um 
             </para>
             <orderedlist numeration="lowerroman">
-            	<listitem>
-            		<para lang="de">
-            			Telefonleitungen zu belegen, 
-            		</para>
-            	</listitem>
-            	<listitem>
-            		<para lang="de">
-            			Anrufe zu verarbeiten, 
-            		</para>
-            	</listitem>
-            	<listitem>
-            		<para lang="de">
-            			das System zu verwalten und, 
-            		</para>
-            	</listitem>
-            	<listitem>
-            		<para lang="de">
-            			den Kunden abzurechnen. 
-            		</para>
-            	</listitem>
+              <listitem>
+            	<para lang="en">Handle the phone lines,</para>
+                <para lang="de">Telefonleitungen zu belegen,</para> 
+              </listitem>
+              <listitem>
+                <para lang="en">Process the calls,</para>
+                <para lang="de">Anrufe zu verarbeiten,</para>
+              </listitem>
+              <listitem>
+                <para lang="en">Manage the system and,</para>
+            	<para lang="de">das System zu verwalten und,</para> 
+              </listitem>
+              <listitem>
+                <para lang="en">Bill the customer.</para>
+                <para lang="de">den Kunden abzurechnen.</para>
+              </listitem>
             </orderedlist>
+            
+            <para lang="en">
+                The software process can then be reapplied to 
+                each of these four components to identify their 
+                design.
+            </para>
             <para lang="de">
 	           	Der Softwareprozess kann dann auf jedes dieser vier Komponenten 
 	           	erneut angewendet werden, um deren Design zu identifizieren.
