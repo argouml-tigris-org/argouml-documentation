@@ -56,6 +56,7 @@ What tools do I need to use this build file?
   <property name="docbook-xsl-version" value="1.69.1"/>
   <property name="saxon.jar.path" value="${tools.lib}/saxon-6.5.2.jar"/>
   <property name="jimi.jar.path" value="${tools.lib}/JimiProClasses.zip"/>
+  <property name="resolver.jar.path" value="${tools.lib}/resolver.jar"/>
 
   <property name="docbook-setup.dir" value="src/docbook-setup"/>
   <property name="docbook-xsl-root" 
@@ -67,6 +68,8 @@ What tools do I need to use this build file?
   <echo> "${saxon.jar.path}"</echo>
   <path id="saxon.classpath">
     <pathelement location="${saxon.jar.path}" />
+    <pathelement location="${resolver.jar.path}" />
+    <pathelement location="${docbook-setup.dir}" />
   </path>
   
   <!-- targets for English translations -->
@@ -343,6 +346,8 @@ Please try updating your working copy.
         <classpath>
           <path refid="saxon.classpath"/>
         </classpath>
+        <arg line="-r org.apache.xml.resolver.tools.CatalogResolver" />
+        <arg line="-u" />
         <arg line="-o 'src/@{doc}/@{doc}-generated-@{lang}.xml'"/>
         <arg value="src/@{doc}/@{doc}-generated.xml"/>
         <arg value="${profile.xsl}"/>
@@ -393,6 +398,8 @@ Please try updating your working copy.
         <classpath>
           <path refid="saxon.classpath"/>
         </classpath>
+        <arg line="-r org.apache.xml.resolver.tools.CatalogResolver" />
+        <arg line="-u" />
         <!-- the source xml file -->
   	    <arg value="src/@{doc}/@{doc}-generated-@{lang}.xml"/>
   	    <!-- the source xsl file -->
@@ -443,6 +450,8 @@ Please try updating your working copy.
         <classpath>
           <path refid="saxon.classpath"/>
         </classpath>
+        <arg line="-r org.apache.xml.resolver.tools.CatalogResolver" />
+        <arg line="-u" />
       	<!-- target.dir and target.html -->
         <arg line="-o '${build.dir}/@{lang}/printablehtml/@{doc}/@{doc}.html'"/>
         <!-- source xml file -->
@@ -502,7 +511,9 @@ Please try updating your working copy.
         <classpath>
           <path refid="saxon.classpath"/>
         </classpath>
-        <arg line='-o "src/@{doc}/@{doc}-generated-@{lang}.xml.prep"'/>
+        <arg line="-r org.apache.xml.resolver.tools.CatalogResolver" />
+        <arg line="-u" />
+      	<arg line='-o "src/@{doc}/@{doc}-generated-@{lang}.xml.prep"'/>
         <arg value="src/@{doc}/@{doc}-generated-@{lang}.xml"/>
         <arg value="${preprocess-pdf.xsl}"/>
       </java>
@@ -515,6 +526,8 @@ Please try updating your working copy.
         <classpath>
           <path refid="saxon.classpath"/>
         </classpath>
+        <arg line="-r org.apache.xml.resolver.tools.CatalogResolver" />
+        <arg line="-u" />
         <arg line='-o "src/@{doc}/@{doc}.fo"'/>
         <arg value="src/@{doc}/@{doc}-generated-@{lang}.xml.prep"/>
         <arg value="${pdf.xsl}"/>

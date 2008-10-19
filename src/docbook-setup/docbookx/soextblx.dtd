@@ -306,4 +306,3 @@ in useability, presentation, and possible structure information degradation.
         valign          (top|middle|bottom)                     #IMPLIED
         %tbl.entry.att;
 >
-

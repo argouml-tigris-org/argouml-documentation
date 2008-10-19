@@ -47,4 +47,3 @@
 <!ENTITY coprod	"&#x2210;"> <!-- N-ARY COPRODUCT -->
 <!ENTITY prod	"&#x220F;"> <!-- N-ARY PRODUCT -->
 <!ENTITY sum	"&#x2211;"> <!-- N-ARY SUMMATION -->
-
