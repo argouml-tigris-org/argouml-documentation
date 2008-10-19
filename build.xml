@@ -188,8 +188,8 @@ What tools do I need to use this build file?
   	      quickguide-htmlchunked-en,quickguide-htmlsingle-en,quickguide-pdf-en,
 	      manual-htmlchunked-en,manual-htmlsingle-en,manual-pdf-en,
   	
-  	      quickguide-htmlchunked-de,quickguide-htmlsingle-de,quickguide-pdf-de,
-	      manual-htmlchunked-de,manual-htmlsingle-de,manual-pdf-de,
+          quickguide-htmlchunked-de,quickguide-htmlsingle-de,quickguide-pdf-de,
+          manual-htmlchunked-de,manual-htmlsingle-de,manual-pdf-de,
 
   	      tidy
   	      " />
@@ -685,6 +685,8 @@ Please try updating your working copy.
     <profile-tidy doc="quickguide" lang="en"/>
     <profile-tidy doc="manual" lang="de"/>
     <profile-tidy doc="quickguide" lang="de"/>
+    <profile-tidy doc="manual" lang="es"/>
+    <profile-tidy doc="quickguide" lang="es"/>
 
   	<delete file="${docbook-setup.dir}/titlepage-html.xsl"/>
     <delete file="${docbook-setup.dir}/titlepage-pdf.xsl"/>
