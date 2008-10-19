@@ -41,11 +41,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       </imageobject>
     </mediaobject>
     
-    <title lang="en">ArgoUML User Manual</title>
-    <title lang="de">ArgoUML Anwenderhandbuch</title>
+    <title>
+      <phrase lang="en">ArgoUML User Manual</phrase>
+      <phrase lang="de">ArgoUML Anwenderhandbuch</phrase>
+    </title>
 
-    <subtitle lang="en">A tutorial and reference description</subtitle>
-    <subtitle lang="de">Eine Lernanleitung und eine Referenzbeschreibung</subtitle>
+    <subtitle>
+      <phrase lang="en">A tutorial and reference description</phrase>
+      <phrase lang="de">Eine Lernanleitung und eine Referenzbeschreibung</phrase>
+    </subtitle>
 
     <abstract>
 
@@ -134,8 +138,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
   <toc />
   <preface>
 
-    <title lang="en">Preface</title>
-	<title lang="de">Vorwort</title>
+    <title>
+      <phrase lang="en">Preface</phrase>
+	  <phrase lang="de">Vorwort</phrase>
+    </title>
 
     <indexterm lang="en"><primary>Design</primary></indexterm>
 	<indexterm lang="de"><primary>Design</primary></indexterm>
@@ -450,18 +456,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
   <chapter>
 
-    <title lang="en">Introduction</title>
-    <title lang="de">Einleitung</title>
+    <title> 
+      <phrase lang="en">Introduction</phrase>
+      <phrase lang="de">Einleitung</phrase>
+    </title>
 
     <sect1>
 
-      <title lang="en">Origins and Overview of ArgoUML</title>
-      <title lang="de">Die Anfänge und ein Überblick über ArgoUML</title>
+      <title>
+        <phrase lang="en">Origins and Overview of ArgoUML</phrase>
+        <phrase lang="de">Die Anfänge und ein Überblick über ArgoUML</phrase>
+      </title>
 
       <sect2 id="s2.ooad">
 
-        <title lang="en">Object Oriented Analysis and Design</title>
-        <title lang="de">Objektorientierte Analyse und Design</title>
+        <title>
+          <phrase lang="en">Object Oriented Analysis and Design</phrase>
+          <phrase lang="de">Objektorientierte Analyse und Design</phrase>
+        </title>
 
         <indexterm lang="en"><primary>Analysis</primary></indexterm> 
         <indexterm lang="en"><primary>Design</primary></indexterm>
@@ -557,8 +569,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect2>
 
-        <title lang="en">The Development of ArgoUML</title>
-        <title lang="de">Die Entwicklung von ArgoUML</title>
+        <title>
+          <phrase lang="en">The Development of ArgoUML</phrase>
+          <phrase lang="de">Die Entwicklung von ArgoUML</phrase>
+        </title>
 
         <para lang="en">
 	        During the 1980&apos;s a number of OOA&amp;D process 
@@ -717,13 +731,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect2>
 
-        <title lang="en">Finding Out More About the ArgoUML Project</title>
-        <title lang="de">Mehr über das ArgoUML-Projekt</title>
+        <title>
+          <phrase lang="en">Finding Out More About the ArgoUML Project</phrase>
+          <phrase lang="de">Mehr über das ArgoUML-Projekt</phrase>
+        </title>
 
         <sect3>
 
-          <title lang="en">How ArgoUML is Developed</title>
-          <title lang="de">Wie wurde ArgoUML entwickelt</title>
+          <title>
+            <phrase lang="en">How ArgoUML is Developed</phrase>
+            <phrase lang="de">Wie wurde ArgoUML entwickelt</phrase>
+          </title>
 
           <indexterm><primary>Jason Robbins</primary></indexterm>
           <indexterm><primary>Robbins, Jason</primary></indexterm>
@@ -811,8 +829,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect3>
 
-          <title lang="en">More on Infrastructure</title>
-          <title lang="de">Mehr über die Infrastruktur</title>
+          <title>
+            <phrase lang="en">More on Infrastructure</phrase>
+            <phrase lang="de">Mehr über die Infrastruktur</phrase>
+          </title>
 
           <indexterm lang="en"><primary>Mailing lists</primary></indexterm>
           <indexterm lang="de"><primary>Mail-Listen</primary></indexterm>
@@ -877,13 +897,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
     <sect1>
 
-      <title lang="en">Scope of This User Manual</title>
-      <title lang="de">Der Bezugsbereich dieses Anwenderhandbuches</title>
+      <title>
+        <phrase lang="en">Scope of This User Manual</phrase>
+        <phrase lang="de">Der Bezugsbereich dieses Anwenderhandbuches</phrase>
+      </title>
 
       <sect2>
 
-        <title lang="en">Target Audience</title>
-        <title lang="de">Der Leserkreis</title>
+        <title>
+          <phrase lang="en">Target Audience</phrase>
+          <phrase lang="de">Der Leserkreis</phrase>
+        </title>
 
         <para lang="en">
 	        The current release of this document is aimed at 
@@ -935,8 +959,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect2>
 
-        <title lang="en">Scope</title>
-        <title lang="de">Bezugsbereich</title>
+        <title>
+          <phrase lang="en">Scope</phrase>
+          <phrase lang="de">Bezugsbereich</phrase>
+        </title>
 
         <para lang="en">
 	        The intention is that this document will provide a 
@@ -1060,13 +1086,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
     <sect1>
 
-      <title lang="en">Overview of the User Manual</title>
-      <title lang="de">Überblick über das Anwenderhandbuch</title>
+      <title>
+        <phrase lang="en">Overview of the User Manual</phrase>
+        <phrase lang="de">Überblick über das Anwenderhandbuch</phrase>
+      </title>
 
       <sect2>
 
-        <title lang="en">Tutorial Manual Structure</title>
-        <title lang="de">Die Struktur des Übungshandbuches</title>
+        <title>
+          <phrase lang="en">Tutorial Manual Structure</phrase>
+          <phrase lang="de">Die Struktur des Übungshandbuches</phrase>
+        </title>
 
         <para lang="en">
 	        <xref linkend="ch.tut.uml"/> provides an overview of UML 
@@ -1107,8 +1137,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect2>
 
-        <title lang="en">Reference Manual Structure</title>
-        <title lang="de">Die Struktur des Referenzhandbuches</title>
+        <title>
+          <phrase lang="en">Reference Manual Structure</phrase>
+          <phrase lang="de">Die Struktur des Referenzhandbuches</phrase>
+        </title>
 
         <para lang="en">
 	        <xref linkend="ch.ref.ui"/> is an overview of the user 
@@ -1184,8 +1216,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect2 id="s2.intro.user.feedback">
 
-        <title lang="en">User Feedback</title>
-        <title lang="de">Anwender-Feedback</title>
+        <title>
+          <phrase lang="en">User Feedback</phrase>
+          <phrase lang="de">Anwender-Feedback</phrase>
+        </title>
 
         <indexterm lang="en"><primary>Feedback</primary></indexterm>
         <indexterm lang="en"><primary>User Feedback</primary></indexterm>
@@ -1228,9 +1262,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
     <sect1>
 
-      <title lang="en">Assumptions</title>
-      <title lang="de">Annahmen</title>
-
+      <title>
+        <phrase lang="en">Assumptions</phrase>
+        <phrase lang="de">Annahmen</phrase>
+      </title>
+  
       <para lang="en">
 	      This release of the manual assumes the reader is very 
 	      familiar with UML already. This is reflected in the sparseness of 
@@ -1259,13 +1295,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
   <part>
 
-    <title lang="en">Tutorial</title>
-    <title lang="de">Übungsanleitung</title>
+    <title>
+      <phrase lang="en">Tutorial</phrase>
+      <phrase lang="de">Übungsanleitung</phrase>
+    </title>
 
     <chapter id="ch.tut.uml">
 
-      <title lang="en">Introduction (being written)</title>
-      <title lang="de">Einleitung</title>
+      <title>
+        <phrase lang="en">Introduction (being written)</phrase>
+        <phrase lang="de">Einleitung</phrase>
+      </title>
 
       <para lang="en">
         This tutorial will be taking you through a tour of the use of
@@ -1382,8 +1422,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
     <chapter id="ch.tut.ooad">
 
-      <title lang="en">UML Based OOA&amp;D</title>
-      <title lang="de">UML basierte OOA&amp;D</title>
+      <title>
+        <phrase lang="en">UML Based OOA&amp;D</phrase>
+        <phrase lang="de">UML basierte OOA&amp;D</phrase>
+      </title>
 
       <para lang="en">
         In this chapter, we look at how UML as a notation is used 
@@ -1396,8 +1438,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title lang="en">Background to UML</title>
-        <title lang="de">Hintergrundinformationen zu UML</title>
+        <title>
+          <phrase lang="en">Background to UML</phrase>
+          <phrase lang="de">Hintergrundinformationen zu UML</phrase>
+        </title> 
 
         <para lang="en">
 	        <emphasis>Object orientation</emphasis> as a concept has 
@@ -1544,8 +1588,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title lang="en">UML Based Processes for OOA&amp;D</title>
-        <title lang="de">UML basierter Prozess für OOA&amp;D</title>
+        <title>
+          <phrase lang="en">UML Based Processes for OOA&amp;D</phrase>
+          <phrase lang="de">UML basierter Prozess für OOA&amp;D</phrase>
+        </title>
 
         <para lang="en">
           It is important to understand that UML is a notation for OOA&amp;D.
@@ -1652,8 +1698,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.proctypes">
 
-          <title lang="en">Types of Process</title>
-          <title lang="de">Prozesstypen</title>
+          <title>
+            <phrase lang="en">Types of Process</phrase>
+            <phrase lang="de">Prozesstypen</phrase>
+          </title>
 
           <para lang="en">
 	          In this section we look at the two main types of 
@@ -1686,8 +1734,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">The Waterfall Process</title>
-            <title lang="de">Der Wasserfall-Prozess</title>
+            <title>
+              <phrase lang="en">The Waterfall Process</phrase>
+              <phrase lang="de">Der Wasserfall-Prozess</phrase>
+            </title>
 
             <para lang="en">
 	            In this process, each stage of the 
@@ -1704,8 +1754,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <figure float="1" id="fig.waterfallsteps">
 
-              <title lang="en">The Waterfall Process</title>
-              <title lang="de">Der Wasserfall-Prozess</title>
+              <title>
+                <phrase lang="en">The Waterfall Process</phrase>
+                <phrase lang="de">Der Wasserfall-Prozess</phrase>
+              </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -1771,10 +1823,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <figure float="1" id="fig.waterfall">
 
-              <title lang="en">Effort Involved in the Steps of the Waterfall 
-              Process</title>
-              <title lang="de">Zu erwartender Aufwand je Schritt des 
-              Wasserfallmodelles</title>
+              <title>
+                <phrase lang="en">
+                  Effort Involved in the Steps of the Waterfall Process
+                </phrase>
+                <phrase lang="de">
+                  Zu erwartender Aufwand je Schritt des Wasserfallmodelles
+                </phrase>
+              </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -1801,8 +1857,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Iterative Development Processes</title>
-            <title lang="de">Iterative Entwicklungsprozesse</title>
+            <title>
+              <phrase lang="en">Iterative Development Processes</phrase>
+              <phrase lang="de">Iterative Entwicklungsprozesse</phrase>
+            </title>
             <indexterm lang="en"><primary>Iterative Processes</primary></indexterm>
             <indexterm lang="de"><primary>Iterative Prozesse</primary></indexterm>
 
@@ -1877,11 +1935,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <figure float="1" id="fig.iterative">
 
-              <title lang="en">Effort Involved in the Steps of an Iterative 
-              Process</title>
-              <title lang="de">Zu erwartender Aufwand je Schritt des iterativen 
-              Prozesses</title>
-
+              <title>
+                <phrase lang="en">Effort Involved in the Steps of an 
+                Iterative Process</phrase>
+                <phrase lang="de">Zu erwartender Aufwand je Schritt des 
+                iterativen Prozesses</phrase>
+              </title>
+              
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
                fileref="images/tutorial/iterative.png"
@@ -1904,8 +1964,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4>
 
-              <title lang="en">The Rational Unified Process</title>
-              <title lang="de">Der Rational Unified Process</title>
+              <title>
+                <phrase lang="en">The Rational Unified Process</phrase>
+                <phrase lang="de">Der Rational Unified Process</phrase>
+              </title>
 
               <para lang="en">
 	              Perhaps the best known Iterative Process is the 
@@ -2052,8 +2114,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4>
 
-              <title lang="en">Iteration Size</title>
-              <title lang="de">Iterationsgröße</title>
+              <title>
+                <phrase lang="en">Iteration Size</phrase>
+                <phrase lang="de">Iterationsgröße</phrase>
+              </title>
 
               <para lang="en">
                 A good rule of thumb is that an iteration should take
@@ -2135,8 +2199,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Recursive Development Processes</title>
-            <title lang="de">Rekursive Entwicklungsprozesse</title>
+            <title>
+              <phrase lang="en">Recursive Development Processes</phrase>
+              <phrase lang="de">Rekursive Entwicklungsprozesse</phrase>
+            </title>
 
             <para lang="en">
 	            Very few software systems are conceived as monolithic 
@@ -2229,11 +2295,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title lang="en">
-          	A Development Process for This Tutorial
-          </title>
-          <title lang="de">
-          	Ein Entwicklungsprozess für dieses Übungshandbuch
+          <title>
+            <phrase lang="en">
+          	  A Development Process for This Tutorial
+            </phrase>
+            <phrase lang="de">
+          	  Ein Entwicklungsprozess für dieses Übungshandbuch
+            </phrase>
           </title>
 
           <para lang="en">
@@ -2285,8 +2353,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Requirements Capture</title>
-            <title lang="de">Erfassen der Anforderungen</title>
+            <title>
+              <phrase lang="en">Requirements Capture</phrase>
+              <phrase lang="de">Erfassen der Anforderungen</phrase>
+            </title>
 
             <para lang="en">
 	            Our requirements capture will use the UML concept of 
@@ -2307,8 +2377,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Analysis</title>
-            <title lang="de">Analyse</title>
+            <title>
+              <phrase lang="en">Analysis</phrase>
+              <phrase lang="de">Analyse</phrase>
+            </title>
 
             <indexterm lang="en"><primary>Analysis</primary></indexterm> 
             <indexterm lang="de"><primary>Analyse</primary></indexterm> 
@@ -2358,8 +2430,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Design</title>
-            <title lang="de">Design</title>
+            <title>
+              <phrase lang="en">Design</phrase>
+              <phrase lang="de">Design</phrase>
+            </title>
 
             <indexterm lang="en"><primary>Design</primary></indexterm>
             <indexterm lang="de"><primary>Design</primary></indexterm>
@@ -2423,8 +2497,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Build</title>
-            <title lang="de">Build</title>
+            <title>
+              <phrase lang="en">Build</phrase>
+              <phrase lang="de">Build</phrase>
+            </title>
 
             <indexterm lang="en"><primary>Build</primary></indexterm>
             <indexterm lang="de"><primary>Build</primary></indexterm>
@@ -2458,8 +2534,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title lang="en">Why ArgoUML is Different</title>
-        <title lang="de">Warum ist ArgoUML anders</title>
+        <title>
+          <phrase lang="en">Why ArgoUML is Different</phrase>
+          <phrase lang="de">Warum ist ArgoUML anders</phrase>
+        </title>
 
         <para lang="en">
 	        In the introduction, we listed the four key things that 
@@ -2496,13 +2574,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="tut.cog.psych">
 
-          <title lang="en">Cognitive Psychology</title>
-          <title lang="de">Kognitive Psychologie</title>
+          <title>
+            <phrase lang="en">Cognitive Psychology</phrase>
+            <phrase lang="de">Kognitive Psychologie</phrase>
+          </title>
 
           <sect3>
 
-            <title lang="en">Theory</title>
-            <title lang="de">Theorie</title>
+            <title>
+              <phrase lang="en">Theory</phrase>
+              <phrase lang="de">Theorie</phrase>
+            </title>
 
             <para lang="en">
 	            ArgoUML is particularly inspired by three theories 
@@ -2688,8 +2770,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Practical Application in ArgoUML</title>
-            <title lang="de">Praktische Anwendung in ArgoUML</title>
+            <title>
+              <phrase lang="en">Practical Application in ArgoUML</phrase>
+              <phrase lang="de">Praktische Anwendung in ArgoUML</phrase>
+            </title>
 
             <para lang="en">
               ArgoUML implements these theories using a number of techniques.
@@ -2776,8 +2860,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title lang="en">Open Standards</title>
-          <title lang="de">Offene Standards</title>
+          <title>
+            <phrase lang="en">Open Standards</phrase>
+            <phrase lang="de">Offene Standards</phrase>
+          </title>
 
           <para lang="en">
 	          UML is itself an open standard. ArgoUML throughout has 
@@ -2792,7 +2878,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">XML Metadata Interchange (XMI)</title>
+            <title>
+              <phrase lang="en">XML Metadata Interchange (XMI)</phrase>
+            </title>
 
             <indexterm><primary>XMI</primary></indexterm>
             <para lang="en"><emphasis>XML Metadata Interchange (XMI)</emphasis> 
@@ -2818,7 +2906,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Graphics Formats - EPS, GIF, PGML, PNG, PS, SVG</title>
+            <title>
+              <phrase lang="en">Graphics Formats - EPS, GIF, PGML, PNG, PS, SVG</phrase>
+            </title>
 
             <itemizedlist>
 
@@ -2901,7 +2991,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Object Constraint Language (OCL)</title>
+            <title>
+              <phrase lang="en">Object Constraint Language (OCL)</phrase>
+            </title>
+            
             <para lang="en">
               <ulink url="http://en.wikipedia.org/wiki/Object_Constraint_Language">
               <emphasis>Object Constraint Language (OCL)</emphasis></ulink>
@@ -2924,7 +3017,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title lang="en">100% Pure Java</title>
+          <title>
+            <phrase lang="en">100% Pure Java</phrase>
+          </title>
 
           <para lang="en">Java was conceived as an interpreted language. It 
           doesn&apos;t have a compiler to produce code for any 
@@ -2953,7 +3048,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title lang="en">Open Source</title>
+          <title>
+            <phrase lang="en">Open Source</phrase>
+          </title>
 
           <para lang="en">ArgoUML is an <emphasis>open source</emphasis> project. 
           That means anyone can have a free copy of the source code, 
@@ -2998,7 +3095,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="tut.basics">
 
-        <title lang="en">ArgoUML Basics</title>
+        <title>
+          <phrase lang="en">ArgoUML Basics</phrase>
+        </title>
 
         <para lang="en">The aim of this section is to get you started with 
         ArgoUML. It takes you through obtaining the code and getting it 
@@ -3006,11 +3105,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title lang="en">Getting Started</title>
+          <title>
+            <phrase lang="en">Getting Started</phrase>
+          </title>
 
           <sect3 id="s3.tut.system.requirements">
 
-            <title lang="en">System Requirements</title>
+            <title>
+              <phrase lang="en">System Requirements</phrase>
+            </title>
 
             <para lang="en">Since ArgoUML is written in 100% pure Java, it should 
             run on any machine with Java installed. Java version 5
@@ -3035,7 +3138,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Downloading Options</title>
+            <title>
+              <phrase lang="en">Downloading Options</phrase>
+            </title>
 
             <para lang="en">You have three options for obtaining ArgoUML.</para>
 
@@ -3088,7 +3193,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">ArgoUML Using Java Web Start</title>
+            <title>
+              <phrase lang="en">ArgoUML Using Java Web Start</phrase>
+            </title>
 
             <para lang="en">There are two steps to this.</para>
 
@@ -3129,7 +3236,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Using the Windows installer</title>
+            <title>
+              <phrase lang="en">Using the Windows installer</phrase>
+            </title>
 
             <para lang="en">If you choose to download and install 
             using the Windows installer, you 
@@ -3150,7 +3259,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Downloading the Binary Executable</title>
+            <title>
+              <phrase lang="en">Downloading the Binary Executable</phrase>
+            </title>
 
             <para lang="en">If you choose to download the binary executable, you 
             will have a choice of downloading the latest stable version 
@@ -3200,7 +3311,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3 id="s4.probsolving">
 
-            <title lang="en">Problems Downloading and Installing</title>
+            <title>
+              <phrase lang="en">Problems Downloading and Installing</phrase>
+            </title>
 
             <para lang="en">If you get completely stuck and you have no local 
             assistance, try the web site, particularly the 
@@ -3231,7 +3344,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Running ArgoUML</title>
+            <title>
+              <phrase lang="en">Running ArgoUML</phrase>
+            </title>
 
             <para lang="en">To run ArgoUML depends on whether you use Microsoft 
             Windows or some flavor of Unix.</para>
@@ -3278,7 +3393,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Problems Running ArgoUML</title>
+            <title>
+              <phrase lang="en">Problems Running ArgoUML</phrase>
+            </title>
 
             <para lang="en">
               It&apos;s unusual to encounter problems if you have made a successful
@@ -3327,7 +3444,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <figure float="1" id="fig.prob.run.01">
 
-              <title lang="en">Finding the Settings Wizard</title>
+              <title>
+                <phrase lang="en">Finding the Settings Wizard</phrase>
+              </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -3337,7 +3456,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <figure float="1" id="fig.prob.run.02">
 
-              <title lang="en">Setting Language in the Appearance Pane</title>
+              <title>
+                <phrase lang="en">Setting Language in the Appearance Pane</phrase>
+              </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -3350,7 +3471,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="tut.user.iface">
 
-          <title lang="en">The ArgoUML User Interface</title>
+          <title>
+            <phrase lang="en">The ArgoUML User Interface</phrase>
+          </title>
 
           <para lang="en">
             Before beginning the Case Study, you need to become familiar with the
@@ -3378,7 +3501,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <figure float="1" id="fig.tut.startup">
 
-            <title lang="en">Initial ArgoUML window</title>
+            <title>
+              <phrase lang="en">Initial ArgoUML window</phrase>
+            </title>
 
             <screenshot><mediaobject><imageobject>
             <imagedata align="center"
@@ -3397,7 +3522,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3 id="tut.menu.toolbars">
 
-            <title lang="en">The Menu Bar and Toolbars</title>
+            <title>
+              <phrase lang="en">The Menu Bar and Toolbars</phrase>
+            </title>
 
             <indexterm><primary>Menu Bar</primary></indexterm>
             <indexterm><primary>Toolbars</primary></indexterm>
@@ -3683,7 +3810,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <figure float="1" id="fig.tut.settings.preferences">
 
-              	<title lang="en">Initial ArgoUML window</title>
+              	<title>
+                  <phrase lang="en">Initial ArgoUML window</phrase>
+                </title>
 
               	<screenshot>
               		<mediaobject>
