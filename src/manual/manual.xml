@@ -4103,7 +4103,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           </sect3>
           <sect3>
 
-            <title lang="en">The Explorer Pane</title>
+            <title>
+              <phrase lang="en">The Explorer Pane</phrase>
+            </title>
 
             <para lang="en">
               At this time you should take the time to read
@@ -4137,7 +4139,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">The Editing Pane</title>
+            <title>
+              <phrase lang="en">The Editing Pane</phrase>
+            </title>
 
             <para lang="en">
               At this point take some time to read
@@ -4190,7 +4194,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">The Details Pane</title>
+            <title>
+              <phrase lang="en">The Details Pane</phrase>
+            </title>
 
             <para lang="en">
               At this point take some time to read
@@ -4234,7 +4240,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">The To-Do Pane</title>
+            <title>
+              <phrase lang="en">The To-Do Pane</phrase>
+            </title>
 
             <para lang="en">
               At this point take some time to read
@@ -4264,7 +4272,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <!-- sect3 id="s3.tut.mouse">
 
-            <title lang="en">The Mouse</title>
+            <title>
+              <phrase lang="en">The Mouse</phrase>
+            </title>
 
             <para lang="en">The mouse and mouse buttons (or their equivalent with 
             alternative tracking devices) are used in a wide variety of 
@@ -4361,7 +4371,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Drawing Diagrams</title>
+            <title>
+              <phrase lang="en">Drawing Diagrams</phrase>
+            </title>
 
             <para lang="en">In general diagrams are drawn by using the edit pane 
             toolbar to select the model element desired and clicking in the 
@@ -4381,14 +4393,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4>
 
-              <title lang="en">Moving Diagram Elements</title>
+              <title>
+                <phrase lang="en">Moving Diagram Elements</phrase>
+              </title>
 
               <para lang="en">There are several ways to move diagram 
               elements.</para>
 
               <sect5>
 
-                <title lang="en">Using the Mouse Keys</title>
+                <title>
+                  <phrase lang="en">Using the Mouse Keys</phrase>
+                </title>
 
                 <para lang="en">Select the elements you want to move. By holding 
                 down the Ctrl key while selecting you can select several
@@ -4404,8 +4420,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <sect5>
 
-                <title lang="en">Using the Edit Pane Toolbar</title>
-
+                <title>
+                  <phrase lang="en">Using the Edit Pane Toolbar</phrase>
+                </title>
+                
                 <para lang="en">Click on the broom button on the toolbar. Move 
                 your mouse to the diagram pane, right click and hold. 
                 Now moving your mouse will align elements.</para>
@@ -4416,8 +4434,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4>
 
-              <title lang="en">Arranging Elements</title>
-
+              <title>
+                <phrase lang="en">Arranging Elements</phrase>
+              </title>
+              
               <para lang="en">The menu item <literal>Arrange</literal> allows you 
               to align or group elements.</para>
 
@@ -4427,11 +4447,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Working with Projects</title>
+            <title>
+              <phrase lang="en">Working with Projects</phrase>
+            </title>
 
             <sect4>
 
-              <title lang="en">The Start-Up Window</title>
+              <title>
+                <phrase lang="en">The Start-Up Window</phrase>
+              </title>
 
               <para lang="en"><xref linkend="fig.tut.startup"/> shows the ArgoUML 
               main window as it appears as right after start-up</para>
@@ -4479,7 +4503,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4>
 
-              <title lang="en">Saving a Project - The File Menu</title>
+              <title>
+                <phrase lang="en">Saving a Project - The File Menu</phrase>
+              </title>
 
               <para lang="en">
                 For now ArgoUML; saves diagrams using an earlier
@@ -4499,8 +4525,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <figure float="1" id="fig.tut.saveas">
 
-                <title lang="en">Invoking
-                <literal>Save Project As...</literal></title>
+                <title>
+                  <phrase lang="en">Invoking <literal>Save Project 
+                  As...</literal></phrase>
+                </title>
 
                 <screenshot><mediaobject><imageobject>
                 <imagedata align="center"
@@ -4532,7 +4560,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4>
 
-              <title lang="en">The File Chooser Dialog</title>
+              <title>
+                <phrase lang="en">The File Chooser Dialog</phrase>
+              </title>
 
               <para lang="en">But let&apos;s go back to saving our project. After 
               clicking on the <literal>Save Project As...</literal> menu 
@@ -4542,7 +4572,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <figure float="1" id="fig.tut.filechoose">
 
-                <title lang="en">File Chooser Dialog</title>
+                <title>
+                  <phrase lang="en">File Chooser Dialog</phrase>
+                </title>
 
                 <screenshot><mediaobject><imageobject>
                 <imagedata align="center"
@@ -4662,15 +4694,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title lang="en">Output</title>
+          <title>
+            <phrase lang="en">Output</phrase>
+          </title>
 
           <sect3 id="s3.tut.loadsave">
 
-            <title lang="en">Loading and Saving</title>
+            <title>
+              <phrase lang="en">Loading and Saving</phrase>
+            </title>
 
             <sect4>
 
-              <title lang="en">Saving XMI files in ArgoUML</title>
+              <title>
+                <phrase lang="en">Saving XMI files in ArgoUML</phrase>
+              </title>
 
               <indexterm><primary>XMI</primary></indexterm>
               <para lang="en">ArgoUML saves the diagram information in a PGML 
@@ -4703,11 +4741,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title lang="en">Graphics and Printing</title>
+            <title>
+              <phrase lang="en">Graphics and Printing</phrase>
+            </title>
 
             <sect4>
 
-              <title lang="en">The Graph Editing Framework (GEF)</title>
+              <title>
+                <phrase lang="en">The Graph Editing Framework (GEF)</phrase>
+              </title>
 
               <para lang="en">GEF is the software package that is the foundation 
               of the diagrams that appear in the Editing Pane. GEF was 
@@ -4719,7 +4761,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4 id="s4.tut.pgml">
 
-              <title lang="en">Precision Graphics Markup Language (PGML)</title>
+              <title>
+                <phrase lang="en">Precision Graphics Markup Language (PGML)</phrase>
+              </title>
 
               <para lang="en">PGML is the current storage format for diagram information 
               used in ArgoUML. In the future, PGML will be replaced by
@@ -4730,7 +4774,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4>
 
-              <title lang="en">Applications Which Open PGML</title>
+              <title>
+                <phrase lang="en">Applications Which Open PGML</phrase>
+              </title>
 
               <para lang="en">PGML is a predecessor of SVG (see 
               <xref linkend="s4.tut.svg"/>. It was dropped by the W3C 
@@ -4743,7 +4789,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4>
 
-              <title lang="en">Printing Diagrams</title>
+              <title>
+                <phrase lang="en">Printing Diagrams</phrase>
+              </title>
 
               <para lang="en">Select a diagram, then go to 
               <literal>File</literal>=&gt;<literal>Export Diagrams</literal>.
@@ -4755,7 +4803,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4 id="s4.tut.svg">
 
-              <title lang="en">Scalable Vector Graphics (SVG)</title>
+              <title>
+                <phrase lang="en">Scalable Vector Graphics (SVG)</phrase>
+              </title>
 
               <para lang="en">A World Wide Web Consortium (W3C)
               standard vector graphics format
@@ -4771,7 +4821,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4>
 
-              <title lang="en">Saving Diagrams as SVG</title>
+              <title>
+                <phrase lang="en">Saving Diagrams as SVG</phrase>
+              </title>
 
               <orderedlist>
 
