@@ -82,7 +82,7 @@
       <phrase lang="en">&document-subtitle;</phrase>
       <phrase lang="de">&document-subtitle-de;</phrase>
       <phrase lang="es">Get started with ArgoUML @VERSION@</phrase>
-      <phrase lang="sv">Komma ig&aring;ng med ArgoUML @VERSION@</phrase>
+      <phrase lang="sv">Komma igång med ArgoUML @VERSION@</phrase>
     </subtitle>
     <authorgroup>
       &author-kunle.odu;
@@ -110,7 +110,7 @@
     </copyright>
     <copyright lang="sv">
       <year>2008</year>
-      <holder>&Ouml;vers&auml;ttare: Linus Tolke</holder>
+      <holder>Översättare: Linus Tolke</holder>
     </copyright>
 
     <legalnotice>
