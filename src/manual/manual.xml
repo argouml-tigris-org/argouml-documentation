@@ -44,11 +44,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     <title>
       <phrase lang="en">ArgoUML User Manual</phrase>
       <phrase lang="de">ArgoUML Anwenderhandbuch</phrase>
+      <phrase lang="es">ArgoUML: Manual de Usuario</phrase>
     </title>
 
     <subtitle>
       <phrase lang="en">A tutorial and reference description</phrase>
       <phrase lang="de">Eine Lernanleitung und eine Referenzbeschreibung</phrase>
+      <phrase lang="es">Tutorial y descripción de referencia</phrase>
     </subtitle>
 
     <abstract>
@@ -61,6 +63,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	  	Diese Version des Handbuches beschreibt die Version @VERSION@ von 
 		ArgoUML.
 	  </para>
+      <para lang="es">
+        Esta version de el manual está planeado para describir la versión
+        @VERSION@ de ArgoUML.
+      </para>
 
     </abstract>
 
@@ -130,6 +136,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 			http://www.opencontent.org/openpub/</ulink>
 			verfügbar.
 		</para>
+      <para lang="es">
+        Este material puede ser distribuido solo sujeto a los terminos y
+        condiciones establecidos en la Open Publication License, v1.0 o
+        posterior.
+        Una copia de esta licencia está incluida en la sección
+        <link linkend="app.legal">Open Publication License</link>.
+        La última versión está actualmente disponible en
+        <ulink url="http://www.opencontent.org/openpub/">
+        http://www.opencontent.org/openpub/</ulink>.
+      </para>
 
     </legalnotice>
 
@@ -141,11 +157,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     <title>
       <phrase lang="en">Preface</phrase>
 	  <phrase lang="de">Vorwort</phrase>
+      <phrase lang="es">Prefacio</phrase>
     </title>
 
     <indexterm lang="en"><primary>Design</primary></indexterm>
 	<indexterm lang="de"><primary>Design</primary></indexterm>
 	<indexterm lang="de"><primary>Entwurf</primary></indexterm>
+    <indexterm lang="es">
+      <primary>Diseño</primary>
+    </indexterm>
+
     <para lang="en">
 	    Software design is a cognitively challenging task. Designers 
 	    must manually enter designs, but the primary difficulty is 
@@ -160,6 +181,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		zu arbeiten. Wenn Designer ihre entscheidungsorientierten Fähigkeiten 
 		verbesserten, würden bessere Entwürfe dabei herauskommen.
 	</para>
+    <para lang="es">
+      El diseño de software es una tarea cognitiva dificil.
+      Los diseñadores deben construir manualmente diseños, pero la dificultad
+      principal es la toma de decisiones en lugar de la entrada de datos. Si los
+      diseñadores mejoran sus capacidades de toma de decisiones, ello resultaría
+      en mejores diseños.
+    </para>
 
     <para lang="en">
 	    Current CASE tools provide automation and graphical user 
@@ -182,6 +210,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		nebenläufiger Designmechanismen auf. Ein, bisher nicht besonders gut 
 		unterstützter Bereich ist die Analyse von Designentscheidungen.
 	</para>
+    <para lang="es">
+      Las herramientas CASE actuales proporcionan automatización e
+      interfaces gráficos de usuario que reducen el trabajo manual 
+      de construir un diseño y transformar un diseño en codigo.
+      Ayudan a los diseñadores en la toma de decisiones principalmente 
+      proporcionando visualización de los diagramas de diseño y 
+      comprobaciones sintacticas simples.. 
+      Adenas muchas herramientas CASE proporcionan beneficios sustanciales 
+      en el area de control de versiones y mecanismos de diseño concurrente.
+      Un area de soporte de diseño que no ha sido bien soportada es 
+      el analisis de decisiones de diseño.
+    </para>
 
     <para lang="en">
 	    Current CASE tools are usable in that they provide a GUI that 
@@ -203,6 +243,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		führt. Designer beginnen normalerweise mit einer leeren Seite und
 		müssen jeden Aspekt des Entwurfes aus dem Kopf ableiten.
 	</para>
+    <para lang="es">
+      Las herramientas CASE actuales son utiles en que proporcionan una
+      GUI (Graphic User Interface; Interfaz Grafica de Usuario) que permite a
+      los diseñadores acceder a todas las caracteristicas proporcionadas por la
+      herramienta.
+      Y soportan el proceso de diseño en que permiten al diseñador
+      construir diagramas en el estilo de metodologias de diseño populares.
+      Pero tipicamente no porporcionan soporte de proceso para guiar 
+      al diseñador a traves de la tarea de diseño.
+      En su lugar, los diseñadores tipicamente comienzan con una página 
+      en blanco y deben recordar cubrir todos los aspectos del diseño.
+    </para>
+
 
     <para lang="en">
       ArgoUML is a domain-oriented design environment that provides 
@@ -269,6 +322,44 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 			</listitem>
 		</orderedlist>
 	</para>
+    <para lang="es">
+      ArgoUML es un entorno de diseño orientado a dominio que proporciona
+      soporte cognitivo de diseño orientado a objetos. ArgoUML proporciona
+      algunas de las mismas caracteristicas de automatización de una herramienta
+      CASE comercial, pero esta enfocado en caracteristicas que soportan las
+      necesidades cognitivas de los diseñadores. Estas necesidades cognitivas
+      estan descritas por tres teorias cognitivas.
+      <orderedlist>
+        <listitem>
+          <indexterm>
+            <primary>Reflection-in-Action</primary>
+          </indexterm>
+
+          <para>reflection-in-action;</para>
+        </listitem>
+
+        <listitem>
+          <indexterm>
+            <primary>Opportunistic Design</primary>
+          </indexterm>
+
+          <para>opportunistic design; and</para>
+        </listitem>
+
+        <listitem>
+          <indexterm>
+            <primary>Comprension</primary>
+          </indexterm>
+
+          <indexterm>
+            <primary>Solución de Problemas</primary>
+          </indexterm>
+
+          <para>comprehension and problem solving.</para>
+        </listitem>
+      </orderedlist>
+    </para>
+	
 
     <para lang="en">
 	    ArgoUML is based directly on the UML 1.4 specification. The
@@ -283,6 +374,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		Metadaten Schnittstelle (JMI=Java Metadata Interface), welche MOF
 		direkt unterstützt und die maschinenlesbare Version der UML
 		1.4-Spezifikation der OMG verwendet.
+	</para>
+	<para lang="es">
+	  ArgoUML esta basado en la especificación UML 1.4 .
+	  El nucleo del modelo de repositorio es una implementación de
+	  el Java Metadata Interface (JMI) que directamente soporta MOF y
+	  usa la versión legible por maquina de la especificación UML 1.4
+	  proporcionada por OMG.
 	</para>
 
     <para lang="en">
@@ -300,6 +398,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		und XMI (dem XML Model Interchange Format(XML-Modell-Austauschformat)) 
 		bereitzustellen.
 	</para>
+    <para lang="es">
+      <indexterm lang="es">
+        <primary>XMI</primary>
+      </indexterm>
+      Ademas, es nuestra meta proporcionar soporte exhaustivo
+      para OCL (el Object Constraint Language) y XMI (el formato
+      XML Model Interchange).
+    </para>
 
     <para lang="en">
 	    ArgoUML was originally developed by a small group of people 
@@ -313,6 +419,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		sehr speziell machen. Aber es implementiert nicht alle Funktionen,
 		kommerzieller CASE-Tools.
 	</para>
+    <para lang="es">ArgoUML fue originariamente desarrollado por un pequeño grupo de
+    gente como un proyecto de investigación. ArgoUML tiene muchas
+    caracteristicas que lo hacen especial, pero no implementa todas las
+    caracteristicas que una herramienta CASE comercial proporciona.</para>
 
     <para lang="en">
 	    The current version (@VERSION@) of ArgoUML implements all the 
@@ -349,6 +459,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	    PGML durch die UML Diagram Interchange Specifikation (Diagramm 
 	    Austauschspezifikation) ersetzt.
     </para>
+    <para lang="es">
+      La publicación V0.20 actual de ArgoUML, implementa todos los tipos
+    de diagramas de <ulink
+    url="http://www.omg.org/cgi-bin/doc?formal/01-09-67">UML&nbsp;1.4
+    standard</ulink> (versiones de ArgoUML anteriores a 0.20 implementaban la
+    <ulink url="http://www.omg.org/cgi-bin/doc?formal/00-03-01">UML&nbsp;1.3
+    standard</ulink>). Está escrito en Java y funciona en todo sistema que
+    proporcione una plataforma Java 2 de Java 1.4 o posterior. Usa formatos de
+    archivo abiertos <indexterm>
+        <primary>XML</primary>
+      </indexterm> <ulink
+    url="http://www.omg.org/cgi-bin/doc?formal/02-01-01"> XMI</ulink> (formato
+    XML Metadata Interchange) (para la información de modelos) y <ulink
+    url="http://www.w3.org/TR/1998/NOTE-PGML"> PGML</ulink> (Precision
+    Graphics Markup Language) (para información gráfica) para almacenamiento.
+    Cuando ArgoUML implemente UML 2.0, PGML sera sustituido por la
+    especificación UML Diagram Interchange.</para>
 
     <para lang="en">
 	    This manual is the cumulative work of several people and has 
@@ -384,6 +511,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	    Anwendung dieses Handbuches unterstützten, um sie alle namentlich 
 	    benennen zu können. 
     </para>
+    <para lang="es">
+      Este manual es el trabajo acumulativo de muchas personas y ha estado
+      evolucionando durante muchos años. Conectado con la publicación 0.10 de
+      ArgoUML, Jeremy Bennett, escribió gran cantidad de nuevo material que fue
+      añadido a las vestiones anteriores por Alejandro Ramirez, Philippe
+      Vanpeperstraete y Andreas Rueckert. El ademas añadió cosas de algunos de
+      los otros documentos como el libro de cocina de los desarrolladores por
+      Markus Klink y Linus Tolke, la Guia Rápida por Kunle Odutola, y el FAQ
+      (Preguntas frecuentes) por Dennis Daniels. Conectado con la publicación
+      0.14 se realizaron cambios por Linus Tolke, y Michiel van der Wulp. Estos
+      cambios fueron mayoritariamente adaptar el manual a las nuevas funciones y
+      apariencia de la version 0.14 de ArgoUML, y la introducción del indice.
+      Los usuarios y desarrolladores que han contribuido proporcionando ayuda
+      valiosa, como revisiones, comentarios y observaciones mientras leen y usan
+      este manual son demasiados para ser nombrados.
+    </para>
+
 
     <para lang="en">
 	    ArgoUML is available for free and can be used in commercial 
@@ -402,6 +546,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	    ArgoUML nach und nach zu einem leistungsfähigen und nützlichen Tool für 
 	    jedermann entwickelt.
     </para>
+    <para lang="es">
+      ArgoUML esta disponible gratuitamente y puede ser usado en entornos
+      comerciales. Para los terminos de uso, mira el acuerdo de licencia
+      presentado cuando tu descargas ArgoUML. Estamos proporcionando el codigo
+      fuente de ArgoUML para que puedas revisarlo, adecuarlo a tus necesidades y
+      mejorarlo. Pasado el tiempo, esperamos que ArgoUML evolucione en una
+      poderosa y util herramienta que todos puedan usar.
+    </para>
+
 
     <para lang="en">
 	    This User Manual is aimed at the working designer, who wishes 
@@ -415,6 +568,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	    Sie mit UML vertraut sind. Eventuell unterstützt es aber auch diejenigen, 
 	    für die UML neu ist.
 	</para>
+    <para lang="es">
+      Este Manual de Usuario esta orientado al diseñador, quien desea
+      hacer uso de ArgoUML. El manual esta escrito asumiendo familiaridad con
+      UML, pero eventualmente puede ayudar a aquellos nuevos en UML.
+    </para>
 
     <para lang="en">
       The manual is written in DocBook/XML and available as both 
@@ -426,6 +584,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <indexterm lang="de"><primary>XML</primary></indexterm>, 
       HTML als auch als PDF verfügbar.
     </para>
+    <para lang="es">
+      El manual esta escrito en DocBook/XML y esta disponible como
+      <indexterm>
+        <primary>XML</primary>
+      </indexterm> HTML y PDF.
+    </para>
+
 
     <para lang="en">
     	The ArgoUML project welcomes those who want to get more
@@ -437,6 +602,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     	Das ArgoUML-Projekt heisst alle willkommen, die sich beteiligen wollen. 
     	Mehr finden Sie unter der
     	<ulink url="http://argouml.tigris.org/">Projekt-Webseite</ulink>.
+    </para>
+    <para lang="es">
+      El proyecto ArgoUML da la bienvenida a aquellos que quieren estar
+      mas involucrados. Mira en <ulink url="http://argouml.tigris.org/">project
+      website</ulink> para encontrar mas información.
     </para>
 
     <para lang="en">
@@ -450,6 +620,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     	Ihre Kommentare helfen uns, es weiter zu verbessern. Siehe 
     	<xref linkend="s2.intro.user.feedback" />
     	.
+    </para>
+    <para lang="es">
+      ¡Dinos que piensas sobre este Manual de Usuario! Tus comentarios nos
+      ayudaran a mejorar cosas. Mira <xref linkend="s2.intro.user.feedback" />.
     </para>
 
   </preface>
