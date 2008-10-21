@@ -419,10 +419,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		sehr speziell machen. Aber es implementiert nicht alle Funktionen,
 		kommerzieller CASE-Tools.
 	</para>
-    <para lang="es">ArgoUML fue originariamente desarrollado por un pequeño grupo de
-    gente como un proyecto de investigación. ArgoUML tiene muchas
-    caracteristicas que lo hacen especial, pero no implementa todas las
-    caracteristicas que una herramienta CASE comercial proporciona.</para>
+    <para lang="es">
+      ArgoUML fue originariamente desarrollado por un pequeño grupo de
+      gente como un proyecto de investigación. ArgoUML tiene muchas
+      caracteristicas que lo hacen especial, pero no implementa todas las
+      caracteristicas que una herramienta CASE comercial proporciona.
+    </para>
 
     <para lang="en">
 	    The current version (@VERSION@) of ArgoUML implements all the 
@@ -461,21 +463,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     </para>
     <para lang="es">
       La publicación V0.20 actual de ArgoUML, implementa todos los tipos
-    de diagramas de <ulink
-    url="http://www.omg.org/cgi-bin/doc?formal/01-09-67">UML&nbsp;1.4
-    standard</ulink> (versiones de ArgoUML anteriores a 0.20 implementaban la
-    <ulink url="http://www.omg.org/cgi-bin/doc?formal/00-03-01">UML&nbsp;1.3
-    standard</ulink>). Está escrito en Java y funciona en todo sistema que
-    proporcione una plataforma Java 2 de Java 1.4 o posterior. Usa formatos de
-    archivo abiertos <indexterm>
+      de diagramas de <ulink
+      url="http://www.omg.org/cgi-bin/doc?formal/01-09-67">UML&nbsp;1.4
+      standard</ulink> (versiones de ArgoUML anteriores a 0.20 implementaban la
+      <ulink url="http://www.omg.org/cgi-bin/doc?formal/00-03-01">UML&nbsp;1.3
+      standard</ulink>). Está escrito en Java y funciona en todo sistema que
+      proporcione una plataforma Java 2 de Java 1.4 o posterior. Usa formatos de
+      archivo abiertos
+      <indexterm>
         <primary>XML</primary>
       </indexterm> <ulink
-    url="http://www.omg.org/cgi-bin/doc?formal/02-01-01"> XMI</ulink> (formato
-    XML Metadata Interchange) (para la información de modelos) y <ulink
-    url="http://www.w3.org/TR/1998/NOTE-PGML"> PGML</ulink> (Precision
-    Graphics Markup Language) (para información gráfica) para almacenamiento.
-    Cuando ArgoUML implemente UML 2.0, PGML sera sustituido por la
-    especificación UML Diagram Interchange.</para>
+      url="http://www.omg.org/cgi-bin/doc?formal/02-01-01"> XMI</ulink> (formato
+      XML Metadata Interchange) (para la información de modelos) y <ulink
+      url="http://www.w3.org/TR/1998/NOTE-PGML"> PGML</ulink> (Precision
+      Graphics Markup Language) (para información gráfica) para almacenamiento.
+      Cuando ArgoUML implemente UML 2.0, PGML sera sustituido por la
+      especificación UML Diagram Interchange.
+    </para>
 
     <para lang="en">
 	    This manual is the cumulative work of several people and has 
@@ -633,6 +637,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     <title> 
       <phrase lang="en">Introduction</phrase>
       <phrase lang="de">Einleitung</phrase>
+      <phrase lang="es">Introducción</phrase>
     </title>
 
     <sect1>
@@ -640,6 +645,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <title>
         <phrase lang="en">Origins and Overview of ArgoUML</phrase>
         <phrase lang="de">Die Anfänge und ein Überblick über ArgoUML</phrase>
+        <phrase lang="es">Origenes y Visión General de ArgoUML</phrase>
       </title>
 
       <sect2 id="s2.ooad">
@@ -647,6 +653,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
           <phrase lang="en">Object Oriented Analysis and Design</phrase>
           <phrase lang="de">Objektorientierte Analyse und Design</phrase>
+          <phrase lang="es">Analisis Orientado a Objeto y Diseño</phrase>
         </title>
 
         <indexterm lang="en"><primary>Analysis</primary></indexterm> 
@@ -654,6 +661,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <indexterm lang="de"><primary>Analyse</primary></indexterm> 
         <indexterm lang="de"><primary>Design</primary></indexterm>
         <indexterm lang="de"><primary>Entwurf</primary></indexterm>
+
+        <indexterm lang="es">
+          <primary>Analisis</primary>
+        </indexterm>
+
+        <indexterm lang="es">
+          <primary>Diseño</primary>
+        </indexterm>
+
+
+
         <para lang="en">
 	        Over the past decade, Object Oriented Analysis and Design 
 	        (OOA&amp;D) has become <emphasis>the</emphasis> dominant 
@@ -666,6 +684,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        (OOA&amp;D) zu <emphasis>dem</emphasis> dominanten Softwareparadigma. 
 	        Damit einhergehend fand ein Umdenken in allen, an dem 
 	        Softwarelebenszyklus beteiligten Prozessen statt. 
+        </para>
+        <para lang="es">
+          Durante la última decada, el Analisis Orientado a Objeto y
+          Diseño (Object Oriented Analysis and Design; OOA&amp;D) se ha
+          convertido en <emphasis>el</emphasis> paradigma de desarrollo de
+          software dominante. Con ello se ha conseguido un gran avance en los
+          procesos de pensamiento de todos los involucrados en el ciclo de vida
+          del desarrollo des software.
         </para>
 
         <para lang="en">
@@ -686,6 +712,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        <emphasis>Programmierung</emphasis> wurde zur 
 	        Hauptentwicklungsrichtung.
         </para>
+        <para lang="es">
+          El soporte de objetos en un lenguaje de programación empezó con
+          Simula&nbsp;67, pero fue la aparición en la decada de 1980 de los
+          lenguajes híbridos, como es C++, Ada y Object Pascal lo que permitió a
+          OOA&amp;D despegar. Estos lenguajes proporcionaban soporte para OO
+          ademas de para programación procedural. La
+          <emphasis>programación</emphasis> Orientada a Objeto se convirtió en
+          la corriente dominante.
+        </para>
 
         <para lang="en">
 	        An OO system is designed and implemented as a 
@@ -704,6 +739,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        System entworfen und getestet (oder korrekter: simuliert) werden, 
 	        ohne dass es vorher gebaut werden muss.
 		</para>
+        <para lang="es">
+          Un sistema OO está diseñado y implementado como una
+          <emphasis>simulación</emphasis> del mundo real usando artefactos
+          software. Esta premisa es tan potente como simple. Usando un
+          acercamiento OO para <emphasis>diseñar</emphasis> un sistema puede ser
+          diseñado y testeado (o mas correctamente simulado) sin tener que
+          construir el sistema real primero.
+        </para>
+
 
         <para lang="en">
 	        It is the development during the 1990&apos;s of tools to 
@@ -723,6 +767,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        OOA&amp;D-Ansatz die Implementierung sehr viel komplexerer Systeme 
 	        als bisher möglich.
         </para>
+        <para lang="es">
+          Es el desarrollo durante la decada de 1990 de herramientas para
+          soportar <emphasis>analisis</emphasis> Orientado a Objeto y
+          <emphasis>diseño</emphasis> lo que coloco este enfoque en la corriente
+          dominante. Cuando se combina con la capacidad de diseñar sistemas a
+          muy alto nivel, una herramienta basada en el enfoque OOA&amp;D ha
+          permitido la implementación de sistemas mas complejos que los posibles
+          previamente.
+        </para>
+
 
         <para lang="en">
 	        The final driver that has propelled OOA&amp;D has been 
@@ -738,6 +792,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        Sprachen, wie Visual Basic und Java reflektieren die Effizienz 
 	        dieses Ansatzes.
         </para>
+        <para lang="es">
+          El último factor que ha propulsado OOA&amp;D ha sido su
+          idoneidad para modelar interfaces graficos de usuario. La popularidad
+          de lenguajes graficos orientados a objeto y basados en objeto como
+          Visual Basic y Java refleja la efectividad de este enfoque.
+        </para>
 
       </sect2>
 
@@ -746,6 +806,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
           <phrase lang="en">The Development of ArgoUML</phrase>
           <phrase lang="de">Die Entwicklung von ArgoUML</phrase>
+          <phrase lang="es">El Desarrollo de ArgoUML</phrase>
         </title>
 
         <para lang="en">
@@ -770,6 +831,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        (UML&mdash;Einheitliche Modellierungssprache) bekannt, und ist heute 
 	        die Standardsprache für die Kommunikation von OO-Konzepten.
         </para>
+        <para lang="es">
+          Durante la decada de 1980 un número de metodologías de procesos
+          OOA&amp;D y notaciones fueron desarrolladas por diferentes equipos de
+          investigación. Se hizo patente que habia muchos temas comunes y,
+          durante la decada de 1990, un enfoque unificado para la notación
+          OOA&amp;D fué desarrollado bajo el auspicio del <ulink
+          url="http://www.omg.org">Object Management Group</ulink>. Este
+          estandar se hizo conocido como el Unified Modeling Language (UML), y
+          ahora es el lenguaje estandar para comunicar conceptos OO.
+        </para>
+
 
         <para lang="en">
 	        ArgoUML was conceived as a tool and environment for use 
@@ -787,6 +859,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        ArgoUML enthält eine Anzahl sehr wichtiger Merkmale, wodurch es sich 
 	        von diesen Tools unterscheidet.
 		</para>
+        <para lang="es">
+          ArgoUML fué concebido como un entorno y herramienta para usar en
+          el analisis y diseño de sistemas de software orientados a objeto. En
+          este sentido es similar a muchos de las herramientas CASE comerciales
+          que son vendidas como herramientas para modelar sistemas software.
+          ArgoUML tiene un número de distinciones muy importantes de muchas de
+          esas herramientas.
+        </para>
 
         <orderedlist>
 
@@ -797,6 +877,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </para>
             <para lang="de">
               Es ist frei.
+            </para>
+            <para lang="es">
+              == Translation is missing == 
             </para>
 
           </listitem>
@@ -816,6 +899,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Bedürfnisse objektorientiert arbeitender Sofwaredesigner und 
 	            -Architekten erhöhten.
 			</para>
+            <para lang="es">
+              ArgoUML se enfoca en investigación en psicología cognitiva
+              para proporcionar nuevas caracteristicas que incrementen la
+              productividad soportando las necesidades cognitivas de diseñadores
+              y arquitectos de software orientado a objeto.
+            </para>
 
           </listitem>
 
@@ -828,6 +917,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para lang="de">
 	            ArgoUML nutzt sehr stark offene Standards - UML, XMI, 
 	            SVG, OCL und andere.
+            </para>
+            <para lang="es">
+              ArgoUML soporta estandares abiertos extensivamente—UML, XMI,
+              SVG, OCL y otros.
             </para>
 
           </listitem>
@@ -844,6 +937,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            auf allen Plattformen laufen, auf denen die Laufzeitumgebung der 
 	            Java-Plattform verfügbar ist.
 			</para>
+            <para lang="es">
+              ArgoUML es una aplicación Java pura 100%. Esto permite a
+              ArgoUML funcionar en todas las plataformas para las cuales un
+              puerto fiable de la plataforma Java 2 esta disponible.
+            </para>
 
           </listitem>
 
@@ -863,6 +961,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            hat, auf deren Basis sie die Entwicklung und Evolution von 
 	            CASE-Tooltechnologien vorantreiben können.
 			</para>
+            <para lang="es">
+              ArgoUML es un proyecto de codigo abierto. La disponibilidad
+              del codigo fuente asegura que una nueva generación de diseñadores
+              de software e investigadores ahora tienen un entorno de trabajo
+              probado desde el que pueden conducir el desarrollo y evolución de
+              tecnologías de herramientas CASE.
+            </para>
 
           </listitem>
 
@@ -888,6 +993,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	Darüber hinaus bildet es eine Testumgebung für die Evolution 
         	der objektorientierten CASE-Tool-Entwicklung und -Forschung.
         </para>
+        <para lang="es">
+          UML es el lengueje de modelado OO mas prevalente y java es una
+          de las plataformas de desarrollo OO mas productivas. Jason Robbins y
+          el resto de su equipo de investigación en la universidad de
+          California, Irvine potenciaron estos beneficios creando ArgoUML. El
+          resultado es un entorno y una herramienta de desarrollo sólida para
+          diseño de sistemas OO. Es mas, proporciona un campo de de pruebas para
+          la evolución del desarrollo e investigación de herramientas CASE
+          orientadas a objeto.
+        </para>
+
 
         <para lang="en">
 	        A first release of ArgoUML was available in 1998 and more 
@@ -900,6 +1016,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        Downloads bis Mitte 2001 zeigte, dass dieses Projekt, sowohl in 
 	        den Bildungs- als auch in den kommerziellen Bereichen populär wurde.
 		</para>
+        <para lang="es">
+          Una primera publicación de ArgoUML fue disponible en 1998 y mas
+          de 100,000 descargas a mediados de 2001 demostró el impacto que este
+          proyecto ha provocado, siendo popular en campos educacionales y
+          comerciales.
+        </para>
 
       </sect2>
 
@@ -908,6 +1030,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
           <phrase lang="en">Finding Out More About the ArgoUML Project</phrase>
           <phrase lang="de">Mehr über das ArgoUML-Projekt</phrase>
+          <phrase lang="es">Encontrando Mas Sobre el Proyecto ArgoUML</phrase>
         </title>
 
         <sect3>
@@ -915,12 +1038,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <title>
             <phrase lang="en">How ArgoUML is Developed</phrase>
             <phrase lang="de">Wie wurde ArgoUML entwickelt</phrase>
+            <phrase lang="es">Como está desarrollado ArgoUML</phrase>
           </title>
 
           <indexterm><primary>Jason Robbins</primary></indexterm>
           <indexterm><primary>Robbins, Jason</primary></indexterm>
           <indexterm lang="en"><primary>Mailing lists</primary></indexterm>
           <indexterm lang="de"><primary>Mail-Listen</primary></indexterm>
+          <indexterm lang="es">
+            <primary>Mailing lists</primary>
+          </indexterm>
+
           <para lang="en">
 	          Jason Elliot Robbins founded the Argo Project and 
 	          provided early project leadership. While Jason remains active 
@@ -942,6 +1070,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          http://argouml.tigris.org/servlets/ProjectMailingListList</ulink>).
 	          Mehrere Dutzend davon, bildeten die Haupt-Entwicklergruppe. 
 		  </para>
+          <para lang="es">
+            Jason Elliot Robbins fundó el Proyecto Argo y proporciono un
+            liderazgo temprano al proyecto. Mientras Jason permanece activo en
+            el proyecto, él ha dejado el liderazgo. El proyecto continua
+            avanzando fuertemente. Hay mas de 300 miembros en la lista de correo
+            de desarrollador (mira <ulink
+            url="http://argouml.tigris.org/servlets/ProjectMailingListList">
+            http://argouml.tigris.org/servlets/ProjectMailingListList</ulink>),
+            Con un par de docenas de ellos formando el nucleo del grupo de
+            desarrollo.
+          </para>
+
 
           <para lang="en">
           	The developer mailing list is the place where all the
@@ -961,6 +1101,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             so dass neue Entwickler nicht zögern und einfach daran teilnehmen 
             sollten. Sie werden immer willkommen sein.
           </para>
+          <para lang="es">
+            La lista de correo del desarrollador es el lugar donde toda la
+            discusión sobre las ultimas tareas toma lugar, y los desarrolladores
+            discuten las direcciones que el proyecto debería tomar. Aunque
+            controvertido a veces, estas discusiones son mantenidas siempre
+            correctas y amigables (sin flame-wars y esas cosas), así que los
+            novatos (newbies) no deberian dudar y participar en ellas. Siempre
+            tendras una calurosa bienvenida allí.
+          </para>
+
 
           <indexterm lang="en">
           	<primary>Contributing</primary>
@@ -970,15 +1120,32 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           	<primary>Einbringen</primary>
           	<secondary>in ArgoUML</secondary>
           </indexterm>
+          <indexterm lang="es">
+            <primary>Contributing</primary>
+            <secondary>to ArgoUML</secondary>
+          </indexterm>
+
           <indexterm lang="en"><primary>Cookbook</primary></indexterm>
           <indexterm lang="de"><primary>Programmierhandbuch</primary></indexterm>
+          <indexterm lang="es">
+            <primary>Cookbook</primary>
+          </indexterm>
+
           <indexterm lang="en">
           	<primary>Developers&apos; Cookbook, The</primary>
           </indexterm>
           <indexterm lang="de"><primary>Entwickler-Programmierhandbuch, 
           Das</primary></indexterm>
+          <indexterm lang="es">
+            <primary>Developers' Cookbook, The</primary>
+          </indexterm>
+
           <indexterm lang="en"><primary>Developer Zone</primary></indexterm>
           <indexterm lang="de"><primary>Entwicklerbereich</primary></indexterm>
+          <indexterm lang="es">
+            <primary>Developer Zone</primary>
+          </indexterm>
+          
           <para lang="en">
           	If you want to learn how the project is run and how to
           	contribute to it, go the the
@@ -998,6 +1165,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           	auf und lesen sich die Dokumentation durch. Das Programmierhandbuch 
           	(Cookbook) wurde speziell für diesem Zweck geschrieben.
           </para>
+          <para lang="es">
+            Si quires aprender como se gestiona el proyecto y como
+            contribuir a él, vete a <ulink
+            url="http://argouml.tigris.org/dev.html"> ArgoUML Web Site Developer
+            Zone </ulink> y busca a traves de la documentación allí expuesta..
+            El Libro de Cocina del Desarrollador (Developers' Cookbook) fué
+            escrito especificamente para este proposito.
+          </para>
 
         </sect3>
 
@@ -1006,10 +1181,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <title>
             <phrase lang="en">More on Infrastructure</phrase>
             <phrase lang="de">Mehr über die Infrastruktur</phrase>
+            <phrase lang="es">Mas sobre la Infraestructura</phrase>
           </title>
 
           <indexterm lang="en"><primary>Mailing lists</primary></indexterm>
           <indexterm lang="de"><primary>Mail-Listen</primary></indexterm>
+          <indexterm lang="es"><primary>Mailing lists</primary></indexterm>
+
           <para lang="en">
           	Besides the developer mailing list, there&apos;s also a
           	mailing for users (see
@@ -1032,12 +1210,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           	Auch Entwickler lesen diese Mails, so dass grundsätzlich hoch 
           	qualifizierte Hilfe verfügbar ist.
           </para>
+          <para lang="es">
+            Ademas de la lista de correo del desarrollador, existe tambien
+            una lista de correo para usuarios (mira <ulink
+            url="http://argouml.tigris.org/servlets/ProjectMailingListList"> The
+            ArgoUML Mailing List List </ulink> ), donde podemos discutir
+            problemas desde la perspectiva del usuario. Los desarrolladores
+            tambien leen esa lista, así que generalmente se proporciona ayuda
+            altamente cualificada.
+          </para>
 
           <indexterm lang="en"><primary>FAQ</primary></indexterm>
           <indexterm lang="de"><primary>FAQ</primary></indexterm>
+          <indexterm lang="es"><primary>FAQ</primary></indexterm>
+
           <indexterm lang="de">
           	<primary>Häufig gestellte Fragen</primary>
           </indexterm>
+
           <para lang="en">
 	          Before posting to this list, you should take a look at 
 	          the <ulink url="http://argouml.tigris.org/faqs/users.html">
@@ -1049,6 +1239,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          <ulink url="http://argouml.tigris.org/faqs/users.html">
 	          Anwender-FAQ</ulink> werfen.
           </para>
+          <para lang="es">
+            Antes de postear en esta lista, deberias echar un vistazo al
+            <ulink url="http://argouml.tigris.org/faqs/users.html"> user
+            FAQ</ulink> mantenido por Ewan R. Grantham.
+          </para>
+
 
           <para lang="en">
 	          More information on ArgoUML and other UML related 
@@ -1062,6 +1258,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          <ulink url="http://argouml.tigris.org">ArgoUML 
 	          Webseite</ulink> verfügbar.
           </para>
+          <para lang="es">
+            Mas información sobre ArgoUML y otros asuntos relacionados con
+            UML está tambien disponible en el <ulink
+            url="http://argouml.tigris.org">ArgoUML website</ulink>, mantenido
+            por Linus Tolke.
+          </para>
+
 
         </sect3>
 
