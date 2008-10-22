@@ -1,63 +1,73 @@
 Welcome to ArgoUML!
 -------------------
 
-WARNING: THIS FILE IS MOSTLY OUT OF DATE.  
-It will be updated once the argouml -> argouml-documentation migration
-process is complete.
-
-
 This is the ArgoUML Documentation README file. In it you will find basic 
 information on how to build and use the ArgoUML documentation.
 
-1. DOCUMENTATION STRUCTURE
 
-This README file should be located in the root directory of the ArgoUML
-documentation directory structure.  If you are using an Eclipse project
-based directory structure, the documentation root is named 
-'argouml-documentation' and is at the same level as the other subsystem
-directories (argouml-core-model, argouml-core-infra, argouml-app, ...).
-If you checked out the sources as a single tree for use with Ant from the
-command line, the documentation is a subdirectory of the root argouml
-directory.
+1. DESCRIPTION OF FILES
 
-This directory will be referred to as ARGODOCS_HOME in the remainder of this
-document.
+./
+  .project              <<-- Project file for Eclipse.
+  build.bat             <<-- Builds Docs from Windows command line.
+  build.sh              <<-- Builds docs from *nix shell.
+  build.xml             <<-- Ant build configuration file
 
-Eclipse
--------
-argouml-core-tools      <<-- ArgoUML tools directory (checked out from trunk/tools)
-argouml-documentation   <<-- documentation root directory (checked out from trunk/documentation)
+build/*                 <<-- Where all of the output files go.
 
-Traditional Ant command line
-----------------------------
-argouml                 <<-- ArgoUML root directory (checked out from trunk)
-  documentation         <<-- documentation root directory (checked out from trunk/documentation)
+src/
+  docbook-setup/*       <<-- Configuration files for the build process.
+  manual/               <<-- Source code for the manual.
+  quickguide/           <<-- Source code for the quickguide.
+  *.launch              <<-- Config files for launching the build in Eclipse.
+  Readme.txt            <<-- The file you are reading now!
+  
+src/manual/
+  look-and-feel.css     <<-- Stylesheet for the html output.
+  manual.xml            <<-- DocBook xml source for the user manual.
+
+src/manual/images/*     <<-- Images used in the manual.
+
+src/quickguide/
+  look-and-feel.css     <<-- Stylesheet for the html output.
+  declare-argostuff.ent <<-- Common definitions used in the quickguide.
+  declare-authors.ent   <<-- List of authors.
+  quickguide.xml        <<-- DocBook xml source base file for the quickguide.
+  qstart-*.xml          <<-- DocBook xml source for the quickguide chapters.
+  
+src/quickguide/images/* <<-- Images used in the quick guide.
+
+tools/
+  apache-ant-x.x.x/*    <<-- Ant (the build tool).
+  fop-x.x.x/*           <<-- Fop (the print formatter tool).
+  
+tools/lib/
+  JimiProClasses.zip    <<-- You need to download this file! (See below).
+  resolver.jar          <<-- Used to help locate the docbook catalog.
+  saxon-x.x.x.jar       <<-- The stylesheet processor used during the build.
+
+www/*                   <<-- The argouml-documentation project's website.
+       
+
+2. TO START THE BUILD
+
+Windows:
+> build.bat docs
+
+Linux/Unix/Cygwin:
+$ ./build.sh docs
+
+Eclipse:
+Click on project,
+Run > External Tools > Open External Tools Dialogue...
+Click on a configuration (e.g. "Documentation docs (build all)").
+Click the Run button.
+
+The generated documentation is all created within the "build" directory.  
+The build process will generate this for you if it doesn't exist already.
 
 
-The ArgoUML directory structure, with explanation of the parts of the
-documentation sub-directory is shown diagramatically below:
-
-  ARGODOCS_HOME
-    cookbook            <<-- DocBook XML source for developers' cookbook
-    docbook-setup       <<-- DTD, XSL stylesheets and customisation XSL
-    manual              <<-- DocBook XML source for the User Manual
-    quick-guide         <<-- DocBook XML source for the Quick Guide
-
-
-In addition to this README file, ARGODOCS_HOME contains the
-following files:
-
-- build.xml (an Ant build script file) 
-- build.bat (a Windows batch file to start the build process when using 
-             the Ant/command line directory structure).
-- build.sh  (a Linux/Unix shell script file to start the build process when
-             using the Ant/command line directory structure).
-- default.properties - properties controlling the build process
-- *.launch, eclipse-ant-documentation.properties - Launch configurations
-            and special property file to build within Eclipse.
-
-
-2. BUILDING PDF
+3. BUILDING PDF
 
 The documentation uses Fop (part of the Apache/XML project) to generate the
 PDF. Fop relies on Sun's Jimi 1.0 library to process images in PNG format,
@@ -76,8 +86,7 @@ you own version of Jimi. The included Fop file is prepared for Jimi.
 
 2. Extract the files from the archive
 
-3. Copy JimiProClasses.zip to the tools/lib directory
-   (argouml-core-tools/lib if using Eclipse projects)
+3. Copy JimiProClasses.zip to the tools/lib/ directory
 
 You can then use the normal documentation build procedures for PDF, and PNG
 images will be included.
@@ -85,9 +94,13 @@ images will be included.
 
 4. CONTRIBUTING
 
-If you wish to contribute to an existing manual, please read the Cookbook
-on how to work with the documentation and contact the editor to discuss
-your contributions. You are most welcome!
+If you wish to contribute to the manual or quickguide, please read the Cookbook
+on how to work with the documentation.  We also invite you to subscribe to the 
+dev@argouml-documentation.tigris.org mailing list, where you can contact the 
+other authors to discuss your contributions.  More info at
+http://argouml-documentation.tigris.org/servlets/ProjectMailingListList .
+
+You are most welcome!
 
 
 Have fun!
