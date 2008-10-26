@@ -191,9 +191,11 @@ What tools do I need to use this build file?
           quickguide-htmlchunked-de,quickguide-htmlsingle-de,quickguide-pdf-de,
           manual-htmlchunked-de,manual-htmlsingle-de,manual-pdf-de,
 
-  	      tidy
+          quickguide-htmlchunked-es,quickguide-htmlsingle-es,quickguide-pdf-es,
+          manual-htmlchunked-es,manual-htmlsingle-es,manual-pdf-es,
+
+          tidy
   	      " />
-  
 	
   <target name="init">
     <echo message="Using ${ant.version}"/>
