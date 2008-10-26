@@ -3244,29 +3244,58 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          UML is itself an open standard. ArgoUML throughout has 
 	          tried to use open standards for all its interfaces.
           </para>
+          <para lang="de">
+	          Die UML ist selbst ein offener Standard. ArgoUML hat überall 
+	          versucht, offene Standards für alle seine Schnittstellen zu 
+	          verwenden.
+          </para>
 
           <para lang="en">
             The key advantage of adherence to open standards is that it
             permits easy inter-working between applications, and the ability
             to move from one application to another as necessary.
           </para>
+          <para lang="de">
+            Der Hauptvorteil am Festhalten an offenen Standards ist, dass es die 
+            einfache Zusammenarbeit zwischen Anwendungen erlaubt und die 
+            Möglichkeit eröffnet, von einer Anwendung zu einer anderen 
+            wechseln, sofern dies notwendig ist.
+          </para>
 
           <sect3>
 
             <title>
               <phrase lang="en">XML Metadata Interchange (XMI)</phrase>
+              <phrase lang="de">
+              	XML Metadaten-Austausch (Metadata Interchange XMI)
+              </phrase>
             </title>
 
             <indexterm><primary>XMI</primary></indexterm>
-            <para lang="en"><emphasis>XML Metadata Interchange (XMI)</emphasis> 
-            is the standard for saving the meta-data that make up a 
-            particular UML model. In principle this will allow you to 
-            take the model you have created in ArgoUML and import it 
-            into another tool.</para>
+            <para lang="en">
+	            <emphasis>XML Metadata Interchange (XMI)</emphasis> 
+	            is the standard for saving the meta-data that make up a 
+	            particular UML model. In principle this will allow you to 
+	            take the model you have created in ArgoUML and import it 
+	            into another tool.
+            </para>
+            <para lang="de">
+	            <emphasis>XML Metadata Interchange (XMI)</emphasis> 
+	            ist der Standard für das Speichern von Metadaten, die ein 
+	            bestimmtes UML-Modell darstellen. Im Prinzip erlaubt er es, das 
+	            in ArgoUML erstellte Modell in ein anderes Tool zu importieren.
+            </para>
 
-            <para lang="en">This clearly has advantages in allowing UML to meet 
-            its goal of being a standard for communication between 
-            designers.</para>
+            <para lang="en">
+	            This clearly has advantages in allowing UML to meet 
+	            its goal of being a standard for communication between 
+	            designers.
+            </para>
+            <para lang="de">
+	            Dies hat klare Vorteile, die es der UML erlaubt, sein Ziel zu 
+	            erreichen, der Standard für die Kommunikation zwischen Designern 
+	            zu sein.
+            </para>
 
             <para lang="en">
               The reality is not quite this good.
@@ -3276,6 +3305,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               from the model
               (see <xref linkend="s3.tut.loadsave"/>).
             </para>
+            <para lang="de">
+              Die Realität sieht nicht so gut aus.
+              Vor UML 2.0 enthielten die XMI-Dateien keine Informationen über 
+              die grafische Darstellung der Modelle, so dass das Diagramm-
+              Layout verloren ging. ArgoUML umgeht dies, indem es die grafische 
+              Information separat vom Modell speichert. 
+              (siehes <xref linkend="s3.tut.loadsave"/>).
+            </para>
 
           </sect3>
 
@@ -3283,82 +3320,165 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>
               <phrase lang="en">Graphics Formats - EPS, GIF, PGML, PNG, PS, SVG</phrase>
+              <phrase lang="de">Grafik-Formate - EPS, GIF, PGML, PNG, PS, SVG</phrase>
             </title>
 
             <itemizedlist>
 
-              <listitem><para lang="en">
-                <indexterm><primary>EPS</primary></indexterm>
-                <ulink url="http://en.wikipedia.org/wiki/Encapsulated_PostScript"><emphasis>Encapsulated
-                PostScript (EPS)</emphasis></ulink> file is a
-                PostScript file which satisfies additional restrictions.
-                These restrictions are intended to make it easier for software
-                to embed an EPS file within another PostScript document.
-              </para></listitem>
+              <listitem>
+              	<para lang="en">
+	                <indexterm><primary>EPS</primary></indexterm>
+	                <ulink url="http://en.wikipedia.org/wiki/Encapsulated_PostScript"><emphasis>Encapsulated
+	                PostScript (EPS)</emphasis></ulink> file is a
+	                PostScript file which satisfies additional restrictions.
+	                These restrictions are intended to make it easier for software
+	                to embed an EPS file within another PostScript document.
+              	</para>
+	            <para lang="de">
+	                <indexterm><primary>EPS</primary></indexterm>
+	                Die <ulink url="http://en.wikipedia.org/wiki/Encapsulated_PostScript"><emphasis>Encapsulated
+	                PostScript (EPS)</emphasis></ulink>-Datei weist zusätzliche 
+	                Beschränkungen auf. Diese Beschränkungen sind dazu gedacht, 
+	                es der Software einfacher zu machen, eine EPS-Datei in ein 
+	                anderes PostScript-Dokument einzubetten.
+	            </para>
+              </listitem>
 
-              <listitem><para lang="en">
-                <indexterm><primary>GIF</primary></indexterm>
-                <ulink url="http://en.wikipedia.org/wiki/GIF"><emphasis>Graphics
-                Interchange Format (GIF)</emphasis></ulink> uses lossless compression, 
-                and preserves sharp edges well, which makes it well-suited for ArgoUML.
-                The GIF format used to be a patent encumbered format, 
-                but all the patents have currently expired.
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <indexterm><primary>GIF</primary></indexterm>
+	                <ulink url="http://en.wikipedia.org/wiki/GIF"><emphasis>Graphics
+	                Interchange Format (GIF)</emphasis></ulink> uses lossless compression, 
+	                and preserves sharp edges well, which makes it well-suited for ArgoUML.
+	                The GIF format used to be a patent encumbered format, 
+	                but all the patents have currently expired.
+	              </para>
+	              <para lang="de">
+	                <indexterm><primary>GIF</primary></indexterm>
+	                Das <ulink url="http://en.wikipedia.org/wiki/GIF"><emphasis>Graphics
+	                Interchange Format (GIF)</emphasis></ulink> verwendet eine 
+	                verlustlose Kompression und erhält scharfe Kanten, wodurch 
+	                es für ArgoUML gut geeignet ist. Das GIF-Format ist ein 
+	                patentgeschütztes Format. Aber aktuell sind alle Patente 
+	                abgelaufen.
+	              </para>
+              </listitem>
 
-              <listitem><para lang="en">
-                <indexterm><primary>PGML</primary></indexterm>
-                <ulink url="http://en.wikipedia.org/wiki/PGML">
-                <emphasis>Precision Graphics Markup Language (PGML)</emphasis></ulink>
-                is an XML-based
-                language for representing vector graphics.
-                It was a W3C draft, but was not adopted as a recommendation.
-                PGML and VML, another XML-based vector graphics language, were
-                later joined and improved upon to create SVG (see below).
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <indexterm><primary>PGML</primary></indexterm>
+	                <ulink url="http://en.wikipedia.org/wiki/PGML">
+	                <emphasis>Precision Graphics Markup Language (PGML)</emphasis></ulink>
+	                is an XML-based
+	                language for representing vector graphics.
+	                It was a W3C draft, but was not adopted as a recommendation.
+	                PGML and VML, another XML-based vector graphics language, were
+	                later joined and improved upon to create SVG (see below).
+	              </para>
+	              <para lang="de">
+	                <indexterm><primary>PGML</primary></indexterm>
+	                <ulink url="http://en.wikipedia.org/wiki/PGML">
+	                <emphasis>Precision Graphics Markup Language (PGML)</emphasis></ulink>
+	                ist eine XML-basierte Sprache zur Darstellung von 
+	                Vektorgrafiken.
+	                Sie war ein W3C-Entwurf, der aber nicht als Empfehlung 
+	                übernommen wurde. PGML und VML, andere XML-basierte Vektor-
+	                Grafik-Sprachen, wurden später miteinander verknüpft und 
+	                verbessert, um daraus SVG (siehe unten) zu erzeugen.
+	              </para>
+              </listitem>
                 
-              <listitem><para lang="en">
-                <indexterm><primary>PNG</primary></indexterm>
-                <ulink url="http://en.wikipedia.org/wiki/Portable_Network_Graphics">
-                <emphasis>Portable Network Graphics (PNG)</emphasis></ulink> is an
-                ISO/IEC standard (15948:2004) and is also a W3C recommendation.
-                PNG is a bitmap image format that employs lossless data
-                compression. PNG was created to both improve upon and replace
-                the GIF format with an image file format that does not require
-                a patent license to use.
-                PNG is officially pronounced "ping" but it is often just
-                spelled out &mdash; probably to avoid confusion with the
-                network tool ping.
-                PNG is supported by the libpng reference library,
-                a platform-independent library that contains C functions for
-                handling PNG images.
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <indexterm><primary>PNG</primary></indexterm>
+	                <ulink url="http://en.wikipedia.org/wiki/Portable_Network_Graphics">
+	                <emphasis>Portable Network Graphics (PNG)</emphasis></ulink> is an
+	                ISO/IEC standard (15948:2004) and is also a W3C recommendation.
+	                PNG is a bitmap image format that employs lossless data
+	                compression. PNG was created to both improve upon and replace
+	                the GIF format with an image file format that does not require
+	                a patent license to use.
+	                PNG is officially pronounced "ping" but it is often just
+	                spelled out &mdash; probably to avoid confusion with the
+	                network tool ping.
+	                PNG is supported by the libpng reference library,
+	                a platform-independent library that contains C functions for
+	                handling PNG images.
+	              </para>
+	              <para lang="de">
+		            <indexterm><primary>PNG</primary></indexterm>
+	                <ulink url="http://en.wikipedia.org/wiki/PNG">
+	                <emphasis>Portable Network Graphics (PNG)</emphasis></ulink> 
+	                ist ein ISO/IEC-Standard (15948:2004) und auch eine W3C-
+	                Empfehlung. PNG ist ein Bitmap-Bildformat, das eine 
+	                verlustlose Datenkompression verwendet. PNG wurde eingesetzt, 
+	                um das GIF-Format durch ein Bildformat zu ersetzen, das die 
+	                Nutzung einer Patentlizenz entbehrlich macht.
+	                PNG wird offiziell "ping" ausgesprochen, wird aber auch sehr 
+	                oft buchstabiert &mdash; wahrscheinlich, um eine 
+	                Verwechslung mit dem Netzwerktool ping zu vermeiden.
+	                PNG wird durch die libpng-Referenzbibliothek unterstützt, eine 
+	                plattformunabhängige Bibliothek, die C-Funktionen für die 
+	                Anwendung von PNG-Bildern enthält.
+	              </para>
+              </listitem>
 
-              <listitem><para lang="en">
-                <indexterm><primary>PS</primary></indexterm>
-                <ulink url="http://en.wikipedia.org/wiki/PostScript">
-                  <emphasis>PostScript (PS)</emphasis>
-                </ulink> is a page description language and
-                programming language used primarily in the electronic and
-                desktop publishing areas.
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <indexterm><primary>PS</primary></indexterm>
+	                <ulink url="http://en.wikipedia.org/wiki/PostScript">
+	                  <emphasis>PostScript (PS)</emphasis>
+	                </ulink> is a page description language and
+	                programming language used primarily in the electronic and
+	                desktop publishing areas.
+	              </para>
+	              <para lang="de">
+	                <indexterm><primary>PS</primary></indexterm>
+	                <ulink url="http://en.wikipedia.org/wiki/PostScript/">
+	                  <emphasis>PostScript (PS)</emphasis>
+	                </ulink> ist eine Seitenbeschreibungs- und Programmiersprache, 
+	                die primär in elektronischen und Desktop-Publishing-Bereichen 
+	                eingesetzt wird. 
+	              </para>
+              </listitem>
 
-              <listitem><para lang="en">
-                <indexterm><primary>SVG</primary></indexterm>
-                <ulink url="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
-                <emphasis>Scalable Vector Graphics (SVG)</emphasis></ulink>
-                is an XML markup language for describing two-dimensional
-                vector graphics, both static and animated, and either declarative
-                or scripted.
-                It is an open standard created by the World Wide Web Consortium.
-                <!-- The next part is too literally copied from wikipedia: -->
-                The use of SVG on the web is in its infancy.
-                There is a great deal of inertia due to the long-time use of pure
-                raster formats and other formats like Macromedia Flash or Java
-                applets, but also browser support is still uneven, with native
-                support in Opera, Safari and Firefox, but Internet Explorer
-                requires a plugin.
-                See PGML above.
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <indexterm><primary>SVG</primary></indexterm>
+	                <ulink url="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
+	                <emphasis>Scalable Vector Graphics (SVG)</emphasis></ulink>
+	                is an XML markup language for describing two-dimensional
+	                vector graphics, both static and animated, and either declarative
+	                or scripted.
+	                It is an open standard created by the World Wide Web Consortium.
+	                <!-- The next part is too literally copied from wikipedia: -->
+	                The use of SVG on the web is in its infancy.
+	                There is a great deal of inertia due to the long-time use of pure
+	                raster formats and other formats like Macromedia Flash or Java
+	                applets, but also browser support is still uneven, with native
+	                support in Opera, Safari and Firefox, but Internet Explorer
+	                requires a plugin.
+	                See PGML above.
+	              </para>
+	              <para lang="de">
+	                <indexterm><primary>SVG</primary></indexterm>
+	                <ulink url="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
+	                <emphasis>Scalable Vector Graphics (SVG)</emphasis></ulink>
+	                ist eine XML-Markup-Sprache für die Beschreibung 
+	                zweidimensionaler Vektorgrafiken, die sowohl statisch als 
+	                auch animiert und entweder deklarativ oder beschreibend.
+	                Sie ist ein offener Standard, der durch das World Wide Web 
+	                Konsortium erstellt wurde. Der Verwendung von SVG im Web 
+					befindet sich noch im Anfangsstadium.
+	                Es gibt eine grosse Trägheit aufgrund der langjährigen 
+	                Nutzung reiner Raster- und anderer Formate wie Macromedia Flash 
+	                oder Java-Applets. Aber auch die Browserunterstützung ist 
+	                uneinheitlich, mit  eingebauter Unterstützung in Opera und 
+	                Firefox, während Safari und der Internet Exlorer ein Plugin 
+	                benötigen.
+	                Siehe PGML oben.
+	              </para>
+              </listitem>
 
             </itemizedlist>
 
@@ -3368,6 +3488,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>
               <phrase lang="en">Object Constraint Language (OCL)</phrase>
+              <phrase lang="de">
+              	Objekt-Bedingungs-Sprache (Object Constraint Language OCL)
+              </phrase>
             </title>
             
             <para lang="en">
@@ -3385,6 +3508,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               MOF model or metamodel that cannot otherwise be expressed by
               diagrammatic notation.
             </para>
+            <para lang="de">
+              <ulink url="[http://en.wikipedia.org/wiki/Object_Constraint_Language">
+              Die <emphasis>Object Constraint Language (OCL)</emphasis></ulink>
+              ist eine deklarative Sprache zur Beschreibung von Regeln, die auf 
+              UML-Modelle angewendet werden.
+              Sie wurde durch IBM entwickelt, und ist jetzt Teil des UML-Standard.
+              Ursprünglich war OCL nur als formale Spezifikations-Sprach-
+              Erweiterung von UML gedacht.
+              OCL kann jetzt mit jedem Meta-Object Facility (MOF) konformen 
+              Metamodell einschliesslich UML angewendet werden.
+              Die Object Constraint Language ist eine präzise Textsprache, die 
+              Bedingungen und Objekt-Abfrageausdrücke für jedes MOF- oder 
+              Meta-Modell enthält, die nicht auf andere Art durch eine Diagramm-
+              Notation ausgedrückt werden können.
+            </para>
 
           </sect3>
 
@@ -3394,6 +3532,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
             <phrase lang="en">100% Pure Java</phrase>
+            <phrase lang="de">100% reines Java</phrase>
           </title>
 
           <para lang="en">Java was conceived as an interpreted language. It 
