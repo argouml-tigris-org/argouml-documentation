@@ -3535,28 +3535,63 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <phrase lang="de">100% reines Java</phrase>
           </title>
 
-          <para lang="en">Java was conceived as an interpreted language. It 
-          doesn&apos;t have a compiler to produce code for any 
-          particular target machine. It compiles code for its own 
-          target, the <emphasis>Java Virtual Machine 
-          (JVM)</emphasis>.</para>
+          <para lang="en">
+	          Java was conceived as an interpreted language. It 
+	          doesn&apos;t have a compiler to produce code for any 
+	          particular target machine. It compiles code for its own 
+	          target, the <emphasis>Java Virtual Machine 
+	          (JVM)</emphasis>.
+          </para>
+          <para lang="de">
+	          Java wurde als interpretierende Sprache erdacht. Es ist kein 
+	          Compiler, der Code für jede beliebige Zielmaschine erzeugt. Sie 
+	          übersetzt den Code für sein eigenes Ziel, der <emphasis>Java 
+	          Virtual Machine (JVM)</emphasis>.
+          </para>
 
-          <para lang="en">Writing an interpreter for a JVM is much easier than 
-          writing a compiler, and such machines are now incorporated 
-          into almost every Web Browser. As a result most machines can 
-          run Java, with no further work.</para>
+          <para lang="en">
+	          Writing an interpreter for a JVM is much easier than 
+	          writing a compiler, and such machines are now incorporated 
+	          into almost every Web Browser. As a result most machines can 
+	          run Java, with no further work.
+          </para>
+          <para lang="de">
+	          Das Schreiben eines Interpreters für eine JVM ist sehr viel 
+	          leichter, als das Schreiben eines Compilers und, solche Maschinen 
+	          sind jetzt in fast jedem Web Browser eingebaut. Im Ergebnis können 
+	          die meisten Maschinen Java, ohne dass es weiterer Arbeiten bedarf.
+          </para>
 
-          <para lang="en">(In case you wonder why all languages aren&apos;t like 
-          this, it is because interpreted languages tend to be slower 
-          than compiled languages. However with the high performance of 
-          modern PCs, the trade-off for portability is worthwhile for 
-          many applications. Furthermore modern multi-level caches can 
-          mean that interpreted languages, which produce denser code, 
-          may actually not be that much slower anyway.)</para>
+          <para lang="en">
+	          (In case you wonder why all languages aren&apos;t like 
+	          this, it is because interpreted languages tend to be slower 
+	          than compiled languages. However with the high performance of 
+	          modern PCs, the trade-off for portability is worthwhile for 
+	          many applications. Furthermore modern multi-level caches can 
+	          mean that interpreted languages, which produce denser code, 
+	          may actually not be that much slower anyway.)
+          </para>
+          <para lang="de">
+	          (Für den Fall, dass Sie sich wundern, warum nicht alle Sprachen so 
+	          sind wie diese, dann deshalb, weil interpretierende Sprachen 
+	          langsamer sind als übersetzende Sprachen. Mit der hohen Leistung 
+	          moderner PC&apos;s und dem Handlungszwang nach Portabilität ist 
+	          diese Einschränkung für viele Applikationen trotzdem lohnenswert.
+	          Darüber hinaus können moderne Multi-Cache-Systeme bedeuten, dass 
+	          interpretierende Sprachen, die dichteren Code produzierenden, 
+	          aktuell nicht mehr sehr viel langsamer sind.)
+          </para>
 
-          <para lang="en">By choosing to write ArgoUML in pure Java, it is 
-          immediately made available to the maximum number of users 
-          with the minimum amount of effort.</para>
+          <para lang="en">
+	          By choosing to write ArgoUML in pure Java, it is 
+	          immediately made available to the maximum number of users 
+	          with the minimum amount of effort.
+          </para>
+          <para lang="de">
+	          Durch die Entscheidung, ArgoUML in reinem Java zu schreiben, wird 
+	          ArgoUML für sehr viele Anwender mit einem minimalem Aufwand 
+	          unmittelbar verfügbar.
+          </para>
 
         </sect2>
 
@@ -3564,15 +3599,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
             <phrase lang="en">Open Source</phrase>
+            <phrase lang="de">Offener Quellcode (Open Source)</phrase>
           </title>
 
-          <para lang="en">ArgoUML is an <emphasis>open source</emphasis> project. 
-          That means anyone can have a free copy of the source code, 
-          change it, use it for new purposes and so on. The only 
-          (major) obligation is that you pass your code on in the same 
-          way to others. The precise nature of what you can and 
-          can&apos;t do varies from project to project, but the 
-          principle is the same.</para>
+          <para lang="en">
+	          ArgoUML is an <emphasis>open source</emphasis> project. 
+	          That means anyone can have a free copy of the source code, 
+	          change it, use it for new purposes and so on. The only 
+	          (major) obligation is that you pass your code on in the same 
+	          way to others. The precise nature of what you can and 
+	          can&apos;t do varies from project to project, but the 
+	          principle is the same.
+          </para>
+          <para lang="de">
+	          ArgoUML ist ein <emphasis>Open Source</emphasis>-Projekt. Das 
+	          bedeutet, jeder kann eine freie Kopie des Quellcodes haben, diesen 
+	          ändern und für neue Zwecke einsetzen usw.. Die einzige (Haupt-) 
+	          Bedingung ist, dass Sie Ihren Code auf die gleiche Weise anderen  
+	          zur Verfügung stellen. Die genaue Ausprägung, was Sie tun können 
+	          und was nicht, variiert von Projekt zu Projekt, aber das Prinzip 
+	          ist das gleiche.
+          </para>
 
           <para lang="en">
             The advantage is that a small project like ArgoUML 
@@ -3583,25 +3630,56 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             people making significant contributions to ArgoUML.
             To do that commercially would cost $1m+ per year.
           </para>
+          <para lang="de">
+            Der Vorteil ist, dass ein kleines Projekt wie ArgoUML immer für 
+            zusätzliche Unterstützung offen ist. Insbesondere für diejenigen, 
+            die Ihre Ideen einbringen, wie das Programm verbessert werden kann.
+            Jederzeit können 10, 15, 20 oder mehr Personen signifikante 
+            Beiträge zu ArgoUML leisten. Dies kommerziell zu machen, würde mehr 
+            als 1 Mio. $ pro Jahr kosten.
+          </para>
 
-          <para lang="en">Its not just a spirit of pure altruism. Contributing is 
-          a way of learning <quote>hands-on</quote> about leading edge 
-          software. Its a way of getting a lot of visibility (over 
-          1,125,000 people had downloaded ArgoUML by the end of 2005). 
-          That&apos;s a lot of good experience on a r&eacute;sum&eacute;
-          and a lot of 
-          potential employers seeing you!</para>
+          <para lang="en">
+	          Its not just a spirit of pure altruism. Contributing is 
+	          a way of learning <quote>hands-on</quote> about leading edge 
+	          software. Its a way of getting a lot of visibility (over 
+	          1,125,000 people had downloaded ArgoUML by the end of 2005). 
+	          That&apos;s a lot of good experience on a r&eacute;sum&eacute;
+	          and a lot of 
+	          potential employers seeing you!
+          </para>
+          <para lang="de">
+	          Es ist aber nicht nur der Geist reiner Uneigennützigkeit. Hier 
+	          mitzuarbeiten ist ein Weg, <quote>nebenbei</quote> mehr über 
+	          führende Software zu lernen. Es ist auch ein Weg, viel 
+	          Aufmerksamkeit (über 1.125.000 Personen haben ArgoUML Ende 2005 
+	          heruntergeladen) zu bekommen. In Ihrem Lebenslauf ist das eine 
+	          sehr gute Erfahrung und eine Menge Arbeitgeber sehen Sie!
+          </para>
 
           <para lang="en">And its great for the ego!</para>
+          <para lang="de">Und es ist hervorragend für Ihr Ego!</para>
 
-          <para lang="en">Open Source doesn&apos;t preclude making money. 
-          Gentleware <ulink url="http://www.gentleware.com">
-          www.gentleware.com</ulink> sell a commercial version of 
-          ArgoUML, Poseidon. Their value proposition is not a piece of 
-          private code. Its the commercial polish and support that take 
-          risk out of using ArgoUML in a commercial development, 
-          allowing customers to take advantage of ArgoUML&apos;s 
-          leading edge technology.</para>
+          <para lang="en">
+	          Open Source doesn&apos;t preclude making money. 
+	          Gentleware <ulink url="http://www.gentleware.com">
+	          www.gentleware.com</ulink> sell a commercial version of 
+	          ArgoUML, Poseidon. Their value proposition is not a piece of 
+	          private code. Its the commercial polish and support that take 
+	          risk out of using ArgoUML in a commercial development, 
+	          allowing customers to take advantage of ArgoUML&apos;s 
+	          leading edge technology.
+          </para>
+          <para lang="de">
+	          Open Source schliesst das Geld verdienen nicht aus.  
+	          Gentleware <ulink url="http://www.gentleware.com">
+	          www.gentleware.com</ulink> verkauft eine kommerzielle Version von 
+	          ArgoUML: Poseidon. Deren Angebot ist nicht der Code. 
+	          Es ist der kommerzielle Support, der das Risiko bei der Nutzung 
+	          von ArgoUML in einer kommerziellen Entwicklung reduziert und es dem 
+	          Kunden erlaubt, die Vorteile von ArgoUML&apos;s führender 
+	          Technologie zu nutzen.
+          </para>
 
         </sect2>
 
@@ -3611,6 +3689,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>
           <phrase lang="en">ArgoUML Basics</phrase>
+          <phrase lang="de">ArgoUML Grundlagen</phrase>
         </title>
 
         <para lang="en">The aim of this section is to get you started with 
