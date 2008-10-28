@@ -3692,40 +3692,73 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <phrase lang="de">ArgoUML Grundlagen</phrase>
         </title>
 
-        <para lang="en">The aim of this section is to get you started with 
-        ArgoUML. It takes you through obtaining the code and getting it 
-        running.</para>
+        <para lang="en">
+	        The aim of this section is to get you started with 
+	        ArgoUML. It takes you through obtaining the code and getting it 
+	        running.
+        </para>
+        <para lang="de">
+	        Das Ziel dieses Abschnittes ist es, Sie in die Lage zu versetzen mit 
+	        ArgoUML zu beginnen. Er zeigt Ihnen, wie Sie den Code bekommen und 
+	        starten können.
+        </para>
 
         <sect2>
 
           <title>
             <phrase lang="en">Getting Started</phrase>
+            <phrase lang="de">Erste Schritte</phrase>
           </title>
 
           <sect3 id="s3.tut.system.requirements">
 
             <title>
               <phrase lang="en">System Requirements</phrase>
+              <phrase lang="de">Systemanforderungen</phrase>
             </title>
 
-            <para lang="en">Since ArgoUML is written in 100% pure Java, it should 
-            run on any machine with Java installed. Java version 5
-            or later is needed. You may have this in place, but if not 
-            the latest version can be downloaded free from 
-            <ulink url="http://www.java.com">www.java.com</ulink>. Note 
-            that you only need the Java Runtime Environment (JRE), 
-            there is no need to download the whole Java Development Kit 
-            (JDK).</para>
+            <para lang="en">
+	            Since ArgoUML is written in 100% pure Java, it should 
+	            run on any machine with Java installed. Java version 5
+	            or later is needed. You may have this in place, but if not 
+	            the latest version can be downloaded free from 
+	            <ulink url="http://www.java.com">www.java.com</ulink>. Note 
+	            that you only need the Java Runtime Environment (JRE), 
+	            there is no need to download the whole Java Development Kit 
+	            (JDK).
+            </para>
+            <para lang="de">
+	            Da ArgoUML in 100% reinem Java geschrieben ist, sollte es auf  
+	            jedem Rechner mit installiertem Java laufen. Es wird Java, 
+	            Version 5 oder höher benötigt. Möglicherweise ist es bereits 
+	            installiert, aber falls nicht, können Sie es von 
+	            <ulink url="http://www.java.com">www.java.com</ulink> frei 
+	            herunterladen.
+	            Beachten Sie, dass Sie nur die Java Runtime Umgebung (JRE) 
+	            benötigen. Es gibt keine Notwendigkeit das gesamte Java 
+	            Development Kit (JDK) herunterzuladen.
+	        </para>
 
-            <para lang="en">ArgoUML needs a reasonable amount of computing 
-            resource. 
-            Any PC which is able to run an operating system with 
-            a graphical user interface will suffice. 
-            Download 
-            the code from Download section of the project website 
-            <ulink url="http://argouml.tigris.org">
-            argouml.tigris.org</ulink>. Choose the version that suits 
-            your needs as described in the section below.</para>
+            <para lang="en">
+	            ArgoUML needs a reasonable amount of computing 
+	            resource. 
+	            Any PC which is able to run an operating system with 
+	            a graphical user interface will suffice. 
+	            Download 
+	            the code from Download section of the project website 
+	            <ulink url="http://argouml.tigris.org">
+	            argouml.tigris.org</ulink>. Choose the version that suits 
+	            your needs as described in the section below.
+            </para>
+            <para lang="de">
+	            ArgoUML benötigt eine vernünftige Rechenleistung. Jeder PC, der 
+	            in der Lage ist ein Betriebssystem mit einer grafischen 
+	            Benutzeroberfläche auszuführen ist dazu in der Lage. 
+	            Laden Sie den Code über den Download-Bereich der Projekt-Webseite 
+	            <ulink url="http://argouml.tigris.org">argouml.tigris.org</ulink> 
+	            herunter. Wie im nächsten Abschnitt beschrieben, wählen Sie die 
+	            Version aus, die Ihren Ansprüchen am Besten genügt.
+            </para>
 
           </sect3>
 
@@ -3733,33 +3766,59 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>
               <phrase lang="en">Downloading Options</phrase>
+              <phrase lang="de">Download-Möglichkeiten</phrase>
             </title>
 
-            <para lang="en">You have three options for obtaining ArgoUML.</para>
+            <para lang="en">
+            	You have three options for obtaining ArgoUML.
+            </para>
+            <para lang="de">
+            	Es gibt drei Optionen, wie Sie ArgoUML bekommen können.
+            </para>
 
             <orderedlist>
 
               <listitem>
 
-                <para lang="en">Run ArgoUML directly from the Web Site using Java 
-                Web Start. This is the easiest option.</para>
+                <para lang="en">
+                	Run ArgoUML directly from the Web Site using Java 
+                	Web Start. This is the easiest option.
+                </para>
+                <para lang="de">
+	                Sie starten ArgoUML direkt von der Web Seite mit Hilfe von 
+	                Java Web Start. Dies ist die einfachste Möglichkeit.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para lang="en">Download the Windows installer program. This is the 
-                right option if you are on Windows 
-                and intend using ArgoUML regularly.</para>
+                <para lang="en">
+	                Download the Windows installer program. This is the 
+	                right option if you are on Windows 
+	                and intend using ArgoUML regularly.
+                </para>
+                <para lang="de">
+                	Laden Sie das Windows-Installationsprogramm herunter. Dies 
+                	ist die richtige Option, wenn Sie mit Windows arbeiten und 
+                	beabsichtigen ArgoUML normal zu nutzen.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para lang="en">Download the binary executable code. 
-                Unless you are on Windows, this is the 
-                right option if you intend using ArgoUML regularly and 
-                is not that difficult.</para>
+                <para lang="en">
+	                Download the binary executable code. 
+	                Unless you are on Windows, this is the 
+	                right option if you intend using ArgoUML regularly and 
+	                is not that difficult.
+                </para>
+                <para lang="de">
+	                Sie laden den binären, ausführbaren Code herunter. Dies ist 
+	                die richtige Option, wenn Sie beabsichtigen, ArgoUML normal 
+	                zu nutzen. Es sei denn, Sie arbeiten unter Windows.
+                </para>
 
               </listitem>
 
@@ -3773,14 +3832,30 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   This option does require the whole JDK 
                   (see <xref linkend="s3.tut.system.requirements"/>).
                 </para>
+                <para lang="de">
+                  <indexterm><primary>Build</primary></indexterm>
+                  Sie laden sich den Quellcode mit Hilfe von Subversion herunter 
+                  und erzeugen sich Ihre eigene Version. Wählen Sie diese Option, 
+                  wenn Sie sich ansehen wollen wie ArgoUML intern arbeitet oder 
+                  wenn Sie sich als Entwickler einbringen wollen. Diese Option 
+                  erfordert das vollständige JDK 
+                  (siehe <xref linkend="s3.tut.system.requirements"/>).
+                </para>
 
               </listitem>
 
             </orderedlist>
 
-            <para lang="en">All four options are freely available through the 
-            project web site, <ulink url="http://argouml.tigris.org">
-            argouml.tigris.org</ulink>.</para>
+            <para lang="en">
+	            All four options are freely available through the 
+	            project web site, <ulink url="http://argouml.tigris.org">
+	            argouml.tigris.org</ulink>.
+            </para>
+            <para lang="de">
+	            Alle vier Optionen sind über die Projekt-Webseite 
+	            <ulink url="http://argouml.tigris.org">argouml.tigris.org</ulink> 
+	            frei verfügbar.
+            </para>
 
           </sect3>
 
@@ -3788,42 +3863,74 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>
               <phrase lang="en">ArgoUML Using Java Web Start</phrase>
+              <phrase lang="en">ArgoUML mit Java Web Start aufrufen</phrase>
             </title>
 
             <para lang="en">There are two steps to this.</para>
+            <para lang="de">Hierfür sind zwei Schritte auszuführen.</para>
 
             <orderedlist>
 
               <listitem>
 
-                <para lang="en">Install Java Web Start on your machine. This is 
-                available from 
-                <ulink url="http://java.sun.com/products/javawebstart">
-                java.sun.com/products/javawebstart</ulink>, or via the 
-                <literal>Java Web Start</literal> link on the ArgoUML 
-                <ulink url="http://argouml.tigris.org">home 
-                page</ulink>.</para>
+                <para lang="en">
+	                Install Java Web Start on your machine. This is 
+	                available from 
+	                <ulink url="http://java.sun.com/products/javawebstart">
+	                java.sun.com/products/javawebstart</ulink>, or via the 
+	                <literal>Java Web Start</literal> link on the ArgoUML 
+	                <ulink url="http://argouml.tigris.org">home 
+	                page</ulink>.
+	            </para>
+                <para lang="de">
+	                Sie installieren Java Web Start auf Ihrem Rechner. Java Web 
+	                Start ist unter
+	                <ulink url="http://java.sun.com/products/javawebstart">
+	                java.sun.com/products/javawebstart</ulink> , oder über den 
+	                <literal>Java Web Start</literal>-Link auf der ArgoUML 
+	                <ulink url="http://argouml.tigris.org">Home 
+	                page</ulink> verfügbar.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para lang="en">Click on the <literal>Launch latest stable 
-                release</literal> link on the ArgoUML 
-                <ulink url="http://argouml.tigris.org">home 
-                page</ulink>.</para>
+                <para lang="en">
+	                Click on the <literal>Launch latest stable 
+	                release</literal> link on the ArgoUML 
+	                <ulink url="http://argouml.tigris.org">home 
+	                page</ulink>.
+                </para>
+                <para lang="de">
+	                Sie klicken auf den Link <literal>Launch latest stable 
+	                release</literal> auf der ArgoUML 
+	                <ulink url="http://argouml.tigris.org">Home 
+	                page</ulink>.
+                </para>
 
               </listitem>
 
             </orderedlist>
 
-            <para lang="en">Java Web Start will download ArgoUML, cache it and 
-            start it the first time, then on subsequent starts, check 
-            if ArgoUML is updated and only download any updated parts 
-            and then start it. The ArgoUML 
-            <ulink url="http://argouml.tigris.org">home page</ulink> 
-            also provides details on starting ArgoUML from the Java Web 
-            Start console.</para>
+            <para lang="en">
+	            Java Web Start will download ArgoUML, cache it and 
+	            start it the first time, then on subsequent starts, check 
+	            if ArgoUML is updated and only download any updated parts 
+	            and then start it. The ArgoUML 
+	            <ulink url="http://argouml.tigris.org">home page</ulink> 
+	            also provides details on starting ArgoUML from the Java Web 
+	            Start console.
+            </para>
+            <para lang="de">
+	            Java Web Start wird ArgoUML herunterladen, zwischenspeichern und 
+	            das erste Mal starten. Bei darauf folgenden Starts prüft es, ob 
+	            ArgoUML seitdem aktualisiert wurde, lädt nur die aktualisierten 
+	            Teile herunter und startet es. Die ArgoUML 
+	            <ulink url="http://argouml.tigris.org">Home page</ulink> enthält 
+	            weitere Details, wie man ArgoUML mit der Java Web Start-Konsole 
+	            startet.
+            </para>
 
           </sect3>
 
@@ -3831,21 +3938,39 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>
               <phrase lang="en">Using the Windows installer</phrase>
+              <phrase lang="de">Das Windows-Installationsprogramm verwenden</phrase>
             </title>
 
-            <para lang="en">If you choose to download and install 
-            using the Windows installer, you 
-            will have a choice of downloading the latest stable version 
-            of the code (which will be more reliable, but not have all 
-            the latest features), or the current version (which will be 
-            less reliable, but have more features). Choose according to 
-            your own situation.</para>
+            <para lang="en">
+	            If you choose to download and install 
+	            using the Windows installer, you 
+	            will have a choice of downloading the latest stable version 
+	            of the code (which will be more reliable, but not have all 
+	            the latest features), or the current version (which will be 
+	            less reliable, but have more features). Choose according to 
+	            your own situation.
+            </para>
+            <para lang="de">
+            	Wenn Sie sich dazu entscheiden, ArgoUML mit Hilfe des Windows-
+            	Installationsprogrammes herunterzuladen und zu installieren, 
+            	haben Sie die Wahl, ob Sie die letzte stabile Version (die 
+            	zuverlässiger ist, aber nicht die letzten Eigenschaften 
+            	beinhaltet) oder die aktuelle Version (die unzuverlässiger ist, 
+            	aber mehr Eigenschaften beinhaltet) herunterladen. Entscheiden 
+            	Sie sich auf Basis Ihrer eigenen Situation.
+            </para>
 
             <para lang="en">
             	The install wizard gives you the opportunity to install
             	the latest "JRE" (Java Runtime Environment). There is no
             	need to select this if you already have a Sun Java
             	installed, version 5 or better.
+            </para>
+            <para lang="de">
+            	Der Installationsassistent gibt Ihnen die Möglichkeit, die 
+            	letzte "JRE" (Java Runtime Environment) zu installieren. Es gibt 
+            	keine Notwendigkeit diese Möglichkeit auszuwählen, wenn Sie 
+            	bereits Sun Java, Version 5 oder höher installiert haben.
             </para>
 
           </sect3>
@@ -3854,51 +3979,107 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>
               <phrase lang="en">Downloading the Binary Executable</phrase>
+              <phrase lang="de">Die binäre, ausführbare Datei herunterladen</phrase>
             </title>
 
-            <para lang="en">If you choose to download the binary executable, you 
-            will have a choice of downloading the latest stable version 
-            of the code (which will be more reliable, but not have all 
-            the latest features), or the current version (which will be 
-            less reliable, but have more features). Choose according to 
-            your own situation.</para>
+            <para lang="en">
+	            If you choose to download the binary executable, you 
+	            will have a choice of downloading the latest stable version 
+	            of the code (which will be more reliable, but not have all 
+	            the latest features), or the current version (which will be 
+	            less reliable, but have more features). Choose according to 
+	            your own situation.
+            </para>
+            <para lang="de">
+	            Wenn Sie sich für das Herunterladen der binären, ausführbaren 
+	            Datei entscheiden, können sie wählen, ob Sie die letzte stabile 
+	            Version (die zuverlässiger ist, aber nicht alle Eigenschaften 
+	            aufweist) oder die aktuelle Version (die unzuverlässiger ist, 
+	            aber mehr Eigenschaften aufweist) herunterladen wollen. 
+				Entscheiden Sie dies unter Berücksichtigung Ihrer eigenen 
+	            Situation.
+            </para>
 
-            <para lang="en">ArgoUML comes in <literal>.zip</literal> or <literal>
-            tar.gz</literal> flavors. Choose the former if you are a 
-            Microsoft Windows user, and the latter if you are running 
-            some flavor of Unix. 
-            There is also a Mac OS X version with <literal>.app.tgz</literal> extension.
-            Unpacking is as follows.
+            <para lang="en">
+	            ArgoUML comes in <literal>.zip</literal> or <literal>
+	            tar.gz</literal> flavors. Choose the former if you are a 
+	            Microsoft Windows user, and the latter if you are running 
+	            some flavor of Unix. 
+	            There is also a Mac OS X version with <literal>.app.tgz</literal> 
+	            extension.
+	            Unpacking is as follows.
+            </para>
+            <para lang="de">
+	            ArgoUML steht als <literal>.zip</literal> oder <literal>tar.gz
+	            </literal> Variante bereit. Wählen Sie die erste Variante, wenn 
+	            Sie Microsoft Windows Anwender sind und die letzte, wenn Sie mit 
+	            einer UNIX-Variante arbeiten. 
+	            Es gibt auch eine Mac OS X Version mit <literal>.app.tgz
+	            </literal>-Erweiterung.
+	            Das Entpacken erfolgt wie nachfolgend beschrieben.
             </para>
 
             <itemizedlist>
 
               <listitem>
 
-                <para lang="en">On Windows. Unzip the <literal>.zip</literal> 
-                file with WinZip, or if your version of Windows 
-                supports it,
-                copy the files out of the compressed folder and put 
-                them into a directory of your choosing.</para>
+                <para lang="en">
+	                On Windows. Unzip the <literal>.zip</literal> 
+	                file with WinZip, or if your version of Windows 
+	                supports it,
+	                copy the files out of the compressed folder and put 
+	                them into a directory of your choosing.
+                </para>
+                <para lang="de">
+	                Unter Windows. Entpacken Sie die <literal>.zip</literal>-Datei 
+	                mit WinZip oder mit Windows, wenn Ihre Version dies 
+	                unterstützt. Kopieren Sie die Dateien aus dem komprimierten 
+	                Verzeichnis in ein Verzeichnis Ihrer Wahl.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para lang="en">On Unix. Use GNU tar to unzip and break out the 
-                files to a directory of your choice <literal>
-                tar&nbsp;zxvf&nbsp;&lt;file&gt;.tar.gz</literal>. If you have an 
-                older version of tar, the <literal>z</literal> option 
-                may not be available, so use <literal>
-                gunzip&nbsp;&lt;&nbsp;file.tar.gz&nbsp;|&nbsp;tar&nbsp;xvf&nbsp;-</literal>.</para>
+                <para lang="en">
+	                On Unix. Use GNU tar to unzip and break out the 
+	                files to a directory of your choice <literal>
+	                tar&nbsp;zxvf&nbsp;&lt;file&gt;.tar.gz</literal>. If you have an 
+	                older version of tar, the <literal>z</literal> option 
+	                may not be available, so use <literal>
+	                gunzip&nbsp;&lt;&nbsp;file.tar.gz&nbsp;|&nbsp;tar&nbsp;xvf&nbsp;-</literal>.
+                </para>
+                <para lang="de">
+	                Unter Unix. Nutzen Sie GNU tar, um die Dateien in ein 
+	                Verzeichnis Ihrer Wahl zu entpacken. 
+                </para>
+                <para lang="de">
+                	<literal>tar&nbsp;zxvf&nbsp;&lt;file&gt;.tar.gz</literal>. 
+                </para>
+                <para lang="de">
+	                Wenn Sie eine ältere Version von tar 
+	                haben, ist die <literal>z</literal>-Option nicht verfügbar. 
+	                Benutzen Sie in diesem Fall 
+                </para>
+                <para lang="de">
+                	<literal>gunzip&nbsp;&lt;&nbsp;file.tar.gz&nbsp;|&nbsp;
+                	tar&nbsp;xvf&nbsp;-</literal>.
+                </para>
 
               </listitem>
 
             </itemizedlist>
 
-            <para lang="en">You should have a directory containing 
-            a number of <literal>.jar</literal> files and a 
-            <literal>README.txt</literal>.</para>
+            <para lang="en">
+	            You should have a directory containing 
+	            a number of <literal>.jar</literal> files and a 
+	            <literal>README.txt</literal>.
+            </para>
+            <para lang="de">
+	            Sie sollten jetzt in dem Verzeichnis eine Reihe von <literal>.jar
+	            </literal>-Dateien und die Datei <literal>README.txt</literal> 
+	            vorfinden.
+            </para>
 
           </sect3>
 
@@ -3906,32 +4087,68 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>
               <phrase lang="en">Problems Downloading and Installing</phrase>
+              <phrase lang="de">Probleme beim Herunterladen und Installieren</phrase>
             </title>
 
-            <para lang="en">If you get completely stuck and you have no local 
-            assistance, try the web site, particularly the 
-            <ulink url="http://argouml.tigris.org/faqs/users.html">
-            FAQ</ulink>. If this still doesn&apos;t solve the problem, 
-            try the ArgoUML users&apos; mailing list.</para>
+            <para lang="en">
+	            If you get completely stuck and you have no local 
+	            assistance, try the web site, particularly the 
+	            <ulink url="http://argouml.tigris.org/faqs/users.html">
+	            FAQ</ulink>. If this still doesn&apos;t solve the problem, 
+	            try the ArgoUML users&apos; mailing list.
+            </para>
+            <para lang="de">
+	            Wenn das Herunterladen vollständig abbricht und Sie keine lokale 
+	            Unterstützung haben, versuchen Sie es auf der Webseite 
+	            <ulink url="http://argouml.tigris.org/faqs/users.html">
+	            FAQ</ulink>. Wenn nicht schon Ihr Problem löst, versuchen Sie es 
+	            über die ArgoUML Mailingliste für Anwender. 
+			</para>
 
-            <para lang="en">You can subscribe through the mailing lists section 
-            of the project web site 
-            <ulink url="http://argouml.tigris.org">
-            argouml.tigris.org</ulink>, or send an empty message to 
-            <ulink url="mailto:users@argouml.org">
-            users@argouml.org</ulink> with the subject line <literal>
-            subscribe</literal>.</para>
+            <para lang="en">
+	            You can subscribe through the mailing lists section 
+	            of the project web site 
+	            <ulink url="http://argouml.tigris.org">
+	            argouml.tigris.org</ulink>, or send an empty message to 
+	            <ulink url="mailto:users@argouml.org">
+	            users@argouml.org</ulink> with the subject line <literal>
+	            subscribe</literal>.
+            </para>
+            <para lang="de">
+	            Sie können sich in die Mailingliste auf der Projektseite 
+	            <ulink url="http://argouml.tigris.org">
+	            argouml.tigris.org</ulink> registrieren, oder eine leere 
+	            Nachricht an <ulink url="mailto:users@argouml.org">
+	            users@argouml.org</ulink> mit dem Betreff <literal>subscribe
+	            </literal> senden.
+            </para>
 
-            <para lang="en">You can then send your problem to 
-            <ulink url="mailto:users@argouml.org">
-            users@argouml.org</ulink> and see how other users are able 
-            to help.</para>
+            <para lang="en">
+	            You can then send your problem to 
+	            <ulink url="mailto:users@argouml.org">
+	            users@argouml.org</ulink> and see how other users are able 
+	            to help.
+            </para>
+            <para lang="de">
+	            Sie können dann Ihr Problem an <ulink url="mailto:users@argouml.org">
+	            users@argouml.org</ulink> senden und abwarten, ob andere 
+	            Anwender Ihnen helfen können.
+            </para>
 
-            <para lang="en">The users&apos; mailing list is an excellent 
-            introduction to the live activity of the project. If you 
-            want to get further involved there are additional mailing 
-            lists that cover the development of the product and issues 
-            in the current and future releases.</para>
+            <para lang="en">
+	            The users&apos; mailing list is an excellent 
+	            introduction to the live activity of the project. If you 
+	            want to get further involved there are additional mailing 
+	            lists that cover the development of the product and issues 
+	            in the current and future releases.
+            </para>
+            <para lang="de">
+	            Die Anwender-Mailingliste ist eine exzellente Einführung in die 
+	            Live-Aktivitäten des Projektes. Wenn Sie noch stärker eingebunden 
+	            werden wollen, gibt es zusätzliche Mailinglisten, welche die 
+	            Entwicklung des Produktes und Fragen zu aktuellen und künftigen 
+	            Releases beinhalten.
+            </para>
 
           </sect3>
 
@@ -3939,17 +4156,25 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>
               <phrase lang="en">Running ArgoUML</phrase>
+              <phrase lang="de">ArgoUML starten</phrase>
             </title>
 
-            <para lang="en">To run ArgoUML depends on whether you use Microsoft 
-            Windows or some flavor of Unix.</para>
+            <para lang="en">
+	            To run ArgoUML depends on whether you use Microsoft 
+	            Windows or some flavor of Unix.
+            </para>
+            <para lang="de">
+	            Wie Sie ArgoUML starten, hängt davon ab, ob Sie Microsoft Windows 
+	            oder eine Unix-Variante verwenden.
+            </para>
 
             <itemizedlist>
 
               <listitem>
 
                 <para lang="en">
-                  On Windows. If you used the installer, starting ArgoUML is a matter of clicking on its icon.
+                  On Windows. If you used the installer, starting ArgoUML is a 
+                  matter of clicking on its icon.
                   In case you installed the binairy executable, read on:
                   Start an MSDOS shell window by e.g. 
                   using Start/Run with <quote>command</quote> in the text window.
@@ -3968,6 +4193,29 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   Refer to your operating system instructions or help facility
                   to determine how to configure this.
                 </para>
+                <para lang="de">
+                  Bei Windows. Rufen Sie die MSDOS-Eingabeaufforderung auf, z.B. 
+                  durch Start/Ausführen mit <quote>command</quote>. In dem 
+                  Fenster wechseln Sie in das Verzeichnis, in dem sich die 
+                  ArgoUML-Dateien befinden und geben Sie 
+                </para>
+                <para lang="de">
+                  <literal>java -jar argouml</literal> 
+                </para>
+                <para lang="de">
+                  ein. Diese Methode hat den Vorteil, 
+                  dass die Fortschritts- und Debug-Informationen im DOS-Fenster 
+                  angezeigt werden. Als Alternative erstellen Sie eine Batch-
+                  Datei (.bat), die das oben angeführte Kommando enthält und 
+                  verlinken diese mit dem Desktop. Die Batchdatei sollte mit 
+                  einer <quote>pause</quote>-Anweisung enden, für den Fall, dass 
+                  Debug-Informationen während der Ausführung erzeugt werden. 
+                  Auf einigen Systemen funktioniert auch ein einfacher (Doppel)-
+                  Klick auf die <literal>argouml.jar</literal>-Datei. Auf 
+                  anderen wird damit ein Zip-Tool aufgerufen. Sehen Sie in der 
+                  Beschreibung zum Betriebssystem oder in der Hilfe nach, wie 
+                  dies zu konfigurieren ist.
+                </para>
 
               </listitem>
 
@@ -3976,6 +4224,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <para lang="en">
                   On Unix. Start a shell window and type
                   <literal>java -jar argouml.jar</literal>
+                </para>
+                <para lang="de">
+                  Unter Unix. Öffnen Sie ein Shell-Fenster und geben Sie 
+                </para>
+                <para lang="de">
+                  <literal>java -jar argouml</literal> 
+                </para>
+                <para lang="de">
+                  ein.
                 </para>
 
               </listitem>
@@ -3988,6 +4245,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>
               <phrase lang="en">Problems Running ArgoUML</phrase>
+              <phrase lang="de">Probleme beim Starten von ArgoUML</phrase>
             </title>
 
             <para lang="en">
@@ -3995,6 +4253,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               download.
               If you can&apos;t solve the problem. Try the users&apos; mailing list
               (see <xref linkend="s4.probsolving"/>).
+            </para>
+            <para lang="de">
+              Wenn Sie ArgoUML erfolgreich heruntergeladen haben, ist es 
+              ungewöhnlich, wenn Probleme auftreten.
+              Wenn Sie das Problem nicht lösen können, versuchen Sie es über die 
+              Anwender-Mailingliste (siehe <xref linkend="s4.probsolving"/>).
             </para>
 
             <itemizedlist>
@@ -4005,6 +4269,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Wrong JRE.
               The most common issue is not having a new enough
               Java Runtime Environment (it must be version 5 or  later).
+            </para>
+            <para lang="de">
+              Falsche JRE.
+              Ein häufiger Grund ist eine veraltete Java Runtime Umgebung (es 
+              muss die Version 5 oder höher sein).
             </para>
 
               </listitem>
@@ -4030,6 +4299,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   take effect.
                   Use the X button at the upper right.
                 </para>
+                <para lang="de">
+                  Falsche Sprache.
+                  Wenn das Produkt in einer Sprache startet, die sie nicht lesen 
+                  können oder wollen, gehen Sie in das zweite Menü von links. 
+                  Wählen Sie den untersten Menüeintrag aus.
+                  <xref linkend="fig.prob.run.02"/> zeigt dies auf russisch.
+                  Dann klicken Sie auf den Reiter <quote>Erscheinungsbild
+                  </quote>.
+                  Öffnen Sie die Drop-Down-Liste 
+                  <xref linkend="fig.prob.run.02"/> und wählen Sie eine Sprache 
+                  aus.
+                  Beachten Sie, dass die Namen der Sprache in der jeweiligen 
+                  Sprache angezeigt werden. Die dargestellte, ausgewählte 
+                  Sprache ist Deutsch.
+                  Damit die Änderungen wirksam werden, müssen Sie ArgoUML 
+                  beenden und neu starten.
+                  Verwenden Sie die Taste X oben rechts.
+                </para>
 
               </listitem>
 
@@ -4039,6 +4326,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <title>
                 <phrase lang="en">Finding the Settings Wizard</phrase>
+                <phrase lang="de">Den Einstellungs-Assistenten finden</phrase>
               </title>
 
               <screenshot><mediaobject><imageobject>
@@ -4051,6 +4339,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <title>
                 <phrase lang="en">Setting Language in the Appearance Pane</phrase>
+                <phrase lang="de">Die Sprache unter Erscheinungsbild einstellen</phrase>
               </title>
 
               <screenshot><mediaobject><imageobject>
@@ -4066,6 +4355,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
             <phrase lang="en">The ArgoUML User Interface</phrase>
+            <phrase lang="de">Die ArgoUML-Anwenderschnittstelle</phrase>
           </title>
 
           <para lang="en">
@@ -4074,6 +4364,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             Start by reading the introduction to the User Interface Reference.
             See <xref linkend="ch.ref.ui"/>.
             You should also read the <xref linkend="s1.ref.mouse"/>
+          </para>
+          <para lang="de">
+            Bevor Sie mit der Fallstudie beginnen, müssen Sie sich noch mit der 
+            Anwenderschnittstelle vertraut machen.
+            Lesen Sie hierfür die Einleitung in der Referenz zur 
+            Anwenderschnittstelle. Siehe <xref linkend="ch.ref.ui"/>.
+            Sie sollten auch <xref linkend="s1.ref.mouse"/> lesen.
           </para>
 
           <para lang="en">
@@ -4086,16 +4383,32 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             Every attempt will be made to direct you to the appropriate part of the
             Reference at those points in the tutorial where they apply.
           </para>
+          <para lang="de">
+            Wenn Sie diese Übungsanleitung durchgehen, wird Ihnen erläutert, was 
+            Sie tun müssen. Wie Sie es tun müssen, steht oftmals in der Referenz 
+            zur Anwenderschnittstelle.
+            Zu diesem Zeitpunkt ist es nicht notwendig, dass Sie die gesamte 
+            Referenz durchlesen. Aber Sie sollten tief genug eingestiegen sein, 
+            damit Sie Dinge in der Referenz finden können.
+            An den entsprechenden Stellen in der Übungsanleitung wird der Versuch 
+            unternommen, Sie direkt zu den entsprechenden Referenz-Abschnitten zu 
+            führen.
+          </para>
 
           <para lang="en">
             <xref linkend="fig.tut.startup"/>, shows the main ArgoUML window as it
             appears when ArgoUML is first entered.
+          </para>
+          <para lang="de">
+            <xref linkend="fig.tut.startup"/>, zeigt das ArgoUML-Fenster, wie es 
+            beim ersen Aufruf angezeigt wird.
           </para>
 
           <figure float="1" id="fig.tut.startup">
 
             <title>
               <phrase lang="en">Initial ArgoUML window</phrase>
+              <phrase lang="de">Das erste ArgoUML-Fenster</phrase>
             </title>
 
             <screenshot><mediaobject><imageobject>
@@ -4112,15 +4425,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             divider bars.
             See <xref linkend="s1.ref.panes"/>.
           </para>
+          <para lang="de">
+            Ziehen Sie die vertikalen Fensterteiler vorwärts und rückwärts.
+            Ziehen Sie die horizontalen Fensterteiler hoch und runter.
+            Spielen Sie etwas mit den kleinen Pfeilen links oder oben in den 
+            Fensterteilern.
+            Siehe <xref linkend="s1.ref.panes"/>.
+          </para>
 
           <sect3 id="tut.menu.toolbars">
 
             <title>
               <phrase lang="en">The Menu Bar and Toolbars</phrase>
+              <phrase lang="de">Die Menü- und die Symbolleisten</phrase>
             </title>
 
-            <indexterm><primary>Menu Bar</primary></indexterm>
-            <indexterm><primary>Toolbars</primary></indexterm>
+            <indexterm lang="en"><primary>Menu Bar</primary></indexterm>
+            <indexterm lang="en"><primary>Toolbars</primary></indexterm>
             <para lang="en">
               The menu bar and toolbars give access to all the 
               main features of ArgoUML.
@@ -4130,15 +4451,35 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               At this time you should read <xref linkend="ch.ref.toolbar"/>
               and <xref linkend="ch.ref.menu"/>.
             </para>
+            <indexterm lang="de"><primary>Menüleiste</primary></indexterm>
+            <indexterm lang="de"><primary>Symbolleisten</primary></indexterm>
+            <para lang="de">
+              Die Menüleiste und die Symbolleisten ermöglichen Ihnen den 
+              Zugriff auf alle Features von ArgoUML.
+              Menü- und Werkzeugoptionen sind per Konvention ausgeblendet, wenn 
+              sie nicht verfügbar (ausgeschaltet) sind und auf Menüelemente, die 
+              eine Dialogbox aufrufen, weisen drei Punkte hin (...).
+              Zum jetzigen Zeitpunkt sollten Sie <xref linkend="ch.ref.toolbar"/>
+              und <xref linkend="ch.ref.menu"/> lesen.
+            </para>
 
             <para lang="en">
               <emphasis>File</emphasis> menu.
-                  <indexterm><primary>File Menu</primary></indexterm>
-                  The standard file menu entries present no surprises and we
-                  will just use them when needed without first showing how they
-                  work.
-                  A number of other actions are available that are peculiar
-                  to ArgoUML and we will go over them here.
+              <indexterm><primary>File Menu</primary></indexterm>
+              The standard file menu entries present no surprises and we
+              will just use them when needed without first showing how they
+              work.
+              A number of other actions are available that are peculiar
+              to ArgoUML and we will go over them here.
+            </para>
+            <para lang="de">
+              Menü: <emphasis>Datei</emphasis>.
+              <indexterm><primary>Menü: Datei</primary></indexterm>
+              Die Elemente des Standard-Datei-Menü&apos;s enthalten keine 
+              Überraschungen. Wenn sie benötigt werden, werden wir sie 
+              einfach verwenden, ohne vorher zu zeigen wie sie arbeiten.
+              Eine Vielzahl anderer, ArgoUML-spezifische Aktionen sind hier 
+              verfügbar. Jetzt werden wir sie allerdings überspringen.
             </para>
 
             <orderedlist>
@@ -4149,6 +4490,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       <emphasis>File=&gt;Revert to Saved.</emphasis>
                       This has the same effect as File=&gt;Open Project selecting the
                       current project.
+                    </para>
+                    <para lang="de">
+                      <emphasis>Datei=&gt;Projekt speichern rückgängig machen.
+                      </emphasis>
+                      Dies hat den gleichen Effekt wie Datei=&gt;Projekt öffnen... 
+                      und dann das aktuelle Projekt auswählen.
                     </para>
 
               </listitem>
@@ -4176,6 +4523,25 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       Observe that the name of the model has reverted back
                       to what you had saved.
                     </para>
+                    <para lang="de">
+                      <emphasis>Export/Import.</emphasis>
+                      Markieren Sie die Projektzeile oben im Explorer. 
+                      Wenn Sie diese nicht geändert haben, sollte sie 
+                      "unbenanntes Modell" lauten.
+                      Führen Sie <emphasis>Datei=&gt;Exportiere XMI</emphasis> 
+                      aus und geben Sie als Dateiname "DeleteThis" im 
+                      Dateiauswahl-Fenster ein.
+                      Markieren Sie den Reiter "Eigenschaften" im Detail-Fenster 
+                      und ändern Sie den Namen des Modelles.
+                      Führen Sie die <emphasis>Datei=&gt;Import XMI</emphasis>-
+                      Aktion aus. 
+                      Sie wird sie fragen, ob Sie Ihre vorher gemachten 
+                      Änderungen speichern möchten.
+                      Klicken Sie auf "Nein" und markieren Sie dann die 
+                      "DeleteThis.xmi"-Datei, die Sie gerade erzeugt haben.
+                      Überprüfen Sie den Namen des importierten Modelles mit dem 
+                      von Ihnen gespeicherten.
+                    </para>
 
               </listitem>
 
@@ -4186,6 +4552,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       We will cover this later.
                       You can&apos;t test it now unless you have some Java
                       source code of your own handy.
+                    </para>
+                    <para lang="de">
+                      <emphasis>Datei=&gt;Dateien importieren... .</emphasis>
+                      Wir werden dies später behandeln.
+                      Sie können dies jetzt nicht testen, es sei denn, Sie haben 
+                      Java-Quellcode zur Hand.
                     </para>
 
               </listitem>
@@ -4224,6 +4596,39 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       You will learn more about the default graphics format
                       when we get to the <emphasis>Edit</emphasis> menu.
                     </para>
+                    <para lang="de">
+                      <emphasis>Datei=&gt;(Alle) Grafik(en) exportieren... .
+                      </emphasis>
+                      Markieren Sie im Explorer-Fenster eines der Diagramme.
+                      Entweder das "Klassendiagramm 1" oder 
+                      "Anwendungsfalldiagramm 1" (dabei wurde unterstellt, dass 
+                      Sie diese nicht umbenannt oder gelöscht haben).
+                      Führen Sie <emphasis>Datei=&gt;Grafik exportieren...
+                      </emphasis> aus.
+                      Wenn sich die Dateiauswahl öffnet, steht der letzte 
+                      gespeicherte Name im Feld Dateiname (auch von einen 
+                      Projekt, das nicht mehr geöffnet ist).
+                      Die Dateiauswahl ermöglicht es Ihnen, eine Reihe von 
+                      Formaten auszuwählen.
+                      Öffnen Sie das Kombinationsfeld Dateityp und treffen Sie 
+                      Ihre Wahl.
+                      Brechen Sie ab, wenn nichts sinnvolles zum Speichern 
+                      vorhanden ist.
+                      Führen Sie <emphasis>Datei=&gt;Alle Grafiken 
+                      exportieren...</emphasis> aus.
+                      Beachten Sie, dass Sie zum jetzigen Zeitpunkt keinen 
+                      Dateinamen und kein Dateiformat auswählen können. ArgoUML 
+                      wird Ihnen nur die Eingabe eines Verzeichnisses erlauben.
+                      ArgoUML wird dann eine Datei für jedes Ihrer Diagramme 
+                      erzeugen. Der Diagrammname wird der Dateiname und die 
+                      Dateierweiterung wird durch das Standard-Grafik-Format 
+                      bestimmt. Obwohl Sie keine Dateinamen im Browserfenster 
+                      auswählen können, können Sie einen Dateinamen in das 
+                      Editierfeld eingeben.
+                      Aber wenn Sie das tun, wird nichts passieren.
+                      Sie werden mehr über das Standard-Grafik-Format erfahren, 
+                      wenn wir zum <emphasis>Bearbeiten</emphasis>-Menü gehen.
+                    </para>
 
               </listitem>
 
@@ -4247,6 +4652,26 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       and select <emphasis>Notation</emphasis>.
                       Go back and forth between UML and Java observing
                       the changes in the display in the Edit Pane.
+                    </para>
+                    <para lang="de">
+                      <emphasis>Datei=&gt;Notation.</emphasis>
+                      Wir gehen jetzt ein Stück weiter und erstellen ein kleines 
+                      Klassendiagramm, so dass wir sehen können, was es mit der 
+                      Notation auf sich hat.
+                      Im Explorer markieren oder erzeugen Sie ein 
+                      Klassendiagramm. Siehe 
+                      <xref linkend="s1.ref.create.diagram.menu"/> 
+                      und <xref linkend="s2.ref.edit_pane_drawing_tools"/>.
+                      Erstellen Sie eine Klasse im Diagramm.
+                      Gehen Sie in das Detailfenster und erstellen Sie ein 
+                      Attribut in der Klasse.
+                      Siehe <xref linkend="s2.ref.class_property_toolbar"/>.
+                      Im Register Eigenschaften des Detailfensters ändern Sie 
+                      die Kardinalität auf "1..*".
+                      Jetzt gehen Sie in das <emphasis>Datei</emphasis>-Menü und 
+                      wählen <emphasis>Notation</emphasis> aus. Wechseln Sie 
+                      zwischen UML und Java und beobachten Sie die Änderungen 
+                      im Editierfenster.
                     </para>
 
               </listitem>
@@ -4274,6 +4699,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       The next time you create a class in a diagram, this
                       new shadow value will apply.
                     </para>
+                    <para lang="de">
+                      <emphasis>Datei=&gt;Projekt-Einstellungen.</emphasis>
+                      Im Dialog Projekt-Einstellungen ist es möglich, die 
+                      projektspezifischen Einstellungen zu konfigurieren. Er 
+                      enthält Register für den Anwender, die Profile, die 
+                      Notationen und die Darstellung der Diagramme. Um zum 
+                      Beispiel die Sprach-Notation im Dialog Projekt-Einstellungen 
+                      zu ändern klicken Sie auf
+                      <emphasis>Datei=&gt;Projekt-Einstellungen...</emphasis> und 
+                      wählen Sie den Register Notationen aus.
+                      Stellen Sie die Notation auf UML1.4 ein.
+                      Markieren Sie alle Optionen und klicken Sie auf Übernehmen 
+                      und beobachten Sie die Änderungen im Diagramm.
+                      Stellen Sie die Standard-Schattenbreite auf 8 ein und 
+                      klicken Sie auf Übernehmen.
+                      Beachten Sie, es passiert nichts.
+                      Das ist so, weil Sie nicht die Schattenbreite veränderten, 
+                      sondern den Standardwert.
+                      Wenn Sie beim nächsten Mal eine Klasse in einem Diagramm 
+                      erstellen, wird dieser neue Schatten erscheinen.
+                    </para>
 
               </listitem>
 
@@ -4288,6 +4734,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   All of the choices are peculiar to ArgoUML so we are
               going to cover all of them in detail.
             </para>
+            <para lang="de">
+              Menü: <emphasis>Bearbeiten</emphasis>.
+              <indexterm lang="de"><primary>Menü: Bearbeiten</primary></indexterm>
+              Das Menü Bearbeiten sieht nicht so aus, wie Sie es von anderen 
+              Produkten gewohnt sind.
+              Es gibt keine Aktionen "Ausschneiden", "Kopieren" oder 
+              "Einfügen". Alle Aktionen sind ArgoUML-spezifisch, so dass wir 
+              Sie alle im Detail behandeln.
+            </para>
 
             <orderedlist>
 
@@ -4295,6 +4750,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                 <para lang="en">
                   <emphasis>Edit=&gt;Select.</emphasis>
+                </para>
+                <para lang="de">
+                  <emphasis>Bearbeiten=&gt;Markieren.</emphasis>
                 </para>
                 <itemizedlist>
                   <listitem>
@@ -4308,6 +4766,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       Double click on it and then click in the Edit Pane
                       for the class diagram in three different locations.
                     </para>
+                    <para lang="de">
+                      Markieren Sie ein Klassendiagramm im Explorer. Ist keines 
+                      vorhanden, erstellen Sie eines mit Hilfe von 
+                      <emphasis>Neues Diagramm=&gt;Klassendiagramm</emphasis>.
+                      Erstellen Sie mit Hilfe des Klassenwerkzeuges drei Klassen, 
+                      wie in der Referenz zur Anwenderschnittstelle unter 
+                      klassendiagrammspezifische Werkzeuge beschrieben.
+                      Führen Sie einen Doppelklick aus und klicken Sie dann im 
+                      Editierfenster für Klassendiagramme auf die drei 
+                      unterschiedlichen Klassen.
+                    </para>
                   </listitem>
                   <listitem>
                     <para lang="en">
@@ -4315,6 +4784,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       See <xref linkend="s2.ref.edit_layout"/>.
                       This allows you to do things in the Edit Pane other
                       than creating classes.
+                    </para>
+                    <para lang="de">
+                      Durch klicken auf das "Markieren"-Werkzeug machen Sie den 
+                      aktuellen Modus rückgängig. Siehe "Durch klicken auf das 
+                      "Markieren"-Werkzeug den aktuellen Modus rückgängig machen".
+                      <xref linkend="s2.ref.edit_layout"/>.
+                      Dies erlaubt es Ihnen auch andere Dinge, wie das Erstellen 
+                      von Klassen im Editierfenster auszuführen.
                     </para>
                   </listitem>
                   <listitem>
@@ -4331,6 +4808,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       to add some more elements 
                       at the left or top of the diagram.
                     </para>
+                    <para lang="de">
+                      Öffnen Sie den gesamten Explorer-Baum, so dass alle 
+                      Elemente sichtbar sind. Dann aktivieren Sie den ersten 
+                      Menüeintrag: <emphasis>Bearbeiten=&gt;Alles markieren
+                      </emphasis>. Dies markiert natürlich alle Elemente, aber 
+                      nur die Elemente des aktuellen Diagrammes. Elemente die 
+                      nur in anderen Diagrammen vorhanden sind, werden auf 
+                      diesem Weg nicht markiert. Diese Funktion ist z.B. 
+                      hilfreich, wenn Sie ein grosses Diagramm haben und alles 
+                      verschieben müssen, um einige zusätzliche Elemente auf der 
+                      linken oder oberen Seite des Diagrammes einzufügen. 
+                    </para>
                   </listitem>
                   <listitem>
                     <para lang="en">
@@ -4341,6 +4830,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       Just name the classes "A", "B", and "C".
                       Select class A, then class B, and then class C either
                       in the Edit Pane or in the Explorer Pane.
+                    </para>
+                    <para lang="de">
+                      Jede Klasse im Diagramm besteht aus drei vertikalen 
+                      Abschnitten.
+                      Führen Sie einen Doppelklick auf den obersten Abschnitt 
+                      aus und geben Sie einen Namen für die Klasse ein. 
+                      Anschliessend betätigen Sie die Enter-Taste.
+                      Benennen Sie die Klassen jetzt mit "A", "B" und "C".
+                      Markieren Sie die Klasse A, dann die Klasse B und dann die 
+                      Klasse C, entweder im Editierfenster oder im Explorer.
                     </para>
                   </listitem>
                   <listitem>
@@ -4355,6 +4854,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       <emphasis>Edit=&gt;Select=&gt;Navigate Forward</emphasis>.
                       Class B should be selected again.
                     </para>
+                    <para lang="de">
+                      Führen Sie den Befehl
+                      <emphasis>Bearbeiten=&gt;Markieren=&gt;Zurück</emphasis> 
+                      aus.
+                      Jetzt sollte die Klasse B markiert sein.
+                      Führen Sie erneut 
+                      <emphasis>Bearbeiten=&gt;Markieren=&gt;Zurück</emphasis> 
+                      aus.
+                      Die Klasse A sollte jetzt markiert sein.
+                      Abschliessend führen Sie den Befehl 
+                      <emphasis>Bearbeiten=&gt;Markieren=&gt;Vorwärts</emphasis> 
+                      aus.
+                      Die Klasse B sollte erneut markiert sein. 
+                    </para>
                   </listitem>
                   <listitem>
                     <para lang="en">
@@ -4365,6 +4878,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       <emphasis>Edit=&gt;Select=&gt;Invert Selection</emphasis>.
                       Class B should be selected again.
                     </para>
+                    <para lang="de">
+                      Führen Sie jetzt den Befehl
+                      <emphasis>Bearbeiten=&gt;Markieren=&gt;Umkehren</emphasis> 
+                      aus.
+                      Jetzt sollten die Klassen A und C markiert sein.
+                      Führen Sie erneut den Befehl 
+                      <emphasis>Bearbeiten=&gt;Markieren=&gt;Umkehren</emphasis> 
+                      aus.
+                      Die Klasse B sollte wieder markiert sein.
+                    </para>
                   </listitem>
                   <listitem>
                     <para lang="en">
@@ -4372,6 +4895,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       <emphasis>Edit=&gt;Remove From Diagram</emphasis>.
                       Notice that class B is gone from the diagram but still
                       exists in the Explorer Pane.
+                    </para>
+                    <para lang="de">
+                      Führen Sie den Befehl
+                      <emphasis>Bearbeiten=&gt;Markieren=&gt;Aus Diagramm 
+                      entfernen</emphasis> aus.
+                      Beachten Sie, dass die Klasse B aus dem Diagramm 
+                      verschwunden ist, aber im Explorer immer noch existiert.
                     </para>
                   </listitem>
                   <listitem>
@@ -4387,6 +4917,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       Now class B should be gone both from the diagram and from
                       the Explorer Pane.
                     </para>
+                    <para lang="de">
+                      Markieren Sie die Klasse B im Explorer, klicken Sie mit 
+                      der rechten Maustaste auf die Klasse und wählen Sie 
+                      "Zum Diagramm hinzufügen" aus.
+                      Bewegen Sie den Cursor in das Editierfenster und klicken 
+                      mit der linken Maustaste auf den Teil des Diagrammes, wo 
+                      Sie glauben, dass die Klasse am Besten hinpasst.
+                      Sie sollten die Klasse an die Stelle zurückbringen, von 
+                      der Sie sie vorher aus dem Diagramm entfernt haben.
+                      Führen Sie den Befehl
+                      <emphasis>Bearbeiten=&gt;Markieren=&gt;Aus Modell 
+                      entfernen</emphasis> aus.
+                      Jetzt sollte die Klasse B sowohl aus dem Diagramm als 
+                      auch aus dem Explorer verschwinden.
+                    </para>
                   </listitem>
                 </itemizedlist>
               </listitem>
@@ -4398,6 +4943,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   much larger projects to be displayed than we have available
                   at this point.
                 </para>
+                <para lang="de">
+                  <emphasis>Bearbeiten=&gt;Konfiguriere Perspektiven...
+                  </emphasis>.
+                  Lesen Sie <xref linkend="s1.ref.configure_perspectives"/>.
+                  Wir werden dies zum jetzigen Zeitpunkt nicht vertiefen, da es 
+                  sehr viel grösserer darzustellender Projekte bedarf, als wir 
+                  Sie jetzt zur Verfügung haben.
+                </para>
               </listitem>
               <listitem>
 
@@ -4405,6 +4958,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               	<title>
                   <phrase lang="en">Initial ArgoUML window</phrase>
+                  <phrase lang="de">Das erste ArgoUML-Fenster</phrase>
                 </title>
 
               	<screenshot>
@@ -4429,98 +4983,230 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   Exit from ArgoUML and restart it.
                   Note that the splash panel does not show during the load.
                 </para>
+                <para lang="de">
+                  <emphasis>Bearbeiten=&gt;Einstellungen...=&gt;Voreinstellungen
+                  </emphasis>.
+                  Geben Sie Hilfe=&gt;Über ArgoUML ein.
+                  Sehen Sie sich das Bild im Register Logo an.
+                  Dies wird als Startfenster bezeichnet.
+                  Gehen Sie in Bearbeiten=&gt;Einstellungen...=&gt;
+                  Voreinstellungen.
+                  Schalten Sie die Optionsschaltfelder "Startfenster anzeigen" 
+                  und "Gemeinsame Klassen im Voraus laden" aus.
+                  Beenden Sie ArgoUML und starten Sie es erneut.
+                  Beachten Sie, dass das Startfenster währends des Hochfahrens 
+                  nicht mehr erscheint.
+                </para>
               </listitem>
 
-              <listitem><para lang="en">
-                <emphasis>Edit=&gt;Settings=&gt;Environment</emphasis>.
-                Do <emphasis>File=&gt;Export Graphics</emphasis> and observe
-                the file extension that shows at the bottom of the file chooser
-                dialog in the "Files of type" combobox.
-                Go to the <emphasis>Edit=&gt;Settings=&gt;Environment</emphasis>
-                editor and pick some other value for Default graphics format.
-                Click "Apply" and then "OK".  Go back to the
-                <emphasis>File=&gt;Export Graphics</emphasis> dialog and notice
-                that the new format is now the default.
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <emphasis>Edit=&gt;Settings=&gt;Environment</emphasis>.
+	                Do <emphasis>File=&gt;Export Graphics</emphasis> and observe
+	                the file extension that shows at the bottom of the file chooser
+	                dialog in the "Files of type" combobox.
+	                Go to the <emphasis>Edit=&gt;Settings=&gt;Environment</emphasis>
+	                editor and pick some other value for Default graphics format.
+	                Click "Apply" and then "OK".  Go back to the
+	                <emphasis>File=&gt;Export Graphics</emphasis> dialog and notice
+	                that the new format is now the default.
+	              </para>
+	              <para lang="de">
+	                <emphasis>
+	                	Bearbeiten=&gt;Einstellungen...=&gt;Umgebung
+	                </emphasis>. Führen Sie den Befehl
+	                <emphasis>Datei=&gt;Grafik exportieren...
+	                </emphasis> aus und beobachten Sie die Dateierweiterung im 
+	                Dialogfeld "Dateityp" des Dateiauswahl-Dialoges.
+	                Gehen Sie in <emphasis>Bearbeiten=&gt;Einstellungen...=&gt;
+	                Umgebung</emphasis> und wählen einen anderen Wert für das 
+	                Standard-Grafik-Format aus.
+	                Klicken Sie auf "Übernehmen" und dann auf "OK". Gehen Sie 
+	                zurück in den <emphasis>Datei=&gt;Grafik exportieren...
+	                </emphasis>-Dialog und beachten Sie, dass das neue Format 
+	                jetzt der Standard ist. 
+	              </para>
+              </listitem>
 
-              <listitem><para lang="en">
-                <emphasis>Edit=&gt;Settings=&gt;User</emphasis>.
-                Enter your name and email address.
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <emphasis>Edit=&gt;Settings=&gt;User</emphasis>.
+	                Enter your name and email address.
+	              </para>
+	              <para lang="de">
+	                <emphasis>Bearbeiten=&gt;Einstellungen...=&gt;Benutzer
+	                </emphasis>. Geben Sie Ihren Namen und Ihre E-Mailadresse 
+	                ein.
+	              </para>
+              </listitem>
 
-              <listitem><para lang="en">
-                <emphasis>Edit=&gt;Settings=&gt;Appearance</emphasis>.
-                Change the "Look and Feel:" to Metal."
-                Note that the "Metal Theme:" editor becomes anabled.
-                Change the theme to "Very Large Fonts."
-                Click on "Apply" and then "OK."
-                Notice that nothing has happened.
-                Exit from ArgoUML and reopen it.
-                The display should be markedly different.
-                You can change it back or leave it that way as you prefer. 
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <emphasis>Edit=&gt;Settings=&gt;Appearance</emphasis>.
+	                Change the "Look and Feel:" to Metal."
+	                Note that the "Metal Theme:" editor becomes anabled.
+	                Change the theme to "Very Large Fonts."
+	                Click on "Apply" and then "OK."
+	                Notice that nothing has happened.
+	                Exit from ArgoUML and reopen it.
+	                The display should be markedly different.
+	                You can change it back or leave it that way as you prefer. 
+	              </para>
+	              <para lang="de">
+	                <emphasis>Bearbeiten=&gt;Einstellungen...=&gt;Erscheinungsbild
+	                </emphasis>.
+	                Ändern Sie "Aussehen" in "Metall".
+	                Beachten Sie, dass das Dialogfeld "Metall-Thema" aktiviert 
+	                wird. Ändern Sie das Thema in "Sehr grosse Schrift".
+	                Klicken Sie auf "Übernehmen" und dann auf "OK".
+	                Beachten Sie, dass nichts passiert ist.
+	                Beenden Sie ArgoUML und starten Sie es erneut.
+	                Die Darstellung sollte deutlich anders aussehen.
+	                Machen Sie Ihre Änderungen rückgängig. Nehmen Sie Werte, die 
+	                Sie bevorzugen.
+	              </para>
+              </listitem>
                 
-              <listitem><para lang="en">
-                <emphasis>Edit=&gt;Settings=&gt;Profiles</emphasis>.
-                Look in the Explorer Pane under "Profile Configuration". 
-                The only folder by default is the UML 1.4 profile. 
-                Now go to <emphasis>Edit=&gt;Settings=&gt;Profiles</emphasis>
-                and look at the field "Default Profiles". 
-                It only contains the same UML 1.4 profile.
-                Add the Java profile to it, and press OK.
-              </para>
-              <para lang="en">
-                If you now look at the Explorer Pane, nothing has changed, 
-                since you adapted the default setting, not the project setting.
-                Press <emphasis>File=&gt;New</emphasis> and
-                check out the profiles in the Explorer Pane: 
-                it now shows both the UML 1.4 profile and the Java profile.
-              </para>
-              <para lang="en">
-                Many examples in this manual presume that the Java profile is available,
-                so you may best leave it enabled.              
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <emphasis>Edit=&gt;Settings=&gt;Profiles</emphasis>.
+	                Look in the Explorer Pane under "Profile Configuration". 
+	                The only folder by default is the UML 1.4 profile. 
+	                Now go to <emphasis>Edit=&gt;Settings=&gt;Profiles</emphasis>
+	                and look at the field "Default Profiles". 
+	                It only contains the same UML 1.4 profile.
+	                Add the Java profile to it, and press OK.
+	              </para>
+	              <para lang="de">
+	              	<emphasis>Bearbeiten=&gt;Einstellungen=&gt;Profile</emphasis>.
+	              	Sehen Sie im Explorer unter "Profil-Konfiguration" nach. Das 
+	              	einzige Verzeichnis ist standardmäßig das UML 1.4-Profil. 
+	              	Gehen Sie jetzt in <emphasis>Bearbeiten=&gt;Einstellungen=&gt;
+	              	Profile</emphasis> und betrachten Sie das Feld 
+	              	"Standardprofile". 
+	              	Es enthält nur das gleiche UML 1.4-Profil.
+	              	Fügen Sie das Java-Profil hinzu und drücken Sie dann OK.
+	              </para>
+	              <para lang="en">
+	                If you now look at the Explorer Pane, nothing has changed, 
+	                since you adapted the default setting, not the project setting.
+	                Press <emphasis>File=&gt;New</emphasis> and
+	                check out the profiles in the Explorer Pane: 
+	                it now shows both the UML 1.4 profile and the Java profile.
+	              </para>
+	              <para lang="de">
+	              	Wenn Sie jetzt im Explorer nachsehen, hat sich nichts 
+	              	verändert, da Sie die Standardeinstellung verändert haben 
+	              	und nicht die Projekteinstellung. Drücken Sie <emphasis>
+	              	Datei=&gt;Neu</emphasis> und sehen sich die Profile im 
+	              	Explorer an: er zeigt jetzt sowohl das UML 1.4-Profil als 
+	              	auch das Java-Profil an.
+	              </para>
+	              <para lang="en">
+	                Many examples in this manual presume that the Java profile is 
+	                available,so you may best leave it enabled.              
+	              </para>
+	              <para lang="de">
+	              	Viele Beispiele in diesem Handbuch gehen davon aus, dass das 
+	              	Java-Profil verfügbar ist. Sie lassen es am Besten gleich 
+	              	aktiviert.
+	              </para>
+              </listitem>
                 
-              <listitem><para lang="en">
-                <emphasis>Edit=&gt;Settings=&gt;Configure Shortcuts</emphasis>.
-                (To be written).
-                <!-- Does not work - see issue 5207. -->
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <emphasis>Edit=&gt;Settings=&gt;Configure Shortcuts</emphasis>.
+	                (To be written).
+	                <!-- Does not work - see issue 5207. -->
+	              </para>
+	              <para lang="de">
+	              	<emphasis>Bearbeiten=&gt;Einstellungen=&gt;Tastenkürzel 
+	              	konfigurieren</emphasis>. (Noch zu beschreiben).
+	              </para>
+              </listitem>
 
-              <listitem><para lang="en">
-                <emphasis>Edit=&gt;Settings=&gt;Notations</emphasis>.
-                We played around with this earlier with the
-                <emphasis>File=&gt;Notation</emphasis> and
-                <emphasis>File=&gt;Project Properties</emphasis> menu items.
-                Start another copy of ArgoUML resize each copy so they can
-                be seen at the same time next to each other.
-                On one of them set the Notation Language to UML
-                (the actual choice will have a version number with it).
-                On the other  set the Notation Language to Java.
-              </para>
-              <para lang="en">
-                On both of them do the following.
-                Turn all of the check boxes on.
-                Do a <emphasis>File=&gt;New</emphasis>, create a class in
-                a class diagram.
-                Double click in the attributes section to create an attribute.
-                Double click in the operation section to create a method.
-                Observe the difference in the displays.
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <emphasis>Edit=&gt;Settings=&gt;Notations</emphasis>.
+	                We played around with this earlier with the
+	                <emphasis>File=&gt;Notation</emphasis> and
+	                <emphasis>File=&gt;Project Properties</emphasis> menu items.
+	                Start another copy of ArgoUML resize each copy so they can
+	                be seen at the same time next to each other.
+	                On one of them set the Notation Language to UML
+	                (the actual choice will have a version number with it).
+	                On the other  set the Notation Language to Java.
+	              </para>
+	              <para lang="de">
+	                <emphasis>Bearbeiten=&gt;Einstellungen...=&gt;Notationen
+	                </emphasis>.
+	                Bei den Menüelementen <emphasis>Datei=&gt;Notation</emphasis> 
+	                und <emphasis>Datei=&gt;Eigenschaften...</emphasis> spielten 
+	                wir bereits damit herum.
+	                Starten Sie eine weitere Instanz von ArgoUML und stellen Sie 
+	                die Grösse jeder Instanz so ein, dass Sie sie gleichzeitig 
+	                ansehen können. In einer Instanz stellen Sie die Notation 
+	                auf UML (die aktuelle Einstellung zeigt auch noch die 
+	                Versionsnummer an), in der anderen stellen Sie die Notation 
+	                auf Java ein.
+	              </para>
+	              
+	              <para lang="en">
+	                On both of them do the following.
+	                Turn all of the check boxes on.
+	                Do a <emphasis>File=&gt;New</emphasis>, create a class in
+	                a class diagram.
+	                Double click in the attributes section to create an attribute.
+	                Double click in the operation section to create a method.
+	                Observe the difference in the displays.
+	              </para>
+	              <para lang="de">
+	                In beiden tun Sie bitte folgendes.
+	                Schalten Sie alle Optionsschaltfelder ein.
+	                Führen Sie den Befehl <emphasis>Datei=&gt;Neu</emphasis> aus 
+	                und erstellen Sie eine Klasse in einem Klassendiagramm. 
+	                Erstellen Sie ein Attribut mit Hilfe eines Doppelklicks auf 
+	                den Abschnitt Attribute.
+	                Erstellen Sie eine Operation mit Hilfe eines Doppelklicks auf 
+	                den Abschnitt Operationen.
+	                Beobachten Sie die Unterschiede in den Darstellungen.
+	              </para>
+               </listitem>
 
-             <listitem><para lang="en">
-                <emphasis>Edit=&gt;Settings=&gt;Diagram Appearance</emphasis>.
-                This settings makes it possible to change the font and font-size used in the diagrams. 
-                Hence this setting does not influence the font used in the UI of ArgoUML itself.
-                The default font for ArgoUML is Dialog.
-              </para></listitem>
+             <listitem>
+	             <para lang="en">
+	                <emphasis>Edit=&gt;Settings=&gt;Diagram Appearance</emphasis>.
+	                This settings makes it possible to change the font and 
+	                font-size used in the diagrams. 
+	                Hence this setting does not influence the font used in the 
+	                UI of ArgoUML itself.
+	                The default font for ArgoUML is Dialog.
+	              </para>
+	              <para lang="de">
+	              	<emphasis>Bearbeiten=&gt;Einstellungen=&gt;
+	              	Diagramm-Darstellung</emphasis>.
+	              	Diese Einstellung ermöglicht es, die in den Diagrammen 
+	              	verwendete Schriftart und Schriftgröße zu ändern.
+	              	Deshalb hat diese Einstellung keinen Einfluss auf die 
+	              	in der Benutzeroberfläche von ArgoUML verwendete Schriftart.
+	              	Die Standard-Schriftart für ArgoUML ist Dialog.  
+	              </para>
+              </listitem>
 
-              <listitem><para lang="en">
-                <emphasis>Edit=&gt;Settings=&gt;Modules</emphasis>.
-                This shows the currently loaded modules.
-                We are not going to mess with it in this version of the
-                tutorial.
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <emphasis>Edit=&gt;Settings=&gt;Modules</emphasis>.
+	                This shows the currently loaded modules.
+	                We are not going to mess with it in this version of the
+	                tutorial.
+	              </para>
+	              <para lang="de">
+	                <emphasis>Bearbeiten=&gt;Einstellungen...=&gt;Module</emphasis>.
+	                Dies zeigt die aktuell geladenen Module.
+	                Wir wollen in dieser Version des Tutorials 
+	                nicht weiter darauf eingehen.
+	              </para>
+              </listitem>
             </orderedlist>
 
             <para lang="en">
