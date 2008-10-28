@@ -1277,6 +1277,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <title>
         <phrase lang="en">Scope of This User Manual</phrase>
         <phrase lang="de">Der Bezugsbereich dieses Anwenderhandbuches</phrase>
+        <phrase lang="es">Alcance de Este Manual de Usuario</phrase>
       </title>
 
       <sect2>
@@ -1284,6 +1285,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
           <phrase lang="en">Target Audience</phrase>
           <phrase lang="de">Der Leserkreis</phrase>
+          <phrase lang="es">Audiencia Objetivo</phrase>
         </title>
 
         <para lang="en">
@@ -1296,6 +1298,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        der UML in der OOA&amp;D (vielleicht auch mit anderen Tools) gedacht, 
 	        die zu ArgoUML wechseln möchten.
 		</para>
+		<para lang="es">
+          La publicación altual de este documento esta dirigida a usuarios
+          experimentados de UML en OOA&amp;D (quizas con otras herramientas) que
+          desean cambiar a ArgoUML.
+        </para>
 
         <para lang="en">
 	        Future releases will support designers who know 
@@ -1306,6 +1313,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        Künftige Fassungen werden Designer unterstützen, die die 
 	        OOA&amp;D kennen und die UML-Notation in Ihren Entwicklungsprozess
 	        einbinden möchten.
+        </para>
+        <para lang="es">
+          Publicaciones futuras soportaran diseñadores que conocen
+          OOA&amp;D, y desean adoptar la notación UML dentro de su proceso de
+          desarrollo.
         </para>
 
         <para lang="en">
@@ -1331,6 +1343,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         		</para>
         	</listitem>
         </orderedlist>
+        <para lang="es">
+          Un objetivo a largo plazo es soportar i) aquellos que están
+          aprendiendo diseño y desean empezar con un proceso OOA&amp;D que usa
+          notación UML, y ii) gente interesada en diseño de codigo modularizado
+          con un GUI.
+        </para>
 
       </sect2>
 
@@ -1339,6 +1357,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
           <phrase lang="en">Scope</phrase>
           <phrase lang="de">Bezugsbereich</phrase>
+          <phrase lang="es">Alcance</phrase>
         </title>
 
         <para lang="en">
@@ -1351,6 +1370,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        geben, die die Designer in Lage versetzen, ArgoUML in vollem
 	        Umfang zu nutzen. Es ist in zwei Teile untergliedert.
         </para>
+        <para lang="es">
+          La intención es que este documento proporcionará una guia
+          exhaustiva, permitiendo a los diseñadores usar ArgoUML en toda su
+          extensión.
+          Esto es en dos partes.
+        </para>
 
         <itemizedlist>
 
@@ -1362,6 +1387,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </para>
             <para lang="de">
             	Ein Übungshandbuch, das die Arbeitsweise mit ArgoUML zeigt. 
+            </para>
+            <para lang="es">
+              Un manual tutorial, mostrando como trabajar con ArgoUML
             </para>
 
           </listitem>
@@ -1376,6 +1404,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Ein vollständiges Referenzhandbuch, das alles beschreibt, was 
 	            Sie mit ArgoUML tun können.
             </para>
+            <para lang="es">
+              Un manual de referencia completo, registrando todo lo que
+              puedes hacer con ArgoUML.
+            </para>
 
           </listitem>
 
@@ -1387,6 +1419,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para lang="de">
         	Die Version 0.22 des Dokumentes bezieht sich auf den zweiten Teil.
         </para>
+        <para lang="es">
+          La version 0.22 de este documento lleva a cabo la segunda de ellas.
+        </para>
 
         <para lang="en">
 	        In this guide there are some things you will not find, 
@@ -1395,6 +1430,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para lang="de">
 	        In dieser Anleitung gibt es Einiges, das Sie nicht finden werden, 
 	        weil es an anderen Stellen beschrieben ist.
+        </para>
+        <para lang="es">
+          En esta guia hay algunas cosas que no encontraras,
+          porque están cubiertas en otro lugar.
         </para>
 
         <itemizedlist>
@@ -1406,6 +1445,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </para>
             <para lang="de">
 	            Beschreibungen, wie ArgoUML intern arbeitet. 
+            </para>
+            <para lang="es">
+              Descripciones de como ArgoUML funciona internamente.
             </para>
 
           </listitem>
@@ -1419,6 +1461,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Wie ArgoUML mit neuen Eigenschaften und Funktionen erweitert 
 	            wird.
             </para>
+            <para lang="es">
+              Como mejorar ArgoUML con nuevas caracteristicas y funciones.
+            </para>
 
           </listitem>
 
@@ -1426,6 +1471,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para lang="en">A trouble shooting guide.</para>
             <para lang="de">Eine Anleitung zur Fehlerbehebung.</para>
+            <para lang="es">Una guia de solución de problemas.</para>
 
           </listitem>
 
@@ -1433,6 +1479,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para lang="en">A summary quick reference to using ArgoUML.</para>
             <para lang="de">Eine zusammenfassende Kurzreferenz für ArgoUML.</para>
+            <para lang="es">
+              Un indice de referencia rápida para usar ArgoUML.
+            </para>
 
           </listitem>
 
@@ -1456,6 +1505,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        <ulink url="http://argouml-stats.tigris.org/documentation/quick-guide-0.22/">
 	        Die Kurzanleitung</ulink> beschrieben.
         </para>
+        <para lang="es">
+          Estos están cubiertos en <ulink
+          url="http://argouml-stats.tigris.org/documentation/defaulthtml/cookbook/">
+          the Developers Cookbook</ulink>, <ulink
+          url="http://argouml.tigris.org/faqs/users.html">el FAQ</ulink>, y
+          <ulink
+          url="http://argouml.tigris.org/documentation/defaulthtml/quickguide/">
+          la Quick Guide</ulink>.
+        </para>
 
       </sect2>
 
@@ -1466,6 +1524,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <title>
         <phrase lang="en">Overview of the User Manual</phrase>
         <phrase lang="de">Überblick über das Anwenderhandbuch</phrase>
+        <phrase lang="es">Visión General del Manual de Usuario</phrase>
       </title>
 
       <sect2>
@@ -1473,6 +1532,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
           <phrase lang="en">Tutorial Manual Structure</phrase>
           <phrase lang="de">Die Struktur des Übungshandbuches</phrase>
+          <phrase lang="es">Estructura del Manual Tutorial</phrase>
         </title>
 
         <para lang="en">
@@ -1485,6 +1545,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        UML-basierte OOA&amp;D, einschliesslich einer Anleitung, wie man 
 	        ArgoUML installiert und startet.
         </para>
+        <para lang="es">
+          <xref linkend="ch.tut.uml" /> proporciona una visión general de
+          OOA&amp;D basada en UML, incluyendo una guia para obtener ArgoUML
+          instalado y funcionando.
+        </para>
 
         <para lang="en">
 	        <xref linkend="ch.tut.reqs"/> through 
@@ -1496,7 +1561,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        <xref linkend="ch.tut.reqs"/> bis <xref linkend="ch.tut.build"/> geht 
 	        dann durch alle Teile des Designprozesses. Von der ersten Anforderung 
 	        bis zum abschliessenden Projekt-Build und der Verteilung.
-	        </para>
+	    </para>
+	    <para lang="es">
+          Desde <xref linkend="ch.tut.reqs" /> hasta <xref
+          linkend="ch.tut.build" /> se introduce en cada parte de el diseño de 
+          procesos desde la captura de los requerimientos inicial hasta el
+          desarrollo y construcción del proyecto final.
+	    </para>
 
         <para lang="en">
 	        As each UML concept is encountered, its use is explained. 
@@ -1509,6 +1580,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        Zum Schluss wird eine Fallstudie benutzt, um Beispiele für diese 
 	        Konzepte zu geben.
 		</para>
+		<para lang="es">
+		  Cuando cada concepto UML es encontrado, su uso es explicado.
+		  Su uso dentro de ArgoUML es descrito.
+		  Finalmente un caso de estudio es usado para dar ejemplos 
+		  de los conceptos en uso.
+		</para>
 
       </sect2>
 
@@ -1517,6 +1594,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
           <phrase lang="en">Reference Manual Structure</phrase>
           <phrase lang="de">Die Struktur des Referenzhandbuches</phrase>
+          <phrase lang="es">Estructura del Manual de Referencia</phrase>
         </title>
 
         <para lang="en">
@@ -1534,6 +1612,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        <xref linkend="ch.ref.menu"/> und <xref linkend="ch.ref.navpane"/>
 	        beschreiben die Menüzeile und jedes Fenster der Anwenderschnittstelle.
         </para>
+        <para lang="es">
+          <xref linkend="ch.ref.ui" /> es una visión general del interfaz
+          de usuario y proporciona un resumen del soporte para los varios tipos
+          de diagrama UML en ArgoUML.
+          <xref linkend="ch.ref.menu" /> y
+          <xref linkend="ch.ref.navpane" /> describen la barra de menu,
+          y cada una de las subventanas de la interfaz de usuario,
+          conocidas como <emphasis>Paneles</emphasis>.
+        </para>
 
         <para lang="en">
 	        <xref linkend="ch.ref.critics"/> gives details of all the 
@@ -1546,6 +1633,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        System vorhandenen kognitiven Kritiken. Unter Umständen wird ArgoUML 
 	        direkt auf dieses Handbuch verweisen, wenn es die Hilfestellung zu 
 	        einer Kritik gibt.
+        </para>
+        <para lang="es">
+          <xref linkend="ch.ref.critics" /> da detalles de todas las
+          criticas cognitivas dentro del sistema.Finalmente ArgoUML enlazará
+          directamente con este manual cuando se de notificación de las
+          criticas.
         </para>
 
         <para lang="en">
@@ -1568,6 +1661,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        Eigenschaften, sowie einige Standard-Modellelemente die im System 
 	        enthalten sind.
         </para>
+        <para lang="es">
+          <xref linkend="ch.ref.entities" /> es una visión general
+          de los artefactos (p.e. las entidades UML que pueden ser
+          colocadas en diagramas) dentro de ArgoUML.
+          Los siguientes capítulos 
+          ( <xref linkend="ch.ref.entusecase" /> hasta 
+          <xref linkend="ch.ref.entbuiltin" />) describen los 
+          artefactos que pueden ser creados por medio de cada 
+          diagrama de ArgoUML, y sus propiedades,
+          tambien como algunos artefactos estandar proporcionados con el
+          sistema.
+        </para>
 
         <para lang="en">
 	        A complete <xref linkend="glossary"/> is provided. 
@@ -1588,6 +1693,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        <xref linkend="app.legal"/> ist eine Kopie der &quot;GNU Free 
 	        Documentation License&quot;.
         </para>
+        <para lang="es">
+          Se proporciona un <xref linkend="glossary" /> completo.
+          <xref linkend="app.casestudy" /> proporciona material para 
+          suplementar el estudio de caso usado a lo largo del documento.
+          <xref linkend="app.umlres" /> y <xref linkend="app.umlcase" />
+          identifican la información subyacente en UML y 
+          las herramientas CASE UML.
+          <xref linkend="app.legal" /> es una copia de la GNU Free
+          Documentation License.
+        </para>
+
+        <para lang="es">
+          Una ambición futura es proporcionar un indice exhaustivo.
+        </para>
 
       </sect2>
 
@@ -1596,6 +1715,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
           <phrase lang="en">User Feedback</phrase>
           <phrase lang="de">Anwender-Feedback</phrase>
+          <phrase lang="es">Retroalimentación por el Usuario</phrase>
         </title>
 
         <indexterm lang="en"><primary>Feedback</primary></indexterm>
@@ -1606,6 +1726,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <indexterm lang="de"><primary>Anwender-Feedback</primary></indexterm>
         <indexterm lang="de"><primary>Überblick</primary><secondary>über das 
         Anwenderhandbuch</secondary></indexterm>
+        <indexterm lang="es">
+          <primary>Retroalimentación</primary>
+        </indexterm>
+
+        <indexterm lang="es">
+          <primary>Retroalimentacion por el Usuario</primary>
+        </indexterm>
+
+        <indexterm lang="es">
+          <primary>Contribuir</primary>
+          <secondary>a el Manual de Usuario</secondary>
+        </indexterm>
+
+
         <para lang="en">
 	        Please tell us what you think about this User Manual. 
 	        Your comments will help us make improvements.
@@ -1632,6 +1766,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        jeder dieser Maillisten über die <ulink url="http://argouml.tigris.org">
 	        ArgoUML Webseite</ulink> anmelden.
         </para>
+        <para lang="es">
+          Por favor, cuentanos que piensas sobre el Manual de Usuario.
+          Tus comentarios nos ayudarán a hacer mejoras.
+          Envia por e-mail tus ideas a la 
+          <ulink url="mailto:users@argouml.tigris.org"> Lista de Correo de
+          Usuarios de ArgoUML</ulink>.
+          En caso de que quisieras añadir en los capitulos sin 
+          desarrollar deberias contactar la 
+          <ulink url="mailto:dev@argouml.tigris.org">Lista de Correo de 
+          Desarrollador de ArgoUML</ulink>
+          para comprobar que nadie mas está trabajando en esa parte.
+          Te puedes subscribir a cualquiera de las listas de correo a
+          traves de el <ulink url="http://argouml.tigris.org">Sitio Web de
+          ArgoUML</ulink>.
+        </para>
 
       </sect2>
 
@@ -1642,6 +1791,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <title>
         <phrase lang="en">Assumptions</phrase>
         <phrase lang="de">Annahmen</phrase>
+        <phrase lang="es">Supuestos</phrase>
       </title>
   
       <para lang="en">
@@ -1654,6 +1804,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	      UML sehr vertraut ist. Dies zeigt sich durch die sparsame Beschreibung 
 	      der UML-Konzepte in diesem Übungshandbuch.
       </para>
+      <para lang="es">
+        Esta publicación del manual asume que el lector esta ya muy
+        familiarizado con UML.
+        Esto está reflejado en la sobriedad en la descripción de los
+        conceptos UML en el tutorial.
+      </para>
 
       <para lang="en">
 	      The case study is described, but not yet fully realized 
@@ -1665,6 +1821,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	      Übungsanleitung realisiert.
 	      Dies wird erst in zukünftigen Versionen dieses Handbuches der Fall sein.
       </para>
+      <para lang="es">
+        El caso de estudio está descrito, pero aún no totalmente a traves
+        del tutorial.
+        Esto será realizado en futuras publicaciones del manual.
+      </para>
 
     </sect1>
 
@@ -1675,6 +1836,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     <title>
       <phrase lang="en">Tutorial</phrase>
       <phrase lang="de">Übungsanleitung</phrase>
+      <phrase lang="es">Tutorial</phrase>
     </title>
 
     <chapter id="ch.tut.uml">
@@ -1682,6 +1844,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <title>
         <phrase lang="en">Introduction (being written)</phrase>
         <phrase lang="de">Einleitung</phrase>
+        <phrase lang="es">Introducción (escribiendose)</phrase>
       </title>
 
       <para lang="en">
@@ -1692,6 +1855,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         Diese Übungsanleitung führt Sie in Modellierung eines Systems mit Hilfe 
         von ArgoUML ein.
       </para>
+      <para lang="es">
+        Este tutorial te llevará a traves de un tour sobre el uso de
+        ArgoUML para modelar un sistema.
+      </para>  
 
       <para lang="en">
         First you will become familiar with the feel of the product and then
@@ -1742,6 +1909,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		in UML beschreiben. Die Übungsanleitung wird Sie allerdings nur durch 
 		bestimmte Teile davon führen.
       </para>
+      <para lang="es">
+        Un proyecto de ATM (automated teller machine; cajero automatico)
+        ha sido escogido como caso de estudio para demostrar los varios 
+        aspectos de modelado que ArgoUML ofrece.
+        En subsiguientes secciones vamos a desarrollar el ejemplo 
+        de Cajero Automatico en una descripción completa en UML.
+        El tutorial, sin embargo, solo te guiará a traves de parte de
+        ello.
+      </para>
 
       <para lang="en">
         At this point you should create a directory to contain your project.
@@ -1756,6 +1932,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         Ihres Dateisystems passt. Die Inhalte und die Unterverzeichnisse 
         sollten Sie so bezeichnen, wie nachfolgend beschrieben.
       </para>
+      <para lang="es">
+        En este punto deberias crear un directorio para contener tu proyecto.
+        Nombra el directorio de forma consistente con el resto de tu
+        sistema de archivos.
+        Deberias nombrar los contenidos y cualquier subdirectorio de forma 
+        equivalente por razones que se haran evidentes.
+      </para>
 
       <para lang="en">
         The case study will be an ATM system.
@@ -1767,6 +1950,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         Die Fallstudie ist ein Geldautomat. Ihre Firma heißt 
         <quote>FlyByNight Industries</quote>. Sie werden zwei Rollen spielen. 
         Die des Projektmanagers und die des Analytikers.
+      </para>
+      <para lang="es">
+        El caso de estudio será un sistema de Cajero Automatico.
+        Tu compañoa es FlyByNight Industries.
+        Tú vas a jugar dos papeles.
+        El de Gestor de Proyecto (Project Manager) y
+        el de Analista Diseñador (Designer Analyst).
       </para>
 
       <para lang="en">
@@ -1780,6 +1970,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         werden, ist ein Geldautomatensimulator, der zum Testen und Entwerfen  
         eines physikalisch vorhandenen Geldautomaten verwendet wird.
       </para>
+      <para lang="es">
+        No vamos a construir ningún Cajero Automatico fisicamente, por
+        supuesto.
+      </para>
+
+      <para lang="es">
+        Primero te familiarizaras con el producto y luego iremos a traves
+        de un proceso de analisis y desarrollo para un caso de prueba.
+      </para>
+
 
       <para lang="en">
         How your company arranges its work into projects is usually determined as
@@ -1794,6 +1994,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         steht dies nicht im Mittelpunkt dieses Dokumentes. Wir werden zeigen, 
         wie Sie Ihr Projekt nach dessen Definition selbst strukturieren können.
       </para>
+      <para lang="es">
+        La forma en como tu compañia organiza su trabajo en proyectos está
+        determinada normalmente por asuntos de politicas y demas cosas por el
+        estilo, por tanto, fuera del ámbito de este documento.
+        Iremos dentro de como estructuras el proyecto en sí mismo una vez
+        que ha sido definido.
+      </para>
 
     </chapter>
 
@@ -1802,6 +2009,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <title>
         <phrase lang="en">UML Based OOA&amp;D</phrase>
         <phrase lang="de">UML basierte OOA&amp;D</phrase>
+        <phrase lang="es">OOA&amp;D basada en UML</phrase>
       </title>
 
       <para lang="en">
@@ -1812,13 +2020,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         In diesem Kapitel sehen Sie, wie UML als Notation innerhalb 
         der OOA&amp;D verwendet wird.
       </para>
+      <para lang="es">
+        En este capitulo, miramos como UML como notación
+        es usado dentro de OOA&amp;D.
+      </para>
 
       <sect1>
 
         <title>
           <phrase lang="en">Background to UML</phrase>
           <phrase lang="de">Hintergrundinformationen zu UML</phrase>
-        </title> 
+          <phrase lang="es">Antecedentes para UML</phrase>
+        </title>
 
         <para lang="en">
 	        <emphasis>Object orientation</emphasis> as a concept has 
@@ -1835,6 +2048,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        ernstzunehmende Alternative zum <emphasis>funktionalen Ansatz
 	        </emphasis>. 
 	        Wir können hierfür eine Anzahl von Treibern identifizieren.
+        </para>
+        <para lang="es">
+          La <emphasis>orientacion a Objeto</emphasis> como concepto
+          ha existido desde la decada de 1960, y como concepto
+          de diseño desde 1972.
+          Sin embargo fué en la decada de 1980 que empezó a desarrollarse
+          como una alternativa creible a el 
+          <emphasis>enfoque funcional</emphasis> en analisis y diseño.
+          Podemos idientificar un numero de factores.
         </para>
 
         <orderedlist>
@@ -1853,6 +2075,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            OO-Sprache, die wegen ihrer Verknüpfung mit UNIX sehr weit 
 	            verbreitet war.
 			</para>
+			<para lang="es">
+              La aparición como corriente dominante de lenguajes de
+              programación OO como SmallTalk y particularmente C++.
+              C++ fué un lenguaje OO pragmatico derivado de C,
+              ampliamente usado por causa de su asociación con Unix.
+            </para>
 
           </listitem>
 
@@ -1870,6 +2098,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Grafische Anwenderschnittstellen (GUI) haben eine 
 	            eingebaute Objektstruktur.
 			</para>
+			<para lang="es">
+              El desarrollo de potentes estaciones de trabajo
+              (workstations), y con ellas la aparición dentro de
+              la corriente dominante de entornos de ventanas para 
+              los usuarios.
+              Los Interfaces Graficos de Usuario
+              (Graphical User Interfaces; GUI)
+              tienen una estructura de objetos inherente.
+            </para>
 
           </listitem>
 
@@ -1884,6 +2121,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Eine Vielzahl sehr bekannter Projektfehlschläge, die 
 	            nahelegten, dass der aktuelle Ansatz nicht mehr tragfähig
 	            war.
+            </para>
+            <para lang="es">
+              Un número de proyectos fallidos muy publicitados,
+              sugiriendo que el enfoque actual no era satisfactorio.
             </para>
 
           </listitem>
@@ -1904,6 +2145,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        ROOM (für Echtzeit-Design) und die hybride &quot;Strukturierte 
 	        Programmierung&quot; von Jackson.
         </para>
+        <para lang="es">
+          Un numero de investigadores propusieron procesos OOA&amp;D, 
+          y con	ellos notaciones.
+          Aquellas que alcanzaron cierto exito incluyen
+          Coad-Yourdon, Booch, Rumbaugh OMT, OOSE/Jacobson, Shlaer-Mellor, ROOM
+          (para diseño de tiempo real) y el hibrido Jackson Structured
+          Development.
+        </para>
 
         <para lang="en">
 	        During the early 1990&apos;s it became clear that these 
@@ -1918,6 +2167,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        waren jedoch die unterschiedlichen Notationen, was bedeutete, dass  
 	        die Ingenieure mehr mit einer bestimmten OOA&amp;D-Methode als mit  
 	        dem generellen Ansatz vertraut waren.
+        </para>
+        <para lang="es">
+          Durante los tempranos 1990 se hizo claro que estos enfoques
+          tenian muchas buenas ideas, a menudo muy similares.
+          Un gran obstaculo fué la diversidad de notación,
+          significando que los ingenieros tendian a tener familiaridad 
+          con una metodologia OOA&amp;D, en lugar de el enfoque en general.
         </para>
 
         <para lang="en">
@@ -1946,6 +2202,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        Vorschlag, Version 1.0 wurde im Frühjahr 1997 veröffentlicht. Eine 
 	        verbesserte Version 1.1 erschien im Herbst.
         </para>
+        <para lang="es">
+          UML fué concevido como una notacion común, 
+          que sería de interes para todos los involucrados.
+          El estandar original fué gestionado por  Rational Software
+          ( <ulink url="http://www.rational.com">www.rational.com</ulink>,
+          en el cual tres de los investigadores clave en el campo
+          (Booch, Jacobson y Rumbaugh estuvieron involucrados).
+          Produjeron documentos describiendo UML v0.9 y v0.91 durante 1996.
+          El esfuerzo fué tomado ampliamente por la industria a traves
+          del Object Management Group (OMG), ya bien conocido por
+          el estandar CORBA.
+          Una primera propuesta, 1.0 fué publicada al comienzo de 1997,
+          con una mejorada versión 1.1 aprobada ese otoño.
+        </para>
 
         <para lang="en">
 	        ArgoUML is based on UML v1.4, which was adopted by OMG in 
@@ -1960,6 +2230,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        herausgegeben als ISO/IEC 19501. Die aktuelle UML Version ist 
 	        UML, Version 2.1.2 vom November 2007.
         </para>
+        <para lang="es">
+          ArgoUML está basado en UML v1.4, la cual fué adoptada por OMG en
+          Marzo del 2000.
+          La versión oficial actual es UML v1.5 fechada en
+          Marzo del 2003, para ser reemplazada pronto por una revisión mayor,
+          UML v2.0, la cual esta en sus etapas finales de estandarización y
+          se espera completa en 2006.
+        </para>
 
       </sect1>
 
@@ -1968,6 +2246,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
           <phrase lang="en">UML Based Processes for OOA&amp;D</phrase>
           <phrase lang="de">UML basierter Prozess für OOA&amp;D</phrase>
+          <phrase lang="es">Procesos Basados en UML para OOA&amp;D</phrase>
         </title>
 
         <para lang="en">
@@ -1980,6 +2259,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           Sie müssen verstehen, dass UML eine Notation für die OOA&amp;D ist. 
           Sie schreibt keinen bestimmten Prozess vor. Welcher Prozess auch immer 
           angewendet wird, ein System wird in mehreren Phasen konstruiert.
+        </para>
+        <para lang="es">
+          Es importante comprender que UML es una notación para OOA&amp;D.
+          No describe ningñun proceso en particular.
+          Cualquier proceso adoptado, llevará al sistema por un número
+          de fases para ser construido.
         </para>
 
         <orderedlist>
@@ -2000,12 +2285,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Worten, wir beschreiben das Problem mit den Begrifflichkeiten 
 	            des <quote>Kunden</quote>.
             </para>
+            <para lang="es">
+              Captura de Requerimientos.
+              Esto es donde identificamos los requerimientos para el sistema,
+              usando el lenguaje del <emphasis>dominio del probrema</emphasis>.
+              En otras palabras, describimos el problema en los terminos del
+              <quote>cliente</quote>.
+            </para>
 
           </listitem>
 
           <listitem>
             <indexterm lang="en"><primary>Analysis</primary></indexterm> 
             <indexterm lang="de"><primary>Analyse</primary></indexterm>
+            <indexterm lang="es">
+              <primary>Analysis</primary>
+            </indexterm>
 
             <para lang="en">
 	            Analysis. We take the requirements and start to 
@@ -2025,12 +2320,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            abseits von den konkreten Details einer spezifischen Lösung.  
 	            Dieser Vorgang ist als <emphasis>Abstraktion</emphasis> bekannt.
             </para>
+            <para lang="es">
+              Analisis.
+              Tomamos los requerimientos y empezamos a refundirlos en
+              el lenguaje de la solución—el
+              <emphasis>dominio de la solution</emphasis>.
+              En esta etapa, aunque pensando en terminos de una solución,
+              aseguramos mantener las cosas a un alto nivel,
+              lejos de detalles concretos de una solución especifica-lo
+              que es conocido como <emphasis>abstracción</emphasis>.
+            </para>
 
           </listitem>
 
           <listitem>
             <indexterm lang="en"><primary>Design</primary></indexterm>
             <indexterm lang="de"><primary>Design</primary></indexterm>
+            <indexterm lang="es"><primary>Design</primary></indexterm>
 
             <para lang="en">
 	            Design. We take the specification from the Analysis 
@@ -2044,6 +2350,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            konstruieren die Lösung ganz detailliert. Wir bewegen uns von 
 	            der <emphasis>Abstraktion</emphasis> des Problemes, hin zu seiner 
 	            <emphasis>Realisierung</emphasis> in konkreter Form.
+            </para>
+            <para lang="es">
+              Diseño.
+              Tomamos la especificación de la fase de Analisis y
+              construimos la solución con todo detalle.
+              Nos estamos moviendo de la <emphasis>abstracción</emphasis>
+              del problema a su <emphasis>realización</emphasis>
+              en terminos concretos.
             </para>
 
           </listitem>
@@ -2068,6 +2382,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Validierung</emphasis>) und das Schreiben der gesamten 
 	            Anwenderdokumentation.
             </para>
+            <para lang="es">
+              Fase de Construcción.
+              Tomamos el diseño actual y lo escribimos en un lenguaje
+              de programación real.
+              Esto incluye no solo la programación,
+              si no tambien la prueba de que el programa
+              cumple los requerimientos (<emphasis>verificación</emphasis>),
+              probando que el programa realmente resuelve el problema del
+              cliente (<emphasis>validacion</emphasis>) y escribiendo toda la
+              documentación de usuario.
+            </para>
 
           </listitem>
 
@@ -2078,6 +2403,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <title>
             <phrase lang="en">Types of Process</phrase>
             <phrase lang="de">Prozesstypen</phrase>
+            <phrase lang="es">Tipos de Procesos</phrase>
           </title>
 
           <para lang="en">
@@ -2089,6 +2415,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          In diesem Abschnitt sehen wir uns die beiden Hauptprozesstypen 
 	          an, die im Software-Engineering verwendet werden. Es gibt noch 
 	          weitere, diese werden aber weniger häufig eingesetzt.
+          </para>
+          <para lang="es">
+            En esta sección miramos a los dos tipos principales de procesos
+            en us por la ingeniería del software.
+            Hay otros, pero son menos ampliamente usados.
           </para>
 
           <para lang="en">
@@ -2108,12 +2439,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          <emphasis>extreme programming</emphasis> bekannt), die auf sehr 
 	          kleine Ingenieurteams zugeschnitten waren.
           </para>
+          <para lang="es">
+            En años recientes ha habido tambien un movimiento para reducir
+            el esfuerzo requerido en desarrollar software.
+            Esto ha llevado al desarrollo de un numero de variantes 
+            ligeras de procesos (a menudo conocidas como 
+            <emphasis>computacion agil</emphasis> o 
+            <emphasis>programación extrema</emphasis>) que son apropiadas para
+            equipos muy pequeños de ingenieros.
+          </para>
 
           <sect3>
 
             <title>
               <phrase lang="en">The Waterfall Process</phrase>
               <phrase lang="de">Der Wasserfall-Prozess</phrase>
+              <phrase lang="es">El Proceso en Cascada</phrase>
             </title>
 
             <para lang="en">
@@ -2128,12 +2469,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            abgeschlossen, bevor der nächste beginnt. Dies ist in 
 	            <xref linkend="fig.waterfallsteps"/> illustriert.
             </para>
+            <para lang="es">
+              En este proceso, cada etapa del proceso-requerimientos,
+              analisis y construccion (codigo y prueba) es completada antes que
+              la siguiente comienze.
+              Esto se ilustra en <xref linkend="fig.waterfallsteps" />.
+            </para>
 
             <figure float="1" id="fig.waterfallsteps">
 
               <title>
                 <phrase lang="en">The Waterfall Process</phrase>
                 <phrase lang="de">Der Wasserfall-Prozess</phrase>
+                <phrase lang="es">El Proceso en Cascada</phrase>
               </title>
 
               <screenshot><mediaobject><imageobject>
@@ -2153,6 +2501,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            werden&mdash; zum Beispiel die Automatisierung eines bewährten, 
 	            manuellen Systems.
             </para>
+            <para lang="es">
+              Este es un proceso muy satisfactorio donde los requerimientos
+              están bien diseñados no se espera que cambien, por ejemplo
+              automatizar un sistema manual bien probado.
+            </para>
 
             <para lang="en">
 	            The weaknesses of this approach show with less well 
@@ -2167,6 +2520,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            bis zur Phase Analyse und Design, oder auch bis zur Codephase 
 	            ungeklärt. Dies erfordert dann ein Zurückgehen, um diese Arbeit 
 	            nachzuholen.
+            </para>
+            <para lang="es">
+              La debilidad de este enfoque se muestra problemas menos 
+              bien definidos. 
+              Invaliablemente algunas de las incertidumbres en 
+              los requerimientos no serán clarificados hasta bien 
+              entrado el analisis y el diseño, 
+              o incluso en fases de codificación, 
+              requiriendo volver atras para rehacer trabajo.
             </para>
 
             <para lang="en">
@@ -2183,6 +2545,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Anforderungen (zum Beispiel mit der Anwenderschnittstelle) in 
 	            Erscheinung treten.
             </para>
+            <para lang="es">
+              El peor aspecto de esto, es que no cuentas con codigo que
+              funcione hasta cerca del final del proyecto,
+              y muy a menudo es solo en esta etapa en la que los problemas 
+              con los requerimientos originales 
+              (por ejemplo con la interfaz de usuario)
+              se hacen visibles.
+            </para>
 
             <para lang="en">
 	            This is exacerbated, by each successive stage 
@@ -2197,6 +2567,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            entdeckter Probleme extrem teuer sind. Dies wird durch die  
 	            Pyramide in <xref linkend="fig.waterfall"/> dargestellt.
             </para>
+            <para lang="es">
+              Esto está exacerbado, por cada etapa sucesiva requiriendo mas
+              esfuerzo que la anterior, así que los costos del decubrimiento de
+              un problema tardío son enormemente caros. 
+              Esto esta ilustrado por
+              la piramide en <xref linkend="fig.waterfall" />.
+            </para>
 
             <figure float="1" id="fig.waterfall">
 
@@ -2206,6 +2583,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 </phrase>
                 <phrase lang="de">
                   Zu erwartender Aufwand je Schritt des Wasserfallmodelles
+                </phrase>
+                <phrase lang="es">
+                  Esfuerzo Involucrado en los Pasos 
+                  del Proceso en Cascada
                 </phrase>
               </title>
 
@@ -2229,6 +2610,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Insbesondere bei Projekten, bei denen die Anforderungen schlecht  
 	            definiert sind.
             </para>
+            <para lang="es">
+              El proceso en cascada es probablemente aún el proceso de 
+              diseño dominante.
+              Sin embargo debido a sus limitaciones esta cada vez mas 
+              siendo sustituido por procesos <emphasis>iterativos</emphasis>,
+              particularmente por proyectos donde los requerimientos 
+              nos están bien definidos.
+            </para>
 
           </sect3>
 
@@ -2237,9 +2626,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Iterative Development Processes</phrase>
               <phrase lang="de">Iterative Entwicklungsprozesse</phrase>
+              <phrase lang="es">Procesos de Desarrollo Iterativo</phrase>
             </title>
             <indexterm lang="en"><primary>Iterative Processes</primary></indexterm>
             <indexterm lang="de"><primary>Iterative Prozesse</primary></indexterm>
+            <indexterm lang="es">
+              <primary>Procesos Iterativos</primary>
+            </indexterm>
+
 
             <para lang="en">
 	            In recent years a new approach has been used, which 
@@ -2252,6 +2646,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Ziel es war, einen minimalen Teil Code fertigzustellen und 
 	            schnellstmöglichst ausführen zu können, um Probleme im 
 	            Entwicklungszyklus sehr schnell aufzudecken.
+            </para>
+            <para lang="es">
+              En años recientes un nuevo enfoque ha sido usado,
+              el cual anima a conseguir al menos una parte 
+              del codigo funcionando tan pronto como sea posible,
+              para conseguir descubrir problemas antes en el ciclo 
+              de desarrollo.
             </para>
 
             <para lang="en">
@@ -2274,6 +2675,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            überarbeiten, punktuelle Probleme zu identifizieren usw. bevor 
 	            noch mehr Arbeit investiert wird.
             </para>
+            <para lang="es">
+              Estos procesos usan unas series de <quote>mini-cascadas</quote>,
+              definiendo unos pocos requerimientos (los mas importantes)
+              primero, llevandolos a traves del analisis,
+              diseño y construcción para obtener una version temprana
+              del producto, con funcionalidad limitada,
+              relacionada con los requerimientos mas importantes.
+              La retroalimentación de este código puede ser usada 
+              para refinar los requerimientos, apuntar problemas,
+              etc antes de hacer mas trabajo.
+            </para>
 
             <para lang="en">
 	            The process is then repeated for further requirements 
@@ -2286,6 +2698,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            wiederholt, um ein Produkt mit wachsender Funktionalität zu 
 	            konstruieren. Erneutes Feedback kann wieder in die Anforderungen 
 	            einfliessen. 
+            </para>
+            <para lang="es">
+              El proceso es entonces repetido para requerimientos adiciones 
+              para construir un producto con un paso mas en funcionalidad.
+              Otra vez retroalimentación adicional puede ser aplicada a
+              los requerimientos.
             </para>
 
             <para lang="en">
@@ -2309,6 +2727,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               mit der Pyramidenstruktur des Wasserfallprozesses verglichen 
               werden kann.
             </para>
+            <para lang="es">
+              El proceso es repetido, hasta que finalmente todos 
+              los requerimientos han sido implementados y 
+              el producto está completo.
+              <indexterm>
+                <primary>Iteration</primary>
+              </indexterm>
+              Es esta <emphasis>iteración</emphasis> lo que da a estos
+              procesos su nombre.
+              <xref linkend="fig.iterative" /> muestra como este proceso
+              se compara con la structura piramidal del Proceso en Cascada.
+            </para>
 
             <figure float="1" id="fig.iterative">
 
@@ -2317,6 +2747,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 Iterative Process</phrase>
                 <phrase lang="de">Zu erwartender Aufwand je Schritt des 
                 iterativen Prozesses</phrase>
+                <phrase lang="es">
+                  Esfuerzo Involucrado en los Pasos de un Proceso Iterativo
+                </phrase>
               </title>
               
               <screenshot><mediaobject><imageobject>
@@ -2338,12 +2771,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            von Objekten, die es erlaubt, einen Teil des Systems mit klar 
 	            definierten Leerroutinen für den verbleibenden Code zu bauen. 
             </para>
+            <para lang="es">
+              El crecimiento en popularidad de los procesos iterativos está
+              estrechamente unido a el crecimiento de OOA&amp;D.
+              Es la encapsulaión limpia de objetos lo que permite a
+              una parte del sistema ser contruida con trozos para 
+              el codigo restante claramente definidos.
+            </para>
 
             <sect4>
 
               <title>
                 <phrase lang="en">The Rational Unified Process</phrase>
                 <phrase lang="de">Der Rational Unified Process</phrase>
+                <phrase lang="es">El Proceso Racional Unificado</phrase>
               </title>
 
               <para lang="en">
@@ -2355,6 +2796,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Der wahrscheinlich bekannteste, iterative Prozess ist der 
 	              Rational Unified Process (RUP) von Rational Software (
 	              <ulink url="http://www.rational.com">www.rational.com</ulink>).
+              </para>
+              <para lang="es">
+                Quizas el Proceso Iterativo mejor conocido es el Proceso
+                Racional Unificado (Rational Unified Process; RUP)
+                de Rational Software
+                (<ulink url="http://www.rational.com">www.rational.com</ulink>).
               </para>
 
               <para lang="en">
@@ -2374,6 +2821,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Iterationen sehr viel Aufwand in der Design- und Buildphase 
 	              benötigen.
               </para>
+              <para lang="es">
+                Este proceso reconoce que nuestra vista piramidal de
+                porciones iguales de la cascada no es realista. 
+                En la practica las iteraciones tempranas tienden a
+                ser pesadas en los asuntos de requerimientos 
+                de cosas (necesitas definir una cantidad razonable 
+                incluso para comenzar), mientras las iteraciones 
+                posteriores tienen mas esfuerzo en las areas de diseño y
+                construcción.
+              </para>
 
               <para lang="en">
 	              RUP recognizes that iterations can be grouped into 
@@ -2385,6 +2842,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              RUP erkannte, dass Iterationen entsprechend Ihrer Lage im 
 	              Gesamtprojekt in <emphasis>Phasen</emphasis> aufgeteilt werden  
 	              können. Jede Phase kann eine oder mehrere Iterationen umfassen.
+              </para>
+              <para lang="es">
+                RUP reconoce que las iteraciones pueden ser agrupadas en
+                un numero de <emphasis>fases</emphasis> deacuerdo a su 
+                etapa en el proyecto global.
+                Cada fase puede tener una o mas iteraciones.
               </para>
 
               <itemizedlist>
@@ -2405,6 +2868,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                  bezüglich der Emulation des Desgins durch das CASE-Tool 
 	                  eingeschränkt sein kann.
                   </para>
+                  <para lang="es">
+                    En la <emphasis>fase del principio
+                    (inception phase)</emphasis> las iteraciones tienden
+                    a ser pesadas en asuntos de requerimientos/analisis, 
+                    mientras que cualquier actividad de construcción 
+                    debe estar limitada a la emulación del diseño
+                    dentro de una herramienta CASE.
+                  </para>
 
                 </listitem>
 
@@ -2424,6 +2895,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                  auf Analyse und Design und dem wahrscheinlich ersten real 
 	                  erzeugten Code.
 				  </para>
+				  <para lang="es">
+				    En la <emphasis>fase de elaboración
+				    (elaboration phase)</emphasis> las iteraciones tienden 
+				    a ser completar la especificación de los requerimientos, 
+				    y comenzar a centrarse en el analisis y el diseño, 
+				    y posiblemente la construcción del primer codigo real.
+				  </para>
 
                 </listitem>
 
@@ -2439,6 +2917,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                  In der <emphasis>Konstruktionsphase</emphasis> sind 
 	                  die Anforderungen und Analyse mehr oder weniger vollständig, 
 	                  der Aufwand liegt häufig im Design und in der Buildphase. 
+                  </para>
+                  <para lang="es">
+                    En la <emphasis>fase de construcción (construction
+                    phase)</emphasis> los requerimientos y analisis están mas o
+                    menos completos, y el esfuerzo de las iteraciones esta
+                    mayormente en diseño y construcción.
                   </para>
 
                 </listitem>
@@ -2456,6 +2940,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                  finden Iterationen weitestgehend in den Buildaktivitäten 
 	                  und teilweise beim Test der Software statt.
 				  </para>
+                  <para lang="es">
+                    Finalmente, en la <emphasis>fase de desarrollo
+                    (deployment phase)</emphasis> las iteraciones están 
+                    centradas sobre la actividad de la contrucción,
+                    y en particular la prueba del software.
+                  </para>
 
                 </listitem>
 
@@ -2475,6 +2965,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 Anforderungen und das Design getestet werden. Und dies wird 
                 durch ein gutes CASE-Tool unterstützt.
                 </para>
+                <para lang="es">
+                  Debería estar claro que la prueba es una parte integral
+                  de todas las fases.
+                  Incluso en las fases tempranas los requerimientos y
+                  el diseño deberian ser probados, 
+                  y esto es facilitado por una buena herramienta CASE.
+                </para>
 
               </note>
 
@@ -2486,6 +2983,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Wir wollen in diesem Handbuch einen iterativen Prozess 
 	              verwenden, der lose auf dem RUP basiert.
               </para>
+              <para lang="es">
+                Usaremos un proceso iterativo en este manual,
+                que está ligeramente basado en RUP.
+              </para>
 
             </sect4>
 
@@ -2494,6 +2995,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">Iteration Size</phrase>
                 <phrase lang="de">Iterationsgröße</phrase>
+                <phrase lang="es">Tamaño de Iteración</phrase>
               </title>
 
               <para lang="en">
@@ -2517,6 +3019,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 haben Sie wahrscheinlich nicht genügend Anforderungen um einen 
                 spürbaren Fortschritt zu erzielen. In diesem Fall wird der mit 
                 einer Iteration verbundene zusätzliche Overhead zum Problem.
+              </para>
+              <para lang="es">
+                Una buena regla a primera vista es que una iteración
+                debería tomar entre seis y diez semanas para proyectos
+                comerciales tipicos.
+                Mas largo y probablemente habras abarcado
+                demasiados requerimientos para hacerlos de una vez.
+                Ademas pierdes enfoque en tener la siguiente iteración completa.
+                Mas corto y probablemente no has tomado en cuenta suficientes
+                requerimientos para hacer un avance significativo.
+                En este caso la sobrecarga adicional asociada con 
+                una iteración puede hacerse un problema.
               </para>
 
               <para lang="en">
@@ -2544,6 +3058,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 aufweist (einige Forschungsprojekte zum Beispiel) wird viel 
                 grössere frühe Phasen aufweisen. 
               </para>
+              <para lang="es">
+                El número total de iteraciones depende del tamaño del
+                proyecto.
+                Toma el tiempo estimado (trabajando fuera/adivinando 
+                que es un tema completo en si mismo), 
+                y dividelo en trozos de 8 semanas.
+                La experiencia parece sugerir que las iteraciones se 
+                dividiran en una proporcion de alrededor de 1:2:3:3 dentro 
+                del estilo RUP de fases de inception, elaboration, 
+                construction y deployment. 
+                Un proyecto que tiene una gran imprecisión en su 
+                especificación (algunos proyectos de investigación 
+                avanzada por ejemplo) tenderan a ser mas pesados 
+                en sus fases tempranas.
+              </para>
 
               <para lang="en">
 	              When building a product to contract for a customer 
@@ -2569,6 +3098,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Zeitpunkt der Markteinführung wichtiger ist als die exakte 
 	              Funktionalität.
               </para>
+              <para lang="es">
+                Cuande se construlle un producto por contrato para un 
+                cliente el punto final esta bien definido.
+                Sin embargo, cuando se desarrolla un nuevo producto 
+                para el mercado, una estrategia que puede se usada 
+                es decidir la fecha de lanzamiento del producto, 
+                y por tanto la fecha final para completar las labore 
+                de ingenieria (algún tiempo antes).
+                El tiempo está entonces dividido en iteraciones, 
+                y la cantidad del producto que puede ser construido 
+                en el tiempo desarrollado. 
+                El processo iterativo es muy efectivo donde el timepo 
+                para la comercialización es mas importante que la 
+                funcionalidad exacta.
+              </para>
 
             </sect4>
 
@@ -2579,6 +3123,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Recursive Development Processes</phrase>
               <phrase lang="de">Rekursive Entwicklungsprozesse</phrase>
+              <phrase lang="es">Procesos de Desarrollo Recursivo</phrase>
             </title>
 
             <para lang="en">
@@ -2590,6 +3135,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Sehr wenige Softwaresysteme sind als monolitische Werkzeuge 
 	            geplant. Sie werden in Subsysteme, Module usw. unterteilt.
             </para>
+            <para lang="es">
+              Muy pocos sistemas software están concevidos como artefactos
+              monoliticos.
+              Están divididos en subsistemas, modulos, etc.
+	        </para>
+
 
             <para lang="en">
 	            Software processes are the same, with early parts of 
@@ -2602,6 +3153,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            in denen der Prozess eine Top-Level-Struktur definiert und die 
 	            wiederholte Anwendung des Prozesses auf Teile der Struktur, um 
 	            jedes grössere Detail zu definieren.
+            </para>
+            <para lang="es">
+              Los procesos de Software son iguales, con partes tempranas del
+              proceso definiendo una estructura de alto nivel, y reaplicando el
+              proceso para partes de la estructura en turnos para definir cada
+              vez mayores detalles.
             </para>
 
             <para lang="en">
@@ -2630,6 +3187,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <para lang="de">den Kunden abzurechnen.</para>
               </listitem>
             </orderedlist>
+            <para lang="es">
+              Por ejemplo, el diseño inicial de un sistema telefonico puede
+              identificar objetos para 
+              i) manejar las lineas de telefono,
+              ii) procesar las llamadas, 
+              iii) manejar el sistema y 
+              iv) facturar al cliente.
+              Los procesos de software pueden entonces ser reaplicados
+              a cada uno de esos cuatro componentes para identificar su
+              diseño.
+            </para>
             
             <para lang="en">
                 The software process can then be reapplied to 
@@ -2652,6 +3220,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Ansatz natürlich. Eine OOA&amp;D mit rekursiver Entwicklung wird 
 	            manchmal als OOA&amp;D/RD abgekürzt.
             </para>
+            <para lang="es">
+              OOA&amp;D con sus limites claros a los objetos, soporta
+              naturalmente este enfoque.
+              Esta clase de OOA&amp;D con desarrollo
+              recursivo se abrevia a veces como OOA&amp;D/RD.
+            </para>
 
             <para lang="en">
 	            Recursive development can be applied equally well to 
@@ -2662,6 +3236,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Die rekursive Entwicklung kann parallel zu Wasserfall- oder 
 	            iterativen Prozessen angewendet werden. Sie ist keine 
 	            Alternative zu diesen Prozessen.
+            </para>
+            <para lang="es">
+              El desarrollo Recursivo puede ser aplicado igualmente bien a
+              procesos de cascada o iterativos.
+              No es una alternativa a ellos.
             </para>
 
           </sect3>
@@ -2676,6 +3255,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </phrase>
             <phrase lang="de">
           	  Ein Entwicklungsprozess für dieses Übungshandbuch
+            </phrase>
+            <phrase lang="es">
+              Un Proceso de Desarrollo para este Manual
             </phrase>
           </title>
 
@@ -2695,6 +3277,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          Abschnittes der Übungsanleitung werden wir sehen, wie das Projekt 
 	          vollständig entwickelt wird.
           </para>
+          <para lang="es">
+            Para el proposito de este manual usaremos un proceso iterativo
+            descendente con desarrollo recursivo, ligeramente semejante a RUP.
+            El caso de estudio nos llevará a traves de la primera iteración,
+            aunque al final de la sección de tutorial del manual miraremos a como
+            el proyecto se desarrollará hasta su finalización.
+          </para>
+
 
           <para lang="en">
 	          Within that first iteration, we will tackle each of the 
@@ -2709,6 +3299,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          angehen. Nicht alle Teile des Prozesses basieren auf UML oder 
 	          ArgoUML. 
 	          Wir werden sehen, welches andere Material hierfür benötigt wird.
+          </para>
+          <para lang="es">
+            Dentro de la primera iteración, abordaremos cada uno de las
+            actividades de captura de requerimientos, analisis, diseño y
+            construcción por turno.
+            No todas las partes del procesos están basadas en UML o ArgoUML.
+            Miraremos a que otro material es necesario.
           </para>
 
           <para lang="en">
@@ -2725,12 +3322,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          werden ist im Referenzhandbuch beschrieben
 	          (siehe <xref linkend="s1.ref.diagram_types"/>).
           </para>
+          <para lang="es">
+            Dentro de este proceso tendremos una oportunidad para ver los
+            varios diagramas UML en uso.
+            El rango completo de diagramas UML y
+            como están soportados está descrito en el manual de referencia
+            (mira <xref linkend="s1.ref.diagram_types" /> ).
+          </para>
 
           <sect3>
 
             <title>
               <phrase lang="en">Requirements Capture</phrase>
               <phrase lang="de">Erfassen der Anforderungen</phrase>
+              <phrase lang="es">Captura de Requerimientos</phrase>
             </title>
 
             <para lang="en">
@@ -2747,6 +3352,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            wie Anwendungsfälle entwickelt werden können, um alle Aspekte  
 	            des Systemverhaltens im Problembereich zu beschreiben.
             </para>
+            <para lang="es">
+              Nuestra captura de requerimientos usará el concepto UML de
+              <emphasis>Casos de Uso</emphasis>.
+              Empezando con un <emphasis>Vision Document</emphasis> 
+              veremos como los Casos de Uso pueden ser
+              desarrollados para describir todos los aspectos del comportamiento
+              del sistema en el dominio del problema.
+            </para>
 
           </sect3>
 
@@ -2755,10 +3368,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Analysis</phrase>
               <phrase lang="de">Analyse</phrase>
+              <phrase lang="es">Analisis</phrase>
             </title>
 
             <indexterm lang="en"><primary>Analysis</primary></indexterm> 
             <indexterm lang="de"><primary>Analyse</primary></indexterm> 
+            <indexterm lang="es">
+              <primary>Analysis</primary>
+            </indexterm>
             <para lang="en">
 	            During the analysis stage, we will introduce the UML 
 	            concept of <emphasis>classes</emphasis> to allow us to 
@@ -2773,6 +3390,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            darstellen&mdash; manchmal auch als <emphasis>Konzept-Diagramm
 	            </emphasis> bekannt.
             </para>
+            <para lang="es">
+              Durante la etapa de analisis, introduciremos el concepto de
+              UML de <emphasis>clases</emphasis> para permitirnos construir una
+              visión de alto nivel de los objetos que conformaran la
+              solución—a veces conocida como <emphasis>diagrama de
+              concepto</emphasis>.
+            </para>
 
             <para lang="en">
 	            We will introduce the UML <emphasis>sequence 
@@ -2784,6 +3408,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Wir werden in das UML <emphasis>Sequenzdiagramm</emphasis> und  
 	            das <emphasis>Zustandsdiagramm</emphasis> einführen, um die 
 	            Anforderungen für das Gesamtverhalten des Systems zu erfassen.
+            </para>
+            <para lang="es">
+              Introduciremos el <emphasis>diagrama de sequencia</emphasis>
+              y <emphasis>diagrama de estados</emphasis> para capturar
+              requerimientos por el comportamiento global del sistema.
             </para>
 
             <para lang="en">
@@ -2800,6 +3429,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            <emphasis>Stereotypen</emphasis> und <emphasis>Realisierung
 	            </emphasis> illustrieren.
             </para>
+            <para lang="es">
+              Finalmente, tomaremos los Casos de Uso de la etapa de captura
+              de requerimientos, y remoldearlos en el lenguaje del dominio de la
+              solución.
+              Esto ilustrará las ideas UML de
+              <emphasis>estereotipado</emphasis> y
+              <emphasis>realización</emphasis>.
+            </para>
 
           </sect3>
 
@@ -2808,10 +3445,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Design</phrase>
               <phrase lang="de">Design</phrase>
+              <phrase lang="es">Diseño</phrase>
             </title>
 
             <indexterm lang="en"><primary>Design</primary></indexterm>
             <indexterm lang="de"><primary>Design</primary></indexterm>
+            <indexterm lang="es">
+              <primary>Design</primary>
+            </indexterm>
+
             <para lang="en">
 	            We use the UML <emphasis>package diagram</emphasis> 
 	            to organize the components of the project. We then revisit 
@@ -2826,6 +3468,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Zustandsdiagramm, um zu zeigen, wie diese rekursiv verwendet 
 	            werden können, um die vollständige Lösung zu designen.
             </para>
+            <para lang="es">
+              Usamos el <emphasis>diagrama de paquetes</emphasis> UML para
+              organizar los componentes del proyecto.
+              Luego revisaremos el
+              diagrama de clases, diagrama de secuencia y diagrama de estados,
+              para mostrar como pueden ser usados recursivamente para diseñar la
+              solución completa.
+            </para>
+
 
             <para lang="en">
 	            During this part of the process, we need to develop 
@@ -2837,6 +3488,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Systemarchitektur entwickeln, um zu definieren, wie alle 
 	            Komponenten zusammenpassen und miteinander zusammenarbeiten.
             </para>
+            <para lang="es">
+              Durante esta parte del proceso, necesitamos desarrollar
+              nuestra arquitectura del sistema, para definir como todos los
+              componentes ajustaran juntos y funcionaran.
+            </para>
+
 
             <para lang="en">
 	            Although not strictly part of our process, we&apos;ll 
@@ -2856,6 +3513,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Aktivitätsdiagramm</emphasis> als Alternative oder Ergänzung zum 
 	            Zustandsdiagramm ansehen.
             </para>
+            <para lang="es">
+              Aunque no es estrictamente parte de nuestro proceso,
+              miraremos a como el <emphasis>diagrama de colaboración</emphasis>
+              UML puede ser usado como una alternativa para, o complementar el
+              <emphasis>diagrama de secuencia</emphasis>.
+              Similarmente miraremos
+              al <emphasis>diagrama de actividades</emphasis> UML como una
+              alternativa o complemento para el diagrama de estado.
+            </para>
+
 
             <para lang="en">
 	            Finally we shall use the UML <emphasis>deployment 
@@ -2867,6 +3534,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            </emphasis> verwenden, um zu spezifizieren, wie das System 
 	            aktuell realisiert werden soll.
             </para>
+            <para lang="es">
+              Finalmente usaremos el <emphasis>diagrama de despliege</emphasis>
+              UML para especificar como el sistema será finalmente
+              realizado.
+            </para>
 
           </sect3>
 
@@ -2875,10 +3547,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Build</phrase>
               <phrase lang="de">Build</phrase>
+              <phrase lang="es">Construcción</phrase>
             </title>
 
             <indexterm lang="en"><primary>Build</primary></indexterm>
             <indexterm lang="de"><primary>Build</primary></indexterm>
+            <indexterm lang="es">
+              <primary>Build</primary>
+            </indexterm>
+
             <para lang="en">
 	            UML is not really concerned with code writing. 
 	            However at this stage we will show how ArgoUML can be used 
@@ -2889,6 +3566,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Jedoch wollen wir an dieser Stelle zeigen, wie ArgoUML für 
 	            die Codegenerierung eingesetzt werden kann.
             </para>
+            <para lang="es">
+              UML no está realmente afectado con la escritura de codigo.
+              Sin embargo, en esta etapa mostraremos como ArgoUML puede ser usado
+              para generación de codigo.
+            </para>
+
 
             <para lang="en">
 	            We will also look at how the UML Use Case Diagram and 
@@ -2899,6 +3582,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Wir wollen uns auch ansehen, wie das UML-Anwendungsfalldiagramm 
 	            und die Anwendungsfall-Spezifikation unschätzbare Werkzeuge für 
 	            ein Testprogramm sind.
+            </para>
+            <para lang="es">
+              Tambien miraremos a como el Diagrama de Casos de Uso UML y la
+              Especificación de Casos de Uso son herramientas invalorables para
+              un programa de prueba.
             </para>
 
           </sect3>
@@ -2912,6 +3600,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
           <phrase lang="en">Why ArgoUML is Different</phrase>
           <phrase lang="de">Warum ist ArgoUML anders</phrase>
+          <phrase lang="es">Por que ArgoUML es Diferente</phrase>
         </title>
 
         <para lang="en">
@@ -2946,12 +3635,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         		</para>
         	</listitem>
         </orderedlist>
+        <para lang="es">
+          En la introducción, listamos las cuatro aspectos clave que hacen
+          a ArgoUML diferente:
+          i) hace uso de ideas de psicologia cognitiva,
+          ii) está basado en estandares abiertos; 
+          iii) es 100% Java puro; y 
+          iv) es un proyecto de codigo abierto.
+        </para>
+
 
         <sect2 id="tut.cog.psych">
 
           <title>
             <phrase lang="en">Cognitive Psychology</phrase>
             <phrase lang="de">Kognitive Psychologie</phrase>
+            <phrase lang="es">Psicología Cognitiva</phrase>
           </title>
 
           <sect3>
@@ -2959,6 +3658,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Theory</phrase>
               <phrase lang="de">Theorie</phrase>
+              <phrase lang="es">Teoría</phrase>
             </title>
 
             <para lang="en">
@@ -2982,6 +3682,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             		<para lang="de">Verständnis und Problemlösung.</para>
             	</listitem>
             </orderedlist>
+            <para lang="es">
+              ArgoUML está particularmente inspirado en tres teorias dentro
+              de la psicología cognitiva: 
+              i) reflexión-en-acción, 
+              ii) diseño oportunista 
+              iii) y comprensión y resolución de problemas.
+            </para>
 
             <itemizedlist>
 
@@ -2998,7 +3705,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                	<primary>Reflektion-während-Aktion</primary>
 	                </indexterm>
                 </para>
-                
+                <para lang="es">
+                  <emphasis>Reflexión-en-Acción</emphasis>
+
+                  <indexterm>
+                    <primary>Reflection-in-Action</primary>
+                  </indexterm>
+                </para> 
+
                 <para lang="en">
                   This theory observes that designers of complex systems do not
                   conceive a design fully-formed. Instead, 
@@ -3012,6 +3726,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   entwerfen, evaluieren, es reflektieren und überarbeiten, bis 
                   Sie soweit sind, es weiter zu erweitern. 
                 </para>
+                <para lang="es">
+                  Esta teoría observa que los diseñadores de sistemas
+                  complejos no conciven un diseño totalmete formado. 
+                  En su lugar,
+                  deben construir un diseño parcial, evaluarlo, 
+                  reflexionar en el, y revisarlo, 
+                  hasta que estén listos para extenderlo mas allá.
+                </para>
+
 
                 <para lang="en">
                   As developers work hands-on with the design, their mental model
@@ -3022,6 +3745,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   beschäftigen, verbessert sich auch ihr mentales Modell der 
                   Problemsituation. Und dies führt zur Verbesserung Ihres 
                   Designs.
+                </para>
+                <para lang="es">
+                  Como los desrrolladores trabajan directamete sobre el diseño, 
+                  sus modelos mentales de la situación del problema mejoran, 
+                  por lo tanto mejoran sus diseños.
                 </para>
               </listitem>
 
@@ -3038,6 +3766,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                	<primary>Opportunistisches Design</primary>
 	                </indexterm>
                 </para>
+                <para lang="es">
+                  <emphasis>Diseño Oportunista</emphasis>
+
+                  <indexterm>
+                    <primary>Opportunistic Design</primary>
+                  </indexterm>
+                </para>
 
                 <para lang="en">
                   A theory within cognitive psychology suggesting that although
@@ -3052,6 +3787,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   aufeinanderfolgende Aktivitäten auf der Basis kognitiver 
                   Kosten wählen.
                 </para>
+                <para lang="es">
+                  Una teoría dentro de la psicología cognitiva sugiere que
+                  aunque los diseñadores planean y describen su trabajo de una
+                  forma jerarquica ordenada, en realidad, escogen tareas
+                  sucesivas basados en el criterio de costo cognitivo.
+                </para>
+
 
                 <para lang="en">
                   Simply stated, designers do not follow even their own plans in
@@ -3062,6 +3804,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   Einfach ausgedrückt, Designer folgen nicht ihrer selbst 
                   geplanten Reihenfolge, sondern wählen Schritte, die mental 
                   weniger aufwändige Alternativen darstellen.
+                </para>
+                <para lang="es">
+                  Explicado simplemente, los diseñadores no sigue incluso
+                  sus propios planes en orden, si no que escogen pasos que son
+                  mentalmente menos caros entre las alternativas.
                 </para>
               </listitem>
 
@@ -3075,6 +3822,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              	<emphasis>Verständlichkeit und Problemlösung</emphasis>
 	                <indexterm><primary>Verständlichkeit</primary></indexterm>
 	                <indexterm><primary>Problemlösung</primary></indexterm>
+              	</para>
+              	<para lang="es">
+              	  <emphasis>Comprensión y Resolución de Problemas</emphasis>
+
+                  <indexterm>
+                    <primary>Comprehension</primary>
+                  </indexterm>
+                  <indexterm>
+                    <primary>Problem Solving</primary>
+                  </indexterm>
               	</para>
 
                 <para lang="en">
@@ -3090,6 +3847,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   Situation und dem formalen Modell einer Lösung oder eines 
                   Systems überwinden müssen.
                 </para>
+                <para lang="es">
+                  Una teoría de visualización de diseño dentro de la 
+                  psicología cognitiva. 
+                  La teoría expone que los diseñadores
+                  deben cubrir un hueco entre su modelo mental del problema o
+                  situación y el modelo formal de una solución o sistema.
+                </para>
+
 
                 <para lang="en">
                   This theory suggests that programmers will benefit from:
@@ -3097,6 +3862,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <para lang="de">
                   Diese Theorie besagt, dass Programmierer Vorteile haben von:
                 </para>
+                <para lang="es">
+                  Esta teoría sugiere que los programadores de 
+                  beneficiaran de:
+                </para>
+
 
                 <orderedlist>
 
@@ -3119,6 +3889,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       zwischen deren Situationsmodellen und den funktionierenden 
                       Systemmodellen leichter herstellen zu können.
                     </para>
+                    <para lang="es">
+                      Representaciones multiples como descomposición
+                      sintactica del programa, transiciones de estado,
+                      flujo de control, y flujo de datos. 
+                      Estos permiten al programador
+                      identificar mejor elementos y relaciones en el problema y
+                      solución y por lo tanto mas facilmente crear un mapeo entre
+                      sus modelos de situación y modelos del funcionamiento del
+                      sistema.
+                    </para>
 
                   </listitem>
 
@@ -3132,6 +3912,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       Vertraute Aspekte eines Situationsmodelles, welche die 
                       Fähigkeiten des Designers verbessern, Lösungen zu 
                       formulieren.
+                    </para>
+                    <para lang="es">
+                      Aspectos familiares de un modelo de situación, 
+                      que mejoran las abilidades de los diseñadores 
+                      para formular soluciones.
                     </para>
 
                   </listitem>
@@ -3148,6 +3933,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Practical Application in ArgoUML</phrase>
               <phrase lang="de">Praktische Anwendung in ArgoUML</phrase>
+              <phrase lang="es">Aplicación Practica en ArgoUML</phrase>
             </title>
 
             <para lang="en">
@@ -3157,6 +3943,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               ArgoUML implementiert diese Theorien durch eine bestimmte Anzahl 
               von Techniken.
              </para>
+            <para lang="es">
+              ArgoUML implementa estas teorías usando un numero de tecnicas.
+            </para>
+
 
 
             <orderedlist>
@@ -3174,6 +3964,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                erlaubt, das Design aus unterschiedlichen Sichten zu 
 	                betrachten und es dem Anwender ermöglicht, Ziele über 
 	                eine Anzahl alternativer Wege zu erreichen.
+                </para>
+                <para lang="es">
+                  El diseño de un interfaz de usuario que permite al
+                  usuario ver el diseño desde un numero de perspectivas
+                  diferentes, y permite al usuario alcanzar objetivos a traves
+                  de un numero de rutas alternativas.
                 </para>
 
               </listitem>
@@ -3194,6 +3990,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Diese Prozesse sind als 
 	                <emphasis>Design-Kritiken</emphasis> bekannt.
                 </para>
+                <para lang="es">
+                  El uso de procesos ejecutandose en paralelo con la
+                  herramienta de diseño, evaluando el diseño actual contra
+                  modelos de como un diseño de la <quote>mejor practica</quote> 
+                  puede funcionar.
+                  Estos procesos son conocidos como 
+                  <emphasis>criticos de diseño</emphasis>.
+                </para>
 
               </listitem>
 
@@ -3211,6 +4015,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Designkritiken unterbreiten und es ihm auch erlauben, 
 	                Bereiche für künftige Aktionen aufzuzeichnen.
                 </para>
+                <para lang="es">
+                  El uso de  <emphasis>listas de tareas pendientes (to-do
+                  lists)</emphasis> para comunicar sugerencias desde los criticos
+                  de diseño al usuario, ademas de permitir al usuario registrar
+                  areas para acciones futuras.
+                </para>
 
               </listitem>
 
@@ -3223,6 +4033,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <para lang="de">
 	                Die Verwendung von Checklisten, um den Anwender durch einen 
 	                komplexen Prozess zu führen.
+                </para>
+                <para lang="es">
+                  El uso de listas de validación, para guiar al usuario a
+                  traves de un proceso complejo.
                 </para>
 
               </listitem>
@@ -3238,6 +4052,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <title>
             <phrase lang="en">Open Standards</phrase>
             <phrase lang="de">Offene Standards</phrase>
+            <phrase lang="es">Estandares Abiertos</phrase>
           </title>
 
           <para lang="en">
@@ -3249,6 +4064,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          versucht, offene Standards für alle seine Schnittstellen zu 
 	          verwenden.
           </para>
+          <para lang="es">
+            UML es en si mismo un estandar abierto.
+            ArgoUML sobre todo ha intentado usar estandares 
+            abiertos para todas sus interfaces.
+          </para>
+
 
           <para lang="en">
             The key advantage of adherence to open standards is that it
@@ -3261,6 +4082,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             Möglichkeit eröffnet, von einer Anwendung zu einer anderen 
             wechseln, sofern dies notwendig ist.
           </para>
+          <para lang="es">
+            La ventaja clave de la adherencia a los estandares abiertos es
+            que ello permite un facil inter-funcionamiento entre aplicaciones, 
+            y la abilidad de moverse de una aplicación a otra como sea
+            necesario.
+          </para>
+
 
           <sect3>
 
@@ -3269,9 +4097,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <phrase lang="de">
               	XML Metadaten-Austausch (Metadata Interchange XMI)
               </phrase>
+              <phrase lang="es">XML Metadata Interchange (XMI)</phrase>
             </title>
 
             <indexterm><primary>XMI</primary></indexterm>
+
             <para lang="en">
 	            <emphasis>XML Metadata Interchange (XMI)</emphasis> 
 	            is the standard for saving the meta-data that make up a 
@@ -3285,6 +4115,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            bestimmtes UML-Modell darstellen. Im Prinzip erlaubt er es, das 
 	            in ArgoUML erstellte Modell in ein anderes Tool zu importieren.
             </para>
+            <para lang="es">
+              <emphasis>XML Metadata Interchange (XMI)</emphasis> es el
+              estandar para guardar los meta-datos que confeccionan un modelo
+              UML particular. 
+              En principio esto te permitirá tomar el modelo que
+              has creado en ArgoUML y importarlo dentro de otra
+              herramienta.
+            </para>
 
             <para lang="en">
 	            This clearly has advantages in allowing UML to meet 
@@ -3296,6 +4134,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            erreichen, der Standard für die Kommunikation zwischen Designern 
 	            zu sein.
             </para>
+            <para lang="es">
+              Esto claramente tiene ventajas in permitir al UML alcanzar su
+              meta de ser un estandar para la comunicación entre
+              diseñadores.
+            </para>
+
 
             <para lang="en">
               The reality is not quite this good.
@@ -3313,6 +4157,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Information separat vom Modell speichert. 
               (siehes <xref linkend="s3.tut.loadsave"/>).
             </para>
+            <para lang="es">
+              La realidad no es tan buena.
+              Anteriormente a UML 2.0 el
+              archivo XMI no incluye información sobre la representación grafica
+              de los modelos, así que el diseño del diagrama está perdido.
+              ArgoUML rodea este problema guardando la información grafica
+              separada del modelo (mira <xref linkend="s3.tut.loadsave" />).
+            </para>
 
           </sect3>
 
@@ -3321,6 +4173,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Graphics Formats - EPS, GIF, PGML, PNG, PS, SVG</phrase>
               <phrase lang="de">Grafik-Formate - EPS, GIF, PGML, PNG, PS, SVG</phrase>
+              <phrase lang="es">Formatos Graficos - EPS, GIF, PGML, PNG, PS, SVG</phrase>
             </title>
 
             <itemizedlist>
@@ -3342,6 +4195,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                es der Software einfacher zu machen, eine EPS-Datei in ein 
 	                anderes PostScript-Dokument einzubetten.
 	            </para>
+                <para lang="es">
+                  <indexterm>
+                    <primary>EPS</primary>
+                  </indexterm>
+                  
+                  <ulink url="http://en.wikipedia.org/wiki/Encapsulated_PostScript">
+                    <emphasis>Encapsulated PostScript (EPS)</emphasis>
+                  </ulink>
+                  es un archivo PostScript que satisface
+                  restricciones adicionales.
+                  Estas restricciones estan previstas
+                  para hacer mas facil para el software incrustar un archivo EPS 
+                  dentro de otro documento PostScript.
+                </para>
               </listitem>
 
               <listitem>
@@ -3362,6 +4229,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                patentgeschütztes Format. Aber aktuell sind alle Patente 
 	                abgelaufen.
 	              </para>
+                <para lang="es">
+                  <indexterm>
+                    <primary>GIF</primary>
+                  </indexterm>
+                  
+                  <ulink url="http://en.wikipedia.org/wiki/GIF">
+                    <emphasis>Graphics Interchange Format (GIF)</emphasis>
+                  </ulink>
+                  es un formato cubierto por patente, 
+                  aunque las patentes se agotaran en Agosto del 2006.
+                </para>
               </listitem>
 
               <listitem>
@@ -3386,6 +4264,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Grafik-Sprachen, wurden später miteinander verknüpft und 
 	                verbessert, um daraus SVG (siehe unten) zu erzeugen.
 	              </para>
+                <para lang="es">
+                  <indexterm>
+                    <primary>PGML</primary>
+                  </indexterm>
+                  
+                  <ulink url="http://en.wikipedia.org/wiki/PGML">
+                    <emphasis>Precision Graphics Markup Language (PGML)</emphasis>
+                  </ulink>
+                  es un lenguaje basado en XML para 
+                  representar graficos vectoriales.
+                  Fué un borrador de la W3C, 
+                  pero no fué adoptado como recomendación. 
+                  PGML y VML, otro lenguaje basado en XML 
+                  para graficos vectoriales, fueron luego
+                  fusionados y mejorados para crear juntos el formato SVG.
+                </para>
               </listitem>
                 
               <listitem>
@@ -3421,6 +4315,30 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                plattformunabhängige Bibliothek, die C-Funktionen für die 
 	                Anwendung von PNG-Bildern enthält.
 	              </para>
+                <para lang="es">
+                  <indexterm>
+                    <primary>PNG</primary>
+                  </indexterm>
+                  
+                  <ulink url="http://en.wikipedia.org/wiki/PNG">
+                    <emphasis>Portable Network Graphics (PNG)</emphasis>
+                  </ulink>
+                  es un estandar de ISO/IEC (15948:2004) y es tambien una
+                  recomendación de la W3C. 
+                  PNG es un formato de imagen de mapa de
+                  bits que emplea compresión de baja perdida. 
+                  PNG fué creado para
+                  mejorar y sustituir el formato GIF con un formato de archivos
+                  de imagen que no requiriera de una licencia de patense para ser
+                  usado. 
+                  PNG es oficialmente pronunciado "ping" pero a menudo es
+                  simplemente deletreado  — probablemente para evitar confusión
+                  con la utilidad de red ping. 
+                  PNG está soportado por la librería
+                  de referencia libpng, una librería independiente de la
+                  plataforma que contiene funciones C para el manejo de imagenes
+                  PNG.
+                </para>
               </listitem>
 
               <listitem>
@@ -3440,6 +4358,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                die primär in elektronischen und Desktop-Publishing-Bereichen 
 	                eingesetzt wird. 
 	              </para>
+                <para lang="es">
+                  <indexterm>
+                    <primary>PS</primary>
+                  </indexterm> 
+                  <ulink url="http://en.wikipedia.org/wiki/PostScript/">
+                    <emphasis>PostScript (PS)</emphasis>
+                  </ulink> 
+                  es un lenguaje de descripción de pagina
+                  y lenguaje de programación usado primeramente en la areas de
+                  publicación asistida por ordenador y electronica.
+                </para>
               </listitem>
 
               <listitem>
@@ -3478,6 +4407,29 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                benötigen.
 	                Siehe PGML oben.
 	              </para>
+                <para lang="es">
+                  <indexterm>
+                    <primary>SVG</primary>
+                  </indexterm> 
+                  
+                  <ulink url="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
+                    <emphasis>Scalable Vector Graphics (SVG)</emphasis>
+                  </ulink>
+                  es un lenguaje de marcado XML para describir 
+                  graficos vectoriales bidimensionales, 
+                  estaticos y animados, y de forma declarativa o 
+                  mediante scrip.
+                  Es un estandar abierto creado por el World Wide
+                  Web Consortium. 
+                  El uso de SVG en la web esta en sus primeros pasos. 
+                  Hay un gran problema en la inercia debida al largo
+                  tiempo de uso de formatos basados en mapas de bits y otros
+                  formatos como Macromedia Flash or Java applets, pero ademas el
+                  soporte por navegadores web es todavía desigual, con soporte
+                  nativo en Opera y Firefox, pero Safari y Internet Explorer
+                  necesitan un plugin. 
+                  Mira PGML mas arriba.
+                </para>
               </listitem>
 
             </itemizedlist>
@@ -3491,6 +4443,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <phrase lang="de">
               	Objekt-Bedingungs-Sprache (Object Constraint Language OCL)
               </phrase>
+              <phrase lang="es">Object Constraint Language (OCL)</phrase>
             </title>
             
             <para lang="en">
@@ -3523,6 +4476,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Meta-Modell enthält, die nicht auf andere Art durch eine Diagramm-
               Notation ausgedrückt werden können.
             </para>
+            <para lang="es">
+              <ulink
+                url="[http://en.wikipedia.org/wiki/Object_Constraint_Language">
+                <emphasis>Object Constraint Language (OCL)</emphasis>
+              </ulink>
+              es un lenguaje declarativo para describir 
+              reglas que se aplican a modelos UML. 
+              Fué desarrollado en IBM y ahora es parte del estandar UML.
+              Inicialmente OCL fué solo una especificación formal de una
+              extensión de lenguaje para UML. 
+              OCL puede ahora ser usado con
+              cualquier metamodelo compatible con Meta-Object Facility (MOF),
+              incluyendo UML. 
+              El Object Constraint Language es un lenguaje de
+              texto preciso que proporciona limitación y expresiones de acceso a
+              objeto en cualquier modelo MOF o metamodelo que de otra forma no
+              puede ser expresado por notación diagramatical.
+            </para>
 
           </sect3>
 
@@ -3533,6 +4504,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <title>
             <phrase lang="en">100% Pure Java</phrase>
             <phrase lang="de">100% reines Java</phrase>
+            <phrase lang="es">100% Java Puro</phrase>
           </title>
 
           <para lang="en">
@@ -3548,6 +4520,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          übersetzt den Code für sein eigenes Ziel, der <emphasis>Java 
 	          Virtual Machine (JVM)</emphasis>.
           </para>
+          <para lang="es">
+            Java fué concevido como un lenguaje interpretado. 
+            No tenía un compilador para producir codigo para 
+            cuaquier maquina particular.
+            Compila codigo para su propio sistema, 
+            la <emphasis>Maquina Virtual Java (Java Virtual Machine; JVM)</emphasis>.
+	      </para>
 
           <para lang="en">
 	          Writing an interpreter for a JVM is much easier than 
@@ -3560,6 +4539,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          leichter, als das Schreiben eines Compilers und, solche Maschinen 
 	          sind jetzt in fast jedem Web Browser eingebaut. Im Ergebnis können 
 	          die meisten Maschinen Java, ohne dass es weiterer Arbeiten bedarf.
+          </para>
+          <para lang="es">
+            Escribir un interprete para una JVM es mucho mas facil que
+            escribir un compilador, y estas maquinas virtuales están ahora
+            incorporadas dentro de casi todo Navegador Web. 
+            Como resultado, la mayoria de las maquinas pueden ejecutar 
+            Java, sin trabajo adicional.
           </para>
 
           <para lang="en">
@@ -3581,6 +4567,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          interpretierende Sprachen, die dichteren Code produzierenden, 
 	          aktuell nicht mehr sehr viel langsamer sind.)
           </para>
+          <para lang="es">
+            (En caso de que te preguntes porque todos los lenguajes no son
+            como este, es por que los lenguajes interpretados tienden a ser mas
+            lentos que los compilados. 
+            Sin embargo, con el alto rendimiento de
+            los modernos PCs, la ganancia en portabilidad merece la pena para
+            muchas aplicaciones. 
+            Mas aún, las modernas caches multinivel pueden
+            suponer que los lenguajes interpretados, que producen un codigo mas
+            denso, pueden realmente no ser tan lentas de todas formas.)
+          </para>
 
           <para lang="en">
 	          By choosing to write ArgoUML in pure Java, it is 
@@ -3592,6 +4589,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          ArgoUML für sehr viele Anwender mit einem minimalem Aufwand 
 	          unmittelbar verfügbar.
           </para>
+          <para lang="es">
+            Mediante la elección de escribir ArgoUML en Java puro, se hace
+            inmediatamete disponible para el mayor numero de usuarios con la
+            minima cantidad de esfuerzo.
+          </para>
 
         </sect2>
 
@@ -3600,6 +4602,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <title>
             <phrase lang="en">Open Source</phrase>
             <phrase lang="de">Offener Quellcode (Open Source)</phrase>
+            <phrase lang="es">Codigo Abierto</phrase>
           </title>
 
           <para lang="en">
@@ -3620,6 +4623,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          und was nicht, variiert von Projekt zu Projekt, aber das Prinzip 
 	          ist das gleiche.
           </para>
+          <para lang="es">
+            ArgoUML es un proyecto de <emphasis>código abierto</emphasis>.
+            Esto significa que cualquiera puede tener una copia gratis del código
+            fuente, cambiarlo, usarlo para nuevos propositos y cosas así. 
+            La única (gran) obligación es que tú pases tu código de la misma forma a otros. 
+            La naturaleza precisa de que puedes hacer y que no puede
+            varia de un proyecto a otro, pero el principio es el mismo.
+          </para>
+
 
           <para lang="en">
             The advantage is that a small project like ArgoUML 
@@ -3637,6 +4649,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             Jederzeit können 10, 15, 20 oder mehr Personen signifikante 
             Beiträge zu ArgoUML leisten. Dies kommerziell zu machen, würde mehr 
             als 1 Mio. $ pro Jahr kosten.
+          </para>
+          <para lang="es">
+            La ventaja es que un proyecto pequeño como ArgoUML subitamente
+            se abre a una gran cantidad de ayuda adicional de aquellos que pueden
+            indagar en sus ideas sobre como el programa puede ser mejorado. 
+            En cualquier momento pueden ser 10, 15, 20 o mas personas haciendo 
+            contribuciones significantes a ArgoUML. 
+            Hacer esto comercialmente
+            costaría mas de 1 millon de $ al año.
           </para>
 
           <para lang="en">
@@ -3656,9 +4677,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          heruntergeladen) zu bekommen. In Ihrem Lebenslauf ist das eine 
 	          sehr gute Erfahrung und eine Menge Arbeitgeber sehen Sie!
           </para>
+          <para lang="es">
+            No es solo un espiritu de puro altruismo. 
+            Contribuir en un camino para aprender 
+            <quote>con las manos en la masa</quote> sobre
+            software puntero. 
+            Es una forma de adquirir visibilidad (mas de
+            100,000 personas han descargado ArgoUML hasta la primavera de 2001).
+            Esto es una gran cantidad de buena esperiencia en suma ¡y muchos
+            empleadores potenciales están viendote!
+          </para>
+
 
           <para lang="en">And its great for the ego!</para>
           <para lang="de">Und es ist hervorragend für Ihr Ego!</para>
+          <para lang="es">Y es genial para el ego!</para>
 
           <para lang="en">
 	          Open Source doesn&apos;t preclude making money. 
@@ -3680,6 +4713,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          Kunden erlaubt, die Vorteile von ArgoUML&apos;s führender 
 	          Technologie zu nutzen.
           </para>
+          <para lang="es">
+            El Código Abierto no excluye ganar dinero.
+            Gentleware <ulink url="http://www.gentleware.com">www.gentleware.com</ulink>
+            vende una versión comercial de ArgoUML, Poseidon. 
+            Su propuesta de valor no es un trozo de códogo privativo. 
+            Es el refinamiento comercial y el
+            soporte para librarse de riesgos usando ArgoUML en un desarrollo
+            commercial, permitiendo a los clientes tomar ventaja de la tecnología
+            puntera de ArgoUML.
+          </para>
 
         </sect2>
 
@@ -3690,6 +4733,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
           <phrase lang="en">ArgoUML Basics</phrase>
           <phrase lang="de">ArgoUML Grundlagen</phrase>
+          <phrase lang="es">Fundamentos de ArgoUML</phrase>
         </title>
 
         <para lang="en">
@@ -3702,12 +4746,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        ArgoUML zu beginnen. Er zeigt Ihnen, wie Sie den Code bekommen und 
 	        starten können.
         </para>
+        <para lang="es">
+          El objeto de esta sección es ponerte en marcha con ArgoUML. 
+          Te llevará a traves de obtener el código y conseguirlo ejecutar.
+        </para>
+
 
         <sect2>
 
           <title>
             <phrase lang="en">Getting Started</phrase>
             <phrase lang="de">Erste Schritte</phrase>
+            <phrase lang="es">Empezando</phrase>
           </title>
 
           <sect3 id="s3.tut.system.requirements">
@@ -3715,6 +4765,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">System Requirements</phrase>
               <phrase lang="de">Systemanforderungen</phrase>
+              <phrase lang="es">Requerimientos del Sistema</phrase>
             </title>
 
             <para lang="en">
@@ -3738,6 +4789,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            benötigen. Es gibt keine Notwendigkeit das gesamte Java 
 	            Development Kit (JDK) herunterzuladen.
 	        </para>
+            <para lang="es">
+              Puesto que ArgoUML está escrito en Java puro 100%, 
+              debería funcionar en cualquier maquina con Java instalado. 
+              Es necesaria una versión 1.4 o posterior de Java. 
+              Puedes tenerlo disponible, pero si no, 
+              puede ser descargada gratis de 
+              <ulink url="http://www.java.com">www.java.com</ulink>. 
+              Ten en cuenta que solo necesitas el 
+              Java Runtime Environment (JRE), no hay necesidad
+              de descargar el Java Development Kit (JDK) completo.
+            </para>
 
             <para lang="en">
 	            ArgoUML needs a reasonable amount of computing 
@@ -3759,6 +4821,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            herunter. Wie im nächsten Abschnitt beschrieben, wählen Sie die 
 	            Version aus, die Ihren Ansprüchen am Besten genügt.
             </para>
+            <para lang="es">
+              ArgoUML necesita una cantidad razonable de recursos. 
+              Un PC con 200MHz de procesador, 
+              64Mb de RAM y 10Mb de espacio disponible
+              en un disco duro debería ser adecuado. 
+              Descarga el código de la sección de Descargas 
+              de sitio web del proyecto 
+              <ulink url="http://argouml.tigris.org"> argouml.tigris.org</ulink>.
+              Escoje la versión que se ajusta a tus necesidades como se describe
+              en la siguiente sección.
+            </para>
 
           </sect3>
 
@@ -3767,6 +4840,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Downloading Options</phrase>
               <phrase lang="de">Download-Möglichkeiten</phrase>
+              <phrase lang="es">Opciones de Descarga</phrase>
             </title>
 
             <para lang="en">
@@ -3775,6 +4849,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para lang="de">
             	Es gibt drei Optionen, wie Sie ArgoUML bekommen können.
             </para>
+            <para lang="es">Tienes tres opciones para obtener ArgoUML.</para>
+
 
             <orderedlist>
 
@@ -3787,6 +4863,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <para lang="de">
 	                Sie starten ArgoUML direkt von der Web Seite mit Hilfe von 
 	                Java Web Start. Dies ist die einfachste Möglichkeit.
+                </para>
+                <para lang="es">
+                  Ejecutar ArgoUML directamente desde el Sitio Web usando
+                  Java Web Start. 
+                  Esta el la opción mas facil.
                 </para>
 
               </listitem>
@@ -3802,6 +4883,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 	Laden Sie das Windows-Installationsprogramm herunter. Dies 
                 	ist die richtige Option, wenn Sie mit Windows arbeiten und 
                 	beabsichtigen ArgoUML normal zu nutzen.
+                </para>
+
+                <para lang="es">
+                  <!--  Linus thinks this should be split into this and
+                        the next listitem. -->
+                  Descargar el código binario ejecutable. 
+                  Esta es la opción correcta si pretendes 
+                  usar ArgoUML regularmente y no es muy dificil.
                 </para>
 
               </listitem>
@@ -3841,6 +4930,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   erfordert das vollständige JDK 
                   (siehe <xref linkend="s3.tut.system.requirements"/>).
                 </para>
+                <para lang="es">
+                  <indexterm>
+                    <primary>Build</primary>
+                  </indexterm> 
+                  Descargar el código fuente usando CVS y
+                  compilar tu propia versión. 
+                  Escoge esta opción si quieres
+                  mirar el funcionamiento interno de ArgoUML, 
+                  o quieres unirte como desarrollador. 
+                  Esta opción requiere el JDK completo (mira 
+                  <xref linkend="s3.tut.system.requirements" />).
+                </para>
 
               </listitem>
 
@@ -3856,6 +4957,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            <ulink url="http://argouml.tigris.org">argouml.tigris.org</ulink> 
 	            frei verfügbar.
             </para>
+            <para lang="es">
+              Las tres opciones están libremente disponibles a traves del
+              sitio web del proyecto, 
+              <ulink url="http://argouml.tigris.org">argouml.tigris.org</ulink>.
+            </para>
 
           </sect3>
 
@@ -3864,10 +4970,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">ArgoUML Using Java Web Start</phrase>
               <phrase lang="en">ArgoUML mit Java Web Start aufrufen</phrase>
+              <phrase lang="es">ArgoUML Usando Java Web Start</phrase>
             </title>
 
             <para lang="en">There are two steps to this.</para>
             <para lang="de">Hierfür sind zwei Schritte auszuführen.</para>
+            <para lang="es">Hay dos pasos para esto.</para>
+
 
             <orderedlist>
 
@@ -3891,6 +5000,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                <ulink url="http://argouml.tigris.org">Home 
 	                page</ulink> verfügbar.
                 </para>
+                <para lang="es">
+                  Instalar Java Web Start en tu maquina. 
+                  Está disponible en
+                  <ulink url="http://java.sun.com/products/javawebstart">
+                  java.sun.com/products/javawebstart</ulink>, 
+                  o a traves del enlace 
+                  <literal>Java Web Start</literal> en la 
+                  <ulink url="http://argouml.tigris.org">pagina web</ulink>
+                  de ArgoUML.
+                </para>
 
               </listitem>
 
@@ -3907,6 +5026,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                release</literal> auf der ArgoUML 
 	                <ulink url="http://argouml.tigris.org">Home 
 	                page</ulink>.
+                </para>
+                <para lang="es">
+                  Haz click en el enlace 
+                  <literal>Launch latest stable release</literal> 
+                  de la 
+                  <ulink url="http://argouml.tigris.org">pagina web</ulink>
+                  de ArgoUML.
                 </para>
 
               </listitem>
@@ -3930,6 +5056,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            <ulink url="http://argouml.tigris.org">Home page</ulink> enthält 
 	            weitere Details, wie man ArgoUML mit der Java Web Start-Konsole 
 	            startet.
+            </para>
+            <para lang="es">
+              Java Web Start descargará ArgoUML, lo cacheará y lo iniciará
+              por primera vez, luego en subsiguientes inicios, comprueba si
+              ArgoUML está actualizado y solo descarga cualquier parte
+              actualizada y luego lo inicia. 
+              La <ulink url="http://argouml.tigris.org">pagina web</ulink> de
+              ArgoUML tambien proporciona detalles iniciando ArgoUML desde la
+              consola de Java Web Start.
             </para>
 
           </sect3>
@@ -3980,6 +5115,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Downloading the Binary Executable</phrase>
               <phrase lang="de">Die binäre, ausführbare Datei herunterladen</phrase>
+              <phrase lang="es">Descargando el Binario Ejecutable</phrase>
             </title>
 
             <para lang="en">
@@ -3998,6 +5134,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            aber mehr Eigenschaften aufweist) herunterladen wollen. 
 				Entscheiden Sie dies unter Berücksichtigung Ihrer eigenen 
 	            Situation.
+            </para>
+            <para lang="es">
+              Si escoges descargar el binario ejecutable, 
+              tendras la elección de descargar 
+              la ultima versión estable del código
+              (la cual será mas fiable, 
+              pero no tiene todas las ultimas caracteristicas),
+              o la versión actual (la cual será menos fiable,
+              pero tiene mas caracteristicas).
+              Escoge deacuerdo con tu situación.
             </para>
 
             <para lang="en">
@@ -4018,6 +5164,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            </literal>-Erweiterung.
 	            Das Entpacken erfolgt wie nachfolgend beschrieben.
             </para>
+            <para lang="es">
+              ArgoUML está disponible en formatos 
+              <literal>.zip</literal> o <literal> tar.gz</literal>. 
+              Escoge el primero si eres un usuario de
+              Microsoft Windows, y el ultimo si estás ejecutando 
+              alguna variedad de Unix. 
+              Desempaquetandolo como sigue.
+            </para>
+
 
             <itemizedlist>
 
@@ -4035,6 +5190,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                mit WinZip oder mit Windows, wenn Ihre Version dies 
 	                unterstützt. Kopieren Sie die Dateien aus dem komprimierten 
 	                Verzeichnis in ein Verzeichnis Ihrer Wahl.
+                </para>
+                <para lang="es">
+                  En Windows. 
+                  Descomprime el archivo <literal>.zip</literal> 
+                  con WinZip, o en ultimas versiones of Windows (ME, XP) 
+                  copia los archivos fuera de la carpeta comprimida y ponlos
+                  en un directorio de tu elección.
                 </para>
 
               </listitem>
@@ -4065,6 +5227,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 	<literal>gunzip&nbsp;&lt;&nbsp;file.tar.gz&nbsp;|&nbsp;
                 	tar&nbsp;xvf&nbsp;-</literal>.
                 </para>
+                <para lang="es">
+                  En Unix. 
+                  Usa GNU tar para descomprimir y desempaquetar
+                  los archivos en un directorio de tu elección 
+                  <literal>tar&nbsp;zxvf&nbsp;&lt;file&gt;.tar.gz</literal>. 
+                  Si tienes una versión antigual de tar, 
+                  la opción <literal>z</literal> puede no estar disponible, 
+                  así que usa 
+                  <literal>gunzip&nbsp;&lt;&nbsp;file.tar.gz&nbsp;|&nbsp;tar&nbsp;xvf&nbsp;-</literal>.
+                </para>
 
               </listitem>
 
@@ -4079,6 +5251,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Sie sollten jetzt in dem Verzeichnis eine Reihe von <literal>.jar
 	            </literal>-Dateien und die Datei <literal>README.txt</literal> 
 	            vorfinden.
+            </para>
+            <para lang="es">
+              Deberías tener un directorio conteniendo un numero de 
+              archivos <literal>.jar</literal> y un 
+              <literal>README.txt</literal>.
             </para>
 
           </sect3>
