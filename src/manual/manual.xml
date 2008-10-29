@@ -5265,6 +5265,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Problems Downloading and Installing</phrase>
               <phrase lang="de">Probleme beim Herunterladen und Installieren</phrase>
+              <phrase lang="es">Problemas Descargando</phrase>
             </title>
 
             <para lang="en">
@@ -5280,6 +5281,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            <ulink url="http://argouml.tigris.org/faqs/users.html">
 	            FAQ</ulink>. Wenn nicht schon Ihr Problem löst, versuchen Sie es 
 	            über die ArgoUML Mailingliste für Anwender. 
+			</para>
+			<para lang="es">
+			  Si te quedas completamente atascado y no tienes asistencia 
+			  local, intenta el sitio web, particularmente el 
+			  <ulink url="http://argouml.tigris.org/faqs/users.html"> FAQ</ulink>. 
+			  Si esto aún no resuelve el problema, intentalo en la lista de correo
+			  de usuarios de ArgoUML.
 			</para>
 
             <para lang="en">
@@ -5299,6 +5307,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            users@argouml.org</ulink> mit dem Betreff <literal>subscribe
 	            </literal> senden.
             </para>
+            <para lang="es">
+              Te puedes subscribir a traves de la sección de listas de
+              correo del sitio web del proyecto
+              <ulink url="http://argouml.tigris.org">argouml.tigris.org</ulink>, 
+              o envia un mensaje vacio a 
+              <ulink url="mailto:users@argouml.org"> users@argouml.org</ulink> 
+              con el asunto <literal> subscribe</literal> (en ingles).
+            </para>
 
             <para lang="en">
 	            You can then send your problem to 
@@ -5311,6 +5327,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            users@argouml.org</ulink> senden und abwarten, ob andere 
 	            Anwender Ihnen helfen können.
             </para>
+            <para lang="es">
+              Puedes entonces enviar tu problema a 
+              <ulink url="mailto:users@argouml.org">users@argouml.org</ulink>
+              (en ingles) and ver como otros usuarios son capaces de ayudar.
+            </para>
+
 
             <para lang="en">
 	            The users&apos; mailing list is an excellent 
@@ -5326,6 +5348,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Entwicklung des Produktes und Fragen zu aktuellen und künftigen 
 	            Releases beinhalten.
             </para>
+            <para lang="es">
+              La lista de correo de usuarios es una excelente introducción
+              a la actividad vital del poryecto. Si quieres estar mas involucrado
+              hay listas de correo adicionales que cubren el desarrollo del
+              producto y problemas en la versión actual y futuras.
+            </para>
 
           </sect3>
 
@@ -5334,6 +5362,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Running ArgoUML</phrase>
               <phrase lang="de">ArgoUML starten</phrase>
+              <phrase lang="es">Ejecutando ArgoUML</phrase>
             </title>
 
             <para lang="en">
@@ -5343,6 +5372,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para lang="de">
 	            Wie Sie ArgoUML starten, hängt davon ab, ob Sie Microsoft Windows 
 	            oder eine Unix-Variante verwenden.
+            </para>
+            <para lang="es">
+              Como ejecutar ArgoUML depende de si usas Microsoft Windows
+              o alguna variedad de Unix.
             </para>
 
             <itemizedlist>
@@ -5394,6 +5427,28 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   dies zu konfigurieren ist.
                 </para>
 
+                <para lang="es">
+                  En Windows.
+                  Inicia una interfaz MSDOS por ejemplo usando
+                  Inicio/Ejecutar con <quote>command</quote> en 
+                  el texto texto de la ventana. 
+                  En la ventana, colocate en el directorio que
+                  contiene tus archivos de ArgoUML y teclea 
+                  <literal>java&nbsp;-jar&nbsp;argouml.jar</literal>.
+                  Este metodo tiene la ventaja de que la información de progreso
+                  y depuración es visible en la ventana DOS. 
+                  De forma alternativa crea un archivo de proceso 
+                  por lotes (.bat) conteniendo el
+                  comando anterior, con un acceso directo a el en el Escritorio.
+                  El archivo bat debería terminar con una sentencia de "pause" en
+                  caso de que se cree información de depuración durante la
+                  ejecución.
+                  En algunos sistemas, simplemente haciendo doble
+                  click en el archivo <literal>argouml.jar</literal> funciona. 
+                  En otros hacer esto inicia un programa de compresion de archivos.
+                  Acude a las instrucciones de tu sistema operativo o busca ayuda
+                  para determinar como configurar esto.
+                </para>
               </listitem>
 
               <listitem>
@@ -5411,6 +5466,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <para lang="de">
                   ein.
                 </para>
+                <para lang="es">
+                  En Unix.
+                  Inicia una ventana de terminal y teclea
+                  <literal>java&nbsp;-jar&nbsp;argouml.jar</literal>
+                </para>
 
               </listitem>
 
@@ -5423,6 +5483,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Problems Running ArgoUML</phrase>
               <phrase lang="de">Probleme beim Starten von ArgoUML</phrase>
+              <phrase lang="es">Problemas Ejecutando ArgoUML</phrase>
             </title>
 
             <para lang="en">
@@ -5436,6 +5497,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               ungewöhnlich, wenn Probleme auftreten.
               Wenn Sie das Problem nicht lösen können, versuchen Sie es über die 
               Anwender-Mailingliste (siehe <xref linkend="s4.probsolving"/>).
+            </para>
+            <para lang="es">
+              Es inusual encontrar problemas si has tenido una descarga
+              exitosa. 
+              Si no puedes resolver el problema, prueba la lista de
+              correo de usuario (mira <xref linkend="s4.probsolving" />).
             </para>
 
             <itemizedlist>
@@ -5452,6 +5519,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Ein häufiger Grund ist eine veraltete Java Runtime Umgebung (es 
               muss die Version 5 oder höher sein).
             </para>
+                <para lang="es">
+                  JRE equivocada. 
+                  El problema mas común es no tener una 
+                  versión de Java Runtime Environment suficientemente moderna
+                  (debe ser 1.4 o posterior).
+                </para>
 
               </listitem>
 
@@ -5494,6 +5567,26 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   beenden und neu starten.
                   Verwenden Sie die Taste X oben rechts.
                 </para>
+                <para lang="es">
+                  Lenguaje equivocado. 
+                  Si el producto aparece en un idioma
+                  que no sabes o no quieres leer, vete a el segundo item de menu
+                  por la izquierda en la parte superio de la pantalla. 
+                  Selecciona la entrada de menu mas baja en la lista desplegada. 
+                  <xref linkend="fig.prob.run.02" /> muestra esto en Ruso. 
+                  Luego haz
+                  click en la segunda solapa por abajo en la columna de solapas
+                  de la izquierda. 
+                  Despliega la lista como se muestra en 
+                  <xref linkend="fig.prob.run.02" />. 
+                  y selecciona un idioma. 
+                  Puedes ver que los idiomas esta listados en ellos mismos. 
+                  El idioma seleccionado en la muestra es Alemán donde 
+                  la palabra para <quote>Alemán</quote> es <quote>Deutsch</quote>. 
+                  Tendras que salir de ArgoUML y reiniciarlo 
+                  para que los cambios hagan efecto. 
+                  Usa el boton X de arriba a la derecha.
+                </para>
 
               </listitem>
 
@@ -5504,6 +5597,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">Finding the Settings Wizard</phrase>
                 <phrase lang="de">Den Einstellungs-Assistenten finden</phrase>
+                <phrase lang="es">Encontrando el Asistente de Configuración</phrase>
               </title>
 
               <screenshot><mediaobject><imageobject>
@@ -5517,6 +5611,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">Setting Language in the Appearance Pane</phrase>
                 <phrase lang="de">Die Sprache unter Erscheinungsbild einstellen</phrase>
+                <phrase lang="es">Estableciendo Idioma en el Panel de Apariencia</phrase>
               </title>
 
               <screenshot><mediaobject><imageobject>
@@ -5533,6 +5628,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <title>
             <phrase lang="en">The ArgoUML User Interface</phrase>
             <phrase lang="de">Die ArgoUML-Anwenderschnittstelle</phrase>
+            <phrase lang="es">El Interfaz de Usuario de ArgoUML</phrase>
           </title>
 
           <para lang="en">
@@ -5548,6 +5644,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             Lesen Sie hierfür die Einleitung in der Referenz zur 
             Anwenderschnittstelle. Siehe <xref linkend="ch.ref.ui"/>.
             Sie sollten auch <xref linkend="s1.ref.mouse"/> lesen.
+          </para>
+          <para lang="es">
+            Antes de empezar el Caso de Estudio, necesitas familiarizarte
+            con el interfaz de usuario.
+            Comienza leyendo la introducción a la
+            Referencía de la Interfaz de Usuario.
+            Mira <xref linkend="ch.ref.ui" />.
           </para>
 
           <para lang="en">
@@ -5571,6 +5674,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             unternommen, Sie direkt zu den entsprechenden Referenz-Abschnitten zu 
             führen.
           </para>
+          <para lang="es">
+            Mientras pasas a traves de este tutorial se te dira que hacer,
+            y cuando hacerlo pero como hacerlo a menudo será dejado a la
+            Referencia de la Interfaz de Usuario. 
+            No es necesario en este punto
+            leerse toda la Referencia, pero deberías echarle un vistazo hasta
+            familiarizarte con como encontrar cosas en ella. 
+            Todo intento será
+            hecho para dirigirte a la parte apropiada de la Referencia en donde
+            se aplican esos puntos en el tutorial.
+          </para>
+
 
           <para lang="en">
             <xref linkend="fig.tut.startup"/>, shows the main ArgoUML window as it
@@ -5580,12 +5695,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <xref linkend="fig.tut.startup"/>, zeigt das ArgoUML-Fenster, wie es 
             beim ersen Aufruf angezeigt wird.
           </para>
+          <para lang="es">
+            <xref linkend="fig.tut.startup" />, muestra la ventana
+            principal de ArgoUML como aparece cuando es entra por primera vez en
+            ArgoUML.
+          </para>
+
 
           <figure float="1" id="fig.tut.startup">
 
             <title>
               <phrase lang="en">Initial ArgoUML window</phrase>
               <phrase lang="de">Das erste ArgoUML-Fenster</phrase>
+              <phrase lang="es">Ventana inicial de ArgoUML</phrase>
             </title>
 
             <screenshot><mediaobject><imageobject>
@@ -5609,6 +5731,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             Fensterteilern.
             Siehe <xref linkend="s1.ref.panes"/>.
           </para>
+          <para lang="es">
+            Agarra la barra divisoria vertical y muevela atras y adelante.
+            Agarra la barra divisoria horizontal y muevela arriba y abajo.
+            Juega un poco por ahí con las pequeñas flechas a la izquierda 
+            o arriba de las barras divisorias. 
+            Mira <xref linkend="s1.ref.panes" />;.
+          </para>
+            
 
           <sect3 id="tut.menu.toolbars">
 
