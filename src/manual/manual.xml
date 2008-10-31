@@ -5738,7 +5738,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             o arriba de las barras divisorias. 
             Mira <xref linkend="s1.ref.panes" />;.
           </para>
-            
+          <!-- Copied translation from argouml-es project from the
+               beginning up to here. Now working from the end! -->            
 
           <sect3 id="tut.menu.toolbars">
 
@@ -8489,6 +8490,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 pre-condition being false. In the first case, 
                 pre-conditions are a source of problems, in the second 
                 a source of more work.</para>
+                <para lang="es">
+                  Evita pre-condiciones todo lo posible. 
+                  Necesitas tener la absoluta certeza de 
+                  que las pre-condiciones caben bajo todas
+                  las posibles circunstancias. 
+                  Si no tu sistema estará debilmente
+                  especificado y por lo tanto fallara cuando 
+                  la pre-condición no es cierta. 
+                  Alternativamente, cuando no tienes la certeza 
+                  de que la pre-condición es siempre cierta, 
+                  necesitaras especificar un segundo caso 
+                  de uso para manejar la pre-condición siendo falsa.
+                  En el primer caso, las pre-condiciones son 
+                  una fuente de problemas, 
+                  en el segundo una fuente de mas trabajo.
+                </para>
 
               </caution>
 
@@ -8496,11 +8513,32 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <indexterm><primary>Basic Flow</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm><primary>Use Case</primary><secondary>Basic 
-              Flow</secondary></indexterm>
-              <indexterm><primary>Scenario</primary></indexterm>
+              <indexterm lang="en">
+                <primary>Basic Flow</primary>
+                <secondary>of Use Case</secondary>
+              </indexterm>
+              <indexterm lang="en">
+                <primary>Use Case</primary>
+                <secondary>Basic Flow</secondary>
+              </indexterm>
+              <indexterm lang="en">
+                <primary>Scenario</primary>
+              </indexterm>
+              
+              <indexterm lang="es">
+                <primary>Flujo Basico</primary>
+                <secondary>del Caso de Uso</secondary>
+              </indexterm>
+
+              <indexterm lang="es">
+                <primary>Casos de Uso</primary>
+                <secondary>Flujo Basico</secondary>
+              </indexterm>
+
+              <indexterm lang="es">
+                <primary>Escenario</primary>
+              </indexterm>
+
               <para lang="en"><emphasis>Basic Flow</emphasis>. The linear 
               sequence of steps that describe the behavior of the use 
               case in the <quote>normal</quote> scenario. Where a use 
@@ -8508,35 +8546,85 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               is arbitrarily selected. Specifying the basic flow is 
               described in more detail in 
               <xref linkend="s3.tut.basic_flow"/> below.</para>
+              <para lang="es">
+                <emphasis>Flujo Básico</emphasis>. 
+                La secuencia lineal de pasos que descruben 
+                el comportamiento de el caso de uso en 
+                el escenarío <quote>normal</quote>. 
+                Donde un caso de uso tiene un número de escenarios 
+                que podrían ser normales, uno es seleccionado
+                arbitrariamente.
+                Especificar el flujo básico está descrito 
+                con más detalle mas
+                <xref linkend="s3.tut.basic_flow" /> abajo.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Alternate 
-              Flows</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm><primary>Use 
-              Case</primary><secondary>Alternate 
-              Flows</secondary></indexterm>
+              <indexterm lang="en">
+                <primary>Alternate Flows</primary>
+                <secondary>of Use Case</secondary>
+              </indexterm>
+              <indexterm lang="en">
+                <primary>Use Case</primary>
+                <secondary>Alternate Flows</secondary>
+              </indexterm>
+              <indexterm lang="es">
+                <primary>Flujos Alternativos</primary>
+                <secondary>de Casos de Uso</secondary>
+              </indexterm>
+              <indexterm lang="es">
+                <primary>Casos de Uso</primary>
+                <secondary>Flujos Alternativos</secondary>
+              </indexterm>
+
               <para lang="en"><emphasis>Alternate Flows</emphasis>. A series of 
               linear sequences describing each of the alternative 
               behaviors to the basic flow. Specifying alternate flows 
               is described in more detail in 
               <xref linkend="s3.tut.alternate_flows"/>.</para>
+              <para lang="es">
+                <emphasis>Flujos Alternativos</emphasis>. 
+                Unas series de secuencias lineales describiendo 
+                cada uno de los comportamientos
+                alternativos al flujo básico. 
+                Especificar flujos alternativos
+                está descrito con mas detalle en 
+                <xref linkend="s3.tut.alternate_flows" />.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm>
-              <primary>Post-conditions</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm>
-              <primary>Post-assumptions</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm><primary>Use Case 
-              Post-conditions</primary></indexterm>
+              <indexterm lang="en">
+                <primary>Post-conditions</primary>
+                <secondary>of Use Case</secondary>
+              </indexterm>
+              <indexterm lang="en">
+                <primary>Post-assumptions</primary>
+                <secondary>of Use Case</secondary>
+              </indexterm>
+              <indexterm lang="en">
+                <primary>Use Case Post-conditions</primary>
+              </indexterm>
+
+              <indexterm lang="es">
+                <primary>Post-condiciones</primary>
+                <secondary>de Caso de Uso</secondary>
+              </indexterm>
+
+              <indexterm lang="es">
+                <primary>Post-asumciones</primary>
+                <secondary>de Casos de Use</secondary>
+              </indexterm>
+
+              <indexterm lang="es">
+                <primary>Post-conditions de Casos de Uso</primary>
+              </indexterm>
+
               <para lang="en"><emphasis>Post-conditions</emphasis>. These would 
               be better named <quote>post-assumptions</quote>. This is 
               a statement of any assumptions that we can make at the 
@@ -8544,6 +8632,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               one of a series of subsidiary use cases that are included 
               in a main use case, where they can form the 
               pre-conditions of the next use case to be included.</para>
+              <para lang="es">
+                <emphasis>Post-condiciones</emphasis>.
+                Sería mejor llamarlas <quote>post-asumciones</quote>.
+                Esta es una especificación de
+                cualesquiera asumciones que podemos hacer al final 
+                del caso de uso. 
+                Son mas utiles donde el caso de uso es uno 
+                de una serie de casos de uso subsidiarios 
+                que estan incluidos en un caso de uso principal, 
+                donde pueden formar las pre-condiciones 
+                del siguiente caso de uso que va a ser incluido.
+              </para>
 
               <caution>
 
@@ -8552,6 +8652,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 the use case flows, to ensure that the post-condition 
                 always holds. They therefore are also a source of 
                 problems and extra work.</para>
+                <para lang="es">
+                  Como las pre-condiciones, 
+                  las post-condiciones son mejor evitarlas. 
+                  Colocan una carga en la especificación de los flujos
+                  de caso de uso, para asegurar que 
+                  la post-condición siempre se mantiene. 
+                  Por lo tanto son tambien una fuente de problemas y
+                  trabajo extra.
+                </para>
 
               </caution>
 
@@ -8564,6 +8673,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               specifications and supplementary requirements 
               specification would form the requirements for a 
               project.</para>
+              <para lang="es">
+                <emphasis>Requerimientos</emphasis>. 
+                En un mundo ideal el documento de visión, 
+                los diagramas de casos de uso, 
+                las especificaciones de casos de uso y 
+                la especificacion de requerimientos suplementarios 
+                formarián los requerimientos para un proyecto.
+              </para>
+
 
               <para lang="en">For most market-led developments, where ownership 
               of requirements is within the same business as the team 
@@ -8571,6 +8689,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               case. The marketing department can learn use case based 
               requirements capture and analysis to link to their 
               customer facing activities.</para>
+              <para lang="es">
+                Para la mayoría de los desarrollos lideres del mercado,
+                donde la propiedad de los requerimientos esta dentro 
+                del mismo negocio que el equipo que hará el desarrollo,
+                este no es normalmente el caso. 
+                El departamento de marketing puede aprender
+                captura de requerimientos basada en casos 
+                de uso y analisis para enlazar con 
+                las actividades primarias de sus consumidores.
+              </para>
 
               <para lang="en">However for external contract developments, 
               customers may insist on a traditional <quote>list of 
@@ -8578,11 +8706,30 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               is the case, this section of the use case specification 
               should link to the contract features that are covered by 
               the use case.</para>
+              <para lang="es">
+                Sin embargo para desarrollos externos por contrato, 
+                los consumidores pueden insistir en una
+                <quote>lista de caracteristicas</quote> 
+                tradicional como la base del contrato. 
+                Cuando este es el caso, esta sección de la
+                especificación de casos de uso debería enlazar con las
+                caracteristicas del contrato que son cubiertas 
+                por el caso de uso.
+              </para>
 
               <para lang="en">This is often done through a third party tool that 
               can link documents, providing automated checking of 
               coverage, in which case this section is not needed, or 
               may be generated automatically.</para>
+              <para lang="es">
+                Esto es hecho a menudo a traves de una herramienta 
+                de terceros que puede enlazar documentos,
+                proporcionando una prueba 
+                automatizada de cobertura de requisitos,
+                en tal caso esta sección no es necesaria, 
+                o puede ser generada automaticamente.
+              </para>
+              
 
             </listitem>
 
@@ -8595,42 +8742,101 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           this, consider breaking the use case down. If you are much 
           smaller consider whether the use case is addressing too small 
           a chunk of behavior.</para>
+          <para lang="es">
+            El tamaño final de la especificacíon de caos 
+            de uso dependerá de la complejidad del caso de uso.
+            Como pequeña regla, la mayoría de los casos de uso 
+            toman alrededor de 10-15 paginas para especificar,
+            la mayoría de las cuales son flujos alternativos.
+            Si el tuyo es mucho mas largo que esto, 
+            considera simplificar el caso de uso. 
+            Si el tuyo es mucho mas pequeño considera que 
+            el caso de uso esta describiendo 
+            una parte demasiado pequeña del comportamiento.
+          </para>
+          
 
           <sect3 id="s3.tut.basic_flow">
 
-            <title lang="en">Specifying the Basic Flow</title>
+            <title>
+              <phrase lang="en">Specifying the Basic Flow</phrase>
+              <phrase lang="es">Especificando el Flujo Basico</phrase>
+            </title>
 
-            <indexterm><primary>Basic Flow</primary><secondary>of Use 
-            Case</secondary></indexterm>
-            <indexterm><primary>Use Case</primary><secondary>Basic 
-            Flow</secondary></indexterm>
+            <indexterm lang="en">
+              <primary>Basic Flow</primary>
+              <secondary>of Use Case</secondary>
+            </indexterm>
+            <indexterm lang="en">
+              <primary>Use Case</primary>
+              <secondary>Basic Flow</secondary>
+            </indexterm>
+            <indexterm lang="es">
+              <primary>Flujo Basico</primary>
+              <secondary>de Casos de Uso</secondary>
+            </indexterm>
+
+            <indexterm lang="es">
+              <primary>Casos de Uso</primary>
+              <secondary>Flujo Basico</secondary>
+            </indexterm>
+
             <para lang="en">All flows in a use case specification are linear&mdash;that 
             is there is no conditional branching. Any choices in flows 
             are handled by specifying another alternate flow that takes 
             over at the choice point. It is important to remember we 
             are specifying behavior here, not programming it.</para>
+            <para lang="es">
+              Todos los flujos en una especificación de casos de uso son
+              lineales (esto es que no hay ramas condicionales).
+              Cualesquiera elecciones en los flujos 
+              son manejadas especificando otro flujo
+              alternativo que recoge el punto de elección.
+              Es importante recordar que estamos especificando 
+              comportamiento aqui, no programandolo.
+            </para>
 
             <para lang="en">A flow is specified as a series of numbered steps. 
             Each step must involve some interaction with an actor, or 
             at least generate a change that is observable externally by 
             an actor. Requirements capture should not be specifying 
             hidden internal behavior of a system.</para>
+            <para lang="es">
+              Un flujo es especificado como una serie de pasos numerados.
+              Cada paso debe implicar alguna interacción con un actor, 
+              o al menos generar un cambio que sea observable 
+              externamente por un actor. 
+              La captura de requerimientos no debería estar especificando 
+              comportamiento interno y oculto del sistema.
+            </para>
 
             <para lang="en">For example we might give the following sequence of 
             steps for the basic flow of the use case &quot;Withdraw 
             Cash&quot; in our ATM example.</para>
+            <para lang="es">
+              Por ejemplo nosotros podemos dar la siquiente secuencia 
+              de pasos para el flujo basico del casos de uso 
+              "Retirar Dinero" en nuestro ejemplo 
+              de Cajero Automatico.
+            </para>
 
             <orderedlist>
 
               <listitem>
 
                 <para lang="en">Customer indicates a receipt is required.</para>
+                <para lang="es">
+                  Consumidor indica que se requiere recibo.
+                </para>
 
               </listitem>
 
               <listitem>
 
                 <para lang="en">Customer enters amount of cash required.</para>
+                <para lang="es">
+                  Consumidor introduce cantidad de dinero requerido.
+                </para>
 
               </listitem>
 
@@ -8638,18 +8844,28 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                 <para lang="en">ATM verifies with the central computer that the 
                 customer can make this withdrawal.</para>
+                <para lang="es">
+                  Cajero Automatico verifica con el ordenador central que
+                  el consumidor puede realizar esta operación.
+                </para>
 
               </listitem>
 
               <listitem>
 
                 <para lang="en">ATM dispenses cash to the customer.</para>
+                <para lang="es">
+                  Cajero Automatico entrega el dinero a el consumidor.
+                </para>
 
               </listitem>
 
               <listitem>
 
                 <para lang="en">ATM issues receipt to customer.</para>
+                <para lang="es">
+                  Cajero Automatico emite recibo al consumidor.
+                </para>
 
               </listitem>
 
@@ -8659,6 +8875,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <quote>Use ATM</quote> use case, which will presumably 
             handle checking of cards and PINs before invoking this 
             included use case.</para>
+            <para lang="es">
+              Recuerda que esta es un sub-caso de uso incluido en el
+              caso de uso principal <quote>Usar Cajero Automatico</quote>,
+              el cual presumiblemente manejará 
+              la verificación de tarjetas y PINs antes de invocar este 
+              caso de uso incluido.
+            </para>
 
             <note>
 
@@ -8666,6 +8889,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               basic flow the case where the customer does want a 
               receipt. The case where the customer does not want a 
               receipt will be an alternative flow.</para>
+              <para lang="es">
+                El primer paso no es una condición.
+                Tomamos como nuestro flujo básico el caso donde 
+                el consumidor quiere un recibo. 
+                El caso donde de consumidor no quiere un recibo 
+                será un flujo alternativo.
+              </para>
 
             </note>
 
@@ -8673,17 +8903,46 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3 id="s3.tut.alternate_flows">
 
-            <title lang="en">Specifying the Alternate Flows</title>
+            <title>
+              <phrase lang="en">Specifying the Alternate Flows</phrase>
+              <phrase lang="es">Especificando los Flujos Alternativos</phrase>
+            </title>
 
-            <indexterm><primary>Alternate Flows</primary><secondary>of 
-            Use Case</secondary></indexterm>
-            <indexterm><primary>Use Case</primary><secondary>Alternate 
-            Flows</secondary></indexterm>
-            <indexterm><primary>Alternative 
-            scenarios</primary></indexterm>
+            <indexterm lang="en">
+              <primary>Alternate Flows</primary>
+              <secondary>of Use Case</secondary>
+            </indexterm>
+            <indexterm lang="en">
+              <primary>Use Case</primary>
+              <secondary>Alternate Flows</secondary>
+            </indexterm>
+            <indexterm lang="en">
+              <primary>Alternative scenarios</primary>
+            </indexterm>
+            <indexterm lang="es">
+              <primary>Flujos Alternativos</primary>
+              <secondary>de Casos de Uso</secondary>
+            </indexterm>
+
+            <indexterm lang="es">
+              <primary>Casos de Uso</primary>
+              <secondary>Flujos Alternativos</secondary>
+            </indexterm>
+
+            <indexterm lang="es">
+              <primary>Escenarios Alternativos</primary>
+            </indexterm>
+
+
             <para lang="en">This captures the alternative scenarios, as linear 
             flows, by reference to the basic flow. Initially we just 
             build a list of the alternate flows.</para>
+            <para lang="es">
+              Esto captura los escenarios alternativos, 
+              como flujos lineales, mediante referencia la flujo básico. 
+              Inicialmente unicamente construimos una lista de 
+              los flujos alternativos.
+            </para>
 
             <orderedlist inheritnum="inherit" numeration="upperalpha">
 
@@ -8694,6 +8953,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   <listitem>
 
                     <para lang="en">Customer does not require a receipt.</para>
+                    <para lang="es">Consumidor no requiere recibo.</para>
 
                   </listitem>
 
@@ -8701,6 +8961,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                     <para lang="en">Customer&apos;s account will not support the 
                     withdrawal.</para>
+                    <para lang="es">
+                      La cuenta del consumidor no soportará el retiro de 
+                      dinero.
+                    </para>
 
                   </listitem>
 
@@ -8708,12 +8972,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                     <para lang="en">Communication to the central computer is 
                     down.</para>
+                    <para lang="es">
+                      Comunicación con el ordenador central está
+                      interrumpida.
+                    </para>
 
                   </listitem>
 
                   <listitem>
 
                     <para lang="en">The customer cancels the transaction.</para>
+                    <para lang="es">
+                      El consumidor cancela la transacción.
+                    </para>
 
                   </listitem>
 
@@ -8721,6 +8992,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                     <para lang="en">The customer fails to take the dispensed 
                     cash.</para>
+                    <para lang="es">
+                      El consumidor falla a coger el dinero entregado.
+                    </para>
 
                   </listitem>
 
