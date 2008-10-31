@@ -8349,8 +8349,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <figure float="1" id="fig.tut.atm_use_case_diagram_extend">
 
-              <title lang="en">Use case diagram for an ATM system showing an 
-              extend relationship.</title>
+              <title>
+                <phrase lang="en">
+                  Use case diagram for an ATM system showing an 
+                  extend relationship.
+                </phrase>
+                <phrase lang="es">
+                  Diagrama de casos de uso para un sistema de Cajero
+                  Automático mostrando una relación de extensión.
+                </phrase>
+              </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -8358,14 +8366,38 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></mediaobject></screenshot>
             </figure>
 
-            <indexterm><primary>Use Case 
-            Generalization</primary></indexterm>
-            <indexterm><primary>Use Case 
-            Specialization</primary></indexterm>
-            <indexterm><primary>Generalize a Use 
-            Case</primary></indexterm>
-            <indexterm><primary>Specializations</primary><secondary>of 
-            Use Case</secondary></indexterm>
+            <indexterm lang="en">
+              <primary>Use Case Generalization</primary>
+            </indexterm>
+            <indexterm lang="en">
+              <primary>Use Case Specialization</primary>
+            </indexterm>
+            <indexterm lang="en">
+              <primary>Generalize a Use Case</primary>
+            </indexterm>
+            <indexterm lang="en">
+              <primary>Specializations</primary>
+              <secondary>of Use Case</secondary>
+            </indexterm>
+            <indexterm lang="es">
+              <primary>Generalización de Casos de Uso</primary>
+            </indexterm>
+
+            <indexterm lang="es">
+              <primary>Especialización de Casos de Uso</primary>
+            </indexterm>
+
+            <indexterm lang="es">
+              <primary>Generalizar un Caso de Uso</primary>
+            </indexterm>
+
+            <indexterm lang="es">
+              <primary>Especializaciones</primary>
+              <secondary>de Casos de Uso</secondary>
+            </indexterm>
+
+
+
             <para lang="en">
               Use cases may be linked together in one other way. 
               One use case may be a <emphasis>generalization</emphasis>
@@ -8377,6 +8409,25 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               which the main use case may be extended, and with no 
               condition on when the subsidiary use case may be 
               used.</para>
+            <para lang="es">
+              Los casos de uso pueden ser enlazados juntos de una forma 
+              adicional. 
+              Un caso de uso puede ser una 
+              <emphasis>generalización</emphasis> de 
+              un caso de uso subsidiario 
+              (o alternativamente el subsidiario es una 
+              <emphasis>especializatión</emphasis> del caso 
+              de uso principal).
+            </para>
+
+            <para lang="es">
+              Esto es muy parecido a la relación de extension, 
+              pero sin la limitación de puntos 
+              de extensión especificos en los cuales el caso 
+              de uso principal puede ser extendido, 
+              y sin condiciones sobre cuando 
+              puede ser usado el caso de uso subsidiario.
+            </para>
 
             <para lang="en">
               Generalization is shown on a use case diagram by an 
@@ -8390,6 +8441,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               generalization very hard to specify precisely.
               In general use an extend relationship instead.
             </para>
+            <para lang="es">
+              La generalización está representada en 
+              un diagrama de casos de uso por una flecha 
+              con una linea continua y una punta de flecha 
+              blanca desde el subsidiario al caso de uso 
+              principal.
+            </para>
+
+            <para lang="es">
+              Esto puede ser util cuando un caso de uso subsidiario 
+              especializa el comportamiento del caso de uso principal 
+              en un gran número de posiciones y bajo un amplio rango 
+              de circunstancias.
+            </para>
+
+            <para lang="es">
+              Sin embargo la falta de alguna restricción hace 
+              la generalización muy dificil de especificar con precisión. 
+              En general usa una relación de extensión en su lugar.
+            </para>
+            
 
           </sect3>
 
@@ -8397,13 +8469,35 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title lang="en">The Use Case Specification</title>
+          <title>
+            <phrase lang="en">The Use Case Specification</phrase>
+            <phrase lang="es">La Especificación de Casos de Uso</phrase>
+          </title>
 
-          <indexterm><primary>Use Case 
-          Specification</primary></indexterm>
-          <indexterm><primary>Specification</primary><secondary>of Use 
-          Case</secondary></indexterm>
-          <indexterm><primary>Use Case Scenario</primary></indexterm>
+          <indexterm lang="en">
+            <primary>Use Case Specification</primary>
+          </indexterm>
+          <indexterm lang="en">
+            <primary>Specification</primary>
+            <secondary>of Use Case</secondary>
+          </indexterm>
+          <indexterm lang="en">
+            <primary>Use Case Scenario</primary>
+          </indexterm>
+          <indexterm lang="es">
+            <primary>Especificación de Casos de Uso</primary>
+          </indexterm>
+
+          <indexterm lang="es">
+            <primary>Especificación</primary>
+            <secondary>de Casos de Uso</secondary>
+          </indexterm>
+
+          <indexterm lang="es">
+            <primary>Escenario de Casos de Uso</primary>
+          </indexterm>
+
+
           <para lang="en">
             Each use case must be documented to explain in detail 
             the behavior it is specifying.
@@ -8414,30 +8508,81 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <emphasis>use case scenario</emphasis> or even (confusingly) just
             <emphasis>use case</emphasis>.
           </para>
+          <para lang="es">
+            Cada caso de uso debe ser documentado para explicar 
+            en detalle el comportamiento que está especificando. 
+            Este documento es conocido por diferentes nombres 
+            en diferentes procesos:
+            <emphasis>especificación de caso de uso</emphasis>,
+            <emphasis>escenario de caso de uso</emphasis> 
+            o incluso (confusamente) solo 
+            <emphasis>caso de uso</emphasis>.
+          </para>
 
           <para lang="en">A typical use case specification will include the following 
           sections.</para>
+          <para lang="es">
+            Un caso de uso tipico incluirá las siguientes secciones.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <indexterm><primary>Name</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm><primary>Use Case Name</primary></indexterm>
+              <indexterm lang="en">
+                <primary>Name</primary>
+                <secondary>of Use Case</secondary>
+              </indexterm>
+              <indexterm lang="es">
+                <primary>Use Case Name</primary>
+              </indexterm>
+              <indexterm lang="es">
+                <primary>Nombre</primary>
+                <secondary>del Caso de Uso</secondary>
+              </indexterm>
+
+              <indexterm lang="es">
+                <primary>Nombre de Caso de Uso</primary>
+              </indexterm>
+
               <para lang="en"><emphasis>Name</emphasis>. The name of the use case 
               to which this relates.</para>
+              <para lang="es">
+                <emphasis>Nombre</emphasis>.
+                El nombre del caso de uso al
+                que esto se refiere.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Goal</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm><primary>Use Case Goal</primary></indexterm>
+              <indexterm lang="en">
+                <primary>Goal</primary>
+                <secondary>of Use Case</secondary>
+              </indexterm>
+              <indexterm lang="en">
+                <primary>Use Case Goal</primary>
+              </indexterm>
+
+              <indexterm lang="es">
+                <primary>Objetivo</primary>
+                <secondary>del Caso de Uso</secondary>
+              </indexterm>
+
+              <indexterm lang="es">
+                <primary>Objetivo del Caso de Uso</primary>
+              </indexterm>
+
               <para lang="en"><emphasis>Goal</emphasis>. A one or two line 
               summary of what this use case achieves <emphasis>for its 
               actors</emphasis>.</para>
+              <para lang="es">
+                <emphasis>Objetivo</emphasis>.
+                Un resumen de una o dos lineas de 
+                que realiza este caso de uso 
+                <emphasis>por sus actores</emphasis>.
+              </para>
 
             </listitem>
 
@@ -8446,12 +8591,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="en"><emphasis>Actors</emphasis>. The actors involved in 
               this use case, and any context regarding their 
               involvement.</para>
+              <para lang="es">
+                <emphasis>Actores</emphasis>.
+                Los actores involucrados en este caso de uso, 
+                y cualquier contexto con respecto a su participación.
+              </para>
 
               <note>
 
                 <para lang="en">This should not be a description of the actor. 
                 That should be associated with the actor on the use 
                 case diagram.</para>
+                <para lang="es">
+                  Esto no debería ser una descripción del actor. 
+                  Eso debería estar asociado con el actor en 
+                  el diagrama de casos de uso.
+                </para>
 
               </note>
 
@@ -8459,24 +8614,60 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <indexterm><primary>Pre-condition</primary><secondary>of 
-              Use Case</secondary></indexterm>
-              <indexterm>
-              <primary>Pre-assumptions</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm><primary>Use Case 
-              Pre-condition</primary></indexterm>
+              <indexterm lang="en">
+                <primary>Pre-condition</primary>
+                <secondary>of Use Case</secondary>
+              </indexterm>
+              <indexterm lang="en">
+                <primary>Pre-assumptions</primary>
+                <secondary>of Use Case</secondary>
+              </indexterm>
+              <indexterm lang="en">
+                <primary>Use Case Pre-condition</primary>
+               </indexterm>
+              <indexterm lang="es">
+                <primary>Pre-condición</primary>
+                <secondary>de Caso de Uso</secondary>
+              </indexterm>
+
+              <indexterm lang="es">
+                <primary>Pre-asumciones</primary>
+                <secondary>de Casos de Uso</secondary>
+              </indexterm>
+
+              <indexterm lang="es">
+                <primary>Pre-condicion de Casos de Uso</primary>
+              </indexterm>
+
+
               <para lang="en"><emphasis>Pre-condition</emphasis>. These would be 
               better named <quote>pre-assumptions</quote>, but the term 
               used everywhere is pre-conditions. This is a statement of 
               any simplifying assumptions we can make at the start of 
               the use case.</para>
+              <para lang="es">
+                <emphasis>Pre-condición</emphasis>. 
+                Sería mejor llamarlas <quote>pre-asumciones</quote>, 
+                pero el termino usado en todos sitios es pre-condiciones. 
+                Es una declaración de cualesquiera asumciones 
+                de simplificación que podemos hacer al comienzo 
+                del caso de uso.
+              </para>
 
               <para lang="en">In the ATM example we might make the assumption for 
               the<quote>Maintain Equipment</quote> use case that an 
               engineer is always available, and we do not need to worry 
               about the case where a routine maintenance visit is 
               missed.</para>
+              <para lang="es">
+                En el ejempli del Cajero Automatico, 
+                podemos hacer la asumción para el caso de uso de
+                <quote>Mantener Equipamiento</quote> 
+                que un ingeniero está siempre disponible, 
+                y no necesitamos preocuparnos sobre el caso de que 
+                una visita de mantenimiento de rutina 
+                se halla dejado pasar.
+              </para>
 
               <caution>
 
