@@ -480,7 +480,8 @@ Please try updating your working copy.
       <java classname="com.icl.saxon.StyleSheet"
               fork="yes"
 	          taskname="saxon"
-              dir=".">
+              dir="."
+      	      failonerror="true">
         <classpath>
           <path refid="saxon.classpath"/>
         </classpath>
@@ -556,7 +557,8 @@ Please try updating your working copy.
       <java classname="com.icl.saxon.StyleSheet"
               fork="yes"
 	          taskname="saxon"
-              dir=".">
+              dir="."
+      	      failonerror="true">
         <classpath>
           <path refid="saxon.classpath"/>
         </classpath>
@@ -588,7 +590,8 @@ Please try updating your working copy.
               maxmemory="176M"
               fork="yes"
 	          taskname="fop"
-              dir=".">
+              dir="."
+      	      failonerror="true">
         <classpath>
           <pathelement location="${jimi.jar.path}"/>
           <pathelement location="${fop.build.dir}/fop.jar"/>
