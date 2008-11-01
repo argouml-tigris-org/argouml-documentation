@@ -6519,7 +6519,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para lang="en">
               <emphasis>View</emphasis> menu.
-              <indexterm><primary>View Menu</primary></indexterm>
+              <indexterm lang="en"><primary>View Menu</primary></indexterm>
               This allows you 
               to switch between diagrams, find model elements in the 
               model, zoom in a diagram, adjust the 
@@ -6533,69 +6533,159 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               the tree nodes.
               Select the class diagram and give it a name.
             </para>
+            <para lang="de">
+              Menü: <emphasis>Ansicht</emphasis>.
+              <indexterm lang="de"><primary>Menü: Ansicht</primary></indexterm>
+              Dieses Menü erlaubt Ihnen zwischen Diagrammen hin- und 
+              herzuschalten, Modellelemente in einem Modell aufzufinden, in ein 
+              Diagramm hineinzuzoomen, das Gitter einzustellen, die Darstellung 
+              des Seitenumbruches zu ändern und die XML-Darstellung des 
+              Projektes anzuzeigen.
+              Um zu einem definierten Punkt zurückzukehren, führen Sie 
+              <emphasis>Datei=&gt;Neu...</emphasis> aus.
+              Erstellen Sie je Diagramm ein Beispiel und führen Sie noch keine 
+              Tätigkeit im Explorer aus.
+              Um die Baumknoten zu expandieren, klicken Sie auf die (+)-Zeichen 
+              im Explorer.
+              Markieren Sie das entsprechende Klassendiagramm und vergeben Sie 
+              einen Namen.
+            </para>
 
             <orderedlist>
-              <listitem><para lang="en">
-                <emphasis>View=&gt;Goto Diagram</emphasis> brings up a
-                Go To Diagram panel.
-                Select the class diagram entry in this panel and click on
-                the "Go to Selection" button.
-                There should be 0 nodes and 0 edges in the description column.
-                Click on the "Close" button.
-                In the Details Pane (Properties tab) enter the name as "Blort".
-                Create two classes <!--  (See ...)--> in the class diagram and go
-                back to <emphasis>View=&gt;Goto Diagram</emphasis>.
-                You should now see 2 nodes and 0 edges shown.
-                Click on the "Close" button again and link the classes with
-                one of the "line" items like association or generalization.
-                Go back to <emphasis>View=&gt;Goto Diagram</emphasis> and you
-                should see 2 nodes and 1 edge(s).
-                Click on the "Close" button again and create a third class.
-                Run the mouse over the icons in the toolbar until you find the
-                one with the tooltip "New Association Class."
-                Click on this tool and then connect the new class to one
-                of the others.
-                Having clicked on the "New Association Class" tool move the
-                mouse over the new class.
-                Press and hold down button&nbsp;1.
-                Move the mouse over one of the other classes and
-                release button&nbsp;1.
-                Go back to <emphasis>View=&gt;Goto Diagram</emphasis> and you
-                should see 3 nodes and 2 edge(s).
-                Even though it is a class and has a two dimensional
-                representation, it counts as an edge not a node.
-                Select other entries in this panel and click on
-                the "Go to Selection" button in the Go To Diagram panel.
-                Observe the changes in the Explorer Panel.
-              </para></listitem>
-              <listitem><para lang="en">
-                <emphasis>View=&gt;Find.</emphasis>
-                At this point you should have three normal classes and an
-                association class in the Explorer Pane.
-                Name them "AA", "AB", "B", and "C".
-                Perform a <emphasis>View=&gt;Find</emphasis> operation.
-                Click on the "Find" button.
-                Notice that an "* in *" tab is created below.
-                This tab should show pretty much everything.
-                In the "In Diagram" editor change the "*" to "B*" and
-                click on the "Find Button" observing the contents of the
-                new tab with "* in B*" as a tab label.
-                You should see the three classes, the link (such as an
-                association), and the association class.
-                In the Element Type drop down box select "Interface" and click
-                on the Find button.
-                The new tab "* in B* Inte..." should have no entries in it
-                as we have defined no interfaces.
-                In the Element Type drop down box select "Class" and click
-                on the Find button.
-                The new tab "* in B* Class" should have one fewer entries
-                in it than the "* in B*" tab.
-                Switch back and forth between these two
-                observing the difference.
-                In various of these tabs select an item and click on the
-                "Go To Selection" button observing the change in the selection
-                shown in the diagram and in the Explorer Pane.
-              </para></listitem>
+              <listitem>
+	              <para lang="en">
+	                <emphasis>View=&gt;Goto Diagram</emphasis> brings up a
+	                Go To Diagram panel.
+	                Select the class diagram entry in this panel and click on
+	                the "Go to Selection" button.
+	                There should be 0 nodes and 0 edges in the description column.
+	                Click on the "Close" button.
+	                In the Details Pane (Properties tab) enter the name as "Blort".
+	                Create two classes <!--  (See ...)--> in the class diagram and go
+	                back to <emphasis>View=&gt;Goto Diagram</emphasis>.
+	                You should now see 2 nodes and 0 edges shown.
+	                Click on the "Close" button again and link the classes with
+	                one of the "line" items like association or generalization.
+	                Go back to <emphasis>View=&gt;Goto Diagram</emphasis> and you
+	                should see 2 nodes and 1 edge(s).
+	                Click on the "Close" button again and create a third class.
+	                Run the mouse over the icons in the toolbar until you find the
+	                one with the tooltip "New Association Class."
+	                Click on this tool and then connect the new class to one
+	                of the others.
+	                Having clicked on the "New Association Class" tool move the
+	                mouse over the new class.
+	                Press and hold down button&nbsp;1.
+	                Move the mouse over one of the other classes and
+	                release button&nbsp;1.
+	                Go back to <emphasis>View=&gt;Goto Diagram</emphasis> and you
+	                should see 3 nodes and 2 edge(s).
+	                Even though it is a class and has a two dimensional
+	                representation, it counts as an edge not a node.
+	                Select other entries in this panel and click on
+	                the "Go to Selection" button in the Go To Diagram panel.
+	                Observe the changes in the Explorer Panel.
+	              </para>
+	              <para lang="de">
+	                <emphasis>Ansicht=&gt;Gehezu Diagramm...</emphasis> blendet 
+	                das Gehezu-Diagramm-Dialogfester auf.
+	                Markieren Sie den Eintrag Klassendiagramm und klicken Sie 
+	                auf die Schaltfläche "Gehe zur Auswahl".
+	                In der Spalte am rechten Rand sollten 0 Knoten und 0 Kanten 
+	                angezeigt werden.
+	                Klicken Sie auf die Schaltfläche "Schliessen".
+	                Im Fenster Details (Register Eigenschaften) geben Sie den 
+	                Namen "Blort" ein.
+	                Erstellen Sie im Klassendiagramm zwei Klassen (Siehe ...) 
+	                und gehen Sie wieder in <emphasis>Ansicht=&gt;Gehezu 
+	                Diagramm...</emphasis>.
+	                Sie sollten jetzt 2 Knoten und 0 Kanten angezeigt bekommen.
+	                Klicken Sie erneut auf die Schaltfläche "Schliessen" und 
+	                verbinden Sie die Klassen mit einem der "Linien"-Elemente 
+	                wie Assoziation oder Vererbung.
+	                Gehen Sie erneut in <emphasis>Ansicht=&gt;Gehezu Diagramm...
+	                </emphasis> und Sie sollten 2 Knoten und 1 Kante(n) sehen.
+	                Klicken Sie erneut auf die Schaltfläche "Schliessen" und 
+	                erstellen Sie eine dritte Klasse.
+	                Gehen Sie mit der Maus in die Symbolleiste zur 
+	                Schaltfläche "Neue Beziehungsklasse".
+	                Klicken Sie dieses Symbol an und verbinden Sie die neue 
+	                Klasse mit einer der anderen.
+	                Nachdem Sie auf "Neue Beziehungsklasse" geklickt haben, 
+	                bewegen Sie die Maus über die neue Klasse. Halten Sie die 
+	                Taste&nbsp;1 gedrückt. Bewegen Sie die Maus zur anderen 
+	                Klasse und lassen Sie die Taste&nbsp;1 los.
+					Gehen Sie erneut in <emphasis>Ansicht=&gt;Gehezu Diagramm...
+					</emphasis> und Sie sollten 3 Knoten und 2 Kante(n) sehen.
+					Obwohl es eine Klasse ist und eine zweidimensionale 
+					Darstellung aufweist, zählt sie als Kante und nicht als 
+					Knoten.
+					Markieren Sie andere Einträge in diesem Fenster und klicken 
+					Sie auf die Schaltfläche "Gehe zur Auswahl" im "Gehezu 
+					Diagramm"-Fenster. Beobachten Sie die Änderungen im Explorer.
+	              </para>
+              </listitem>
+              <listitem>
+	              <para lang="en">
+	                <emphasis>View=&gt;Find.</emphasis>
+	                At this point you should have three normal classes and an
+	                association class in the Explorer Pane.
+	                Name them "AA", "AB", "B", and "C".
+	                Perform a <emphasis>View=&gt;Find</emphasis> operation.
+	                Click on the "Find" button.
+	                Notice that an "* in *" tab is created below.
+	                This tab should show pretty much everything.
+	                In the "In Diagram" editor change the "*" to "B*" and
+	                click on the "Find Button" observing the contents of the
+	                new tab with "* in B*" as a tab label.
+	                You should see the three classes, the link (such as an
+	                association), and the association class.
+	                In the Element Type drop down box select "Interface" and click
+	                on the Find button.
+	                The new tab "* in B* Inte..." should have no entries in it
+	                as we have defined no interfaces.
+	                In the Element Type drop down box select "Class" and click
+	                on the Find button.
+	                The new tab "* in B* Class" should have one fewer entries
+	                in it than the "* in B*" tab.
+	                Switch back and forth between these two
+	                observing the difference.
+	                In various of these tabs select an item and click on the
+	                "Go To Selection" button observing the change in the selection
+	                shown in the diagram and in the Explorer Pane.
+	              </para>
+	              <para lang="de">
+	                <emphasis>Ansicht=&gt;Suchen....</emphasis>
+	                Zu diesem Zeitpunkt sollten sich drei normale Klassen und 
+	                eine Beziehungsklasse im Explorer befinden.
+	                Benennen Sie diese "AA", "AB", "B" und "C".
+	                Führen Sie eine <emphasis>Ansicht=&gt;Suchen...</emphasis>-
+	                Operation aus.
+	                Klicken Sie auf die Schaltfläche "Suchen".
+	                Beachten Sie, dass ein Register "* in *" erzeugt wurde.
+	                Dieses Register sollte sehr viele neue Dinge zeigen.
+	                Ändern Sie im "Im Diagramm"-Editor "*" in "B*" und klicken 
+	                Sie auf die Schaltfläche "Suchen". Beobachten Sie den Inhalt 
+	                des neuen Registers "* in B*".
+	                Sie sollten drei Klassen, die Verbindung (eine Assoziation) 
+	                und die Assoziationsklasse sehen.
+	                Markieren Sie in der Kombinationsliste "Element-Typ" das 
+	                Element "Schnittstelle" und klicken Sie auf die Schaltfläche 
+	                "Suchen".
+	                Im neuen Register "* in B* Inte..." sollten keine Einträge 
+	                vorhanden sein, da wir keine Schnittstellen definiert haben.
+	                Markieren Sie in der Kombinationsliste "Element-Typ" das 
+	                Element "Klasse" und klicken Sie auf die Schaltfläche 
+	                "Suchen".
+	                Im neuen Register "* in B* Class" sollte ein Eintrag weniger 
+	                vorhanden sein als im Register "* in B*".
+	                Wechseln Sie zwischen diesen beiden Registern hin und her 
+	                und beobachten Sie die Unterschiede.
+	                Markieren Sie in einigen dieser Register ein Element und 
+	                klicken Sie auf die Schaltfläche "Gehe zur Auswahl". 
+	                Beobachten Sie die Änderungen im Diagramm und im Explorer.
+	              </para>
+              </listitem>
               <listitem><para lang="en">
                 <emphasis>View=&gt;Zoom.</emphasis>
                 As an exeption to a general rule the toolbar equivalent of
