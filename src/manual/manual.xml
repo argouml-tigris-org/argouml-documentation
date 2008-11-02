@@ -8848,16 +8848,33 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	</phrase>
             </title>
 
-            <para lang="en">Replace the name <literal>untitledmodel</literal> 
-            with <literal>purchasingmodel</literal>, and click on the 
-            <literal>Finish</literal> button. 
-            <xref linkend="fig.tut.critwiz"/> shows how the ArgoUML 
-            window will now look.</para>
+            <para lang="en">
+	            Replace the name <literal>untitledmodel</literal> 
+	            with <literal>purchasingmodel</literal>, and click on the 
+	            <literal>Finish</literal> button. 
+	            <xref linkend="fig.tut.critwiz"/> shows how the ArgoUML 
+	            window will now look.
+            </para>
+            <para lang="de">
+            	Ersetzen Sie den Namen <literal>unbenanntesModell</literal> 
+            	durch <literal>einkaufsmodell</literal> und klicken Sie auf die 
+            	Schaltfläche <literal>Fertig stellen</literal>.
+	            <xref linkend="fig.tut.critwiz"/> zeigt, wie das ArgoUML-
+	            Fenster nun aussehen sollte. 
+	        </para>
 
             <figure float="1" id="fig.tut.critwiz">
 
-              <title><phrase lang="en">ArgoUML Window Showing the Critic Wizard to Rename 
-              the Package</phrase></title>
+              <title>
+	              <phrase lang="en">
+	              	ArgoUML Window Showing the Critic Wizard to Rename 
+	              	the Package
+	              </phrase>
+	              <phrase lang="de">
+	              	Das ArgoUML-Fenster zeigt den Kritik-Assistenten, zur 
+	              	Umbenennung des Paketes
+	              </phrase>
+              </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -8865,29 +8882,69 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></mediaobject></screenshot>
             </figure>
 
-            <para lang="en">Watch now how the design critic note in the To Do 
-            panel disappears, leaving only the <literal>
-            Add Elements to Package purchasingmodel</literal> note in 
-            the To-Do list.</para>
+            <para lang="en">
+	            Watch now how the design critic note in the To Do 
+	            panel disappears, leaving only the <literal>
+	            Add Elements to Package purchasingmodel</literal> note in 
+	            the To-Do list.
+            </para>
+            <para lang="de">
+            	Beobachten Sie nun, wie die Design-Kritik im "zu bearbeiten"-
+            	Fenster verschwindet und es verbleibt nur der Hinweis <literal>
+            	Fügen Sie dem Paket einkaufsmodell Elemente hinzu</literal> in 
+            	der "zu bearbeiten"-Liste.
+            </para>
 
-            <para lang="en">If this doesn&apos;t happen at once, wait for a few 
-            seconds. ArgoUML makes heavy use of several threads of 
-            execution that execute in parallel. This can cause delays 
-            of a few seconds before the information gets updated on the 
-            screen.</para>
+            <para lang="en">
+	            If this doesn&apos;t happen at once, wait for a few 
+	            seconds. ArgoUML makes heavy use of several threads of 
+	            execution that execute in parallel. This can cause delays 
+	            of a few seconds before the information gets updated on the 
+	            screen.
+            </para>
+            <para lang="de">
+            	Wenn dies nicht sofort passiert, warten Sie einige Sekunden. 
+            	ArgoUML macht ausgiebigen Gebrauch von mehreren, parallel 
+            	ausgeführten Ausführungsthreads. Dies kann einige Sekunden 
+            	Verzögerung verursachen bevor die Information auf dem Bildschirm 
+            	auf den neusten Stand gebracht wird.
+            </para>
 
-            <para lang="en">The package name change should also be reflected in 
-            the explorer, in the top left corner of your ArgoUML 
-            window.</para>
+            <para lang="en">
+	            The package name change should also be reflected in 
+	            the explorer, in the top left corner of your ArgoUML 
+	            window.
+            </para>
+            <para lang="de">
+            	Die Änderung des Paketnamens sollte sich auch im Explorer, in 
+            	der linken oberen Ecke Ihres ArgoUML-Fensters,  
+            	wiederspiegeln.
+            </para>
 
-            <para lang="en">We are now ready to create our first UML diagram, a 
-            Use Case diagram, but first let&apos;s save what we&apos;ve 
-            done so far.</para>
+            <para lang="en">
+	            We are now ready to create our first UML diagram, a 
+	            Use Case diagram, but first let&apos;s save what we&apos;ve 
+	            done so far.
+            </para>
+            <para lang="de">
+            	Wir sind jetzt so weit, unser erstes UML-Diagramm, ein 
+            	Anwendungsfalldiagramm, zu erstellen. Aber lassen Sie uns zuerst  
+            	speichern, was wir bis jetzt getan haben.
+            </para>
 
-            <para lang="en">Click on the <literal>File</literal> menu item, and 
-            select <literal>Save Project</literal>. You can now safely 
-            exit ArgoUML without losing your work so far, or go on 
-            creating your first diagram.</para>
+            <para lang="en">
+	            Click on the <literal>File</literal> menu item, and 
+	            select <literal>Save Project</literal>. You can now safely 
+	            exit ArgoUML without losing your work so far, or go on 
+	            creating your first diagram.
+            </para>
+            <para lang="de">
+            	Klicken Sie auf das Menüelement <literal>Datei</literal> und 
+            	wählen Sie <literal>Projekt speichern...</literal> aus. Sie 
+            	können jetzt ArgoUML sicher beenden, ohne Ihre bisherige Arbeit 
+            	zu verlieren, oder mit dem Erstellen Ihres ersten Diagrammes 
+            	fortfahren.
+            </para>
 
           </sect3>
 
@@ -8897,7 +8954,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title><phrase lang="en">The Case Study (To be written)</phrase></title>
+        <title>
+        	<phrase lang="en">The Case Study (To be written)</phrase>
+        	<phrase lang="de">Die Fallstudie (Noch zu schreiben)</phrase>
+        </title>
 
         <para lang="en">
           Here is where we are going to start the Case Study.
@@ -8914,7 +8974,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           At a minimum the file structure of the project could be shown in a
           package diagram.
         </para>
-        <para lang="en">
+        <para lang="de">
+        	Hier wollen wir mit der Fallstudie beginnen.
+        	Es ist der Zeitpunkt, wo Sie Ihr Projekt definieren; nicht Ihr 
+        	Produkt, aber Ihr Projekt.
+        	Es kann argumentiert werden, dass die Modellierungskonzepte hier 
+        	auch erscheinen sollten, aber das wurde so nicht aufgebaut.
+        	Wenn Sie sich die Zeit nehmen, sich das ArgoUML-Projekt anzusehen, 
+        	werden Sie eine grosse Anzahl von "Code-" und Dokumentationszeilen, 
+        	die Teil des Projektes sind, finden. Sie sind aber nicht Teil des 
+        	Produktes.
+        	Beispiel: Dieses Dokument ist Teil des Produktes während das 
+        	Kochbuch und die build.xml-Dateien nur Teil des Projektes sind.
+        	Mindestens die Dateistruktur des Projektes könnte in einem 
+        	Paketdiagramm dargestellt werden.
+        </para>
+
+        <para>
           ...
         </para>
       </sect1>
@@ -8923,48 +8999,111 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
     <chapter id="ch.tut.reqs">
 
-      <title><phrase lang="en">Requirements Capture</phrase></title>
+      <title>
+      	<phrase lang="en">Requirements Capture</phrase>
+      	<phrase lang="de">Erfassen der Anforderungen</phrase>
+      </title>
 
       <sect1>
 
-        <title><phrase lang="en">Introduction</phrase></title>
+        <title>
+	        <phrase lang="en">Introduction</phrase>
+	        <phrase lang="de">Einleitung</phrase>
+        </title>
 
-        <indexterm>
-        <primary>Requirement</primary><secondary>Capturing</secondary></indexterm>
-        <para lang="en">Requirements capture is the process of identifying what 
-        the <quote>customer</quote> wants from the proposed 
-        system.</para>
+        <indexterm lang="en">
+        	<primary>Requirement</primary><secondary>Capturing</secondary>
+        </indexterm>
+        <indexterm lang="de">
+        	<primary>Anforderung</primary><secondary>Erfassung</secondary>
+        </indexterm>
+        <para lang="en">
+	        Requirements capture is the process of identifying what 
+	        the <quote>customer</quote> wants from the proposed 
+	        system.
+        </para>
+        <para lang="de">
+        	Das Erfassen der Anforderungen ist der Identifizierungsprozess, was 
+        	der <quote>Kunde</quote> von dem vorgeschlagenen System will.
+        </para>
 
-        <para lang="en">The key at this stage is that we are in the problem 
-        domain. At this stage we must describe everything from the 
-        <quote>customer</quote> perspective and in the language of the 
-        <quote>customer</quote>.</para>
+        <para lang="en">
+	        The key at this stage is that we are in the problem 
+	        domain. At this stage we must describe everything from the 
+	        <quote>customer</quote> perspective and in the language of the 
+	        <quote>customer</quote>.
+	    </para>
+        <para lang="de">
+        	Der Schlüssel zu diesem Zeitpunkt ist, dass wir uns im 
+        	Problembereich befinden. Zu diesem Zeitpunkt müssen wir alles 
+        	aus der Perspektive des <quote>Kunden</quote> und in der Sprache 
+        	des <quote>Kunden</quote> beschreiben.
+        </para>
 
-        <para lang="en">The biggest risk we have in requirements capture is to 
-        start thinking in terms of possible solutions. That must wait 
-        until the <emphasis>Analysis Phase</emphasis> (see 
-        <xref linkend="ch.tut.analysis"/>). One of the steps of the 
-        Analysis Phase will be to take the output of the Requirements 
-        Phase and recast it in the language of a deemed solution.</para>
+        <para lang="en">
+	        The biggest risk we have in requirements capture is to 
+	        start thinking in terms of possible solutions. That must wait 
+	        until the <emphasis>Analysis Phase</emphasis> (see 
+	        <xref linkend="ch.tut.analysis"/>). One of the steps of the 
+	        Analysis Phase will be to take the output of the Requirements 
+	        Phase and recast it in the language of a deemed solution.
+        </para>
+        <para lang="de">
+        	Das grösste Risiko, dass wir beim Erfassen der Anforderungen haben 
+        	ist, dass wir in Begriffen der möglichen Lösung anfangen zu denken.
+        	Dies muss bis zur <emphasis>Analyse-Phase</emphasis> warten (siehe
+	        <xref linkend="ch.tut.analysis"/>). Einer der Schritte der Analyse-
+	        Phase nimmt das Ergebnis der Anforderungsphase und übersetzt es in 
+	        die Sprache einer gedachten Lösung. 
+        </para>
 
-        <para lang="en">Remember we are using both a 
-        <emphasis>incremental</emphasis>, and an 
-        <emphasis>iterative</emphasis> process.</para>
+        <para lang="en">
+	        Remember we are using both a 
+	        <emphasis>incremental</emphasis>, and an 
+	        <emphasis>iterative</emphasis> process.
+        </para>
+        <para lang="de">
+        	Erinnern Sie sich, dass wir beides einsetzen, einen <emphasis>
+        	inkrementalen</emphasis> und einen <emphasis>iterativen</emphasis> 
+        	Prozess.
+        </para>
 
-        <para lang="en">We may well come back to the requirements process again 
-        as we break down the problem into smaller chunks, each of which 
-        must have its requirements captured.</para>
+        <para lang="en">
+	        We may well come back to the requirements process again 
+	        as we break down the problem into smaller chunks, each of which 
+	        must have its requirements captured.
+        </para>
+        <para lang="de">
+        	Wir kommen im Anforderungsprozess darauf zurück, wenn wir das 
+        	Problem in kleinere Teile unterteilen. Für jedes davon müssen seine 
+        	Anforderungen erfasst sein.
+        </para>
 
-        <para lang="en">We will certainly come back through the requirements 
-        phase on each iteration as we seek to define the requirements 
-        of more and more of the system</para>
+        <para lang="en">
+	        We will certainly come back through the requirements 
+	        phase on each iteration as we seek to define the requirements 
+	        of more and more of the system
+        </para>
+        <para lang="de">
+        	Wir werden wahrscheinlich während der Anforderungsphase bei jeder 
+        	Iteration darauf zurückkommen, wenn wir versuchen, die Anforderungen 
+        	des Systems immer weiter zu definieren.
+        </para>
 
         <note>
 
-          <para lang="en">The only part of the requirements notation specified by 
-          the UML standard is the use case diagram. The remainder is 
-          process specific. The process described in this chapter draws 
-          heavily on the Rational Unified Process.</para>
+          <para lang="en">
+	          The only part of the requirements notation specified by 
+	          the UML standard is the use case diagram. The remainder is 
+	          process specific. The process described in this chapter draws 
+	          heavily on the Rational Unified Process.
+          </para>
+          <para lang="de">
+          	Der einzige Teil der vom UML-Standard spezifizierten 
+          	Anforderungsnotation ist das Anwendungsfalldiagramm.  Der Rest ist 
+          	prozessspezifisch. Der in diesem Kapitel beschriebene Prozess ist 
+          	sehr stark an den Rational Unified Prozess angelehnt.
+          </para>
 
         </note>
 
@@ -8972,157 +9111,350 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title><phrase lang="en">The Requirements Capture Process</phrase></title>
+        <title>
+        	<phrase lang="en">The Requirements Capture Process</phrase>
+        	<phrase lang="de">Der Anforderungs-Erfassungs-Prozess</phrase>
+        </title>
 
-        <indexterm><primary>Vision Document</primary></indexterm>
-        <para lang="en">We start with a top-level view of the problem we are 
-        solving and the key areas of functionality that we must address 
-        in any solution. This is our <emphasis>vision 
-        document</emphasis>, and should be just a few pages long.</para>
+        <indexterm lang="en">
+        	<primary>Vision Document</primary>
+        </indexterm>
+        <indexterm lang="de">
+        	<primary>Das Visions-Dokument</primary>
+        </indexterm>
+        <para lang="en">
+	        We start with a top-level view of the problem we are 
+	        solving and the key areas of functionality that we must address 
+	        in any solution. This is our <emphasis>vision 
+	        document</emphasis>, and should be just a few pages long.
+        </para>
+        <para lang="de">
+        	Wir beginnen mit einer Top-Level-Sicht auf das von uns zu lösende 
+        	Problem und die Schlüsselbereiche der Funktionalität, die wir für 
+        	die Lösung adressieren müssen. Dies ist unser <emphasis>Visions- 
+        	Dokument</emphasis> und es sollte nur einige Seiten lang sein.
+        </para>
 
-        <para lang="en">For example the top-level view of an automated teller 
-        machine (ATM) might be that it should support the 
-        following.</para>
+        <para lang="en">
+	        For example the top-level view of an automated teller 
+	        machine (ATM) might be that it should support the 
+	        following.
+        </para>
+        <para lang="de">
+        	Die Top-Level-Sicht eines Geldautomaten (automated teller 
+        	machine (ATM)) zum Beispiel, sollte folgendes unterstützen.
+        </para>
 
         <orderedlist>
 
           <listitem>
 
-            <para lang="en">Cash deposit, cash withdrawal and account inquiries 
-            by customers.</para>
+            <para lang="en">
+	            Cash deposit, cash withdrawal and account inquiries 
+	            by customers.
+            </para>
+            <para lang="de">
+            	Bargeld lagern, Bargeld abheben und Kontoabfragen durch Kunden.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para lang="en">Maintenance of the equipment by the bank&apos;s 
-            engineers, and unloading of deposits and loading of cash by 
-            the local bank branch.</para>
+            <para lang="en">
+	            Maintenance of the equipment by the bank&apos;s 
+	            engineers, and unloading of deposits and loading of cash by 
+	            the local bank branch.
+            </para>
+            <para lang="de">
+            	Warten des Equipments durch Bank-Ingenieure und leeren der 
+            	Kassen und Bargeld nachfüllen durch die lokale Bankfiliale.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para lang="en">Audit trail for all activities sent to the 
-            bank&apos;s central computer.</para>
+            <para lang="en">
+	            Audit trail for all activities sent to the 
+	            bank&apos;s central computer.
+            </para>
+            <para lang="de">
+            	Nachvollziehbarkeit aller an den zentralen Bankcomputer 
+            	gesendeten Aktivitäten.
+            </para>
 
           </listitem>
 
         </orderedlist>
 
-        <indexterm><primary>Actor</primary></indexterm>
-        <para lang="en">From this top-level view we can extract the principal 
-        activities of the system, and the external agents (people, 
-        equipment) that are involved in those activities. These 
-        activities are known as <emphasis>use cases</emphasis> and the 
-        external agents are known as <emphasis>actors</emphasis>.</para>
+        <indexterm lang="en"><primary>Actor</primary></indexterm>
+        <indexterm lang="de"><primary>Akteur</primary></indexterm>
+        <para lang="en">
+	        From this top-level view we can extract the principal 
+	        activities of the system, and the external agents (people, 
+	        equipment) that are involved in those activities. These 
+	        activities are known as <emphasis>use cases</emphasis> and the 
+	        external agents are known as <emphasis>actors</emphasis>.
+        </para>
+        <para lang="de">
+        	Aus dieser Top-Level-Sicht können wir die prinzipiellen Aktivitäten 
+        	des Systems und die extern Handelnden (Menschen, Equipment) die in 
+        	diese Aktivitäten eingebunden sind extrahieren. Diese Aktivitäten 
+        	sind als <emphasis>Anwendungsfälle</emphasis> und die extern 
+        	Handelnden als <emphasis>Akteure</emphasis> bekannt.
+        </para>
 
-        <para lang="en">Actors may be people or machines. From a practical 
-        standpoint it is worth knowing the stakeholder behind any 
-        machine, since only they will be able to engage with the 
-        requirements capture process.</para>
+        <para lang="en">
+	        Actors may be people or machines. From a practical 
+	        standpoint it is worth knowing the stakeholder behind any 
+	        machine, since only they will be able to engage with the 
+	        requirements capture process.
+        </para>
+        <para lang="de">
+        	Akteure können Menschen oder Maschinen sein. Vom praktischen 
+        	Standpunkt aus gesehen besteht deren Wert darin, die Nutzer 
+        	hinter einer Maschine zu kennen, da nur diese in der Lage sind, sich 
+        	mit dem Anforderungs-Erfassungs-Prozess zu beschäftigen.
+        </para>
 
-        <indexterm><primary>Use Case</primary></indexterm>
-        <para lang="en">Use cases should be significant activities for the 
-        system. For example customer use of the ATM machine is a use 
-        case. Entering a PIN number is not.</para>
+        <indexterm lang="en"><primary>Use Case</primary></indexterm>
+        <indexterm lang="de"><primary>Anwendungsfall</primary></indexterm>
+        <para lang="en">
+	        Use cases should be significant activities for the 
+	        system. For example customer use of the ATM machine is a use 
+	        case. Entering a PIN number is not.
+        </para>
+        <para lang="de">
+        	Anwendungsfälle sollte signifikante Aktivitäten für das System sein.
+        	Der Nutzung des Geldautomaten durch den Kunden ist zum Beispiel ein 
+        	Anwendungsfall. Die Eingabe einer PIN-Nummer ist es nicht.
+        </para>
 
-        <para lang="en">There is a gray area between these two extremes. As we 
-        shall see it is often useful to break very large use cases into 
-        smaller sub-use cases. For example we may have sub-use cases 
-        covering cash deposit, cash withdrawal and account 
-        inquiry.</para>
+        <para lang="en">
+	        There is a gray area between these two extremes. As we 
+	        shall see it is often useful to break very large use cases into 
+	        smaller sub-use cases. For example we may have sub-use cases 
+	        covering cash deposit, cash withdrawal and account 
+	        inquiry.
+        </para>
+        <para lang="de">
+        	Es gibt eine Grauzone zwischen diesen beiden Extremen. Wie wir 
+        	sehen werden, ist es oft nützlich, sehr grosse Anwendungsfälle in 
+        	kleinere Sub-Anwendungsfälle zu unterteilen. Wir können zum Beispiel 
+        	Bargeld lagern, Bargeld auszahlen und Kontoabfragen als Sub-
+        	Anwendungsfälle definieren.
+        </para>
 
-        <para lang="en">There is no hard and fast rule. Some architects will 
-        prefer a small number of relatively large use cases, others 
-        will prefer a larger number of smaller use cases. A useful rule 
-        of thumb is that any practical project ought to require no more 
-        than about 30 use cases (if it needs more, it should be broken 
-        into separate projects).</para>
+        <para lang="en">
+	        There is no hard and fast rule. Some architects will 
+	        prefer a small number of relatively large use cases, others 
+	        will prefer a larger number of smaller use cases. A useful rule 
+	        of thumb is that any practical project ought to require no more 
+	        than about 30 use cases (if it needs more, it should be broken 
+	        into separate projects).
+        </para>
+        <para lang="de">
+        	Es gibt keine harte und schnelle Regel. Einige Architekten 
+        	präferieren wenige relativ grosse Anwendungsfälle, andere 
+        	präferieren eine grössere Anzahl kleinerer Anwendungsfälle. Eine 
+        	nützliche Faustregel ist, dass jedes praktikable Projekt nicht mehr 
+        	als 30 Anwendungsfälle erfordern sollte (wenn es mehr benötigt, 
+        	sollte es in separate Projekte aufgeteilt werden).
+        </para>
 
-        <para lang="en">We then show the relationship between use cases and 
-        actors on one or more use case diagrams. For a large project 
-        more than one diagram will be needed. Usually groups of related 
-        use cases are shown on one diagram.</para>
+        <para lang="en">
+	        We then show the relationship between use cases and 
+	        actors on one or more use case diagrams. For a large project 
+	        more than one diagram will be needed. Usually groups of related 
+	        use cases are shown on one diagram.
+        </para>
+        <para lang="de">
+        	Wir stellen dann die Beziehungen zwischen den Anwendungsfällen und 
+        	Akteuren in einem oder mehreren Anwendungsfalldiagrammen dar. In 
+        	grösseren Projekten wird mehr als ein Diagramm benötigt. 
+        	Normalerweise werden Gruppen zusammengehöriger Anwendungsfälle in 
+        	einem Diagramm dargestellt.
+        </para>
 
-        <para lang="en">We must then give a more detailed specification of each 
-        use case. This covers its normal behavior, alternative 
-        behaviors and any pre- and post-conditions. This is captured in 
-        a document variously known as a <emphasis>use case 
-        specification</emphasis> or <emphasis>use case 
-        scenario</emphasis>.</para>
+        <para lang="en">
+	        We must then give a more detailed specification of each 
+	        use case. This covers its normal behavior, alternative 
+	        behaviors and any pre- and post-conditions. This is captured in 
+	        a document variously known as a <emphasis>use case 
+	        specification</emphasis> or <emphasis>use case 
+	        scenario</emphasis>.
+        </para>
+        <para lang="de">
+        	Wir müssen dann eine detailliertere Spezifikation für jeden 
+        	Anwendungsfall erstellen. Dies beinhaltet sein normales Verhalten, 
+        	alternatives Verhalten und alle Vor- und Nachbedingungen. Dies 
+        	erfolgt in einem Dokument, dass häufig als <emphasis>
+        	Anwendungsfalldokumentation</emphasis> oder <emphasis>
+        	Anwendungsfallszenario</emphasis> bekannt ist.
+        </para>
 
-        <indexterm><primary>Supplementary Requirement 
-        Specification</primary></indexterm>
-        <para lang="en">Finally, since use cases are functional in nature, we 
-        need a document to capture the non-functional requirements 
-        (capacity, performance, environmental needs etc). These 
-        requirements are captured in a document known as a 
-        <emphasis>supplementary requirements 
-        specification</emphasis>.</para>
+        <indexterm lang="en">
+        	<primary>Supplementary Requirement Specification</primary>
+        </indexterm>
+        <indexterm lang="de">
+        	<primary>Ergänzende Anforderungsspezifikation</primary>
+        </indexterm>
+        <para lang="en">
+	        Finally, since use cases are functional in nature, we 
+	        need a document to capture the non-functional requirements 
+	        (capacity, performance, environmental needs etc). These 
+	        requirements are captured in a document known as a 
+	        <emphasis>supplementary requirements 
+	        specification</emphasis>.
+        </para>
+        <para lang="de">
+        	Da Anwendungsfälle natürlicherweise funktional sind, benötigen wir 
+        	ein Dokument, um die nicht-funktionalen Anforderungen (Kapazitäts-, 
+        	Leistungs-, Umgebungsanforderungen usw.) aufzunehmen. Diese 
+        	Anforderungen werden in einem Dokument <emphasis>Ergänzende 
+        	Anforderungsspezifikation</emphasis> festgehalten.
+        </para>
 
         <sect2>
 
-          <title><phrase lang="en">Process Steps</phrase></title>
+          <title>
+          	<phrase lang="en">Process Steps</phrase>
+          	<phrase lang="de">Prozess-Schritte</phrase>
+          </title>
 
-          <para lang="en">The steps in the requirements capture process can be 
-          summarized as follows.</para>
+          <para lang="en">
+	          The steps in the requirements capture process can be 
+	          summarized as follows.
+          </para>
+          <para lang="de">
+          	Die Schritte im Anforderungs-Erfassungs-Prozess können wie folgt 
+          	zusammengefasst werden.
+          </para>
 
           <orderedlist>
 
             <listitem>
 
-              <indexterm><primary>Vision Document</primary></indexterm>
-              <para lang="en">Capture an overall view of the problem, and the 
-              desired characteristics of its solution in the 
-              <emphasis>vision document</emphasis>.</para>
+              <indexterm lang="en">
+              	<primary>Vision Document</primary>
+              </indexterm>
+              <indexterm lang="de">
+              	<primary>Visions-Dokument</primary>
+              </indexterm>
+              <para lang="en">
+	              Capture an overall view of the problem, and the 
+	              desired characteristics of its solution in the 
+	              <emphasis>vision document</emphasis>.
+              </para>
+              <para lang="de">
+	              Das <emphasis>Visions-Dokument</emphasis> beinhaltet eine 
+	              Gesamtsicht auf das Problem und die gewünschten Charakteristika 
+	              seiner Lösung.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Use Case</primary></indexterm>
-              <para lang="en">Identify the <emphasis>use case</emphasis> and 
-              <emphasis>actors</emphasis> from the vision document and 
-              show their relationships on one or more <emphasis>use 
-              case diagrams</emphasis>.</para>
+              <indexterm lang="en"><primary>Use Case</primary></indexterm>
+              <indexterm lang="de"><primary>Anwendungsfall</primary></indexterm>
+              <para lang="en">
+	              Identify the <emphasis>use case</emphasis> and 
+	              <emphasis>actors</emphasis> from the vision document and 
+	              show their relationships on one or more <emphasis>use 
+	              case diagrams</emphasis>.
+              </para>
+              <para lang="de">
+              	Identifizieren Sie die <emphasis>Anwendungsfälle</emphasis> und 
+              	<emphasis>Akteure</emphasis> aus dem Visions-Dokument und 
+              	stellen deren Beziehungen zueinander in einem oder mehreren 
+              	<emphasis>Anwendungsfalldiagrammen dar</emphasis>.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Use Case 
-              Specification</primary></indexterm>
-              <indexterm><primary>Specification</primary><secondary>of 
-              Use Case</secondary></indexterm>
-              <para lang="en">Give detailed <emphasis>use case 
-              specifications</emphasis> for each use case, covering 
-              normal and alternate behavior, pre- and 
-              post-conditions.</para>
+              <indexterm lang="en">
+              	<primary>Use Case Specification</primary>
+              </indexterm>
+              <indexterm lang="de">
+              	<primary>Anwendungsfall-Spezifikation</primary>
+              </indexterm>
+              <indexterm lang="en">
+              	<primary>Specification</primary>
+              	<secondary>of Use Case</secondary>
+              </indexterm>
+              <indexterm lang="de">
+              	<primary>Spezification</primary>
+              	<secondary>von Anwendungsfällen</secondary>
+              </indexterm>
+              <para lang="en">
+	              Give detailed <emphasis>use case 
+	              specifications</emphasis> for each use case, covering 
+	              normal and alternate behavior, pre- and 
+	              post-conditions.
+              </para>
+              <para lang="de">
+              	Erstellen Sie für jeden Anwendungsfall eine detaillierte 
+              	<emphasis>Anwendungsfall-Spezifikation</emphasis>, die das 
+              	normale und alternative Verhalten, die Vor- und Nachbedingungen 
+              	beinhaltet.
+	          </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Non-functional 
-              requirements</primary></indexterm>
-              <indexterm><primary>Supplementary Requirement 
-              Specification</primary></indexterm>
-              <para lang="en">Capture all non-functional requirements in a 
-              <emphasis>supplementary requirements 
-              specification</emphasis>.</para>
+              <indexterm lang="en">
+              	<primary>Non-functional requirements</primary>
+              </indexterm>
+              <indexterm lang="de">
+              	<primary>Nicht-funktionale Anforderungen</primary>
+              </indexterm>
+              <indexterm lang="en">
+              	<primary>Supplementary Requirement Specification</primary>
+              </indexterm>
+              <indexterm lang="de">
+              	<primary>Ergänzende Anforderungs-Spezifikation</primary>
+              </indexterm>
+              <para lang="en">
+	              Capture all non-functional requirements in a 
+	              <emphasis>supplementary requirements 
+	              specification</emphasis>.
+              </para>
+              <para lang="de">
+              	Fassen Sie alle nicht-funktionalen Anforderungen in einer 
+              	<emphasis>Ergänzenden Anforderungs-Spezifikation</emphasis> 
+              	zusammen.
+              </para>
 
             </listitem>
 
           </orderedlist>
 
-          <para lang="en">In any iterative development process, we will 
-          prioritize, and early iterations will focus on capturing the 
-          key behavior of the most important use cases.</para>
+          <para lang="en">
+	          In any iterative development process, we will 
+	          prioritize, and early iterations will focus on capturing the 
+	          key behavior of the most important use cases.
+          </para>
+          <para lang="de">
+          	In jedem iterativen Entwicklungsprozess werden wir priorisieren 
+          	und frühe Iterationen werden sich darauf fokussieren, das 
+          	hauptsächliche Verhalten der wichtigsten Anwendungsfälle aufzunehmen.
+          </para>
 
-          <para lang="en">Most modern requirements capture processes agree that 
-          it is essential that the authoritative representative of the 
-          customer is fully involved throughout the process.</para>
+          <para lang="en">
+	          Most modern requirements capture processes agree that 
+	          it is essential that the authoritative representative of the 
+	          customer is fully involved throughout the process.
+          </para>
+          <para lang="de">
+          	Die meisten modernen Anforderungs-Erfassungs-Prozesse unterstellen, 
+          	dass es wichtig ist, dass der maßgebliche Repräsentant des Kunden
+          	während dieses Prozesses vollständig involviert ist.
+          </para>
 
         </sect2>
 
@@ -9130,94 +9462,207 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.tut.req_process_output">
 
-        <title><phrase lang="en">Output of the Requirements Capture Process</phrase></title>
+        <title>
+        	<phrase lang="en">
+        		Output of the Requirements Capture Process
+        	</phrase>
+        	<phrase lang="de">
+        		Ergebnis des Anforderungs-Erfassungs-Prozesses
+        	</phrase>
+        </title>
 
-        <para lang="en">Almost all the output of the requirements capture process 
-        is documentary. The only diagram is the use case diagram, 
-        showing the relationships between use cases and actors.</para>
+        <para lang="en">
+	        Almost all the output of the requirements capture process 
+	        is documentary. The only diagram is the use case diagram, 
+	        showing the relationships between use cases and actors.
+        </para>
+        <para lang="de">
+        	Fast alle Ergebnisse des Anforderungs-Erfassungs-Prozesses sind 
+        	dokumentarisch. Das einzige Diagramm ist das Anwendungsfalldiagramm, 
+        	das die Beziehungen zwischen den Anwendungsfällen und den Akteuren 
+        	darstellt.
+        </para>
 
         <sect2 id="s2.tut.vision_document">
 
-          <title><phrase lang="en">Vision Document</phrase></title>
+          <title>
+          	<phrase lang="en">Vision Document</phrase>
+          	<phrase lang="de">Visions-Dokument</phrase>
+          </title>
 
-          <indexterm><primary>Vision Document</primary></indexterm>
-          <para lang="en">Typical sections of this document would be as 
-          follows.</para>
+          <indexterm lang="en"><primary>Vision Document</primary></indexterm>
+          <indexterm lang="de"><primary>Visions-Dokument</primary></indexterm>
+          <para lang="en">
+          	Typical sections of this document would be as follows.
+          </para>
+          <para lang="de">
+          	Typische Kapitel dieses Dokumentes könnten die folgenden sein.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para lang="en"><emphasis>Summary</emphasis>. A statement of the 
-              context, problem and solution goals.</para>
+              <para lang="en">
+	              <emphasis>Summary</emphasis>. A statement of the 
+	              context, problem and solution goals.
+              </para>
+              <para lang="de">
+              	<emphasis>Zusammenfassung</emphasis>. Eine Aussage zum Umfeld, 
+              	zum Problem und zu den Zielen der Lösung.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Goals</primary><secondary>in the 
-              Vision document</secondary></indexterm>
-              <para lang="en"><emphasis>Goals</emphasis>. What are we trying to 
-              achieve (and how do we wish to achieve it).</para>
+              <indexterm lang="en">
+              	<primary>Goals</primary>
+              	<secondary>in the Vision document</secondary>
+              </indexterm>
+              <indexterm lang="de">
+              	<primary>Ziele</primary>
+              	<secondary>im  Visions-Dokument</secondary>
+              </indexterm>
+              <para lang="en">
+	              <emphasis>Goals</emphasis>. What are we trying to 
+	              achieve (and how do we wish to achieve it).
+              </para>
+              <para lang="de">
+              	<emphasis>Ziele</emphasis>. Was wir erreichen wollen (und wie 
+              	wir es erreichen wollen).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Market Context</primary><secondary>in 
-              the Vision document</secondary></indexterm>
-              <para lang="en"><emphasis>Market Context</emphasis> or 
-              <emphasis>Contractual Arrangements</emphasis>. For a 
-              market led development, this should indicate target 
-              markets, competitive differentiators, compelling events 
-              and so forth. For a contractual development this should 
-              explain the key contractual drivers.</para>
+              <indexterm lang="en">
+              	<primary>Market Context</primary>
+              	<secondary>in the Vision document</secondary>
+              </indexterm>
+              <indexterm lang="de">
+              	<primary>Marktumfeld</primary>
+              	<secondary>im Visions-Dokument</secondary>
+              </indexterm>
+              <para lang="en">
+	              <emphasis>Market Context</emphasis> or 
+	              <emphasis>Contractual Arrangements</emphasis>. For a 
+	              market led development, this should indicate target 
+	              markets, competitive differentiators, compelling events 
+	              and so forth. For a contractual development this should 
+	              explain the key contractual drivers.
+              </para>
+              <para lang="de">
+	              <emphasis>Marktumfeld</emphasis> oder 
+	              <emphasis>vertragliche Vereinbarungen</emphasis>. Bei einer 
+	              Entwicklung zur Marktführerschaft, sollte es die Zielmärkte, 
+	              die Alleinstellungsmerkmale, die zwingenden Ereignisse und so 
+	              weiter aufzeigen. Bei einer vertraglich vereinbarten 
+	              Entwicklung sollte es die Hauptelemente der vertraglichen 
+	              Vereinbarung erläutern.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Stakeholders</primary><secondary>in 
-              the Vision document</secondary></indexterm>
-              <para lang="en"><emphasis>Stakeholders</emphasis>. The users (in 
-              the widest sense) of the system. Many of these will map 
-              in to actors, or control equipment that maps into 
-              actors.</para>
+              <indexterm lang="en">
+              	<primary>Stakeholders</primary>
+              	<secondary>in the Vision document</secondary>
+              </indexterm>
+              <indexterm lang="de">
+              	<primary>Nutzer</primary>
+              	<secondary>im Visions-Dokument</secondary>
+              </indexterm>
+              <para lang="en">
+	              <emphasis>Stakeholders</emphasis>. The users (in 
+	              the widest sense) of the system. Many of these will map 
+	              in to actors, or control equipment that maps into 
+	              actors.
+              </para>
+              <para lang="de">
+              	<emphasis>Nutzer</emphasis>. Die Nutzer (im weitesten 
+              	Sinne) des Systems. Viele davon werden als Akteure, oder 
+              	Steuer-Equipment das in Akteure umgewandelt wird, abgebildet. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Key features</primary><secondary>in 
-              the Vision document</secondary></indexterm>
-              <para lang="en"><emphasis>Key Features</emphasis>. At the very 
-              highest level what are they key functional aspects of the 
-              problem/desired solution. These will largely map down to 
-              the use cases. It is helpful to give some prioritization 
-              here.</para>
+              <indexterm lang="en">
+              	<primary>Key features</primary>
+              	<secondary>in the Vision document</secondary>
+              </indexterm>
+              <indexterm lang="de">
+              	<primary>Haupteigenschaften</primary>
+              	<secondary>im Visions-Dokument</secondary>
+              </indexterm>
+              <para lang="en">
+	              <emphasis>Key Features</emphasis>. At the very 
+	              highest level what are they key functional aspects of the 
+	              problem/desired solution. These will largely map down to 
+	              the use cases. It is helpful to give some prioritization 
+	              here.
+              </para>
+              <para lang="de">
+              	<emphasis>Haupteigenschaften</emphasis>. Auf einer sehr hohen 
+              	Abstraktionsebene: Was sind die hauptsächlichen Aspekte des 
+              	Problems/der gewünschten Lösung. Es ist hilfreich, hier bereits 
+              	zu priorisieren.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Constraints</primary><secondary>in 
-              the Vision document</secondary></indexterm>
-              <indexterm><primary>Non-functional 
-              parameters</primary><secondary>in the Vision 
-              document</secondary></indexterm>
-              <para lang="en"><emphasis>Constraints</emphasis>. A high level view 
-              of the non-functional parameters of the system. These 
-              will be worked out in detail in the supplementary 
-              requirements specification.</para>
+              <indexterm lang="en">
+              	<primary>Constraints</primary>
+              	<secondary>in the Vision document</secondary>
+              </indexterm>
+              <indexterm lang="de">
+              	<primary>Randbedingungen</primary>
+              	<secondary>im Visions-Dokument</secondary>
+              </indexterm>
+              <indexterm>
+              	<primary>Non-functional parameters</primary>
+              	<secondary>in the Vision document</secondary>
+              </indexterm>
+              <indexterm lang="de">
+              	<primary>Nicht-funktionale Parameter</primary>
+              	<secondary>im Visions-Dokument</secondary>
+              </indexterm>
+              <para lang="en">
+	              <emphasis>Constraints</emphasis>. A high level view 
+	              of the non-functional parameters of the system. These 
+	              will be worked out in detail in the supplementary 
+	              requirements specification.
+              </para>
+              <para lang="de">
+              	<emphasis>Randbedingungen</emphasis>. Eine Sicht auf die 
+              	nicht-funktionalen Parameter des Systems auf einer sehr hohen 
+              	Abstraktionsebene. Diese werden in der ergänzenden 
+              	Anforderungsspezifikation detailliert ausgearbeitet.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para lang="en"><emphasis>Appendix</emphasis>. A listing of the 
-              actors and use cases that will be needed to meet this 
-              vision. It is useful to link to these from the earlier 
-              sections to ensure comprehensive coverage.</para>
+              <para lang="en">
+	              <emphasis>Appendix</emphasis>. A listing of the 
+	              actors and use cases that will be needed to meet this 
+	              vision. It is useful to link to these from the earlier 
+	              sections to ensure comprehensive coverage.
+              </para>
+              <para lang="de">
+              	<emphasis>Anhang</emphasis>. Eine Liste der Akteure und 
+              	Anwendungsfälle die zur Erfüllung der Vision notwendig sind. Es
+              	ist hilfreich, diese mit den vorher beschriebenen Abschnitten 
+              	zu verlinken um eine in sich geschlossene Darstellung 
+              	sicherzustellen. 
+              </para>
 
             </listitem>
 
@@ -9227,39 +9672,91 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title><phrase lang="en">Use Case Diagram</phrase></title>
+          <title>
+          	<phrase lang="en">Use Case Diagram</phrase>
+          	<phrase lang="de">Anwendungsfalldiagramm</phrase>
+          </title>
 
-          <indexterm><primary>Use Case Diagram</primary></indexterm>
-          <indexterm><primary>Diagram</primary><secondary>Use 
-          Case</secondary></indexterm>
-          <para lang="en">The vision document has identified the use cases and 
-          actors. The use case diagram captures how they interact. In 
-          our ATM example we have identified <quote>customer uses 
-          machine</quote>, <quote>maintain machine</quote> and 
-          <quote>audit</quote> as the three main use cases. We have 
-          identified <quote>customer</quote>, maintenance 
-          engineer<quote>,</quote><quote>local branch official</quote> 
-          and <quote>central computer</quote> as the actors.</para>
+          <indexterm lang="en">
+          	<primary>Use Case Diagram</primary>
+          </indexterm>
+          <indexterm lang="de">
+          	<primary>Anwendungsfalldiagramm</primary>
+          </indexterm>
+          <indexterm>
+          	<primary>Diagram</primary>
+          	<secondary>Use Case</secondary>
+          </indexterm>
+          <indexterm lang="de">
+          	<primary>Diagramm</primary>
+          	<secondary>Anwendungsfall</secondary>
+          </indexterm>
+          <para lang="en">
+	          The vision document has identified the use cases and 
+	          actors. The use case diagram captures how they interact. In 
+	          our ATM example we have identified <quote>customer uses 
+	          machine</quote>, <quote>maintain machine</quote> and 
+	          <quote>audit</quote> as the three main use cases. We have 
+	          identified <quote>customer</quote>, maintenance 
+	          engineer<quote>,</quote><quote>local branch official</quote> 
+	          and <quote>central computer</quote> as the actors.
+          </para>
+          <para lang="de">
+          	 Das Visions-Dokument identifizierte die Anwendungsfälle und Akteure. 
+          	 Das Anwendungsfalldiagramm stellt dar, wie sie interagieren. In 
+          	 unserem ATM (Geldautomat) Beispiel haben wir <quote>Kunde nutzt den 
+          	 Automaten</quote>, <quote>Wartung des Automaten</quote> und 
+          	 <quote>Revision</quote> als die drei Hauptanwendungsfälle 
+          	 identifiziert. Als Akteure haben wir <quote>Kunde</quote>, 
+          	 <quote>Wartungsingenieur</quote>, <quote>lokaler Zweigstellenbeamter
+          	 </quote> und <quote>Zentralcomputer</quote> identifiziert.
+          </para>
 
-          <para lang="en"><xref linkend="fig.tut.atm_use_case_diagram_basic"/> 
-          shows how this could be displayed on a use case diagram. The 
-          use cases are shown as ovals, the actors as stick people 
-          (even where they are machines), with lines (known as 
-          <emphasis>associations</emphasis> connecting use cases to the 
-          actors who are involved with them. A box around the use cases 
-          emphasizes the boundary between the system (defined by the 
-          use cases) and the actors who are external.</para>
+          <para lang="en">
+	          <xref linkend="fig.tut.atm_use_case_diagram_basic"/> 
+	          shows how this could be displayed on a use case diagram. The 
+	          use cases are shown as ovals, the actors as stick people 
+	          (even where they are machines), with lines (known as 
+	          <emphasis>associations</emphasis> connecting use cases to the 
+	          actors who are involved with them. A box around the use cases 
+	          emphasizes the boundary between the system (defined by the 
+	          use cases) and the actors who are external.
+          </para>
+          <para lang="de">
+	          <xref linkend="fig.tut.atm_use_case_diagram_basic" /> zeigt, wie 
+	          das in einem Anwendungsfalldiagramm dargestellt werden kann. Die 
+	          Anwendungsfälle werden als Ovale dargestellt, die Akteure als 
+	          Strichmännchen (auch wenn es Maschinen sind), mit Linien (als 
+	          Assoziationen bekannt), die die Anwendungsfälle mit den damit 
+	          involvierten Akteuren verbinden. Ein Rahmen um die Anwendungsfälle 
+	          stellt die Abgrenzung zwischen dem System (durch die 
+	          Anwendungsfälle definiert) und den Akteuren dar, die extern sind.
+          </para>
 
           <note>
 
-            <para lang="en">Not all analysts like to use a box around the use 
-            cases. It is a matter of personal choice.</para>
+            <para lang="en">
+	            Not all analysts like to use a box around the use 
+	            cases. It is a matter of personal choice.
+            </para>
+            <para lang="de">
+            	Nicht alle Analytiker möchten einen Rahmen um die 
+            	Anwendungsfälle verwenden. Dies ist ein Fall persönlicher 
+            	Vorlieben.
+            </para>
 
           </note>
 
           <figure float="1" id="fig.tut.atm_use_case_diagram_basic">
 
-            <title><phrase lang="en">Basic use case diagram for an ATM system</phrase></title>
+            <title>
+            	<phrase lang="en">
+            		Basic use case diagram for an ATM system
+            	</phrase>
+            	<phrase lang="de">
+            		Grundlegendes Anwendungsfalldiagramm für einen Geldautomaten
+            	</phrase>
+            </title>
 
             <screenshot><mediaobject><imageobject>
             <imagedata align="center"
@@ -9267,40 +9764,89 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
              format="GIF"/></imageobject></mediaobject></screenshot>
           </figure>
 
-          <para lang="en">The following sections show how the basic use case 
-          diagram can be extended to show additional information about 
-          the system being designed.</para>
+          <para lang="en">
+	          The following sections show how the basic use case 
+	          diagram can be extended to show additional information about 
+	          the system being designed.
+          </para>
+          <para lang="de">
+          	Die folgenden Abschnitte zeigen, wie das grundlegene 
+          	Anwendungsfalldiagramm erweitert werden kann, um zusätzliche 
+          	Informationen über das zu designende System darzustellen.
+          </para>
 
           <sect3>
 
-            <title><phrase lang="en">Active and Passive Actors</phrase></title>
+            <title>
+            	<phrase lang="en">Active and Passive Actors</phrase>
+            	<phrase lang="de">Aktive und passive Akteure</phrase>
+            </title>
 
-            <indexterm><primary>Active Actor</primary></indexterm>
-            <para lang="en"><emphasis>Active</emphasis> actors initiate 
-            interaction with the system. This can be shown by placing 
-            an arrow on the association from the actor pointing toward 
-            the use case. In the ATM example, the customer is an active 
-            actor.</para>
+            <indexterm lang="en"><primary>Active Actor</primary></indexterm>
+            <indexterm lang="de"><primary>Aktiver Akteur</primary></indexterm>
+            <para lang="en">
+	            <emphasis>Active</emphasis> actors initiate 
+	            interaction with the system. This can be shown by placing 
+	            an arrow on the association from the actor pointing toward 
+	            the use case. In the ATM example, the customer is an active 
+	            actor.
+            </para>
+            <para lang="de">
+            	<emphasis>Aktive</emphasis> Akteure initiieren eine Interaktion 
+            	mit dem System. Dies kann durch einen Pfeil in der Assoziation 
+            	vom Akteur zum Anwendungsfall dargestellt werden. Im 
+            	Geldautomaten-Beispiel ist der Kunde ein aktiver Akteur.
+            </para>
 
-            <indexterm><primary>Passive Actor</primary></indexterm>
-            <para lang="en">Interaction with <emphasis>passive</emphasis> actors 
-            is initiated by the system. This can be shown by placing an 
-            arrow on the association from the use case pointing toward 
-            the actor. In the ATM example, the central computer is a 
-            passive actor.</para>
+            <indexterm lang="en"><primary>Passive Actor</primary></indexterm>
+            <indexterm lang="de"><primary>Passiver Akteur</primary></indexterm>
+            <para lang="en">
+	            Interaction with <emphasis>passive</emphasis> actors 
+	            is initiated by the system. This can be shown by placing an 
+	            arrow on the association from the use case pointing toward 
+	            the actor. In the ATM example, the central computer is a 
+	            passive actor.
+            </para>
+            <para lang="de">
+            	Die Interaktion mit <emphasis>passiven</emphasis> Akteuren wird 
+            	durch das System initiiert. Dies kann durch einen Pfeil in der 
+            	Assoziation vom Anwendungsfall zum Akteur dargestellt werden.
+            	Im Geldautomaten-Beispiel ist der Zentralcomputer ein passiver 
+            	Akteur.
+            </para>
 
-            <para lang="en">This is a good example where the arrow helps, since 
-            it allows us to distinguish an event driven system (the ATM 
-            initiates interaction with the central computer) from a 
-            polling system (the central computer interrogates the ATM 
-            from time to time).</para>
+            <para lang="en">
+	            This is a good example where the arrow helps, since 
+	            it allows us to distinguish an event driven system (the ATM 
+	            initiates interaction with the central computer) from a 
+	            polling system (the central computer interrogates the ATM 
+	            from time to time).
+            </para>
+            <para lang="de">
+            	Dies ist ein gutes Beispiel, wo die Pfeile helfen, da es uns 
+            	erlaubt, ein ereignisgetriebenes System (der Geldautomat 
+            	initiiert die Interaktion mit dem Zentralcomputer) von einem 
+            	zyklisch abfragenden System (der Zentralcomputer fragt den 
+            	Geldautomaten von Zeit zu Zeit ab) zu unterscheiden.
+            </para>
 
-            <para lang="en">Where an actor may be either active or passive, 
-            depending on circumstances, the arrow may be omitted. In 
-            the ATM example the bank engineer fits into this category. 
-            Normally he is active, turning up on a regular cycle to 
-            service the machine. However if the ATM detects a fault, it 
-            may summon the engineer to fix it.</para>
+            <para lang="en">
+	            Where an actor may be either active or passive, 
+	            depending on circumstances, the arrow may be omitted. In 
+	            the ATM example the bank engineer fits into this category. 
+	            Normally he is active, turning up on a regular cycle to 
+	            service the machine. However if the ATM detects a fault, it 
+	            may summon the engineer to fix it.
+            </para>
+            <para lang="de">
+            	Dort wo ein Akteur entweder aktiv oder passiv sein kann, je nach 
+            	den Umständen, kann der Pfeil weggelassen werden. Im 
+            	Geldautomaten-Beispiel fällt der Bankingenieur in diese 
+            	Kategorie. Normalerweise ist er aktiv, indem er regelmässig 
+            	auftaucht um die Maschine zu warten. Wenn jedoch der Geldautomat 
+            	einen Fehler entdeckt, kann er den Ingenieur auffordern diesen 
+            	zu beheben.
+            </para>
 
             <para lang="en">
               The use of arrows on associations is referred to as 
@@ -9312,16 +9858,39 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               association whose navigation has yet to be determined and one
               that is bidirectional.
             </para>
+            <para lang="de">
+            	Die Verwendung von Pfeilen bei Assoziationen wird als 
+            	<emphasis>Navigation</emphasis> der Assoziation bezeichnet.
+            	Wir sollten dies später in der UML im Einsatz sehen.
+            	Die Wahl der OMG eine bidirektionale Assoziation durch keine 
+            	anstelle von zwei Pfeilspitzen darzustellen ist unvorteilhaft.
+            	Mit dieser Konvention können Sie nicht zwischen einer 
+            	Assoziation unterscheiden, deren Navigation noch zu bestimmen 
+            	ist und einer die bidirektional ist.
+            </para>
 
             <para lang="en">
-            <xref linkend="fig.tut.atm_use_case_diagram_navigation"/> 
-            shows the ATM use case diagram with navigation 
-            displayed.</para>
+	            <xref linkend="fig.tut.atm_use_case_diagram_navigation"/> 
+	            shows the ATM use case diagram with navigation 
+	            displayed.
+            </para>
+            <para lang="de">
+	            <xref linkend="fig.tut.atm_use_case_diagram_navigation"/>
+	            zeigt das Geldautomaten-Anwendungsfalldiagramm mit dargestellter 
+	            Navigation. 
+            </para>
 
             <figure float="1" id="fig.tut.atm_use_case_diagram_navigation">
 
-              <title><phrase lang="en">Use case diagram for an ATM system showing 
-              navigation.</phrase></title>
+              <title>
+              	<phrase lang="en">
+              		Use case diagram for an ATM system showing navigation.
+              	</phrase>
+              	<phrase lang="de">
+              		Anwendungsfalldiagramm für einen Geldautomaten mit 
+              		Navigation.
+              	</phrase>
+              </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -9333,53 +9902,125 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title><phrase lang="en">Multiplicity</phrase></title>
+            <title>
+            	<phrase lang="en">Multiplicity</phrase>
+            	<phrase lang="de">Kardinalität</phrase>
+            </title>
 
-            <indexterm><primary>Multiplicity</primary><secondary>in a 
-            Use Case Diagram</secondary></indexterm>
-            <para lang="en">It can be useful to show the 
-            <emphasis>multiplicity</emphasis> of associations between 
-            actors and use cases. By this we mean how many instances of 
-            an actor interact with how many instances of the use 
-            case.</para>
-
-            <para lang="en">By default we assume one instance of an actor 
-            interacts with one instance of a use case. In other cases 
-            we can label the multiplicity of one end of the 
-            association, either with a number to indicate how many 
-            instances are involved, or with a range separated by two 
-            periods (<literal>..</literal>). An asterisk (
-            <literal>*</literal>) is used to indicate an arbitrary 
-            number.</para>
-
-            <para lang="en">In the ATM example, there is only one central 
-            computer, but it may be auditing any number of ATM uses. So 
-            we place the label <literal>0..*</literal> at the use case 
-            end. There is no need for a label at the other end, since 
-            the default is one.</para>
-
-            <para lang="en">A local bank will have up to three officials 
-            authorized to unload and load ATM machines. So at the actor 
-            end of the relationship with the use case <literal>Maintain 
-            ATM</literal>, we place the label <literal>1..3</literal>. 
-            They may be dealing with any number of ATM machines, so at 
-            the other end we place the label <literal>
-            0..*</literal>.</para>
-
-            <para lang="en">There may be any number of customers and there may be 
-            any number of ATM systems they could use. So at each end of 
-            the association we place the label <literal>
-            0..*</literal>.</para>
+            <indexterm lang="en">
+            	<primary>Multiplicity</primary>
+            	<secondary>in a Use Case Diagram</secondary>
+            </indexterm>
+            <indexterm lang="de">
+            	<primary>Kardinalität</primary>
+            	<secondary>in einem Anwendungsfalldiagramm</secondary>
+            </indexterm>
+            <para lang="en">
+	            It can be useful to show the 
+	            <emphasis>multiplicity</emphasis> of associations between 
+	            actors and use cases. By this we mean how many instances of 
+	            an actor interact with how many instances of the use 
+	            case.
+            </para>
+            <para lang="de">
+            	Es kann sehr nützlich sein, die <emphasis>Multiplizität
+            	</emphasis> von Assoziationen zwischen Akteuren und 
+            	Anwendungsfällen darzustellen. Damit meinen wir, wie viele 
+            	Ausprägungen eines Akteurs mit wie vielen Ausprägungen eines 
+            	Anwendungsfalles interagieren.
+            </para>
 
             <para lang="en">
-            <xref linkend="fig.tut.atm_use_case_diagram_multiplicity"/> 
-            shows the ATM use case diagram with multiplicity 
-            displayed.</para>
+	            By default we assume one instance of an actor 
+	            interacts with one instance of a use case. In other cases 
+	            we can label the multiplicity of one end of the 
+	            association, either with a number to indicate how many 
+	            instances are involved, or with a range separated by two 
+	            periods (<literal>..</literal>). An asterisk (
+	            <literal>*</literal>) is used to indicate an arbitrary 
+	            number.
+            </para>
+            <para lang="de">
+            	Standardmäßig nehmen wir an, dass eine Ausprägung eines Akteurs 
+            	mit einer Ausprägung eines Anwendungsfalles interagiert. In den 
+            	anderen Fällen können wird die Multiplizität an einem Ende der 
+            	Assoziation kennzeichnen. Entweder mit einer Nummer, um 
+            	darzustellen, wie viele Ausprägungen involviert sind, oder mit 
+            	einem durch zwei Punkten separierten Bereich (<literal>..
+            	</literal>). Ein Stern (<literal>*</literal>) wird verwendet, 
+            	um eine beliebige Zahl darzustellen.
+            </para>
+
+            <para lang="en">
+	            In the ATM example, there is only one central 
+	            computer, but it may be auditing any number of ATM uses. So 
+	            we place the label <literal>0..*</literal> at the use case 
+	            end. There is no need for a label at the other end, since 
+	            the default is one.
+            </para>
+            <para lang="de">
+            	Im Geldautomaten-Beispiel gibt es nur einen Zentralcomputer, 
+            	aber es können beliebig viele Nutzungen des Geldautomaten 
+            	aufgezeichnet werden. Daher plazieren wir das Kennzeichen 
+            	<literal>0..*</literal> am Ende des Anwendungsfalles. Es gibt 
+            	keine Notwendigkeit für eine Kennzeichnung am anderen Ende, da 
+            	der Standard 1 ist.
+            </para>
+
+            <para lang="en">
+	            A local bank will have up to three officials 
+	            authorized to unload and load ATM machines. So at the actor 
+	            end of the relationship with the use case <literal>Maintain 
+	            ATM</literal>, we place the label <literal>1..3</literal>. 
+	            They may be dealing with any number of ATM machines, so at 
+	            the other end we place the label <literal>
+	            0..*</literal>.
+            </para>
+            <para lang="de">
+            	Eine lokale Bank kann bis zu drei Beamte haben, die autorisiert  
+            	sind, die Geldautomaten zu leeren und zu befüllen. Daher 
+            	plazieren wir bei der Beziehung zwischen dem Akteur und dem 
+            	Anwendungsfall <literal>Wartung Geldautomat</literal> am Ende 
+            	zum Akteur die Kennzeichnung <literal>1..3</literal>.
+            	Sie können sich mit beliebig vielen Geldautomaten befassen, 
+            	so dass wir auf dem anderen Ende das Kennzeichen <literal>0..*
+            	</literal> plazieren.
+            </para>
+
+            <para lang="en">
+	            There may be any number of customers and there may be 
+	            any number of ATM systems they could use. So at each end of 
+	            the association we place the label <literal>
+	            0..*</literal>.
+            </para>
+            <para lang="de">
+            	Es gibt beliebig viele Kunden und beliebig viele Geldautomaten 
+            	die diese nutzen dürfen. Daher plazieren wir an jedem Ende der 
+            	Assoziation das Kennzeichen <literal>0..*</literal>.
+            </para>
+
+            <para lang="en">
+	            <xref linkend="fig.tut.atm_use_case_diagram_multiplicity"/> 
+	            shows the ATM use case diagram with multiplicity 
+	            displayed.
+            </para>
+            <para lang="de">
+	            <xref linkend="fig.tut.atm_use_case_diagram_multiplicity"/>
+	            zeigt das Geldautomaten-Anwendungsfalldiagramm mit dargestellter 
+	            Kardinalität. 
+            </para>
 
             <figure float="1" id="fig.tut.atm_use_case_diagram_multiplicity">
 
-              <title><phrase lang="en">Use case diagram for an ATM system showing 
-              multiplicity.</phrase></title>
+              <title>
+              	<phrase lang="en">
+              		Use case diagram for an ATM system showing multiplicity.
+              	</phrase>
+              	<phrase lang="de">
+	              	Anwendungsfalldiagramm für einen Geldautomaten und 
+	              	dargestellter Kardinalität.
+              	</phrase>
+              </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -9387,57 +10028,135 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></mediaobject></screenshot>
             </figure>
 
-            <para lang="en">Multiplicity can clutter a diagram, and is often not 
-            shown, except where it is critical to understanding. In the 
-            ATM example we would only choose to show <literal>
-            1..3</literal> against the local bank official, since all 
-            others are obvious from the context.</para>
+            <para lang="en">
+	            Multiplicity can clutter a diagram, and is often not 
+	            shown, except where it is critical to understanding. In the 
+	            ATM example we would only choose to show <literal>
+	            1..3</literal> against the local bank official, since all 
+	            others are obvious from the context.
+            </para>
+            <para lang="de">
+            	Die Multiplizität kann ein Diagramm überladen und wird oft nicht 
+            	angezeigt, ausser wo es für das Verständnis kritisch ist. Im 
+            	Beispiel Geldautomat würde wir nur <literal>1..3</literal> zum 
+            	lokalen Bankbeamten darstellen, da alle anderen aus dem Kontext 
+            	heraus offensichtlich sind.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title><phrase lang="en">Hierarchies of Use Cases</phrase></title>
+            <title>
+            	<phrase lang="en">Hierarchies of Use Cases</phrase>
+            	<phrase lang="de">Hierarchien von Anwendungsfällen</phrase>
+            </title>
 
-            <indexterm><primary>Hierarchy of Use 
-            Cases</primary></indexterm>
-            <indexterm><primary>Use 
-            Case</primary><secondary>Hierarchy</secondary></indexterm>
-            <para lang="en">In our ATM example so far we have just three use 
-            cases to describe all the behavior of the system. While use 
-            cases should always describe a significant chunk of system 
-            behavior, if they are too general they can be difficult to 
-            describe.</para>
+            <indexterm lang="en">
+            	<primary>Hierarchy of Use Cases</primary>
+            </indexterm>
+            <indexterm lang="de">
+            	<primary>Hierarchie von Anwendungsfällen</primary>
+            </indexterm>
+            <indexterm lang="en">
+            	<primary>Use Case</primary>
+            	<secondary>Hierarchy</secondary>
+            </indexterm>
+            <indexterm lang="de">
+            	<primary>Anwendungsfall</primary>
+            	<secondary>Hierarchie</secondary>
+            </indexterm>
+            <para lang="en">
+	            In our ATM example so far we have just three use 
+	            cases to describe all the behavior of the system. While use 
+	            cases should always describe a significant chunk of system 
+	            behavior, if they are too general they can be difficult to 
+	            describe.
+            </para>
+            <para lang="de">
+            	In unserem Geldautomatenbeispiel haben wir jetzt drei 
+            	Anwendungsfälle, um das Verhalten des Systems zu beschreiben. 
+            	Auch wenn Anwendungsfälle immer einen signifikanten Teil des 
+            	Systemverhaltens beschreiben sollten, wenn diese zu generell 
+            	sind, können sie schwer zu beschreiben sein.
+            </para>
 
-            <para lang="en">We could for example define the behavior of the use 
-            case <quote>Use ATM</quote> in terms of the behavior of 
-            three simpler use cases, <quote>Deposit Cash</quote>, 
-            <quote>Withdraw Cash</quote> and <quote>Query 
-            Account</quote>. The main use case could be specified by 
-            <emphasis>including</emphasis> the behavior of the 
-            subsidiary use cases where needed.</para>
+            <para lang="en">
+	            We could for example define the behavior of the use 
+	            case <quote>Use ATM</quote> in terms of the behavior of 
+	            three simpler use cases, <quote>Deposit Cash</quote>, 
+	            <quote>Withdraw Cash</quote> and <quote>Query 
+	            Account</quote>. The main use case could be specified by 
+	            <emphasis>including</emphasis> the behavior of the 
+	            subsidiary use cases where needed.
+            </para>
+            <para lang="de">
+            	Wir könnten zum Beispiel das Verhalten des Anwendungsfalles 
+            	<quote>Geldautomat nutzen</quote> durch das Verhalten von drei 
+            	einfacheren Anwendungsfällen, wie <quote>Bargeld lagern</quote>,
+            	<quote>Bargeld ausgeben</quote> und <quote>Konto abfragen</quote> 
+            	ausdrücken. Der Hauptanwendungsfall könnte durch <emphasis>
+            	einbinden (include)</emphasis> des Verhaltens der benötigten 
+            	Unteranwendungsfälle spezifiziert werden.
+            </para>
 
-            <para lang="en">Similarly the <quote>Maintain ATM</quote> use case 
-            could be defined in terms of two use cases <quote>Maintain 
-            Equipment</quote> and <quote>Reload ATM</quote>. In this 
-            case the two actors involved in the main use case are 
-            really only involved in one or other of the two subsidiary 
-            use cases and this can be shown on the diagram.</para>
+            <para lang="en">
+	            Similarly the <quote>Maintain ATM</quote> use case 
+	            could be defined in terms of two use cases <quote>Maintain 
+	            Equipment</quote> and <quote>Reload ATM</quote>. In this 
+	            case the two actors involved in the main use case are 
+	            really only involved in one or other of the two subsidiary 
+	            use cases and this can be shown on the diagram.
+            </para>
+            <para lang="de">
+            	Der Anwendungsfall <quote>Geldautomat warten</quote> könnte 
+            	ebenfalls durch zwei Anwendungsfälle <quote>Equipment warten
+            	</quote> und <quote>Geldautomat neu starten</quote> definiert 
+            	werden. In diesem Fall sind die zwei im Hauptanwendungsfall 
+            	involvierten Akteure natürlich nur in einem oder dem anderen 
+            	der beiden Unteranwendungsfälle involviert. Dies wird im 
+            	nachfolgenden Diagramm dargestellt.
+            </para>
 
-            <indexterm><primary>Include 
-            Relationship</primary></indexterm>
-            <indexterm>
-            <primary>Relationship</primary><secondary>Include</secondary></indexterm>
-            <para lang="en">The decomposition of a use case into simpler sub-use 
-            cases is shown in UML by using an <emphasis>include 
-            relationship</emphasis>, a dotted arrow from the main use 
-            case to the subsidiary, with the label 
-            <emphasis>&laquo;include&raquo;</emphasis>.</para>
+            <indexterm lang="en">
+            	<primary>Include Relationship</primary>
+            </indexterm>
+            <indexterm lang="de"><primary>Include-Beziehung</primary></indexterm>
+            <indexterm lang="en">
+            	<primary>Relationship</primary>
+            	<secondary>Include</secondary>
+            </indexterm>
+            <indexterm lang="de">
+            	<primary>Beziehung</primary>
+            	<secondary>Include</secondary>
+            </indexterm>
+            <para lang="en">
+	            The decomposition of a use case into simpler sub-use 
+	            cases is shown in UML by using an <emphasis>include 
+	            relationship</emphasis>, a dotted arrow from the main use 
+	            case to the subsidiary, with the label 
+	            <emphasis>&laquo;include&raquo;</emphasis>.
+            </para>
+            <para lang="de">
+            	Die Aufteilung eines Anwendungsfalles in einfacherere 
+            	Unteranwendungsfälle wird in UML durch eine <emphasis>include 
+	            Beziehung</emphasis>, einem gestrichelten Pfeil vom 
+	            Hauptanwendungsfall zum Unteranwendungsfall mit der Kennzeichnung 
+	            <emphasis>&laquo;include&raquo;</emphasis> bezeichnet.
+            </para>
 
             <figure float="1" id="fig.tut.atm_use_case_diagram_include">
 
-              <title><phrase lang="en">Use case diagram for an ATM system showing include 
-              relationships.</phrase></title>
+              <title>
+              	<phrase lang="en">
+              		Use case diagram for an ATM system showing include 
+              		relationships.
+              	</phrase>
+              	<phrase lang="de">
+	              	Anwendungsfalldiagramm für einen Geldautomaten mit 
+	              	include-Beziehungen.
+              	</phrase>
+              </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -9445,58 +10164,123 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></mediaobject></screenshot>
             </figure>
 
-            <para lang="en">Include relationships are fine for breaking down the 
-            use case behaviors in to hierarchies. However we may also 
-            want to show a use case that is an 
-            <emphasis>extension</emphasis> to an existing use case to 
-            cater for a particular circumstance.</para>
+            <para lang="en">
+	            Include relationships are fine for breaking down the 
+	            use case behaviors in to hierarchies. However we may also 
+	            want to show a use case that is an 
+	            <emphasis>extension</emphasis> to an existing use case to 
+	            cater for a particular circumstance.
+            </para>
+            <para lang="de">
+            	Include-Beziehungen sind ideal für das Herunterbrechen des 
+            	Anwendungsfallverhaltens in Hierarchien. Wir wollen jedoch auch 
+            	einen Anwendungsfall, der eine <emphasis>Erweiterung (extension)
+            	</emphasis> eines existierenden Anwendungsfalles darstellt, in 
+            	bestimmten Umständen darstellen.
+            </para>
 
-            <para lang="en">In the ATM example we have a use case covering 
-            routine maintenance of the ATM, <quote>Maintain 
-            Equipment</quote>. We also want to cover the special case 
-            of an unscheduled repair caused by the ATM detecting an 
-            internal fault.</para>
+            <para lang="en">
+	            In the ATM example we have a use case covering 
+	            routine maintenance of the ATM, <quote>Maintain 
+	            Equipment</quote>. We also want to cover the special case 
+	            of an unscheduled repair caused by the ATM detecting an 
+	            internal fault.
+            </para>
+            <para lang="de">
+            	Im Geldautomatenbeispiel haben wir einen Anwendungsfall <quote>
+            	Equipment warten</quote>, der die Routinewartung des 
+            	Geldautomaten beinhaltet. Wir wollen aber auch den Spezialfall 
+            	einer ungeplanten Reparatur abdecken, die durch den vom 
+            	Geldautomaten erkannten internen Fehlers ausgelöst wurde.
+            </para>
 
-            <indexterm><primary>Extend 
-            Relationship</primary></indexterm>
-            <indexterm>
-            <primary>Relationship</primary><secondary>Extend</secondary></indexterm>
-            <para lang="en">This is shown in UML by the 
-            <emphasis>extend</emphasis> relationship. In the main use 
-            case, we specify a name for a location in the description, 
-            where an extension to the behavior could be attached. The 
-            name and location are shown in a separate compartment 
-            within the use case oval. The representation extend 
-            relationship is the same as the include relationship, but 
-            with the label <emphasis>&laquo;extend&raquo;</emphasis>. Alongside the 
-            extend relationship, we specify the condition under which 
-            that behavior will be attached.</para>
+            <indexterm lang="en">
+            	<primary>Extend Relationship</primary>
+            </indexterm>
+            <indexterm lang="de">
+            	<primary>Extend Beziehung</primary>
+            </indexterm>
+            <indexterm lang="en">
+            	<primary>Relationship</primary>
+            	<secondary>Extend</secondary>
+            </indexterm>
+            <indexterm lang="de">
+            	<primary>Beziehung</primary>
+            	<secondary>Extend</secondary>
+            </indexterm>
+            <para lang="en">
+	            This is shown in UML by the 
+	            <emphasis>extend</emphasis> relationship. In the main use 
+	            case, we specify a name for a location in the description, 
+	            where an extension to the behavior could be attached. The 
+	            name and location are shown in a separate compartment 
+	            within the use case oval. The representation extend 
+	            relationship is the same as the include relationship, but 
+	            with the label <emphasis>&laquo;extend&raquo;</emphasis>. Alongside the 
+	            extend relationship, we specify the condition under which 
+	            that behavior will be attached.
+            </para>
+            <para lang="de">
+            	Dies wird in UML durch die <emphasis>extend</emphasis>-Beziehung 
+            	dargestellt. Im Hauptanwendungsfall spezifizieren wir einen 
+            	Namen für einen Ort in der Beschreibung, an den die Erweiterung 
+            	des Verhaltens hinzugefügt werden kann. Der Name und der Ort 
+            	werden in einem separaten Abschnitt innerhalb des Anwendungsfall-
+            	Ovales dargestellt. Die Darstellung der extend-Beziehung 
+            	entspricht der include-Beziehung, aber mit dem Kennzeichen 
+            	<emphasis>&laquo;extend&raquo;</emphasis>. An der extend-
+            	Beziehung spezifizieren wird die Bedingung, unter der das 
+            	Verhalten hinzugefügt wird.
+            </para>
 
-            <para lang="en"><xref linkend="fig.tut.atm_use_case_diagram_extend"/> 
-            shows the ATM use case diagram with an extend relationship 
-            to a use case for unscheduled repairs. The diagram is now 
-            getting rather complex, and so we have split it into two, 
-            one for the maintenance side of things, the other for 
-            customer usage and audit.</para>
+            <para lang="en">
+	            <xref linkend="fig.tut.atm_use_case_diagram_extend"/> 
+	            shows the ATM use case diagram with an extend relationship 
+	            to a use case for unscheduled repairs. The diagram is now 
+	            getting rather complex, and so we have split it into two, 
+	            one for the maintenance side of things, the other for 
+	            customer usage and audit.
+            </para>
+            <para lang="de">
+            	<xref linkend="fig.tut.atm_use_case_diagram_extend" />
+            	zeigt das Geldautomaten-Anwendungsfalldiagramm mit einer extend-
+            	Beziehung auf einen Anwendungsfall für ungeplante Reparaturen. 
+            	Das Diagramm ist jetzt sehr komplex so dass wir es in zwei 
+            	aufteilen sollten. Eines für die hauptsächlichen Dinge, das 
+            	andere für den Kundennutzen und Revision.
+            </para>
 
-            <para lang="en">The <quote>Maintain Equipment</quote> use case 
-            defines a name <quote>Unsched</quote>, at the start of its 
-            description. The extending use case <quote>Unscheduled 
-            Repair</quote> is attached there when the ATM detects an 
-            internal error.</para>
+            <para lang="en">
+	            The <quote>Maintain Equipment</quote> use case 
+	            defines a name <quote>Unsched</quote>, at the start of its 
+	            description. The extending use case <quote>Unscheduled 
+	            Repair</quote> is attached there when the ATM detects an 
+	            internal error.
+            </para>
+            <para lang="de">
+            	Der Anwendungsfall <quote>Equipment warten</quote> definiert 
+            	den Namen <quote>Unshed</quote> am Anfang seiner Beschreibung. 
+            	Der erweiterte Anwendungsfall <quote>ungeplante Reparatur</quote> 
+                wird herangezogen, wenn der Geldautomat einen internen Fehler 
+                entdeckt.
+            </para>
 
             <figure float="1" id="fig.tut.atm_use_case_diagram_extend">
 
-              <title><phrase lang="en">
-                <phrase lang="en">
+              <title>
+              	<phrase lang="en">
                   Use case diagram for an ATM system showing an 
                   extend relationship.
+                </phrase>
+              	<phrase lang="de">
+	              	Anwendungsfalldiagramm für einen Geldautomaten. Zeigt eine 
+	              	extend-Beziehung.
                 </phrase>
                 <phrase lang="es">
                   Diagrama de casos de uso para un sistema de Cajero
                   Automático mostrando una relación de extensión.
                 </phrase>
-              </phrase></title>
+              </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -9507,15 +10291,28 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <indexterm lang="en">
               <primary>Use Case Generalization</primary>
             </indexterm>
+            <indexterm lang="de">
+              <primary>Anwendungsfall Generalisierung</primary>
+            </indexterm>
             <indexterm lang="en">
               <primary>Use Case Specialization</primary>
+            </indexterm>
+            <indexterm lang="de">
+              <primary>Anwendungsfall Spezialisierung</primary>
             </indexterm>
             <indexterm lang="en">
               <primary>Generalize a Use Case</primary>
             </indexterm>
+            <indexterm lang="de">
+              <primary>Einen Anwendungsfall generalisieren</primary>
+            </indexterm>
             <indexterm lang="en">
               <primary>Specializations</primary>
               <secondary>of Use Case</secondary>
+            </indexterm>
+            <indexterm lang="de">
+              <primary>Spezialisierungen</primary>
+              <secondary>von Anwendungsfällen</secondary>
             </indexterm>
             <indexterm lang="es">
               <primary>Generalización de Casos de Uso</primary>
@@ -9546,7 +10343,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               without the constraint of specific extension points at 
               which the main use case may be extended, and with no 
               condition on when the subsidiary use case may be 
-              used.</para>
+              used.
+            </para>
+            <para lang="de">
+            	Anwendungsfälle können auch auf andere Art und Weise miteinander 
+            	verknüpft sein. Ein Anwendungsfall kann eine <emphasis>
+            	Generalisierung</emphasis> eines Sub-Anwendungsfalles (oder 
+            	alternativ: Der Sub-Anwendungsfall ist eine <emphasis>
+            	Spezialisierung</emphasis> des Hauptanwendungsfalles).
+            	Das ist der extend-Beziehung sehr ähnlich, aber ohne die 
+            	Bedingung des spezifischen Erweiterungspunktes, unter welcher 
+            	der Haupt-Anwendungsfall erweitert wird und ohne 
+            	Bedingung unter welcher der Sub-Anwendungsfall verwendet wird.
+			</para>
             <para lang="es">
               Los casos de uso pueden ser enlazados juntos de una forma 
               adicional. 
@@ -9579,6 +10388,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               generalization very hard to specify precisely.
               In general use an extend relationship instead.
             </para>
+            <para lang="de">
+            	Der Generalisierung wird in einem Anwendungsfalldiagramm durch 
+            	einen Pfeil mit durchgehender Linie und einer weissen 
+            	Pfeilspitze vom Sub-Anwendungsfall zum Hauptanwendungsfall 
+            	dargestellt.
+            	Das kann hilfreich sein, wenn ein Sub-Anwendungsfall das 
+            	Verhalten des Hauptanwendungsfalles in einer Vielzahl von 
+            	Positionen und in einem weiten Bereich von Sachverhalten 
+            	spezialisiert.
+            	Das Fehlen jeglicher Einschränkungen macht es sehr schwierig, 
+            	die Generalisierung genau zu beschreiben.
+            	Im Normalfall verwenden Sie besser eine extend-Beziehung.
+            </para>
             <para lang="es">
               La generalización está representada en 
               un diagrama de casos de uso por una flecha 
@@ -9607,20 +10429,31 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title><phrase lang="en">
+          <title>
             <phrase lang="en">The Use Case Specification</phrase>
+            <phrase lang="de">Die Anwendungsfall-Spezifikation</phrase>
             <phrase lang="es">La Especificación de Casos de Uso</phrase>
-          </phrase></title>
+          </title>
 
           <indexterm lang="en">
             <primary>Use Case Specification</primary>
+          </indexterm>
+          <indexterm lang="de">
+            <primary>Anwendungsfall-Spezifikation</primary>
           </indexterm>
           <indexterm lang="en">
             <primary>Specification</primary>
             <secondary>of Use Case</secondary>
           </indexterm>
+          <indexterm lang="de">
+            <primary>Spezifikation</primary>
+            <secondary>eines Anwendungsfalles</secondary>
+          </indexterm>
           <indexterm lang="en">
             <primary>Use Case Scenario</primary>
+          </indexterm>
+          <indexterm lang="de">
+            <primary>Anwendungsfall-Szenario</primary>
           </indexterm>
           <indexterm lang="es">
             <primary>Especificación de Casos de Uso</primary>
@@ -9646,6 +10479,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <emphasis>use case scenario</emphasis> or even (confusingly) just
             <emphasis>use case</emphasis>.
           </para>
+          <para lang="de">
+          	Jeder Anwendungsfall muss dokumentiert sein, um das das spezifizierte 
+          	Verhalten im Detail zu erläutern.
+          	ArgoUML unterstützt Sie in diesem Bereich durch das Generieren 
+          	graphischer Dateien, die in diese Dokumentation eingebunden werden 
+          	kann.
+          	Dieses Dokument ist unter verschieden Namen in verschiedenen 
+          	Prozessen bekannt:
+            <emphasis>Anwendungsfall-Spezifikation</emphasis>,
+            <emphasis>Anwendungsfall-Szenario</emphasis> oder auch (verwirrend) 
+            nur <emphasis>Anwendungsfall</emphasis>.
+          </para>
           <para lang="es">
             Cada caso de uso debe ser documentado para explicar 
             en detalle el comportamiento que está especificando. 
@@ -9657,8 +10502,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <emphasis>caso de uso</emphasis>.
           </para>
 
-          <para lang="en">A typical use case specification will include the following 
-          sections.</para>
+          <para lang="en">
+          	A typical use case specification will include the following 
+          	sections.
+          </para>
+          <para lang="de">
+          	Eine typische Anwendungsfall-Spezifikation wird folgende Kapitel 
+          	enthalten.
+          </para>
           <para lang="es">
             Un caso de uso tipico incluirá las siguientes secciones.
           </para>
@@ -9671,8 +10522,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <primary>Name</primary>
                 <secondary>of Use Case</secondary>
               </indexterm>
-              <indexterm lang="es">
+              <indexterm lang="de">
+                <primary>Name</primary>
+                <secondary>des Anwendungsfalles</secondary>
+              </indexterm>
+              <indexterm lang="en">
                 <primary>Use Case Name</primary>
+              </indexterm>
+              <indexterm lang="de">
+                <primary>Anwendungsfall-Name</primary>
               </indexterm>
               <indexterm lang="es">
                 <primary>Nombre</primary>
@@ -9683,8 +10541,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <primary>Nombre de Caso de Uso</primary>
               </indexterm>
 
-              <para lang="en"><emphasis>Name</emphasis>. The name of the use case 
-              to which this relates.</para>
+              <para lang="en">
+	              <emphasis>Name</emphasis>. The name of the use case 
+	              to which this relates.
+              </para>
+              <para lang="de">
+              	<emphasis>Name</emphasis>. Der Name des Anwendungsfalles.
+              </para>
               <para lang="es">
                 <emphasis>Nombre</emphasis>.
                 El nombre del caso de uso al
@@ -9699,8 +10562,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <primary>Goal</primary>
                 <secondary>of Use Case</secondary>
               </indexterm>
+              <indexterm lang="de">
+                <primary>Ziel</primary>
+                <secondary>des Anwendungsfalles</secondary>
+              </indexterm>
               <indexterm lang="en">
                 <primary>Use Case Goal</primary>
+              </indexterm>
+              <indexterm lang="de">
+                <primary>Anwendungsfall-Ziel</primary>
               </indexterm>
 
               <indexterm lang="es">
@@ -9712,9 +10582,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <primary>Objetivo del Caso de Uso</primary>
               </indexterm>
 
-              <para lang="en"><emphasis>Goal</emphasis>. A one or two line 
-              summary of what this use case achieves <emphasis>for its 
-              actors</emphasis>.</para>
+              <para lang="en">
+	              <emphasis>Goal</emphasis>. A one or two line 
+	              summary of what this use case achieves <emphasis>for its 
+	              actors</emphasis>.
+              </para>
+              <para lang="de">
+              	<emphasis>Ziel</emphasis>. Eine ein oder zweizeilige 
+              	Zusammenfassung darüber, was dieser Anwendungsfall <emphasis>
+              	für seine Akteure</emphasis> ausführt. 
+              </para>
               <para lang="es">
                 <emphasis>Objetivo</emphasis>.
                 Un resumen de una o dos lineas de 
@@ -9726,9 +10603,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para lang="en"><emphasis>Actors</emphasis>. The actors involved in 
-              this use case, and any context regarding their 
-              involvement.</para>
+              <para lang="en">
+	              <emphasis>Actors</emphasis>. The actors involved in 
+	              this use case, and any context regarding their 
+	              involvement.
+              </para>
+              <para lang="de">
+              	<emphasis>Akteure</emphasis>. Die in diesen Anwendungsfall 
+              	involvierten Akteure und jeden Umstand bezüglich Ihrer 
+              	Einbindung.
+              </para>
               <para lang="es">
                 <emphasis>Actores</emphasis>.
                 Los actores involucrados en este caso de uso, 
@@ -9737,9 +10621,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <note>
 
-                <para lang="en">This should not be a description of the actor. 
-                That should be associated with the actor on the use 
-                case diagram.</para>
+                <para lang="en">
+	                This should not be a description of the actor. 
+	                That should be associated with the actor on the use 
+	                case diagram.
+                </para>
+                <para lang="de">
+                	Dies sollte keine Beschreibung des Akteurs sein. Diese sollte 
+                	mit dem Akteur im Anwendungsfalldiagramm verknüpft sein.
+                </para>
                 <para lang="es">
                   Esto no debería ser una descripción del actor. 
                   Eso debería estar asociado con el actor en 
@@ -9756,12 +10646,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <primary>Pre-condition</primary>
                 <secondary>of Use Case</secondary>
               </indexterm>
+              <indexterm lang="de">
+                <primary>Vorbedingung</primary>
+                <secondary>des Anwendungsfalles</secondary>
+              </indexterm>
               <indexterm lang="en">
                 <primary>Pre-assumptions</primary>
                 <secondary>of Use Case</secondary>
               </indexterm>
+              <indexterm lang="de">
+                <primary>Annahmen zu Beginn</primary>
+                <secondary>des Anwendungsfalles</secondary>
+              </indexterm>
               <indexterm lang="en">
                 <primary>Use Case Pre-condition</primary>
+               </indexterm>
+              <indexterm lang="de">
+                <primary>Anwendungsfall-Vorbedingung</primary>
                </indexterm>
               <indexterm lang="es">
                 <primary>Pre-condición</primary>
@@ -9778,11 +10679,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               </indexterm>
 
 
-              <para lang="en"><emphasis>Pre-condition</emphasis>. These would be 
-              better named <quote>pre-assumptions</quote>, but the term 
-              used everywhere is pre-conditions. This is a statement of 
-              any simplifying assumptions we can make at the start of 
-              the use case.</para>
+              <para lang="en">
+	              <emphasis>Pre-condition</emphasis>. These would be 
+	              better named <quote>pre-assumptions</quote>, but the term 
+	              used everywhere is pre-conditions. This is a statement of 
+	              any simplifying assumptions we can make at the start of 
+	              the use case.
+              </para>
+              <para lang="de">
+	              <emphasis>Vorbedingung</emphasis>. Diese würden besser als 
+	              <quote>Voraussetzungen</quote> bezeichnet, aber der überall 
+	              verwendete Begriff ist Vorbedingungen. Dies ist eine 
+	              Beschreibung jeder vereinfachenden Voraussetzung, die wir zum 
+	              Start des Anwendungsfalles machen können. 
+              </para>
               <para lang="es">
                 <emphasis>Pre-condición</emphasis>. 
                 Sería mejor llamarlas <quote>pre-asumciones</quote>, 
@@ -9792,11 +10702,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 del caso de uso.
               </para>
 
-              <para lang="en">In the ATM example we might make the assumption for 
-              the<quote>Maintain Equipment</quote> use case that an 
-              engineer is always available, and we do not need to worry 
-              about the case where a routine maintenance visit is 
-              missed.</para>
+              <para lang="en">
+	              In the ATM example we might make the assumption for 
+	              the<quote>Maintain Equipment</quote> use case that an 
+	              engineer is always available, and we do not need to worry 
+	              about the case where a routine maintenance visit is 
+	              missed.
+              </para>
+              <para lang="de">
+           		Im Geldautomatenbeispiel könnten wir beim Anwendungsfall 
+           		<quote>Equipment warten</quote> die Voraussetzung haben, das 
+           		immer ein Ingenieur verfügbar ist und wir uns nicht vor dem Fall 
+           		fürchten müssen, in dem ein Routinewartungs-Besuch ausgelassen 
+           		wurde. 
+              </para>
               <para lang="es">
                 En el ejempli del Cajero Automatico, 
                 podemos hacer la asumción para el caso de uso de
@@ -9809,16 +10728,31 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <caution>
 
-                <para lang="en">Avoid pre-conditions wherever possible. You need 
-                to be absolutely certain that the pre-condition holds 
-                under all possible circumstances. If not your system 
-                will be under specified and hence will fail when the 
-                pre-condition is not true. Alternatively, when you 
-                cannot be certain the pre-condition is always true, you 
-                will need to specify a second use case to handle the 
-                pre-condition being false. In the first case, 
-                pre-conditions are a source of problems, in the second 
-                a source of more work.</para>
+                <para lang="en">
+	                Avoid pre-conditions wherever possible. You need 
+	                to be absolutely certain that the pre-condition holds 
+	                under all possible circumstances. If not your system 
+	                will be under specified and hence will fail when the 
+	                pre-condition is not true. Alternatively, when you 
+	                cannot be certain the pre-condition is always true, you 
+	                will need to specify a second use case to handle the 
+	                pre-condition being false. In the first case, 
+	                pre-conditions are a source of problems, in the second 
+	                a source of more work.
+                </para>
+                <para lang="de">
+                	Vermeiden Sie Vorbedingungen wo immer das möglich ist. Sie 
+                	müssen sich absolut sicher sein, dass die Vorbedingung 
+                	unter allen möglichen Umständen eingehalten wird. Wenn nicht, 
+                	ist ihr System zu wenig spezifiziert und wird daher 
+                	fehlschlagen, wenn die Vorbedingung nicht wahr ist. Wenn Sie 
+                	nicht sicher sein können, dass die Vorbedingung 
+                	immer wahr ist, müssen Sie einen zweiten Anwendungsfall 
+                	spezifizieren, der den Fall handhabt, wenn die 
+                	Vorbedingung falsch ist. Im ersten Fall sind die 
+                	Vorbedingungen die Ursache der Probleme, im zweiten Fall die 
+                	Ursache für mehr Arbeit.
+                </para>
                 <para lang="es">
                   Evita pre-condiciones todo lo posible. 
                   Necesitas tener la absoluta certeza de 
@@ -9846,12 +10780,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <primary>Basic Flow</primary>
                 <secondary>of Use Case</secondary>
               </indexterm>
+              <indexterm lang="de">
+                <primary>Standardablauf</primary>
+                <secondary>des Anwendungsfalles</secondary>
+              </indexterm>
               <indexterm lang="en">
                 <primary>Use Case</primary>
                 <secondary>Basic Flow</secondary>
               </indexterm>
+              <indexterm lang="de">
+                <primary>Anwendungsfall</primary>
+                <secondary>Standardablauf</secondary>
+              </indexterm>
               <indexterm lang="en">
                 <primary>Scenario</primary>
+              </indexterm>
+              <indexterm lang="de">
+                <primary>Szenario</primary>
               </indexterm>
               
               <indexterm lang="es">
@@ -9868,13 +10813,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <primary>Escenario</primary>
               </indexterm>
 
-              <para lang="en"><emphasis>Basic Flow</emphasis>. The linear 
-              sequence of steps that describe the behavior of the use 
-              case in the <quote>normal</quote> scenario. Where a use 
-              case has a number of scenarios that could be normal, one 
-              is arbitrarily selected. Specifying the basic flow is 
-              described in more detail in 
-              <xref linkend="s3.tut.basic_flow"/> below.</para>
+              <para lang="en">
+	              <emphasis>Basic Flow</emphasis>. The linear 
+	              sequence of steps that describe the behavior of the use 
+	              case in the <quote>normal</quote> scenario. Where a use 
+	              case has a number of scenarios that could be normal, one 
+	              is arbitrarily selected. Specifying the basic flow is 
+	              described in more detail in 
+	              <xref linkend="s3.tut.basic_flow"/> below.
+              </para>
+              <para lang="de">
+	              <emphasis>Standardablauf</emphasis>. Die aufeinander 
+	              folgenden Schritte, die das Verhalten des Anwendungsfalles 
+	              im <quote>Normalfall</quote> beschreiben. Wo ein Anwendungsfall 
+	              mehrere normale Szenarien aufweist, wird einer davon 
+	              willkürlich ausgewählt. Die Spezifizierung des 
+	              Standardablaufes wird nachfolgend detaillierter beschrieben 
+	              <xref linkend="s3.tut.basic_flow"/>.
+              </para>
               <para lang="es">
                 <emphasis>Flujo Básico</emphasis>. 
                 La secuencia lineal de pasos que descruben 
@@ -9896,9 +10852,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <primary>Alternate Flows</primary>
                 <secondary>of Use Case</secondary>
               </indexterm>
+              <indexterm lang="de">
+                <primary>Alternative Abläufe</primary>
+                <secondary>des Anwendungsfalles</secondary>
+              </indexterm>
               <indexterm lang="en">
                 <primary>Use Case</primary>
                 <secondary>Alternate Flows</secondary>
+              </indexterm>
+              <indexterm lang="de">
+                <primary>Anwendungsfall</primary>
+                <secondary>Alternative Abläufe</secondary>
               </indexterm>
               <indexterm lang="es">
                 <primary>Flujos Alternativos</primary>
@@ -9909,11 +10873,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <secondary>Flujos Alternativos</secondary>
               </indexterm>
 
-              <para lang="en"><emphasis>Alternate Flows</emphasis>. A series of 
-              linear sequences describing each of the alternative 
-              behaviors to the basic flow. Specifying alternate flows 
-              is described in more detail in 
-              <xref linkend="s3.tut.alternate_flows"/>.</para>
+              <para lang="en">
+	              <emphasis>Alternate Flows</emphasis>. A series of 
+	              linear sequences describing each of the alternative 
+	              behaviors to the basic flow. Specifying alternate flows 
+	              is described in more detail in 
+	              <xref linkend="s3.tut.alternate_flows"/>.
+              </para>
+              <para lang="de">
+	              <emphasis>Alternative Abläufe</emphasis>. Eine Reihe von 
+	              linearen Sequenzen beschreiben jede der alternativen, 
+	              gegenüber dem Standardablauf abweichenden Verhaltensweisen. 
+	              Die Spezifizierung alternativer Abläufe ist detaillierter in 
+	              <xref linkend="s3.tut.alternate_flows"/> beschrieben.
+              </para>
               <para lang="es">
                 <emphasis>Flujos Alternativos</emphasis>. 
                 Unas series de secuencias lineales describiendo 
@@ -9932,12 +10905,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <primary>Post-conditions</primary>
                 <secondary>of Use Case</secondary>
               </indexterm>
+              <indexterm lang="de">
+                <primary>Nach-Bedingungen</primary>
+                <secondary>des Anwendungsfalles</secondary>
+              </indexterm>
               <indexterm lang="en">
                 <primary>Post-assumptions</primary>
                 <secondary>of Use Case</secondary>
               </indexterm>
+              <indexterm lang="de">
+                <primary>Nachfolgende Annahmen</primary>
+                <secondary>zum Anwendungsfall</secondary>
+              </indexterm>
               <indexterm lang="en">
                 <primary>Use Case Post-conditions</primary>
+              </indexterm>
+              <indexterm lang="de">
+                <primary>Anwendungsfall nachfolgende Annahmen</primary>
               </indexterm>
 
               <indexterm lang="es">
@@ -9954,13 +10938,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <primary>Post-conditions de Casos de Uso</primary>
               </indexterm>
 
-              <para lang="en"><emphasis>Post-conditions</emphasis>. These would 
-              be better named <quote>post-assumptions</quote>. This is 
-              a statement of any assumptions that we can make at the 
-              end of the use case. Most useful where the use case is 
-              one of a series of subsidiary use cases that are included 
-              in a main use case, where they can form the 
-              pre-conditions of the next use case to be included.</para>
+              <para lang="en">
+	              <emphasis>Post-conditions</emphasis>. These would 
+	              be better named <quote>post-assumptions</quote>. This is 
+	              a statement of any assumptions that we can make at the 
+	              end of the use case. Most useful where the use case is 
+	              one of a series of subsidiary use cases that are included 
+	              in a main use case, where they can form the 
+	              pre-conditions of the next use case to be included.
+              </para>
+              <para lang="de">
+	              <emphasis>Nachbedingungen</emphasis>. Dies ist der Zustand 
+	              jeder Nachbedingung, den wir am Ende des Anwendungsfalles 
+	              feststellen können. Sehr hilfreich, wo der Anwendungsfall 
+	              einer von einer Serie von in den Hauptanwendungsfall 
+	              eingebundenen Unteranwendungsfällen ist, wo sie die 
+	              Vorbedingung für den nächsten einzubindenden Anwendungsfall 
+	              bilden. 
+              </para>
               <para lang="es">
                 <emphasis>Post-condiciones</emphasis>.
                 Sería mejor llamarlas <quote>post-asumciones</quote>.
@@ -9976,11 +10971,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <caution>
 
-                <para lang="en">Like pre-conditions, post-conditions are best 
-                avoided. They place a burden on the specification of 
-                the use case flows, to ensure that the post-condition 
-                always holds. They therefore are also a source of 
-                problems and extra work.</para>
+                <para lang="en">
+	                Like pre-conditions, post-conditions are best 
+	                avoided. They place a burden on the specification of 
+	                the use case flows, to ensure that the post-condition 
+	                always holds. They therefore are also a source of 
+	                problems and extra work.
+                </para>
+                <para lang="de">
+                	Nachbedingungen sind wie Vorbedingungen am Besten zu 
+                	vermeiden. Sie bilden eine Belastung für die Spezifikation 
+                	des Anwendungsfallablaufes, das sichergestellt sein muss, 
+                	dass die Nachbedingung immer eingehalten wird. Daher sind 
+                	sie auch eine Ursache von Problemen und zusätzlicher 
+                	Arbeit.
+                </para>
                 <para lang="es">
                   Como las pre-condiciones, 
                   las post-condiciones son mejor evitarlas. 
@@ -9997,11 +11002,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para lang="en"><emphasis>Requirements</emphasis>. In an ideal 
-              world the vision document, use case diagrams, use case 
-              specifications and supplementary requirements 
-              specification would form the requirements for a 
-              project.</para>
+              <para lang="en">
+	              <emphasis>Requirements</emphasis>. In an ideal 
+	              world the vision document, use case diagrams, use case 
+	              specifications and supplementary requirements 
+	              specification would form the requirements for a 
+	              project.
+              </para>
+              <para lang="de">
+              	<emphasis>Anforderungen</emphasis>. In einer idealen Welt würden 
+              	das Visionsdokument, die Anwendungsfalldiagramme, die 
+              	Anwendungsfallbeschreibungen und die Spezifikation der 
+              	zusätzlichen Anforderungen die Anforderungen für ein Projekt 
+              	bilden. 
+              </para>
               <para lang="es">
                 <emphasis>Requerimientos</emphasis>. 
                 En un mundo ideal el documento de visión, 
@@ -10012,12 +11026,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               </para>
 
 
-              <para lang="en">For most market-led developments, where ownership 
-              of requirements is within the same business as the team 
-              who will do the development, this is now usually the 
-              case. The marketing department can learn use case based 
-              requirements capture and analysis to link to their 
-              customer facing activities.</para>
+              <para lang="en">
+	              For most market-led developments, where ownership 
+	              of requirements is within the same business as the team 
+	              who will do the development, this is now usually the 
+	              case. The marketing department can learn use case based 
+	              requirements capture and analysis to link to their 
+	              customer facing activities.
+              </para>
+              <para lang="de">
+              	Bei den meisten Marktführer-Entwicklungen, ist es gewöhnlich der 
+              	Fall, dass sich die Eigentumsrechte der Anforderungen im 
+              	gleichen Business befinden,	wie das Team, das die Entwicklung 
+              	durchführen wird. Die Marketingabteilung kann das Erfassen und 
+              	die Analyse der Anwendungsfallanforderungen erlernen, um ihre 
+              	kundenspezifischen Aktivitäten damit zu verbinden.
+              </para>
               <para lang="es">
                 Para la mayoría de los desarrollos lideres del mercado,
                 donde la propiedad de los requerimientos esta dentro 
@@ -10029,12 +11053,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 las actividades primarias de sus consumidores.
               </para>
 
-              <para lang="en">However for external contract developments, 
-              customers may insist on a traditional <quote>list of 
-              features</quote> as the basis of the contract. Where this 
-              is the case, this section of the use case specification 
-              should link to the contract features that are covered by 
-              the use case.</para>
+              <para lang="en">
+	              However for external contract developments, 
+	              customers may insist on a traditional <quote>list of 
+	              features</quote> as the basis of the contract. Where this 
+	              is the case, this section of the use case specification 
+	              should link to the contract features that are covered by 
+	              the use case.
+              </para>
+              <para lang="de">
+              	Bei externen Vertragsentwicklungen jedoch, kann der Kunde auf 
+              	einer traditionellen <quote>Liste von Features</quote> als Basis 
+              	des Vertrages bestehen. Wo dies der Fall ist, sollte dieser 
+              	Abschnitt der Anwendungsfallspezifikation mit den vertraglich 
+              	festgelegten Features übereinstimmen, die durch den 
+              	Anwendungsfall abgedeckt werden.
+              </para>
               <para lang="es">
                 Sin embargo para desarrollos externos por contrato, 
                 los consumidores pueden insistir en una
@@ -10046,10 +11080,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 por el caso de uso.
               </para>
 
-              <para lang="en">This is often done through a third party tool that 
-              can link documents, providing automated checking of 
-              coverage, in which case this section is not needed, or 
-              may be generated automatically.</para>
+              <para lang="en">
+	              This is often done through a third party tool that 
+	              can link documents, providing automated checking of 
+	              coverage, in which case this section is not needed, or 
+	              may be generated automatically.
+              </para>
+              <para lang="de">
+              	Das wird oft mit Hilfe eines Third-Party-Werkzeuges ausgeführt, 
+              	das Dokumente verknüpfen kann und eine automatische Prüfung des 
+              	Geltungsbereiches enthält. In diesem Fall wird dieser Abschnitt 
+              	nicht benötigt oder kann automatisch generiert werden.
+              </para>
               <para lang="es">
                 Esto es hecho a menudo a traves de una herramienta 
                 de terceros que puede enlazar documentos,
@@ -10064,13 +11106,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           </itemizedlist>
 
-          <para lang="en">The final size of the use case specification will 
-          depend on the complexity of the use case. As a rule of thumb, 
-          most use cases take around 10-15 pages to specify, the bulk 
-          of which is alternate flows. If you are much larger than 
-          this, consider breaking the use case down. If you are much 
-          smaller consider whether the use case is addressing too small 
-          a chunk of behavior.</para>
+          <para lang="en">
+	          The final size of the use case specification will 
+	          depend on the complexity of the use case. As a rule of thumb, 
+	          most use cases take around 10-15 pages to specify, the bulk 
+	          of which is alternate flows. If you are much larger than 
+	          this, consider breaking the use case down. If you are much 
+	          smaller consider whether the use case is addressing too small 
+	          a chunk of behavior.
+          </para>
+          <para lang="de">
+          	Die abschliessende Grösse der Anwendungsfallspezifikation hängt von 
+          	der Komplexität der Anwendungsfälle ab. Als Faustregel gilt, dass 
+          	die meisten Anwendungsfälle ca. 10-15 Seiten für die Spezifikation 
+          	benötigen, das meiste davon für die alternativen Abläufe. Wenn sie 
+          	sehr viel grösser sind, sollten Sie die Anwendungsfälle aufteilen. 
+          	Wenn sie sehr viel kleiner sind, betrachten Sie, ob der 
+          	Anwendungsfall einen zu kleinen Bereich des Verhaltens beschreibt.
+          </para>
           <para lang="es">
             El tamaño final de la especificacíon de caos 
             de uso dependerá de la complejidad del caso de uso.
@@ -10089,6 +11142,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title><phrase lang="en">
               <phrase lang="en">Specifying the Basic Flow</phrase>
+              <phrase lang="de">Den Standardablauf spezifizieren</phrase>
               <phrase lang="es">Especificando el Flujo Basico</phrase>
             </phrase></title>
 
@@ -10096,9 +11150,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <primary>Basic Flow</primary>
               <secondary>of Use Case</secondary>
             </indexterm>
+            <indexterm lang="de">
+              <primary>Standardablauf</primary>
+              <secondary>des Anwendungsfalles</secondary>
+            </indexterm>
             <indexterm lang="en">
               <primary>Use Case</primary>
               <secondary>Basic Flow</secondary>
+            </indexterm>
+            <indexterm lang="de">
+              <primary>Anwendungsfall</primary>
+              <secondary>Standardablauf</secondary>
             </indexterm>
             <indexterm lang="es">
               <primary>Flujo Basico</primary>
@@ -10110,11 +11172,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <secondary>Flujo Basico</secondary>
             </indexterm>
 
-            <para lang="en">All flows in a use case specification are linear&mdash;that 
-            is there is no conditional branching. Any choices in flows 
-            are handled by specifying another alternate flow that takes 
-            over at the choice point. It is important to remember we 
-            are specifying behavior here, not programming it.</para>
+            <para lang="en">
+	            All flows in a use case specification are linear&mdash;that 
+	            is there is no conditional branching. Any choices in flows 
+	            are handled by specifying another alternate flow that takes 
+	            over at the choice point. It is important to remember we 
+	            are specifying behavior here, not programming it.
+            </para>
+            <para lang="de">
+            	Alle Abläufe in einer Anwendungsfallspezifikation sind linear
+            	&mdash; d.h. es gibt keine bedingte Verzweigung. Jede Auswahl 
+            	im Ablauf wird durch einen anderen, nach dem Auswahlpunkt 
+            	kommenden alternativen Ablauf behandelt. Es ist wichtig, sich 
+            	daran zu erinnern, dass wir hier das Verhalten und nicht die 
+            	Programmierung spezifizieren.
+            </para>
             <para lang="es">
               Todos los flujos en una especificación de casos de uso son
               lineales (esto es que no hay ramas condicionales).
@@ -10125,11 +11197,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               comportamiento aqui, no programandolo.
             </para>
 
-            <para lang="en">A flow is specified as a series of numbered steps. 
-            Each step must involve some interaction with an actor, or 
-            at least generate a change that is observable externally by 
-            an actor. Requirements capture should not be specifying 
-            hidden internal behavior of a system.</para>
+            <para lang="en">
+	            A flow is specified as a series of numbered steps. 
+	            Each step must involve some interaction with an actor, or 
+	            at least generate a change that is observable externally by 
+	            an actor. Requirements capture should not be specifying 
+	            hidden internal behavior of a system.
+            </para>
+            <para lang="de">
+            	Ein Ablauf wird durch eine Reihe von numerierten Schritten 
+            	spezifiziert. Jeder Schritt muss einige Interaktionen mit einem 
+            	Akteur oder mindestens eine Änderung generieren, die durch 
+            	einen Akteur extern überwacht wird. Das Anforderungen erfassen 
+            	sollte nicht das versteckte interne Verhalten eines Systems 
+            	spezifizieren.
+            </para>
             <para lang="es">
               Un flujo es especificado como una serie de pasos numerados.
               Cada paso debe implicar alguna interacción con un actor, 
@@ -10139,9 +11221,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               comportamiento interno y oculto del sistema.
             </para>
 
-            <para lang="en">For example we might give the following sequence of 
-            steps for the basic flow of the use case &quot;Withdraw 
-            Cash&quot; in our ATM example.</para>
+            <para lang="en">
+	            For example we might give the following sequence of 
+	            steps for the basic flow of the use case &quot;Withdraw 
+	            Cash&quot; in our ATM example.
+            </para>
+            <para lang="de">
+            	In unserem Geldautomatenbeispiel könnten wir im Anwendungsfall 
+            	<quote>Bargeld ausgeben</quote> die folgende Sequenz von 
+            	Schritten im Standardablauf haben:
+            </para>
             <para lang="es">
               Por ejemplo nosotros podemos dar la siquiente secuencia 
               de pasos para el flujo basico del casos de uso 
@@ -10154,6 +11243,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                 <para lang="en">Customer indicates a receipt is required.</para>
+                <para lang="de">
+                	Der Kunde gibt an, dass eine Quittung erforderlich ist.
+                </para>
                 <para lang="es">
                   Consumidor indica que se requiere recibo.
                 </para>
@@ -10163,6 +11255,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                 <para lang="en">Customer enters amount of cash required.</para>
+                <para lang="de">
+                	Der Kunde gibt die gewünschte Bargeldmenge ein.
+                </para>
                 <para lang="es">
                   Consumidor introduce cantidad de dinero requerido.
                 </para>
@@ -10173,6 +11268,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                 <para lang="en">ATM verifies with the central computer that the 
                 customer can make this withdrawal.</para>
+                <para lang="de">
+                	Der Geldautomat überprüft mit dem Zentralcomputer, dass 
+                	der Kunde diese Auszahlung durchführen kann. 
+                </para>
                 <para lang="es">
                   Cajero Automatico verifica con el ordenador central que
                   el consumidor puede realizar esta operación.
@@ -10183,6 +11282,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                 <para lang="en">ATM dispenses cash to the customer.</para>
+                <para lang="de">
+                	Der Geldautomat gibt das Bargeld an den Kunden.
+                </para>
                 <para lang="es">
                   Cajero Automatico entrega el dinero a el consumidor.
                 </para>
@@ -10192,6 +11294,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                 <para lang="en">ATM issues receipt to customer.</para>
+                <para lang="de">
+                	Der Geldautomat gibt die Quittung an den Kunden aus.
+                </para>
                 <para lang="es">
                   Cajero Automatico emite recibo al consumidor.
                 </para>
@@ -10204,6 +11309,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <quote>Use ATM</quote> use case, which will presumably 
             handle checking of cards and PINs before invoking this 
             included use case.</para>
+            <para lang="de">
+            	Zur Erinnerung: Dies ist ein Sub-Anwendungsfall der im Haupt-
+            	Anwendungsfall <quote>Geldautomat benutzen</quote> enthalten ist, 
+            	der voraussichtlich das Prüfen von Karten und PINs handhaben 
+            	wird, bevor dieser eingebundene Anwendungsfall aufgerufen wird.
+            </para>
             <para lang="es">
               Recuerda que esta es un sub-caso de uso incluido en el
               caso de uso principal <quote>Usar Cajero Automatico</quote>,
@@ -10218,6 +11329,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               basic flow the case where the customer does want a 
               receipt. The case where the customer does not want a 
               receipt will be an alternative flow.</para>
+              <para lang="de">
+              	Der erste Schritt ist keine Bedingung. Wir nehmen als unseren 
+              	Standardablauf den Fall, wo der Kunden eine Quittung haben 
+              	möchte. Der Fall, wo der Kunde keine Quittung haben will, wird 
+              	ein alternativer Ablauf sein.
+              </para>
               <para lang="es">
                 El primer paso no es una condición.
                 Tomamos como nuestro flujo básico el caso donde 
@@ -10234,6 +11351,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title><phrase lang="en">
               <phrase lang="en">Specifying the Alternate Flows</phrase>
+              <phrase lang="de">Alternative Abläufe spezifizieren</phrase>
               <phrase lang="es">Especificando los Flujos Alternativos</phrase>
             </phrase></title>
 
@@ -10241,12 +11359,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <primary>Alternate Flows</primary>
               <secondary>of Use Case</secondary>
             </indexterm>
+            <indexterm lang="de">
+              <primary>Alternative Abläufe</primary>
+              <secondary>des Anwendungsfalles</secondary>
+            </indexterm>
             <indexterm lang="en">
               <primary>Use Case</primary>
               <secondary>Alternate Flows</secondary>
             </indexterm>
+            <indexterm lang="de">
+              <primary>Anwendungsfall</primary>
+              <secondary>Alternative Abläufe</secondary>
+            </indexterm>
             <indexterm lang="en">
               <primary>Alternative scenarios</primary>
+            </indexterm>
+            <indexterm lang="de">
+              <primary>Alternative Szenarien</primary>
             </indexterm>
             <indexterm lang="es">
               <primary>Flujos Alternativos</primary>
@@ -10266,6 +11395,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para lang="en">This captures the alternative scenarios, as linear 
             flows, by reference to the basic flow. Initially we just 
             build a list of the alternate flows.</para>
+            <para lang="de">
+            	Dies erfasst die alternativen Szenarien, wie lineare Abläufe, 
+            	die durch den Standardablauf referenziert werden. Zu Beginn 
+            	erzeugen wir eine Liste der alternativen Abläufe.
+            </para>
             <para lang="es">
               Esto captura los escenarios alternativos, 
               como flujos lineales, mediante referencia la flujo básico. 
@@ -10282,6 +11416,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   <listitem>
 
                     <para lang="en">Customer does not require a receipt.</para>
+                    <para lang="de">Der Kunde benötigt keine Quittung.</para>
                     <para lang="es">Consumidor no requiere recibo.</para>
 
                   </listitem>
@@ -10290,6 +11425,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                     <para lang="en">Customer&apos;s account will not support the 
                     withdrawal.</para>
+                    <para lang="de">
+                    	Das Kundenkonto unterstützt keine Auszahlung.
+                    </para>
                     <para lang="es">
                       La cuenta del consumidor no soportará el retiro de 
                       dinero.
@@ -10301,6 +11439,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                     <para lang="en">Communication to the central computer is 
                     down.</para>
+                    <para lang="de">
+                    	Die Kommunikation mit dem Zentralcomputer ist 
+                    	unterbrochen.
+                    </para>
                     <para lang="es">
                       Comunicación con el ordenador central está
                       interrumpida.
@@ -10311,6 +11453,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   <listitem>
 
                     <para lang="en">The customer cancels the transaction.</para>
+                    <para lang="de">Der Kunde unterbricht die Transaktion.</para>
                     <para lang="es">
                       El consumidor cancela la transacción.
                     </para>
@@ -10321,6 +11464,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                     <para lang="en">The customer fails to take the dispensed 
                     cash.</para>
+                    <para lang="de">
+                    	Der Kunde macht beim Annehmen des Bargeldes Fehler.
+                    </para>
                     <para lang="es">
                       El consumidor falla a coger el dinero entregado.
                     </para>
@@ -10336,6 +11482,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para lang="en">Subsequently we flesh out each alternate flow, by 
             reference to the basic flow. For example the first 
             alternate flow might look like.</para>
+            <para lang="de">
+            	Nachfolgend arbeiten wir jeden alternativen Ablauf als 
+            	Referenz zum Standardablauf aus. Der erste alternative Ablauf 
+            	könnte zum Beispiel wie folgt aussehen:
+            </para>
 
             <orderedlist inheritnum="inherit" numeration="upperalpha">
 
@@ -10346,6 +11497,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   <listitem>
 
                     <para lang="en">Customer does not require a receipt.</para>
+                    <para lang="de">Der Kunde benötigt keine Quittung.</para>
 
                     <orderedlist inheritnum="inherit" numeration="arabic">
 
@@ -10353,6 +11505,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                         <para lang="en">At step 1 of the basic flow the customer 
                         indicates they do not want a receipt.</para>
+                        <para lang="de">
+                        	In Schritt 1 des Standardablaufes sagen die Kunden, 
+                        	dass Sie keine Quittung benötigen.
+                        </para>
 
                       </listitem>
 
@@ -10360,6 +11516,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                         <para lang="en">The basic flow proceeds from step 2 to 
                         step 4, and step 5 is not used.</para>
+                        <para lang="de">
+                        	Der Standardablauf geht von Schritt 2 in Schritt 4, 
+                        	Schritt 5 wird nicht benötigt.
+                        </para>
 
                       </listitem>
 
@@ -10377,25 +11537,55 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             flows as A.1, A.2, A.3, etc. The steps within an alternate 
             flow are then numbered from this. So the steps of the first 
             alternate flow would be A.1.1, A.1.2, A.1.3, etc.</para>
+            <para lang="de">
+            	Die Konvention ist, dass die verschiedenen alternativen Abläufe 
+            	numeriert werden, wie A.1, A.2, A.3, usw. Die Schritte innerhalb 
+            	eines alternativen Ablaufes werden darauf aufbauend numeriert. 
+            	So dass die Schritte der ersten Alternative wie folgt lauten 
+            	würden: A.1.1, A.1.2, A.1.3, usw.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title><phrase lang="en">Iterative Development of Use Case 
-            Specifications</phrase></title>
+            <title>
+	            <phrase lang="en">
+	            	Iterative Development of Use Case Specifications
+	            </phrase>
+	            <phrase lang="de">
+	            	Iterative Entwicklung der Anwendungsfallspezifikationen
+	            </phrase>
+            </title>
 
             <para lang="en">Iterative development will prioritize the use cases, 
             and the first iterations will address the most 
             important.</para>
+            <para lang="de">
+            	Die Iterative Entwicklung wird die die Anwendungsfälle 
+            	priorisieren und die erste Iteration wird die wichtigsten 
+            	adressieren.
+            </para>
 
             <para lang="en">Early iterations will capture the basic flows of the 
             most important use cases with only essential detail and 
             list the headings of the main alternate flows.</para>
+            <para lang="de">
+            	Frühe Iterationen werden den Standardablauf der wichtigsten 
+            	Anwendungsfälle nur mit den grundlegenden Details erfassen und 
+            	die Überschriften der hauptsächlichen alternativen Abläufe 
+            	auflisten.
+            </para>
 
             <para lang="en">Later iterations will address the remaining use 
             cases, flesh out the steps on individual alternate flows 
             and possibly provide more detail on individual steps.</para>
+            <para lang="de">
+            	Spätere Iterationen werden die verbleibenden Anwendungsfälle 
+            	adressieren, die Schritte der individuellen alternativen Abläufe 
+            	ausformulieren und wahrscheinlich mehr Details über die 
+            	individuellen Schritte enthalten.
+            </para>
 
           </sect3>
 
@@ -10403,18 +11593,39 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title><phrase lang="en">Supplementary Requirement Specification</phrase></title>
+          <title>
+          	<phrase lang="en">Supplementary Requirement Specification</phrase>
+          	<phrase lang="de">Ergänzende Anforderungsspezifikation</phrase>
+          </title>
 
-          <indexterm><primary>Supplementary Requirement 
-          Specification</primary></indexterm>
-          <indexterm><primary>Non-functional 
-          requirements</primary></indexterm>
-          <indexterm><primary>Non-functional 
-          constraints</primary></indexterm>
+          <indexterm lang="en">
+          	<primary>Supplementary Requirement Specification</primary>
+          </indexterm>
+          <indexterm lang="de">
+          	<primary>Ergänzende Anforderungsspezifikation</primary>
+          </indexterm>
+          <indexterm lang="en">
+          	<primary>Non-functional requirements</primary>
+          </indexterm>
+          <indexterm lang="de">
+          	<primary>Nicht-funktionale Anforderungen</primary>
+          </indexterm>
+          <indexterm lang="en">
+          	<primary>Non-functional constraints</primary>
+          </indexterm>
+          <indexterm lang="de">
+          	<primary>Nicht-funktionale Randbedingungen</primary>
+          </indexterm>
           <para lang="en">This captures the non-functional requirements or 
           constraints placed on the system. Since use cases are 
           inherently functional in nature, they cannot capture this 
           sort of information.</para>
+          <para lang="de">
+          	Dies erfasst die nicht-funktionalen Anforderungen oder 
+          	Randbedingungen, die für das System gelten. Da Anwendungsfälle von 
+          	Natur aus inhärent funktional sind, können sie diese Art von 
+          	Information nicht aufnehmen.
+          </para>
 
           <note>
 
@@ -10422,6 +11633,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             requirements in a section at the end of each use case 
             specification, containing the non-functional requirements 
             relevant to the use case.</para>
+            <para lang="de">
+            	Einige Analytiker plazieren nicht-funktionale Anforderungen in 
+            	einem Abschnitt am Ende einer jeden Anwendungsfallspezifikation, 
+            	der die nicht-funktionalen, anwendungsfallbezogenen 
+            	Anforderungen enthält.
+            </para>
 
             <para lang="en">
               This can cause some problems.
@@ -10433,6 +11650,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Hence my preference for a single supplementary requirements
               specification.
             </para>
+            <para lang="de">
+            	Dies kann einige Probleme verursachen. Der erste Punkt ist, dass 
+            	nicht-funktionale Anforderungen (zum Beispiel über die 
+            	Performance) in vielen Anwendungsfällen erscheinen muß und es 
+            	ist eine schlechte Praxis, Informationen zu replizieren.
+            	Zweitens gibt es einige invariable systemweite nicht-funktionale 
+            	Anforderungen, die ein systemweites Dokument erfordern.
+            	Daher meine Präferenz für eine einzige ergänzende 
+            	Anforderungsdokumentation.
+            </para>
 
           </note>
 
@@ -10441,6 +11668,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           Sommerville in his book <emphasis>Software 
           Engineering</emphasis> (Third Edn, Addison-Wesley, 1989) is a 
           useful guide.</para>
+          <para lang="de">
+        	Es sollte ein Abschnitt für jeden Hauptbereich der nicht-funktionalen 
+        	Anforderungen geben. Die Checkliste von Ian Sommerville in seinem 
+        	Buch <emphasis>Software Engineering</emphasis>	(Third Edition, 
+        	Addison-Wesley, 1989) ist eine hilfreiche Anleitung.
+          </para>
 
           <itemizedlist>
 
@@ -10448,6 +11681,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <para lang="en"><emphasis>Speed</emphasis>. Processor performance, 
               user/event response times, screen refresh time.</para>
+              <para lang="de">
+              	<emphasis>Geschwindigkeit</emphasis>. Prozessorleistung, 
+              	Anwender-/Ereignis-Antwortzeiten, Bildauffrischungszeiten.
+              </para>
 
             </listitem>
 
@@ -10455,6 +11692,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <para lang="en"><emphasis>Size</emphasis>. Main memory (and 
               possibly caches), disc capacity.</para>
+              <para lang="de">
+              	<emphasis>Grösse</emphasis>. Hauptspeicher (und mögliche 
+              	Zwischenspeicher), Plattenkapazität.
+              </para>
 
             </listitem>
 
@@ -10462,6 +11703,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <para lang="en"><emphasis>Ease of use</emphasis>. Training time, 
               style and detail of help system.</para>
+              <para lang="de">
+              	<emphasis>Leichte Anwendbarkeit</emphasis>. Ausbildungszeit, 
+              	Stil und Details des Hilfesystems. 
+              </para>
 
             </listitem>
 
@@ -10470,6 +11715,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="en"><emphasis>Reliability</emphasis>. Mean time to 
               failure, probability of unavailability, rate of failure, 
               availability.</para>
+              <para lang="de">
+              	<emphasis>Zuverlässigkeit</emphasis>. Durchschnittliche 
+              	Fehlerauftrittszeit, die Nichtverfügbarkeitswahrscheinlichkeit, 
+              	die Fehlerrate, die Verfügbarkeit.
+              </para>
 
             </listitem>
 
@@ -10478,6 +11728,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="en"><emphasis>Robustness</emphasis>. Time to restart 
               after failure, percentage of events causing failure, 
               probability of data corruption on failure.</para>
+              <para lang="de">
+              	<emphasis>Widerstandsfähigkeit</emphasis>. Wiederanlaufzeit 
+              	nach einem Fehler, Prozentsatz der Ereignisse, die Fehler 
+              	verursachen, die Wahrscheinlichkeit von Datenverlust bei einem 
+              	Fehler. 
+              </para>
 
             </listitem>
 
@@ -10486,6 +11742,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="en"><emphasis>Portability</emphasis>. Percentage of 
               target-dependent code/classes, number of target 
               systems.</para>
+              <para lang="de">
+              	<emphasis>Portabilität</emphasis>. Prozentsatz von zielabhängigem 
+              	Code/Klassen, Anzahl der Zielsysteme. 
+              </para>
 
             </listitem>
 
@@ -10494,6 +11754,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <para lang="en">To this we should add sections on environment 
           (temperature, humidity, lightening protection status) and 
           standards compliance.</para>
+          <para lang="de">
+          	Dazu sollten wir Abschnitte über die Umgebung (Temperatur, 
+          	Feuchtigkeit, Blitzschutz) und Übereinstimmung mit Standards 
+          	hinzufügen.
+          </para>
 
         </sect2>
 
@@ -10501,26 +11766,57 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.argo_use_cases">
 
-        <title><phrase lang="en">Using Use Cases in ArgoUML</phrase></title>
+        <title>
+        	<phrase lang="en">Using Use Cases in ArgoUML</phrase>
+        	<phrase lang="de">Anwendungsfälle in ArgoUML verwenden</phrase>
+        </title>
 
         <para lang="en">ArgoUML allows you to draw use case diagrams. When you 
         create a new project it has a use case diagram created by 
         default, named <literal>use case diagram 1</literal>. Select 
         this by button&nbsp;1 click on the diagram name in the explorer (the 
         upper left quadrant of the user screen).</para>
+        <para lang="de">
+        	ArgoUML erlaubt es Ihnen Anwendungsfalldiagramme zu zeichnen. 
+        	Wenn Sie ein neues Projekt erstellen, ist ein Anwendungsfalldiagramm 
+        	standardmäßig mit dem Namen <literal>Anwendungsfalldiagramm 1
+        	</literal> angelegt. Wählen Sie diesen Diagrammnamen im Explorer 
+        	durch einen Klick mit der Taste&nbsp;1 aus (der obere linke 
+        	Quadrant des ArgoUML-Fensters).
+        </para>
 
         <para lang="en">New use case diagrams can be created as needed through 
         <literal>Create Diagram</literal> on the main menu bar or on 
         the Create Diagram Toolbar. They are edited in the editing pane 
         (the upper right quadrant of the user screen).</para>
+        <para lang="de">
+        	Neue Anwendungsfalldiagramme können, wenn benötigt, über <literal>
+        	Erzeuge Diagramm</literal> in der Menüzeile oder über die 
+        	Werkzeugleiste erstellt werden. Sie werden im Bearbeitungsfenster 
+        	(der obere rechte Quadrant des ArgoUML-Fensters) bearbeitet.
+        </para>
 
         <sect2>
 
-          <title><phrase lang="en">Actors</phrase></title>
+          <title>
+          	<phrase lang="en">Actors</phrase>
+          	<phrase lang="en">Akteure</phrase>
+          </title>
 
-          <indexterm><primary>Create 
-          New</primary><secondary>Actor</secondary></indexterm>
-          <indexterm><primary>Actor</primary></indexterm>
+          <indexterm lang="en">
+          	<primary>Create New</primary>
+          	<secondary>Actor</secondary>
+          </indexterm>
+          <indexterm lang="de">
+          	<primary>Neu erstellen</primary>
+          	<secondary>Akteur</secondary>
+          </indexterm>
+          <indexterm lang="en">
+          	<primary>Actor</primary>
+          </indexterm>
+          <indexterm lang="de">
+          	<primary>Akteur</primary>
+          </indexterm>
           <para lang="en">To add an actor to the diagram use button&nbsp;1 click on 
           the actor icon on the editing pane toolbar (
           <guiicon><inlinemediaobject><imageobject>
@@ -10531,6 +11827,25 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           motion (i.e. button&nbsp;1 down over the actor to select it, move 
           to the new position and button&nbsp;1 release to drop the actor in 
           place.</para>
+          <para lang="de">
+	          Um einen Akteur dem Diagramm hinzuzufügen, klicken Sie mit der 
+	          Taste&nbsp;1 auf das Akteur-Symbol in der Werkzeugleiste des 
+	          Bearbeitenfensters (
+	          <guiicon>
+	          	<inlinemediaobject>
+	          		<imageobject>
+	          			<imagedata align="center"
+	          				fileref="images/icons/actor.gif" format="GIF" />
+	          		</imageobject>
+	          	</inlinemediaobject>
+	          </guiicon>)
+	          und dann klicken Sie mit der Taste&nbsp;1 an die Stelle, wo Sie ihn 
+	          plazieren wollen. Der Akteur kann nachträglich durch eine Taste
+	          &nbsp;1-Bewegung bewegt werden (z.B. über dem Akteur die Taste
+	          &nbsp;1herunterdrücken, um diesen zu markieren, ihn an die neue 
+	          Position bewegen und die Taste&nbsp;1 loslassen, um den Akteur an 
+	          diese Stelle zu bringen).	 
+          </para>
 
           <para lang="en">Multiple actors can be added in one go, by using 
           button&nbsp;1 double click on the actor icon. Each subsequent 
@@ -10540,6 +11855,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <imagedata align="center" fileref="images/icons/select.gif"
            format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
           will stop adding actors.</para>
+          <para lang="de">
+	          Mehrere Akteure können in einem Schritt durch einen Doppelklick mit 
+	          der Taste&nbsp;1 auf das Akteursymbol hinzugefügt werden. Jeder 
+	          nachträgliche Taste&nbsp;1-Klick wird einen Akteur in das Diagramm 
+	          bringen. Ein Klick mit der Taste&nbsp;1 auf das Auswahlsymbol (
+	          <guiicon>
+	          	<inlinemediaobject>
+	          		<imageobject>
+	          			<imagedata align="center"
+	          				fileref="images/icons/select.gif" format="GIF" />
+	          		</imageobject>
+	          	</inlinemediaobject>
+	          </guiicon>
+	          ) wird das Hinzufügen der Akteure stoppen.
+          </para>
 
           <para lang="en">The actors name is set in its property panel. First 
           select the actor (if not already selected) on the editing 
@@ -10547,12 +11877,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           Properties</literal> tab in the details pane. The name is 
           entered in the name field, and will appear on the 
           screen.</para>
+          <para lang="de">
+          	Der Name des Akteurs wird in seinem Eigenschaftsfenster vergeben. 
+          	Zuerst markieren Sie den Akteur (wenn nicht bereits markiert) im 
+          	Bearbeitungsfenster mit Hilfe des Taste&nbsp;1-Klick. Dann klicken 
+          	Sie auf das <literal>Eigenschaften</literal>-Register im 
+          	Detailfenster. Der Name wird im Feld Name eingegeben und wird am 
+          	Bildschirm erscheinen.
+          </para>
 
           <para lang="en">As a shortcut, double button&nbsp;1 click on the name of the 
           actor in the editing pane (or just typing on the keyboard 
           when an actor is selected) will allow the name to be edited 
           directly. This is a convenient way to enter a name for a new 
           actor.</para>
+          <para lang="de">
+          	Als eine Abkürzung, die Ihnen erlaubt, den Namen direkt einzugeben, 
+          	führen Sie mit der Taste&nbsp;1 einen Doppelklick auf den Namen des 
+          	Akteurs im Bearbeitenfenster aus (oder geben Sie ihn einfach über 
+          	die Tastatur ein, wenn der Akteur markiert ist). Dies ist ein 
+          	komfortabler Weg, einen Namen für einen neuen Akteur einzugeben.
+          </para>
 
           <para lang="en">Having created the actor, you will see it appear in the 
           explorer (the upper left quadrant of the user screen). This 
@@ -10562,26 +11907,69 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           Package-centric</literal> (default) and <literal>
           Diagram-centric</literal>. The latter shows model elements grouped 
           by the diagram on which they appear.</para>
+          <para lang="de">
+          	Wenn sie einen Akteur erstellt haben, werden Sie sehen, dass er im 
+          	Exlorer (der obere linke Quadrant des ArgoUML-Fensters) erscheint. 
+          	Dieser zeigt alle im UML-Design erstellten Modellelemente. Eine 
+          	Kombinationsfeldliste am oberen Ende des Explorers beeinflusst die 
+          	Reihenfolge der Modellelemente im Explorer. Die nützlichsten sind 
+			<literal>Nach Paketen</literal> (Standard) und <literal>
+	        Nach Diagrammen</literal>. Das letztere gruppiert die Modellelemente 
+	        nach Diagrammen. 
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title><phrase lang="en">Use Cases</phrase></title>
+          <title>
+          	<phrase lang="en">Use Cases</phrase>
+          	<phrase lang="de">Anwendungsfälle</phrase>
+          </title>
 
-          <indexterm><primary>Create New</primary><secondary>Use 
-          Case</secondary></indexterm>
-          <indexterm><primary>Use Case</primary></indexterm>
+          <indexterm lang="en">
+	          <primary>Create New</primary>
+	          <secondary>Use Case</secondary>
+          </indexterm>
+          <indexterm lang="de">
+	          <primary>Erstelle neu</primary>
+	          <secondary>Anwendungsfall</secondary>
+          </indexterm>
+          <indexterm lang="en">
+          	<primary>Use Case</primary>
+          </indexterm>
+          <indexterm lang="de">
+          	<primary>Anwendungsfall</primary>
+          </indexterm>
           <para lang="en">The procedure for adding use cases is the same as that 
           for adding actors, but using the use case icon on the editing 
           pane toolbar (<guiicon><inlinemediaobject><imageobject>
           <imagedata align="center" fileref="images/icons/use_case.gif"
            format="GIF"/></imageobject></inlinemediaobject></guiicon>).</para>
+          <para lang="de">
+          	Das Vorgehen, um Anwendungsfälle hinzuzufügen, ist das gleiche wie 
+          	für das Hinzufügen von Akteuren, allerdings indem das Anwendungsfall-
+          	Symbol im Bearbeitenfenster verwendet wird (
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/use_case.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	).
+          </para>
 
           <para lang="en">By default use cases in ArgoUML do not display their 
           extension points (for use in extend relationships). You can 
           show the extension point compartment in one of two 
           ways.</para>
+          <para lang="de">
+          	Standardmäßig zeigen Anwendungsfälle in ArgoUML nicht ihre 
+          	Erweiterungspunkte an (wird verwendet, um Beziehungen anzulegen). 
+          	Sie können die Erweiterungspunkte auf einen von zwei Wegen anzeigen.
+          </para>
 
           <orderedlist>
 
@@ -10592,6 +11980,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               tab in the details pane and button&nbsp;1 click on the 
               <literal>Display: Extension Points</literal> check 
               box.</para>
+              <para lang="de">
+              	Markieren Sie den Anwendungsfall im Bearbeitenfenster mit einem 
+              	klick der Taste&nbsp;1 aus, dann markieren Sie das Register 
+              	<literal>Darstellung</literal> und klicken auf die Checkbox 
+              	<literal>Erweiterungspunkte</literal>.
+              </para>
 
             </listitem>
 
@@ -10601,6 +11995,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               pane to display a context-sensitive pop-up menu and from 
               that choose <literal>Show/Show Extension Point 
               Compartment</literal>.</para>
+              <para lang="de">
+              	Durch klicken mit der Taste&nbsp;2 auf dem Anwendungsfall im 
+              	Bearbeitenfenster erscheint ein kontext-sensitives Popup-Menü 
+              	und aus diesem wählen Sie <literal>Darstellung/
+              	Erweiterungspunkte anzeigen</literal> aus.
+              </para>
 
             </listitem>
 
@@ -10608,17 +12008,40 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <para lang="en">The same approaches can be used to hide the extension 
           point compartment.</para>
+          <para lang="de">
+          	Der gleiche Ansatz kann für das verstecken des 
+          	Erweiterungspunktbereiches verwendet werden.
+          </para>
 
           <sect3>
 
-            <title><phrase lang="en">Adding an Extension Point to a Use Case</phrase></title>
+            <title>
+            	<phrase lang="en">Adding an Extension Point to a Use Case</phrase>
+            	<phrase lang="de">
+            		Einem Anwendungsfall einen Erweiterungspunkt hinzufügen
+            	</phrase>
+            </title>
 
-            <indexterm><primary>Create 
-            New</primary><secondary>Extension 
-            Point</secondary></indexterm>
-            <indexterm><primary>Extension Point</primary></indexterm>
+            <indexterm lang="en">
+            	<primary>Create New</primary>
+            	<secondary>Extension Point</secondary>
+            </indexterm>
+            <indexterm lang="de">
+            	<primary>Erstelle neu</primary>
+            	<secondary>Erweiterungspunkt</secondary>
+            </indexterm>
+            <indexterm lang="en">
+            	<primary>Extension Point</primary>
+            </indexterm>
+            <indexterm lang="de">
+            	<primary>Erweiterungspunkt</primary>
+            </indexterm>
             <para lang="en">There are two ways to add an extension point to a use 
             case.</para>
+            <para lang="de">
+            	Es gibt zwei Wege, einem Anwendungsfall einen Erweiterungspunkt 
+            	hinzuzufügen.
+            </para>
 
             <orderedlist>
 
@@ -10634,12 +12057,32 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 on the toolbar, and a new extension point with default 
                 name and location will be added after any existing 
                 extension points.</para>
+                <para lang="de">
+                	Markieren Sie mit der Taste&nbsp;1 den Anwendungsfall im 
+                	Bearbeitenfenster. Dann klicken Sie in der Werkzeugleiste 
+                	auf das Symbol <literal>Neue Erweiterung</literal> (
+			 		<guiicon>
+			 			<inlinemediaobject>
+			 				<imageobject>
+			 					<imagedata align="center"
+			 						fileref="images/icons/extension_point.gif" format="GIF" />
+		 					</imageobject>
+						 	</inlinemediaobject>
+		 				</guiicon>
+	 				und ein neuer Erweiterungspunkt mit Standardnamen und -ort 
+	 				wird im Anschluss an die exisiterenden 
+	 				Erweiterungspunkte hinzugefügt.
+                </para>
 
                 <note>
 
                   <para lang="en">The <literal>Add Extension Point</literal> icon 
                   is grayed out and unusable until a use case is 
                   selected.</para>
+                  <para lang="de">
+                  	Das Symbol <literal>Erweiterungspunkt hinzufügen</literal> 
+                  	ist inaktiv, bis ein Anwendungsfall markiert ist.
+				  </para>
 
                 </note>
 
@@ -10653,6 +12096,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 Extension Points:</literal> field will bring up a 
                 context-sensitive pop-up menu. Select <literal>
                 Add</literal> to add a new extension point.</para>
+                <para lang="de">
+                	Markieren Sie den Anwendungsfall im Bearbeitenfenster mit 
+                	dem Taste&nbsp;1-Klick und dann wählen Sie das Register 
+                	Eigenschaften im Detailfenster aus. Ein Taste&nbsp;2-Klick 
+                	über dem Feld <literal>Erweiterungspunkt:</literal> wird 
+                	ein kontext-sensitives Popup-Menü öffnen. Markieren Sie 
+                	<literal>Hinzufügen</literal> aus, um einen neuen 
+                	Erweiterungspunkt hinzuzufügen.
+                </para>
 
                 <para lang="en">If any extension points already exist, they will 
                 be shown in this field on the property tab. The new 
@@ -10661,6 +12113,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 ordering can be changed later by using the <literal>
                 Move Up</literal> and <literal>Move Down</literal> 
                 entries on the pop-up menu.</para>
+                <para lang="de">
+                	Wenn bereits ein Erweiterungspunkt existiert, werden Sie in 
+                	diesem Feld im Register Eigenschaften angezeigt. Der neue 
+                	Erweiterungspunkt wird unmittelbar vor dem Eintrag über dem 
+                	das Popup-Menü aufgerufen wurde eingefügt. Diese Reihenfolge 
+                	kann später durch die <literal>Nach oben</literal> und 
+                	<literal>Nach unten</literal>-Einträge im Popup-Menü 
+                	verändert werden.
+                </para>
 
               </listitem>
 
@@ -10671,10 +12132,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             details pane. The name and location of the extension point 
             are free text, set in the corresponding fields of the 
             property tab.</para>
+            <para lang="de">
+            	Welche Methode auch immer verwendet wird, der neue 
+            	Erweiterungspunkt wird markiert und sein Register Eigenschaften 
+            	kann im Detailfenster angezeigt werden. Der Name und der Ort 
+            	des Erweiterungspunktes sind Freitext, der die entsprechenden 
+            	Felder des Registers Eigenschaften setzt.
+            </para>
 
             <para lang="en">An existing extension point can be edited from its 
             property tab. The property tab can be reached in two 
             ways.</para>
+            <para lang="de">
+            	Ein exisiterender Erweiterungspunkt kann in seinem Register 
+            	Eigenschaften bearbeitet werden. Das Register Eigenschaften 
+            	kann auf zwei Wegen erreicht werden.
+            </para>
 
             <orderedlist>
 
@@ -10685,6 +12158,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 with button&nbsp;1 click and then select the extension point 
                 with a further button&nbsp;1 click. The property tab can 
                 then be selected in the details pane.</para>
+                <para lang="de">
+                	Wenn für den Anwendungsfall der Erweiterungspunkt-Bereich 
+                	im Diagramm angezeigt wird, markieren Sie den Anwendungsfall 
+                	mit dem Taste&nbsp;1-Klick und dann markieren Sie den 
+                	Erweiterungspunkt mit einem weiteren Taste&nbsp;1-Klick. 
+                	Das Register Eigenschaften kann dann im Detailfenster 
+                	ausgewählt werden.
+                </para>
 
               </listitem>
 
@@ -10695,6 +12176,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 desired entry in the <literal>Extension 
                 Points</literal> field will bring up the property tab 
                 for the extension point in the details pane.</para>
+                <para lang="de">
+                	Im anderen Fall markieren Sie den Anwendungsfall und sein 
+                	Register Eigenschaften im Detailfenster. Ein Taste&nbsp;1-
+                	Klick auf den gewünschten Eintrag im Feld <literal>
+                	Erweiterungspunkte</literal> wird das Register Eigenschaften 
+                	für den Erweiterungspunkt im Detailfenster zur Anzeige 
+                	bringen.
+                </para>
 
               </listitem>
 
@@ -10702,21 +12191,43 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para lang="en">The name and location fields of the extension point 
             may then be edited.</para>
+            <para lang="de">
+            	Die Felder Name und Ort des Erweiterungspunktes können 
+            	bearbeitet werden.
+            </para>
 
             <para lang="en">As a shortcut, where the extension point compartment 
             is displayed, double click on the extension point allows 
             text to be typed in directly. This is parsed to set name 
             and location for the extension point.</para>
+            <para lang="de">
+            	Wenn der Erweiterungspunktbereich angezeigt wird, ist der 
+            	Doppelklick auf den Erweiterungspunkt eine Abkürzung und erlaubt 
+            	es Ihnen den Text direkt einzugeben. Dies wird analysiert, um 
+            	den Namen und den Ort für den Erweiterungspunkt zu setzen.
+            </para>
 
             <para lang="en">Extension points may be deleted, or their ordering 
             changed by using the button&nbsp;2 pop-up menu over the <literal>
             Extension Points</literal> field in the use case property 
             tab.</para>
+            <para lang="de">
+            	Erweiterungspunkte dürfen gelöscht oder deren Reihenfolge 
+            	mit Hilfe des Taste&nbsp;2-Popup-Menüs über dem Feld <literal>
+            	Erweiterungspunkte</literal> im Register Eigenschaften des 
+            	Anwendungsfalles geändert werden.
+            </para>
 
             <para lang="en">Having created an extension point, it will appear in 
             the explorer (upper left quadrant of the user screen). 
             Extension points are always shown in a sub-tree beneath 
             their owning use case.</para>
+            <para lang="de">
+            	Nachdem Sie einen Erweiterungspunkt erstellt haben, wird er im 
+            	Explorer (oberer linker Quadrant des ArgoUML-Fensters) 
+            	erscheinen. Erweiterungspunkte werden immer als Sub-Baum ihres 
+            	eigenen Anwendungsfalles dargestellt. 
+            </para>
 
           </sect3>
 
@@ -10724,7 +12235,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title><phrase lang="en">Associations</phrase></title>
+          <title>
+          	<phrase lang="en">Associations</phrase>
+          	<phrase lang="de">Assoziationen</phrase>
+          </title>
 
           <indexterm><primary>Create 
           New</primary><secondary>Association in a Use Case 
