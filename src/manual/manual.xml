@@ -10050,6 +10050,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
             	<phrase lang="en">Hierarchies of Use Cases</phrase>
             	<phrase lang="de">Hierarchien von Anwendungsfällen</phrase>
+            	<phrase lang="es">Jerarquías de Casos de Uso</phrase>
             </title>
 
             <indexterm lang="en">
@@ -10058,6 +10059,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <indexterm lang="de">
             	<primary>Hierarchie von Anwendungsfällen</primary>
             </indexterm>
+            <indexterm lang="es">
+              <primary>Jerarquía de Casos de Uso</primary>
+            </indexterm>
+
             <indexterm lang="en">
             	<primary>Use Case</primary>
             	<secondary>Hierarchy</secondary>
@@ -10066,6 +10071,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	<primary>Anwendungsfall</primary>
             	<secondary>Hierarchie</secondary>
             </indexterm>
+            <indexterm lang="es">
+              <primary>Casos de Uso</primary>
+              <secondary>Jerarquía</secondary>
+            </indexterm>
+
             <para lang="en">
 	            In our ATM example so far we have just three use 
 	            cases to describe all the behavior of the system. While use 
@@ -10079,6 +10089,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Auch wenn Anwendungsfälle immer einen signifikanten Teil des 
             	Systemverhaltens beschreiben sollten, wenn diese zu generell 
             	sind, können sie schwer zu beschreiben sein.
+            </para>
+            <para lang="es">
+              En nuestro ejemplo de Cajero Automatico hasta 
+              ahora tememos solo tres casos de uso para describir 
+              el comportamiento del sistema. 
+              Mientras los casos de uso siempre deberían describir 
+              un trozo significativo del comportamiento del sistema, 
+              si son demasiado generales pueden 
+              ser dificiles de describir.
             </para>
 
             <para lang="en">
@@ -10099,6 +10118,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	einbinden (include)</emphasis> des Verhaltens der benötigten 
             	Unteranwendungsfälle spezifiziert werden.
             </para>
+            <para lang="es">
+              Podríamos por ejemplo definir el comportamiento 
+              del caso de uso <quote>Uso Cajero</quote> en terminos 
+              del comportamiento de los tres casos de uso mas simples, 
+              <quote>Depositar Dinero</quote>, 
+              <quote>Retirar Dinero</quote> y 
+              <quote>Consultas de Cuenta</quote>. 
+              El caso de uso principal podría ser especificado 
+              <emphasis>incluyendo</emphasis> el comportamiento 
+              de los casos de uso subsidiarios necesarios.
+            </para>
 
             <para lang="en">
 	            Similarly the <quote>Maintain ATM</quote> use case 
@@ -10117,11 +10147,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	der beiden Unteranwendungsfälle involviert. Dies wird im 
             	nachfolgenden Diagramm dargestellt.
             </para>
+            <para lang="es">
+              Similarmente el caso de uso <quote>Mantener Cajero</quote> 
+              podría ser definido en terminos de dos casos de uso 
+              <quote>Mantener Equipamiento</quote> 
+              y <quote>Recargar Cajero</quote>. 
+              En este caso los dos actores involucrados  
+              en el caso de uso principal están realmente solo involucrados 
+              en uno u otro de los dos casos de uso subsidiarios y 
+              esto puede ser mostrado en el diagrama.
+            </para>
 
             <indexterm lang="en">
             	<primary>Include Relationship</primary>
             </indexterm>
             <indexterm lang="de"><primary>Include-Beziehung</primary></indexterm>
+
             <indexterm lang="en">
             	<primary>Relationship</primary>
             	<secondary>Include</secondary>
@@ -10130,6 +10171,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	<primary>Beziehung</primary>
             	<secondary>Include</secondary>
             </indexterm>
+            <indexterm lang="es">
+              <primary>Relación</primary>
+              <secondary>Inclusión (Include)</secondary>
+            </indexterm>
+
+            <indexterm lang="es">
+              <primary>Relación de Inclusión (Include)</primary>
+            </indexterm>
+
             <para lang="en">
 	            The decomposition of a use case into simpler sub-use 
 	            cases is shown in UML by using an <emphasis>include 
@@ -10144,6 +10194,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Hauptanwendungsfall zum Unteranwendungsfall mit der Kennzeichnung 
 	            <emphasis>&laquo;include&raquo;</emphasis> bezeichnet.
             </para>
+            <para lang="es">
+              La descomposición de un caso de uso en subcasos 
+              de uso mas simples es mostrada en UML usando 
+              una <emphasis>relación de inclusión</emphasis>, 
+              una flecha punteada desde el caso de uso principal hasta 
+              el subsidiario, 
+              con la etiqueta <emphasis>«include»</emphasis>.
+            </para>
+
 
             <figure float="1" id="fig.tut.atm_use_case_diagram_include">
 
@@ -10155,6 +10214,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<phrase lang="de">
 	              	Anwendungsfalldiagramm für einen Geldautomaten mit 
 	              	include-Beziehungen.
+              	</phrase>
+              	<phrase lang="es">
+              	  Diagrama de caso de uso para un sistema 
+              	  de Cajero Automático mostrando relaciones de inclusión.
               	</phrase>
               </title>
 
@@ -10178,6 +10241,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	</emphasis> eines existierenden Anwendungsfalles darstellt, in 
             	bestimmten Umständen darstellen.
             </para>
+            <para lang="es">
+              Las relaciones de inclusión son buenas para desmantelar 
+              los comportamientos de casos de uso en jerarquias. 
+              Sin embargo podemos tambien querer mostrar un caso de uso 
+              que es una <emphasis>extensión</emphasis> de un caso de uso 
+              existente para atender a una circunstancia particular.
+            </para>
+
 
             <para lang="en">
 	            In the ATM example we have a use case covering 
@@ -10193,6 +10264,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	einer ungeplanten Reparatur abdecken, die durch den vom 
             	Geldautomaten erkannten internen Fehlers ausgelöst wurde.
             </para>
+            <para lang="es">
+              En el ejemplo del Cajero tenemos un caso de uso cubriendo 
+              la rutina de mantenimiento del Cajero, 
+              <quote>Mantener Equipamiento</quote>. 
+              Tambien queremos cubrir el caso especial de 
+              una reparación no programada causada por 
+              la detección de un fallo interno por parte del Cajero.
+            </para>
+
 
             <indexterm lang="en">
             	<primary>Extend Relationship</primary>
@@ -10200,6 +10280,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <indexterm lang="de">
             	<primary>Extend Beziehung</primary>
             </indexterm>
+
             <indexterm lang="en">
             	<primary>Relationship</primary>
             	<secondary>Extend</secondary>
@@ -10208,6 +10289,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	<primary>Beziehung</primary>
             	<secondary>Extend</secondary>
             </indexterm>
+            <indexterm lang="es">
+              <primary>Relatión</primary>
+              <secondary>Extensión (Extend)</secondary>
+            </indexterm>
+
+            <indexterm lang="es">
+              <primary>Relación de Extensión (Extend)</primary>
+            </indexterm>
+
+
             <para lang="en">
 	            This is shown in UML by the 
 	            <emphasis>extend</emphasis> relationship. In the main use 
@@ -10232,6 +10323,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Beziehung spezifizieren wird die Bedingung, unter der das 
             	Verhalten hinzugefügt wird.
             </para>
+            <para lang="es">
+              Esto está mostrado en UML por la relación de 
+              <emphasis>extensión</emphasis>. 
+              En el caso de uso principal, 
+              especificamos un nombre para un lugar en la descripción, 
+              donde una extensión del comportamiento podría ser adjuntada. 
+              El nombre y lugar son mostrados en un compartimento separado 
+              dentro del ovalo del caso de uso. 
+              La representación de relación de extensión es la misma 
+              que la de la relación de inclusión, 
+              pero con la etiqueta <emphasis>«extend»</emphasis>. 
+              Paralelamente a la relación de extensiñon, 
+              especificamos la condicion bajo la cual ese 
+              comportamiento será adjuntado.
+            </para>
+
 
             <para lang="en">
 	            <xref linkend="fig.tut.atm_use_case_diagram_extend"/> 
@@ -10249,6 +10356,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	aufteilen sollten. Eines für die hauptsächlichen Dinge, das 
             	andere für den Kundennutzen und Revision.
             </para>
+            <para lang="es">
+              <xref linkend="fig.tut.atm_use_case_diagram_extend" /> 
+              muestra el diagrama de casos de uso del Cajero 
+              con una relación de extensión a un caso de uso 
+              para reparaciones no programadas. 
+              El diagrama se está volviendo bastante complejo, 
+              y así lo hemos dividido en dos, 
+              uno para el lado del mantenimiento, 
+              el otro para el uso del cliente y auditoría.
+            </para>
 
             <para lang="en">
 	            The <quote>Maintain Equipment</quote> use case 
@@ -10263,6 +10380,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Der erweiterte Anwendungsfall <quote>ungeplante Reparatur</quote> 
                 wird herangezogen, wenn der Geldautomat einen internen Fehler 
                 entdeckt.
+            </para>
+            <para lang="es">
+              El caso de uso <quote>Mantener Equipamiento</quote> 
+              define un nombre <quote>Unsched</quote>, 
+              al comienzo de su descripción. 
+              El caso de uso extendido <quote>Unscheduled Repair</quote> 
+              es adjuntado ahí cuando el Cajero detecta un error interno.
             </para>
 
             <figure float="1" id="fig.tut.atm_use_case_diagram_extend">
