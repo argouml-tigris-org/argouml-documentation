@@ -8594,6 +8594,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
             	<phrase lang="en">Messages From the Design Critics</phrase>
             	<phrase lang="de">Meldungen von den Design-Kritiken</phrase>
+            	<phrase lang="es">
+            	  Los Mensajes del Panel de Taréas Pendientes 
+            	  de las Criticas de diseño
+            	</phrase>
             </title>
 
             <para lang="en">
@@ -8609,6 +8613,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	gespeichert. <xref linkend="fig.tut.critstart"/> zeigt, wie 
             	Ihr ArgoUML-Fenster zu diesem Zeitpunkt aussehen sollte.
             </para>
+            <para lang="es">
+              ¿Donde estamos ahora? 
+              Un nuevo proyecto ha sido creado, 
+              y está conectado al archivo <literal>PrimerProyecto.argo</literal>.
+              <xref linkend="fig.tut.critstart" /> muestra como tu ventana de
+              ArgoUML debería aparecer en está etapa.
+            </para>
 
             <figure float="1" id="fig.tut.critstart">
 
@@ -8620,6 +8631,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              <phrase lang="de">
 	                ArgoUML-Fenster mit gespeichertem Projekt 
 	                <literal>ErstesProjekt.zargo</literal>
+	              </phrase>
+	              <phrase lang="es">
+	                Ventana de ArgoUML Habiendo Guardado
+	                <literal>PrimerProyecto.zargo</literal>
 	              </phrase>
               </title>
 
@@ -8638,6 +8653,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Das Projekt enthält ein Paket auf oberster Ebene, genannt 
             	<literal>unbenanntesModell</literal>, welches ein 
             	Klassendiagramm und ein Anwendungsfalldiagramm enthält.
+            </para>
+            <para lang="es">
+              El proyecto contiene un paquete de alto nivel llamado
+              <literal>untitledModel</literal>, 
+              el cual contiene un diagrama de clases y 
+              un diagrama de casos de uso.
             </para>
 
             <para lang="en">
@@ -8659,6 +8680,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 				</guiicon>
 				angezeigt wird.
             </para>
+            <para lang="es">
+              Si miramos cuidadosamente a la pantalla, 
+              podemos ver que la carpeta "Medium" en el panel 
+              de Taréas Pendientes 
+              (el panel de abajo a la izquierda) 
+              debe contener algunos elementos, 
+              ya que su icono de activación 
+              <guiicon>
+                <inlinegraphic
+                  fileref="images/tutorial/guitreefoldercloseicon.gif"
+                  format="GIF" />
+              </guiicon> 
+              está representado.
+            </para>
 
             <para lang="en">
 	            Clicking on this icon will open the 
@@ -8676,6 +8711,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 				</guiicon>
 				dargestellt.
             </para>
+            <para lang="es">
+              Hacer click en este icono abrirá la carpeta "Medium". 
+              Una carpeta abierta es indicada por el icono 
+              <guiicon>
+                <inlinegraphic 
+                  fileref="images/tutorial/guitreefolderopenicon.gif" 
+                  format="GIF" />
+              </guiicon> .
+            </para>
 
             <para lang="en">
 	            But what is this <quote>To-Do</quote> Pane anyway. 
@@ -8686,6 +8730,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Aber, was ist dieses <quote>zu bearbeiten</quote>-Fenster 
             	überhaupt? Sie haben bis jetzt noch nichts aufgezeichnet, was 
             	zu tun wäre. Wo kommen diese "zu bearbeiten"-Elemente jetzt her?
+            </para>
+            <para lang="es">
+              Pero que es este Panel de <quote>Taréas Pendientes</quote> 
+              de todas formas. 
+              No has grabado nada aún que ha de ser hecho, 
+              así que donde se originan esos elementos.
             </para>
 
             <para lang="en">
@@ -8705,6 +8755,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	einem persönlichen Mentor, der Ihnen über die Schulter sieht und 
             	Sie jedesmal darauf hinweist, wenn er irgendetwas fragwürdiges 
             	in Ihrem Design sieht. 
+            </para>
+            <para lang="es">
+              La respuesta el simple, y es al mismo tiempo uno de 
+              los puntos fuertes de ArgoUML. 
+              Mientras estas trabajando en tu modelo UML, 
+              tu trabajo es monitorizado continuamente y 
+              de forma invisible por un trozo de código llamado una 
+              <emphasis>crítica de diseño</emphasis>. 
+              Esto es como un mentor personal que vigila por encima de 
+              tu hombro y te notifica cada vez que ve algo cuestionable 
+              en tu diseño.
             </para>
 
             <para lang="en">
@@ -8732,6 +8793,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 				und klicken Sie auf das Element <literal>Überprüfen Sie den 
 				Paketnamen unbenanntesModell</literal>.
             </para>
+            <para lang="es">
+              Las criticas son bastante poco entrometidas. 
+              Te dan una advertencia amigable, pero no te fuerzan dentro 
+              de principios de diseño que no quieres o no te gusta seguir. 
+              Tomemos un vistazo de que nos están diciendo las críticas. 
+              Haz click en el icono 
+              <guiicon>
+                <inlinegraphic 
+                  fileref="images/tutorial/guitreefoldercloseicon.gif"
+                  format="GIF" />
+              </guiicon> 
+              cerca de la carpeta <literal>Medium</literal>, 
+              y haz click en el elemento 
+              <literal>
+                Revisa&nbsp;el&nbsp;nombre&nbsp;del&nbsp;paquete&nbsp;UntitledModel
+              </literal>.
+            </para>
 
             <para lang="en">
 	            <xref linkend="fig.tut.critrevname"/> shows how your 
@@ -8740,6 +8818,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para lang="de">
 	            <xref linkend="fig.tut.critrevname"/> zeigt, wie Ihr Bildschirm 
 	            nun aussieht.
+            </para>
+            <para lang="es">
+              <xref linkend="fig.tut.critrevname" /> muestra como debería 
+              verse tu pantalla ahora.
             </para>
 
             <figure float="1" id="fig.tut.critrevname">
@@ -8752,6 +8834,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              <phrase lang="en">
 					ArgoUML-Fenster zeigt das Kritik-Element <literal>Überprüfen 
 					Sie den Paketnamen unbenanntesModell</literal>
+	              </phrase>
+	              <phrase lang="es">
+	                Ventana ArgoUML Mostrando el Elemento de Crítica 
+	                <literal>Revisa&nbsp;el&nbsp;Nombre&nbsp;del&nbsp;paquete&nbsp;UntitledModel</literal>
 	              </phrase>
               </title>
 
@@ -8776,6 +8862,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	herunterscrollen, um die angezeigten Nachricht in Ihrem Beispiel 
             	vollständig sehen zu können.
             </para>
+            <para lang="es">
+              Observa que tu selección está destacada en rojo 
+              en el Panel de Taréas Pendientes, 
+              y que una explicación completa aparece ahora 
+              en el Panel de Detalles (el panel de abajo a la derecha). 
+              Puedes tener que redimensionar tu Panel de Detalles 
+              o desplazarloa hacia abajo para ver el mensaje completo 
+              como se muestra en nuestro ejemplo.
+            </para>
 
             <para lang="en">
 	            What ArgoUML is trying to tell you is that usually, 
@@ -8794,6 +8889,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	als Bug von ArgoUML betrachtet werden, aber es kommt gerade 
             	gelegen, um die arbeitsweise von Kritiken zu demonstrieren).
             </para>
+            <para lang="es">
+              Lo que ArgoUML está intentando decirte es que normalmente, 
+              los nombres de paquetes están escritos en minusculas. 
+              El paquete principal por defecto creado por ArgoUML 
+              se llama <literal>untitledModel</literal> y 
+              por tanto viola un principio de diseño.
+              (Realmente, este podría ser considerado como un bug dentro 
+              de ArgoUML, pero es adecuado para demostrar el funcionamiento 
+              de las críticas).
+            </para>
 
             <para lang="en">
 	            At this point, you can choose to change the package 
@@ -8804,6 +8909,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	An diesem Punkt können Sie wählen, ob Sie den Paketnamen manuell 
             	ändern oder durch die Design-Kritik stillschweigend dieses eine 
             	Mal oder immer ändern wollen.
+            </para>
+            <para lang="es">
+              En este punto, puedes escoger cambiar el nombre 
+              del paquete manualmente, 
+              para imponer silencio en la crítica de diseño 
+              por algún tiempo o permanentemente, 
+              o para requerir una explicación mas 
+              extensa por e-mail de un experto.
             </para>
 
             <para lang="en">
@@ -8817,6 +8930,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	über die Design-Kritiken detaillierter sprechen), aber wir 
             	werden eine andere einfache Funktion von ArgoUML nutzen&mdash; 
             	die Autokorrektur-Funktion.
+            </para>
+            <para lang="es">
+              No haremos nada de esto (volveremos a ello cuando hablemos 
+              sobre las críticas de diseño con mas detalle) pero usaremos 
+              otra práctica caracteristica de ArgoUML—una caracteristica 
+              de autocorrección.
             </para>
 
             <para lang="en">
@@ -8833,6 +8952,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            vorschlägt, den Namen <literal>unbenanntesmodell</literal> 
 	            (alles in Kleinbuchstaben) zu verwenden.
             </para>
+            <para lang="es">
+              Para hacerlo, solo hac click en el boton 
+              <literal>Siguiente (Próximo)</literal> del Panel de Detalles. 
+              Esto causara que un aistente de renombar sea mostrado dentro 
+              del panel de propiedades, proponiendo usar el nombre
+              <literal>untitledmodel</literal> (todo en minusculas).
+            </para>
 
           </sect3>
 
@@ -8845,6 +8971,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	<phrase lang="de">
             		Design-Kritiken bei der Arbeit: Der Paket-Umbenennungs- 
             		Assistent
+            	</phrase>
+            	<phrase lang="es">
+            	  Críticas de Diseño Funcionando: 
+            	  El Asistente de Renombrar Paquete
             	</phrase>
             </title>
 
@@ -8862,6 +8992,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            <xref linkend="fig.tut.critwiz"/> zeigt, wie das ArgoUML-
 	            Fenster nun aussehen sollte. 
 	        </para>
+            <para lang="es">
+              Sustitulye el nombre <literal>untitledmodel</literal> 
+              con <literal>purchasingmodel</literal>, 
+              y haz click el el botton <literal>Terminar</literal>. 
+              <xref linkend="fig.tut.critwiz" />
+              muestra como la ventana de ArgoUML aparecerá ahora.
+            </para>
 
             <figure float="1" id="fig.tut.critwiz">
 
@@ -8873,6 +9010,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              <phrase lang="de">
 	              	Das ArgoUML-Fenster zeigt den Kritik-Assistenten, zur 
 	              	Umbenennung des Paketes
+	              </phrase>
+	              <phrase lang="es">
+	                Ventana de ArgoUML Mostrando el Asistente de Crítica 
+	                para Renombrar el Paquete
 	              </phrase>
               </title>
 
@@ -8894,6 +9035,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Fügen Sie dem Paket einkaufsmodell Elemente hinzu</literal> in 
             	der "zu bearbeiten"-Liste.
             </para>
+            <para lang="es">
+              Observa ahora como la nota de la crítica de diseño en 
+              el panel de Taréas Pendientes desaparece, 
+              dejando solo la nota 
+              <literal>
+                Añade&nbsp;elementos&nbsp;al&nbsp;paquete&nbsp;purchasingmodel 
+              </literal>
+              en la lista de Taréas Pendientes.
+            </para>
 
             <para lang="en">
 	            If this doesn&apos;t happen at once, wait for a few 
@@ -8909,6 +9059,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Verzögerung verursachen bevor die Information auf dem Bildschirm 
             	auf den neusten Stand gebracht wird.
             </para>
+            <para lang="es">
+              Si esto no ocurre al momento, espera algunos segundos.
+              ArgoUML hace uso intensivo de muchos hilos de ejecución que 
+              se ejecutan en paralelo. 
+              Esto puede causar demoras de algunos segundos antes de 
+              que la información se actualize en la pantalla.
+            </para>
 
             <para lang="en">
 	            The package name change should also be reflected in 
@@ -8920,6 +9077,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	der linken oberen Ecke Ihres ArgoUML-Fensters,  
             	wiederspiegeln.
             </para>
+            <para lang="es">
+              El cambio del nombre del paquete debería ser reflejado en 
+              el explorador, en la esquina superior izquierda de tu ventana 
+              de ArgoUML.
+            </para>
 
             <para lang="en">
 	            We are now ready to create our first UML diagram, a 
@@ -8930,6 +9092,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Wir sind jetzt so weit, unser erstes UML-Diagramm, ein 
             	Anwendungsfalldiagramm, zu erstellen. Aber lassen Sie uns zuerst  
             	speichern, was wir bis jetzt getan haben.
+            </para>
+            <para lang="es">
+              Ahora estamos preparados para crear nuestro 
+              primer diagrama UML, un diagrama de Casos de Uso, 
+              pero primero guardemos lo que hemos hecho hasta ahora.
             </para>
 
             <para lang="en">
@@ -8945,6 +9112,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	zu verlieren, oder mit dem Erstellen Ihres ersten Diagrammes 
             	fortfahren.
             </para>
+            <para lang="es">
+              Haz click en el elemento de menú <literal>Archivo</literal>,
+              y seleciona <literal>Guardar&nbsp;Proyecto</literal>. 
+              Ahora puedes salir de forma segura de ArgoUML 
+              sin perder tu trabajo hasta el momento, 
+              o seguir creando tu primer diagrama.
+            </para>
 
           </sect3>
 
@@ -8957,6 +9131,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
         	<phrase lang="en">The Case Study (To be written)</phrase>
         	<phrase lang="de">Die Fallstudie (Noch zu schreiben)</phrase>
+        	<phrase lang="es">El Casos de Estudio (A escribir)</phrase>
         </title>
 
         <para lang="en">
@@ -8989,6 +9164,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	Mindestens die Dateistruktur des Projektes könnte in einem 
         	Paketdiagramm dargestellt werden.
         </para>
+        <para lang="es">A escribir...</para>
 
         <para>
           ...
@@ -9002,6 +9178,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <title>
       	<phrase lang="en">Requirements Capture</phrase>
       	<phrase lang="de">Erfassen der Anforderungen</phrase>
+      	<phrase lang="es">Captura de Requerimientos</phrase>
       </title>
 
       <sect1>
@@ -9009,6 +9186,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
 	        <phrase lang="en">Introduction</phrase>
 	        <phrase lang="de">Einleitung</phrase>
+	        <phrase lang="es">Introducción</phrase>
         </title>
 
         <indexterm lang="en">
@@ -9017,6 +9195,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <indexterm lang="de">
         	<primary>Anforderung</primary><secondary>Erfassung</secondary>
         </indexterm>
+        <indexterm lang="es">
+          <primary>Requerimiento</primary>
+          <secondary>Captura</secondary>
+        </indexterm>
+
         <para lang="en">
 	        Requirements capture is the process of identifying what 
 	        the <quote>customer</quote> wants from the proposed 
@@ -9025,6 +9208,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para lang="de">
         	Das Erfassen der Anforderungen ist der Identifizierungsprozess, was 
         	der <quote>Kunde</quote> von dem vorgeschlagenen System will.
+        </para>
+        <para lang="es">
+          La captura de requerimientos el el proceso de identificar 
+          que quiere el <quote>cliente</quote> del sistema propuesto.
         </para>
 
         <para lang="en">
@@ -9038,6 +9225,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	Problembereich befinden. Zu diesem Zeitpunkt müssen wir alles 
         	aus der Perspektive des <quote>Kunden</quote> und in der Sprache 
         	des <quote>Kunden</quote> beschreiben.
+        </para>
+        <para lang="es">
+          La clave en esta etapa es que estamos en el dominio de problema. 
+          En esta etapa debemos describir todo desde la perspectiva del 
+          <quote>cliente</quote> y en el lenguaje del <quote>customer</quote>.
         </para>
 
         <para lang="en">
@@ -9056,6 +9248,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	        Phase nimmt das Ergebnis der Anforderungsphase und übersetzt es in 
 	        die Sprache einer gedachten Lösung. 
         </para>
+        <para lang="es">
+          El mayor riesgo que tenemos en la caputra de requerimientos 
+          es empezar pensando en terminos de posibles soluciones. 
+          Eso debe esperar hasta la <emphasis>Fase de Analisis</emphasis> 
+          (mira <xref linkend="ch.tut.analysis" />). 
+          Uno de los pasos de la Fase de Analisis será tomar 
+          los resultados de la Fase de Requerimientos y refundirlos 
+          en el lenguaje de la solución estimada.
+        </para>
 
         <para lang="en">
 	        Remember we are using both a 
@@ -9066,6 +9267,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	Erinnern Sie sich, dass wir beides einsetzen, einen <emphasis>
         	inkrementalen</emphasis> und einen <emphasis>iterativen</emphasis> 
         	Prozess.
+        </para>
+        <para lang="es">
+          Recuerda que estamos usando un proceso
+          <emphasis>incremental</emphasis> y 
+          <emphasis>iterativo</emphasis>.
         </para>
 
         <para lang="en">
@@ -9078,6 +9284,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	Problem in kleinere Teile unterteilen. Für jedes davon müssen seine 
         	Anforderungen erfasst sein.
         </para>
+        <para lang="es">
+          Podemos tranquilamente volver atras otra vez al proceso 
+          de requerimientos mientras desmontamos el problema 
+          en trozos mas pequeños, cada uno de los cuales debe tener 
+          sus requerimientos capturados.
+        </para>
 
         <para lang="en">
 	        We will certainly come back through the requirements 
@@ -9088,6 +9300,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	Wir werden wahrscheinlich während der Anforderungsphase bei jeder 
         	Iteration darauf zurückkommen, wenn wir versuchen, die Anforderungen 
         	des Systems immer weiter zu definieren.
+        </para>
+        <para lang="es">
+          Ciertamente volveremos atras a traves de la fase 
+          de requerimientos en cada iteración mientras buscamos definir 
+          los requerimientos del sistema mas y mas.
         </para>
 
         <note>
@@ -9104,6 +9321,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           	prozessspezifisch. Der in diesem Kapitel beschriebene Prozess ist 
           	sehr stark an den Rational Unified Prozess angelehnt.
           </para>
+          <para lang="es">
+            La unica parte de la notación de los requerimientos especificada 
+            por el estandar UML es el diagrama de casos de uso. 
+            El resto es especifico del proceso. 
+            El proceso descrito en este capitulo está 
+            muy inspirado en el Rational Unified Process.
+          </para>
 
         </note>
 
@@ -9114,6 +9338,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>
         	<phrase lang="en">The Requirements Capture Process</phrase>
         	<phrase lang="de">Der Anforderungs-Erfassungs-Prozess</phrase>
+        	<phrase lang="es">El Prodeso de Captura de Requerimientos</phrase>
         </title>
 
         <indexterm lang="en">
@@ -9122,6 +9347,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <indexterm lang="de">
         	<primary>Das Visions-Dokument</primary>
         </indexterm>
+        <indexterm lang="es">
+          <primary>Documeto de Visión</primary>
+        </indexterm>
+
         <para lang="en">
 	        We start with a top-level view of the problem we are 
 	        solving and the key areas of functionality that we must address 
@@ -9134,6 +9363,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	die Lösung adressieren müssen. Dies ist unser <emphasis>Visions- 
         	Dokument</emphasis> und es sollte nur einige Seiten lang sein.
         </para>
+        <para lang="es">
+          Empezamos con una visión general del problema que estamos 
+          resolviendo y las areas clave de funcionalidad que debemos 
+          tratar en cualquier solución. 
+          Este es nuestro <emphasis>documento de visión</emphasis>, 
+          y debería ser de solo algunas páginas de longitud.
+        </para>
 
         <para lang="en">
 	        For example the top-level view of an automated teller 
@@ -9143,6 +9379,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para lang="de">
         	Die Top-Level-Sicht eines Geldautomaten (automated teller 
         	machine (ATM)) zum Beispiel, sollte folgendes unterstützen.
+        </para>
+        <para lang="es">
+          Por ejemplo la visión general de un cajero automatico 
+          (automated teller machine; ATM) puede ser que debería 
+          soportar lo siguiente.
         </para>
 
         <orderedlist>
@@ -9155,6 +9396,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </para>
             <para lang="de">
             	Bargeld lagern, Bargeld abheben und Kontoabfragen durch Kunden.
+            </para>
+            <para lang="es">
+              Depositos monetarios, reembolsos monetarios y consultas 
+              de cuenta por los clientes.
             </para>
 
           </listitem>
@@ -9170,6 +9415,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Warten des Equipments durch Bank-Ingenieure und leeren der 
             	Kassen und Bargeld nachfüllen durch die lokale Bankfiliale.
             </para>
+            <para lang="es">
+              Mantenimiento del equipamiento por los ingenieros del banco, 
+              y descarga de depositos y carga de dinero por 
+              la sucursal local del banco.
+            </para>
 
           </listitem>
 
@@ -9183,6 +9433,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Nachvollziehbarkeit aller an den zentralen Bankcomputer 
             	gesendeten Aktivitäten.
             </para>
+            <para lang="es">
+              Auditorias de todas las actividades enviadas al sistema
+              central del banco.
+            </para>
 
           </listitem>
 
@@ -9190,6 +9444,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <indexterm lang="en"><primary>Actor</primary></indexterm>
         <indexterm lang="de"><primary>Akteur</primary></indexterm>
+        <indexterm lang="es">
+          <primary>Actor</primary>
+        </indexterm>
+
         <para lang="en">
 	        From this top-level view we can extract the principal 
 	        activities of the system, and the external agents (people, 
@@ -9204,6 +9462,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	sind als <emphasis>Anwendungsfälle</emphasis> und die extern 
         	Handelnden als <emphasis>Akteure</emphasis> bekannt.
         </para>
+        <para lang="es">
+          Desde esta visión general podemos extraer las actividades 
+          principales del sistema, y los agentes externos 
+          (personas, equipamiento) que están involucradas 
+          en estas actividades. 
+          Estas actividades son conocidad como 
+          <emphasis>casos de uso</emphasis> y 
+          los agentes externos son conocidos como 
+          <emphasis>actores</emphasis>.
+        </para>
 
         <para lang="en">
 	        Actors may be people or machines. From a practical 
@@ -9217,9 +9485,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	hinter einer Maschine zu kennen, da nur diese in der Lage sind, sich 
         	mit dem Anforderungs-Erfassungs-Prozess zu beschäftigen.
         </para>
+        <para lang="es">
+          Los actores pueden ser personas o maquinas. 
+          Desde un punto de vista practico es beneficioso conocer 
+          la parte implicada detras de cada maquina, 
+          puesto que solo ellos serán capaces de tratar con 
+          el proceso de captura de requerimientos.
+        </para>
 
         <indexterm lang="en"><primary>Use Case</primary></indexterm>
         <indexterm lang="de"><primary>Anwendungsfall</primary></indexterm>
+        <indexterm lang="es">
+          <primary>Casos de Uso</primary>
+        </indexterm>
+
         <para lang="en">
 	        Use cases should be significant activities for the 
 	        system. For example customer use of the ATM machine is a use 
@@ -9229,6 +9508,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	Anwendungsfälle sollte signifikante Aktivitäten für das System sein.
         	Der Nutzung des Geldautomaten durch den Kunden ist zum Beispiel ein 
         	Anwendungsfall. Die Eingabe einer PIN-Nummer ist es nicht.
+        </para>
+        <para lang="es">
+          Los casos de uso deberías ser actividades significativas para 
+          el sistema. 
+          Por ejemplo el uso por el cliente del Cajero Automatico es 
+          un caso de uso. 
+          Introducir un numero PIN no lo es.
         </para>
 
         <para lang="en">
@@ -9244,6 +9530,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	kleinere Sub-Anwendungsfälle zu unterteilen. Wir können zum Beispiel 
         	Bargeld lagern, Bargeld auszahlen und Kontoabfragen als Sub-
         	Anwendungsfälle definieren.
+        </para>
+        <para lang="es">
+          Hay una zona intermedia entre estos dos extremos. 
+          Como veremos a menudo es util dividir casos de uso muy grandes 
+          en pequeños subcasos de uso. 
+          Por ejemplo podemos tener subcasos de uso cubriendo depositos 
+          de dinero, retiradas de dinero y consultas de cuenta.
         </para>
 
         <para lang="en">
@@ -9262,6 +9555,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	als 30 Anwendungsfälle erfordern sollte (wenn es mehr benötigt, 
         	sollte es in separate Projekte aufgeteilt werden).
         </para>
+        <para lang="es">
+          No hay una regla clara y rápida. 
+          Algunos arquitectos preferirán un pequeño numero de casos 
+          de uso relativamente grandes, otros en en cambio preferirán 
+          un grán número de pequeños casos de uso. 
+          Una regla util a primera vista es que cualquier proyecto 
+          practico debería requerir no mas de alrededor 
+          de 30 casos de uso (si necesita mas, debería ser dividido 
+          en proyectos separados).
+        </para>
 
         <para lang="en">
 	        We then show the relationship between use cases and 
@@ -9275,6 +9578,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	grösseren Projekten wird mehr als ein Diagramm benötigt. 
         	Normalerweise werden Gruppen zusammengehöriger Anwendungsfälle in 
         	einem Diagramm dargestellt.
+        </para>
+        <para lang="es">
+          Luego mostramos la relación entre casos de uso y actores 
+          en uno o mas diagramas de casos de uso. 
+          Para un proyecto grande puede ser necesario mas de un diagrama. 
+          Normalmente los grupos de casos de uso relacionados 
+          son mostrados en un mismo diagrama.
         </para>
 
         <para lang="en">
@@ -9293,6 +9603,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	Anwendungsfalldokumentation</emphasis> oder <emphasis>
         	Anwendungsfallszenario</emphasis> bekannt ist.
         </para>
+        <para lang="es">
+          Debemos luego dar una especificación mas detallada 
+          de cada caso de uso. 
+          Esto cubre su comportamiento normal, 
+          comportamientos alternativos y cualquier precondición 
+          y postcondición. 
+          Esto se refleja en un documento conocido como 
+          <emphasis>especificación de caso de uso</emphasis> 
+          o <emphasis>escenario de caso de uso</emphasis>.
+        </para>
 
         <indexterm lang="en">
         	<primary>Supplementary Requirement Specification</primary>
@@ -9300,6 +9620,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <indexterm lang="de">
         	<primary>Ergänzende Anforderungsspezifikation</primary>
         </indexterm>
+        <indexterm lang="es">
+          <primary>Especificación de Requerimientos Suplementarios</primary>
+        </indexterm>
+
         <para lang="en">
 	        Finally, since use cases are functional in nature, we 
 	        need a document to capture the non-functional requirements 
@@ -9315,12 +9639,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	Anforderungen werden in einem Dokument <emphasis>Ergänzende 
         	Anforderungsspezifikation</emphasis> festgehalten.
         </para>
+        <para lang="es">
+          Finalmente, puesto que los casos de uso son funcionales en su
+          naturaleza, necesitamos un documento para capturar 
+          los requerimientos no funcionales 
+          (capacidad, rendimiento, necesidades de entorno, etc).
+          Estos requerimientos son capturados en un documento conocido 
+          como una <emphasis>especificación suplementaria 
+          de requerimientos</emphasis>.
+        </para>
 
         <sect2>
 
           <title>
           	<phrase lang="en">Process Steps</phrase>
           	<phrase lang="de">Prozess-Schritte</phrase>
+          	<phrase lang="es">Pasos del Proceso</phrase>
           </title>
 
           <para lang="en">
@@ -9330,6 +9664,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <para lang="de">
           	Die Schritte im Anforderungs-Erfassungs-Prozess können wie folgt 
           	zusammengefasst werden.
+          </para>
+          <para lang="es">
+            Los pasos en el proceso de captura de requerimientos pueden ser
+            resumidos como sigue.
           </para>
 
           <orderedlist>
@@ -9342,6 +9680,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <indexterm lang="de">
               	<primary>Visions-Dokument</primary>
               </indexterm>
+              <indexterm lang="es">
+                <primary>Documento de Visión</primary>
+              </indexterm>
+              
               <para lang="en">
 	              Capture an overall view of the problem, and the 
 	              desired characteristics of its solution in the 
@@ -9352,6 +9694,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Gesamtsicht auf das Problem und die gewünschten Charakteristika 
 	              seiner Lösung.
               </para>
+              <para lang="es">
+                Captura una vista general del problema, y las
+                caracteristicas deseadas de su solución en el 
+                <emphasis>documento de visión</emphasis>.
+              </para>
 
             </listitem>
 
@@ -9359,6 +9706,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <indexterm lang="en"><primary>Use Case</primary></indexterm>
               <indexterm lang="de"><primary>Anwendungsfall</primary></indexterm>
+              <indexterm lang="es"> 
+                <primary>Casos de Uso</primary>
+              </indexterm>
+
               <para lang="en">
 	              Identify the <emphasis>use case</emphasis> and 
 	              <emphasis>actors</emphasis> from the vision document and 
@@ -9371,6 +9722,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	stellen deren Beziehungen zueinander in einem oder mehreren 
               	<emphasis>Anwendungsfalldiagrammen dar</emphasis>.
               </para>
+              <para lang="es">
+                Identificar los <emphasis>casos de uso</emphasis> 
+                y <emphasis>actores</emphasis> desde el documento 
+                de visión y mostrar sus relaciones en uno o mas 
+                <emphasis>diagramas de casos de uso</emphasis>.
+              </para>
 
             </listitem>
 
@@ -9382,6 +9739,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <indexterm lang="de">
               	<primary>Anwendungsfall-Spezifikation</primary>
               </indexterm>
+              <indexterm lang="es">
+                <primary>Especificación de Casos de Uso</primary>
+              </indexterm>
+
               <indexterm lang="en">
               	<primary>Specification</primary>
               	<secondary>of Use Case</secondary>
@@ -9390,6 +9751,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<primary>Spezification</primary>
               	<secondary>von Anwendungsfällen</secondary>
               </indexterm>
+              <indexterm lang="es">
+                <primary>Especificación</primary>
+                <secondary>de Casos de Uso</secondary>
+              </indexterm>
+
               <para lang="en">
 	              Give detailed <emphasis>use case 
 	              specifications</emphasis> for each use case, covering 
@@ -9402,6 +9768,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	normale und alternative Verhalten, die Vor- und Nachbedingungen 
               	beinhaltet.
 	          </para>
+              <para lang="es">
+                Da <emphasis>especificaciones de casos de uso</emphasis>
+                detalladas para cada caso de uso, cubriendo 
+                el comportamiento normal y alternativo, 
+                precondiciones y postcondiciones.
+              </para>
 
             </listitem>
 
@@ -9413,12 +9785,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <indexterm lang="de">
               	<primary>Nicht-funktionale Anforderungen</primary>
               </indexterm>
+              <indexterm lang="es">
+                <primary>Requerimientos no funcionales</primary>
+              </indexterm>
+
               <indexterm lang="en">
               	<primary>Supplementary Requirement Specification</primary>
               </indexterm>
               <indexterm lang="de">
               	<primary>Ergänzende Anforderungs-Spezifikation</primary>
               </indexterm>
+              <indexterm lang="es">
+                <primary>Especificación de Requerimientos
+		Suplementarios</primary>
+              </indexterm>
+
               <para lang="en">
 	              Capture all non-functional requirements in a 
 	              <emphasis>supplementary requirements 
@@ -9428,6 +9809,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	Fassen Sie alle nicht-funktionalen Anforderungen in einer 
               	<emphasis>Ergänzenden Anforderungs-Spezifikation</emphasis> 
               	zusammen.
+              </para>
+              <para lang="es">
+                Captura todos los requerimientos no funcionales en 
+                una <emphasis>especificación de requerimientos 
+                suplementarios</emphasis>.
               </para>
 
             </listitem>
@@ -9444,6 +9830,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           	und frühe Iterationen werden sich darauf fokussieren, das 
           	hauptsächliche Verhalten der wichtigsten Anwendungsfälle aufzunehmen.
           </para>
+          <para lang="es">
+            En cualquier proceso de desarrollo iterativo, priorizaremos, 
+            y las iteraciones tempranas se enfocaran en capturar 
+            el comportamiento clave del los casos de uso mas importantes.
+          </para>
 
           <para lang="en">
 	          Most modern requirements capture processes agree that 
@@ -9454,6 +9845,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           	Die meisten modernen Anforderungs-Erfassungs-Prozesse unterstellen, 
           	dass es wichtig ist, dass der maßgebliche Repräsentant des Kunden
           	während dieses Prozesses vollständig involviert ist.
+          </para>
+          <para lang="es">
+            La mayoría de los procesos de captura de requerimientos modernos
+            están deacuerdo con que es esencial que un representante autorizado
+            del cliente esté completamente involucrado a traves del proceso.
           </para>
 
         </sect2>
@@ -9469,6 +9865,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	<phrase lang="de">
         		Ergebnis des Anforderungs-Erfassungs-Prozesses
         	</phrase>
+        	<phrase lang="es">
+        	  Salida del Proceso de Captura de Requerimientos
+        	</phrase>
         </title>
 
         <para lang="en">
@@ -9482,22 +9881,38 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	das die Beziehungen zwischen den Anwendungsfällen und den Akteuren 
         	darstellt.
         </para>
+        <para lang="es">
+          Casi todo el resultado del proceso de captura 
+          de requerimientos es documental. 
+          El unico diagrama es el diagrama de casos de uso, 
+          mostrando las relaciones entre casos de uso y actores.
+        </para>
 
         <sect2 id="s2.tut.vision_document">
 
           <title>
           	<phrase lang="en">Vision Document</phrase>
           	<phrase lang="de">Visions-Dokument</phrase>
+          	<phrase lang="es">Documento de Visión</phrase>
           </title>
 
           <indexterm lang="en"><primary>Vision Document</primary></indexterm>
           <indexterm lang="de"><primary>Visions-Dokument</primary></indexterm>
+          <indexterm lang="es">
+            <primary>Documento de Visión</primary>
+          </indexterm>
+
           <para lang="en">
           	Typical sections of this document would be as follows.
           </para>
           <para lang="de">
           	Typische Kapitel dieses Dokumentes könnten die folgenden sein.
           </para>
+          <para lang="es">
+            Las secciones tipicas de este documento serían como 
+            sigue.
+          </para>
+
 
           <itemizedlist>
 
@@ -9510,6 +9925,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="de">
               	<emphasis>Zusammenfassung</emphasis>. Eine Aussage zum Umfeld, 
               	zum Problem und zu den Zielen der Lösung.
+              </para>
+              <para lang="es">
+                <emphasis>Resumen</emphasis>. 
+                Una declaración del contexto, 
+                problema y objetivo de la solutión.
               </para>
 
             </listitem>
@@ -9524,6 +9944,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<primary>Ziele</primary>
               	<secondary>im  Visions-Dokument</secondary>
               </indexterm>
+              <indexterm lang="es">
+                <primary>Objetivos</primary>
+                <secondary>en el documento de Visión</secondary>
+              </indexterm>
+
               <para lang="en">
 	              <emphasis>Goals</emphasis>. What are we trying to 
 	              achieve (and how do we wish to achieve it).
@@ -9531,6 +9956,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="de">
               	<emphasis>Ziele</emphasis>. Was wir erreichen wollen (und wie 
               	wir es erreichen wollen).
+              </para>
+              <para lang="es">
+                <emphasis>Objetivos</emphasis>. 
+                Que estamos intentando alcanzar (y como deseamos alcanzarlo).
               </para>
 
             </listitem>
@@ -9545,6 +9974,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<primary>Marktumfeld</primary>
               	<secondary>im Visions-Dokument</secondary>
               </indexterm>
+              <indexterm lang="es">
+                <primary>Contexto de Mercado</primary>
+                <secondary>en el documento de Visión</secondary>
+              </indexterm>
+
               <para lang="en">
 	              <emphasis>Market Context</emphasis> or 
 	              <emphasis>Contractual Arrangements</emphasis>. For a 
@@ -9562,7 +9996,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Entwicklung sollte es die Hauptelemente der vertraglichen 
 	              Vereinbarung erläutern.
               </para>
-
+              <para lang="es">
+                <emphasis>Contexto de Mercado</emphasis> o 
+                <emphasis>Convenios Contractuales</emphasis>. 
+                Para un desarrollo guiado por el mercado, 
+                esto debería indicar mercados objetivo,
+                diferencidores competitivos, eventos motivadores 
+                y cosas así. 
+                Para un desarrollo contractual esto debería explicar 
+                los factores clave contractuales.
+              </para>
+ 
             </listitem>
 
             <listitem>
@@ -9575,6 +10019,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<primary>Nutzer</primary>
               	<secondary>im Visions-Dokument</secondary>
               </indexterm>
+              <indexterm lang="es">
+                <primary>Partes Implicadas</primary>
+                <secondary>en un documento de Visión</secondary>
+              </indexterm>
+
               <para lang="en">
 	              <emphasis>Stakeholders</emphasis>. The users (in 
 	              the widest sense) of the system. Many of these will map 
@@ -9585,6 +10034,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<emphasis>Nutzer</emphasis>. Die Nutzer (im weitesten 
               	Sinne) des Systems. Viele davon werden als Akteure, oder 
               	Steuer-Equipment das in Akteure umgewandelt wird, abgebildet. 
+              </para>
+              <para lang="es">
+                <emphasis>Partes Implicadas</emphasis>. 
+                Los usuarios (en el sentido más amplio) del sistema. 
+                Muchos de ellos se mapearán en actores, 
+                o equipamiento de control que se mapea en actores.
               </para>
 
             </listitem>
@@ -9599,6 +10054,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<primary>Haupteigenschaften</primary>
               	<secondary>im Visions-Dokument</secondary>
               </indexterm>
+              <indexterm lang="es">
+                <primary>Caracteristicas clave</primary>
+                <secondary>en el documento de Visión</secondary>
+              </indexterm>
+
               <para lang="en">
 	              <emphasis>Key Features</emphasis>. At the very 
 	              highest level what are they key functional aspects of the 
@@ -9611,6 +10071,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	Abstraktionsebene: Was sind die hauptsächlichen Aspekte des 
               	Problems/der gewünschten Lösung. Es ist hilfreich, hier bereits 
               	zu priorisieren.
+              </para>
+              <para lang="es">
+                <emphasis>Caracteristicas clave</emphasis>. 
+                Los aspectos funcionales clave de la solución deseada 
+                al problema al nivel mas alto. 
+                Estos se mapearán ampliamente en los casos de uso. 
+                Es de ayuda poner algo de priorización aquí.
               </para>
 
             </listitem>
@@ -9625,7 +10092,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<primary>Randbedingungen</primary>
               	<secondary>im Visions-Dokument</secondary>
               </indexterm>
-              <indexterm>
+              <indexterm lang="es">
+                <primary>Limitaciones</primary>
+                <secondary>en el documento de Visión</secondary>
+              </indexterm>
+
+              <indexterm lang="en">
               	<primary>Non-functional parameters</primary>
               	<secondary>in the Vision document</secondary>
               </indexterm>
@@ -9633,6 +10105,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<primary>Nicht-funktionale Parameter</primary>
               	<secondary>im Visions-Dokument</secondary>
               </indexterm>
+              <indexterm lang="es">
+                <primary>Parametros no funcionales</primary>
+                <secondary>en el documento de Visión</secondary>
+              </indexterm>
+
               <para lang="en">
 	              <emphasis>Constraints</emphasis>. A high level view 
 	              of the non-functional parameters of the system. These 
@@ -9644,6 +10121,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	nicht-funktionalen Parameter des Systems auf einer sehr hohen 
               	Abstraktionsebene. Diese werden in der ergänzenden 
               	Anforderungsspezifikation detailliert ausgearbeitet.
+              </para>
+              <para lang="es">
+                <emphasis>Limitaciónes</emphasis>. 
+                Una visión general de los parametros 
+                no funcionales del sistema. 
+                Estos serán tratados detalle en la especificación 
+                de requerimientos suplementarios.
               </para>
 
             </listitem>
@@ -9663,6 +10147,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	zu verlinken um eine in sich geschlossene Darstellung 
               	sicherzustellen. 
               </para>
+              <para lang="es">
+                <emphasis>Apendice</emphasis>.
+                Un listado de los actores y
+                casos de uso que serán necesarios para cumplir esta visión. 
+                Es util enlazar a estos desde las secciones tempranas 
+                para asegurar una cobertura exahustiva.
+              </para>
 
             </listitem>
 
@@ -9675,6 +10166,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <title>
           	<phrase lang="en">Use Case Diagram</phrase>
           	<phrase lang="de">Anwendungsfalldiagramm</phrase>
+          	<phrase lang="es">Diagrama de Casos de Uso</phrase>
           </title>
 
           <indexterm lang="en">
@@ -9683,7 +10175,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <indexterm lang="de">
           	<primary>Anwendungsfalldiagramm</primary>
           </indexterm>
-          <indexterm>
+          <indexterm lang="es">
+            <primary>Diagrama de Casos de Uso</primary>
+          </indexterm>
+
+          <indexterm lang="en">
           	<primary>Diagram</primary>
           	<secondary>Use Case</secondary>
           </indexterm>
@@ -9691,6 +10187,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           	<primary>Diagramm</primary>
           	<secondary>Anwendungsfall</secondary>
           </indexterm>
+          <indexterm lang="es">
+            <primary>Diagrama</primary>
+            <secondary>Casos de Uso</secondary>
+          </indexterm>
+
+
           <para lang="en">
 	          The vision document has identified the use cases and 
 	          actors. The use case diagram captures how they interact. In 
@@ -9710,6 +10212,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           	 identifiziert. Als Akteure haben wir <quote>Kunde</quote>, 
           	 <quote>Wartungsingenieur</quote>, <quote>lokaler Zweigstellenbeamter
           	 </quote> und <quote>Zentralcomputer</quote> identifiziert.
+          </para>
+          <para lang="es">
+            El documento de visión ha identificado los casos 
+            de uso y los actores. 
+            El diagrama de casos de uso captura como interaccionan. 
+            En nuestro ejemplo de Cajero Automatico hemos identificado
+            <quote>cliente usa cajero</quote>, 
+            <quote>mantener cajero</quote> y 
+            <quote>auditar</quote> 
+            como los tres casos de uso principales. 
+            Hemos identificado <quote>cliente</quote>, 
+            ingeniero de mantenimiento<quote>, </quote>
+            <quote>oficial de sucursal</quote> y 
+            <quote>sistema central</quote> como los actores.
           </para>
 
           <para lang="en">
@@ -9732,6 +10248,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	          stellt die Abgrenzung zwischen dem System (durch die 
 	          Anwendungsfälle definiert) und den Akteuren dar, die extern sind.
           </para>
+          <para lang="es">
+            <xref linkend="fig.tut.atm_use_case_diagram_basic" /> 
+            muestra como esto puede ser visualizado 
+            en un diagrama de casos de uso. 
+            Los casos de uso son mostrados como ovalos, 
+            los actores como monigotes (incluso cuando son maquinas), 
+            con lineas (conocidas como <emphasis>asociaciones</emphasis>) 
+            conectando los casos de uso a los actores 
+            que están involucrados en ellos. 
+            Un cuadro alrededor de los casos de uso enfatiza 
+            la frontera entre el sistema (definido por los casos de uso) 
+            y los actores que son externos.
+          </para>
 
           <note>
 
@@ -9743,6 +10272,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Nicht alle Analytiker möchten einen Rahmen um die 
             	Anwendungsfälle verwenden. Dies ist ein Fall persönlicher 
             	Vorlieben.
+            </para>
+            <para lang="es">
+              No todos los analisis gustan de usar un cuadro alrededor 
+              de los casos de uso. 
+              Es un asunto de opción personal.
             </para>
 
           </note>
@@ -9756,12 +10290,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	<phrase lang="de">
             		Grundlegendes Anwendungsfalldiagramm für einen Geldautomaten
             	</phrase>
+            	<phrase lang="es">
+            	  Diagrama de casos de uso basico 
+            	  para un sistema de Cajero Automatico
+            	</phrase>
             </title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/tutorial/atm_use_case_diagram_basic.gif"
-             format="GIF"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+              <mediaobject>
+                <imageobject>
+                  <imagedata align="center"
+                             fileref="images/tutorial/atm_use_case_diagram_basic.gif"
+                             format="GIF"/>
+                </imageobject>
+              </mediaobject>
+            </screenshot>
           </figure>
 
           <para lang="en">
@@ -9774,16 +10317,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           	Anwendungsfalldiagramm erweitert werden kann, um zusätzliche 
           	Informationen über das zu designende System darzustellen.
           </para>
+          <para lang="es">
+            Las siguientes secciones muestran como el diagrama 
+            de casos de uso básico puede ser extendido 
+            para mostrar información adicional sobre el sistema 
+            que está siendo diseñado.
+          </para>
 
           <sect3>
 
             <title>
             	<phrase lang="en">Active and Passive Actors</phrase>
             	<phrase lang="de">Aktive und passive Akteure</phrase>
+            	<phrase lang="es">Actores Activos y Pasivos</phrase>
             </title>
 
             <indexterm lang="en"><primary>Active Actor</primary></indexterm>
             <indexterm lang="de"><primary>Aktiver Akteur</primary></indexterm>
+            <indexterm lang="es">
+              <primary>Actor Activo</primary>
+            </indexterm>
+            
             <para lang="en">
 	            <emphasis>Active</emphasis> actors initiate 
 	            interaction with the system. This can be shown by placing 
@@ -9797,9 +10351,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	vom Akteur zum Anwendungsfall dargestellt werden. Im 
             	Geldautomaten-Beispiel ist der Kunde ein aktiver Akteur.
             </para>
+            <para lang="es">
+              Los actores <emphasis>Activos</emphasis> inician 
+              la interacción con el sistema. 
+              Esto puede ser mostrado colocando una flecha en 
+              la asociación desde el actor apuntando hacia el caso 
+              de uso. 
+              En le ejemplo del Cajero Automatico, el cliente es 
+              un actor activo.
+            </para>
 
             <indexterm lang="en"><primary>Passive Actor</primary></indexterm>
             <indexterm lang="de"><primary>Passiver Akteur</primary></indexterm>
+            <indexterm lang="es">
+              <primary>Actor Pasivo</primary>
+            </indexterm>
+
             <para lang="en">
 	            Interaction with <emphasis>passive</emphasis> actors 
 	            is initiated by the system. This can be shown by placing an 
@@ -9813,6 +10380,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Assoziation vom Anwendungsfall zum Akteur dargestellt werden.
             	Im Geldautomaten-Beispiel ist der Zentralcomputer ein passiver 
             	Akteur.
+            </para>
+            <para lang="es">
+              La interacción con los actores <emphasis>pasivos</emphasis> 
+              es iniciada por el sistema. 
+              Esto puede ser mostrado colocando una flecha 
+              en la asociación desde el caso de uso apuntando hacia 
+              el actor. 
+              En el ejemplo del Cajero Automatico el sistema central 
+              es un actor pasivo.
             </para>
 
             <para lang="en">
@@ -9828,6 +10404,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	initiiert die Interaktion mit dem Zentralcomputer) von einem 
             	zyklisch abfragenden System (der Zentralcomputer fragt den 
             	Geldautomaten von Zeit zu Zeit ab) zu unterscheiden.
+            </para>
+            <para lang="es">
+              Este es un buen ejemplo donde la flecha ayuda, 
+              puesto que nos permite distinguir un sistema conducido 
+              por eventos (el Cajero Automático inicia 
+              la interacción con el sistema central) 
+              de un sistema de consulta continua 
+              (el sistema central interroga 
+              al Cajero Automático de tiempo en tiempo).
             </para>
 
             <para lang="en">
@@ -9847,6 +10432,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	einen Fehler entdeckt, kann er den Ingenieur auffordern diesen 
             	zu beheben.
             </para>
+            <para lang="es">
+              Donde un actor puede ser, una de dos, activo o pasivo,
+              dependiendo de las circunstancias, la flecha puede ser omitida. 
+              En el ejemplo del Cajero Automático el ingeniero 
+              del banco se ajusta a esta categoría. 
+              Normalmente el está activo, 
+              poniendose en funcionamiento en cicles regulares 
+              para dar servicio al Cajero. 
+              Sin embargo is el Cajero Automático detecta un fallo, 
+              puede convocar al ingeniero para repararlo.
+            </para>
+
 
             <para lang="en">
               The use of arrows on associations is referred to as 
@@ -9868,6 +10465,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Assoziation unterscheiden, deren Navigation noch zu bestimmen 
             	ist und einer die bidirektional ist.
             </para>
+            <para lang="es">
+              El uso de flechas en asociaciones es referido como 
+              la <emphasis>navegación</emphasis> de la asociación. 
+              Veremos esto usado en otro lugar en UML mas tarde.
+            </para>
+
 
             <para lang="en">
 	            <xref linkend="fig.tut.atm_use_case_diagram_navigation"/> 
@@ -9878,6 +10481,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            <xref linkend="fig.tut.atm_use_case_diagram_navigation"/>
 	            zeigt das Geldautomaten-Anwendungsfalldiagramm mit dargestellter 
 	            Navigation. 
+            </para>
+            <para lang="es">
+              <xref linkend="fig.tut.atm_use_case_diagram_navigation" />
+              muestra el diagrama de casos de uso del Cajero Automático 
+              con navegación representada.
             </para>
 
             <figure float="1" id="fig.tut.atm_use_case_diagram_navigation">
@@ -9890,12 +10498,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               		Anwendungsfalldiagramm für einen Geldautomaten mit 
               		Navigation.
               	</phrase>
+              	<phrase lang="es">
+              	  Diagrama de casos de uso para un Cajero Automático
+              	  mostrando navegación.
+              	</phrase>
               </title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/tutorial/atm_use_case_diagram_navigation.gif"
-               format="GIF"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata align="center"
+                               fileref="images/tutorial/atm_use_case_diagram_navigation.gif"
+                               format="GIF"/>
+                  </imageobject>
+                </mediaobject>
+              </screenshot>
             </figure>
 
           </sect3>
@@ -9905,6 +10522,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
             	<phrase lang="en">Multiplicity</phrase>
             	<phrase lang="de">Kardinalität</phrase>
+            	<phrase lang="es">Multiplicidad</phrase>
             </title>
 
             <indexterm lang="en">
@@ -9915,6 +10533,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	<primary>Kardinalität</primary>
             	<secondary>in einem Anwendungsfalldiagramm</secondary>
             </indexterm>
+            <indexterm lang="es">
+              <primary>Multiplicidad</primary>
+              <secondary>en un Diagrama de Casos de Uso</secondary>
+            </indexterm>
+
             <para lang="en">
 	            It can be useful to show the 
 	            <emphasis>multiplicity</emphasis> of associations between 
@@ -9928,6 +10551,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Anwendungsfällen darzustellen. Damit meinen wir, wie viele 
             	Ausprägungen eines Akteurs mit wie vielen Ausprägungen eines 
             	Anwendungsfalles interagieren.
+            </para>
+            <para lang="es">
+              Puede ser util mostrar la <emphasis>multiplicidad</emphasis>
+              de asociaciones entre actores y casos de uso. 
+              Con esto queremos decir cuantas instancias 
+              de un actor interacciona con cuantas instancias 
+              del caso de uso.
             </para>
 
             <para lang="en">
@@ -9950,6 +10580,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	</literal>). Ein Stern (<literal>*</literal>) wird verwendet, 
             	um eine beliebige Zahl darzustellen.
             </para>
+            <para lang="es">
+              Po defecto asumimos que una instancia 
+              de un actor interacciona con una instancia 
+              de un caso de uso. 
+              En otros casos podemos etiquetar la multiplicidad  
+              de un extremo de la asociación, una de dos con 
+              un número para indicar cuantas instancias están
+              involucradas, o con un rango separado por 
+              dos puntos (<literal>..</literal>). 
+              Un asterisco (<literal>*</literal>) es usado 
+              para indicar un número arbitrario.
+            </para>
 
             <para lang="en">
 	            In the ATM example, there is only one central 
@@ -9965,6 +10607,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	<literal>0..*</literal> am Ende des Anwendungsfalles. Es gibt 
             	keine Notwendigkeit für eine Kennzeichnung am anderen Ende, da 
             	der Standard 1 ist.
+            </para>
+            <para lang="es">
+              En el ejemplo del Cajero Automático, 
+              solo hay un sistema central, 
+              pero el puede estar gestionando cualquier número 
+              de usos de Cajero Automático. 
+              Por lo tanto colocamos la etiqueta 
+              <literal>0..*</literal> en el extremos del caso de uso. 
+              No se necesita etiqueta en el otro extremo, 
+              ya que por defecto es uno.
             </para>
 
             <para lang="en">
@@ -9986,6 +10638,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	so dass wir auf dem anderen Ende das Kennzeichen <literal>0..*
             	</literal> plazieren.
             </para>
+            <para lang="es">
+              Un banco local tendrá hasta tres oficiales autorizados 
+              para cargar y descargar los Cajeros Automáticos. 
+              Asi en el extremo del actor de la relación con 
+              el caso de uso 
+              <literal>Mantenimiento Cajero Automático</literal>, 
+              colocamos la etiqueta <literal>1..3</literal>. 
+              Ellos pueden estar tratando con cualquier número 
+              de Cajeros Automaticos, así en el otro extremo colocamos 
+              la etiqueta <literal>0..*</literal>.
+            </para>
 
             <para lang="en">
 	            There may be any number of customers and there may be 
@@ -9998,6 +10661,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	die diese nutzen dürfen. Daher plazieren wir an jedem Ende der 
             	Assoziation das Kennzeichen <literal>0..*</literal>.
             </para>
+            <para lang="es">
+              Puede haber cualquier número de clientes y puede haber 
+              cualquier número de sistemas de Cajero Automático 
+              que pueden usar.
+              Así a cada extremo de la asociación colocamos 
+              la etiqueta <literal> 0..*</literal>.
+            </para>
 
             <para lang="en">
 	            <xref linkend="fig.tut.atm_use_case_diagram_multiplicity"/> 
@@ -10008,6 +10678,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            <xref linkend="fig.tut.atm_use_case_diagram_multiplicity"/>
 	            zeigt das Geldautomaten-Anwendungsfalldiagramm mit dargestellter 
 	            Kardinalität. 
+            </para>
+            <para lang="es">
+              <xref linkend="fig.tut.atm_use_case_diagram_multiplicity" />
+              muestra el diagrama de casos de uso del Cajero Automático 
+              con multiplicidad representada.
             </para>
 
             <figure float="1" id="fig.tut.atm_use_case_diagram_multiplicity">
@@ -10020,12 +10695,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              	Anwendungsfalldiagramm für einen Geldautomaten und 
 	              	dargestellter Kardinalität.
               	</phrase>
+                <phrase lang="es">
+                  Diagrama de casos de uso para un sistema 
+                  de Cajero Automático mostrando multiplicidad.
+                </phrase>
+
               </title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/tutorial/atm_use_case_diagram_multiplicity.gif"
-               format="GIF"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata align="center"
+                               fileref="images/tutorial/atm_use_case_diagram_multiplicity.gif"
+                               format="GIF"/>
+                  </imageobject>
+                </mediaobject>
+              </screenshot>
             </figure>
 
             <para lang="en">
@@ -10041,6 +10726,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Beispiel Geldautomat würde wir nur <literal>1..3</literal> zum 
             	lokalen Bankbeamten darstellen, da alle anderen aus dem Kontext 
             	heraus offensichtlich sind.
+            </para>
+            <para lang="es">
+              La multiplicidad puede abarrotar un diagrama, 
+              y a menudo no se muestra, excepto donde 
+              es crítico comprenderlo. 
+              En el ejemplo de Cajero Automatico solo elegiriamos 
+              mostrar <literal>1..3</literal> contra el oficial del banco, 
+              ya que todos los demas son obvios por el contexto.
             </para>
 
           </sect3>
