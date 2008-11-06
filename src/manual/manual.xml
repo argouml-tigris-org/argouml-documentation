@@ -7909,11 +7909,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                  		fileref="images/tutorial/guihomefoldericon.gif"
 	                  		format="GIF" />
 	                  </guiicon>
-	                  </para>
-	                  <para lang="de">
+	              </para>
+	              <para lang="de">
 	                  Das Symbol: Home-Verzeichnis. Klicken auf dieses Symbol 
 	                  wird Sie in Ihr Home-Verzeichnis bringen.
-	                  </para>
+	              </para>
+                  <para lang="es">
+                    <guiicon> 
+                      <inlinegraphic
+                        fileref="images/tutorial/guihomefoldericon.gif"
+                        format="GIF" />
+                    </guiicon> 
+                    El icono de Principal. 
+                    Haciendo click en este icono nos desplazaremos 
+                    a nuestro directorio home.
+                  </para>
 
                 </listitem>
 
@@ -7944,6 +7954,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                  Sie es und klicken Sie auf den Namen. Dies erlaubt es uns, 
 	                  den Namen unserer Wahl zu vergeben.
                   </para>
+                  <para lang="es">
+                    <guiicon> 
+                      <inlinegraphic
+                        fileref="images/tutorial/guinewfoldericon.gif"
+                        format="GIF" />
+                    </guiicon> 
+                    El icono Nueva Carpeta. 
+                    Haciendo click en este icono crearemos 
+                    una nueva carpeta llamada "Carpeta nueva" bajo 
+                    la carpeta actual. 
+                    Despues de que la carpeta está creada 
+                    puedes seleccionarla y hacer click 
+                    en su nombre para cambiarle 
+                    el nombre a tu elección.
+                  </para>
 
                 </listitem>
 
@@ -7965,6 +7990,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              <para lang="de">
 	                  Das Symbol: Darstellung der Verzeichnisse.
                   </para>
+                  <para lang="es">
+                    <guiicon> 
+                      <inlinegraphic
+                        fileref="images/tutorial/guifolderspresentationicon.gif"
+                        format="GIF" />
+                    </guiicon> 
+                    El icono de Presentación de Carpetas.
+                  </para>
 
                 </listitem>
 
@@ -7984,6 +8017,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                  <literal>ErstesProjekt</literal> und klicken Sie auf die 
                  Schaltfläche <literal>Speichern</literal>.
 	          </para>
+              <para lang="es">
+                De acuerdo, ahora navegamos al directorio donde queremos 
+                guardar nuestro proyecto ArgoUML, rellena 
+                el <literal>Nombre&nbsp;de&nbsp;Archivo:</literal> 
+                con un nombre apropiado, 
+                como <quote>PrimerProyecto</quote> y haz click en 
+                el boton <literal>Guardar</literal>.
+              </para>
 
               <para lang="en">
 	              You have now an active project called <literal>
@@ -7995,6 +8036,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                  </literal> genannt, das mit der Datei <literal>
                  ErstesProjekt.zargo</literal> verbunden ist.
 			  </para>
+              <para lang="es">
+                Ahora tienes un poryecto activo llamado 
+                <literal>PrimerProyecto</literal>, 
+                conectado al archivo <literal>PrimerProyecto.zargo</literal>.
+              </para>
 
             </sect4>
 
@@ -8007,6 +8053,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <title>
             <phrase lang="en">Output</phrase>
             <phrase lang="de">Ausgabe</phrase>
+            <phrase lang="es">Salida</phrase>
           </title>
 
           <sect3 id="s3.tut.loadsave">
@@ -8014,6 +8061,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Loading and Saving</phrase>
               <phrase lang="de">Laden und Speichern</phrase>
+              <phrase lang="es">Cargando y Guardando</phrase>
             </title>
 
             <sect4>
@@ -8021,9 +8069,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">Saving XMI files in ArgoUML</phrase>
                 <phrase lang="de">XMI-Dateien in ArgoUML speichern</phrase>
+                <phrase lang="es">Guardar archivos XMI en ArgoUML</phrase>
               </title>
 
               <indexterm lang="en"><primary>XMI</primary></indexterm>
+              <indexterm lang="de"><primary>XMI</primary></indexterm>
+              <indexterm lang="es">
+                <primary>XMI</primary>
+              </indexterm>
+
               <para lang="en">
 	              ArgoUML saves the diagram information in a PGML 
 	              file (with extension <literal>.pgml</literal>, the model 
@@ -8034,7 +8088,6 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              <xref linkend="s3.tut.xmi"/> for more about PGML and XMI 
 	              respectively.
               </para>
-              <indexterm lang="de"><primary>XMI</primary></indexterm>
               <para lang="de">
 	              ArgoUML speichert die Diagramminformationen in einer PGML-Datei 
 	              (mit der Erweiterung <literal>.pgml</literal>, die 
@@ -8044,7 +8097,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              über PGML und XMI siehe unter 
 	              <xref linkend="s4.tut.pgml"/> und 
 	              <xref linkend="s3.tut.xmi"/>.
-	              </para>
+	          </para>
+              <para lang="es">
+                ArgoUML guarda la información de diagrama en 
+                un archivo PGML (con extensión <literal>.pgml</literal>, 
+                la información del modelo en un archivo XMI 
+                (con extensión <literal> .xmi</literal> y 
+                la información sobre el proyecto en un archivo 
+                con extensión <literal>.argo</literal>. 
+                Mira <xref linkend="s4.tut.pgml" /> y 
+                <xref linkend="s3.tut.xmi" /> 
+                para ver mas acerca de PGML and XMI respectivamente.
+              </para>
 
               <para lang="en">
 	              All of these are then zipped to a file with 
@@ -8062,6 +8126,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Anwendung extrahieren. Versuchen Sie es und blicken Sie in den 
 	              Zauber von Argo.
               </para>
+              <para lang="es">
+                Todos estos son luego comprimidos en zip en un archivo 
+                con extensión <literal>.zargo</literal>. 
+                Puedes extraer facilmente 
+                el archivo <literal>.xmi</literal> 
+                del archivo <literal>.zargo</literal> usando cualquier 
+                aplicación generica <application>ZIP</application>. 
+                Intentalo y mira dentro de la magia de.
+              </para>
 
               <warning>
 
@@ -8074,7 +8147,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Beachten Sie, sofern ein <literal>ZIP-Dienstprogramm</literal> 
 	                installiert ist, dass ein Doppelklick das <literal>
 	                ZIP-Dienstprogramm</literal> starten wird und NICHT Argo.
-	                </para>
+	            </para>
+                <para lang="es">
+                  Seguramente hacer doble click lanzara 
+                  una <literal>utilidad ZIP</literal>, si una está instalada, 
+                  y NO Argo.
+                </para>
 
               </warning>
 
@@ -8087,6 +8165,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Graphics and Printing</phrase>
               <phrase lang="de">Grafiken und Drucken</phrase>
+              <phrase lang="es">Gráficos e Impresión</phrase>
             </title>
 
             <sect4>
@@ -8094,6 +8173,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">The Graph Editing Framework (GEF)</phrase>
                 <phrase lang="de">Das Graph Editing Framework (GEF)</phrase>
+                <phrase lang="es">El Graph Editing Framework (GEF)</phrase>
                </title>
 
               <para lang="en">
@@ -8109,7 +8189,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              integraler Bestandteil von ArgoUML, der jetzt separiert wurde. 
 	              Wie ArgoUML ist es ein Open-Source-Projekt und via 
 	              <ulink url="http://www.tigris.org">Tigris</ulink> verfügbar.
-	              </para>
+	          </para>
+              <para lang="es">
+                GEF es el paquete de software que es el fundamento de 
+                los diagramas que aparecen en el Panel de Edición. 
+                GEF fué una parte integral de ArgoUML pero ha sido separada. 
+                Al igual que ArgoUML es un proyecto de código abierto 
+                disponible via 
+                <ulink url="http://www.tigris.org">Tigris</ulink>.
+              </para>
 
             </sect4>
 
@@ -8118,6 +8206,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">Precision Graphics Markup Language (PGML)</phrase>
                 <phrase lang="de">Precision Graphics Markup Language (PGML)</phrase>
+                <phrase lang="es">Precision Graphics Markup Language (PGML)</phrase>
               </title>
 
               <para lang="en">
@@ -8130,6 +8219,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Diagramminformationen. In Zukunft wird PGML durch das UML 2.0 
 	              Diagramm-Austausch-Format ersetzt.
               </para>
+              <para lang="es">
+                PGML es el formato de almacenamiento actual para 
+                la información de diagrama usado en ArgoUML. 
+                En el futuro, PGML será sustituido por el formato 
+                UML 2.0 Diagram Interchange.
+              </para>
 
 
             </sect4>
@@ -8138,7 +8233,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <title>
                 <phrase lang="en">Applications Which Open PGML</phrase>
-                <phrase lang="en">Anwendungen, die PGML öffnen</phrase>
+                <phrase lang="de">Anwendungen, die PGML öffnen</phrase>
+                <phrase lang="es">Aplicaciones Que Abren PGML</phrase>
               </title>
 
               <para lang="en">
@@ -8151,6 +8247,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<xref linkend="s4.tut.svg"/>. Er wurde durch das W3C-Konsortium 
               	verworfen.
               </para>
+              <para lang="es">
+                PGML is un predecesor de SVG
+                (mira <xref linkend="s4.tut.svg" />. 
+                Fué abandonado por el W3C Consortium.
+              </para>
 
               <para lang="en">
 	              Currently there are no other tools that we know of 
@@ -8160,6 +8261,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	Aktuell kennen wir keine anderen Tools, die mit 
               	PGML arbeiten.
               </para>
+              <para lang="es">
+                Actualmente no hay otras herramientas que conozcamos 
+                trabajando en PGML.
+              </para>
 
             </sect4>
 
@@ -8168,6 +8273,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">Printing Diagrams</phrase>
                 <phrase lang="de">Diagramme drucken</phrase>
+                <phrase lang="es">Imprimiendo Diagramas</phrase>
               </title>
 
               <para lang="en">
@@ -8184,6 +8290,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
  	            Sie können GIF-, PostScript-, Encapsulated PostScript- oder 
                 SVG-Format generieren.
               </para>
+              <para lang="es">
+                Seleciona un diagrama, luego vete a 
+                <literal>Archivo</literal>→<literal>Exportar&nbsp;Diagramas</literal>.
+                Puedes generar formatos 
+                GIF, 
+                PostScript, 
+                Encapsulated PostScript o 
+                SVG.
+              </para>
 
             </sect4>
 
@@ -8192,6 +8307,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">Scalable Vector Graphics (SVG)</phrase>
                 <phrase lang="de">Scalable Vector Graphics (SVG)</phrase>
+                <phrase lang="es">Scalable Vector Graphics (SVG)</phrase>
               </title>
 
               <para lang="en">
@@ -8204,6 +8320,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 Ein Standard-Vektor-Grafik-Format des weltweiten Web-Konsortiums 
                 (W3C) (<ulink url="http://www.w3.org/TR/SVG/">
               	http://www.w3.org/TR/SVG/</ulink>).
+              </para>
+              <para lang="es">
+                Un formato de gráficos vectoriales estandar 
+                del World Wide Web Consortium (W3C) 
+                (<ulink url="http://www.w3.org/TR/SVG/">
+                http://www.w3.org/TR/SVG/</ulink>).
               </para>
 
               <para lang="en">
@@ -8218,6 +8340,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	von <ulink url="http://www.adobe.com">adobe.com</ulink>
               	erhalten.
               </para>
+              <para lang="es">
+                Está soportado por los navegadores modernos, 
+                pero tambien puedes conseguir un plugin 
+                para navegadores antiguos en 
+                <ulink url="http://www.adobe.com">adobe.com</ulink>.
+              </para>
 
             </sect4>
 
@@ -8226,6 +8354,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">Saving Diagrams as SVG</phrase>
                 <phrase lang="de">Diagramme als SVG speichern</phrase>
+                <phrase lang="es">Guardando Diagramas como SVG</phrase>
               </title>
 
               <orderedlist>
@@ -8238,6 +8367,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   </para>
                   <para lang="de">
                   	Wählen Sie <literal>.svg</literal> als Dateityp aus.
+                  </para>
+                  <para lang="es">
+                    Seleciona <literal>.svg</literal> como el tipo 
+                    de archivo.
                   </para>
 
                 </listitem>
@@ -8254,6 +8387,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   	<literal>.svg</literal>-Erweiterung am Ende ein. Beispiel:
 	                <literal>meinumldiagramm.svg</literal>
                   </para>
+                  <para lang="es">
+                    Teclea el nombre del archivo que quieras con 
+                    la etiqueta <literal>.svg</literal> al final. 
+                    Ejemplo <literal>midiagramauml.svg</literal>
+                  </para>
 
                 </listitem>
 
@@ -8268,6 +8406,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	Et viola! SVG! Probieren Sie es aus und erforschen Sie es 
               	etwas... Sie sind nicht schön genug? Wenn Sie etwas über das 
               	Rendern schöner SVG-Formate wissen, lassen Sie es uns wissen.
+              </para>
+              <para lang="es">
+                Et viola! SVG! 
+                Pruebalo y juega con el zoom un poco... 
+                No son perfectos, así que si conoces algo sobre representar 
+                bonitos SVG haznoslo saber.
               </para>
 
               <para lang="en">
@@ -8285,6 +8429,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 				oder holen Sie sich ein Plugin für Ihren aktuellen Browser von 
 				<ulink url="http://www.adobe.com">adobe.com</ulink>
 	          </para>
+              <para lang="es">
+                La mayoría de los navegadores modernos soportan SVG. 
+                Si el tuyo no lo hace, prueba
+                <ulink url="http://www.mozilla.com/firefox/">Firefox</ulink> 
+                o consigue un plugin para tu navegador actual en 
+                <ulink url="http://www.adobe.com">adobe.com</ulink>
+              </para>
 
               <note>
 
@@ -8297,6 +8448,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 	Sie wollen keine Scrollleisten für Ihre SVG haben, es sei 
                 	denn Sie sind in HTML eingebettet. Viel Glück und lassen Sie 
                 	es uns wissen, was Sie das finden!
+                </para>
+                <para lang="es">
+                  No tendras barras de desplazamiento para tu SVG 
+                  a menos que este embebido en HTML. 
+                  ¡Buena suerte y haznos saber que encuentras!
                 </para>
 
               </note>
@@ -8325,7 +8481,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Erweiterungen abgeschaltet sind (wie z.B. Poseidon&apos;s 
             	Diagrammdaten).
             </para>
-            
+            <para lang="es">
+              ArgoUML soporta archivos XMI 1.0, 1.1, y 1.2 
+              que contengan modelos UML 1.3 y UML 1.4. 
+              Para una mejor compatibilidad con ArgoUML, 
+              exporta tus modelos usando UML 1.4 y XMI 1.1 o 1.2.
+              Asegurate de desactivar cualquier extensión propietaria 
+              (tal como datos de diagrama de Poseidon).
+            </para>
+
             <para lang="en">
 	            With UML versions earlier than UML 2.0, it isn't
 	            possible to save diagram information, so no diagrams
@@ -8335,6 +8499,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	Mit UML-Versionen vor UML 2.0 ist es nicht möglich Diagramm-
             	Informationen zu speichern, sodass keine Diagramme transferriert 
             	werden.
+            </para>
+            <para lang="es">
+              Con versiones UML anteriores a UML 2.0, no es posible salvar 
+              información de diagrama, 
+              asi que no serán transferidos diagramas.
             </para>
 
             <para lang="en">
@@ -8349,12 +8518,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	<ulink url="http://www.objectsbydesign.com/projects/xmi_to_html_2.html">
             	http://www.objectsbydesign.com/projects/xmi_to_html_2.html</ulink>.
             </para>
+            <para lang="es">
+              Existe tambien una herramienta que convierte XMI a HTML. 
+              Para mas información, mira 
+              <ulink 
+                url="http://www.objectsbydesign.com/projects/xmi_to_html_2.html">
+              http://www.objectsbydesign.com/projects/xmi_to_html_2.html</ulink>.
+            </para>
 
             <sect4>
 
               <title>
               	<phrase lang="en">Using XMI from Rational Rose</phrase>
               	<phrase lang="de">XMI von Rational Rose benutzen</phrase>
+              	<phrase lang="es">Usando XMI de Rational Rose</phrase>
               </title>
 
               <para>...</para>
@@ -8366,6 +8543,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
               	<phrase lang="en">Using Models Created by Poseidon</phrase>
               	<phrase lang="de">Von Poseidon erzeugte Modelle benutzen</phrase>
+              	<phrase lang="es">Usando Models Creados por Poseidon</phrase>
               </title>
 
               <indexterm><primary>XMI</primary></indexterm>
@@ -8379,7 +8557,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	sicher, das <literal>Speichere mit Diagrammdaten</literal> 
               	nicht markiert ist.
               </para>
-
+              <para lang="es">
+                En el diálogo <literal>Exportar proyecto a XMI</literal>,
+                asegurate de dejar en blanco la selección de 
+                <literal>Guardar con datos de diagrama</literal>.
+              </para>
+ 
             </sect4>
 
             <sect4>
@@ -8387,6 +8570,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
               	<phrase lang="en">Using Models Created by MagicDraw</phrase>
               	<phrase lang="de">Von MagicDraw erzeugte Modelle benutzen</phrase>
+              	<phrase lang="es">
+              	  Usando Modelos Creados por MagicDraw
+              	</phrase>
               </title>
 
               <para>...</para>
@@ -8401,6 +8587,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	</phrase>
               	<phrase lang="de">
               		XMI Kompatibilität mit anderen ArgoUML-Versionen
+              	</phrase>
+              	<phrase lang="es">
+              	  XMI Compatibilidad con otras versiones de ArgoUML
               	</phrase>
               </title>
 
@@ -8422,7 +8611,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	zu müssen, sollten Sie vorsichtig sein und ein Backup Ihres 
               	alten Projektes abspeichern.
               </para>
-              
+              <para lang="es">
+                Las versiones de ArgoUML anteriores a 0.19.7 soportaban 
+                UML 1.3/XMI 1.0. 
+                Despues de este tiempo, el formato de almacenamiento es 
+                UML 1.4/XMI 1.2 el cual no es compatible hacia atras. 
+                Posteriores versiones de ArgoUML leerán proyectos escritos 
+                con versiones antiguas, pero no vice versa. 
+                Si puedes necesitar volver a una version antigua 
+                de ArgoUML deberías ser cuidadoso de guardar 
+                una copia de seguridad de tus viejos proyectos.
+              </para>
+
               <para lang="en">
                 Additionally, if you write XMI files which 
                 need to be read by other tools, you should take into
@@ -8440,6 +8640,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	haben vielleicht In-Haus-Codegeneratoren oder andere Werkzeuge, 
               	die UML 1.3 benötigen.
               </para>
+              <para lang="es">
+                Adicionalmente, si escribes archivos XMI que necesitan 
+                ser leidos por otras herramientas, deberías tomar 
+                en cuenta las diferentes versiones. 
+                Las herramientas de modelado UML mas modernas deberían 
+                leer 1.4, pero puedes tener generadores 
+                de código integrados o otras herramientas 
+                que están atadas a UML 1.3.
+              </para>
 
             </sect4>
 
@@ -8451,6 +8660,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	</phrase>
               	<phrase lang="en">
               		Andere XMI-Formate in ArgoUML importieren
+              	</phrase>
+              	<phrase lang="es">
+              	  Importando Otros Formatos XMI dentro de ArgoUML
               	</phrase>
               </title>
 
@@ -8464,7 +8676,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	wurde über die Jahre verbessert, aber Sie werden wahrscheinlich 
               	Probleme bekommen.
               </para>
-              
+              <para lang="es">
+                La compatibilidad XMI entre herramientas de modelado UML 
+                ha mejorado con los años, pero puedes tener aún problemas 
+                ocasionalmente.
+              </para>
+
               <para lang="en">
 	              ArgoUML will not read XMI files which contain
 	              UML 1.5 or UML 2.0 models, but it should be able
@@ -8479,6 +8696,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	dass Sie nicht öffnen können, erstellen Sie bitte einen Bug-
               	Bericht, so dass ein Entwickler dies erforschen kann.
               </para>
+              <para lang="es">
+                ArgoUML no leerá archivos XMI files que contengan 
+                modelos UML 1.5 o UML 2.0, pero debería ser capaz 
+                de abrir la mayoría de los archivos UML 1.4 y UML 1.3. 
+                Si encuentras uno que no puede abrir, 
+                por favor informa del bug para que un desarrollador pueda 
+                investigar.
+              </para>
 
             </sect4>
 
@@ -8487,6 +8712,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
               	<phrase lang="en">Generating XMI Format</phrase>
               	<phrase lang="de">XMI Format generieren</phrase>
+              	<phrase lang="es">Generando Formato XMI</phrase>
                </title>
 
               <para lang="en">
@@ -8498,6 +8724,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	Wählen Sie das Kommando <literal>Datei</literal>=&gt;<literal>
               	Exportiere als XMI...</literal> und wählen Sie einen Dateinamen.
               </para>
+              <para lang="es">
+                Selecciona el comando <literal>Exportar</literal>→
+                <literal>Archivo&nbsp;como&nbsp;XMI</literal> y escoge 
+                un nombre de archivo.
+              </para>
 
             </sect4>
 
@@ -8508,6 +8739,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
             	<phrase lang="en">Code Generation</phrase>
             	<phrase lang="de">Code-Generierung</phrase>
+            	<phrase lang="es">Generación de Código</phrase>
             </title>
 
             <sect4>
@@ -8518,6 +8750,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	</phrase>
               	<phrase lang="de">
               		Durch ArgoUML generierter Code
+              	</phrase>
+              	<phrase lang="es">
+              	  Código Generado por ArgoUML
               	</phrase>
               </title>
 
@@ -8531,6 +8766,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	Sie müssen lediglich die Methodenrümpfe implementieren, um 
               	verwendbare Ergebnisse zu erzielen.
               </para>
+              <para lang="es">
+                Es posible compilar tu código generado con ArgoUML, 
+                si bien aún necesitas implementar los cuerpos de metodos, 
+                para obtener resultados utiles.
+              </para>
 
             </sect4>
 
@@ -8539,6 +8779,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
               	<phrase lang="en">Generating Code for Methods</phrase>
               	<phrase lang="de">Code für Methoden generieren</phrase>
+              	<phrase lang="es">Generando Código para Métodos</phrase>
               </title>
 
               <para lang="en">
@@ -8557,6 +8798,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	vorhanden, aber der Wunsch ist da. Sie können Forte und ArgoUML 
               	zusammenarbeiten lassen; dies ist ein guter Workaround.
               </para>
+              <para lang="es">
+                Hasta el momento no puedes escribir código 
+                para métodos (operaciones) dentro de ArgoUML. 
+                El panel de fuentes es editable,
+                pero los cambios son ignorados. 
+                ArgoUML es una herramienta de diseño puro por ahora, 
+                no hay funcionalidad IDE pero el deseo está ahí. 
+                Puedes considerar usar Forte y ArgoUML juntos—¡Es un 
+                buen rodeo del problema!
+              </para>
 
               <para lang="en">
 	              You can help us out there if you&apos;d like!
@@ -8564,6 +8815,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="de">
               	Sie können uns hier helfen, wenn Sie wollen!
               </para>
+              <para lang="es">Puedes ayudarnos aquí si quisieras!</para>
 
             </sect4>
 
@@ -8576,6 +8828,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <title>
           	<phrase lang="en">Working With Design Critics</phrase>
           	<phrase lang="de">Arbeiten mit Design-Kritiken</phrase>
+          	<phrase lang="es">Trabajando Con Criticas de Diseño</phrase>
           </title>
 
           <para lang="en">
