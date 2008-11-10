@@ -7422,6 +7422,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <title>
                   <phrase lang="en">Using the Mouse Keys</phrase>
                   <phrase lang="de">Mit Hilfe der Maustasten</phrase>
+                  <phrase lang="es">Usando Teclas del Ratón</phrase>
                 </title>
 
                 <para lang="en">
@@ -7434,6 +7435,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                drücken der Taste Strg können Sie mehrere Elemente markieren 
 	                und zeitgleich bewegen.
                 </para>
+                <para lang="es">
+                  Seleciona los elementos que quieres mover. 
+                  Presionando la tecla Ctrl mientras seleccionas 
+                  puedes seleccionar muchos elementos para mover 
+                  el mismo tiempo.
+                </para>
 
                 <para lang="en">
 	                Now hit your arrow keys. Your elements move a 
@@ -7442,6 +7449,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <para lang="de">
 	                Nun betätigen Sie Ihre Pfeiltasten. Ihre Elemente bewegen 
 	                sich bei jedem Tastendruck ein wenig.
+                </para>
+                <para lang="es">
+                  Ahora presiona tus teclas de flecha. 
+                  Los elementos seleccionados se mueven un poco 
+                  con cada tecleo.
                 </para>
 
                 <para lang="en">
@@ -7452,6 +7464,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Wenn Sie zusätzlich die Umschalttaste betätigen, bewegen Sie 
 	                sich ein wenig weiter.
                 </para>
+                <para lang="es">
+                  Si ademas mantienes presionada la tecla Mayusculas (Shift), 
+                  se moveran un poco mas rápido.
+                </para>
 
               </sect5>
 
@@ -7460,6 +7476,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <title>
                   <phrase lang="en">Using the Edit Pane Toolbar</phrase>
                   <phrase lang="de">Mit Hilfe der Symbolleiste des Editors</phrase>
+                  <phrase lang="es">
+                    Usando la Barra de Herramientas del Panel de Edición
+                  </phrase>
                 </title>
                 
                 <para lang="en">
@@ -7473,6 +7492,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                und halten sie gedrückt. Nun wird das Bewegen der Maus die 
 	                Elemente ausrichten.
                 </para>
+                <para lang="es">
+                  Haz click en el boton escoba en la barra de herramientas. 
+                  Mueve tu ratón al panel de diagrama, haz click derecho 
+                  y mantenlo. 
+                  Ahora mover tu ratón alineará los elementos.
+                </para>
 
               </sect5>
 
@@ -7483,6 +7508,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">Arranging Elements</phrase>
                 <phrase lang="de">Elemente anordnen</phrase>
+                <phrase lang="es">Colocando Elementos</phrase>
               </title>
               
               <para lang="en">
@@ -7492,6 +7518,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="de">
 	              Das Menü <literal>Anordnen</literal> erlaubt es Ihnen, 
 	              Elemente auszurichten oder zu gruppieren.
+              </para>
+              <para lang="es">
+                El elemento de menú <literal>Colocar (Arreglo)</literal>
+                te permite alinear, agrupar, o desplazar elementos.
               </para>
 
             </sect4>
@@ -7503,6 +7533,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Working with Projects</phrase>
               <phrase lang="de">Arbeiten mit Projekten</phrase>
+              <phrase lang="es">Trabajando con Proyectos</phrase>
             </title>
 
             <sect4>
@@ -7510,6 +7541,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">The Start-Up Window</phrase>
                 <phrase lang="de">Das Startfenster</phrase>
+                <phrase lang="es">La Ventana de Inicio</phrase>
               </title>
 
               <para lang="en">
@@ -7520,10 +7552,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              <xref linkend="fig.tut.startup"/> zeigt, wie ArgoUML 
 	              nach dem erstmaligen Start erscheint.
               </para>
+              <para lang="es">
+                <xref linkend="fig.tut.startup" /> muestra la ventana 
+                principal de ArgoUML como aparece justo despues de iniciar
+              </para>
 
               <!--figure float="1" id="fig.tut.startup">
 
-                <title lang="en">ArgoUML Window at Start-Up</title>
+                <title>
+                  <phrase lang="en">ArgoUML Window at Start-Up</phrase>
+                  <phrase lang="es">Ventana de ArgoUML al inicio</phrase>
+                </title>
 
                 <screenshot><mediaobject><imageobject>
                 <imagedata align="center"
@@ -7554,6 +7593,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              auf verschiedene Art und Weise sortiert, je nach Auswahl in 
 	              der Drop-Down-Liste im oberen Bereich des Fenster.
               </para>
+              <para lang="es">
+                El area de cliente de la ventana principal, 
+                debajo del menú y la barra de herramientas, 
+                está subdividida en cuatro paneles. 
+                Empezando con el panel superior mas a la izquierda, 
+                y funcionando continuamente, puedes ver el Explorador, 
+                mostrando una vista de arbol de tu modelo UML, 
+                el Panel de Edición con su barra de herramientas, 
+                dos barras de desplazamiento y un area de gris 
+                de dibujado, el Panel de Detalles con la solapa 
+                de Tareas Pendientes seleccionada, 
+                y el Panel de Tareas Pendientes con una vista 
+                de arbol de los tareas pendientes, 
+                ordenadas de distintas maneras seleccionadas via 
+                la lista desplegable en lo alto del panel.
+              </para>
 
               <para lang="en">
 	              Each time ArgoUML is started up without a project 
@@ -7574,6 +7629,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Anwendungsfall-Diagramm, <literal>Anwendungsfalldiagramm 1
 	              </literal> genannt.
               </para>
+              <para lang="es">
+                Cada vez que ArgoUML es iniciado sin un archivo 
+                de proyecto como argumento, 
+                un nuevo proyecto en blanco es creado. 
+                Este proyecto contiene un modelo llamado
+                <literal> untitledModel</literal>. 
+                Este modelo contiene un Diagrama de Clases en blanco, 
+                llamado 
+                <literal>Diagrama&nbsp;de&nbsp;clase&nbsp;1</literal>, 
+                y un Diagrama de Casos de Uso llamado 
+                <literal>Diagrama&nbsp;use&nbsp;case&nbsp;1</literal>.
+              </para>
 
               <para lang="en">
 	              The model and both empty diagrams can be seen in 
@@ -7584,6 +7651,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Das Modell und die beiden leeren Diagramme können Sie im 
 	              Explorer sehen, der für Sie das Hauptwerkzeug darstellt, um 
 	              durch Ihr Modell zu navigieren.
+              </para>
+              <para lang="es">
+                El modelo y los dos diagramas vacios se pueden ver 
+                en el explorador, que es la herramienta principal 
+                para navegar a traves de tu modelo.
               </para>
 
               <para lang="en">
@@ -7601,6 +7673,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              einkaufsmodell</literal> geben und Sie wollen es in einer Datei 
 	              mit dem Namen <literal>ErstesProjekt</literal> speichern.
               </para>
+              <para lang="es">
+                Asumamos por un momento que este el el punto 
+                donde quieres empezar a modelar un nuevo sistema de compras. 
+                Tú quieres darle el nombre <quote>purchasingmodel</quote> 
+                a tu modelo, y quieres almacenarlo en un archivo llamado 
+                <literal>FirstProject</literal>.
+              </para>
 
             </sect4>
 
@@ -7609,6 +7688,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">Saving a Project - The File Menu</phrase>
                 <phrase lang="de">Ein Projekt speichern - Das Menü: Datei</phrase>
+                <phrase lang="es">Guardando un Proyecto - El Menú Archivo</phrase>
               </title>
 
               <para lang="en">
@@ -7630,6 +7710,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 Wenn ArgoUML UML 2.0 unterstützt, werden die Diagramme im UML 
                 2.0 Diagramm Austausch Format gespeichert.
               </para>
+              <para lang="es">
+                Por ahora ArgoUML; guarda diagramas usando un estandar 
+                propuesto recientemente, 
+                <emphasis>Precision Graphics Markup Language (PGML)</emphasis>. 
+                Sin embargo, tiene la opción de exportar datos gráficos 
+                como SVG para aquellos que quieran hacer uso de ello. 
+                Cuando ArgoUML; soporte UML 2.0, 
+                almacenará diagramas usando el 
+                UML 2.0 Diagram Interchange format.
+              </para>
 
               <para lang="en">
 	              First, let&apos;s save the model in it&apos;s 
@@ -7645,6 +7735,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Projekt speichern  unter...</literal>. Sie auch 
 	              <xref linkend="fig.tut.saveas"/>.
               </para>
+              <para lang="es">
+                Primero, salva el modelo en su estado 
+                (vacio y sin nombre) actual. 
+                En la barra de menú, haz click en <literal>Archivo</literal>, 
+                luego en <literal>Guardar&nbsp;Proyecto&nbsp;como...</literal> 
+                como se muestra en 
+                <xref linkend="fig.tut.saveas" />.
+              </para>
 
               <figure float="1" id="fig.tut.saveas">
 
@@ -7654,6 +7752,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   </phrase>
                   <phrase lang="de">
                   	<literal>Projekt speichern unter...</literal> aufrufen
+                  </phrase>
+                  <phrase lang="es">
+                    Invocando <literal>Guardar&nbsp;Proyecto&nbsp;como...</literal>
                   </phrase>
                 </title>
 
@@ -7680,6 +7781,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              angezeigten Diagrammes als Datei und für das Beenden des 
 	              Programmes enthält.
               </para>
+              <para lang="es">
+                Por favor, date cuenta que el menu Archivo contiene 
+                las opciones usuales para crear un nuevo proyecto, 
+                para abrir un proyecto existente, 
+                para guardar un proyector bajo un nuevo nombre, 
+                para imprimir del diagrama actualmente mostrado, 
+                para guardar el diagrama mostrado actualmente como archivo, 
+                y para salir del programa.
+              </para>
 
               <para lang="en">
 	              Some of these menu commands can be invoked by 
@@ -7694,6 +7804,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              werden. Das Festhalten der Taste <quote>Strg</quote> und das 
 	              Drücken der Taste <quote>N</quote> wird zum Beispiel ein neues 
 	              Projekt erzeugen.
+              </para>
+              <para lang="es">
+                En la versión actual, ArgoUML solo puede contener 
+                un proyecto activo al mismo tiempo. 
+                Ademas, un poryecto solo puede contener un modelo UML. 
+                Puesto que un modelo UML puede contener 
+                un número ilimitado de elementos y diagramas, 
+                esto no debería presentar ninguna limitación seria, 
+                incluso modelando sistemas bastante grandes y complejos.
               </para>
 
               <para lang="en">
@@ -7712,6 +7831,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              keine schwerwiegenden Begrenzugen aufweisen, gerade für die 
 	              Modellierung sehr grosser und komplexer Systeme. 
               </para>
+              <para lang="es">
+                En la versión actual, ArgoUML solo puede contener 
+                un proyecto activo al mismo tiempo. 
+                Ademas, un poryecto solo puede contener un modelo UML. 
+                Puesto que un modelo UML puede contener 
+                un número ilimitado de elementos y diagramas, 
+                esto no debería presentar ninguna limitación seria, 
+                incluso modelando sistemas bastante grandes y complejos.
+              </para>
 
             </sect4>
 
@@ -7720,6 +7848,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <title>
                 <phrase lang="en">The File Chooser Dialog</phrase>
                 <phrase lang="de">Der Dateiauswahl-Dialog</phrase>
+                <phrase lang="es">El Diálogo de Elección de Archivo</phrase>
               </title>
 
               <para lang="en">
@@ -7737,12 +7866,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 Dateinamen eingeben können. Siehe auch 
               	<xref linkend="fig.tut.filechoose" />.
               </para>
+              <para lang="es">
+                Pero volvamos a guardar nuestro proyecto. 
+                Despues de hacer click en el comando de menú 
+                <literal>Guardar&nbsp;Proyecto&nbsp;como...</literal>, 
+                obtenemos el dialogo de elección de archivo 
+                para introducir el nomvre del 
+                archivo que deseamos usar como se muestra en 
+                <xref linkend="fig.tut.filechoose" />.
+              </para>
 
               <figure float="1" id="fig.tut.filechoose">
 
                 <title>
                   <phrase lang="en">File Chooser Dialog</phrase>
                   <phrase lang="de">Der Dateiauswahl-Dialog</phrase>
+                  <phrase lang="es">Diálogo de Elección de Archivo</phrase>
                 </title>
 
                 <screenshot><mediaobject><imageobject>
@@ -7758,6 +7897,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="de">
                 Dies ist eine Standard-Java-Dateiauswahl. Lassen Sie uns in 
                 einige Details einsteigen.
+              </para>
+              <para lang="es">
+                Este es un FileChooser Java estandar. 
+                Vayamos sobre ello con algún detalle.
               </para>
 
               <para lang="en">
@@ -7780,6 +7923,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 Darstellung ab. Wenn alles in das Fenster passt, ist es 
                 nicht scrollbar, wie im Bild dargestellt.
               </para>
+              <para lang="es">
+                La caracteristica principal y destacada, 
+                es la lista de carpetas con barras de desplazamiento 
+                en el centro del diálogo.
+                Usando la barra de desplazamiento en la derecha, 
+                puedes moverte arriba y abajo en la lista 
+                de carpetas contenida dentro 
+                de la carpeta actualmente seleccionada. 
+                Si puedes desplazarte o no,
+                depende de la cantidad de archivos y carpetas mostradas 
+                y ademas como están mostradas. 
+                Si todo ajusta, entonces la ventana no 
+                es desplazable como se ve en la ilustración.
+              </para>
 
               <para lang="en">
 	              Double-clicking on one of the displayed folders 
@@ -7791,6 +7948,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 Doppelklicken auf eine der angezeigten Verzeichnisse navigiert 
                 Sie in dieses Verzeichnis und erlaubt es Ihnen, schnell in der 
                 Verzeichnishierarchie Ihrer Festplatte hinunterzunavigieren.
+              </para>
+              <para lang="es">
+                Haciendo Doble Click en una de las carpetas mostradas 
+                te introduce hace navegar dentro de esa carpeta, 
+                permitiendote navegar rapidamante entre la jerarquia 
+                de carpetas de tu disco duro.
               </para>
 
               <para lang="en">
@@ -7809,6 +7972,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                  Sie im unteren Drop-Down-Steuerelement mit dem Namen <literal>
                  Dateityp:</literal> sehen.
               </para>
+              <para lang="es">
+                Date cuenta que solo los nombres de carpetas, 
+                y no nombres de archivo son mostrados en el area navegable. 
+                De echo, el diálogo está actualmente dispuesto deacuerdo 
+                para mostrar solo archivos de proyecto ArgoUML 
+                con la extension <literal>.zargo</literal>, 
+                como puede verse en el control de la parte baja 
+                de la ventana etiquetado como 
+                <literal>Archivos&nbsp;de&nbsp;Tipo:</literal>.
+              </para>
 
               <para lang="en">
 	              Also notice that the currently selected 
@@ -7826,6 +7999,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                  Verzeichnis am Bildschirm, markiert das Verzeichnis allerdings 
                  nicht zum speichern.
               </para>
+              <para lang="es">
+                Ten en cuenta tambien que el nombre de carpeta seleccionado 
+                actualmente es mostrado en el control desplegable 
+                de la parte alta de la ventana etiquetado 
+                como <literal>Buscar&nbsp;en:</literal>. 
+                Un unico click en una carpeta dentro 
+                del area navegable selecciona la carpeta 
+                en la pantalla pero no selecciona la carpeta para guardar.
+              </para>
 
               <para lang="en">
 	              At the top of the dialog, above the scrollable 
@@ -7836,6 +8018,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 Im oberen Bereich des Dialoges, über dem scrollbaren Verzeichnis-
                 Auswahlbereich, gibt es einige weitere Verzeichnis-Navigations-
                 Werkzeuge.
+              </para>
+              <para lang="es">
+                En la parte superior del diálogo, sobre el area navegable
+                de selección de carpetás, hay algunas herramientas mas 
+                para navegar entre carpetas.
               </para>
 
               <itemizedlist>
@@ -7858,14 +8045,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                  		fileref="images/tutorial/guifolderdropdown.gif"
 	                  		format="GIF" />
 	                  </guiicon>
-	                  </para>
-	                  <para lang="de">
+	              </para>
+	              <para lang="de">
 	                  Das Verzeichnis-Drop-Down-Steuerelement.
 	                  Klicken auf den Pfeil zeigt eine Baumansicht der 
 	                  Verzeichnis-Hierarchie an, erlaubt es Ihnen schnell in der 
 	                  Hierarchie nach oben und unten zu navigieren und 
 	                  gleichzeitig schnell zu bestimmen, wo Sie sich aktuell in 
 	                  der Hierarchie befinden. 
+                  </para>
+                  <para lang="es">
+                    <guiicon>
+                      <inlinegraphic
+                        fileref="images/tutorial/guifolderdropdown.gif" 
+                        format="GIF" />
+                    </guiicon> 
+                    El control desplegable de Carpeta. 
+                    Haciendo click en la flecha hacia abajo se muestra 
+                    una vista en arbol de la jerarquia de la carpeta, 
+                    permitiendote navegar rapidamente en la jerarquia, 
+                    y al mismo tiempo determinar rapidamente donde 
+                    nos encontramos posicionados en ella.
                   </para>
 
                 </listitem>
@@ -7890,6 +8090,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                  Das Symbol: Verzeichnis-nach-oben. Klicken auf dieses 
 	                  Symbol wird Sie in das übergeordnete Verzeichnis des 
 	                  aktuellen Verzeichnisses bringen.
+                  </para>
+                  <para lang="es">
+                    <guiicon>
+                      <inlinegraphic 
+                        fileref="images/tutorial/guifolderupicon.gif" 
+                        format="GIF" />
+                    </guiicon> 
+                    El icono de Subir un Nivel. 
+                    Haciendo click en este icono nos desplazaremos 
+                    a la carpeta padre de la carpeta actual.
                   </para>
 
                 </listitem>
