@@ -5746,10 +5746,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">The Menu Bar and Toolbars</phrase>
               <phrase lang="de">Die Menü- und die Symbolleisten</phrase>
+              <phrase lang="es">
+                La Barra de Menú y Barras de Herramientas
+              </phrase>
             </title>
 
             <indexterm lang="en"><primary>Menu Bar</primary></indexterm>
+            <indexterm lang="de"><primary>Menüleiste</primary></indexterm>
+            <indexterm lang="es"><primary>Menu Bar</primary></indexterm>
+
             <indexterm lang="en"><primary>Toolbars</primary></indexterm>
+            <indexterm lang="de"><primary>Symbolleisten</primary></indexterm>
+            <indexterm lang="es"><primary>Toolbars</primary></indexterm>
+
             <para lang="en">
               The menu bar and toolbars give access to all the 
               main features of ArgoUML.
@@ -5759,8 +5768,6 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               At this time you should read <xref linkend="ch.ref.toolbar"/>
               and <xref linkend="ch.ref.menu"/>.
             </para>
-            <indexterm lang="de"><primary>Menüleiste</primary></indexterm>
-            <indexterm lang="de"><primary>Symbolleisten</primary></indexterm>
             <para lang="de">
               Die Menüleiste und die Symbolleisten ermöglichen Ihnen den 
               Zugriff auf alle Features von ArgoUML.
@@ -5769,6 +5776,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               eine Dialogbox aufrufen, weisen drei Punkte hin (...).
               Zum jetzigen Zeitpunkt sollten Sie <xref linkend="ch.ref.toolbar"/>
               und <xref linkend="ch.ref.menu"/> lesen.
+            </para>
+            <para lang="es">
+              La barra de menú y las barras de herramientas 
+              dan acceso a todas las caracteristicas principales de ArgoUML. 
+              Así las opciones de menú, 
+              convencionales y de la barra de herramientas 
+              que no están disponibles estan sombreadas y los items 
+              de menú que invocan un cuadro de dialogo están seguidos 
+              por una elipsis (...).
             </para>
 
             <para lang="en">
@@ -5788,6 +5804,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               einfach verwenden, ohne vorher zu zeigen wie sie arbeiten.
               Eine Vielzahl anderer, ArgoUML-spezifische Aktionen sind hier 
               verfügbar. Jetzt werden wir sie allerdings überspringen.
+            </para>
+            <para lang="es">
+              <indexterm lang="es">
+                <primary>File Menu</primary>
+              </indexterm>
+
+              Menú <emphasis>Archivo</emphasis>. 
+              Te permite crear un nuevo proyecto, 
+              guardar y abrir poryectos, 
+              importar fuentes desde cualquier sitio, 
+              cargar y guardar el modelo en y desde
+              una base de datos, imprimir el modelo, 
+              guardar los gráficos del modelo, 
+              guardar la configuración del modelo y salir 
+              de ArgoUML
             </para>
 
             <orderedlist>
@@ -6050,6 +6081,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Es gibt keine Aktionen "Ausschneiden", "Kopieren" oder 
               "Einfügen". Alle Aktionen sind ArgoUML-spezifisch, so dass wir 
               Sie alle im Detail behandeln.
+            </para>
+            <para lang="es">
+              <indexterm lang="es">
+                <primary>Edit Menu</primary>
+              </indexterm>
+
+              Menú <emphasis>Editar</emphasis>. 
+              Te permite seleccionar uno 
+              o mas elementos UML en un diagrama, 
+              deshacer y rehacer ediciones, 
+              eliminar elementos de diagramas o el modelo completo, 
+              vaciar la papelera y cambiar la configuración.
             </para>
 
             <orderedlist>
@@ -6550,6 +6593,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Markieren Sie das entsprechende Klassendiagramm und vergeben Sie 
               einen Namen.
             </para>
+            <para lang="es">
+              <indexterm lang="es">
+                <primary>View Menu</primary>
+              </indexterm>
+
+              Menú <emphasis>Visualizar</emphasis>. 
+              Te permite cambiar entre diagramas, 
+              encontras objetos en el modelo, 
+              hacer zoom en un diagrama, 
+              seleccionar una representación 
+              de diagrama particular 
+              (aunque en este momento solo hay una), 
+              seleccionar una etiqueta particular en el menú 
+              de detalles, ajustar la rejilla, 
+              ver botones en una selección, 
+              y cambiar entre notación UML y Java.
+            </para>
 
             <orderedlist>
               <listitem>
@@ -6774,6 +6834,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Aktivitäts-, Kollaborations-, Verteilungs- und 
 	                Sequenzdiagramm) zu erstellen.
                 </para>
+                <para lang="es">
+                  <indexterm lang="es">
+                    <primary>Create Diagram Menu</primary>
+                  </indexterm>
+
+                  Menú <emphasis>Crear Diagrama</emphasis>. 
+                  Te permite crear cualquiera de los siete tipos 
+                  de diagrama UML (clases, casos de uso, estados, 
+                  actividad, colaboración, desarrollo y secuencia) 
+                  soportados por ArgoUML.
+                </para>
 
                 <para lang="en">
 	                State and activity diagrams can only be created 
@@ -6787,6 +6858,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                wenn eine Klasse oder ein Akteur markiert ist und die 
 	                relevanten Menüeinträge <emphasis>nicht</emphasis> 
 	                deaktiviert sind (unter diesen Umständen passiert nichts).
+                </para>
+                <para lang="es">
+                  Los diagramas de estado y actividad solo pueden 
+                  ser creados cuando una clase o actor es seleccionado, 
+                  incluso las entradas relevantes 
+                  del menú estarán sombreadas si esto 
+                  no se ha realizado.
                 </para>
 
                 <para lang="en">
@@ -6802,6 +6880,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Diagramm auszurichten, zu verteilen und neu anzuordnen und 
 	                die Layout-Strategie für das Diagramm einzustellen.
                 </para>
+                <para lang="es">
+                  <indexterm lang="es">
+                    <primary>Arrange Menu</primary>
+                  </indexterm>
+
+                  Menú <emphasis>Colocar (Arreglo)</emphasis>. 
+                  Te permite alinear, distribuir, 
+                  reordenar y desplazar objetos 
+                  en un diagrama y establecer la estrategia 
+                  de distribución del diagrama.
+                </para>
 
                 <para lang="en">
 	                <emphasis>Generation</emphasis> menu. This allows 
@@ -6813,6 +6902,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Menü: <emphasis>Generieren</emphasis>. Das Menü <emphasis>
 	                Generieren</emphasis> erlaubt es Ihnen, Java Code für die 
 	                markierten oder alle Klassen zu generieren.
+                </para>
+                <para lang="es">
+                  <indexterm lang="es">
+                    <primary>Generation Menu</primary>
+                  </indexterm>
+
+                  Menú <emphasis>Generar</emphasis>. 
+                  Te permite generar código Java para 
+                  las clases seleccionadas o para todas 
+                  las clases.
                 </para>
 
                 <para lang="en">
@@ -6829,6 +6928,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Designzile festzulegen und die verfügbaren Kriterien 
 	                anzusehen.
 				</para>
+                <para lang="es">
+                  <indexterm lang="es">
+                    <primary>Critique Menu</primary>
+                  </indexterm>
+
+                  Menú <emphasis>Crítica</emphasis>. 
+                  Te permite cambiar el estado de la función 
+                  de auto-crítica entre activado y desactivado, 
+                  establecer el nivel de importancia 
+                  de los problemas de diseño y metas 
+                  de diseño y inspeccionar las críticas disponibles.
+                </para>
 
                 <para lang="en">
 	                <emphasis>Tools</emphasis> menu. This menu is 
@@ -6846,7 +6957,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                </indexterm>
 	                deaktiviert, es sei denn es sind Werkzeuge in Ihrer Version 
 	                von ArgoUML verfügbar.
-	                </para>
+	            </para>
+                <para lang="es">
+                  <indexterm lang="es">
+                    <primary>Tools Menu</primary>
+                  </indexterm>
+
+                  Menú <emphasis>Herramientas</emphasis>. 
+                  Este menú está sombreado permanentemente a menos 
+                  que halla alguna herramienta disponible 
+                  en tu versión de ArgoUML.
+                </para>
 
                 <para lang="en">
 	                <emphasis>Help</emphasis> menu.
@@ -6865,6 +6986,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Dieses Menü gibt Zugriff auf die Details, wer das System 
 	                erdachte und wo zusätzliche Hilfe gefunden werden kann.
                 </para>
+                <para lang="es">
+                  <indexterm lang="es">
+                    <primary>Help Menu</primary>
+                  </indexterm>
+
+                  Menú <emphasis>Ayuda</emphasis>. 
+                  Este menú te da acceso a detalles de aquellos 
+                  que crearon el sistema, 
+                  y donde se puede encontrar ayuda adicional.
+                </para>
 
                 <para lang="en">
 	                File Toolbar.
@@ -6881,6 +7012,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                </indexterm>
 	                Diese Symbolleiste enthält einige Symbole des 
 	                Datei-Menü&apos;s.
+                </para>
+                <para lang="es">
+                  <indexterm lang="es">
+                    <primary>File Toolbar</primary>
+                  </indexterm>
+
+                  Barra de Herramientas de Archivo. 
+                  Esta barra de herramientas contiene algunas 
+                  de las herramientas del menú Archivo.
                 </para>
 
                 <para lang="en">
@@ -6899,6 +7039,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Diese Symbolleiste enthält einige Symbole des Bearbeiten-
 	                Menü&apos;s.
                 </para>
+                <para lang="es">
+                  <indexterm lang="es">
+                    <primary>Edit Toolbar</primary>
+                  </indexterm>
+
+                  Barra de Herramientas de Edición.
+                  Esta barra de herramientas contiene algunas 
+                  de las herramientas de menú Edición.
+                </para>
 
                 <para lang="en">
 	                View Toolbar.
@@ -6916,7 +7065,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                Diese Symbolleiste enthält einige Symbole des Bearbeiten-
 	                Menü&apos;s.
                 </para>
+                <para lang="es">
+                  <indexterm lang="es">
+                    <primary>View Toolbar</primary>
+                  </indexterm>
 
+                  Barra de Herramientas de Visualizar. 
+                  Esta barra de herramientas contiene algunas 
+                  de las herramientas del menú Visualizar.
+                </para>
 
                 <para lang="en">
 	                Create Diagram Toolbar.
@@ -6934,6 +7091,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   	Diese Symbolleiste enthält einige Symbole des Menü&apos;s 
                   	Neues Diagramm.
                 </para>
+                <para lang="es">
+                  <indexterm lang="es">
+                    <primary>Create Diagram Toolbar</primary>
+                  </indexterm>
+                  Barra de Herramientas de Crear Diagrama. 
+                  Esta barra de herramientas contiene algunas 
+                  de las herramientas del menú Crear Diagrama.
+                </para>
 
           </sect3>
           <sect3>
@@ -6941,6 +7106,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">The Explorer Pane</phrase>
               <phrase lang="de">Der Explorer</phrase>
+              <phrase lang="es">El Panel Explorador</phrase>
             </title>
 
             <para lang="en">
@@ -6955,6 +7121,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <xref linkend="ch.ref.navpane"/> zu lesen.
               Der Explorer ist für alles was Sie tun fundamental. Wir werden 
               im Folgenden immer wieder auf ihn zurückkommen. 
+            </para>
+            <para lang="es">
+              En este momento deberías tomarte tiempo para leer 
+              <xref linkend="ch.ref.navpane" />. 
+              No hay mucho que puedas hacer en este punto 
+              con el Panel Explorador ya que no hay nada in 
+              el salvo la raiz del arbol (actualmente "untitledModel") 
+              y dos diagramas vacíos.
+              Sin embargo, el Panel Explorador es fundamental 
+              para casi todo lo que haces y volveremos atras 
+              a él una y otra vez en lo sucesivo.
             </para>
 
             <para lang="en">
@@ -6978,6 +7155,35 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               einem rechten oder nach unten gerichteten Zeiger, je nach dem, 
               welches Aussehen (Look and Feel) von Ihnen eingestellt wurde.
             </para>
+            <para lang="es">
+              Hay un control de expansión y contracción delante 
+              del símbolo del paquete para <quote>untitledModel</quote> 
+              en el Panel Explorador y el símbolo de paquete 
+              para <quote>Medium</quote> en el Panel 
+              de Tareas Pendientes. 
+              Haz click en esos controles y observa que esos paneles 
+              son tres widgets que se comportan de forma muy parecida 
+              a como se esperaría que hicieran. 
+              El control de expansión o contracción es un signo 
+              de mas (+)/menos (-) o un pomo dirigido a 
+              la derecha o abajo dependiendo del look and feel 
+              que has escogido como apariencia.
+            </para>
+
+            <para lang="es">
+              En este punto deberías probar las varias opciones disponibles 
+              para un look and feel (apariencia). 
+              Usaste el editor que establece el look and feel 
+              cuando estabas seleccionando el idioma, 
+              sin embargo, solo lo viste en Ruso. 
+              Si miras la versión Española (Inglesa en la imagen) 
+              <xref linkend="s3.ref.menu_settings_appearance" /> 
+              veras que la combobox de la zona mas alta es 
+              para seleccionar el look and feel. 
+              Cuando el panel se abre por primera vez la caja contiene 
+              el valor actual.
+              Selecciona otra, sal de ArgoUML y reinicialo.
+            </para>
 
             <para lang="en">
               Select alternately Class Diagram 1 and Use Case Diagram 1  observing
@@ -6996,6 +7202,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Zum jetzigen Zeitpunkt ist es nicht erforderlich das Kapitel 12 
               zu lesen. Aber, es kann auch nichts schaden.
             </para>
+            <para lang="es">
+              Seleciona alternativamente Diagrama de clase 1 
+              y Diagrama Use Case 1 observando que 
+              el panel de detalle cambia siguiendo 
+              los objetos seleccionados en el Explorador. 
+              El panel de detalle está descrito en el Capitulo 12. 
+              No es necesario leer el capitulo 12 en este punto, 
+              pero tampoco te hara daño.
+            </para>
 
           </sect3>
 
@@ -7004,6 +7219,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">The Editing Pane</phrase>
               <phrase lang="de">Der Editor</phrase>
+              <phrase lang="es">El Panel de Edición</phrase>
             </title>
 
             <para lang="en">
@@ -7102,6 +7318,48 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Paket und beobachten Sie, was im Explorer passiert.
             </para>
 
+            <note lang="es">
+              <itemizedlist>
+                <listitem>
+                  Taréa de Lectura.
+                </listitem>
+
+                <listitem>
+                  Pasa a traves de un par de cambios.
+                </listitem>
+
+                <listitem>
+                  Añade algunas cosas.
+                </listitem>
+
+                <listitem>
+                  Elimina algunas cosas.
+                </listitem>
+
+                <listitem>
+                  Redimensiona cosas.
+                </listitem>
+
+                <listitem>
+                  Selecciona cosas con arrastrar y soltar.
+                </listitem>
+
+                <listitem>
+                  Seleciona cosas con click y ctrl click.
+                </listitem>
+
+                <listitem>
+                  Edita nombres integrados.
+                </listitem>
+
+                <listitem>
+                  Elimina "images/tutorial/editoverview.gif" del sistema de
+      archivos.
+                </listitem>
+              </itemizedlist>
+            </note>
+
+
           </sect3>
 
           <sect3>
@@ -7109,6 +7367,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">The Details Pane</phrase>
               <phrase lang="de">Der Bereich Details</phrase>
+              <phrase lang="es">El Panel de Detalles</phrase>
             </title>
 
             <para lang="en">
@@ -7123,6 +7382,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <note>
 
               <itemizedlist>
+                <listitem lang="es">
+                  <para lang="es">
+                    Taréa de Lectura.
+                  </para>
+                </listitem>
 
                 <listitem>
 	                <para lang="en">To-Do Item.
@@ -7137,46 +7401,63 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 		Beinhaltet die Einzelheiten für die Diskussion im 
                 		"Zu bearbeiten"-Fenster.
                   	</para>
+                  <para lang="es">
+                    Item Taréas Pendientes. 
+                    Trata las diferencias con otras etiquetas 
+                    sobre localizaciones de items seleccionados.
+                    Mantiene detalles para tratarlos en 
+                    el Panel de Taréas Pendientes.
+                  </para>
                 </listitem>
 
                 <listitem>
                 	<para lang="en">Properties,</para>
                 	<para lang="de">Eigenschaften,</para>
+                  <para lang="es">Propiedades,</para>
                 </listitem>
 
                 <listitem>
                 	<para lang="en">Documentation,</para>
                 	<para lang="de">Dokumentation,</para>
+                  <para lang="es">Documentación,</para>
                 </listitem>
 
                 <listitem>
                 	<para lang="en">Presentation,</para>
                 	<para lang="de">Darstellung,</para>
+                  <para lang="es">Presentación,</para>
                 </listitem>
 
                 <listitem>
                 	<para lang="en">Source,</para>
                 	<para lang="de">Quellcode,</para>
+                  <para lang="es">Fuente,</para>
                 </listitem>
 
                 <listitem>
                 	<para lang="en">Constraints,</para>
                 	<para lang="de">Bedingungen,</para>
+                  <para lang="es">Constantes,</para>
                 </listitem>
 
                 <listitem>
                 	<para lang="en">Stereotype,</para>
                 	<para lang="de">Stereotypen,</para>
+                  <para lang="es">Estereotipo,</para>
                 </listitem>
 
                 <listitem>
                 	<para lang="en">Tagged Values,</para>
                 	<para lang="de">Eigenschaftswerte,</para>
+                  <para lang="es">Valores Etiquetados,</para>
                 </listitem>
 
                 <listitem>
                 	<para lang="en">Checklist.</para>
                 	<para lang="de">Checkliste.</para>
+                  <para lang="es">
+                    Lista de Validación.
+                  </para>
                 </listitem>
 
                 <listitem>
@@ -7188,6 +7469,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   		Entfernen Sie "images/tutorial/detailsoverview.gif" 
                   		aus dem Dateisystem.
                 	</para>
+                  <para lang="es">
+                    Elimina "images/tutorial/detailsoverview.gif" del sistema 
+                    de archivos.
+                  </para>
                 </listitem>
 
               </itemizedlist>
@@ -7201,6 +7486,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">The To-Do Pane</phrase>
               <phrase lang="de">Der Bereich Zu-Bearbeiten</phrase>
+              <phrase lang="es">El Panel de Taréas Pendientes</phrase>
             </title>
 
             <para lang="en">
@@ -7215,15 +7501,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <note>
 
               <itemizedlist>
+                <listitem lang="es">
+                  Taréa de Lectura.
+                </listitem>
 
                 <listitem>
                 	<para lang="en">Describe priorities.</para>
                 	<para lang="de">Beschreibt Prioritäten.</para>
+                	<para lang="es">Describe prioridades.</para>
                 </listitem>
 
                 <listitem>
                 	<para lang="en">Resolving items.</para>
                 	<para lang="de">Löst Elemente auf.</para>
+                	<para lang="es">Resolver items.</para>
                 </listitem>
 
                 <listitem>
@@ -7233,6 +7524,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 	<para lang="de">
                 		Beziehung zum "Zu bearbeiten"-Register im Detail-
                 		Fenster.
+                	</para>
+                	<para lang="es">
+                	  Relationa a una etiqueta de Item Pendiente 
+                	  en el panel de detalles.
                 	</para>
                 </listitem>
 
@@ -7244,6 +7539,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                  Entfernen Sie "images/tutorial/todooverview.gif" aus dem 
 	                  Dateisystem.
 	                </para>
+	                <para lang="es">
+	                  Elimina "images/tutorial/todooverview.gif" del sistema 
+	                  de archivos.
+	                </para>
+	                  
                 </listitem>
 
               </itemizedlist>
@@ -7352,6 +7652,87 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             encountered under the specific cases where they are 
             used.</para>
 
+
+            Here is from the User Manual in Spanish:
+            <title>El Ratón</title>
+
+            <para>El ratón y los botones del ratón (o sus equivalentes con
+	    dispositivos de entrada alternativos) son usados en una amplia
+	    variedad de formas. En esta sección miraremos a los modos comunes
+	    de uso.</para>
+
+            <para>ArgoUML asume el uso de un ratón de dos botones. Nos
+	    referiremos a los botones como <quote>boton&nbsp;1</quote> y
+	    <quote>boton&nbsp;2</quote>. El boton&nbsp;1 es el boton mas a la
+	    izquierda en un ratón de diestro, y a veces llamado como el boton
+            <quote>selección</quote>. El boton&nbsp;2 es llamado a veces como el
+	    boton <quote>ajuste</quote>.</para>
+
+            <orderedlist>
+              <listitem>
+                <para>Click <emphasis>boton&nbsp;1</emphasis>. Esta acción es
+                usada generalmente para seleccionar un elemento para operaciones
+		subsiguientes. Si el elemento es un objeto en el explorador o en
+		el panel de edición será resaltado.</para>
+
+                <para>En el caso de la Barra de Herramientas del Panel de
+		Edición, ese objeto es seleccionado como el siguiente para ser
+		añadido al diagrama (pero solo uno, haz doble click para añadir
+		multiples objetos). Puedes añadir al diagrama moviendo el ratón
+		al area de edición y haciendo click otra vez.</para>
+              </listitem>
+
+              <listitem>
+                <para>Doble click <emphasis>boton&nbsp;1</emphasis>. Esta
+		acción es identica a la de un solo click
+		<emphasis>excepto</emphasis>, cuando es usado con la barra de
+		herramientas del panel de edición. Bajo estas circunstancias el
+		objeto seleccionado será añadido multiples veces al area de
+		dibujado, una por cada click del boton, hasta que la
+		herramienta es seleccionada de nuevo o se escoge otra
+		herramienta.</para>
+              </listitem>
+
+              <listitem>
+                <para>Click <emphasis>boton&nbsp;2</emphasis>. Cuando se usa
+		sobre elementos de texto en los paneles del explorador o de
+		detalles, o objetos gráficos en el panel de edición, esto
+		desplegará un menú dependiente del contexto.</para>
+
+                <para>Si el elemento no ha sido seleccionado aún será tambien
+		seleccionado.</para>
+              </listitem>
+
+              <listitem>
+                <para>Movimiento <emphasis>boton&nbsp;1</emphasis>. Donde el
+		click con boton&nbsp;1 ha sido usado para desplegar un menú de
+		la barra de menú, el movimiento con boton&nbsp;1 es usado para
+		seleccionar elementos en ese menú.</para>
+
+                <para>El movimiento con boton&nbsp;1 tambien tiene un efecto en
+		el panel de edición. Sobre objetos gráficos moverá el objeto a
+		una nueva posición. Los objetos gráficos son seleccionados
+		muestran asas, y estos pueden ser usados para
+		reescalarlo.</para>
+
+                <para>Donde el objeto es alguna forma de conector entre otros
+		elementos, otro movimiento boton&nbsp;1 que no sea en una asa
+		causará que se cree una nueva asa, permitiendo al conector ser
+		articulado en ese punto. Estos nuevas asas pueden ser
+		eliminadas moviendolas al final del conector.</para>
+              </listitem>
+
+              <listitem>
+                <para>Movimiento <emphasis>boton&nbsp;2</emphasis>. Este es
+		usado para seleccionar elementos en un menú sensible al
+		contexto mostrado por el uso de un click del
+		boton&nbsp;2.</para>
+              </listitem>
+            </orderedlist>
+
+            <para>Hay otros comportamientos mas especificos que serán
+	    encontrados bajo los casos especificos donde son usados.</para>
+
           </sect3-->
 
           <sect3>
@@ -7359,6 +7740,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>
               <phrase lang="en">Drawing Diagrams</phrase>
               <phrase lang="de">Diagramme zeichnen</phrase>
+              <phrase lang="es">Dibujando Diagramas</phrase>
             </title>
 
             <para lang="en">
@@ -7371,6 +7753,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Editors gezeichnet. Das gewünschte Modellelement wird 
 	            markiert und durch anklicken der gewünschten Position im 
 	            Diagramm positioniert.
+            </para>
+            <para lang="es">
+              En general los diagramas son dibujados usando la barra 
+              de herramientas del panel de edición para seleccionar 
+              el objeto deseado y haciendo click en el diagrama 
+              en la posición requerida como se describe 
+              en <xref linkend="s3.tut.mouse" />. 
+              Esa sección tambien explica el uso del ratón 
+              para redimensionar objetos.
             </para>
 
             <para lang="en">
@@ -7389,6 +7780,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            auswählt und dann mit der Taste&nbsp;1 auf die gewünschte 
 	            Position im Diagramm klickt.
             </para>
+            <para lang="es">
+              Los objetos que ya están en el modelo, 
+              pero no en un diagrama, 
+              pueden ser añadidos a un diagrama seleccionando 
+              el objeto en el explorador, 
+              usando <literal>Agregar&nbsp;al&nbsp;Diagrama</literal> 
+              del menú desplegado (boton&nbsp;2) sobre ese objeto, 
+              y entonces haciendo click button&nbsp;1 
+              en la posición deseada en el diagrama.
+            </para>
 
             <para lang="en">
 	            As well as UML model elements, the Edit pane toolbar 
@@ -7402,12 +7803,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            Polygone, Kurven, Text), um ergänzende Informationen in 
 	            Diagramme einbringen zu können.
             </para>
+            <para lang="es">
+              Ademas de objetos UML, la barra de herramaientas 
+              del panel Edición proporciona para los objetos 
+              de dibujados generales 
+              (rectangulos, circulos, lineas, poligonos, curvas, texto) 
+              formas de proporcionar información suplementaria 
+              para los diagramas.
+            </para>
 
             <sect4>
 
               <title>
                 <phrase lang="en">Moving Diagram Elements</phrase>
                 <phrase lang="de">Diagrammelemente bewegen</phrase>
+                <phrase lang="es">Moviendo Elementos de Diagrama</phrase>
               </title>
 
               <para lang="en">
@@ -7415,6 +7825,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               </para>
               <para lang="de">
               	Es gibt verschieden Wege Diagrammelemente zu bewegen.
+              </para>
+              <para lang="es">
+                Hay muchas maneras para mover elementos de diagrama.
               </para>
 
               <sect5>
