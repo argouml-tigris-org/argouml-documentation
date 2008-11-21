@@ -33720,13 +33720,6 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <para lang="en">Suggestion that an association class has a role that 
           refers back directly to itself, which is not permitted.</para>
 
-          <warning>
-
-            <para lang="en">This critic is meaningless in the V0.14 version of 
-            ArgoUML which does not support association classes.</para>
-
-          </warning>
-
         </sect2>
 
         <sect2 id="critics.CrUnnavigableAssoc">
