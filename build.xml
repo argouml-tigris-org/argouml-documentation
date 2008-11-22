@@ -197,6 +197,19 @@ What tools do I need to use this build file?
           tidy
   	      " />
 	
+  <!-- =================================================================== -->
+  <!-- pdf: Generates the pdf version of the English documentation         -->
+  <!-- =================================================================== -->
+  <target name="pdf" 
+          description="Create the pdf version of the English documentation."
+          depends="
+
+              quickguide-pdf-en,
+              manual-pdf-en,
+
+              tidy
+  	      " />
+	
   <target name="init">
     <echo message="Using ${ant.version}"/>
 
