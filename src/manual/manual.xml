@@ -20248,7 +20248,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <figure float="1" id="fig.ref.toolbar_zoom">
 
                 <title>
-                	<phrase lang="de">
+                	<phrase>
                 		Der Zoom-Schieberegler in der Symbolleiste
                 	</phrase>
                 </title>
@@ -27278,25 +27278,59 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	  </title>
 
       <indexterm lang="en"><primary>Explorer</primary></indexterm>
+      <indexterm lang="de"><primary>Explorer</primary></indexterm>
       <indexterm lang="en">
-      <primary>Navigation</primary><secondary>Tree</secondary></indexterm>
+      	<primary>Navigation</primary>
+      	<secondary>Tree</secondary>
+      </indexterm>
+      <indexterm lang="de">
+      	<primary>Navigation</primary>
+      	<secondary>Baum</secondary>
+      </indexterm>
       <indexterm lang="en">
-      <primary>Navigation</primary><secondary>Pane</secondary></indexterm>
+      	<primary>Navigation</primary>
+      	<secondary>Pane</secondary>
+      </indexterm>
+      <indexterm lang="de">
+      	<primary>Navigation</primary>
+      	<secondary>Fenster</secondary>
+      </indexterm>
       <indexterm lang="en">
-      <primary>Navigator</primary><secondary>Tree</secondary></indexterm>
+      	<primary>Navigator</primary>
+      	<secondary>Tree</secondary>
+      </indexterm>
+      <indexterm lang="de">
+      	<primary>Navigator</primary>
+      	<secondary>Baum</secondary>
+      </indexterm>
       <indexterm lang="en">
-      <primary>Navigator</primary><secondary>Pane</secondary></indexterm>
+      	<primary>Navigator</primary>
+      	<secondary>Pane</secondary>
+      </indexterm>
+      <indexterm lang="de">
+      	<primary>Navigator</primary>
+      	<secondary>Fenster</secondary>
+      </indexterm>
       <para lang="en">The Explorer was previously called Navigation Pane/Tree or 
       sometimes Navigator Pane/Tree.</para>
+      <para lang="de">
+      	Der Explorer wurde vorher Navigationsfenster/-baum genannt oder machmal 
+      	Navigatorfester/-baum.
+      </para>
 
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en"><xref linkend="fig.ref.navigation_pane"/> shows the 
         ArgoUML window, with the explorer highlighted.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.navigation_pane" />
+        	zeigt das ArgoUML-Fenster mit dem hervorgehobenen Explorer.
+        </para>
 
         <figure float="1" id="fig.ref.navigation_pane">
           <!-- This diagram shows the navigation overview. 
@@ -27306,6 +27340,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           Color Range Mapping from black to black & white to HSV 0,0,75.-->
           <title>
 			<phrase lang="en">Overview of the explorer</phrase>
+          	<phrase lang="de">Überblick über den Explorer</phrase>
 		</title>
 
           <screenshot><mediaobject><imageobject>
@@ -27318,11 +27353,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         model from a number of predefined perspectives. It also allows 
         the user to define their own perspetives for custom exploring 
         of the model.</para>
+        <para lang="de">
+        	Der Explorer erlaubt es dem Anwender, die Struktur des Modelles in 
+        	einer Anzahl von vordefinierten Perspektiven zu betrachten. Er 
+        	erlaubt es den Anwendern auch, ihre eigenen Perspektiven für das 
+        	benutzerspezifische Erkunden des Modelles zu definieren.
+        </para>
 
         <para lang="en">An important feature, related to the cognitive psychology 
         ideas behind ArgoUML is that not all model elements are necessarily 
         shown in all perspectives. Rather, the perspectives are used to 
         implement hiding of uninteresting parts of the model.</para>
+        <para lang="de">
+        	Eine wichtige Eigenschaft, bezogen auf die Idee der kognitive 
+        	Psychologie in ArgoUML ist, dass nicht alle Modellelemente 
+        	notwendigerweise in allen Perspektiven dargestellt werden. Im 
+        	Gegenteil, die Perspektiven werden dazu verwendet, uninteressante 
+        	Teile des Modelles zu verstecken.
+        </para>
 
       </sect1>
 
@@ -27330,21 +27378,40 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>
 			<phrase lang="en">Mouse Behavior in the Explorer</phrase>
+			<phrase lang="de">Das Verhalten der Maus im Explorer</phrase>
 		</title>
 
-        <indexterm lang="en"><primary>Explorer</primary><secondary>Mouse 
-        Behavior</secondary></indexterm>
-        <indexterm lang="en"><primary>Mouse Behavior</primary><secondary>in the 
-        Explorer</secondary></indexterm>
+        <indexterm lang="en">
+        	<primary>Explorer</primary>
+        	<secondary>MouseBehavior</secondary>
+        </indexterm>
+        <indexterm lang="de">
+        	<primary>Explorer</primary>
+        	<secondary>Verhalten der Maus</secondary>
+        </indexterm>
+        <indexterm lang="en">
+        	<primary>Mouse Behavior</primary>
+        	<secondary>in the Explorer</secondary>
+        </indexterm>
+        <indexterm lang="de">
+        	<primary>Verhalten der Maus</primary>
+        	<secondary>im Explorer</secondary>
+        </indexterm>
         <para lang="en">Behavior of the mouse in general, and the naming of the 
         buttons is covered in the chapter on the overall user interface 
         (see <xref linkend="ch.ref.ui"/>).</para>
+        <para lang="de">
+        	Das generelle Verhalten der Maus und die Benennung der Schaltflächen 
+        	ist im Kapitel mit dem Überblick über die Anwenderschnittstelle 
+        	ausgeführt (siehe <xref linkend="ch.ref.ui"/>).
+		</para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Button&nbsp;1 Click</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;1-Klick</phrase>
+		  </title>
 
           <para lang="en">Within the hierarchical display, elements which have 
           sub-hierarchies are indicated by <guiicon>
@@ -27356,17 +27423,52 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
            fileref="images/icons/hierarchy_open.gif"
            format="GIF"/></imageobject></inlinemediaobject></guiicon> 
           when the hierarchy is open.</para>
+          <para lang="de">
+          	Elemente, die Subhierarchien haben, werden innerhalb der 
+          	hierarchischen Darstellung durch 
+		  	<guiicon>
+	          <inlinemediaobject>
+	          	<imageobject>
+	          		<imagedata align="center"
+	          			fileref="images/icons/hierarchy_closed.gif" format="GIF" />
+	          	</imageobject>
+	          </inlinemediaobject>
+          	</guiicon>
+          	angezeigt, wenn die Hierarchie verborgen ist und 
+	          <guiicon>
+		          <inlinemediaobject>
+		          	<imageobject>
+		          		<imagedata align="center"
+		          			fileref="images/icons/hierarchy_open.gif" format="GIF" />
+		          	</imageobject>
+		          </inlinemediaobject>
+	          </guiicon> 
+          	wenn die Hierarchie geöffnet ist.
+          </para>
 
           <para lang="en">Button&nbsp;1 click over the name of any diagram model element 
           will cause the diagram to be selected and displayed in the 
           editing pane. Its details will also be displayed in the 
           details pane.</para>
+          <para lang="de">
+          	Ein Taste&nbsp;1-Klick über dem Namen eines Diagramm-Modellelementes  
+          	veranlasst, dass das Diagramm markiert und im Editierfenster 
+          	angezeigt wird. Zusätzlich werden seine Details im Detailfenster 
+          	dargestellt.
+          </para>
 
           <para lang="en">Button&nbsp;1 click over the name of any model element other than 
           a diagram in the main area of the explorer will cause it to 
           be selected, and its details shown in the details pane. If 
           the model element is part of a diagram currently displayed in the 
           editing pane, it will be highlighted there.</para>
+          <para lang="de">
+          	Ein Taste&nbsp;1-Klick im Hauptbereich des Explorers über dem Namen 
+          	eines Modellelementes, welches kein Diagramm ist, wird markiert 
+          	und seine Details im Detailfenster angezeigt. Ist das Modellelement 
+          	Teil eines aktuell im Editierfenster dargestellten Diagrammes, wird 
+          	das Modellelement dort hervorgehoben. 
+          </para>
 
           <note>
 
@@ -27374,6 +27476,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             currently displayed in the Editing Pane, there will be 
             <emphasis>no</emphasis> change of diagram in the Editing 
             Pane.</para>
+            <para lang="de">
+            	Wenn das Modellelement Teil eines, vom aktuell im Editierfenster 
+            	angezeigten, abweichenden Diagrammes ist, gibt es <emphasis>
+            	keine</emphasis> Änderung des Diagrammes im Editierfenster.
+            </para>
 
           </note>
 
@@ -27381,6 +27488,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           context sensitive pop-up menu (see below), button&nbsp;1 click is 
           used to select the menu entry required. button&nbsp;1 click 
           outside the menu area will remove it.</para>
+          <para lang="de">
+          	Wo der Taste&nbsp;2-Klick verwendet wurde, um ein kontextsensitives 
+          	Popup-Menü zu öffnen (siehe nachfolgend), wird der Taste&nbsp;1-
+          	Klick dazu verwendet, den gewünschten Menüeintrag auszuwählen. Ein 
+          	Taste&nbsp;1-Klick ausserhalb des Menübereiches wird diesen 
+          	entfernen.
+          </para>
 
         </sect2>
 
@@ -27388,11 +27502,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Button&nbsp;1 Double Click</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;1-Doppelklick</phrase>
+		  </title>
 
           <para lang="en">This has the effect of a button&nbsp;1 single click, and if 
           the tree item was not a leaf, it will toggle the hierarchy 
           open or close.</para>
+          <para lang="de">
+          	Dies hat den gleichen Effekt wie ein einziger Taste&nbsp;1-Klick. 
+          	Wenn das Baumelement kein Blatt ist, wird es zwischen dem Öffnen und 
+          	Schliessen der Hierarchie hin- und herwechseln.
+          </para>
 
         </sect2>
         
@@ -27400,7 +27520,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Button&nbsp;1 Motion</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;1-Bewegung</phrase>
+		  </title>
           
           <para lang="en">Button&nbsp;1 motion means that you pick up one or more 
           modelelements, and drag them to a new location. 
@@ -27408,32 +27529,57 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           causes ArgoUML to execute some function 
           that depends on where you drop the modelelements. 
           </para>
+          <para lang="de">
+          	Die Taste&nbsp;1-Bewegung bedeutet, dass Sie ein oder mehrere 
+          	Modellelemente nehmen und an eine neue Stelle ziehen. Das Loslassen 
+          	des Modellelementes bewirkt in ArgoUML die Ausführung einiger 
+          	Funktionen. Je nachdem, wo Sie das Modellelement loslassen.
+          </para>
 
           <sect3>
           <title>
 			<phrase lang="en">From Explorer to Explorer</phrase>
-		</title>
-          <para lang="en">
-          Releasing the mouse button above a namespace, 
-          makes the modelelement owned by the namespace.
-          In the Package-centric explorer perspective, this
-          means a straigh-forward drag-and-drop function.
-		  </para>
+			<phrase lang="de">Von Explorer zu Explorer</phrase>
+		  </title>
+	          <para lang="en">
+	          Releasing the mouse button above a namespace, 
+	          makes the modelelement owned by the namespace.
+	          In the Package-centric explorer perspective, this
+	          means a straigh-forward drag-and-drop function.
+			  </para>
+	          <para lang="de">
+	          	Das Loslassen der Maustaste über einem Namensraum bewirkt, dass 
+	          	das Modellelement Teil dieses Namensraumes wird. In der 
+	          	paketorientierten Explorerperspektive bedeutet dies eine 
+	          	einfach ziehen-und-loslassen-Funktion.
+	          </para>
 		  
-		  <para lang="en">Use this drap and drop feature to easily move 
-		  e.g. classes from one package into another.
-		  </para>
+			  <para lang="en">Use this drap and drop feature to easily move 
+			  e.g. classes from one package into another.
+			  </para>
+			  <para lang="de">
+			  	Verwenden Sie diese ziehen-und-loslassen-Eigenschaft, um z.B. 
+			  	Klassen leicht von einem Paket zu einem anderen zu bewegen.
+			  </para>
+			  
 		  </sect3>
 
           <sect3>
           <title>
 			<phrase lang="en">From Explorer to Diagram</phrase>
-		</title>
+			<phrase lang="de">Vom Explorer zum Diagramm</phrase>
+		  </title>
           <para lang="en">Dropping a modelelement on the diagram 
           is the equivalent of the "Add to Diagram" function.
           Hence, if the diagram did not yet show this modelelement, 
           it is added.
 		  </para>
+	          <para lang="de">
+	          	Das Loslassen eines Modellelementes in einem Diagramm enspricht 
+	          	der Funktion "Zum Diagramm hinzufügen". Aus diesem Grund wird es, 
+	          	wenn das Diagramm dieses Modellelement noch nicht darstellt, 
+	          	hinzugefügt.
+	          </para>
 		  
 		  <para lang="en">Use this drap and drop feature e.g. to easily create 
 		  a diagram from imported XMI files. 
@@ -27441,6 +27587,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		  but not any diagram information.
 		  </para>
 		  </sect3>
+			  <para lang="de">
+			  	Verwenden Sie diese ziehen-und-loslassen-Eigenschaft, um z.B. 
+			  	ein Diagramm aus importierten XMI-Dateien zu erstellen. Dieses 
+			  	tun Sie, weil XMI-Dateien zwar alle Modellelemente, aber keine 
+			  	Diagramminformation enthalten.
+			  </para>
 
         </sect2>
         
@@ -27448,13 +27600,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Button&nbsp;2 Actions</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;2-Aktionen</phrase>
+		  </title>
 
           <para lang="en">When used in the the explorer, this will display a 
           selection dependent pop-up menu. Menu entries are highlighted 
           (but not selected) and sub-menus exposed by subsequent mouse 
           motion (without any buttons). Menu entry selection is with 
           button&nbsp;1 or button&nbsp;2.</para>
+          <para lang="de">
+          	Wenn sie im Explorer verwendet werden, werden sie ein 
+          	auswahlabhängiges Popup-Menü anzeigen. Die Menüeinträge sind 
+          	hervorgehoben (aber nicht markiert) und Untermenüs werden durch 
+          	nachfolgende Mausbewegungen geöffnet (ohne irgendwelche Tasten). Die 
+          	Auswahl der Menüeinträge erfolgt mit der Taste&nbsp;1 oder der 
+          	Taste&nbsp;2.
+          </para>
 
         </sect2>
 
@@ -27462,10 +27623,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Button&nbsp;2 Double Click</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;2-Doppelklick</phrase>
+		  </title>
 
           <para lang="en">This has no effect other than that of button&nbsp;2 single 
           click.</para>
+          <para lang="de">
+          	Dies hat keinen anderen Effekt als ein einfacher Taste&nbsp;2-Klick.
+          </para>
 
         </sect2>
 
@@ -27475,13 +27640,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>
 			<phrase lang="en">Keyboard Behavior in the Explorer</phrase>
+			<phrase lang="de">Verhalten der Tastatur im Explorer</phrase>
 		</title>
 
         <para lang="en">All keys active in a tree widget have their normal 
         behaviour.</para>
+        <para lang="de">
+        	Alle in einer Baumverzweigung aktiven Tasten weisen ihr normales 
+        	Verhalten auf.
+        </para>
 
         <para lang="en">When a diagram is selected, pressing Ctrl-C will copy the 
         diagram in GIF format to the system clipboard.</para>
+        <para lang="de">
+        	Wenn ein Diagramm ausgewählt ist, wird das Drücken von Strg-C das 
+        	Diagramm im GIF-Format in die Zwischenablage kopieren.
+        </para>
 
       </sect1>
 
@@ -27489,12 +27663,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>
 			<phrase lang="en">Perspective Selection</phrase>
+			<phrase lang="de">Auswahl der Perspektiven</phrase>
 		</title>
 
         <para lang="en">The model elements in the ArgoUML model may be configured for 
         displaying in the tree by a number of perspectives. To this 
         end, a drop-down at the top allows selection of the explorer 
         perspective.</para>
+        <para lang="de">
+        	Die Modellelemente im ArgoUML-Modell können für die Darstellung in 
+        	der Baumansicht für eine Anzahl von Perspektiven konfiguriert 
+        	werden. Zu diesem Zweck erlaubt ein Pull-down-Menü im oberen Bereich, 
+        	die Auswahl der Explorerperspektive.
+        </para>
 
         <para lang="en">Below that, there is a drop-down to select the ordering 
         of the atifacts within the hierarchy. The two possibilities are 
@@ -27502,9 +27683,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         The former groups all items per type, and sorts them per group 
         alphabetically on the name. The lattter simply sorts on name 
         only.</para>
+        <para lang="de">
+        	Nachfolgend gibt es ein Pull-down-Menü, um die Reihenfolge der 
+        	Elemente innerhalb der Hierarchie auszuwählen. Die zwei Möglichkeiten 
+        	sind: &quot;Nach Typ und Name&quot; und &quot;Nach Name&quot;. Der 
+        	vorherige gruppiert alle Elemente nach ihrem Typ und sortiert diese 
+        	alfabetisch nach ihrem Namen. Der letztere sortiert einfach nur nach 
+        	dem Namen.
+        </para>
 
         <para lang="en">The following explorer perspectives may be selected in 
         the drop-down at the top:</para>
+        <para lang="de">
+        	Die folgenden Explorerperspektiven können in dem obigen Pull-down-
+        	Menü ausgewählt werden:
+        </para>
 
         <itemizedlist>
 
@@ -27515,11 +27708,25 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             top level shows the model. Under this are all the top level 
             packages in the model and all the model elements that are 
             directly in the namespace of the model.</para>
+            <para lang="de">
+            	<literal>Paketorientiert</literal>
+            	(der Standard). Die Hierarchie ist anhand der Pakethierarchie 
+            	organisiert. Die oberste Ebene zeigt das Modell. Darunter 
+            	befinden sich alle auf oberster Ebene befindlichen Pakete des 
+            	Modelles und alle Modellelemente, die sich direkt im Namensraum 
+            	des Modelles befinden.
+            </para>
 
             <para lang="en">Beneath each package are all the model elements that sit 
             within the namespace of that package, including any further 
             sub-packages (which in turn have their own 
             sub-hierarchies).</para>
+            <para lang="de">
+            	Unterhalb eines jeden Paketes befinden sich alle Modellelemente, 
+            	die sich innerhalb des Namensraumes dieses Paketes befinden, 
+            	einschliesslich aller weiteren Sub-Pakete (die widerum ihre 
+            	eigenen Subhierarchien haben können).
+            </para>
 
           </listitem>
 
@@ -27533,6 +27740,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <!-- Got this from 
             http://www.devshed.com/c/a/Practices/Design-with-ArgoUML/3/ -->
             </para>
+            <para lang="de">
+            	<literal>Klassenorientiert</literal>. 
+            	Zeigt Klassen in deren Pakethierarchie, genauso wie Datentypen 
+            	und Elemente von Anwendungsfalldiagrammen. Sie ist der  
+            	paketorientierten Sicht sehr ähnlich, aber sie zeigt keine 
+            	verbundenen oder verknüpften Elemente.
+	            <!-- Got this from 
+	            http://www.devshed.com/c/a/Practices/Design-with-ArgoUML/3/ -->
+            </para>
 
           </listitem>
 
@@ -27544,6 +27760,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             diagram. Model elements that have sub-model elements that do not 
             appear on the diagram have their own hierarchy (for example 
             attributes and operations of classes).</para>
+            <para lang="de">
+            	<literal>Diagrammorientiert</literal>. 
+            	In dieser Sicht umfasst die oberste Ebene alle Diagramme des 
+            	Modelles. Unterhalb eines jeden Diagrammes befindet sich eine 
+            	flache Liste aller Modellelemente des Diagrammes. Modellelemente, 
+            	die Sub-Modellelemente haben, die nicht im Diagramm erscheinen, 
+            	haben ihre eigene Hierarchie (zum Beispiel Attribute und 
+            	Operationen von Klassen).
+            </para>
 
           </listitem>
 
@@ -27554,6 +27779,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             model elements that have no generalization in the model. Those 
             model elements that have specializations have a sub-hierarchy 
             showing the specializations.</para>
+            <para lang="de">
+            	<literal>Vererbungsorientiert</literal>. 
+            	In dieser Sicht zeigt die oberste Ebene das Modell. Unterhalb 
+            	dieser Ebene befinden sich alle Modellelemente, die im Modell 
+            	keine Generalisierung aufweisen. Modellelemente, die eine 
+            	Spezialisierung aufweisen haben eine Sub-Hierarchie, welche die 
+            	Spezialisierungen anzeigt.
+            </para>
 
           </listitem>
 
@@ -27564,6 +27797,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             diagrams and all classes. All classes that have 
             associations have a hierarchy tracking through the 
             associated classes.</para>
+            <para lang="de">
+            	<literal>Klassenassoziationsorientiert</literal>.
+            	In dieser Sicht zeigt die oberste Ebene das Modell. Darunter 
+            	befinden sich alle Diagramme und alle Klassen. Alle Klassen 
+            	mit Assoziationen zeigen die Hierarchie zu den assoziierten 
+            	Klassen. 
+            </para>
 
           </listitem>
 
@@ -27574,6 +27814,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             Nodes, and below these only components that reside on the 
             nodes, and below these components all elements that reside 
             on the components.</para>
+            <para lang="de">
+            	<literal>Hierarchieorientiert</literal>. 
+            	In dieser Sicht wird das Modell auf der obersten Ebene 
+            	dargestellt, darunter nur Knoten und unter diesen nur 
+            	Komponenten, die auf den Knoten basieren. Und unter diesen 
+            	Komponenten alle Elemente die auf den Komponenten basieren.
+            </para>
 
           </listitem>
 
@@ -27582,15 +27829,32 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para lang="en"><literal>State-centric</literal>. In this view the 
             top level shows all the state machines and all activity 
             graphics associated with classes.</para>
+            <para lang="de">
+            	<literal>Zustandsorientiert</literal>. 
+            	In dieser Sicht zeigt die oberste Ebene alle Zustandsautomaten 
+            	und alle, mit Klassen verknüpften Aktivitätsgrafiken.
+            </para>
 
             <para lang="en">Beneath each state machine is a hierarchy showing the 
             statechart diagram and all of the states. Beneath each state is 
             a list of the transitions in and out of the state.</para>
+            <para lang="de">
+            	Unterhalb jedes Zustandsautomaten befindet sich eine Hierarchie, 
+            	die alle Zustandsübergangsdiagramme und all deren Zustände 
+            	anzeigt.
+            </para>
 
             <para lang="en">Beneath each activity graph is a hierarchy showing 
             the activity diagram and all of the action states. Beneath 
             each action state is a list of the transitions in and out 
             of the action state.</para>
+            <para lang="de">
+            	Unterhalb jeder Aktivitätsgrafik befindet sich eine Hierarchie, 
+            	die das Aktivitätsdiagramm und alle seine Aktionszustände 
+            	anzeigt. Unterhalb jedes Aktionszustandes befindet sich eine 
+            	Liste von in den Aktionszustand ein- und ausgehenden 
+            	Übergängen.
+            </para>
 
           </listitem>
 
@@ -27601,11 +27865,25 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             each state machine is listed the diagrams and all 
             transitions on the diagram, with states being shown as 
             sub-hierarchies under their connected transitions.</para>
+            <para lang="de">
+				<literal>Übergangsorientiert</literal>. 
+				Dies ist sehr ähnlich der <literal>Zustandsorientierten</literal> 
+				Sicht, aber unter jedem Zustandsautomaten sind die Diagramme 
+				und alle im Diagramm befindlichen Übergange aufgelistet, wobei 
+				die Zustände als Subhierarchien unter ihren verknüpften 
+				Übergängen dargestellt werden.
+            </para>
 
             <para lang="en">Similarly under each activity graph is listed the 
             diagrams and all transitions on the diagram, with action 
             states being shown as sub-hierarchies under their connected 
             transitions.</para>
+            <para lang="de">
+            	Unter jedem Aktivitätsgrafen sind die Diagramme und alle 
+            	Übergänge in den Diagrammen aufgelistet, wobei die 
+            	Aktionszustände als Subhierarchien unter ihren verknüpften 
+            	Übergängen dargestellt werden.
+            </para>
 
           </listitem>
           
@@ -27614,11 +27892,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para lang="en"><literal>Composite-centric</literal>. In this 
             view, all modelelements are shown
             according their composition in the UML metamodel.</para>
+            <para lang="de">
+            	<literal>Anordnungsorientiert</literal>. 
+            	In dieser Sicht werden alle Modellelemente entsprechend ihrer 
+            	Anordnung im UML-Metamodell dargestellt.
+            </para>
 
             <para lang="en">This perspective shows far more modelelements 
             then all others - it does not hide anything. 
             Hence, this view is not so user-friendly, but very suited
             for the UML specialist.</para>
+            <para lang="de">
+            	Diese Perspektive zeigt weit mehr Modellelemente als alle 
+            	anderen - sie versteckt nichts. Aus diesem Grund ist diese 
+            	Sicht nicht so anwenderfreundlich, aber sehr nützlich für den 
+            	UML-Spezialisten.
+            </para>
 
           </listitem>
 
@@ -27630,16 +27919,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>
 			<phrase lang="en">Configuring Perspectives</phrase>
+			<phrase lang="de">Perspektiven konfigurieren</phrase>
 		</title>
 
         <para lang="en">The explorer is designed to be user configurable, to 
         allow the designer to view in his or her preferred way.</para>
+        <para lang="de">
+        	Der Explorer ist anwenderkonfigurierbar entworfen worden, um es 
+        	dem Designer zu erlauben, alles auf seine oder ihre präferierte Art 
+        	und Weise anzeigen zu können.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">The Configure Perspectives dialog</phrase>
-		</title>
+			<phrase lang="de">Der Dialog Perspektiven konfigurieren</phrase>
+		  </title>
 
           <para lang="en">button&nbsp;1 click on the &quot;Configure 
           Perspectives&quot; icon (
@@ -27650,12 +27946,26 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           at the top left of the explorer brings up the explorer 
           perspectives dialog (see 
           <xref linkend="fig.ref.navigator_pane_perspectives"/>).</para>
+          <para lang="de">
+          	Ein Taste&nbsp;1-Klick oben links im Explorer auf das Symbol 
+          	&quot;Perspektiven konfigurieren&quot; (
+	          <guiicon>
+	          	<inlinemediaobject>
+	          		<imageobject>
+	          			<imagedata align="center"
+	          				fileref="images/icons/nav_config.gif" format="GIF" />
+	          		</imageobject>
+	          	</inlinemediaobject></guiicon>)
+	          öffnet den Dialog Explorer Perspektiven (siehe 
+	          <xref linkend="fig.ref.navigator_pane_perspectives"/>).
+          </para>
 
           <figure float="1" id="fig.ref.navigator_pane_perspectives">
 
             <title>
-			<phrase lang="en">The Configure Perspectives dialog box</phrase>
-		</title>
+				<phrase lang="en">The Configure Perspectives dialog box</phrase>
+				<phrase lang="de">Der Dialog Perspektiven konfigurieren</phrase>
+		    </title>
 
             <screenshot><mediaobject><imageobject>
             <imagedata align="center"
@@ -27668,9 +27978,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           buttons stacked vertically. Button&nbsp;1 click can be used to 
           select a perspective. You can select only one perspective at 
           a time.</para>
+          <para lang="de">
+          	Die obere Hälfte des Dialoges enthält eine Liste aller aktuell 
+          	definierten Perspektiven und rechts davon eine Reihe von 
+          	untereinander angeordneten Schaltflächen. Der Taste&nbsp;1-Klick 
+          	kann zum Auswählen einer Perspektive verwendet werden. Sie können 
+          	gleichzeitig nur jeweils eine Perspektive auswählen.
+          </para>
 
           <para lang="en">Selecting a perspective reveals a text field above the 
           list, where the name of the perspective can be edited.</para>
+          <para lang="de">
+          	Das Markieren einer Perspektive füllt ein Textfeld oberhalb der 
+          	Liste, in dem der Name der Perspektive editiert werden kann.
+          </para>
 
           <para lang="en">The lower half of the dialog contains two list areas. 
           The one on the left, labeled <literal>
@@ -27680,6 +28001,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           actual rules chosen for the perspective that has been 
           selected in the list of perspectives at the top. In both 
           lists, you can select only one rule at a time.</para>
+          <para lang="de">
+          	Die untere Hälfte des Dialoges enthält zwei Listen. Die eine links,
+          	mit <literal>Regelbibliothek</literal> beschriftet, enthält eine 
+          	Liste der verfügbaren Regeln, die für das Erstellen einer 
+          	Perspektive verwendet werden können. Die eine rechts, mit 
+          	<literal>Ausgewählte Regeln</literal> beschriftet, enthält die, 
+          	für die in der obigen Liste der Perspektiven markierte Perspektive 
+          	aktuell ausgewählten Regeln. In beiden Listen können Sie nur eine 
+          	Regel gleichzeitig auswählen.
+          </para>
 
           <para lang="en">Separating the two areas in the lower half of the 
           dialog are buttons labeled <literal>&gt;&gt;</literal> and 
@@ -27689,18 +28020,42 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           second one transfers the rule selected on the right to the 
           library list on the left&mdash;i.e. it removes a rule from the 
           perspective.</para>
+          <para lang="de">
+          	Als Trennung der beiden Bereiche in der unteren Hälfte des Dialoges 
+          	befinden sich Schaltflächen, die mit <literal>&gt;&gt;</literal> und 
+          <literal>&lt;&lt;</literal> beschriftet sind. Die erste davon 
+          überträgt die in der Biblothek markierte Regel von der linken Liste 
+          in die rechte&mdash; z.B. sie fügt der Perspektive eine Regel hinzu. 
+          Die zweite überträgt die rechts markierte Regel in die Bibliotheksliste 
+          auf der Linken&mdash; z.B. sie entfernt aus der Perspektive eine Regel.
+          </para>
 
           <para lang="en">If you hover the mouse over the horizontal line that 
           separates the two halves of the dialog, then you see it 
           change shape, to indicate that you can grab this line and 
           drag it up or down.</para>
+          <para lang="de">
+          	Wenn Sie die Maus über die horizontale Line bewegen, die die zwei 
+          	Hälften des Dialoges voneinander trennen, dann sehen Sie den 
+          	Änderungscursor, der Ihnen anzeigt, dass Sie diese Linie nehmen und 
+          	nach oben oder unten ziehen können.
+          </para>
 
           <para lang="en">All three titles of the lists show the number of 
           items in the list. ArgoUML V0.26 has 9 default perspectives, 
           and 72 rules in the library to build perspectives from.</para>
+          <para lang="de">
+          	Alle drei Titel der Listen zeigen die Anzahl der in der Liste 
+          	befindlichen Elemente an. ArgoUML Version 0.26 hat 9 
+          	Standardperspektiven und 72 Regeln in der Bibliothek, aus den 
+          	Perspektiven gebildet werden können.
+          </para>
 
           <para lang="en">The buttons at the top right are explained as 
           follows:</para>
+          <para lang="de">
+          	Die Schaltflächen oben rechts sind nachfolgend erklärt:
+          </para>
 
           <itemizedlist>
 
@@ -27709,6 +28064,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="en"><literal>New</literal>. This creates a new 
               perspective from scratch with no rules selected, with an 
               automatically generated name.</para>
+              <para lang="de">
+              	<literal>Neu</literal>. 
+              	Sie erstellt eine grundlegend neue Perspektive ohne Regeln und 
+              	einem automatisch generierten Namen.
+              </para>
 
             </listitem>
 
@@ -27716,6 +28076,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <para lang="en"><literal>Remove</literal>. This removes the 
               selected perspective.</para>
+              <para lang="de">
+              	<literal>Entfernen</literal>. 
+              	Sie entfernt die markierte Perspektive.
+              </para>
 
             </listitem>
 
@@ -27725,6 +28089,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               the selected perspective so it can be used as the basis 
               of a new perspective. The new one is named &quot;Copy 
               of&quot; followed by the original name.</para>
+              <para lang="de">
+              	<literal>Duplizieren</literal>. 
+              	Sie erstellt eine Kopie der markierten Perspektive, so dass 
+              	diese als Basis für eine neue Perspektive genutzt werden kann. 
+              	Die neue wird mit &quot;Kopie von&quot; gefolgt vom Originalnamen 
+              	bezeichnet.
+              </para>
 
             </listitem>
 
@@ -27733,6 +28104,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="en"><literal>Move Up</literal>. This moves the selected 
               perspective one place up in the list. This button is 
               downlighted for the topmost perspective.</para>
+              <para lang="de">
+              	<literal>Nach oben</literal>.
+              	Sie bewegt die markierte Perspektive um einen Platz in der Liste 
+              	nach oben. Bei der obersten Perspektive ist diese Schaltfläche 
+              	deaktiviert.
+              </para>
 
             </listitem>
 
@@ -27741,6 +28118,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="en"><literal>Move Down</literal>. This moves the 
               selected perspective one place down in the list. This 
               button is downlighted for the last perspective.</para>
+              <para lang="de">
+              	<literal>Nach unten</literal>.
+              	Sie bewegt die markierte Perspektive um einen Platz in der Liste 
+              	nach unten. Bei der letzten Perspektive ist diese Schaltfläche 
+              	deaktiviert. 
+              </para>
 
             </listitem>
 
@@ -27749,6 +28132,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para lang="en"><literal>Restore Defaults</literal>. This restores 
               all perspectives and their selected rules to the build-in 
               defaults of ArgoUML.</para>
+              <para lang="de">
+              	<literal>Standards wiederherstellen</literal>. 
+              	Sie stellt alle Perspektiven und deren Regeln auf die eingebauten 
+              	Standards von ArgoUML ein.
+              </para>
 
             </listitem>
 
@@ -27759,11 +28147,26 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           button&nbsp;1 click on this button will close the dialog window. 
           The changes are saved when you exit ArgoUML in 
           the <literal>argo.user.properties</literal> file.</para>
+          <para lang="de">
+          	Ganz unten rechts befindet sich eine Schaltfläche mit der 
+          	Beschriftung <literal>OK</literal>, die verwendet wird, wenn alle 
+          	Änderungen vervollständigt sind. Ein Taste&nbsp;1-Klick auf diese 
+          	Schaltfläche wird den Dialog schliessen. Die Änderungen werden 
+          	in der Datei <literal>argo.user.properties</literal> gespeichert, 
+          	wenn Sie ArgoUML beenden. 
+          </para>
 
           <para lang="en">Then there is the <literal>Cancel</literal> button, 
           which cancels all changes made in the dialog. Pressing the 
           dialog close icon (usually at the top right corner) has the 
           same effect as pressing the cancel button.</para>
+          <para lang="de">
+          	Dann gibt es noch die Schaltfläche <literal>Abbrechen</literal>, die 
+          	alle im Dialog durchgeführten Änderungen aufhebt. Das Betätigen des 
+          	Dialog-Schliessen-Symboles (normalerweise in der oberen rechten 
+          	Ecke) hat den gleichen Effekt, wie das Betätigen der Schaltfläche 
+          	Abbrechen.
+          </para>
 
         </sect2>
 
@@ -27860,6 +28263,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>
 			<phrase lang="en">Context Sensitive Menu</phrase>
+			<phrase lang="de">Das kontextsensitive Menü</phrase>
 		</title>
 
         <para lang="en">Button&nbsp;2 Click over any selected model element in the main 
@@ -33719,6 +34123,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <para lang="en">Suggestion that an association class has a role that 
           refers back directly to itself, which is not permitted.</para>
+
+          <warning>
+
+            <para lang="en">This critic is meaningless in the V0.14 version of 
+            ArgoUML which does not support association classes.</para>
+
+          </warning>
 
         </sect2>
 
