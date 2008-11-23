@@ -27537,10 +27537,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           </para>
 
           <sect3>
-          <title>
-			<phrase lang="en">From Explorer to Explorer</phrase>
-			<phrase lang="de">Von Explorer zu Explorer</phrase>
-		  </title>
+	          <title>
+				<phrase lang="en">From Explorer to Explorer</phrase>
+				<phrase lang="de">Von Explorer zu Explorer</phrase>
+			  </title>
+			  
 	          <para lang="en">
 	          Releasing the mouse button above a namespace, 
 	          makes the modelelement owned by the namespace.
@@ -27565,28 +27566,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		  </sect3>
 
           <sect3>
-          <title>
-			<phrase lang="en">From Explorer to Diagram</phrase>
-			<phrase lang="de">Vom Explorer zum Diagramm</phrase>
-		  </title>
-          <para lang="en">Dropping a modelelement on the diagram 
-          is the equivalent of the "Add to Diagram" function.
-          Hence, if the diagram did not yet show this modelelement, 
-          it is added.
-		  </para>
-	          <para lang="de">
-	          	Das Loslassen eines Modellelementes in einem Diagramm enspricht 
-	          	der Funktion "Zum Diagramm hinzufügen". Aus diesem Grund wird es, 
-	          	wenn das Diagramm dieses Modellelement noch nicht darstellt, 
-	          	hinzugefügt.
-	          </para>
-		  
-		  <para lang="en">Use this drap and drop feature e.g. to easily create 
-		  a diagram from imported XMI files. 
-		  This because XMI files contain all the modelelements, 
-		  but not any diagram information.
-		  </para>
-		  </sect3>
+	          <title>
+				<phrase lang="en">From Explorer to Diagram</phrase>
+				<phrase lang="de">Vom Explorer zum Diagramm</phrase>
+			  </title>
+	          <para lang="en">Dropping a modelelement on the diagram 
+	          is the equivalent of the "Add to Diagram" function.
+	          Hence, if the diagram did not yet show this modelelement, 
+	          it is added.
+			  </para>
+		          <para lang="de">
+		          	Das Loslassen eines Modellelementes in einem Diagramm enspricht 
+		          	der Funktion "Zum Diagramm hinzufügen". Aus diesem Grund wird es, 
+		          	wenn das Diagramm dieses Modellelement noch nicht darstellt, 
+		          	hinzugefügt.
+		          </para>
+			  
+			  <para lang="en">Use this drap and drop feature e.g. to easily create 
+			  a diagram from imported XMI files. 
+			  This because XMI files contain all the modelelements, 
+			  but not any diagram information.
+			  </para>
 			  <para lang="de">
 			  	Verwenden Sie diese ziehen-und-loslassen-Eigenschaft, um z.B. 
 			  	ein Diagramm aus importierten XMI-Dateien zu erstellen. Dieses 
@@ -27594,6 +27594,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 			  	Diagramminformation enthalten.
 			  </para>
 
+		  </sect3>
+		  
         </sect2>
         
         <sect2>
@@ -28268,6 +28270,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <para lang="en">Button&nbsp;2 Click over any selected model element in the main 
         area of the explorer will cause a pop-up menu to appear.</para>
+        <para lang="de">
+        	Ein Taste&nbsp;2-Klick über irgendeinem markierten Modellelement im 
+        	Hauptbereich des Explorers veranlasst, dass ein Popup-Menü erscheint.
+        </para>
         
         <para lang="en">The presence of all these menu entries depends on the 
           selected element(s), 
@@ -28275,42 +28281,87 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           E.g. the "Create ModelElement" submenu is not present 
           on modelelements that are 
           part of a non-editable profile element.</para>
-
+		<para lang="de">
+			Die Präsenz all dieser Menüeinträge hängt von den markierten 
+			Element(en) und anderen Umständen ab.
+			Zum Beispiel das Untermenü "Erstelle Modellelement" ist bei 
+			Modellelementen, die Teil eines nicht editierbaren Profilelementes 
+			sind, nicht vorhanden.
+		</para>
+		
         <sect2>
           <title>
 			<phrase lang="en">Create Diagram</phrase>
+			<phrase lang="de">Erstelle neues</phrase>
 		</title>
           
           <para lang="en">This entry on the pop-up menu opens a choice
             of submenus, one for each diagram type. </para>
+          <para lang="de">
+          	Dieser Eintrag im Popup-Menü öffnet ein Untermenü mit Einträgen für 
+          	jeden Diagrammtyp.
+          </para>
+
           <para lang="en">The namespace of the new diagram 
             will be based on the selected modelelement.</para>
+          <para lang="de">
+          	Der Namensraum des neuen Diagrammes, wird auf dem markierten 
+          	Modellelement basieren.
+          </para>
+
         </sect2>
 
         <sect2>
+        
           <title>
 			<phrase lang="en">Create ModelElement</phrase>
-		</title>
+			<phrase lang="de">Erstelle Modellelement</phrase>
+		  </title>
           
           <!-- Added thanks to issue 1009. -->
           <para lang="en">This entry on the pop-up menu opens a choice
             of submenus, one for each model element. </para>
+          <para lang="de">
+          	Dieser Eintrag im Popup-Menü öffnet eines Auswahl von Untermenüs. 
+          	Eines für jedes Modellelement.
+          </para>
+          
           <para lang="en">The new model element 
             will be composed by the selected modelelement.</para>
+          <para lang="de">
+          	Das neue Modellelement wird aus dem markierten Modellelement 
+          	zusammengesetzt.
+          </para>
+          
           <para lang="en">Selecting multiple elements leads to different menu items, 
             e.g. selecting 2 classes 
             allows the creation of several kinds of relationships.</para>
+          <para lang="de">
+          	Das Markieren mehrerer Elemente führt zu unterschiedlichen Menüs, 
+          	z.B. das Markieren von 2 Klassen, erlaubt das Erzeugen von mehreren 
+          	Beziehungsarten.
+          </para>
+          
         </sect2>
 
         <sect2>
           <title>
 			<phrase lang="en">Copy Diagram to Clipboard as Image</phrase>
+			<phrase lang="de">
+				Kopiere das Diagramm als Bild in die Zwischenablage
+			</phrase>
 		</title>
           
           <para lang="en">This entry on the pop-up menu creates a graphical file,
           in the default graphical format, and puts it on the clipboard of your PC. 
           The graphics can inmediately be pasted into 
           e.g. a requirements document in OpenOffice.Org.</para>
+          <para lang="de">
+          	Dieser Eintrag im Popup-Menü erstellt eine grafische Datei im 
+          	Standard-Grafikformat und bringt es in die Zwischenablage Ihres PC. 
+          	Die Grafik kann unmittelbar darauf in z.B. ein Anforderungsdokument 
+          	in OpenOffice.Org kopiert werden.
+          </para>
           
           <para lang="en">The graphics format and its resolution are determined by 
           ArgoUML's default setting: Select in the menu 
@@ -28319,29 +28370,60 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           The PNG and GIF formats are advised, 
           and the resolution <literal>Standard</literal>.
           </para>
+          <para lang="de">
+          	Das Grafikformat und seine Auflösung werden durch die 
+          	Standardeinstellungen von ArgoUML bestimmt: Wählen Sie das Menü 
+          	<literal>Bearbeiten</literal>, dann <literal>Einstellungen...
+          	</literal> und dann das Register <literal>Umgebung</literal> aus.
+          	Die PNG und GIF-Formate und die Auflösung <literal>Standard
+          	</literal> werden empfohlen.
+          </para>
           
-          <tip><para lang="en">Some applications (such as Doors from Telelogic) 
-          require the background color 
-          of the generated graphics to be adapted (else the image is empty). 
-          This can be done with a tool like IrfanView; 
-          it is as easy as clicking its paste button, 
-          and then its copy button.
-          </para></tip>
+          <tip>
+          
+	          <para lang="en">Some applications (such as Doors from Telelogic) 
+	          require the background color 
+	          of the generated graphics to be adapted (else the image is empty). 
+	          This can be done with a tool like IrfanView; 
+	          it is as easy as clicking its paste button, 
+	          and then its copy button.
+	          </para>
+          	<para lang="de">
+          		Einige Anwendungen (wie z.B. Doors von Telelogic) erfordern es, 
+          		dass die Hintergrundfarbe der generierten Grafik angepasst 
+          		wird (es sei denn, das Bild ist leer). Dies kann mit einem Tool 
+          		wie IrfanView durchgeführt werden; es ist genauso leicht wie 
+          		das Klicken dessen Schaltfläche Einfügen und dann dessen 
+          		Schaltfläche Kopieren.
+          	</para>
+	          
+          </tip>
+          
         </sect2>
          
         <sect2>
 
           <title>
 			<phrase lang="en">Add to Diagram</phrase>
-		</title>
+			<phrase lang="de">Zum Diagramm hinzufügen</phrase>
+		  </title>
 
           <para lang="en">This entry on the pop-up menu appears for any model element 
           that could be added to the diagram in the editing pane.</para>
+          <para lang="de">
+          	Dieser Eintrag im Popup-Menü erscheint bei jedem Modellelement, 
+          	welches dem Diagramm im Editierfenster hinzugefügt werden kann.
+          </para>
 
           <para lang="en">The item can be placed in a diagram by moving the 
           cursor to the editing pane or a spawned editing pane window 
           (where it will appear as a cross) and clicking 
           button&nbsp;1.</para>
+          <para lang="de">
+          	Das Element kann in ein Diagramm durch Bewegen des Cursors in das 
+          	Editierfenster oder ein gedoppeltes Editierfenster (wobei es als 
+          	Kreuz erscheint) und klicken mit der Taste&nbsp;1 plaziert werden.
+          </para>
 
           <caution>
 
@@ -28350,6 +28432,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             model element, and the model element is not present yet in the 
             diagram. ArgoUML will not let you place more than one copy 
             of any particular model element on a diagram.</para>
+            <para lang="de">
+            	Dieser Menüeintrag erscheint nur dann als nicht deaktiviert, 
+            	wenn es das Diagramm im Editierfenster erlaubt, das dieses 
+            	Modellelement enthalten sein darf und das Modellelement sich 
+            	nicht bereits in dem Diagramm befindet. ArgoUML läßt es nicht 
+            	zu, dass Sie mehr als eine Kopie eines bestimmten Modellelementes 
+            	in ein Diagramm plazieren.
+            </para>
 
           </caution>
 
@@ -28358,15 +28448,38 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <sect2>
 
           <title>
-			<phrase lang="en"><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/delete_from_model.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          Delete From Model</phrase>
+			<phrase lang="en">
+				<guiicon>
+					<inlinemediaobject>
+						<imageobject>
+          					<imagedata align="center"
+           						fileref="images/icons/delete_from_model.gif"
+           						format="GIF"/>
+           				</imageobject>
+           			</inlinemediaobject>
+           		</guiicon> 
+          	Delete From Model
+          </phrase>
+			<phrase lang="de">
+				<guiicon>
+					<inlinemediaobject>
+						<imageobject>
+          					<imagedata align="center"
+           						fileref="images/icons/delete_from_model.gif"
+           						format="GIF"/>
+           				</imageobject>
+           			</inlinemediaobject>
+           		</guiicon> 
+          	Aus Modell entfernen
+          </phrase>
 		</title>
 
           <para lang="en">This entry on the pop-up menu appears for any model element 
           that could be deleted from the model.</para>
+          <para lang="de">
+          	Dieser Eintrag im Popup-Menü erscheint bei jedem Modellelement, 
+          	welches aus dem Modell gelöscht werden kann.
+          </para>
 
           <warning>
 
@@ -28374,6 +28487,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             not just from the diagram. To remove the model element just from 
             the diagram, use the edit menu (see 
             <xref linkend="s2.menu_edit_remove_from_diagram"/>).</para>
+            <para lang="de">
+            	Dies löscht das Modellelement vollständig aus dem Modell, nicht 
+            	nur aus dem Diagramm. Um das Modellelement nur aus dem Diagramm 
+            	zu entfernen, benutzen Sie das Bearbeiten-Menü (siehe 
+            	<xref linkend="s2.menu_edit_remove_from_diagram"/>).
+            </para>
 
           </warning>
 
@@ -28383,6 +28502,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             the type of diagram, that might delete all model elements shown 
             on the diagram. To illustrate the differences, consider the 
             following examples:</para>
+            <para lang="de">
+            	Sie können ein Diagramm aus dem Modell entfernen. Je nach Typ 
+            	des Diagrammes, kann das alle Modellelemente löschen, die in 
+            	dem Diagramm angezeigt werden. Um die Unterschiede zu 
+            	illustrieren, betrachten Sie die folgenden Beispiele:
+            </para>
 
             <itemizedlist>
 
@@ -28393,6 +28518,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 the diagram remain present in the model. This because a 
                 class diagram does not &quot;map&quot; on any model element 
                 according the UML standard V1.4.</para>
+                <para lang="de">
+                	Das Löschen eines Klassendiagrammes löscht nicht jedes 
+                	Modellelement, das darin angezeigt wird. Alle Modellelemente 
+                	die im Diagramm angezeigt werden, bleiben im Modell erhalten.
+                	Dies ist so, weil ein Klassendiagramm nicht auf jedes 
+                	Modellelement entsprechend dem UML-Standard V1.4 &quot;
+                	abgebildet&quot; wird.
+                </para>
 
               </listitem>
 
@@ -28403,6 +28536,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 model elements owned by the statemachine. This because a 
                 statechart diagram does &quot;map&quot; into a 
                 StateMachine according the UML standard V1.4.</para>
+                <para lang="de">
+                	Das Löschen eines Zustandsdiagrammes löscht auch den 
+                	Zustandsautomaten, den es repräsentiert und behandelt auch 
+                	alle Modellelemente des Zustandsautomaten auf die gleiche 
+                	Weise. Dies ist so, weil ein Zustandsdiagramm entsprechend 
+                	dem UML-Standard V1.4 nicht auf einen Zustandsautomaten 
+                	&quot;abgebildet&quot; wird.
+                </para>
 
               </listitem>
 
@@ -28416,9 +28557,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Set Source Path... (To be written)</phrase>
+			<phrase lang="de">
+				Einstellen des Quellpfades... (Noch zu beschreiben)
+			</phrase>
 		</title>
 
           <para lang="en">This entry on the pop-up menu ...</para>
+          <para lang="de">Dieser Eintrag im Popup-Menü ...</para>
 
         </sect2>
 
@@ -28426,12 +28571,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Add Package</phrase>
+			<phrase lang="de">Paket hinzufügen</phrase>
 		</title>
 
           <para lang="en">This entry on the pop-up menu is available whenever a 
           model element is selected that may contain a package, e.g. a 
           package. After activating this menu the model element will own a 
           new package.</para>
+          <para lang="de">
+          	Dieser Eintrag im Popup-Menü ist verfügbar, wannimmer ein 
+          	Modellelement markiert ist, das ein Paket enthalten darf, z.B. ein 
+          	Paket. Nach dem Aktivieren dieses Menüs wird das Modellelement ein 
+          	neues Paket enthalten.
+          </para>
 
         </sect2>
 
@@ -28439,10 +28591,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">New Stereotype</phrase>
+			<phrase lang="de">Neuer Stereotyp</phrase>
 		</title>
 
           <para lang="en">This entry on the pop-up menu is available ...
           (to be written)</para>
+          <para lang="de">
+          	Dieser Eintrag im Popup-Menü ist verfügbar ...
+          	(Noch zu beschreiben)
+          </para>
 
         </sect2>
 
@@ -28450,7 +28607,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Add All Classes in Namespace</phrase>
-		</title>
+			<phrase lang="en">Alle Klassen im Namensraum hinzufügen</phrase>
+		  </title>
 
           <para lang="en">This entry on the pop-up menu is available for Class 
           Diagrams only. Activating this menu-item will add all classes 
@@ -28458,6 +28616,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           at the top left corner&mdash;obviously a perfect occasion to use 
           the <quote>Arrange-&gt;Layout</quote> function in the 
           menu.</para>
+          <para lang="de">
+          	Dieser Eintrag im Popup-Menü ist nur bei Klassendiagrammen verfügbar. 
+          	Das Aktivieren dieses Menüeintrages wird alle Klassen des aktuellen 
+          	Namensraumes zum Diagramm hinzufügen. Sie werden in der oberen 
+          	linken Ecke angeordnet; offensichtlich eine günstige Gelegenheit, 
+          	die im Menü befindliche <quote>Anordnen-&gt;Layout</quote>-Funktion 
+          	zu verwenden.
+          </para>
 
         </sect2>
 
@@ -28467,24 +28633,31 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
     <chapter id="ch.ref.editpane">
 
-      <title>
+        <title>
 			<phrase lang="en">The Editing Pane</phrase>
+			<phrase lang="de">Das Editierfenster</phrase>
 		</title>
 
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en"><xref linkend="fig.ref.editing_pane"/> shows the ArgoUML 
         window with the editing pane highlighted.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.editing_pane" />
+        	zeigt das ArgoUML-Fenster mit dem hervorgehobenen Editierfenster.
+        </para>
 
         <figure float="1" id="fig.ref.editing_pane">
 
           <title>
 			<phrase lang="en">Overview of the editing pane</phrase>
-		</title>
+			<phrase lang="de">Überblick über das Editierfenster</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -28497,12 +28670,26 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         You may encounter <quote>drawing pane</quote>, <quote>diagram 
         pane</quote> or <quote>multi-editor pane</quote> in other 
         documentation that is still being updated.</para>
+        <para lang="de">
+        	Darin werden alle Diagramme gezeichnet. In früheren Versionen von 
+        	ArgoUML firmierte dieses Fenster unter verschiedenen Namen. Sie 
+        	werden die Begriffe <quote>Zeichenfenster</quote>, <quote>
+        	Diagrammfenster</quote> oder <quote>Multi-Editorfenster</quote> in 
+        	anderen, noch nicht aktualisierten Dokumentationen vorfinden.
+        </para>
 
         <para lang="en">The pane has a tool bar at the top, and a single tab 
         labeled <literal>As Diagram</literal> at the bottom, which has 
         no function in the 0.20 version of ArgoUML. The main area shows 
         the currently selected diagram, of which the name is shown in 
         the window title bar.</para>
+        <para lang="de">
+        	Das Fenster hat oben eine Werkzeugleiste und unten ein einziges 
+        	mit <literal>Als Diagramm</literal> beschriftetes Register, das in 
+        	Version 0.20 von ArgoUML keine Funktion hat. Der Hauptbereich zeigt 
+        	das aktuell ausgewählte Diagramm, dessen Name in der Titelzeile des 
+        	Fensters angezeigt wird.
+        </para>
 
       </sect1>
 
@@ -28510,17 +28697,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>
 			<phrase lang="en">Mouse Behavior in the Editing Pane</phrase>
+			<phrase lang="de">Das Verhalten der Maus im Editierfenster</phrase>
 		</title>
 
         <para lang="en">Behavior of the mouse in general, and the naming of the 
         buttons is covered in the chapter on the overall user interface 
         (see <xref linkend="ch.ref.ui"/>).</para>
+        <para lang="de">
+        	Das generelle Verhalten der Maus und die Benennung der Tasten ist 
+        	im Kapitel Überblick über die Anwenderschnittstelle ausgeführt (
+        	siehe <xref linkend="ch.ref.ui"/>).
+		</para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Button&nbsp;1 Click</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;1-Klick</phrase>
+		  </title>
 
           <para lang="en">In the tool bar of the editing pane, button&nbsp;1 click is 
           used to select a tool for creating a new model element and adding 
@@ -28528,9 +28722,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           model elements). For most tools, adding a new model element to the 
           diagram is achieved by moving the mouse into the editing area 
           and clicking again.</para>
+          <para lang="de">
+          	In der Symbolleiste des Editierfensters wird der Taste&nbsp;1-Klick 
+          	dazu verwendet, ein Werkzeug für das Erstellen eines neuen 
+          	Modellelementes auszuwählen und dieses dem Diagramm hinzuzufügen (
+          	siehe Doppelklicken zum Erstellen mehrerer Modellelemente). Das 
+          	Hinzufügen eines neuen Modellelementes zum Diagramm wird bei den 
+          	meisten Werkzeugen durch bewegen der Maus in den Editierbereich und 
+          	erneutes klicken bewerkstelligt.
+          </para>
 
           <para lang="en">In the main editing area button&nbsp;1 click is used to 
           select an individual model element.</para>
+          <para lang="de">
+          	Im Haupteditierbereich wird der Taste&nbsp;1-Klick dazu verwendet, 
+          	ein individuelles Modellelement zu markieren.
+          </para>
 
           <para lang="en">Many model elements (e.g. actor, class) show special handles 
           when selected and the mouse hovers over them. These are 
@@ -28543,16 +28750,40 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           the mouse over a selected model element, sometimes different 
           handles are shown, which stand for different relation 
           types.</para>
+          <para lang="de">
+          	Viele Modellelemente (z.B. Akteur, Klasse) zeigen spezielle 
+          	Verhaltensweisen, wenn sie markiert sind und die Maus darüber fährt. 
+          	Diese werden <quote>Auswahl-Aktionsschaltflächen</quote> genannt, 
+          	siehe <xref linkend="s1.ref.edit_pane_selection_action_buttons"/>.
+          	Sie erscheinen an den Seiten, oben und unten und geben einen 
+          	Beziehungstyp an. Klicken auf eine Auswahl-Aktionsschaltfläche 
+          	erstellt eine neues Modellelement mit einer Beziehung des angezeigten 
+          	Typs. Wenn die Umschalttaste gedrückt ist, wenn die Maus über ein 
+          	markiertes Modellelement fährt, werden manchmal unterschiedliche 
+          	Griffe angezeigt. Sie stehen für unterschiedliche Beziehungstypen. 
+          </para>
 
           <para lang="en">Where button&nbsp;2 click has been used to bring up a 
           context sensitive pop-up menu (see below), button&nbsp;1 click is 
           used to select the menu entry required. The pop-up menu will 
           be removed by any button&nbsp;1 click outside of the menu 
           area.</para>
+          <para lang="de">
+          	Wo der Taste&nbsp;2-Klick verwendet wurde, um ein kontextsensitives 
+          	Popup-Menü zu öffnen (siehe unten), wird der Taste&nbsp;1-Klick 
+          	dazu verwendet, den gewünschten Menüeintrag auszuwählen. Das 
+          	Popup-Menü wird durch einen beliebigen Taste&nbsp;1-Klick ausserhalb 
+          	des Menübereiches entfernt.
+          </para>
 
           <para lang="en">There are various more detailed effects, which are 
           discussed under the descriptions of the various tools (see 
           <xref linkend="s1.ref.edit_pane_tool_bar"/>).</para>
+          <para lang="de">
+          	Es gibt verschiedene noch detailliertere Effekte, die in den 
+          	Beschreibungen der verschiedenen Werkzeuge diskutiert werden (siehe 
+	        <xref linkend="s1.ref.edit_pane_tool_bar"/>).
+          </para>
 
         </sect2>
 
@@ -28560,6 +28791,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Button&nbsp;1 Double Click</phrase>
+			<phrase lang="de">Taste&nbsp;1-Doppelklick</phrase>
 		</title>
 
           <para lang="en">When used on the tool bar with a tool to add a 
@@ -28567,14 +28799,31 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           to the drawing area, once for each further button click, 
           until the tool is again selected or another tool 
           chosen.</para>
+          <para lang="de">
+          	Wenn dies in der Werkzeugleiste mit einem Werkzeug zum Hinzufügen 
+          	eines Modellelementes verwendet wird, wird das markierte 
+          	Modellelement dem Zeichenbereich mehrmals hinzugefügt. Einmal für 
+          	jeden weiteren Tastenklick, bis das Werkzeug erneut markiert oder 
+          	ein anderes Werkzeug ausgewählt wird.
+          </para>
 
           <para lang="en">When used within the drawing area on a model element that 
           has sub-components, double click will select the 
           sub-component for editing (creating it if necessary).</para>
+          <para lang="de">
+          	Wenn er innerhalb des Zeichenbereiches auf einem Modellelement mit 
+          	Subkomponenten verwendet wird, wird der Doppelklick die Subkomponente 
+          	zum Editieren auswählen (wenn notwendig, wird eine erstellt).
+          </para>
 
           <para lang="en">For example double clicking over an operation 
           compartment of a class will select the operation. Or create 
           one if there is none yet.</para>
+          <para lang="de">
+          	Das Doppelklicken über einem Operationsbereich einer Klasse wird 
+          	die Operation auswählen. Oder eine erstellen, sofern noch keine 
+          	vorhanden ist.
+          </para>
 
           <para lang="en">A special use is with package model elements on the class 
           diagram. A double click on a package will navigate to the 
@@ -28582,12 +28831,26 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           there is more than one), or will offer to create one for you 
           if there is none. See 
           <xref linkend="fig.ref.edit_add_class_diagram"/></para>
+          <para lang="de">
+          	Eine spezielle Anwendung gibt es mit Paket-Modellelementen im 
+          	Klassendiagramm. Ein Doppelklick auf ein Paket bringt Sie zu dem 
+          	mit einem Paket verknüpften Klassendiagramm (das erste wird erstellt, 
+          	wenn es mehr als eines gibt) oder bietet Ihnen an, eines für Sie zu 
+          	erstellen, wenn keines vorhanden ist. Siehe 
+          	<xref linkend="fig.ref.edit_add_class_diagram"/>
+          </para>
 
           <figure float="1" id="fig.ref.edit_add_class_diagram">
 
             <title>
-			<phrase lang="en">The dialog for adding a new class diagram</phrase>
-		</title>
+				<phrase lang="en">
+					The dialog for adding a new class diagram
+				</phrase>
+				<phrase lang="de">
+	            	Der Dialog für das Hinzufügen eines neuen
+	            	Klassendiagrammes
+				</phrase>
+		    </title>
 
             <screenshot><mediaobject><imageobject>
             <imagedata align="center"
@@ -28601,7 +28864,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Button&nbsp;1 Motion</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;1-Bewegung</phrase>
+		  </title>
 
           <!-- This has never worked AFAIK!
           <para lang="en">When adding a model element using the toolbar, button&nbsp;1 
@@ -28617,19 +28881,43 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           the space between model elements to create articulation points in 
           the connector. This is particularly useful where connectors 
           must loopback on themselves.</para>
+          <para lang="de">
+          	Wo das Modellelement hinzugefügt wurde, wird mit dem Taste&nbsp;1-
+          	Klick über dem abschliessenden Modellelement eine besondere Form 
+          	eines Verbinders mit seinem Endpunkt angezeigt. Der Taste&nbsp;1-
+          	Klick darf auch im Raum zwischen den Modellelementen verwendet 
+          	werden, um Verbindungspunkte an einem Verbinder zu erstellen. 
+          	Dies ist immer dann nützlich, wo Verbinder auf sich selbst erstellt 
+          	werden müssen.
+          </para>
 
           <para lang="en">Over graphical model elements button&nbsp;1 motion will move the 
           model element to a new position.</para>
+          <para lang="de">
+          	Über grafischen Modellelementen wird die Taste&nbsp;1-Bewegung 
+          	das Modellelement an eine neue Position bewegen.
+          </para>
 
           <para lang="en">Graphical model elements that are selected show handles at 
           the corners or ends, and these can be used for 
           re-sizing.</para>
+          <para lang="de">
+          	Grafische, markierte Modellelemente zeigen Griffe an den Ecken oder 
+          	Enden an. Diese können für Größenänderungen verwendet werden.
+          </para>
 
           <para lang="en">Some model elements (e.g. actor, class) show special handles 
           (called <quote>Selection Action Buttons</quote>, see 
           <xref linkend="s1.ref.edit_pane_selection_action_buttons"/>) 
           at the sides, top and bottom, which can be dragged to form 
           types of relationship with other model elements.</para>
+          <para lang="de">
+          	Einige Modellelemente (z.B. Akteur, Klasse) zeigen spezielle Griffe 
+          	(<quote>Auswahl-Aktionsschaltflächen</quote>, siehe 
+          	<xref linkend="s1.ref.edit_pane_selection_action_buttons"/>) 
+          	an den Seiten, oben und unten an, die gezogen werden können, um 
+          	Beziehungstypen zwischen anderen Modellelementen zu bilden.
+          </para>
 
           <para lang="en">Where the model element is some form of connector between 
           other items, button&nbsp;1 motion other than at a handle will 
@@ -28637,29 +28925,60 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           be articulated at that point. This only works when the 
           connecting line is not straight angled. Such new handles can 
           be removed by moving them to the end of the connector.</para>
+          <para lang="de">
+          	Wo das Modellelement eine Form von Verbinder zwischen anderen 
+          	Elementen ist, verursacht die Taste&nbsp;1-Bewegung neben den Griffen 
+          	die Erstellung eines neuen Griffes, der es dem Verbinder erlaubt, 
+          	sich mit diesem Punkt zu verbinden. Dies funktioniert nur, wenn die 
+          	verbindende Linie nicht gerade rechtwinklig ist. Solche neuen Griffe 
+          	können durch das Bewegen auf das Ende des Verbinders entfernt werden.
+          </para>
 
           <para lang="en">There are various more detailed effects, which are 
           discussed under the descriptions of the various tools (see 
           <xref linkend="s1.ref.edit_pane_tool_bar"/>).</para>
+          <para lang="de">
+          	Es gibt verschiedene noch detailliertere Effekt, die in den 
+          	Beschreibungen der verschiedenen Werkzeuge diskutiert werden (siehe 
+          	<xref linkend="s1.ref.edit_pane_tool_bar"/>).
+          </para>
 
         </sect2>
 
         <sect2>
 
           <title>
-			<phrase lang="en">Shift and Ctrl modifiers with Button&nbsp;1</phrase>
-		</title>
+			<phrase lang="en">
+				Shift and Ctrl modifiers with Button&nbsp;1
+			</phrase>
+			<phrase lang="de">
+				Umschalt- und Strg-Veränderungen mit Taste&nbsp;1
+			</phrase>
+		  </title>
 
           <para lang="en">Where multiple selections are to be made, the CTRL key 
           is used with button&nbsp;1 to <emphasis>add</emphasis> unselected 
           model elements to the current selection. Where a model element is 
           already selected, it is removed from the current 
           selection.</para>
+          <para lang="de">
+          	Wo mehrere Markierungen zu erstellen sind, wird die Strg-Taste mit 
+          	der Taste&nbsp;1 verwendet, um unmarkierte Modellelemente den 
+          	aktuell markierten <emphasis>hinzuzufügen</emphasis>. Wo ein 
+          	Modellelement bereits markiert ist, wird es aus der aktuellen 
+          	Markierung entfernt.
+          </para>
 
           <para lang="en">Clicking Button&nbsp;1 while the SHIFT key is pressed, 
           invokes the broom tool, which causes the selected model elements 
           (and any others swept up with them) to be moved with the 
           broom tool (see <xref linkend="s2.ref.edit_layout"/>).</para>
+          <para lang="de">
+          	Klicken auf die Taste&nbsp;1 während die Umschalttaste gedrückt ist, 
+          	aktiviert das Werkzeug Besen. Dieses veranlasst, dass die markierten 
+          	Modellelemente (und alles andere mitbewegt wird) durch den Besen 
+          	verschoben wird (siehe <xref linkend="s2.ref.edit_layout"/>).
+		  </para>
 
         </sect2>
 
@@ -28667,11 +28986,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Alt with Button&nbsp;1 motion</phrase>
-		</title>
+			<phrase lang="de">Alt Gr mit Taste&nbsp;1-Bewegung</phrase>
+		  </title>
 
           <para lang="en">Button&nbsp;1 down anywhere in the diagram while the ALT key 
           is pressed, allows to scroll the canvas in all directions 
           with button&nbsp;1 motion.</para>
+          <para lang="de">
+          	Das Drücken der Taste&nbsp;1 im Diagramm, während die "ALT Gr"-Taste 
+          	gedrückt ist, erlaubt es, die Leinwand mit der Taste&nbsp;1-
+          	Bewegung in alle Richtungen zu scrollen.
+          </para>
 
         </sect2>
 
@@ -28679,7 +29004,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Button&nbsp;2 Actions</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;2-Aktionen</phrase>
+		  </title>
 
           <para lang="en">When used over model elements in the the editing pane, this 
           will display a context dependent pop-up menu. Menu entries 
@@ -28688,11 +29014,25 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           selection is with button&nbsp;1 or button&nbsp;2. See 
           <xref linkend="s1.ref.edit_pane_pop_up"/> for details of the 
           specific pop-up menus.</para>
+          <para lang="de">
+          	Wenn sie über Modellelementen im Editierfenster verwendet wird, wird 
+          	ein kontextabhäniges Popup-Menü erscheinen. Die Menüeinträge sind 
+          	aktiviert (aber nicht ausgewählt) und die Untermenüs werden durch 
+          	die fortgesetzte Mausbewegung aufgeblendet (ohne irgend eine Taste). 
+          	Die Menüeinträge werden mit Taste&nbsp;1 oder Taste&nbsp;2 ausgewählt. 
+          	Details über die spezifischen Popup-Menüs siehe 
+          	<xref linkend="s1.ref.edit_pane_pop_up"/>.
+          </para>
 
           <para lang="en">In case multiple elements are selected, the pop-up menu 
           only appears if all the items are of the same kind. 
           In this case, the 
           functions apply to all selected elements.</para>
+          <para lang="de">
+          	Für den Fall, dass mehrere Elemente markiert sind, erscheint das 
+          	Popup-Menü nur, wenn alle Elemente von der gleichen Art sind. In 
+          	diesem Fall, wirken die Funktionen auf alle markierten Elemente.
+          </para>
 
         </sect2>
 
@@ -28700,10 +29040,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Button&nbsp;2 Double Click</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;2-Doppelklick</phrase>
+		  </title>
 
           <para lang="en">This has no effect other than that of button&nbsp;2 single 
           click.</para>
+          <para lang="de">
+          	Dies hat keinen anderen Effekt als der einfache Taste&nbsp;2-Klick.
+          </para>
 
         </sect2>
 
@@ -28711,10 +29055,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Button&nbsp;2 Motion</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;2-Bewegung</phrase>
+		  </title>
 
           <para lang="en">This is used to select items in a context sensitive 
           menu popped up by use of button&nbsp;2 click.</para>
+          <para lang="de">
+          	Sie wird verwendet, um Elemente in einem mit Hilfe eines 
+          	Taste&nbsp;2-Klicks geöffneten kontextsensitiven Menü zu markieren.
+          </para>
 
         </sect2>
 
@@ -28724,21 +29073,38 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>
 			<phrase lang="en">Keyboard Behavior in the Editing Pane</phrase>
+			<phrase lang="de">
+				Das Verhalten der Tastatur im Editierfenster
+			</phrase>
 		</title>
 
         <para lang="en">Many keyboard shortcuts can be used when the editing pane
         is active, mainly to change the selection or to move across the
         model elements.</para>
+        <para lang="de">
+        	Viele Tastenkürzel können verwendet werden, wenn das Editierfenster 
+        	aktiv ist. Hauptsächlich, um die Markierung zu ändern oder sich 
+        	durch die Modellelemente zu bewegen.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Nudging a model element</phrase>
-		</title>
+			<phrase lang="de">
+				Schrittweises Bewegen eines Modellelementes
+			</phrase>
+		  </title>
 
           <para lang="en">You can nudge a fig by selecting an element and using
           arrow keys. Keeping the shift or the alt key pressed will produce
           a wider movement.</para>
+          <para lang="de">
+          	Sie können ein Gebilde durch das markieren eines Elementes und die 
+          	Verwendung der Pfeiltasten schrittweise bewegen. Das gedrückt 
+          	halten der Umschalt- oder Alt-Taste wird eine grössere Bewegung 
+          	produzieren.
+          </para>
 
         </sect2>
 
@@ -28746,12 +29112,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Moving across the model elements</phrase>
-		</title>
+			<phrase lang="de">Durch die Modellelemente bewegen</phrase>
+		  </title>
 
           <para lang="en">You can select the model element nearer to the selected one by 
           using the arrow keys while clicking the right button of the mouse.
           You can also select the next model element using the tab key, or the
           previous using the ctrl+tab keys.</para>
+          <para lang="de">
+          	Sie können das dem markierten am nächsten stehende Modellelement 
+          	markieren, indem Sie die Pfeiltasten verwenden, während Sie die 
+          	rechte Maustaste anklicken. Sie können auch das nächste Modellelement 
+          	mit Hilfe der Tab-Taste markieren oder das vorhergehende mit Hilfe 
+          	der Strg+Tab-Tasten.
+          </para>
 
         </sect2>
 
@@ -28761,6 +29135,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>
 			<phrase lang="en">The tool bar</phrase>
+			<phrase lang="de">Die Symbolleiste</phrase>
 		</title>
 
         <para lang="en">The toolbar at the top of the editing pane provides the 
@@ -28771,8 +29146,26 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         In general button&nbsp;1 click on any tool selects a tool for one 
         use, before reverting to the default tool, and button&nbsp;1 double 
         click selects a tool for repeated use.</para>
+        <para lang="de">
+        	Die Symbolleiste im oberen Bereich des Editierfensters enthält die 
+        	Hauptfunktionen des Fensters. Das Standardsymbol ist das <literal>
+        	Auswahl</literal>-Werkzeug (
+        	<guiicon>
+        		<inlinemediaobject>
+        			<imageobject>
+        				<imagedata align="center"
+        					fileref="images/icons/select.gif" format="GIF" />
+        			</imageobject>
+        		</inlinemediaobject>
+        	</guiicon>).
+        	Generell wählt ein Taste&nbsp;1-Klick auf irgendein Symbol dieses 
+        	für die einmalige Verwendung aus, bevor es zum Standardsymbol 
+        	zurückkehrt. Und ein Taste&nbsp;1-Doppelklick wählt ein Symbol für 
+        	die wiederholte Nutzung aus.  
+        </para>
 
         <para lang="en">The tools fall into four categories.</para>
+        <para lang="de">Die Symbole fallen in vier Kategorien.</para>
 
         <itemizedlist>
 
@@ -28780,6 +29173,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para lang="en"><emphasis>Layout tools.</emphasis> Provide assistance 
             in laying out model elements on the diagram.</para>
+            <para lang="de">
+            	<emphasis>Layout-Symbole.</emphasis>
+            	Geben Unterstützung bei der Anordnung der Modellelemente im 
+            	Diagramm.
+            </para>
 
           </listitem>
 
@@ -28787,6 +29185,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para lang="en"><emphasis>Annotation tools.</emphasis> Used to 
             annotate model elements on the diagram.</para>
+            <para lang="de">
+            	<emphasis>Kommentierungssymbole.</emphasis>
+            	Werden zum Kommentieren von Modellelementen im Diagramm verwendet.
+            </para>
 
           </listitem>
 
@@ -28794,6 +29196,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para lang="en"><emphasis>Drawing tools.</emphasis> Used to add 
             general graphic objects to diagrams.</para>
+            <para lang="de">
+            	<emphasis>Zeichen-Symbole.</emphasis>
+            	Werden zum Hinzufügen grafischer Objekte in Diagrammen verwendet.
+            </para>
 
           </listitem>
 
@@ -28802,6 +29208,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para lang="en"><emphasis>Diagram specific tools.</emphasis> Used to 
             add UML model elements specific to a particular diagram type to 
             the diagram.</para>
+            <para lang="de">
+            	<emphasis>Diagrammspezifische Symbole.</emphasis>
+            	Werden zum Hinzufügen von diagrammspezifischen 
+            	UML-Modellelementen in das Diagramm verwendet.
+            </para>
 
           </listitem>
 
@@ -28817,15 +29228,30 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         they show the last tool that was activated 
         the previous time ArgoUML was run.
         </para>
+        <para lang="de">
+        	Einige Werkzeuge, die normalerweise nicht so oft verwendet werden, 
+        	sind in ein Pulldown-Menü aufgenommen worden, damit sie in der 
+        	Werkzeugleiste weniger Platz beanspruchen. Siehe z.B. 
+			<xref linkend="fig.ref.edit_graphical_tools"/>.
+			Das Drücken des Symboles auf der rechten Seite des Werkzeuges öffnet 
+			das Pulldown-Menü. Diese Pulldown-Werkzeuge erinnern sich dauerhaft, 
+			welches Werkzeug zuletzt verwendet wurde. Das heißt, wenn ArgoUML 
+			startet zeigen sie das zuletzt aktivierte Werkzeug an.
+        </para>
 
         <sect2 id="s2.ref.edit_layout">
 
           <title>
 			<phrase lang="en">Layout Tools</phrase>
-		</title>
+			<phrase lang="de">Layout-Symbole</phrase>
+		  </title>
 
           <para lang="en">The following two tools are provided in all diagrams in 
           this category.</para>
+          <para lang="de">
+          	Die folgenden beiden Symbole werden in allen Diagrammen dieser 
+          	Kategorie vorausgesetzt.
+          </para>
 
           <itemizedlist>
 
@@ -28843,6 +29269,26 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               control point on a link. Button&nbsp;1 motion on a selected 
               component&apos;s control point will stretch that 
               component&apos;s shape.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/select.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Auswählen</literal>. 
+	              Dieses Symbol sorgt für die generelle Auswahl von 
+	              Modellelementen im Diagramm. Der Taste&nbsp;1-Klick wird ein 
+	              Modellelement markieren. Strg und die Taste&nbsp;1 kann dazu 
+	              verwendet werden, mehrere Modellelemente zu markieren (oder 
+	              die Markierung aufzuheben). Die Taste&nbsp;1-Bewegung wird 
+	              markierte 2D-Elemente bewegen oder hinzufügen und bewegen 
+	              eines neuen Griffes auf einer Verknüpfung. Die 
+	              Taste&nbsp;1-Bewegung auf einem markierten Griff einer 
+	              Komponente wird die Form der Komponente dehnen. 
+			  </para>
 
             </listitem>
 
@@ -28855,13 +29301,36 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               tool provide a <quote>broom</quote> which will sweep all 
               model elements along. This is a very shortcut way of lining 
               things up.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/broom.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <emphasis>Besen</emphasis>. Die Taste&nbsp;1-Bewegung mit 
+	              diesem Symbol liefert einen <quote>Besen</quote>, 
+	              der alle Modellelemente mitnimmt. Dies ist ein sehr schneller 
+	              Weg, Dinge auszurichten. 
+              </para>
 
               <para lang="en">The Broom can also be invoked by using SHIFT with 
               button&nbsp;1 motion when the <literal>Select</literal> tool 
               is in use.</para>
+              <para lang="de">
+              	Der Besen kann auch durch die Umschalttaste mit der 
+              	Taste&nbsp;1-Bewegung ausgelöst werden, wenn das Werkzeug 
+              	<literal>Auswählen</literal> aktiv ist.
+              </para>
 
               <para lang="en">The Broom is discussed at length in its own 
               chapter, see <xref linkend="s1.ref.edit_pane_broom"/>
+              </para>
+              <para lang="de">
+              	Der Besen wird ausführlich in seinem eigenen Kapitel diskutiert, 
+              	siehe <xref linkend="s1.ref.edit_pane_broom"/>
               </para>
 
             </listitem>
@@ -28873,6 +29342,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para lang="en">Additional control of model element layout is provided 
             through the <literal>Arrange</literal> menu (see 
             <xref linkend="s1.ref.menu_arrange"/>).</para>
+            <para lang="de">
+            	Zusätzliche Beeinflussungsmöglichkeiten des Modellelementelayout 
+            	sind über das Menü <literal>Anordnen</literal> verfügbar (siehe  
+            	<xref linkend="s1.ref.menu_arrange"/>).
+            </para>
 
           </tip>
 
@@ -28882,13 +29356,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Annotation Tools</phrase>
-		</title>
+			<phrase lang="de">Kommentierungs-Symbole</phrase>
+		  </title>
 
           <para lang="en">The annotation tool <literal>Comment</literal> (
           <guiicon><inlinemediaobject><imageobject>
           <imagedata align="center" fileref="images/icons/note.gif"
            format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
           is used to add a comment to a selected UML model element.</para>
+          <para lang="de">
+          	  Das Kommentierungs-Symbol <literal>Kommentar</literal> (
+	          <guiicon>
+	          	<inlinemediaobject>
+	          		<imageobject>
+	          			<imagedata align="center"
+	          				fileref="images/icons/note.gif" format="GIF" />
+	          		</imageobject>
+	          	</inlinemediaobject>
+	          </guiicon>)
+	          wird dazu verwendt, einen Kommentar zu einem markierten UML-
+	          Modellelement hinzuzufügen. 
+          </para>
 
           <caution>
 
@@ -28898,15 +29386,33 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             comment. If no element is selected when the comment tool is 
             clicked, then the comment is created and put at the left 
             top corner.</para>
+            <para lang="de">
+            	Wie bei den meisten anderen Werkzeugen verwenden Sie das 
+            	Werkzeug <literal>Auswählen</literal>, um ein Modellelement zu 
+            	markieren und dann den Taste&nbsp;1-Klick auf <literal>Kommentar
+            	</literal>, um einen Kommentar zu erstellen. Wenn kein Element 
+            	markiert ist, wenn das Werkzeug Kommentar angeklickt wird, dann 
+            	wird der Kommetar erstellt und in die linke obere Ecke plaziert.
+            </para>
 
           </caution>
 
           <para lang="en">The comment is created alongside the selected model element, 
           empty by default. The text can be selected with button&nbsp;1 
           double-click and edited from the keyboard.</para>
+          <para lang="de">
+          	Der Kommetar wird neben dem markierten Modellelement erstellt und 
+          	ist standardmäßig leer. Die Texteingabe kann mit einem Taste&nbsp;1-
+          	Doppelklick aktiviert und der Text anschliessend mit Hilfe 
+          	der Tastatur eingegeben werden.
+          </para>
 
           <para lang="en">The UML standard allows comments to be attached to any 
           model element.</para>
+          <para lang="de">
+          	Der UML-Standard erlaubt es, Kommentare zu jedem Modellelement 
+          	hinzuzufügen.
+          </para>
 
           <para lang="en">You can link any comment to aditional elements using 
           the <literal>CommentLink</literal> (
@@ -28915,6 +29421,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
            fileref="images/icons/commentlink.gif"
            format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
           tool.</para>
+          <para lang="de">
+          	Sie können jeden Kommentar mit weiteren Elementen mit Hilfe des 
+          	Symboles <literal>Neue Kommentar-Verknüpfung</literal> (
+	          <guiicon>
+	          	<inlinemediaobject>
+	          		<imageobject>
+	          			<imagedata align="center"
+	          				fileref="images/icons/commentlink.gif" format="GIF" />
+	          		</imageobject>
+	          	</inlinemediaobject>
+	          </guiicon>) 
+          	verbinden.
+          </para>
 
         </sect2>
 
@@ -28922,12 +29441,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Drawing Tools</phrase>
-		</title>
+			<phrase lang="de">Zeichen-Symbole</phrase>
+		  </title>
 
           <para lang="en">These are a series of tools for providing graphical 
           additions to diagrams. Although they are not UML model elements, 
           the UML standard provides for such decoration to improve the 
           readability of diagrams.</para>
+          <para lang="de">
+          	Dies sind eine Reihe von Symbolen, die grafische Zusätze zu 
+          	Diagrammen liefern. Obwohl sie keine UML-Modellelemente sind, erlaubt 
+          	der UML-Standard solche Ausschmückungen, um die Lesbarkeit der 
+          	Diagramme zu verbessern.
+          </para>
 
           <tip>
 
@@ -28935,6 +29461,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             support some of the UML features (such as general purpose 
             notes) that are missing from the current release of 
             ArgoUML.</para>
+            <para lang="de">
+            	Diese Zeichen-Symbole stellen einen nützlichen Weg dar, 
+            	einige der in der aktuellen Release von ArgoUML fehlenden 
+            	UML-Eigenschaften (wie z.B. generelle Zweck-Hinweise )teilweise 
+            	zu unterstützen.
+            </para>
 
           </tip>
 
@@ -28950,12 +29482,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <literal>Select</literal> tool and button&nbsp;1 and re-sized by 
           button&nbsp;1 motion on the handles after they have been 
           selected.</para>
+          <para lang="de">
+          	Acht Symbole sind vorhanden, alle in einem Pulldown-Menü gruppiert. 
+          	Siehe <xref linkend="fig.ref.edit_graphical_tools"/>. Ein 
+          	Taste&nbsp;1-Klick auf das Diagramm wird eine Instanz des grafischen 
+          	Elementes in der gleichen Größe wie das letzte plazieren. Die 
+          	Größe kann durch eine Taste&nbsp;1-Bewegung während des Plazierens 
+          	eingestellt werden. Eine Seite oder Ende des Elementes wird durch 
+          	Taste&nbsp;1-gedrückt die andere Seite oder Ende durch Taste&nbsp;1-
+          	loslassen beeinflusst. Nachdem sie im Diagramm plaziert wurden, 
+          	können die grafischen Elemente mit dem Werkzeug <literal>Auswählen
+          	</literal> und der Taste&nbsp;1 verschoben und in der Größe durch 
+          	eine Taste&nbsp;1-Bewegung über die Griffe nach dem markieren 
+          	verändert werden.
+          </para>
 
           <figure float="1" id="fig.ref.edit_graphical_tools">
 
             <title>
-			<phrase lang="en">The drawing tools selector.</phrase>
-		</title>
+				<phrase lang="en">The drawing tools selector.</phrase>
+				<phrase lang="de">Die Symbolauswahl Zeichen.</phrase>
+		    </title>
 
             <screenshot><mediaobject><imageobject>
             <imagedata align="center"
@@ -28972,6 +29519,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                fileref="images/icons/rectangle.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Rectangle</literal>. Provides a rectangle.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/rectangle.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+              	<literal>Rechteck</literal>. Erzeugt ein Rechteck.
+              </para>
 
             </listitem>
 
@@ -28984,6 +29542,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Rounded Rectangle</literal>. Provides a 
               rectangle with rounded corners. There is no control over 
               the degree of rounding.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/rounded_rectangle.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Abgerundetes Rechteck</literal>. Erzeugt ein Rechteck 
+	              mit abgerundeten Ecken. Der Grad der Rundung kann nicht 
+	              eingestellt werden. 
+              </para>
 
             </listitem>
 
@@ -28994,6 +29566,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                fileref="images/icons/circle.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Circle</literal>. Provides a circle.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/circle.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Kreis</literal>. Erzeugt einen Kreis.
+              </para>
 
             </listitem>
 
@@ -29003,6 +29586,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <imagedata align="center" fileref="images/icons/line.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Line</literal>. Provides a line.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/line.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Gerade</literal>. Erzeugt eine Gerade.
+              </para>
 
             </listitem>
 
@@ -29016,6 +29610,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               horizontally and after typing, the box will shrink to the 
               size of the text. However it can be re-sized by dragging 
               on the corners.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/text.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Text</literal>. Erzeugt ein Textfeld. Der Text wird 
+	              durch markieren des Feldes und schreiben eingegeben. Der 
+	              Text wird nach der Eingabe horizontal zentriert. Das Feld 
+	              passt sich an die Größe des Textes an. Es kann jedoch in der 
+	              Größe durch ziehen an den Ecken verändert werden.
+              </para>
 
             </listitem>
 
@@ -29029,6 +29638,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               points of the polygon are selected by button&nbsp;1 click and 
               the polygon closed with button&nbsp;1 double click (which will 
               link the final point to the first point).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/polygon.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Polygon</literal>. Erzeugt ein Polygon. Die Punkte 
+	              des Polygons werden durch Taste&nbsp;1-Klicks markiert. Das 
+	              Polygon wird durch einen Taste&nbsp;1-Doppelklick 
+	              abgeschlossen (dies verbindet den letzten mit dem ersten 
+	              Punkt).
+              </para>
 
             </listitem>
 
@@ -29042,6 +29666,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               control points of the spline are selected with button&nbsp;1 
               and the last point selected with button&nbsp;1 double 
               click.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/spline.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Segmentierte Linie</literal>. Erzeugt eine 
+	              segmentierte Linie. Die Punkte der segmentierten Linie werden 
+	              mit Taste&nbsp;1-Klicks markiert und der letzte Punkt mit 
+	              einem Taste&nbsp;1-Doppelklick ausgewählt.
+              </para>
 
             </listitem>
 
@@ -29052,6 +29690,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Ink</literal>. Provide a polyline. The points 
               are provided by button&nbsp;1 motion.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/ink.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Punktierte Linie</literal>. Erzeugt eine punktierte 
+	              Linie. Die Punkte werden durch eine Taste&nbsp;1-Bewegung 
+	              erzeugt. 
+              </para>
 
             </listitem>
 
@@ -29063,12 +29714,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Use Case Diagram Specific Tools</phrase>
-		</title>
+			<phrase lang="de">Anwendungsfalldiagrammspezifische Symbole</phrase>
+		  </title>
 
           <para lang="en">Several tools are provided specific to UML model elements on 
           use case diagrams. The detailed properties of these model elements 
           are described in the section on use case diagram model elements 
           (see <xref linkend="ch.ref.entusecase"/>).</para>
+          <para lang="de">
+          	Verschiedene Symbole sind speziell für UML-Modellelemente in 
+          	Anwendungsfalldiagrammen vorhanden. Die detaillierten Eigenschaften 
+          	dieser Modellelemente sind im Abschnitt über Modellelemente von 
+          	Anwendungsfalldiagrammen beschrieben (siehe 
+			<xref linkend="ch.ref.entusecase"/>).
+		  </para>
 
           <itemizedlist>
 
@@ -29081,6 +29740,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               For convenience, when the mouse is over a selected actor 
               it displays two handles to left and right which may be 
               dragged to form association relationships.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/actor.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Akteur</literal>. Für dem Diagramm einen Akteur 
+	              hinzu. Wenn sich die Maus über einem markierten Akteur 
+	              befindet, werden aus Gründen des Komforts links und rechts 
+	              zwei Griffe angezeigt, die gezogen werden können, um 
+	              Assoziationsbeziehungen herzustellen.
+              </para>
 
             </listitem>
 
@@ -29097,6 +29771,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               relationships and two handles top and bottom which may be 
               dragged to form generalization and specialization 
               relationships respectively.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/use_case.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Anwendungsfall</literal>. Fügt dem Diagramm einen 
+	              Anwendungsfall hinzu. Wenn sich die Maus über einem markierten 
+				  Anwendungsfall befindet, werden aus Gründen des Komforts links 
+				  und rechts zwei Griffe angezeigt, die gezogen werden können, 
+				  um Assoziationsbeziehungen herzustellen und zwei Griffe oben 
+				  und unten, die gezogen werden können, um Generalisierungen und 
+				  Spezialisierungen herzustellen.
+              </para>
 
             </listitem>
 
@@ -29116,12 +29807,34 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               and all these three can be <literal>
               bidirectional</literal> or <literal>
               unidirectional</literal>.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/association_plain.gif"
+	             				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziation</literal>. Fügt zwischen zwei 
+	              Modellelementen eine Assoziation mit Hilfe einer Taste&nbsp;1-
+	              Bewegung ein (vom ersten bis zum zweiten Modellelement). Es 
+	              werden hier 6 Assoziationstypen angeboten, siehe 
+	              <xref linkend="fig.ref.edit_association_tools"/>: 
+	              <literal>Assoziation</literal>, <literal>
+	              Aggregation</literal> und <literal>Komposition</literal>, 
+	              und all diese drei können <literal>
+	              bidirektional</literal> oder <literal>
+	              unidirektional</literal> sein.
+              </para>
 
               <figure float="1" id="fig.ref.edit_association_tools">
 
                 <title>
-			<phrase lang="en">The association tool selector.</phrase>
-		</title>
+					<phrase lang="en">The association tool selector.</phrase>
+					<phrase lang="de">Die Symbolauswahl Assoziation.</phrase>
+				</title>
 
                 <screenshot><mediaobject><imageobject>
                 <imagedata align="center"
@@ -29140,6 +29853,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Dependency</literal>. Add a dependency between 
               two model elements selected using button&nbsp;1 motion (from the 
               dependent model element).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/dependency.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Abhängigkeit</literal>. Fügt eine Abhängigkeit 
+	              zwischen zwei Modellelementen mit Hilfe der Taste&nbsp;1-
+	              Bewegung ein (vom abhängigen Modellelement).
+              </para>
 
             </listitem>
 
@@ -29152,6 +29878,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Generalization</literal>. Add a generalization 
               between two model elements selected using button&nbsp;1 motion 
               (from the child to the parent).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/generalization.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Generalisierung</literal>. Fügt eine Generalisierung 
+	              zwischen zwei Modellelementen mit Hilfe der Taste&nbsp;1-
+	              Bewegung ein (vom Kind zu den Eltern).
+              </para>
 
             </listitem>
 
@@ -29164,6 +29904,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Extend</literal>. Add an extend relationship 
               between two model elements selected using button&nbsp;1 motion 
               (from the extended to the extending use case).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/extend.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Extend</literal>. Fügt eine Extend-Beziehung 
+	              zwischen zwei Modellelementen mit Hilfe der Taste&nbsp;1-
+	              Bewegung ein (vom erweiterten zum zu erweiternden 
+	              Anwendungsfall). 
+              </para>
 
             </listitem>
 
@@ -29176,6 +29930,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Include</literal>. Add an include relationship 
               between two model elements selected using button&nbsp;1 motion 
               (from the including to the included use case).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/include.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Include</literal>. Fügt eine Include-Beziehung  
+	              zwischen zwei Modellelementen mit Hilfe der Taste&nbsp;1-
+	              Bewegung ein (vom einschliessenden zum eingeschlossenen 
+	              Anwendungsfall). 
+              </para>
 
             </listitem>
 
@@ -29196,11 +29964,38 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Otherwise it may be edited through its property tab, 
               selected through the property tab of the owning use 
               case.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/extension_point.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Erweiterungspunkt hinzufügen</literal>. Einen 
+	              Erweiterungspunkt zu einem markierten Anwendungsfall 
+	              hinzufügen. Dem Erweiterungspunkt wird der Standardname 
+	              <literal>neuerEP</literal> gegeben und der Ort <literal>ort
+	              </literal>. Wo ein Erweiterungspunktbereich angezeigt wird, 
+	              kann der Erweiterungspunkt mit Hilfe eines Taste&nbsp;1-
+	              Doppelklicks und der Tastatur, oder durch markieren mit einem 
+	              Taste&nbsp;1-Klick (nachdem der Anwendungsfall markiert wurde) 
+	              und Verwendung des Registers Eigenschaften editiert werden. 
+	              Ansonsten kann es über sein Register Eigenschaften editiert 
+	              werden, welches über das Register Eigenschaften des 
+	              besitzenden Anwendungsfalles ausgewählt wird.
+              </para>
 
               <note>
 
                 <para lang="en">This tool is grayed out except when a use case is 
                 selected.</para>
+                <para lang="de">
+                	Dieses Werkzeug ist deaktiviert, es sei denn, ein 
+                	Anwendungsfall ist markiert.
+                </para>
 
               </note>
 
@@ -29214,12 +30009,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Class Diagram Specific Tools</phrase>
-		</title>
+			<phrase lang="de">Klassendiagrammspezifische Symbole</phrase>
+		  </title>
 
           <para lang="en">Several tools are provided specific to UML model elements on 
           class diagrams. The detailed properties of these model elements 
           are described in the section on class diagram model elements (see 
           <xref linkend="ch.ref.entclass"/>).</para>
+          <para lang="de">
+          	Einige Symbole sind speziell für UML-Modellelemente in 
+          	Klassendiagrammen gedacht. Die detaillierten Eigenschaften dieser 
+          	Modellelemente sind im Abschnitt über Klassendiagramm-Modellelemente 
+          	beschrieben (siehe <xref linkend="ch.ref.entclass"/>).
+          </para>
 
           <itemizedlist>
 
@@ -29231,6 +30033,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Package</literal>. Add a package to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/package.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Paket</literal>. Fügt dem Diagramm ein Paket hinzu.
+              </para>
 
             </listitem>
 
@@ -29248,6 +30061,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               bottom which may be dragged or clicked
               to form generalization and 
               specialization relationships respectively.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/class.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Klasse</literal>. Fügt dem Diagramm eine Klasse hinzu. 
+	              Wenn sich die Maus über einer markierten Klasse befindet, 
+	              werden links und rechts zwei Griffe angezeigt, die angeklickt 
+	              oder gezogen werden können, um eine Assoziations-Beziehung 
+	              herzustellen (oder eine Komposition, sofern die Umschalt-Taste 
+	              gedrückt wurde) und oben und unten zwei Griffe, die angeklickt 
+	              oder gezogen werden können, um eine Generalisierungs- und 
+	              Spezialisierungs-Beziehung herzustellen.
+              </para>
 
             </listitem>
 
@@ -29263,6 +30094,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               types of association offered here, <literal>
               bidirectional</literal> or <literal>
               unidirectional</literal>.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/association_plain.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziation</literal>. Fügt zwischen zwei 
+	              Modellelemente mit Hilfe einer Taste&nbsp;1-Bewegung eine 
+	              Assoziation ein (vom ersten Modellelement zum zweiten). Es 
+	              werden hier 2 Typen von Assoziationen angeboten, die 
+	              <literal>bidirektionale</literal> oder die <literal>
+	              unidirektionale</literal>.
+              </para>
 
             </listitem>
 
@@ -29278,6 +30126,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               types of aggregation offered here, <literal>
               bidirectional</literal> or <literal>
               unidirectional</literal>.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/aggregation_plain.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Aggregation</literal>. Fügt zwischen zwei 
+	              Modellelemente mit Hilfe einer Taste&nbsp;1-Bewegung eine 
+	              Aggregation ein (vom ersten Modellelement zum zweiten). Es 
+	              werden hier 2 Typen von Aggregationen angeboten, die 
+	              <literal>bidirektionale</literal> oder die <literal>
+	              unidirektionale</literal>.
+              </para>
 
             </listitem>
 
@@ -29293,6 +30158,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               types of composition offered here, <literal>
               bidirectional</literal> or <literal>
               unidirectional</literal>.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/composition_plain.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Komposition</literal>. Fügt zwischen zwei 
+	              Modellelemente mit Hilfe einer Taste&nbsp;1-Bewegung eine 
+	              Komposition ein (vom ersten Modellelement zum zweiten). Es 
+	              werden hier 2 Typen von Kompositionen angeboten, die 
+	              <literal>bidirektionale</literal> oder die <literal>
+	              unidirektionale</literal>.
+
+              </para>
 
             </listitem>
 
@@ -29307,6 +30190,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               using button&nbsp;1 (from the 
               association middle to a class, or vice versa).
               This is the way to create so-calld N-ary associations.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/association_end.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziationsende</literal>. Fügt mit Hilfe der 
+	              Taste&nbsp;1 ein anderes Ende zu einer bereits existierenden 
+	              Assoziation ein (von der Assoziation einer Klasse, oder 
+	              umgekehrt). Auf diesem Weg werden sogenannte N-wertige 
+	              Assoziationen erstellt. 
+              </para>
 
             </listitem>
 
@@ -29319,6 +30218,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Generalization</literal>. Add a generalization 
               between two model elements selected using button&nbsp;1 (from the 
               child to the parent).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/generalization.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Generalisierung</literal>. Fügt mit Hilfe der 
+	              Taste&nbsp;1 zwischen zwei Modellelementen eine Generalisierung 
+	              ein (vom Kind zum Vater). 
+              </para>
 
             </listitem>
 
@@ -29333,6 +30246,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               selected interface it displays a handle at the bottom 
               which may be dragged to form a realization relationship 
               (the target being the realizing class).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/interface.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Schnittstelle</literal>. Fügt in das Diagramm eine 
+	              Schnittstelle ein. Wenn sich die Maus über einer markierten 
+	              Schnittstelle befindet, wird unten ein Griff angezeigt, der 
+	              gezogen werden kann, um eine Realisierungs-Beziehung 
+	              herzustellen (das Ziel wird die zu realisierende Klasse). 
+              </para>
 
             </listitem>
 
@@ -29346,6 +30274,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               a class and an interface selected using button&nbsp;1 motion 
               (from the realizing class to the realized 
               interface).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/realization.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Realisierung</literal>. Fügt eine Realisierung mit 
+	              Hilfe einer Taste&nbsp;1-Bewegung zwischen eine Klasse und 
+	              einer Schnittstelle ein (von der realisierenden Klasse zur 
+	              realisierten Schnittstelle).
+              </para>
 
             </listitem>
 
@@ -29371,6 +30313,46 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                with stereotype <literal>Import</literal>, and is used to import
                elements from one package into another.
               </para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/dependency.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Abhängigkeit</literal>. Fügt eine Abhängigkeit mit 
+	              Hilfe einer Taste&nbsp;1-Bewegung  zwischen zwei 
+	              Modellelementen ein (vom abhängigen Modellelement). Es werden 
+	              hier auch 2 spezielle Typen von Abhängigkeiten angeboten, 
+	              <literal>Erlaubnis</literal>
+	              Add a dependency between 
+	              two model elements selected using button&nbsp;1 motion (from the 
+	              dependent model element). There are also 2 special types of 
+	              dependency offered here, <literal>Permission</literal> (
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/permission.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>) 
+	              und <literal>Verwendung</literal> (
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/usage.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>).
+	              Eine <literal>Erlaubnis</literal> wird standardmäßig mit dem 
+	              Stereotyp <literal>Import</literal> erstellt und wird 
+	              verwendet, um Elemente von einem Paket in ein anderes zu 
+	              importieren.
+              </para>
 
             </listitem>
 
@@ -29387,11 +30369,32 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               and using the keyboard, or by selecting with button&nbsp;1 
               click (after the class has been selected) and using the 
               property tab.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/attribute.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Attribut</literal>. Fügt ein Attribut zu der aktuell 
+	              markierten Klasse hinzu. Das Attribut erhält den Standardnamen 
+	              <literal>neuesAttr</literal> vom Typ <literal>int</literal> 
+	              und kann durch einen Taste&nbsp;1-Doppelklick und der Tastatur 
+	              editiert werden oder durch auswählen mit einem Taste&nbsp;1-
+	              Klick (nachdem die Klasse markiert wurde) und anschliessender 
+	              Nutzung des Registers Eigenschaften.
+              </para>
 
               <note>
 
                 <para lang="en">This tool is grayed out except when a class is 
                 selected.</para>
+                <para lang="de">
+                	Dieses Werkzeug ist deaktiviert, außer wenn eine Klasse 
+                	markiert ist.
+                </para>
 
               </note>
 
@@ -29411,11 +30414,33 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               keyboard, or by selecting with button&nbsp;1 click (after the 
               class has been selected) and using the property 
               tab.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/operation.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Operation</literal>. Fügt der aktuell markierten 
+	              Klasse oder Schnittstelle eine Operation hinzu. Die Operation 
+	              erhält den Standardnamen <literal>neueOperation</literal> ohne 
+	              Argumente und dem Rückgabewert <literal>void</literal> und 
+	              kann mit Hilfe eines Taste&nbsp;1-Doppelklicks und der 
+	              Tastatur editiert werden, oder durch auswählen mit einem 
+	              Taste&nbsp;1-Klick (nachdem die Klasse markiert wurde) und der 
+	              Nutzung des Registers Eigenschaften.
+              </para>
 
               <note>
 
                 <para lang="en">This tool is grayed out except when a class or 
                 interface is selected.</para>
+                <para lang="de">
+                	Dieses Werkzeug ist deaktiviert, es sei denn, eine Klasse 
+                	oder eine Schnittstelle ist markiert.
+                </para>
 
               </note>
 
@@ -29431,6 +30456,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Add a new association class 
               between two model elements selected using button&nbsp;1 motion 
               (from the first model element to the second).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/associationclass.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziationsklasse</literal>. Fügt eine neue 
+	              Assoziationsklasse mit Hilfe einer Taste&nbsp;1-Bewegung 
+	              zwischen zwei Modellelemente ein (vom ersten Modellelement 
+	              zum zweiten).
+              </para>
 
             </listitem>
 
@@ -29467,6 +30507,48 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               This eases the creation of "stereotype declaration" diagrams - 
               see the literature on the subject.
               </para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/datatype.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Datentyp</literal>. Fügt in das Diagramm einen 
+	              Datentyp ein. Wenn sich eine Maus über einem markierten 
+	              Datentyp befindet werden oben und unten Griffe angezeigt, die 
+	              angeklickt oder gezogen werden können, um eine 
+	              Generalisierungs-Beziehung herzustellen (das Ziel kann ein 
+	              anderer Datentyp sein). Es sind hier 2 andere Elemente 
+	              verfügbar, 
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/enumeration.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon> 
+	              <literal>Aufzählung</literal>
+	              und
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/stereotype.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon> 
+	              <literal>Stereotyp</literal>.
+	              Diese haben identische Griffe, außer dem oben an einem 
+	              Stereotyp  befindlichen: wenn er angeklickt wird, erstellt er 
+	              eine Metaklasse, die über eine mit &laquo;stereotype&raquo; 
+	              markierte Abhängigkeit verknüpft ist. Dies erleichtert die 
+	              Erstellung von "Stereotyp-Deklarations"-Diagrammen - näheres 
+	              entnehmen Sie bitte der Literatur.
+              </para>
 
             </listitem>
 
@@ -29478,12 +30560,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Sequence Diagram Specific Tools</phrase>
-		</title>
+			<phrase lang="de">Sequenzdiagrammspezifische Symbole</phrase>
+		  </title>
 
           <para lang="en">Seven tools are provided specific to UML model elements on 
           sequence diagrams. The detailed properties of these model elements 
           are described in the section on sequence diagram model elements 
           (see <xref linkend="ch.ref.entseq"/>).</para>
+          <para lang="de">
+          	Sieben Symbole sind speziell für UML-Modellelemente in 
+          	Sequenzdiagrammen vorhanden. Die detaillierten Eigenschaften dieser 
+          	Modellelemente sind im Abschnitt über Sequenzdiagramm-Modellelemente 
+          	beschrieben (siehe <xref linkend="ch.ref.entseq"/>).
+		  </para>
 
           <itemizedlist>
 
@@ -29495,6 +30584,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>ClassifierRole</literal>. Add a classifierrole to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/classifierrole_sd.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Klassifizierte Rolle</literal>. Fügt dem Diagramm 
+	              eine klassifizierte Rolle hinzu. 
+              </para>
 
             </listitem>
 
@@ -29508,6 +30610,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Add a call message 
               between two classifierroles selected using button&nbsp;1 motion (from 
               the originating classifierrole to the receiving classifierrole).
+              </para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/call_action.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Nachricht mit Aufruf einer Aktion</literal>. Fügt 
+	              eine Aufruf-Nachricht zwischen zwei klassifizierten Rollen 
+	              mit Hilfe einer Taste&nbsp;1-Bewegung ein (von der 
+	              verursachenden klassifizierten Rolle zur empfangenden 
+	              klassifizierten Rolle).
               </para>
 
             </listitem>
@@ -29523,6 +30640,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               between two classifierroles selected using button&nbsp;1 motion (from 
               the originating classifierrole to the receiving classifierrole).
               </para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/return_action.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Nachricht mit Antwort-Aktion</literal>. Fügt eine 
+	              Antwort-Nachricht mit Hilfe einer Taste&nbsp;1-Bewegung 
+	              zwischen zwei klassifizierten Rollen ein (von der 
+	              verursachenden klassifizierten Rolle zur empfangenden 
+	              klassifizierten Rolle).
+              </para>
 
             </listitem>
 
@@ -29537,6 +30669,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               between two classifierroles selected using button&nbsp;1 motion (from 
               the originating classifierrole to the receiving classifierrole).
               </para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/create_action.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Nachricht mit einer Erzeugen-Aktion</literal>. Fügt 
+	              eine Erzeugungs-Nachricht mit Hilfe einer Taste&nbsp;1-Bewegung 
+	              zwischen zwei klassifizierten Rollen ein (von der 
+	              verursachenden klassifizierten Rolle zur empfangenden 
+	              klassifizierten Rolle).
+              </para>
 
             </listitem>
 
@@ -29550,6 +30697,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Add a destroy message 
               between two classifierroles selected using button&nbsp;1 motion (from 
               the originating classifierrole to the receiving classifierrole).
+              </para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/destroy_action.gif"
+	              				format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Nachricht mit Destruktions-Aktion</literal>. Fügt eine 
+              Destruktions-Nachricht mit Hilfe einer Taste&nbsp;1-Bewegung 
+              zwischen zwei klassifizierten Rollen ein (von der verursachenden 
+              klassifizierten Rolle zur empfangenden klassifizierten Rolle).
               </para>
 
             </listitem>
@@ -29567,6 +30729,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               the distance which matches the height of the space you'd 
               like to have added.
               </para>
+              <para lang="de">
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/sequence_expand.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Vertikalen Zwischenraum in Diagramm einfügen</literal>. 
+              Fügen Sie vertikalen Zwischenraum in ein Diagramm ein, indem Sie 
+              alle nachfolgenden Nachrichten nach unten 
+              verschieben. Klicken Sie mit der Maus auf den Punkt, wo Sie den 
+              Zwischenraum einfügen wollen und ziehen Sie auf dem Bildschirm 
+              vertikal um den Abstand nach unten, der der Höhe des gewünschten 
+              hinzuzufügenden Zwischenraumes entspricht.
+              </para>
 
             </listitem>
 
@@ -29581,6 +30761,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               below up vertically.  Click and drag the mouse vertically
               over the space that you want deleted.
               </para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/sequence_contract.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Vertikalen Zwischenraum im Diagramm entfernen
+	              </literal>. Entfernt den vertikalen Zwischenraum im Diagramm 
+	              und bewegt alle nachfolgenden Elemente vertikal nach oben. 
+	              Klicken und ziehen Sie die Maus vertikal über den Zwischenraum, 
+	              den Sie löschen wollen.
+              </para>
 
             </listitem>
 
@@ -29592,13 +30788,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Collaboration Diagram Specific Tools</phrase>
-		</title>
+			<phrase lang="de">Kollaborationsdiagrammspezifische Symbole</phrase>
+		  </title>
 
           <para lang="en">Three tools are provided specific to UML model elements on 
           collaboration diagrams. The detailed properties of these 
           model elements are described in the section on collaboration 
           diagram model elements (see <xref linkend="ch.ref.entcollab"/>
           ).</para>
+          <para lang="de">
+          	Drei Symbole sind speziell für UML-Modellelemente in 
+          	Kollaborationsdiagrammen vorhanden. Die detaillierten Eigenschaften 
+          	dieser Modellelemente sind im Abschnitt über Kollaborationsdiagramm-
+          	Modellelemente beschrieben (siehe <xref linkend="ch.ref.entcollab"/>
+          	).
+          </para>
 
           <itemizedlist>
 
@@ -29610,6 +30814,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Classifier Role</literal>. Add a classifier role 
               to the diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/classifier_role.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Klassifizierte Rolle</literal>. Fügt dem Diagramm 
+	              eine klassifizierte Rolle hinzu.
+              </para>
 
             </listitem>
 
@@ -29630,6 +30847,28 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               and all these three can be <literal>
               bidirectional</literal> or <literal>
               unidirectional</literal>.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/association_plain.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziation</literal>. Fügt eine 
+	              Assoziation mit Hilfe einer Taste&nbsp;1-Bewegung 
+	              zwischen zwei klassifizierten Rollen ein (von der 
+	              verursachenden Rolle zur empfangenden Rolle). Es werden hier 
+	              6 Typen von Assoziationen angeboten, siehe 
+	              <xref linkend="fig.ref.edit_association_tools"/>: 
+	              <literal>Assoziation</literal>, <literal>
+	              Aggregation</literal> und <literal>Komposition</literal>, 
+	              und all diese drei können <literal>
+	              bidirektional</literal> oderr <literal>
+	              unidirektional</literal> sein.
+              </para>
 
             </listitem>
 
@@ -29642,6 +30881,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Generalization</literal>. Add a generalization 
               between two model elements selected using button&nbsp;1 (from the 
               child to the parent).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/generalization.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Generalisierung</literal>. Fügt eine Generalisierung 
+	              zwischen zwei Modellelementen ein, die mit der Taste&nbsp;1 
+	              markiert wurden (von Kind zum Vater).
+              </para>
 
             </listitem>
 
@@ -29654,6 +30907,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Dependency</literal>. Add a dependency between 
               two model elements selected using button&nbsp;1 motion (from the 
               dependent model element).</para>
+              <para lang="de">
+	            <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/dependency.gif" format="GIF" />
+	              		</imageobject>
+              		</inlinemediaobject>
+              	</guiicon>
+              	<literal>Abhängigkeit</literal>. Fügt eine Abhängigkeit 
+              	zwischen zwei Modellelementen ein, die mit einer Taste&nbsp;1-
+              	Bewegung markiert wurden (vom abhängigen Modellelement). 
+              </para>
 
             </listitem>
 
@@ -29665,11 +30931,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Add Message</literal>. Add a message to the 
               selected association role.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/message.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Nachricht hinzufügen</literal>. Fügt zum markierten 
+	              Assoziatationstyp eine Nachricht hinzu. 
+              </para>
 
               <note>
 
                 <para lang="en">This tool is grayed out except when an 
                 association role is selected.</para>
+                <para lang="de">
+                	Dieses Werkzeug ist deaktiviert, es sei denn, eine 
+                	Assoziation ist markiert.
+                </para>
 
               </note>
 
@@ -29683,12 +30965,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Statechart Diagram Specific Tools</phrase>
-		</title>
+			<phrase lang="de">Zustandsdiagrammspezifische Symbole</phrase>
+		  </title>
 
           <para lang="en">Eleven tools are provided specific to UML model elements on 
           statechart diagrams. The detailed properties of these model elements 
           are described in the section on statechart diagram model elements 
           (see <xref linkend="ch.ref.entstate"/>).</para>
+          <para lang="de">
+          	Elf Symbole speziell für UML-Modellelemente in Zustandsdiagrammen 
+          	sind vorhanden. Die detaillierten Eigenschaften dieser Modellelemente 
+          	sind im Abschnitt Zustandsdiagramm-Modellelemente beschrieben (siehe 
+          	<xref linkend="ch.ref.entstate"/>).
+		  </para>
 
           <itemizedlist>
 
@@ -29699,6 +30988,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Simple State</literal>. Add a simple state to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Zustand</literal>. Fügt dem Diagramm einen 
+	              Zustand hinzu. 
+              </para>
 
             </listitem>
 
@@ -29712,6 +31013,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               to the diagram. All model elements that are subsequently 
               placed on the diagram on top of the composite state will 
               form part of that composite state.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/composite_state.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Zusammengesetzter Zustand</literal>. Fügt dem Diagramm 
+	              einen zusammengesetzten Zustand hinzu. Alle Modellelemente 
+	              die nachfolgend im Diagramm auf dem zusammengesetzten Zustand 
+	              plaziert werden, werden Teil des zusammengesetzten Zustandes. 
+              </para>
 
             </listitem>
 
@@ -29724,6 +31040,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Transition</literal>. Add a transition between 
               two states selected using button&nbsp;1 motion (from the 
               originating state to the receiving state).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/transition.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Transition (Übergang)</literal>. Fügt eine Transition 
+	              (einen Übergang) mit Hilfe einer Taste&nbsp;1-Bewegung 
+	              zwischen zwei Zuständen ein (von dem verursachenden Zustand zu 
+	              dem empfangenden Zustand). 
+              </para>
 
             </listitem>
 
@@ -29735,6 +31065,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Synch State</literal>. Add a synchstate to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/synchstate.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Synchronistations-Zustand</literal>. Fügt dem 
+	              Diagramm einen Synchronisations-Zustand hinzu. 
+              </para>
 
             </listitem>
 
@@ -29746,6 +31088,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Submachine State</literal>. Add a submachinestate to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/submachinestate.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Teilautomatenzustand</literal>. Fügt dem Diagramm 
+	              einen Teilautomatenzustand hinzu. 
+              </para>
 
             </listitem>
 
@@ -29757,6 +31112,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Stub State</literal>. Add a stubstate to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/stubstate.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Teilzustand</literal>. Fügt dem Diagramm einen 
+	              Teilzustand hinzu. 
+              </para>
 
             </listitem>
 
@@ -29768,6 +31135,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Initial</literal>. Add an initial pseudostate to 
               the diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/initial_state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Startzustand</literal>. Fügt in das Diagramm einen 
+	              Pseudo-Startzustand ein. 
+              </para>
 
               <caution>
 
@@ -29775,6 +31154,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 initial state to a diagram or composite state. However 
                 to do so is meaningless, and one of the critics will 
                 complain.</para>
+                <para lang="de">
+                	Es gibt nichts zu stoppen, wenn Sie dem Diagramm mehr als 
+                	einen Startzustand oder zusammengesetzten Zustand hinzufügen. 
+                	So etwas zu tun ist bedeutungslos und es wird eine der 
+                	Kritiken erscheinen.
+                </para>
 
               </caution>
 
@@ -29788,6 +31173,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Final State</literal>. Add a final state to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/final_state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Endzustand</literal>. Fügt in das Diagramm einen 
+	              Endzustand ein. 
+              </para>
 
             </listitem>
 
@@ -29799,6 +31196,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Junction</literal>. Add a junction pseudostate 
               to the diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/junction.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Kreuzung</literal>. Fügt in das Diagramm einen 
+	              Pseudo-Kreuzungszustand ein. 
+              </para>
 
               <caution>
 
@@ -29806,6 +31215,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 transition and at least one outgoing. ArgoUML does not 
                 enforce this, but an ArgoUML critic will complain about 
                 any junction that does not follow this rule.</para>
+                <para lang="de">
+                	Eine wohlgeformte Kreuzung sollte mindestens eine kommende 
+                	und mindestens ein ausgehende Transition haben. ArgoUML 
+                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	jeder Kreuzung, die dieser Regel nicht folgt.
+                </para>
 
               </caution>
             </listitem>
@@ -29818,6 +31233,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Choice</literal>. Add a choice pseudostate to 
               the diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/branch.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Entscheidung</literal>. Fügt in das Diagramm einen 
+	              Entscheidungs-Pseudozustand ein. 
+              </para>
 
               <caution>
 
@@ -29825,6 +31252,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 transition and at least one outgoing. ArgoUML does not 
                 enforce this, but an ArgoUML critic will complain about 
                 any choice that does not follow this rule.</para>
+                <para lang="de">
+                	Eine wohlgeformte Entscheidung sollte mindestens eine kommende 
+                	und mindestens ein ausgehende Transition haben. ArgoUML 
+                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	jeder Entscheidung, die dieser Regel nicht folgt.
+                </para>
 
               </caution>
 
@@ -29837,6 +31270,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Fork</literal>. Add a fork pseudostate to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/fork.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Gabelung</literal>. Fügt in das Diagramm einen 
+	              Gabelungs-Pseudozustand ein. 
+              </para>
 
               <caution>
 
@@ -29844,6 +31289,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 transition and two or more outgoing. ArgoUML does not 
                 enforce this, but an ArgoUML critic will complain about 
                 any fork that does not follow this rule.</para>
+                <para lang="de">
+                	Eine wohlgeformte Gabelung sollte genau eine kommende 
+                	und und zwei oder mehr ausgehende Transitionen haben. ArgoUML 
+                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	jeder Gabelung, die dieser Regel nicht folgt.
+                </para>
 
               </caution>
 
@@ -29856,6 +31307,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Join</literal>. Add a join pseudostate to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/join.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Vereinigung</literal>. Fügt in das Diagramm einen 
+	              Vereinigungs-Pseudozustand ein. 
+              </para>
 
               <caution>
 
@@ -29863,6 +31326,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 transition and two or more incoming. ArgoUML does not 
                 enforce this, but an ArgoUML critic will complain about 
                 any join that does not follow this rule.</para>
+                <para lang="de">
+                	Eine wohlgeformte Vereinigung sollte genau eine kommende 
+                	und zwei oder mehr ausgehende Transitionen haben. ArgoUML 
+                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	jeder Vereinigung, die dieser Regel nicht folgt.
+                </para>
 
               </caution>
 
@@ -29876,6 +31345,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Shallow History</literal>. Add a shallow history 
               pseudostate to the diagram.</para>
+              <para lang="de">
+	          	<guiicon>
+	              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/shallow_history.gif"
+              				format="GIF" />
+              		</imageobject>
+              	   </inlinemediaobject>
+                </guiicon>
+              	<literal>Flache Historie</literal>. Fügt in ein Diagramm 
+              	eine flache Historie ein. 
+              </para>
 
             </listitem>
 
@@ -29887,6 +31369,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Deep History</literal>. Add a deep history 
               pseudostate to the diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/deep_history.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Tiefgehende Historie</literal>. Fügt in das Diagramm 
+	              eine tiefgehende Historie ein. 
+              </para>
 
             </listitem>
             
@@ -29904,6 +31398,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Change Event</literal>, 
               <literal>Signal Event</literal> and <literal>
               Time Event</literal>.</para>
+              <para lang="de">
+	          	  <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/call_event.gif" format="GIF" />
+	              		</imageobject>
+              	    </inlinemediaobject>
+              	  </guiicon>
+	              <literal>Aufruf-Ereignis</literal>. Fügt einer Transition 
+	              ein Aufruf-Ereignis als Trigger hinzu. Es werden hier 4 
+	              Ereignisarten angeboten: 
+	              <literal>Aufruf-Ereignis</literal>, <literal>
+	              Änderungs-Ereignis</literal>, 
+	              <literal>Signal-Ereignis</literal> und <literal>
+	              Zeit-Ereignis</literal>.
+	          </para>
 
             </listitem>
 
@@ -29915,6 +31426,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Guard</literal>. Add a guard 
               to a transition.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/guard.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Wächter</literal>. Fügt einer Transition einen 
+	              Wächter hinzu. 
+              </para>
 
             </listitem>
 
@@ -29938,6 +31461,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Uninterpreted Action</literal> and 
               <literal>Action Sequence</literal>.
               </para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/call_action.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Aufruf-Aktion</literal>. Fügt einer Transition 
+	              (z.B. einem Effekt) eine Aufruf-Aktion hinzu. Es werden hier 
+	              7 Arten von Aktionen angeboten: 
+	              <literal>Aufruf-Aktion</literal>, 
+	              <literal>Erzeugungs-Aktion</literal>, 
+	              <literal>Zerstören-Aktion</literal>, 
+	              <literal>Antwort-Aktion</literal>, 
+	              <literal>Sende-Aktion</literal>, 
+	              <literal>Beenden-Aktion</literal>, 
+	              <literal>Uninterpretierte Aktion</literal> und 
+	              <literal>Aktionsfolge</literal>.
+              </para>
 
             </listitem>
 
@@ -29949,12 +31493,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Activity Diagram Specific Tools</phrase>
-		</title>
+			<phrase lang="de">Aktivitätsdiagrammspezifische Symbole</phrase>
+		  </title>
 
           <para lang="en">Seven tools are provided specific to UML model elements on 
           activity diagrams. The detailed properties of these model elements 
           are described in the section on activity diagram model elements 
           (see <xref linkend="ch.ref.entactiv"/>).</para>
+          <para lang="de">
+            Es sind sieben Symbole vorhanden, die speziell für UML-
+            Modellelemente in Aktivitätsdiagrammen geschaffen wurden. Die 
+            detaillierten Eigenschaften dieser Modellelemente werden im Abschnitt 
+            Modellelemente in Aktivitätsdiagrammen beschrieben (siehe  
+			<xref linkend="ch.ref.entactiv"/>).
+		  </para>
 
           <itemizedlist>
 
@@ -29966,6 +31518,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Action State</literal>. Add an action state to 
               the diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/action_state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Aktion</literal>. Sie fügen dem Diagramm eine 
+	              Aktion hinzu.
+              </para>
 
             </listitem>
 
@@ -29979,6 +31543,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               two action states selected using button&nbsp;1 motion (from 
               the originating action state to the receiving action 
               state).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/transition.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Transition</literal>. Sie fügen mit Hilfe einer 
+	              Taste&nbsp;1-Bewegung eine Transition zwischen zwei markierten 
+	              Aktionen ein (von der verursachenden 
+	              Aktion zur empfangenden Aktion).
+              </para>
 
             </listitem>
 
@@ -29990,6 +31568,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Initial</literal>. Add an initial pseudostate to 
               the diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/initial_state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Startknoten</literal>. Sie fügen dem Diagramm einen 
+	              Startknoten hinzu. 
+              </para>
 
               <caution>
 
@@ -29997,6 +31587,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 initial state to a diagram. However to do so is 
                 meaningless, and one of the critics will 
                 complain.</para>
+                <para lang="de">
+                	Es gibt nichts, was Sie daran hindert, dem Diagramm mehr 
+                	als einen Startknoten hinzuzufügen. Wenn Sie es doch tun, 
+                	ist es bedeutunglos und es wird eine der Kritiken ausgelöst.
+                </para>
 
               </caution>
 
@@ -30010,6 +31605,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Final State</literal>. Add a final state to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/final_state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Endknoten</literal>. Sie fügen dem Diagramm einen 
+	              Endknoten hinzu.
+              </para>
 
             </listitem>
 
@@ -30021,6 +31628,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Junction</literal>. Add a junction (decision) 
               pseudostate to the diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/junction.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Entscheidungs-/Verbindungsknoten</literal>. Sie fügen 
+	              dem Diagramm einen Entscheidungs-/Verbindungsknoten 
+	              (Entscheidung) hinzu.
+              </para>
 
               <caution>
 
@@ -30028,6 +31648,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 transition and two or more outgoing. ArgoUML does not 
                 enforce this, but an ArgoUML critic will complain about 
                 any junction that does not follow this rule.</para>
+                <para lang="de">
+                	Ein wohlgeformter Entscheidungs-/Verbindungsknoten sollte 
+                	eine eingehende Transition und zwei oder mehrere ausgehende 
+                	Transitionen aufweisen. ArgoUML erzwingt dies nicht, aber 
+                	es wird eine ArgoUML-Kritik bei jedem Entscheidungs-/
+                	Verbindungsknoten ausgelöst, der dieser Regel nicht 
+                	entspricht.
+                </para>
 
               </caution>
 
@@ -30040,6 +31668,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Fork</literal>. Add a fork pseudostate to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/fork.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Gabelung</literal>. Sie fügen dem Diagramm eine
+	              Gabelung hinzu.
+              </para>
 
               <caution>
 
@@ -30047,6 +31687,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 transition and two or more outgoing. ArgoUML does not 
                 enforce this, but an ArgoUML critic will complain about 
                 any fork that does not follow this rule.</para>
+                <para lang="de">
+                	Ein wohlgeformte Gabelung sollte eine eingehende Transition 
+                	und zwei oder mehrere ausgehende Transitionen aufweisen. 
+                	ArgoUML erzwingt dies nicht, aber es wird eine ArgoUML-
+                	Kritik bei jeder Gabelung ausgelöst, die dieser Regel nicht 
+                	entspricht.
+                </para>
 
               </caution>
 
@@ -30059,6 +31706,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Join</literal>. Add a join pseudostate to the 
               diagram.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/join.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Vereinigung</literal>. Sie fügen dem Diagramm eine
+	              Vereinigung hinzu. 
+              </para>
 
               <caution>
 
@@ -30066,6 +31725,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 transition and two or more incoming. ArgoUML does not 
                 enforce this, but an ArgoUML critic will complain about 
                 any join that does not follow this rule.</para>
+                <para lang="de">
+                	Ein wohlgeformte Vereinigung sollte eine eingehende Transition 
+                	und zwei oder mehrere ausgehende Transitionen aufweisen. 
+                	ArgoUML erzwingt dies nicht, aber es wird eine ArgoUML-
+                	Kritik bei jeder Vereinigung ausgelöst, die dieser Regel nicht 
+                	entspricht.
+                </para>
 
               </caution>
 
@@ -30085,6 +31751,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               along with the name of the classifier that
               hosts the operation in parentheses under it.
               </para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/callstate.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Aufrufknoten</literal>. Sie fügen dem Diagramm einen 
+	              Aufrufknoten hinzu.
+	              Ein Aufrufknoten ist eine Aktion, die eine einzelne 
+	              Operation aufruft. Folglich wird der Name der aufzurufenden 
+	              Operation, zusammen mit dem in Klammern stehenden Namen des 
+	              Klassifizierers, der die Operation ausführt, in das Symbol 
+	              geschrieben.
+              </para>
 
             </listitem>
             
@@ -30099,6 +31782,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               An objectflowstate is 
               an object that is input to or output from 
               an action.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/objectflowstate.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Objektknoten</literal>. Sie fügen dem Diagramm einen 
+	              Objektknoten hinzu.
+	              Ein Objektknoten ist ein Objekt, das Eingabe oder 
+	              Ausgabe einer Aktion ist. 
+              </para>
 
             </listitem>
 
@@ -30110,17 +31808,29 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>
 			<phrase lang="en">Deployment Diagram Specific Tools</phrase>
-		</title>
+			<phrase lang="de">Verteilungsdiagrammspezifische Symbole</phrase>
+		  </title>
 
           <para lang="en">Ten tools are provided specific to UML model elements on 
           deployment diagrams. The detailed properties of these 
           model elements are described in the section on deployment diagram 
           model elements (see <xref linkend="ch.ref.entdeploy"/>).</para>
+          <para lang="de">
+          	Zehn Symbole sind speziell für UML-Modellelemente in 
+          	Verteilungsdiagrammen vorhanden. Die detaillierten Eigenschaften 
+          	dieser Modellelemente sind im Abschnitt über Modellelemente in 
+          	Verteilungsdiagrammen beschrieben (siehe 
+			<xref linkend="ch.ref.entdeploy"/>).
+ 		  </para>
 
           <note>
 
             <para lang="en">Remember that ArgoUML&apos;s deployment diagrams are 
             also used for component diagrams.</para>
+            <para lang="de">
+            	Erinnern Sie sich daran, dass ArgoUML&apos;s Verteilungsdiagramme 
+            	auch als Komponentendiagramme verwendet werden.
+            </para>
 
           </note>
 
@@ -30136,6 +31846,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               displays four handles to left, right, top and bottom 
               which may be dragged to form association 
               relationships.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/node.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Knoten</literal>. Sie fügen dem Diagramm einen 
+	              Knoten hinzu. Befindet sich die Maus über einem markierten 
+	              Knoten, zeigt dieser vier Griffe, jeweils einer links, rechts, 
+	              oben und unten. Diese Griffe können auf andere Objekte gezogen 
+	              werden, um Assoziationen einzurichten. 
+              </para>
 
             </listitem>
 
@@ -30150,6 +31875,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               selected node instance it displays four handles to left, 
               right, top and bottom which may be dragged to form link 
               relationships.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/node_instance.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Knoteninstanz</literal>. Sie fügen dem Diagramm eine 
+	              Knoteninstanz hinzu. Befindet sich die Maus über einer 
+	              markierten Knoteninstanz, zeigt diese vier Griffe, jeweils 
+	              einer links, rechts, oben und unten. Diese Griffe können auf 
+	              andere Objekte gezogen werden, um Verknüpfungen einzurichten.
+              </para>
 
             </listitem>
 
@@ -30164,6 +31904,21 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               selected component it displays four handles to left, 
               right, top and bottom which may be dragged to form 
               dependency relationships.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/component.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Komponente</literal>. Sie fügen dem Diagramm eine 
+	              Komponente hinzu. Befindet sich die Maus über einer markierten 
+	              Komponente, zeigt diese vier Griffe, jeweils einer links, rechts, 
+	              oben und unten. Diese Griffe können auf andere Objekte gezogen 
+	              werden, um Abhänigkeiten einzurichten.
+              </para>
 
             </listitem>
 
@@ -30178,6 +31933,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               is over a selected component instance it displays four 
               handles to left, right, top and bottom which may be 
               dragged to form dependency relationships.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/component_instance.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Komponenteninstanz</literal>. Sie fügen dem Diagramm 
+	              eine Komponenteninstanz hinzu. Befindet sich die Maus über 
+	              einer markierten Komponenteninstanz, zeigt diese vier Griffe, 
+	              jeweils einer links, rechts, oben und unten. Diese Griffe 
+	              können auf andere Objekte gezogen werden, um Abhängigkeiten 
+	              einzurichten.
+              </para>
 
             </listitem>
 
@@ -30190,6 +31962,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Generalization</literal>. Add a generalization 
               between two model elements selected using button&nbsp;1 (from the 
               child to the parent).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/generalization.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Generalisierung</literal>. Sie fügen eine 
+	              Generalisierung zwischen zwei, mit der Taste&nbsp;1 markierten 
+	              Modellelementen ein (vom Kind zur Mutter).
+              </para>
 
             </listitem>
 
@@ -30203,6 +31989,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               a class and an interface selected using button&nbsp;1 motion 
               (from the realizing class to the realized 
               interface).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/realization.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Realisierung</literal>. Sie fügen eine Realisierung 
+	              zwischen einer Klasse und einer Schnittstelle ein (von der 
+	              realisierenden Klasse zur realisierten Schnittstelle). 
+              </para>
 
             </listitem>
 
@@ -30215,6 +32014,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Dependency</literal>. Add a dependency between 
               two model elements selected using button&nbsp;1 motion (from the 
               dependent model element).</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/dependency.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Abhängigkeit</literal>. Sie fügen eine Abhängigkeit 
+	              zwischen zwei Modellelementen ein (vom abhängigen 
+	              Modellelement).
+              </para>
 
             </listitem>
 
@@ -30235,6 +32047,28 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               and all these three can be <literal>
               bidirectional</literal> or <literal>
               unidirectional</literal>.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/association_plain.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziation</literal>. Sie fügen eine Assoziation 
+	              zwischen zwei Modellelementen (Knoten, Komponente, Klasse 
+	              oder Schnittstelle) ein (vom ersten Modellelement zum 
+	              zweiten Modellelement) Es gibt 6 Arten von Assoziationen, die 
+	              hier angeboten werden. Siehe  
+	              <xref linkend="fig.ref.edit_association_tools"/>: 
+	              <literal>Assoziation</literal>, <literal>
+	              Aggregation</literal> und <literal>Komposition</literal>, 
+	              und alle diese drei können <literal>
+	              bidirektional</literal> oder <literal>
+	              unidirektional</literal> sein.
+              </para>
 
               <caution>
 
@@ -30242,6 +32076,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 and interfaces must not be navigable 
                 <emphasis>from</emphasis> the interface still applies 
                 on deployment diagrams.</para>
+                <para lang="de">
+                	Die Randbedingung, dass Assoziationen zwischen Klassen und 
+                	Schnittstellen <emphasis>von</emphasis> der Schnittstelle 
+                	nicht navigierbar sein dürfen, gilt auch in 
+                	Verteilungsdiagrammen.
+                </para>
 
               </caution>
 
@@ -30257,6 +32097,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               For convenience, when the mouse is over a selected object 
               it displays four handles to left, right, top and bottom, 
               which may be dragged to form link relationships.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/object.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Objekt</literal>. Sie fügen dem Diagramm ein Objekt 
+	              hinzu. Befindet sich die Maus über 
+	              einem markierten Objekt, zeigt dieses vier Griffe, 
+	              jeweils einer links, rechts, oben und unten. Diese Griffe 
+	              können auf andere Objekte gezogen werden, um Verknüpfungen 
+	              einzurichten.
+              </para>
 
             </listitem>
 
@@ -30268,6 +32124,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <literal>Link</literal>. Add a link between two model elements 
               (node instance, component instance or object) selected 
               using button&nbsp;1 motion.</para>
+              <para lang="de">
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/link.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Verknüpfung</literal>. Sie fügen eine Verknüpfung 
+	              zwischen zwei Modellelementen (Knoteninstanz, 
+	              Komponenteninstanz oder Objekt) ein. 
+              </para>
 
             </listitem>
 
@@ -30281,6 +32150,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>
 			<phrase lang="en">The Broom</phrase>
+			<phrase lang="de">Der Besen</phrase>
 		</title>
 
         <para lang="en">ArgoUML&apos;s broom alignment tool is specialized to 
