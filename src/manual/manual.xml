@@ -3,28 +3,12 @@
 "../docbook-setup/docbookx/docbookx.dtd">
 <!-- $Id$ -->
 <!--
-Copyright (c) 1996-2008 The Regents of the University of California. All
-Rights Reserved. Permission to use, copy, modify, and distribute this
-software and its documentation without fee, and without a written
-agreement is hereby granted, provided that the above copyright notice
-and this paragraph appear in all copies.  This software program and
-documentation are copyrighted by The Regents of the University of
-California. The software program and documentation are supplied "AS
-IS", without any accompanying services from The Regents. The Regents
-does not warrant that the operation of the program will be
-uninterrupted or error-free. The end-user understands that the program
-was developed for research purposes and is advised not to rely
-exclusively on the program for any reason.  IN NO EVENT SHALL THE
-UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
-SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS,
-ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF
-THE UNIVERSITY OF CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGE. THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY
-WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE
-PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE UNIVERSITY OF
-CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT,
-UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+Copyright (c) 1996-2008 by copyright holders as listed below
+in the book/bookinfo/copyright tag. 
+This material may be distributed only subject to 
+the terms and conditions set forth in the Open Publication 
+License, v1.0 or later (the latest version is presently 
+available at http://www.opencontent.org/openpub/.
 -->
 
 
@@ -119,7 +103,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
   		<para lang="en">
 	      	This material may be distributed only subject to the terms 
 	      	and conditions set forth in the Open Publication License, v1.0 or 
-	      	later. A copy of this license is included in the section 
+	      	later.
+            The applied copy of this license is included in the section 
 	      	<link linkend="app.legal">Open Publication License</link>. The 
 	      	latest version is presently available at 
 	      	<ulink url="http://www.opencontent.org/openpub/">
@@ -128,7 +113,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		<para lang="de">
 			Dieses Material darf nur nach den in der Open Publication Lizenz,
 			Version 1.0 oder höher beschriebenen Regeln und Bedingungen
-			weitergegeben werden. Eine Kopie dieser Lizenz finden Sie im
+			weitergegeben werden.
+            <!--  Reformulation in the English wording above not yet translated: -->
+            Eine Kopie dieser Lizenz finden Sie im
 			Abschnitt
 			<link linkend="app.legal">Open Publication License</link>
 			. Die aktuelle Version ist unter
@@ -140,6 +127,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         Este material puede ser distribuido solo sujeto a los terminos y
         condiciones establecidos en la Open Publication License, v1.0 o
         posterior.
+        <!--  Reformulation in the English wording above not yet translated: -->
         Una copia de esta licencia está incluida en la sección
         <link linkend="app.legal">Open Publication License</link>.
         La última versión está actualmente disponible en
@@ -60393,16 +60381,25 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
   <appendix id="app.legal">
 
     <title>
-			<phrase lang="en">Open Publication License</phrase>
-		</title>
+      <phrase lang="en">Open Publication License</phrase>
+    </title>
+    
+    <para>
+      This Appendix contains the applied version of the license 
+      of this User Manual i.e. the Open Publication License v1.0
+      with.
+      The latest version is presently available at 
+      <ulink url="http://www.opencontent.org/openpub/">
+      http://www.opencontent.org/openpub/</ulink>.
+    </para>
 
     <sect1>
 
       <title>
-			<phrase lang="en">Requirements On Both Unmodified And Modified 
-      Versions</phrase>
-		</title>
+        <phrase lang="en">Introduction</phrase>
+      </title>
 
+      <!--  Unmodified from the Open Publication License: -->
       <para lang="en">The Open Publication works may be reproduced and 
       distributed in whole or in part, in any medium physical or 
       electronic, provided that the terms of this license are adhered 
@@ -60410,9 +60407,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       (with any options elected by the author(s) and/or publisher) is 
       displayed in the reproduction.</para>
 
+      <!--  Unmodified from the Open Publication License: -->
       <para lang="en">Proper form for an incorporation by reference is as 
       follows:</para>
 
+      <!--  Unmodified from the Open Publication License: -->
       <blockquote>
 
         <para lang="en">Copyright (c) &lt;year&gt; by &lt;author&apos;s name or 
@@ -60424,13 +60423,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       </blockquote>
 
-      <para lang="en">The reference must be immediately followed with any options 
-      elected by the author(s) and/or publisher of the document (see 
-      section VI).</para>
-
+      <!--  Unmodified from the Open Publication License: -->
       <para lang="en">Commercial redistribution of Open Publication-licensed 
       material is permitted.</para>
 
+      <!--  Unmodified from the Open Publication License: -->
       <para lang="en">Any publication in standard (paper) book form shall require 
       the citation of the original publisher and author. The publisher 
       and author&apos;s names shall appear on all outer surfaces of the 
@@ -60446,6 +60443,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 			<phrase lang="en">Copyright</phrase>
 		</title>
 
+      <!--  Unmodified from the Open Publication License: -->
       <para lang="en">The copyright to each Open Publication is owned by its 
       author(s) or designee.</para>
 
@@ -60457,9 +60455,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 			<phrase lang="en">Scope Of License</phrase>
 		</title>
 
+      <!--  Unmodified from the Open Publication License: -->
       <para lang="en">The following license terms apply to all Open Publication 
       works, unless otherwise explicitly stated in the document.</para>
 
+      <!--  Unmodified from the Open Publication License: -->
       <para lang="en">Mere aggregation of Open Publication works or a portion of 
       an Open Publication work with other works or programs on the same 
       media shall not cause this license to apply to those other works. 
@@ -60467,10 +60467,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       inclusion of the Open Publication material and appropriate 
       copyright notice.</para>
 
+      <!--  Unmodified from the Open Publication License: -->
       <para lang="en">SEVERABILITY. If any part of this license is found to be 
       unenforceable in any jurisdiction, the remaining portions of the 
       license remain in force.</para>
 
+      <!--  Unmodified from the Open Publication License: -->
       <para lang="en">NO WARRANTY. Open Publication works are licensed and 
       provided <quote>as is</quote> without warranty of any kind, 
       express or implied, including, but not limited to, the implied 
@@ -60485,6 +60487,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 			<phrase lang="en">Requirements On Modified Works</phrase>
 		</title>
 
+      <!--  Unmodified from the Open Publication License: -->
       <para lang="en">All modified versions of documents covered by this license, 
       including translations, anthologies, compilations and partial 
       documents, must meet the following requirements:</para>
@@ -60493,12 +60496,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <listitem>
 
+          <!--  Unmodified from the Open Publication License: -->
           <para lang="en">The modified version must be labeled as such.</para>
 
         </listitem>
 
         <listitem>
 
+          <!--  Unmodified from the Open Publication License: -->
           <para lang="en">The person making the modifications must be identified 
           and the modifications dated.</para>
 
@@ -60506,6 +60511,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <listitem>
 
+          <!--  Unmodified from the Open Publication License: -->
           <para lang="en">Acknowledgement of the original author and publisher if 
           applicable must be retained according to normal academic 
           citation practices.</para>
@@ -60514,6 +60520,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <listitem>
 
+          <!--  Unmodified from the Open Publication License: -->
           <para lang="en">The location of the original unmodified document must 
           be identified.</para>
 
@@ -60521,6 +60528,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <listitem>
 
+          <!--  Unmodified from the Open Publication License: -->
           <para lang="en">The original author&apos;s (or authors&apos;) name(s) 
           may not be used to assert or imply endorsement of the 
           resulting document without the original author&apos;s (or 
@@ -60538,6 +60546,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 			<phrase lang="en">Good-Practice Recommendations</phrase>
 		</title>
 
+      <!--  Unmodified from the Open Publication License: -->
       <para lang="en">In addition to the requirements of this license, it is 
       requested from and strongly recommended of redistributors 
       that:</para>
@@ -60546,6 +60555,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <listitem>
 
+          <!--  Unmodified from the Open Publication License: -->
           <para lang="en">If you are distributing Open Publication works on 
           hardcopy or CD-ROM, you provide email notification to the 
           authors of your intent to redistribute at least thirty days 
@@ -60557,6 +60567,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <listitem>
 
+          <!--  Unmodified from the Open Publication License: -->
           <para lang="en">All substantive modifications (including deletions) be 
           either clearly marked up in the document or else described in 
           an attachment to the document.</para>
@@ -60565,6 +60576,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <listitem>
 
+          <!--  Unmodified from the Open Publication License: -->
           <para lang="en">Finally, while it is not mandatory under this license, 
           it is considered good form to offer a free copy of any 
           hardcopy and CD-ROM expression of an Open 
@@ -60573,81 +60585,6 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         </listitem>
 
       </orderedlist>
-
-    </sect1>
-
-    <sect1>
-
-      <title>
-			<phrase lang="en">License Options</phrase>
-		</title>
-
-      <para lang="en">The author(s) and/or publisher of an Open 
-      Publication-licensed document may elect certain options by 
-      appending language to the reference to or copy of the license. 
-      These options are considered part of the license instance and 
-      must be included with the license (or its incorporation by 
-      reference) in derived works.</para>
-
-      <para lang="en">A. To prohibit distribution of substantively modified 
-      versions without the explicit permission of the author(s). 
-      <quote>Substantive modification</quote> is defined as a change to 
-      the semantic content of the document, and excludes mere changes 
-      in format or typographical corrections.</para>
-
-      <para lang="en">To accomplish this, add the phrase <quote>Distribution of 
-      substantively modified versions of this document is prohibited 
-      without the explicit permission of the copyright holder.</quote> 
-      to the license reference or copy.</para>
-
-      <para lang="en">B. To prohibit any publication of this work or derivative 
-      works in whole or in part in standard (paper) book form for 
-      commercial purposes is prohibited unless prior permission is 
-      obtained from the copyright holder.</para>
-
-      <para lang="en">To accomplish this, add the phrase <quote>Distribution of 
-      the work or derivative of the work in any standard (paper) book 
-      form is prohibited unless prior permission is obtained from the 
-      copyright holder.</quote> to the license reference or copy.</para>
-
-    </sect1>
-
-    <sect1>
-
-      <title>
-			<phrase lang="en">Open Publication Policy Appendix:</phrase>
-		</title>
-
-      <para lang="en">(This is not considered part of the license.)</para>
-
-      <para lang="en">Open Publication works are available in source format via 
-      the Open Publication home page at 
-      <ulink url="http://works.opencontent.org/">
-      http://works.opencontent.org/</ulink>.</para>
-
-      <para lang="en">Open Publication authors who want to include their own 
-      license on Open Publication works may do so, as long as their 
-      terms are not more restrictive than the Open Publication 
-      license.</para>
-
-      <para lang="en">If you have questions about the Open Publication License, 
-      please contact <ulink url="mailto:dw2@opencontent.org">David 
-      Wiley</ulink>, and/or the Open Publication Authors&apos; List at 
-      <ulink url="mailto:opal@opencontent.org">
-      opal@opencontent.org</ulink>, via email.</para>
-
-      <para lang="en">To <emphasis>subscribe</emphasis> to the Open Publication 
-      Authors&apos; List: Send E-mail to opal-request@opencontent.org 
-      with the word <quote>subscribe</quote> in the body.</para>
-
-      <para lang="en">To <emphasis>post</emphasis> to the Open Publication 
-      Authors&apos; List: Send E-mail to opal@opencontent.org or simply 
-      reply to a previous post.</para>
-
-      <para lang="en">To <emphasis>unsubscribe</emphasis> from the Open 
-      Publication Authors&apos; List: Send E-mail to 
-      opal-request@opencontent.org with the word 
-      <quote>unsubscribe</quote> in the body.</para>
 
     </sect1>
 
