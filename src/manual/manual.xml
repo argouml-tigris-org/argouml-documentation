@@ -7751,8 +7751,11 @@ available at http://www.opencontent.org/openpub/.
               En general los diagramas son dibujados usando la barra 
               de herramientas del panel de edición para seleccionar 
               el objeto deseado y haciendo click en el diagrama 
-              en la posición requerida como se describe 
-              en <xref linkend="s3.tut.mouse" />. 
+              en la posición requerida 
+              <!-- TODO: correct this language!
+              MVW: I had to remove this next part since it refers to a deleted chapter. -->
+              <!-- como se describe 
+              en <xref linkend="s3.tut.mouse" />-->. 
               Esa sección tambien explica el uso del ratón 
               para redimensionar objetos.
             </para>
@@ -20201,7 +20204,7 @@ available at http://www.opencontent.org/openpub/.
               <xref linkend="s2.ref.menu_zoom"/>
               . Clicking with button&nbsp;1 on the zoom-icon opens a panel 
               as in the figure below.
-              <figure float="1" id="fig.ref.toolbar_zoom">
+              <figure float="1" id="fig.ref.toolbar_zoom_en">
 
                 <title>
 					<phrase lang="en">The Zoom slider on the Toolbar</phrase>
@@ -20233,7 +20236,7 @@ available at http://www.opencontent.org/openpub/.
               <literal>Ansicht</literal> in <xref linkend="s2.ref.menu_zoom"/> 
               beschriebene Fassung. Das Klicken mit der Taste&nbsp;1 auf das 
               Zoom-Symbol öffnet ein Fenster wie im Bild unten dargestellt.
-              <figure float="1" id="fig.ref.toolbar_zoom">
+              <figure float="1" id="fig.ref.toolbar_zoom_de">
 
                 <title>
                 	<phrase>
@@ -57857,9 +57860,15 @@ available at http://www.opencontent.org/openpub/.
     <chapter id="ch.ref.entbuiltin">
 
       <title>
-			<phrase lang="en">Built In DataTypes, Classes, Interfaces and 
-      Stereotypes</phrase>
+			<phrase lang="en">Profiles</phrase>
 		</title>
+
+        <caution>
+
+          <para lang="en">This section used to be called "Built In DataTypes, Classes, Interfaces and 
+      Stereotypes", and has not been updated completely since the introduction of Profiles.</para>
+
+        </caution>
 
       <sect1>
 
@@ -57867,60 +57876,229 @@ available at http://www.opencontent.org/openpub/.
 			<phrase lang="en">Introduction</phrase>
 		</title>
 
-        <para lang="en">This chapter describes the datatypes, classes, interfaces 
-        and stereotypes, which by default, are built in to 
-        ArgoUML.</para>
-
-        <para lang="en">Datatypes, classes and interfaces are generally available 
+        <para lang="en">This chapter describes ArgoUML's built in profiles, 
+		which contain 
+        datatypes, enumerations, classes, interfaces, 
+        stereotypes, tag definitions, and critics.</para>
+        
+        <para lang="en">Datatypes, enumerations, classes and interfaces 
+		are generally available 
         for use anywhere a class may be selected in the properties tab. 
         The most common use is for return type and parameter types in 
         method signatures.</para>
+        
+		<para lang="en">Stereotypes and tag definitions are mostly used 
+		for application specific extensions of the model, 
+		e.g. to distinct elements that need to be implemented differently.
+		</para>
 
-        <sect2>
+		<para lang="en">Critics are included with profiles to support
+		safeguarding constraints specific to the profile's target application.
+		</para>
+		
+        <para lang="en">The model elements in an 
+        UML profile are 
+        organized as a hierarchy beneath a <literal>Model</literal>,
+		but they are not part of your project.
+		Hence, they are loaded separately, and once used, 
+		they need to be present
+		with the project to be able to open it.
+		</para>
 
-          <title>
-			<phrase lang="en">Package Structure</phrase>
-		</title>
-
-          <para lang="en">ArgoUML datatypes, classes and interfaces are 
-          effectively organized as a hierarchy beneath the overall 
-          model itself. They are grouped in four packages, <literal>
-          lang</literal>, <literal>math</literal>, <literal>
-          net</literal> and <literal>util</literal>, themselves 
-          subpackages of <literal>java</literal>, which is a subpackage 
-          of the model itself. <xref linkend="fig.ref.entclasshier"/> 
-          shows this structure.</para>
-
-          <figure float="1" id="fig.ref.entclasshier">
-
-            <title>
-			<phrase lang="en">Hierarchy of datatypes, classes and interfaces 
+        <figure float="1" id="fig.ref.entclasshier">
+            <title><phrase lang="en">Hierarchy of 
+            default profiles      
             within ArgoUML</phrase>
-		</title>
-
+            </title>
             <screenshot><mediaobject><imageobject>
             <imagedata align="center"
              fileref="images/reference/entclasshier.gif"
              format="GIF"/></imageobject></mediaobject></screenshot>
           </figure>
 
+        <para lang="en"> Next to the built in profiles, 
+        ArgoUML makes it possible to create your own profiles, 
+        or use profiles from a third party.
+        </para>
+
+      </sect1>
+		  
+      <sect1>
+
+          <title>
+			<phrase lang="en">The UML 1.4 Standard Elements Profile</phrase>
+		  </title>
+
+        <sect2>
+
+          <title>
+            <phrase lang="en">Datatypes</phrase>
+          </title>
+
+          <para lang="en">These are the UML datatypes. For their definition 
+          refer to the UML standard.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para lang="en"><literal>Integer</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>String</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>UnlimitedInteger</literal></para>
+            </listitem>
+          </itemizedlist>
+
         </sect2>
 
         <sect2>
 
           <title>
-			<phrase lang="en">Exposure in the model</phrase>
-		</title>
+            <phrase lang="en">Enumerations</phrase>
+          </title>
 
-          <para lang="en">You will not find build-in DataTypes, Classes, and 
-          Interfaces exposed within the model by default (i.e. they are 
-          not present in the explorer). However, once you select one of 
-          the built-in DataTypes, Classes, or Interfaces (in the 
-          &quot;Type&quot; combo-box on the property sheet of a 
-          parameter of an operation of a class), then it becomes 
-          visible: you will find that the DataType, Class, or Interface 
-          has appeared in the model, in its correct package stucture 
-          for the latter 2.</para>
+          <para lang="en">These are the UML enumerations. For their definition 
+          refer to the UML standard.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para lang="en"><literal>Boolean</literal></para>
+            </listitem>
+          </itemizedlist>
+
+        </sect2>
+
+
+
+
+      <sect2>
+
+        <title>
+          <phrase lang="en">Stereotypes</phrase>
+        </title>
+
+        <para lang="en">UML 1.4 defines a large number of stereotypes 
+        which are all supported by ArgoUML. 
+        The table below lists all these stereotypes.</para>
+
+        <para lang="en">The UML&nbsp;1.4 standard also specifies many stereotypes in 
+        the chapters <quote>Example Profiles</quote>: one for 
+        <quote>Software Development</quote> and one for 
+        <quote>Business Modeling</quote>. Due to the specialized 
+        nature of these profiles, implementation in ArgoUML is 
+        postponed until a yet undetermined moment.</para>
+
+        <table frame="all">
+
+          <title>
+            <phrase lang="en">Stereotypes defined in UML 1.4 and ArgoUML</phrase>
+          </title>
+
+          <tgroup cols="2">
+
+            <thead>
+
+              <row>
+                <entry><para lang="en"><emphasis>StereoType</emphasis></para></entry>
+                <entry><para lang="en"><emphasis>Base Element</emphasis></para></entry>
+              </row>
+
+            </thead>
+
+            <tbody>
+
+              <row><entry><para lang="en">access</para></entry><entry><para lang="en">Permission</para></entry></row>
+              <row><entry><para lang="en">appliedProfile</para></entry><entry><para lang="en">Package</para></entry></row>
+              <row><entry><para lang="en">association</para></entry><entry><para lang="en">AssociationEnd</para></entry></row>
+              <row><entry><para lang="en">auxiliary</para></entry><entry><para lang="en">Class</para></entry></row>
+              <row><entry><para lang="en">become</para></entry><entry><para lang="en">Flow</para></entry></row>
+              <row><entry><para lang="en">call</para></entry><entry><para lang="en">Usage</para></entry></row>
+              <row><entry><para lang="en">copy</para></entry><entry><para lang="en">Flow</para></entry></row>
+              <row><entry><para lang="en">create</para></entry><entry><para lang="en">BehavioralFeature</para></entry></row>
+              <row><entry><para lang="en">create</para></entry><entry><para lang="en">CallEvent</para></entry></row>
+              <row><entry><para lang="en">create</para></entry><entry><para lang="en">Usage</para></entry></row>
+              <row><entry><para lang="en">derive</para></entry><entry><para lang="en">Abstraction</para></entry></row>
+              <row><entry><para lang="en">destroy</para></entry><entry><para lang="en">BehavioralFeature</para></entry></row>
+              <row><entry><para lang="en">destroy</para></entry><entry><para lang="en">CallEvent</para></entry></row>
+              <row><entry><para lang="en">document</para></entry><entry><para lang="en">Abstraction</para></entry></row>
+              <row><entry><para lang="en">executable</para></entry><entry><para lang="en">Abstraction</para></entry></row>
+              <row><entry><para lang="en">facade</para></entry><entry><para lang="en">Package</para></entry></row>
+              <row><entry><para lang="en">file</para></entry><entry><para lang="en">Abstraction</para></entry></row>
+              <row><entry><para lang="en">focus</para></entry><entry><para lang="en">Class</para></entry></row>
+              <row><entry><para lang="en">framework</para></entry><entry><para lang="en">Package</para></entry></row>
+              <row><entry><para lang="en">friend</para></entry><entry><para lang="en">Permission</para></entry></row>
+              <row><entry><para lang="en">global</para></entry><entry><para lang="en">AssociationEnd</para></entry></row>
+              <row><entry><para lang="en">implementation</para></entry><entry><para lang="en">Class</para></entry></row>
+              <row><entry><para lang="en">implementation</para></entry><entry><para lang="en">Generalization</para></entry></row>
+              <row><entry><para lang="en">implicit</para></entry><entry><para lang="en">Association</para></entry></row>
+              <row><entry><para lang="en">import</para></entry><entry><para lang="en">Permission</para></entry></row>
+              <row><entry><para lang="en">instantiate</para></entry><entry><para lang="en">Usage</para></entry></row>
+              <row><entry><para lang="en">invariant</para></entry><entry><para lang="en">Constraint</para></entry></row>
+              <row><entry><para lang="en">library</para></entry><entry><para lang="en">Abstraction</para></entry></row>
+              <row><entry><para lang="en">local</para></entry><entry><para lang="en">AssociationEnd</para></entry></row>
+              <row><entry><para lang="en">metaclass</para></entry><entry><para lang="en">Class</para></entry></row>
+              <row><entry><para lang="en">metamodel</para></entry><entry><para lang="en">Package</para></entry></row>
+              <row><entry><para lang="en">modelLibrary</para></entry><entry><para lang="en">Package</para></entry></row>
+              <row><entry><para lang="en">parameter</para></entry><entry><para lang="en">AssociationEnd</para></entry></row>
+              <row><entry><para lang="en">postcondition</para></entry><entry><para lang="en">Constraint</para></entry></row>
+              <row><entry><para lang="en">powertype</para></entry><entry><para lang="en">Class</para></entry></row>
+              <row><entry><para lang="en">precondition</para></entry><entry><para lang="en">Constraint</para></entry></row>
+              <row><entry><para lang="en">process</para></entry><entry><para lang="en">Classifier</para></entry></row>
+              <row><entry><para lang="en">profile</para></entry><entry><para lang="en">Package</para></entry></row>
+              <row><entry><para lang="en">realize</para></entry><entry><para lang="en">Abstraction</para></entry></row>
+              <row><entry><para lang="en">refine</para></entry><entry><para lang="en">Abstraction</para></entry></row>
+              <row><entry><para lang="en">requirement</para></entry><entry><para lang="en">Comment</para></entry></row>
+              <row><entry><para lang="en">responsibility</para></entry><entry><para lang="en">Comment</para></entry></row>
+              <row><entry><para lang="en">self</para></entry><entry><para lang="en">AssociationEnd</para></entry></row>
+              <row><entry><para lang="en">send</para></entry><entry><para lang="en">Usage</para></entry></row>
+              <row><entry><para lang="en">signalflow</para></entry><entry><para lang="en">ObjectFlowState</para></entry></row>
+              <row><entry><para lang="en">source</para></entry><entry><para lang="en">Abstraction</para></entry></row>
+              <row><entry><para lang="en">stateInvariant</para></entry><entry><para lang="en">Constraint</para></entry></row>
+              <row><entry><para lang="en">stub</para></entry><entry><para lang="en">Package</para></entry></row>
+              <row><entry><para lang="en">systemModel</para></entry><entry><para lang="en">Package</para></entry></row>
+              <row><entry><para lang="en">table</para></entry><entry><para lang="en">Abstraction</para></entry></row>
+              <row><entry><para lang="en">thread</para></entry><entry><para lang="en">Classifier</para></entry></row>
+              <row><entry><para lang="en">topLevel</para></entry><entry><para lang="en">Package</para></entry></row>
+              <row><entry><para lang="en">trace</para></entry><entry><para lang="en">Abstraction</para></entry></row>
+              <row><entry><para lang="en">type</para></entry><entry><para lang="en">Class</para></entry></row>
+            </tbody>
+
+          </tgroup>
+
+        </table>
+
+        </sect2>
+
+        <sect2>
+
+          <title>
+            <phrase lang="en">Tag Definitions</phrase>
+          </title>
+
+          <para lang="en">These are the built in standard tag definitions. For their definition 
+          refer to the UML standard.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para lang="en"><literal>derived</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>documentation</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>persistence</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>persistent</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>semantics</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>usage</literal></para>
+            </listitem>
+          </itemizedlist>
 
         </sect2>
 
@@ -57928,99 +58106,97 @@ available at http://www.opencontent.org/openpub/.
 
       <sect1>
 
-        <title>
-			<phrase lang="en">Built In Datatypes</phrase>
-		</title>
+          <title>
+			<phrase lang="en">The Java Profile</phrase>
+		  </title>
 
-        <para lang="en">These are the built in atomic types. You can change them 
-        if you wish. However this is not good practice.</para>
+          <para lang="en">The Java profile contains elements that 
+          are not mandated by the UML standard, 
+          and should only be used in a development environment 
+          that makes use of Java.</para>
 
-        <para lang="en">All these can be found in the <literal>
-        java.lang</literal> subpackage of the main model.</para>
+		  <para lang="en">The Java profile is 
+		  effectively organized as a hierarchy beneath in four packages, <literal>
+          lang</literal>, <literal>math</literal>, <literal>
+          net</literal> and <literal>util</literal>, themselves 
+          subpackages of <literal>java</literal>, which is a subpackage 
+          of the model itself. <xref linkend="fig.ref.entclasshierjava"/> 
+          shows this structure.</para>
 
-        <caution>
+          <para lang="en"></para>
+  
+          <figure float="1" id="fig.ref.entclasshierjava">
+              <title><phrase lang="en">Hierarchy of 
+              the Java profile      
+              within ArgoUML</phrase>
+              </title>
+              <screenshot><mediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/reference/entclasshierjava.gif"
+               format="GIF"/></imageobject></mediaobject></screenshot>
+            </figure>
 
-          <para lang="en">You should be aware that these are Java datatypes. They 
-          are not mandated by the UML standard.</para>
 
-        </caution>
+        <sect2>
 
-        <para lang="en">These are the standard datatypes. For their definition 
-        refer to the Java standard.</para>
+          <title>
+			<phrase lang="en">Datatypes</phrase>
+		  </title>
 
-        <itemizedlist>
+          <para lang="en">These are the built in atomic types. You can change them 
+          if you wish. However this is not good practice.</para>
 
-          <listitem>
+          <para lang="en">All these can be found in the <literal>
+          java.lang</literal> subpackage of the main model.</para>
 
-            <para lang="en"><literal>boolean</literal></para>
 
-          </listitem>
+          <para lang="en">These are the standard datatypes. For their definition 
+          refer to the Java standard.</para>
 
-          <listitem>
+          <itemizedlist>
+            <listitem>
+              <para lang="en"><literal>boolean</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>byte</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>char</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>double</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>float</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>int</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>long</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>short</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>void</literal></para>
+            </listitem>
+          </itemizedlist>
 
-            <para lang="en"><literal>byte</literal></para>
+          <note>
 
-          </listitem>
+            <para lang="en"><literal>void</literal> is not strictly speaking a 
+            type, but the absence of type. ArgoUML knows about void and 
+            allows it as an option where a datatype may be 
+            selected.</para>
 
-          <listitem>
+          </note>
+        </sect2>
 
-            <para lang="en"><literal>char</literal></para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="en"><literal>double</literal></para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="en"><literal>float</literal></para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="en"><literal>int</literal></para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="en"><literal>long</literal></para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="en"><literal>short</literal></para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="en"><literal>void</literal></para>
-
-          </listitem>
-
-        </itemizedlist>
-
-        <note>
-
-          <para lang="en"><literal>void</literal> is not strictly speaking a 
-          type, but the absence of type. ArgoUML knows about void and 
-          allows it as an option where a datatype may be 
-          selected.</para>
-
-        </note>
-
-      </sect1>
-
-      <sect1>
+      <sect2>
 
         <title>
-			<phrase lang="en">Built In Classes</phrase>
+			<phrase lang="en">Classes</phrase>
 		</title>
 
         <para lang="en">These are the common classes, corresponding to classes 
@@ -58033,10 +58209,10 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">For a definition of these classes see the Java language 
         and library definitions.</para>
 
-        <sect2>
+        <sect3>
 
           <title>
-			<phrase lang="en">Built In Classes From <literal>
+			<phrase lang="en">Classes From <literal>
           java.lang</literal></phrase>
 		</title>
 
@@ -58044,75 +58220,44 @@ available at http://www.opencontent.org/openpub/.
           java.lang</literal> package.</para>
 
           <itemizedlist>
-
             <listitem>
-
               <para lang="en"><literal>Boolean</literal></para>
-
             </listitem>
-
             <listitem>
-
               <para lang="en"><literal>Byte</literal></para>
-
             </listitem>
-
             <listitem>
-
               <para lang="en"><literal>Char</literal></para>
-
             </listitem>
-
             <listitem>
-
               <para lang="en"><literal>Double</literal></para>
-
             </listitem>
-
             <listitem>
-
               <para lang="en"><literal>Float</literal></para>
-
             </listitem>
-
             <listitem>
-
               <para lang="en"><literal>Integer</literal></para>
-
             </listitem>
-
             <listitem>
-
               <para lang="en"><literal>Long</literal></para>
-
             </listitem>
-
             <listitem>
-
               <para lang="en"><literal>Object</literal></para>
-
             </listitem>
-
             <listitem>
-
               <para lang="en"><literal>Short</literal></para>
-
             </listitem>
-
             <listitem>
-
               <para lang="en"><literal>String</literal></para>
-
             </listitem>
-
           </itemizedlist>
 
-        </sect2>
+        </sect3>
 
-        <sect2>
+        <sect3>
 
           <title>
-			<phrase lang="en">Built In Classes From <literal>
+			<phrase lang="en">Classes From <literal>
           java.math</literal></phrase>
 		</title>
 
@@ -58120,27 +58265,20 @@ available at http://www.opencontent.org/openpub/.
           java.math</literal> package.</para>
 
           <itemizedlist>
-
             <listitem>
-
               <para lang="en"><literal>Big Decimal</literal></para>
-
             </listitem>
-
             <listitem>
-
               <para lang="en"><literal>Big Integer</literal></para>
-
             </listitem>
-
           </itemizedlist>
 
-        </sect2>
+        </sect3>
 
-        <sect2>
+        <sect3>
 
           <title>
-			<phrase lang="en">Built In Classes From <literal>
+			<phrase lang="en">Classes From <literal>
           java.net</literal></phrase>
 		</title>
 
@@ -58148,21 +58286,17 @@ available at http://www.opencontent.org/openpub/.
           java.net</literal> package.</para>
 
           <itemizedlist>
-
             <listitem>
-
               <para lang="en"><literal>URL</literal></para>
-
             </listitem>
-
           </itemizedlist>
 
-        </sect2>
+        </sect3>
 
-        <sect2>
+        <sect3>
 
           <title>
-			<phrase lang="en">Built In Classes From <literal>
+			<phrase lang="en">Classes From <literal>
           java.util</literal></phrase>
 		</title>
 
@@ -58170,35 +58304,25 @@ available at http://www.opencontent.org/openpub/.
           java.util</literal> package.</para>
 
           <itemizedlist>
-
             <listitem>
-
-              <para lang="en"><literal>Vector</literal></para>
-
-            </listitem>
-
-            <listitem>
-
               <para lang="en"><literal>Date</literal></para>
-
             </listitem>
-
             <listitem>
-
               <para lang="en"><literal>Time</literal></para>
-
             </listitem>
-
+            <listitem>
+              <para lang="en"><literal>Vector</literal></para>
+            </listitem>
           </itemizedlist>
 
-        </sect2>
+        </sect3>
 
-      </sect1>
+      </sect2>
 
-      <sect1>
+      <sect2>
 
         <title>
-			<phrase lang="en">Built In Interfaces</phrase>
+			<phrase lang="en">Interfaces</phrase>
 		</title>
 
         <para lang="en">These are some useful interfaces, corresponding to 
@@ -58215,198 +58339,29 @@ available at http://www.opencontent.org/openpub/.
 
         <itemizedlist>
 
-          <listitem>
-
-            <para lang="en"><literal>Collection</literal></para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="en"><literal>Iterator</literal></para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="en"><literal>List</literal></para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="en"><literal>Set</literal></para>
-
-          </listitem>
-
-          <listitem>
-
-            <para lang="en"><literal>Sorted Set</literal></para>
-
-          </listitem>
-
+            <listitem>
+              <para lang="en"><literal>Collection</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>Iterator</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>List</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>Set</literal></para>
+            </listitem>
+            <listitem>
+              <para lang="en"><literal>SortedSet</literal></para>
+            </listitem>
         </itemizedlist>
 
-      </sect1>
-
-      <sect1>
-
-        <title>
-			<phrase lang="en">Built In Stereotypes</phrase>
-		</title>
-
-        <para lang="en">UML 1.4 defines a large number of stereotypes 
-        of which most are 
-        supported by ArgoUML.</para>
-
-        <caution>
-
-          <para lang="en">Not all stereotypes defined by UML&nbsp;1.4 appear in 
-          ArgoUML V0.20 due to 
-          the fact that they were not yet updated 
-          from previous versions of ArgoUML 
-          that only supported UML 1.3.
-          Also, there are
-          limitations in the current implementation of 
-          some base elements. The table below lists all stereotypes defined 
-          in UML 1.4 and if they are supported in 
-          ArgoUML or not.</para>
-
-        </caution>
-
-        <caution>
-
-          <para lang="en">The UML&nbsp;1.4 standard also specifies many stereotypes in 
-          the chapters <quote>Example Profiles</quote>: one for 
-          <quote>Software Development</quote> and one for 
-          <quote>Business Modeling</quote>. Due to the specialized 
-          nature of these profiles, implementation in ArgoUML is 
-          postponed until a yet undetermined moment.</para>
-
-        </caution>
-
-        <table frame="all">
-
-          <title>
-			<phrase lang="en">Stereotypes defined in UML 1.4 and ArgoUML</phrase>
-		</title>
-
-          <tgroup cols="3">
-
-            <thead>
-
-              <row><entry><para lang="en"><emphasis>StereoType</emphasis></para></entry><entry><para lang="en"><emphasis>Base 
-              Element</emphasis></para></entry><entry><para lang="en"><emphasis>ArgoUML 
-              support</emphasis></para></entry></row>
-
-            </thead>
-
-            <tbody>
-
-              <row><entry><para lang="en">access</para></entry><entry><para lang="en">Permission</para></entry><entry><para lang="en">yes</para></entry></row>
-              <row><entry><para lang="en">appliedProfile</para></entry><entry><para lang="en">Package</para></entry><entry><para lang="en">no</para></entry></row>
-              <row><entry><para lang="en">association</para></entry><entry><para lang="en">AssociationEnd</para></entry><entry><para lang="en">yes</para></entry></row>
-              <row><entry><para lang="en">auxiliary</para></entry><entry><para lang="en">Class</para></entry><entry><para lang="en">no</para></entry></row>
-              <row><entry><para lang="en">become</para></entry><entry><para lang="en">Flow</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">call</para></entry><entry><para lang="en">Usage</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">copy</para></entry><entry><para lang="en">Flow</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">create</para></entry><entry><para lang="en">BehavioralFeature</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">create</para></entry><entry><para lang="en">CallEvent</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">create</para></entry><entry><para lang="en">Usage</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">derive</para></entry><entry><para lang="en">Abstraction</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">destroy</para></entry><entry><para lang="en">BehavioralFeature</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">destroy</para></entry><entry><para lang="en">CallEvent</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">document</para></entry><entry><para lang="en">Abstraction</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">executable</para></entry><entry><para lang="en">Abstraction</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">facade</para></entry><entry><para lang="en">Package</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">file</para></entry><entry><para lang="en">Abstraction</para></entry><entry><para lang="en">no</para></entry></row>
-              <row><entry><para lang="en">focus</para></entry><entry><para lang="en">Class</para></entry><entry><para lang="en">no</para></entry></row>
-              <row><entry><para lang="en">framework</para></entry><entry><para lang="en">Package</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">friend</para></entry><entry><para lang="en">Permission</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">global</para></entry><entry><para lang="en">AssociationEnd</para></entry><entry><para lang="en">yes</para></entry></row>
-              <row><entry><para lang="en">implementation</para></entry><entry><para lang="en">Class</para></entry><entry><para lang="en">no</para></entry></row>
-              <row><entry><para lang="en">implementation</para></entry><entry><para lang="en">Generalization</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              
-              <row><entry><para lang="en">implicit</para></entry><entry><para lang="en">Association</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">import</para></entry><entry><para lang="en">Permission</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">instantiate</para></entry><entry><para lang="en">Usage</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">invariant</para></entry><entry><para lang="en">Constraint</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">library</para></entry><entry><para lang="en">Abstraction</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">local</para></entry><entry><para lang="en">AssociationEnd</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">metaclass</para></entry><entry><para lang="en">Class</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">metamodel</para></entry><entry><para lang="en">Package</para></entry><entry><para lang="en">yes</para></entry></row>
-              <row><entry><para lang="en">modelLibrary</para></entry><entry><para lang="en">Package</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">parameter</para></entry><entry><para lang="en">AssociationEnd</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">postcondition</para></entry><entry><para lang="en">Constraint</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">powertype</para></entry><entry><para lang="en">Class</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">precondition</para></entry><entry><para lang="en">Constraint</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">process</para></entry><entry><para lang="en">Classifier</para></entry><entry><para lang="en">yes</para></entry></row>
-              <row><entry><para lang="en">profile</para></entry><entry><para lang="en">Package</para></entry><entry><para lang="en">no</para></entry></row>
-              
-              <row><entry><para lang="en">realize</para></entry><entry><para lang="en">Abstraction</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">refine</para></entry><entry><para lang="en">Abstraction</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">requirement</para></entry><entry><para lang="en">Comment</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">responsibility</para></entry><entry><para lang="en">Comment</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">self</para></entry><entry><para lang="en">AssociationEnd</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">send</para></entry><entry><para lang="en">Usage</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">signalflow</para></entry><entry><para lang="en">ObjectFlowState</para></entry><entry><para lang="en">yes</para></entry></row>
-              <row><entry><para lang="en">source</para></entry><entry><para lang="en">Abstraction</para></entry><entry><para lang="en">no</para></entry></row>
-              <row><entry><para lang="en">stateInvariant</para></entry><entry><para lang="en">Constraint</para></entry><entry><para lang="en">no</para></entry></row>
-              
-              <row><entry><para lang="en">stub</para></entry><entry><para lang="en">Package</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">systemModel</para></entry><entry><para lang="en">Package</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">table</para></entry><entry><para lang="en">Abstraction</para></entry><entry><para lang="en">no</para></entry></row>
-
-              <row><entry><para lang="en">thread</para></entry><entry><para lang="en">Classifier</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">topLevel</para></entry><entry><para lang="en">Package</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">trace</para></entry><entry><para lang="en">Abstraction</para></entry><entry><para lang="en">yes</para></entry></row>
-
-              <row><entry><para lang="en">type</para></entry><entry><para lang="en">Class</para></entry><entry><para lang="en">yes</para></entry></row>
-
-
-            </tbody>
-
-          </tgroup>
-
-        </table>
-
+      </sect2>
+      
+      <!-- TODO: Add meta profile. -->
+      <!-- TODO: Add critics profiles. -->
+      
+      
       </sect1>
 
     </chapter>
