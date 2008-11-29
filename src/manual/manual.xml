@@ -32156,6 +32156,20 @@ available at http://www.opencontent.org/openpub/.
         out to make room for new objects. The broom also makes it easy 
         to change from horizontal to vertical alignment or from 
         left-alignment to right-alignment.</para>
+        <para lang="de">
+        	ArgoUML&apos;s Besen-Ausrichtungswerkzeug ist spezialisiert darauf, 
+        	die Bedürfnisse von Designern hinsichtlich der Ausrichtung von 
+        	Modellelementen in UML-Diagrammen zu unterstützen.
+        	Häufig richten Designer Objekte beim Erzeugen grob aus oder tun dies 
+        	über einfache Bewegungskommandos. Der Besen ist ein einfacher Weg, 
+        	grob ausgerichtete Objekte präzise auszurichten. Darüber hinaus sind 
+        	die Verteilungsoptionen des Besen&apos;s auf die Bedürfnisse von 
+        	Designern zugeschnitten: zusammengehörende Objekte haben einen gleich 
+        	grossen Zwischenraum, bündelt Objekte, um Diagrammplatz einzusparen, 
+        	und schafft Platz für neue Objekte. Der Besen macht es auch einfach, 
+        	von der horizontalen in die vertikale Ausrichtung oder von 
+        	linksbündiger zu rechtsbündiger Ausrichtung zu wechseln.
+        </para>
 
         <para lang="en">The T-shaped icon in ArgoUML&apos;s diagram toolbar 
         invokes the broom alignment tool. When the mouse button&nbsp;1 is 
@@ -32173,12 +32187,32 @@ available at http://www.opencontent.org/openpub/.
         not near each other. When the mouse button is released, the 
         broom disappears and the moved objects are selected to make it 
         easy to manipulate them further.</para>
+        <para lang="de">
+        	Das T-förmige Symbol in ArgoUML&apos;s Diagrammwerkzeugleiste ruft 
+        	das Besen-Ausrichtungswerkzeug auf. Wird die Maustaste&nbsp;1 im 
+        	Besenmodus gedrückt, wird die erste Mausbewegung des Designers den 
+        	Besen in einer der vier Richtungen: Norden, Süden, Osten oder 
+        	Westen ausrichten. Danach verursachen Mausbewegungen, dass der Besen 
+        	sich in die gewählte Richtung vorwärts, rückwärts oder seitwärts 
+        	bewegt. Wie ein Schieber in der realen Welt, verschiebt das Besen-
+        	Werkzeug Diagrammelemente, die mit ihm in Kontakt kommen. Dies hat 
+        	zur Folge, dass die Objekte entsprechend der Besenvorderseite 
+        	ausgerichtet werden und dies unmittelbar visualisiert wird (siehe 
+        	nachfolgendes Bild). Im Gegensatz zu einem Besen in der realen Welt, 
+        	erlaubt die Rückwärtsbewegung, dass Diagrammelemente in ihre 
+        	ursprüngliche Position zurückkehren können. Das Vergrößern des 
+        	Besens macht es möglich, Objekte, die nicht nahe beieinander sind, 
+        	auszurichten. Wird die Maustaste losgelassen, verschwindet der Besen 
+        	, die Objekte bleiben markiert, um diese weiterhin verändern zu 
+        	können. 
+        </para>
 
         <figure float="1" id="fig.ref.editpane_broom">
 
           <title>
 			<phrase lang="en">The Broom.</phrase>
-		</title>
+			<phrase lang="de">Der Besen.</phrase>
+		  </title>
 
           <informaltable frame="none">
 
@@ -32222,6 +32256,20 @@ available at http://www.opencontent.org/openpub/.
         modes and displays a brief message indicating the operation 
         just performed: Space evenly, Pack tightly, Spread out and 
         Original.</para>
+        <para lang="de">
+        	Wenn der Designer die <emphasis>Leertaste</emphasis> während der 
+        	Nutzung des Besens 
+        	drückt, werden die Objekte an der Vorderseite des Besens gleichmäßig 
+        	verteilt (z.B. gleichmäßiger Zwischenraum). ArgoUML&apos;s Besen 
+        	unterstützt drei Verteilungsmodi: Objekte können gleichmäßig auf den 
+        	Raum, den sie nutzen, verteilt werden, Objekte können gepackt werden, 
+        	nur mit einem kleinen Zwischenraum dazwischen, oder Objekte können 
+        	gleichmäßig über die gesamte Länge der Besenvorderseite verteilt 
+        	werden. Wiederholtes Drücken der Leertaste wechselt zwischen diesen 
+        	drei Verteilungsmodi und gibt eine Kurzinformation aus, welche 
+        	Operation gerade ausgeführt wird: Gleichmäßiger Zwischenraum, 
+        	komprimieren, spreizen und Ursprung.
+        </para>
         
         <para lang="en">If the designer presses the <emphasis>Enter</emphasis> 
         key while using the broom,
@@ -32229,9 +32277,21 @@ available at http://www.opencontent.org/openpub/.
         picked up by the broom when moving forward. 
         It works like lifting up the broom. 
         Pressing Enter again returns to the normal mode.</para>
+        <para lang="de">
+        	Wenn der Designer die Taste <emphasis>Enter</emphasis> während der 
+        	Nutzung des Besens drückt, wird der Besen rot (anstelle des normalen 
+        	blau) und es werden keine Objekte während der Vorwärtsbewegung des 
+        	Besens mitgenommen. Dies wirkt wie das Anheben des Besens. Durch 
+        	erneutes Drücken der Taste Enter kehrt man in den normalen Modus 
+        	zurück.
+        </para>
         
         <para lang="en">Pressing the <emphasis>Tab</emphasis>
         key works exactly like the Enter key.</para>
+        <para lang="de">
+        	Das Betätigen der Taste <emphasis>Tab</emphasis> arbeitet genauso 
+        	wie die Taste Enter.
+        </para>
 
       </sect1>
 
@@ -32239,6 +32299,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Selection Action Buttons</phrase>
+			<phrase lang="de">Auswahl-Aktionsschaltflächen</phrase>
 		</title>
 
         <para lang="en">When the user selects a model element in a UML diagram, 
@@ -32250,12 +32311,28 @@ available at http://www.opencontent.org/openpub/.
         <quote>selection-action buttons</quote>. The two figures for a 
         class differ because for creating the second one, the shift key 
         has been depressed.</para>
+        <para lang="de">
+        	Wenn der Anwender ein Modellelement in einem UML-Diagramm markiert, 
+        	dann werden mehrere Griffe dargestellt, um anzuzeigen, dass es 
+        	markiert ist und um die Anwenderschnittstelle mit der Fähigkeit zu 
+        	versehen, die Größe des Knotens zu verändern.
+        	ArgoUML zeigt auch einige <quote>Auswahl-Aktionsschaltflächen</quote> 
+        	entlang des markierten Modellelementes an. In den nachfolgenden 
+        	Bildern sehen Sie einige Beispiele von Griffen und <quote>Auswahl-
+        	Aktionsschaltflächen</quote>. Die beiden Bilder für eine Klasse 
+        	unterscheiden sich, weil beim Erzeugen der zweiten Klasse die 
+        	Umschalt-Taste gedrückt wurde.
+        </para>
 
         <figure float="1" id="fig.ref.editpane_selection_action_buttons">
 
           <title>
-			<phrase lang="en">Some examples of <quote>Selection Action 
-          Buttons</quote>.</phrase>
+			<phrase lang="en">
+				Some examples of <quote>Selection Action Buttons</quote>.
+            </phrase>
+			<phrase lang="de">
+				Einige Beispiele für <quote>Auswahl-Aktionsschaltflächen</quote>.
+            </phrase>
 		</title>
 
           <informaltable frame="none">
@@ -32308,6 +32385,23 @@ available at http://www.opencontent.org/openpub/.
         generalization or association. ArgoUML provides some automated 
         layout support so that clicking the subclass button will 
         position the new classes so that they do not overlap.</para>
+        <para lang="de">
+        	Auswahl-Aktionsschaltflächen bieten häufig erforderliche Operationen 
+        	auf das markierte Objekt an. Zum Beispiel: Eine Klasse hat eine 
+        	Schaltfläche bei 12 Uhr, um eine Superklasse hinzufügen zu können; 
+        	eine bei 6 Uhr, um eine Subklasse hinzuzufügen und Schaltflächen bei 
+        	der 3 Uhr- und 9 Uhr-Position, um Assoziationen hinzufügen zu können.
+        	Diese Schaltflächen unterstützen eine &quot;Klick und Ziehen&quot;-
+        	Interaktion: Ein einziger Klick erzeugt eine neue verknüpfte Klasse 
+        	an der Standardposition, relativ zur Originalklasse und erzeugt eine 
+        	Vererbung oder eine Assoziation; das Ziehen von der Schaltfläche zu 
+        	einer existierenden Klasse erzeugt nur eine Vererbung oder 
+        	Assoziation; und das Ziehen in einen leeren Raum des Diagrammes 
+        	erzeugt eine neue Klasse an der Mausposition mit der Vererbung oder 
+        	Assoziation. ArgoUML enthält eine automatische Layout-Unterstützung, 
+        	so daß das Klicken auf die Schaltfläche Subklasse die neue Klasse 
+        	an einer Stelle positioniert, so dass sie sich nicht überlappen.
+        </para>
 
         <para lang="en">Selection-action buttons are transparent. They have a 
         visibly recognizable rectangular shape and size and they 
@@ -32320,6 +32414,19 @@ available at http://www.opencontent.org/openpub/.
         is over the selected model element; if any part of the diagram is 
         obscured, the mouse can simply be moved away to get a clearer 
         view of the diagram.</para>
+        <para lang="de">
+        	Auswahl-Aktionsschaltflächen sind transparent. Sie haben einen 
+        	sichtbaren rechteckigen Rahmen und enthalten ein Symbol, welches dem 
+        	Symbol des entsprechenden Designelementes in der Standard-Symbolleiste 
+        	entspricht. Diese Symbole sind jedoch ungefüllte Zeilen-Symbole mit
+        	vielen transparenten Pixeln. Dies erlaubt es, daß 
+        	Auswahl-Aktionsschaltflächen die Zeichenfläche überlappen, ohne das 
+        	Diagramm zu verdecken. Aus diesem Grund werden die 
+        	Schaltflächen nur angezeigt, wenn sich die Maus über dem Symbol 
+        	des markierten Modellelementes befindet; wenn ein Teil des 
+        	Diagrammes verdeckt ist, kann die Maus einfach fortbewegt werden, um 
+        	eine klarere Sicht auf das Diagramm zu erhalten. 
+        </para>
 
       </sect1>
 
@@ -32327,6 +32434,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Clarifiers</phrase>
+			<phrase lang="de">Erläuterungen (Clarifiers)</phrase>
 		</title>
 
         <para lang="en">A key feature of ArgoUML are the critics, which run in 
@@ -32334,6 +32442,13 @@ available at http://www.opencontent.org/openpub/.
         they typically raise a to-do item, and also highlight the 
         problem on the editing pane. The graphical techniques used for 
         highlighting are called <emphasis>Clarifiers</emphasis></para>
+        <para lang="de">
+        	Eine Schlüsseleigenschaft von ArgoUML sind die Kritiken, die parallel 
+        	zum ArgoUML-Werkzeug arbeiten. Wenn diese ein Problem finden, 
+        	erzeugen sie ein Zu-Bearbeiten-Element und heben das Problem im 
+        	Editierfenster hervor. Die für das Hervorheben verwendete grafische 
+        	Technik wird <emphasis>Erläuterungen</emphasis> genannt.
+        </para>
 
         <itemizedlist>
 
@@ -32345,6 +32460,20 @@ available at http://www.opencontent.org/openpub/.
             Displayed at the top left of a model element indicates a critic 
             of that model element. Moving the mouse over the icon will pop 
             up the critic headline.</para>
+            <para lang="de">
+            	Hinweis-Symbol (
+            	<guiicon>
+            		<inlinemediaobject>
+            			<imageobject>
+            				<imagedata align="center" fileref="images/icons/note.gif"
+             						   format="GIF"/>
+             			</imageobject>
+             		</inlinemediaobject>
+             	</guiicon>).
+            Wird in der oberen linken Ecke eines Modellelementes angezeigt und 
+            signalisiert eine Kritik zu diesem Modellelement. Das Bewegen der 
+            Maus über dieses Symbol blendet die Überschrift der Kritik ein. 
+		    </para>
 
           </listitem>
 
@@ -32358,6 +32487,21 @@ available at http://www.opencontent.org/openpub/.
             Used for critics specific to sub-components of graphical 
             model elements. For example to underline attributes with a 
             problem within a class.</para>
+            <para lang="de">
+            	Farbige Wellen-Linie (
+            	<guiicon>
+            		<inlinemediaobject>
+            			<imageobject>
+            				<imagedata align="center"
+             						   fileref="images/reference/wavy_line.png"
+             						   format="PNG"/>
+             			</imageobject>
+             		</inlinemediaobject>
+             	</guiicon>). 
+             	Wird für Kritiken verwendet, die spezifisch für Subkomponenten 
+             	von grafischen Modellelementen sind. Zum Beispiel unterstreichen 
+             	sie die Attribute einer Klasse mit einem Problem.
+            </para>
 
           </listitem>
 
@@ -32374,6 +32518,25 @@ available at http://www.opencontent.org/openpub/.
             click. The solid line is used to show all the model elements 
             affected by the critic, for example all stimuli that are 
             out of order.</para>
+            <para lang="de">
+            	Durchgehende farbige Linie (
+            	<guiicon>
+            		<inlinemediaobject>
+            			<imageobject>
+            				<imagedata align="center"
+             						   fileref="images/reference/solid_line.png"
+             						   format="PNG"/>
+             				</imageobject>
+             			</inlinemediaobject>
+             		</guiicon>). 
+             	Nicht sichtbar beim normalen editieren, wird aber verwendet, 
+             	wenn ein Zu-Bearbeiten-Element im Zu-Bearbeiten-Fenster 
+             	(siehe <xref linkend="ch.ref.todopane"/>) durch einen 
+             	Taste&nbsp;1 Doppelklick hervorgehoben wird.
+             	Die durchgehende Linie kennzeichnet alle von der Kritik 
+             	betroffenen Modellelemente. Zum Beispiel alle Stimuli, die sich 
+             	außerhalb der Reihenfolge befinden.
+			</para>
 
           </listitem>
 
@@ -32385,16 +32548,30 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">The Drawing Grid</phrase>
+			<phrase lang="de">Das Zeichengitter</phrase>
 		</title>
 
         <para lang="en">The editing pane is provided with a background grid which 
         can be set in various styles or turned off altogether through 
         the menu (see <xref linkend="s2.ref.menu_adjust_grid"/>).</para>
+        <para lang="de">
+        	Das Editierfenster ist mit einem Hintergrundgitter ausgestattet, 
+        	das auf verschiedene Arten über das Menü (siehe 
+        	<xref linkend="s2.ref.menu_adjust_grid"/>) eingestellt oder auch 
+        	ausgeschaltet werden kann.
+        </para>
 
         <para lang="en">Whatever grid is actually displayed, placement of items 
         on the diagram is always controlled by the setting for grid 
         snap, which ranges from 4 to 32 pixels (see 
         <xref linkend="s2.ref.menu_grid_snap"/>).</para>
+        <para lang="de">
+        	Welches Gitter auch immer aktuell eingestellt ist, das Plazieren 
+        	der Elemente im Diagramm wird immer durch die Einstellungen der 
+        	Gitterrastung bestimmt, die sich im Bereich zwischen 4 und 32 
+        	Pixeln bewegt. (siehe 
+        	<xref linkend="s2.ref.menu_grid_snap"/>).
+        </para>
 
       </sect1>
 
@@ -32402,6 +32579,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">The Diagram Tab</phrase>
+			<phrase lang="de">Das Register Diagramm</phrase>
 		</title>
 
         <para lang="en">At the bottom of the editing pane is a small tab labeled 
@@ -32409,10 +32587,23 @@ available at http://www.opencontent.org/openpub/.
         diagram can be displayed in a number of ways, for example as a 
         graphical diagram or as a table. Each representation would have 
         its own tab and be selected by button&nbsp;1 click on the tab.</para>
+        <para lang="de">
+        	Unterhalb des Editierfensters befindet sich ein kleiner Reiter, der 
+        	mit <literal>Als Diagramm</literal> beschriftet ist. Das Konzept ist, 
+        	daß ein UML-Diagramm auf unterschiedliche Art und Weise dargestellt 
+        	werden kann. Zum Beispiel als grafisches Diagramm oder als Tabelle. 
+        	Jede Darstellung hätte seinen eigenen Reiter und kann durch einen 
+        	Taste&nbsp;1-Klick auf den Reiter ausgewählt werden.
+        </para>
 
         <para lang="en">Earlier versions of ArgoUML did implement a tabular 
         representation, but the current release only supports a diagram 
         representation, so this tab does not have any function.</para>
+        <para lang="de">
+        	Frühere Versionen von ArgoUML implementierten eine tabellarische 
+        	Darstellung, das aktuelle Release aber unterstützt nur die 
+        	Diagramm-Darstellung, so daß dieser Reiter keinerlei Funktion hat.
+        </para>
 
       </sect1>
 
@@ -32420,17 +32611,24 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Pop-Up Menus</phrase>
+			<phrase lang="de">Pop-Up Menü's</phrase>
 		</title>
 
         <para lang="en">Within the editing pane, button&nbsp;2 click over a model element 
         will bring up a pop-up menu with a variable number of main 
         entries, many with a sub-menu.</para>
+        <para lang="de">
+        	Ein Taste&nbsp;2-Klick über einem Modellelement im Editierfenster 
+        	öffnet ein Pop-up-Menü mit Menüelementen, viele davon mit einem 
+        	Untermenü.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Critiques</phrase>
-		</title>
+			<phrase lang="de">Kritiken</phrase>
+		  </title>
 
           <para lang="en">This sub-menu gives list of all the critics that have 
           triggered for this model element. Selection of a menu entry causes 
@@ -32438,6 +32636,14 @@ available at http://www.opencontent.org/openpub/.
           detailed explanation to be placed in the <literal>
           ToDoItem</literal> tab of the details pane. A solid colored 
           line indicates the offending element.</para>
+          <para lang="de">
+          	Dieses Untermenü gibt eine Liste aller Kritiken aus, die von diesem 
+          	Modellelement ausgelöst wurden. Die Auswahl eines der Menüeinträge 
+          	bewirkt, daß der Eintrag im Zu-Bearbeiten-Fenster hervorgehoben 
+          	und die ausführliche Erläuterung im Detailfenster des 
+          	<literal>Zu-Bearbeiten</literal>-Reiters plaziert wird. Eine 
+          	durchgezogene farbige Linie markiert das entsprechende Element. 
+          </para>
 
         </sect2>
 
@@ -32445,13 +32651,21 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Ordering</phrase>
-		</title>
+			<phrase lang="de">Reihenfolge</phrase>
+		  </title>
 
           <para lang="en">This menu controls the ordering of overlapping 
           model elements on the diagram. It is equivalent to the <literal>
           Reorder</literal> sub-menu of the <literal>Arrange</literal> 
           menu (see <xref linkend="s2.ref.menu_reorder"/>). There are 
           four entries.</para>
+          <para lang="de">
+          	Dieses Menü steuert die Reihenfolge der sich überlappenden 
+          	Modellelemente im Diagramm. Es entspricht dem Untermenü 
+          	<literal>Reihenfolge</literal> des Menüs <literal>Anordnen</literal>
+			(siehe <xref linkend="s2.ref.menu_reorder"/>). Es enthält vier 
+			Einträge.
+          </para>
 
           <itemizedlist>
 
@@ -32464,6 +32678,20 @@ available at http://www.opencontent.org/openpub/.
               <literal>Forward</literal>. The selected model elements are 
               moved one step forward in the ordering hierarchy with 
               respect to other model elements they overlap.</para>
+              <para lang="de">
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/forward.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+                <literal>Nach vorne</literal>. Das markierte Modellelement wird 
+                hinsichtlich der es überlappenden Modellelemente in der 
+                Reihenfolgenhierarchie eine Ebene nach oben bewegt.
+              </para>
 
             </listitem>
 
@@ -32476,6 +32704,20 @@ available at http://www.opencontent.org/openpub/.
               <literal>Backward</literal>. The selected model elements are 
               moved one step back in the ordering hierarchy with 
               respect to other model elements they overlap.</para>
+              <para lang="de">
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/backward.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+              	<literal>Nach hinten</literal>. Das markierte Modellelement wird 
+                hinsichtlich der es überlappenden Modellelemente in der 
+                Reihenfolgenhierarchie eine Ebene nach unten bewegt.
+              </para>
 
             </listitem>
 
@@ -32488,6 +32730,20 @@ available at http://www.opencontent.org/openpub/.
               <literal>To Front</literal>. The selected model elements are 
               moved to the front of any other model elements they 
               overlap.</para>
+              <para lang="de">
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/to_front.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+              	<literal>In den Vordergrund</literal>. Das markierte 
+              	Modellelement wird hinsichtlich der es überlappenden anderen 
+              	Modellelemente an die vorderste Stelle bewegt. 
+              </para>
 
             </listitem>
 
@@ -32500,6 +32756,20 @@ available at http://www.opencontent.org/openpub/.
               <literal>To Back</literal>. The selected model elements are 
               moved to the back of any other model elements they 
               overlap.</para>
+              <para lang="de">
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/to_back.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+                <literal>In den Hintergrund</literal>. Das markierte 
+                Modellelement wird hinsichtlich der es überlappenden anderen
+                Modellelemente an die hinterste Stelle bewegt. 
+              </para>
 
             </listitem>
 
@@ -32511,12 +32781,20 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add</phrase>
-		</title>
+			<phrase lang="de">Hinzufügen</phrase>
+		  </title>
 
           <para lang="en">This sub-menu only appears for model elements that can have 
           notes attached (class, interface, object, state, pseudostate) 
           or have operations or attributes added (class, interface). 
           There are at most three entries.</para>
+          <para lang="de">
+          	Dieses Untermenü erscheint nur bei Modellelementen, denen 
+          	Erläuterungen hinzugefügt werden können (Klassen, Schnittstellen, 
+          	Objekte, Zustände, Pseudozustände) oder denen Methoden oder Attribute 
+          	hinzugefügt wurden (Klassen, Schnittstellen).
+          	Es hat meistens drei Einträge. 
+          </para>
 
           <itemizedlist>
 
@@ -32529,6 +32807,20 @@ available at http://www.opencontent.org/openpub/.
               <literal>New Attribute</literal>. Only appears where the 
               selected model element is a class. Creates a new attribute on 
               the model element.</para>
+              <para lang="de">
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/attribute.gif"
+               					       format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+              	<literal>Neues Attribut</literal>. Erscheint nur, wenn das 
+              	markierte Modellelement eine Klasse ist. Es erzeugt ein neues 
+              	Attribut im Modellelement. 
+              </para>
 
             </listitem>
 
@@ -32541,6 +32833,20 @@ available at http://www.opencontent.org/openpub/.
               <literal>New Operation</literal>. Only appears where the 
               selected model element is a class or interface. Creates a new 
               operation on the model element.</para>
+              <para lang="de">
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/operation.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+              	<literal>Neue Methode</literal>. Erscheint nur, wenn das 
+              	markierte Modellelement eine Klasse oder eine Schnittstelle ist. 
+              	Erzeugt eine neue Methode im Modellelement. 
+              </para>
 
             </listitem>
 
@@ -32551,6 +32857,19 @@ available at http://www.opencontent.org/openpub/.
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Comment</literal>. Attaches a new comment to 
               the selected model element.</para>
+              <para lang="de">
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center" 
+              						   fileref="images/icons/note.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+              	<literal>Neuer Kommentar</literal>. Fügt zu dem markierten 
+              	Modellelement einen Kommentar hinzu. 
+              </para>
 
             </listitem>
 
@@ -32561,6 +32880,12 @@ available at http://www.opencontent.org/openpub/.
               selected model element is a class or interface. 
               Makes all relations visible that exist in the model and
               that are connected to the selected model element.
+              </para>
+              <para lang="de">
+              	<literal>Alle Assoziationen hinzufügen</literal>.
+              	Erscheint nur, wenn das markierte Element eine Klasse oder eine 
+              	Schnittstelle ist. Macht alle im Modell existierenden Beziehungen 
+              	sichtbar, die mit dem markierten Modellelement verknüpft sind.
               </para>
 
             </listitem>
@@ -32573,6 +32898,12 @@ available at http://www.opencontent.org/openpub/.
               Removes all connected relations from the diagram 
               (without removing them from the model).
               </para>
+              <para lang="de">
+              	<literal>Alle Assoziationen entfernen</literal>.
+              	Erscheint nur, wenn das markierte Modellelement eine Klasse oder 
+              	eine Schnittstelle ist. Entfernt alle verknüpften Beziehungen 
+              	aus dem Diagramm (ohne sie aus dem Modell zu entfernen). 
+              </para>
 
             </listitem>
           </itemizedlist>
@@ -32583,12 +32914,18 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Show</phrase>
-		</title>
+			<phrase lang="de">Darstellung</phrase>
+		  </title>
 
           <para lang="en">This sub-menu only appears with certain model elements. It 
           is completely context dependent. There are many possible 
           entries, depending on the selected model element and its 
           state.</para>
+          <para lang="de">
+          	Dieses Untermenü erscheint nur bei bestimmten Modellelementen. Es 
+          	ist vollständig kontextabhängig. Es gibt viele mögliche Einträge, je 
+          	nach markiertem Modellelement und dessen Zustand.
+          </para>
 
           <itemizedlist>
 
@@ -32598,6 +32935,12 @@ available at http://www.opencontent.org/openpub/.
               Compartment</literal>. Only appears when the extension 
               point compartment of a use case is displayed. Hides the 
               compartment.</para>
+              <para lang="de">
+              	<literal>Erweiterungspunkte ausblenden</literal>. 
+              	Erscheint nur, wenn der Erweiterungspunkt eines 
+              	Anwendungsfalles eingeblendet ist. Blendet den Erweiterungspunkt 
+              	aus.
+              </para>
 
             </listitem>
 
@@ -32607,6 +32950,12 @@ available at http://www.opencontent.org/openpub/.
               Compartment</literal>. Only appears when the extension 
               point compartment of a use case is hidden. Displays the 
               compartment.</para>
+              <para lang="de">
+              	<literal>Erweiterungspunkte einblenden</literal>. 
+              	Erscheint nur, wenn der Erweiterungspunkt eines 
+              	Anwendungsfalles ausgeblendet ist. Blendet den Erweiterungspunkt 
+              	ein.
+			  </para>
 
             </listitem>
 
@@ -32616,6 +32965,12 @@ available at http://www.opencontent.org/openpub/.
               appears when both attribute and operation compartments 
               are displayed on a class or object. Hides both 
               compartments.</para>
+              <para lang="de">
+              	<literal>Alle Bereiche ausblenden</literal>. 
+              	Erscheint nur, wenn Attribut- und Methoden-Bereiche einer 
+              	Klasse oder eines Objektes angezeigt werden. Verbirgt beide 
+              	Bereiche.
+              </para>
 
             </listitem>
 
@@ -32625,6 +32980,12 @@ available at http://www.opencontent.org/openpub/.
               appears when both attribute and operation compartments 
               are hidden on a class or object. Displays both 
               compartments.</para>
+              <para lang="de">
+              	<literal>Alle Bereiche einblenden</literal>. 
+              	Erscheint nur, wenn Attribut- und Methoden-Bereiche einer 
+              	Klasse oder eines Objektes ausgeblendet sind. Blendet beide 
+              	Bereiche ein. 
+              </para>
 
             </listitem>
 
@@ -32633,6 +32994,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>Hide Attribute Compartment</literal>. Only 
               appears when the attribute compartment of a class or 
               object is displayed. Hides the compartment.</para>
+              <para lang="de">
+              	<literal>Attribute ausblenden</literal>. 
+              	Erscheint nur, wenn die Attribute einer Klasse oder eines 
+              	Objektes eingeblendet sind. Blendet die Attribute aus. 
+              </para>
 
             </listitem>
 
@@ -32641,6 +33007,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>Show Attribute Compartment</literal>. Only 
               appears when the attribute compartment of a class or 
               object is hidden. Displays the compartment.</para>
+              <para lang="de">
+              	<literal>Attribute einblenden</literal>. 
+              	Erscheint nur, wenn die Attribute einer Klasse oder eines 
+              	Objektes ausgeblendet sind. Blendet die Attribute ein. 
+               </para>
 
             </listitem>
 
@@ -32649,6 +33020,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>Hide Operation Compartment</literal>. Only 
               appears when the operation compartment of a class or 
               object is displayed. Hides the compartment.</para>
+              <para lang="de">
+              	<literal>Operationen ausblenden</literal>. 
+              	Erscheint nur, wenn die Operationen einer Klasse oder eines 
+              	Objektes eingeblendet sind. Blendet die Operationen aus. 
+              </para>
 
             </listitem>
 
@@ -32657,6 +33033,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>Show Operation Compartment</literal>. Only 
               appears when the operation compartment of a class or 
               object is hidden. Displays the compartment.</para>
+              <para lang="de">
+              	<literal>Operationen einblenden</literal>. 
+              	Erscheint nur, wenn die Operationen einer Klasse oder eines 
+              	Objektes ausgeblendet sind. Blendet die Operationen ein. 
+              </para>
 
             </listitem>
 
@@ -32666,6 +33047,11 @@ available at http://www.opencontent.org/openpub/.
               appears when the enumeration literal compartment 
               of an enumeration 
               is displayed. Hides the compartment.</para>
+              <para lang="de">
+              	<literal>Aufzählung ausblenden</literal>. 
+              	Erscheint nur, wenn die Aufzählung eingeblendet ist. Blendet die 
+              	Aufzählung aus. 
+              </para>
 
             </listitem>
 
@@ -32674,6 +33060,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>Show Enumeration Literal Compartment</literal>. Only 
               appears when the enumeration literal compartment of an enumeration
               is hidden. Displays the compartment.</para>
+              <para lang="de">
+              	<literal>Aufzählung einblenden</literal>. 
+              	Erscheint nur, wenn die Aufzählung ausgeblendet ist. Blendet 
+              	die Aufzählung ein. 
+              </para>
 
             </listitem>
             
@@ -32684,6 +33075,13 @@ available at http://www.opencontent.org/openpub/.
               that are not shown yet. This is the same function as the 
               &quot;add to Diagram&quot; on the asociation in the 
               explorer context menu. currently.</para>
+              <para lang="de">
+              	<literal>Alle Kanten einblenden</literal>. 
+              	Erscheint nur bei Klassen. Blendet alle Assoziationen ein (zu 
+              	angezeigten Modellelementen) die aktuell nicht eingeblendet sind. 
+              	Dies ist die selbe Funktion wie &quot;Zum Diagramm hinzufügen
+              	&quot; einer Assoziation im Explorer-Kontextmenü. 
+              </para>
 
             </listitem>
 
@@ -32693,6 +33091,12 @@ available at http://www.opencontent.org/openpub/.
               a class. Hides all associations. This is the same 
               function as <quote>Remove from Diagram</quote> on all the 
               associations of this class.</para>
+              <para lang="de">
+              	<literal>Alle Kanten ausblenden</literal>. Erscheint nur bei 
+              	Klassen.  Blendet alle Assoziationen aus. Dies ist die gleiche 
+              	Funktion wie die Funktion <quote>Aus Diagramm entfernen</quote>
+              	auf alle Assoziationen dieser Klasse. 
+              </para>
 
             </listitem>
 
@@ -32701,6 +33105,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>Hide Stereotype</literal>. Only appears 
               when the Stereotype of a package is displayed. Hides the 
               stereotype.</para>
+              <para lang="de">
+              	<literal>Stereotypen ausblenden</literal>. Erscheint nur, wenn 
+                die Stereotypen eines Paketes eingeblendet sind. Blendet die 
+                Stereotypen aus. 
+              </para>
 
             </listitem>
 
@@ -32709,6 +33118,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>Show Stereotype</literal>. Only appears 
               when the Stereotype of a package is hidden. Displays the 
               stereotype.</para>
+              <para lang="de">
+              	<literal>Stereotypen einblenden</literal>. Erscheint nur, wenn 
+              	die Stereotypen eines Paketes ausgeblendet sind. Blendet die 
+              	Stereotypen ein. 
+              </para>
 
             </listitem>
 
@@ -32717,6 +33131,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>Hide Visibility</literal>. Only appears 
               when the visibility of a package is displayed. Hides the 
               visibility.</para>
+              <para lang="de">
+              	<literal>Sichtbarkeit ausblenden</literal>. Erscheint nur, wenn 
+              	die Sichtbarkeit eines Paketes eingeblendet ist. Blendet die 
+              	Sichtbarkeit aus. 
+              </para>
 
             </listitem>
 
@@ -32725,6 +33144,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>Show Visibility</literal>. Only appears 
               when the visibility of a package is hidden. Displays the 
               visibility.</para>
+              <para lang="de">
+              	<literal>Sichtbarkeit einblenden</literal>. Erscheint nur, wenn 
+              	die Sichtbarkeit eines Paketes ausgeblendet ist. Blendet die 
+              	Sichtbarkeit ein. 
+              </para>
 
             </listitem>
           </itemizedlist>
@@ -32735,11 +33159,18 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Modifiers</phrase>
-		</title>
+			<phrase lang="de">Modifikatoren</phrase>
+		  </title>
 
           <para lang="en">This sub-menu only appears with class, interface, 
           package and use case model elements. It is used to set or clear 
           the values of the various modifiers available.</para>
+          <para lang="de">
+          	Dieses Untermenü erscheint nur bei Klassen, Schnittstellen, Paketen 
+          	und Anwendungsfall-Modellelementen. Es wird verwendet, um die 
+          	Werte verschiedener verfügbarer Modifikatoren einzustellen oder 
+          	zu löschen. 
+          </para>
 
           <itemizedlist>
 
@@ -32747,6 +33178,10 @@ available at http://www.opencontent.org/openpub/.
 
               <para lang="en"><literal>Abstract</literal>. Set for an abstract 
               model element.</para>
+              <para lang="de">
+              	<literal>Abstrakt</literal>. Wird bei einem abstrakten 
+              	Modellelement eingestellt. 
+              </para>
 
             </listitem>
 
@@ -32754,6 +33189,10 @@ available at http://www.opencontent.org/openpub/.
 
               <para lang="en"><literal>Leaf</literal>. Set for a final model element, 
               i.e. one with no sub-model elements.</para>
+              <para lang="de">
+              	<literal>Blatt</literal>. Wird bei einem abschliessendem 
+              	Modellelement gesetzt. Zum Beispiel eines ohne Sub-Modellelemente.
+              </para>
 
             </listitem>
 
@@ -32761,6 +33200,10 @@ available at http://www.opencontent.org/openpub/.
 
               <para lang="en"><literal>Root</literal>. Set for a root model element, 
               i.e. one with no super-model elements.</para>
+              <para lang="de">
+              	<literal>Wurzel</literal>. Wird bei einem Wurzel-Modellelement 
+                gesetzt. Zum Beispiel eines ohne übergeordnetes Modellelement. 
+              </para>
 
             </listitem>
 
@@ -32768,12 +33211,21 @@ available at http://www.opencontent.org/openpub/.
 
               <para lang="en"><literal>Active</literal>. Set for a model element with 
               dynamic behavior.</para>
+              <para lang="de">
+              	<literal>Aktiv</literal>. Wird bei einem Modellelement mit
+              	dynamischem Verhalten gesetzt. 
+              </para>
 
               <note>
 
                 <para lang="en">This really ought to be set automatically for 
                 model elements with state machines or activity 
                 diagrams.</para>
+                <para lang="de">
+                	Dies sollte natürlich automatisch bei Modellelementen 
+                	mit Zustandsautomaten oder Aktivitätsdiagrammen gesetzt 
+                	werden.
+                </para>
 
               </note>
 
@@ -32787,7 +33239,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Multiplicity</phrase>
-		</title>
+			<phrase lang="de">Kardinalität</phrase>
+		  </title>
 
           <para lang="en">This sub-menu only appears with association model elements, 
           when clicking at one end of the association. It is used to 
@@ -32796,30 +33249,43 @@ available at http://www.opencontent.org/openpub/.
           sub-set of the range of multiplicities that are available 
           through the property sheet of a association end (see 
           <xref linkend="s1.ref.association_end_use_case"/>).</para>
+          <para lang="de">
+          	Dieses Untermenü erscheint nur bei Assoziations-Modellelementen, 
+          	beim Anklicken eines Assoziationsendes. Es wird dazu verwendet, 
+          	die Kardinalität am dem Assoziationsende zu steuern, das dem 
+          	Mausklick am nächsten liegt. Es gibt nur vier Einträge, eine 
+          	Untermenge einer Menge von Kardinalitäten, die über die 
+          	Eigenschaftstabelle eines Assoziationsendes verfügbar sind (siehe 
+          	<xref linkend="s1.ref.association_end_use_case"/>).
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
               <para lang="en"><literal>1</literal></para>
+              <para lang="de"><literal>1</literal></para>
 
             </listitem>
 
             <listitem>
 
               <para lang="en"><literal>0..1</literal></para>
+              <para lang="de"><literal>0..1</literal></para>
 
             </listitem>
 
             <listitem>
 
               <para lang="en"><literal>1..*</literal></para>
+              <para lang="de"><literal>1..*</literal></para>
 
             </listitem>
 
             <listitem>
 
               <para lang="en"><literal>0..*</literal></para>
+              <para lang="de"><literal>0..*</literal></para>
 
             </listitem>
 
@@ -32831,12 +33297,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Aggregation</phrase>
-		</title>
+			<phrase lang="de">Aggregation</phrase>
+		  </title>
 
           <para lang="en">This sub-menu only appears with association model elements, 
           when clicking at one end of the association. It is used to 
           control the aggregation at the end of the association nearest 
           the mouse click point. There are three entries.</para>
+          <para lang="de">
+          	Dieses Untermenü erscheint nur bei Assoziations-Modellelementen, 
+          	beim Anklicken eines Assoziationsendes. Es wird dazu verwendet, die 
+          	Aggregation an dem Assoziationsende zu steuern, das dem Mausklick 
+          	am nächsten liegt. Es gibt drei Einträge.
+          </para>
 
           <itemizedlist>
 
@@ -32844,6 +33317,9 @@ available at http://www.opencontent.org/openpub/.
 
               <para lang="en"><literal>none</literal>. Remove any 
               aggregation.</para>
+              <para lang="de">
+              	<literal>keine</literal>. Entfernt alle Aggregationen.
+              </para>
 
             </listitem>
 
@@ -32852,6 +33328,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>aggregate</literal>. Make this end a 
               shared aggregation (loosely known as an 
               <quote>aggregation</quote>).</para>
+              <para lang="de">
+              	<literal>Aggregation</literal>. Macht dieses Ende zu einer 
+              	Aggregation (gewöhnlich als <quote>Aggregation</quote> 
+              bekannt).
+              </para>
 
             </listitem>
 
@@ -32860,6 +33341,9 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>composite</literal>. Make this end a 
               composite aggregation (loosely known as a 
               <quote>composition</quote>).</para>
+              <para lang="de"><literal>Komposition</literal>. Macht dieses Ende zu 
+              einer untrennbaren Aggregation (gewöhnlich als  
+              <quote>Komposition</quote> bekannt).</para>
 
             </listitem>
 
@@ -32870,6 +33354,10 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en">UML requires that an end with a composition 
             relationship must have a multiplicity of 1 (the 
             default).</para>
+            <para lang="de">
+            	UML fordert, dass ein Ende einer Komposition die Kardinalität 1 
+            	aufweisen muss (der Standard).
+            </para>
 
           </caution>
 
@@ -32879,12 +33367,18 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Navigability</phrase>
-		</title>
+			<phrase lang="de">Navigierbarkeit</phrase>
+		  </title>
 
           <para lang="en">This sub-menu only appears with association model elements, 
           when clicking at one end of the association. It is used to 
           control the navigability of the association. There are three 
           entries.</para>
+          <para lang="de">
+          	Dieses Untermenü erscheint nur bei Assoziations-Modellelementen beim 
+          	Anklicken auf ein Assoziationsende. Es wird verwendet, um die 
+          	Navigierbarkeit der Assoziation zu steuern. Es gibt drei Einträge.
+          </para>
 
           <itemizedlist>
 
@@ -32892,6 +33386,10 @@ available at http://www.opencontent.org/openpub/.
 
               <para lang="en"><literal>bidirectional</literal>. Make the 
               association navigable in both directions.</para>
+              <para lang="de">
+              	<literal>bidirektional</literal>. Macht die Assoziation in 
+              	beide Richtungen navigierbar. 
+              </para>
 
             </listitem>
 
@@ -32902,6 +33400,12 @@ available at http://www.opencontent.org/openpub/.
               only from &lt;class1&gt; to &lt;class2&gt;. In other 
               words &lt;class1&gt; can reference &lt;class2&gt; but not 
               the other way round.</para>
+              <para lang="de">
+              	<literal>&lt;Klasse1&gt; nach &lt;Klasse2&gt;</literal>. Macht 
+              	die Assoziation nur von &lt;Klasse1&gt; nach &lt;Klasse2&gt; 
+              	navigierbar. Mit anderen Worten, &lt;Klasse1&gt; kann die 
+              	&lt;Klasse2&gt; referenzieren, aber nicht umgekehrt.
+              </para>
 
             </listitem>
 
@@ -32912,6 +33416,13 @@ available at http://www.opencontent.org/openpub/.
               only from &lt;class2&gt; to &lt;class1&gt;. In other 
               words &lt;class2&gt; can reference &lt;class1&gt; but not 
               the other way round.</para>
+              <para lang="de">
+              	<literal>&lt;Klasse2&gt; nach 
+              &lt;Klasse1&gt;</literal>. Macht 
+              	die Assoziation nur von &lt;Klasse2&gt; nach &lt;Klasse1&gt; 
+              	navigierbar. Mit anderen Worten, &lt;Klasse2&gt; kann die 
+              	&lt;Klasse1&gt; referenzieren, aber nicht umgekehrt.
+              </para>
 
             </listitem>
 
@@ -32924,10 +33435,22 @@ available at http://www.opencontent.org/openpub/.
             to set each of the association ends navigation property, 
             reached from the property tab of the association - and the 
             diagram does not show any arrows in this case.</para>
+            <para lang="de">
+            	UML erlaubt keine nicht-navigierbaren Assoziation in beide 
+            	Richtungen. ArgoUML wird dies zulassen, aber Sie müssen die 
+            	Navigationseigenschaft aller über den Reiter Eigenschaften der 
+            	Assoziation erreichbaren Assoziationsenden einstellen - und das 
+            	Diagramm wird in diesem Fall keine Pfeile anzeigen.  
+            </para>
 
             <para lang="en">This is considered bad design practice (it will 
             trigger a critic in ArgoUML), so is only of theoretical 
             interest.</para>
+            <para lang="de">
+              Dies wird als schlechte Design-Praxis betrachtet (es wird in 
+              ArgoUML eine Kritik auslösen), so dass dies nur von theoretischem 
+              Interesse ist.
+            </para>
 
           </note>
 
@@ -32935,6 +33458,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en">UML does not permit navigability from an interface to 
             a class. ArgoUML does not prevent this.</para>
+            <para lang="de">
+            	UML erlaubt keine Navigierbarkeit von einer Schnittstelle zu 
+            	einer Klasse. ArgoUML verhindert dies nicht.
+            </para>
 
           </note>
 
@@ -32946,15 +33473,21 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Notation</phrase>
+			<phrase lang="de">Notation</phrase>
 		</title>
 
         <para lang="en">Notation is the textual representation 
         on the diagram of a modelelement or its properties.
         </para>
+        <para lang="de">
+        	Eine Notation ist die textuelle Darstellung in einem Diagramm eines 
+        	Modellelementes oder seiner Eigenschaften.
+        </para>
 
         <sect2>
         <title>
 			<phrase lang="en">Notation Languages</phrase>
+			<phrase lang="de">Notation Sprachen</phrase>
 		</title>
         <para lang="en">ArgoUML supports showing notation in different languages.
         By default, all text is shown in UML notation, 
@@ -32964,18 +33497,33 @@ available at http://www.opencontent.org/openpub/.
         it is even possible to select other languages, 
         such as C++.
         </para>
+        <para lang="de">
+          ArgoUML unterstützt die Darstellung der Notation in unterschiedlichen 
+          Sprachen. Standardmäßig wird jeder Text in UML-Notation dargestellt, 
+          Menüs erhalten jedoch einen Eintrag um zwischen UML und Java 
+		  auswählen zu können.
+		  Über Plugin-Module ist es auch möglich andere Sprachen auszuwählen; 
+		  wie zum Beispiel C++.
+        </para>
         
         <para lang="en"><xref linkend="fig.ref.notation_uml"/>
         shows a class in UML notation, while
         <xref linkend="fig.ref.notation_java"/>
         shows the same class in Java notation. 
         </para>
+        <para lang="de">
+        	<xref linkend="fig.ref.notation_uml"/>
+        	zeigt eine Klasse in UML-Notation, während
+        	<xref linkend="fig.ref.notation_java"/>
+        	die gleiche Klasse in Java-Notation darstellt.
+        </para>
 
         <figure float="1" id="fig.ref.notation_uml">
 
           <title>
 			<phrase lang="en">A class in UML notation</phrase>
-		</title>
+			<phrase lang="de">Eine Klasse in UML-Notation</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -32987,7 +33535,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">A class in Java notation</phrase>
-		</title>
+			<phrase lang="de">Eine Klasse in Java-Notation</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33000,6 +33549,7 @@ available at http://www.opencontent.org/openpub/.
         <sect2>
         <title>
 			<phrase lang="en">Notation Editing on the diagram</phrase>
+			<phrase lang="de">Notation Editieren im Diagramm</phrase>
 		</title>
 
         <para lang="en">Most text shown on a diagram may be edited by
@@ -33007,6 +33557,11 @@ available at http://www.opencontent.org/openpub/.
         This causes a edit box to be shown, 
         with the previous text selected,
         ready for amending.</para>
+        <para lang="de">
+          Der in einem Diagramm gezeigte Text kann durch einen Doppelklick auf 
+          den Text editiert werden. Dies blendet ein Editierfenster mit dem 
+          zuvor markierten Text auf, in dem der Text geändert werden kann.
+        </para>
 
         <para lang="en">Also, the status bar of ArgoUML 
         (i.e. the small area at the bottom of the ArgoUML window),
@@ -33016,6 +33571,15 @@ available at http://www.opencontent.org/openpub/.
         Additionally, editing can be concluded by 
         clicking somewhere in the diagram outside the edit area.
         </para>
+        <para lang="de">
+          Zusätzlich zeigt die Statuszeile von ArgoUML (z.B. der kleine Bereich 
+          unten im ArgoUML-Fenster) einen Hilfetext an, der die Syntax des 
+          einzugebenden Textes beschreibt. Die Texteingabe kann durch Drücken 
+          der Taste F2, oder bei einzeiligen Felder durch Drücken der Taste 
+          Return abgeschlossen werden.
+          Zusätzlich kann das Editieren durch Anklicken eines Bereiches 
+          ausserhalb des Diagrammes beendet werden.
+        </para>
         
         <para lang="en">Editing notation on the diagram is a very powerful way
         to enter a lot of model-information in a very compact way. 
@@ -33024,8 +33588,20 @@ available at http://www.opencontent.org/openpub/.
         all parameters and their types, 
         and operation properties (visibility, concurrency), all
         at once by typing:</para>
+        <para lang="de">
+          Das Editieren im Diagramm ist eine sehr leistungsfähige Art und Weise 
+          eine Menge Modellinformationen auf kompakte Art einzugeben. Es ist 
+          zum Beispiel möglich, eine Operation, den Stereotypen, alle Parameter 
+          und deren Typen, sowie die Eigenschaften der Operationen (Sichtbarkeit, 
+          Gleichzeitigkeit) auf einmal einzugeben:
+        </para>
         
-        <programlisting>+Order(customerID : int,items : List) : void {sequential}</programlisting>
+        <programlisting lang="en">
+        	+Order(customerID : int,items : List) : void {sequential}
+        </programlisting>
+        <programlisting lang="de">
+        	+Auftrag(kundenID : int,positionen : List) : void {sequential}
+        </programlisting>
         
         <para lang="en">An association (e.g. between two classes) is showing many
         texts close to its middle and ends, 
@@ -33033,12 +33609,22 @@ available at http://www.opencontent.org/openpub/.
         <xref linkend="fig.ref.notation_association"/> shows two associations
         to clarify the following:
         </para>
+        <para lang="de">
+          Eine Assoziation (z.B. zwischen zwei Klassen) zeigt viele Texte in der 
+          Nähe seiner Mitte und der Enden an, die zusätzliche Erläuterungen 
+          liefern.
+          <xref linkend="fig.ref.notation_association"/> zeigt zwei 
+          Assoziationen, um folgendes zu erläutern:
+        </para>
 
         <figure float="1" id="fig.ref.notation_association">
 
           <title>
 			<phrase lang="en">A couple of associations with adornments</phrase>
-		</title>
+			<phrase lang="de">
+				Eine Menge von Assoziationen mit Eingabefeldern
+			</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33051,11 +33637,23 @@ available at http://www.opencontent.org/openpub/.
         become visible once the modelelement is selected.
         The fields are indicated by blue rectangles - 
         double-click on them with mouse button&nbsp;1 to start editing.</para>
+        <para lang="de">
+          Die rechte Assoziation zeigt, dass unsichtbare Felder in die Text 
+          eingegeben werden kann sichtbar werden, wenn das Modellelement markiert 
+          wird. Die Felder sind als blaue Rechtecke gekennzeichnet - ein 
+          Doppelklick auf diese Felder mit der rechten Maustaste&nbsp;1 ermöglicht 
+          das Editieren.
+        </para>
         
         <para lang="en">The visibility (the +, -, # or ~) is shown 
         together with the association-end name, 
         but it is not shown 
         for an unnamed association end.</para>
+        <para lang="de">
+          Die Sichtbarkeit (das +, -, # oder ~) wird im Zusammenhang mit dem 
+          Namen des Assoziationsendes angezeigt. Bei unbenannten 
+          Assoziationsenden wird sie nicht angezeigt.
+        </para>
         
         <para lang="en">Likewise, the multiplicity is not shown if it is 1, 
         unless the setting 
@@ -33063,6 +33661,11 @@ available at http://www.opencontent.org/openpub/.
         in the menu 
         <literal>File=&gt;Properties</literal>
         is checked.</para>
+        <para lang="de">
+          Die Kardinalität wird nicht angezeigt, wenn sie 1 ist, es sei denn, 
+          die Einstellung <literal>"1" Kardinalitäten anzeigen</literal> im Menü 
+          <literal>Datei=&gt;Projekteigenschaften</literal> ist markiert.
+        </para>
         
         <para lang="en">The example figure does not demonstrate this, but 
         stereotypes of an association are shown on the diagram, 
@@ -33070,14 +33673,22 @@ available at http://www.opencontent.org/openpub/.
         And stereotypes of association-ends are shown
         together with the association-end name.
         </para>
+        <para lang="de">
+          Das Beispiel-Bild demonstriert dies nicht, weil Stereotypen einer 
+          Assoziation im Diagramm angezeigt werden, aber nicht editierbar sind.
+          Und Stereotypen von Assoziationsenden werden zusammen mit dem Namen 
+          des Assoziationsendes angezeigt.
+        </para>
         
         </sect2>
 
         <sect2>
         <title>
 			<phrase lang="en">Notation Parsing</phrase>
+			<phrase lang="de">Notation Parsen</phrase>
 		</title>
         <para lang="en">(to be written)</para>
+        <para lang="de">(noch zu beschreiben)</para>
         <!-- TODO: Describe all Notation providers' syntax. -->
         </sect2>
 
@@ -33087,24 +33698,31 @@ available at http://www.opencontent.org/openpub/.
 
     <chapter id="ch.ref.detpane">
 
-      <title>
+        <title>
 			<phrase lang="en">The Details Pane</phrase>
+			<phrase lang="de">Der Bereich Details</phrase>
 		</title>
 
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en"><xref linkend="fig.ref.details_pane"/> shows the ArgoUML 
         window, with the details pane highlighted.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.details_pane"/> zeigt das ArgoUML-Fenster mit
+        	dem hervorgehobenen Bereich Details.
+        </para>
 
         <figure float="1" id="fig.ref.details_pane">
 
           <title>
 			<phrase lang="en">Overview of the details pane</phrase>
-		</title>
+			<phrase lang="de">Überblick über den Bereich Details</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33114,11 +33732,22 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en">For any model element within the system, this pane is where 
         all its associated data is viewed and entered.</para>
+        <para lang="de">
+        	Für jedes Modellelement innerhalb des Systems, werden alle mit ihm 
+        	verknüpften Daten innerhalb dieses Bereiches  angezeigt und 
+        	eingegeben.
+        </para>
 
         <para lang="en">The Pane has a series of tabs at the top, which are 
         selected by button&nbsp;1 click The body of a tab is a menu of items 
         to be checked, selected or entered specific to the particular 
         tab selected.</para>
+        <para lang="de">
+          Der Bereich enthält eine Reihe von Registern, die mit einem 
+          Taste&nbsp;1-Klick ausgewählt werden. Der Rumpf des Reiters ist ein 
+          Menü von Einträgen, die je nach ausgewähltem Register markiert, 
+          ausgewählt oder eingegeben werden, .
+        </para>
 
         <para lang="en">Of these, the <literal>Properties</literal> Tab is by far 
         the most complex, with a different presentation for each 
@@ -33127,6 +33756,15 @@ available at http://www.opencontent.org/openpub/.
         chapters covering the model elements that may appear on the various 
         diagrams (see <xref linkend="ch.ref.entities"/> through 
         <xref linkend="ch.ref.entdeploy"/>).</para>
+        <para lang="de">
+          Von diesen, ist das Register <literal>Eigenschaften</literal> das 
+          komplexeste. Mit unterschiedlichen Darstellungen für jedes 
+          Modellelement im System. Die detaillierte Beschreibung des Registers 
+          Eigenschaften für jedes Modellelement ist Inhalt separater Kapitel, 
+          welche die Modellelemente beschreiben, die in den verschiedenen 
+          Diagrammen erscheinen können (siehe  <xref linkend="ch.ref.entities"/> 
+          bis <xref linkend="ch.ref.entdeploy"/>).
+        </para>
 
       </sect1>
 
@@ -33134,6 +33772,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">To Do Item Tab</phrase>
+			<phrase lang="de">Das Register &quot;Zu Bearbeiten&quot;</phrase>
 		</title>
 
         <para lang="en">This tab provides control over the various to-do items 
@@ -33146,12 +33785,31 @@ available at http://www.opencontent.org/openpub/.
         <xref linkend="ch.ref.todopane"/>) or by using the <literal>
         Critiques</literal> context sensitive pop-up menu on the 
         editing pane.</para>
+        <para lang="de">
+          Dieses Register erlaubt die Steuerung über die verschiedenen, vom 
+          Anwender erzeugten Zu-Bearbeiten-Einträge oder automatisch von ArgoUML 
+          generierten Kritiken (wird detaillierter im Abschnitt <literal>
+          Kritiken</literal>-Menü diskutiert. Siehe 
+          <xref linkend="s1.ref.menu_critique"/>). 
+          <xref linkend="fig.ref.details_to_do"/> zeigt einen typischen 
+          Ausschnitt. 
+          Das Zu-Bearbeiten-Element wird mit der Taste&nbsp;1 im Detailbereich 
+          markiert (siehe <xref linkend="ch.ref.todopane"/>) oder mit Hilfe des 
+          kontextsensitiven Popup-Menüs <literal>Kritiken</literal> im 
+          Editierfenster. 
+        </para>
 
         <figure float="1" id="fig.ref.details_to_do">
 
           <title>
-			<phrase lang="en">Example of the <literal>To Do Item</literal> tab on 
-          the properties pane</phrase>
+			<phrase lang="en">
+				Example of the <literal>To Do Item</literal> tab on 
+          		the properties pane
+            </phrase>
+			<phrase lang="de">
+				Beispiel eines <literal>Zu-Bearbeiten-Elementes</literal> im 
+				Eigenschafts-Bereich            
+			</phrase>
 		</title>
 
           <screenshot><mediaobject><imageobject>
@@ -33163,10 +33821,19 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">Customization of the critics behaviour is possible 
         through the <literal>Browse critics...</literal> menu (see 
         <xref linkend="s2.ref.menu_browse_critics"/>).</para>
+        <para lang="de">
+          Benutzerspezifische Anpassungen des Verhaltens von Kritiken ist über 
+          das <literal>Kritiken anzeigen...</literal>-Menü möglich (siehe
+          <xref linkend="s2.ref.menu_browse_critics"/>).
+        </para>
 
         <para lang="en">The body of the tab describes the problem found by the 
         critic and outlines how it can be fixed. To the left are four 
         buttons.</para>
+        <para lang="de">
+          Der Rumpf des Registers beschreibt das Problem und beschreibt, wie es 
+          gelöst werden kann. Links befinden sich vier Schaltflächen.
+        </para>
 
         <itemizedlist>
 
@@ -33182,13 +33849,34 @@ available at http://www.opencontent.org/openpub/.
             own headline (which appears in the to-do pane), priority 
             for the to-do pane, reference URL and detailed description 
             for further information.</para>
+            <para lang="de">
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+            			<imagedata align="center"
+             					   fileref="images/icons/new_to_do_item.gif"
+             					   format="GIF"/>
+             		</imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Neue Kritik...</literal> Öffnet ein Dialogfenster (siehe  
+              <xref linkend="fig.ref.details_new_to_do"/>), das es Ihnen erlaubt, 
+              Ihre eigene Kritik zu schreiben, mit eigener Überschrift (die im 
+              Zu-Bearbeiten-Bereich erscheint), eigener Priorität für den 
+              Zu-Bearbeiten-Bereich, Referenz-URL und detaillierter Beschreibung 
+              für weitere Informationen.
+            </para>
 
             <figure float="1" id="fig.ref.details_new_to_do">
 
               <title>
-			<phrase lang="en">Dialog box for <literal>
-              New To Do Item</literal></phrase>
-		</title>
+				<phrase lang="en">
+					Dialog box for <literal>New To Do Item</literal>
+                </phrase>
+				<phrase lang="de">
+					Dialogfenster für <literal>Neue Kritik</literal>
+				</phrase>
+			  </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -33211,19 +33899,48 @@ available at http://www.opencontent.org/openpub/.
             to-do items in ways other than the recommendation of the 
             to-do item (which is the whole point of their being 
             advisory).</para>
+            <para lang="de">
+              <guiicon>
+              	<inlinemediaobject>
+              	  <imageobject>
+            		<imagedata align="center"
+             				   fileref="images/icons/resolve_item.gif"
+                			   format="GIF"/>
+                  </imageobject>
+                 </inlinemediaobject>
+              </guiicon> 
+              <literal>Kritik auflösen...</literal> Öffnet einen Dialog, der 
+              es dem Anwender ermöglicht, das markierte Zu-Bearbeiten-Element 
+              aufzulösen (siehe <xref linkend="fig.ref.details_resolve_to_do"/>). 
+              Dies ist ein wichtiger Dialog, weil er es erlaubt, die 
+              Zu-Bearbeiten-Elemente auf andere Art und Weise zu behandeln, wie 
+              im Zu-Bearbeiten-Element empfohlen (was der Grund ihrer Existenz 
+              ist). 
+            </para>
 
             <para lang="en">This dialog box is intended to be used for the 
             following reasons: deleting todo items that were manually 
             created, preventing a single critic to trigger on a single 
             object, and dismissing categories of todo items by lowering 
             design concerns or design goals.</para>
+            <para lang="de">
+              Dieses Dialogfenster ist für folgende Fälle gedacht: Löschen von 
+              Zu-Bearbeiten-Elementen, die manuell erzeugt wurden, verhindern, 
+              dass sich eine Kritik nur auf ein Objekt bezieht und auflösen von 
+              ganzen Kategorien von Zu-Bearbeiten-Elementen durch herabstufen 
+              von Designbedingungen oder Designzielen. 
+            </para>
 
             <figure float="1" id="fig.ref.details_resolve_to_do">
 
               <title>
-			<phrase lang="en">Dialog box for <literal>
-              Resolve Item</literal></phrase>
-		</title>
+				<phrase lang="en">
+					Dialog box for <literal>Resolve Item</literal>
+				</phrase>
+				<phrase lang="de">
+					Dialogfenster für <literal>Kritik auflösen</literal>
+				</phrase>
+			  </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -33237,6 +33954,15 @@ available at http://www.opencontent.org/openpub/.
             concern at the moment</literal>, and 3) <literal>Reason 
             given below</literal>. If you choose the third of these you 
             should enter a reason in the main text box.</para>
+            <para lang="de">
+              Oben befinden sich drei Auswahlfelder, von denen das letzte 
+              standardmäßig markiert ist. Sie sind wie folgt bezeichnet: 
+              1) <literal>es ist für meine Ziele nicht relevant</literal>, 2) 
+              <literal>es ist Momentan nicht von Belang</literal> und 3) 
+              <literal>die Gründe sind nachfolgend beschrieben</literal>.
+              Wenn Sie die 3. Option auswählen, sollten Sie die Gründe in dem 
+              nachfolgendem Textbereich beschreiben.
+            </para>
 
             <tip>
 
@@ -33245,6 +33971,13 @@ available at http://www.opencontent.org/openpub/.
               just make the recommended changes and the to-do item will 
               disappear of its own accord. There is no need to use this 
               dialog.</para>
+              <para lang="de">
+                Wenn Sie ein Zu-Bearbeiten-Element auflösen wollen (das durch 
+                eine Kritik generiert wurde) indem Sie dessen Empfehlung folgen, 
+                dann führen Sie die empfohlenen Änderungen durch und das Zu-
+                Bearbeiten-Element wird von selbst verschwinden. Es gibt dann 
+                keine Notwendigkeit, diesen Dialog zu verwenden.
+              </para>
 
             </tip>
 
@@ -33255,10 +33988,22 @@ available at http://www.opencontent.org/openpub/.
               project is saved. And there is no way to retrieve todo 
               items that were resolved. So, it is not usefull to give a 
               reason at all.</para>
+              <para lang="de">
+                Die Version V0.20 der ArgoUML-Implementierung ist unvollständig: 
+                Die angegebenen Gründe werden beim Speichern des Projektes nicht 
+                mitgespeichert. Und es gibt keinen Weg, die aufgelösten 
+                Zu-Bearbeiten-Elemente wiederherzustellen. Aus diesem Grund ist 
+                es aktuell nicht ratsam eine Begründung einzugeben.
+              </para>
 
               <para lang="en">When a todo item generated by a critic is resolved, 
               then there is no way to undo this (unless by re-creating 
               the object that triggered the critic).</para>
+              <para lang="de">
+                Wenn eine generiertes Zu-Bearbeiten-Element aufgelöst wird, dann 
+                gibt es keinen Weg dies ungeschehen zu machen (es sei denn, 
+                durch erneutes erzeugen des Kritik-auslösenden Objektes).
+              </para>
 
             </warning>
 
@@ -33274,6 +34019,22 @@ available at http://www.opencontent.org/openpub/.
             of the critic that generated the current to-do item. The 
             to-do item (and all others generated by the critic) will 
             disappear from the to-do pane.</para>
+            <para lang="de">
+              <guiicon>
+              	<inlinemediaobject>
+              	  <imageobject>
+            		<imagedata align="center"
+             				   fileref="images/icons/snooze_critic.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Kritik deaktivieren</literal> Dies unterdrückt die 
+              Aktivität der Kritik, die das aktuelle Zu-Bearbeiten-Element 
+              generiert. Das Zu-Bearbeiten-Element (und alle anderen von der 
+              Kritik generierten Zu-Bearbeiten-Elemente) werden aus dem Bereich 
+              Zu-Bearbeiten verschwinden.
+            </para>
 
             <para lang="en">The critic will wake up after a period of time. 
             Initially this period is 10 minutes, but it doubles on each 
@@ -33281,12 +34042,26 @@ available at http://www.opencontent.org/openpub/.
             be awakened explicitly through the <literal>
             Critique &gt; Browse Critics...</literal> menu (see 
             <xref linkend="s2.ref.menu_browse_critics"/>).</para>
+            <para lang="de">
+              Die Kritik wird nach einer gewissen Zeit wieder aufleben. Zu Beginn 
+              ist diese Periode auf 10 Minuten eingestellt, aber sie wird bei 
+              jedem Anklicken der Schaltfläche verdoppelt. Die Kritik kann 
+              ausdrücklich durch <literal>Kritiken &gt; Kritiken anzeigen...
+              </literal> wieder zum Leben erweckt werden (siehe 
+              <xref linkend="s2.ref.menu_browse_critics"/>).
+            </para>
 
             <tip>
 
               <para lang="en">Some common critics can fire the whole time as you 
               build a big diagram. Some users find it useful to snooze 
               these critics until the diagram has been completed.</para>
+              <para lang="de">
+                Einige Kritiken können während der gesamten Erstellungszeit eines 
+                grossen Diagrammes erscheinen. Einige Anwender finden es daher 
+                nützlich, diese Kritiken zu deaktivieren bis das Diagramm 
+                vollständig ist.
+              </para>
 
             </tip>
 
@@ -33298,7 +34073,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Wizards</phrase>
-		</title>
+			<phrase lang="de">Assistenten</phrase>
+		  </title>
 
           <para lang="en">Some of the more common critics have a 
           <quote>wizard</quote> available to help in fixing the 
@@ -33307,12 +34083,25 @@ available at http://www.opencontent.org/openpub/.
           the changes. Start the wizard by clicking the 
           <literal>Next&gt;</literal> button.
           </para>
+          <para lang="de">
+            Einige der am häufigsten vorkommenden Kritiken haben einen 
+          <quote>Assistenten</quote>, der dabei hilft, das Problem zu lösen.
+          Der Assistent umfasst im <literal>Zu-Bearbeiten-Element</literal> eine 
+          Reihe von Seiten (eine oder mehrere), die Sie Schritt für Schritt 
+          durch die Änderungen führen. Sie starten den Assistenten durch 
+          Anklicken der Schaltfläche <literal>Weiter &gt;&gt;</literal>.
+          </para>
 
           <figure float="1" id="fig.ref.details_wizard">
 
             <title>
-			<phrase lang="en">Example of a <literal>Wizard</literal></phrase>
-		</title>
+				<phrase lang="en">
+					Example of a <literal>Wizard</literal>
+				</phrase>
+				<phrase lang="de">
+					Beispiel eines <literal>Assistenten</literal>
+				</phrase>
+		    </title>
 
             <screenshot><mediaobject><imageobject>
             <imagedata align="center"
@@ -33322,6 +34111,10 @@ available at http://www.opencontent.org/openpub/.
 
           <para lang="en">The wizard is driven through the first three buttons at 
           the bottom of the <literal>ToDo Item</literal> tab.</para>
+          <para lang="de">
+            Der Assistent wird durch die ersten drei Schaltflächen im unteren 
+            Bereich des <literal>Zu-Bearbeiten-Elementes</literal> gesteuert.
+          </para>
 
           <itemizedlist>
 
@@ -33330,6 +34123,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>&lt;Back</literal>. This will take you back to 
               the previous step in the wizard. Grayed out if this is 
               the first step.</para>
+              <para lang="de">
+                <literal>&lt;&lt; Zurück</literal>. Dies bringt Sie in der 
+                vorhergehenden Schritt des Assistenten zurück. Die Schaltfläche 
+                ist deaktiviert, wenn es sich um den 1. Schritt handelt. 
+              </para>
 
             </listitem>
 
@@ -33338,6 +34136,12 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>Next&gt;</literal>. This will take you back to 
               the next step in the wizard. Grayed out if this is the 
               last step.</para>
+              <para lang="de">
+                <literal>Weiter &gt;&gt;</literal>. Dies bringt Sie zum 
+                nächsten Schritt des Assistenten. Wenn es sich um den letzten 
+                Schritt des Assistenten handelt, ist diese Schaltfläche 
+                deaktiviert. 
+              </para>
 
             </listitem>
 
@@ -33346,6 +34150,12 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en"><literal>Finish</literal>. This will commit the 
               changes you have made through the wizard in previous 
               steps, and/or use the defaults for all next steps.</para>
+              <para lang="de">
+                <literal>Fertigstellen</literal>. Dieser Schritt vollzieht die 
+                von Ihnen im Assistenten in den vorhergehenden Schritten 
+                vorgenommenen Änderungen und/oder verwendet die Standardwerte 
+                für alle folgenden Schritte. 
+              </para>
 
             </listitem>
 
@@ -33355,6 +34165,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en">Not all to-do items have wizards. If there is no 
             wizard all three buttons will remain grayed out.</para>
+            <para lang="de">
+              Nicht alle Zu-Bearbeiten-Elemente haben Assistenten. Wenn es 
+              keinen Assistenten gibt, sind alle drei Schaltflächen deaktiviert.
+            </para>
 
           </note>
           
@@ -33365,6 +34179,15 @@ available at http://www.opencontent.org/openpub/.
           remeber where it was, so if you return to the todo item,
           the wizard will indicate the same step it was on when you left it.
           </para>
+          <para lang="de">
+            Die ArgoUML-Assistenten sind <emphasis>nicht-model</emphasis>, d.h. 
+            einmal gestartet, können Sie andere Zu-Bearbeiten-Elemente auswählen 
+            oder andere Aktionen ausführen. Und dies alles, während sich der 
+            Assistent daran erinnert, wo er war. Sie können somit zu diesem 
+            Zu-Bearbeiten-Element zurückkehren und der Assistent wird mit dem 
+            gleichen Schritt fortfahren, in dem er war, bevor Sie ihn verlassen 
+            haben.
+          </para>
 
         </sect2>
 
@@ -33372,12 +34195,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">The Help Button</phrase>
-		</title>
+			<phrase lang="de">Die Schaltfläche Hilfe</phrase>
+		  </title>
 
           <para lang="en">There is one remaining button at the bottom of the 
           <literal>To Do Item</literal> tab, labeled <literal>
           Help</literal>. This will fire up a browser to a URL with 
           further help.</para>
+          <para lang="de">
+            Es gibt noch eine verbliebene Schaltfläche im unteren Bereich des  
+            Registers <literal>Zu-Bearbeiten-Element</literal>, mit <literal>
+            Hilfe</literal> bezeichnet. Diese wird künftig einen Browser öffnen, 
+            mit einer URL für eine weitergehende Hilfe.
+          </para>
 
           <!--warning>
 
@@ -33395,11 +34225,18 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Properties Tab</phrase>
+			<phrase lang="de">Das Register Eigenschaften</phrase>
 		</title>
 
         <para lang="en">Through this tab, the properties of model elements selected in 
         the explorer or editing pane may be set. The properties of an 
         model element may be displayed in one of the following ways:</para>
+        <para lang="de">
+          Über dieses Register werden die Eigenschaften eines im Explorer oder 
+          im Editierbereich markierten Modellelementes eingestellt. Die 
+          Eigenschaften eines Modellelementes können auf folgende Art und Weise 
+          angezeigt werden:
+        </para>
 
         <orderedlist>
 
@@ -33408,6 +34245,11 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en">Selection of the model element in the explorer or editing 
             panes, followed by selection of the properties tab in the 
             details pane; or</para>
+            <para lang="de">
+              Markieren des Modellelementes im Explorer oder im Editierbereich, 
+              gefolgt von der Auswahl des Registers Eigenschaften im Bereich 
+              Details; oder
+            </para>
 
           </listitem>
 
@@ -33419,6 +34261,14 @@ available at http://www.opencontent.org/openpub/.
             <literal>Navigate Forward</literal> buttons in the main 
             tool bar, and the various menu-items under <literal>Edit - 
             Select</literal>.</para>
+            <para lang="de">
+              Über die Navigationsschaltflächen werden unterschiedliche 
+              Modellelemente markiert. Zum Beispiel, die Schaltfläche 
+              <literal>Nach oben</literal> im Register Eigenschaften, die 
+              Schaltflächen <literal>Zurück</literal> und <literal>Vorwärts
+              </literal> in der Symbolleiste und die verschiedenen Menüeinträge 
+              unter <literal>Bearbeiten - Markieren</literal>.
+            </para>
 
           </listitem>
 
@@ -33427,13 +34277,24 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en"><xref linkend="fig.ref.details_properties"/> shows a 
         typical properties tab for a model element in ArgoUML (in this case 
         a class).</para>
+        <para lang="de">
+          <xref linkend="fig.ref.details_properties"/> zeigt ein typisches 
+          Register Eigenschaften für ein Modellelement in ArgoUML (in diesem 
+          Fall eine Klasse).
+        </para>
 
         <figure float="1" id="fig.ref.details_properties">
 
           <title>
-			<phrase lang="en">A typical <literal>Properties</literal> tab on the 
-          details pane</phrase>
-		</title>
+			<phrase lang="en">
+				A typical <literal>Properties</literal> tab on the 
+          		details pane
+          	</phrase>
+			<phrase lang="de">
+	            Ein typisches Register <literal>Eigenschaften</literal> im 
+	            Bereich Details
+          	</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33445,12 +34306,26 @@ available at http://www.opencontent.org/openpub/.
         model element (i.e. the UML metaclass, not the actual name of this 
         particular model element). In this example the property tab is for a 
         class.</para>
+        <para lang="de">
+          Oben links befindet sich das Symbol und der Name des Modellelement-Typs 
+          (z.B. die UML-Metaklasse, nicht der aktuelle Name dieses bestimmten 
+          Modellelementes). In diesem Beispiel ist es das Register Eigenschaften 
+          für eine Klasse.
+        </para>
 
         <para lang="en">To the right of this is a toolbar of icons relevant to 
         this property tab. The first one is always navigation <literal>
         Go up</literal>. The last is always <literal>Delete</literal> 
         to delete the selected model element from the model. The ones in 
         between depend on the model element.</para>
+        <para lang="de">
+          Rechts davon befindet sich eine Symbolleiste mit Symbolen, die in 
+          diesem Register Eigenschaften relevant sind. Das Erste ist immer die 
+          Schaltfläche <literal>Nach oben</literal>. Das Letzte ist immer die 
+          Schaltfläche <literal>Löschen</literal>, um das markierte Modellelement 
+          aus dem Modell zu löschen. Die Symbole dazwischen, hängen vom jeweiligen 
+          Modellelement ab. 
+        </para>
 
         <para lang="en">The remainder of the tab comprises fields, laid out in 
         two or three columns. Each field has a label to its left. The 
@@ -33458,17 +34333,38 @@ available at http://www.opencontent.org/openpub/.
         radio boxes and check boxes. In most (but not all cases) the 
         values can be changed. In the case of text boxes this is 
         sometimes by just typing the required value.</para>
+        <para lang="de">
+          Der Rest des Registers enthält Felder, die in zwei oder drei Spalten 
+          angeordnet sind. Jedes Feld ist links davon bezeichnet. Die Felder 
+          können Textfelder, Textbereiche, DropDown-Felder, Auswahlfelder oder 
+          Markierfelder sein. In den meisten (aber nicht in allen Fällen) Fällen 
+          können die Werte geändert werden. Bei Textfeldern ist dies manchmal nur
+          das Eingeben des erforderlichen Wertes.
+        </para>
 
         <para lang="en">However for many text boxes and text areas, data entry is 
         via a context sensitive pop-up menu (using button&nbsp;2 click), 
         which offers options to add a new entry, delete an entry or 
         move entries up and down (in text areas with multiple 
         entries).</para>
+        <para lang="de">
+          Jedoch bei vielen Textfeldern und Textbereichen erfolgt die 
+          Dateneingabe über ein kontextsensitives Popup-Menü (mit Hilfe des 
+          Taste&nbsp;2-Klicks), welches die Optionen anbietet, um neue Einträge 
+          hinzuzufügen, einen Eintrag zu löschen oder Einträge nach oben oder 
+          nach unten zu bewegen (in Textbereichen mit Mehrfach-Einträgen).
+        </para>
 
         <para lang="en">The first field is almost always a text field <literal>
         Name</literal>, where the name of the specific model element can be 
         entered. The remaining fields vary depending on the model element 
         selected.</para>
+        <para lang="de">
+          Das erste Feld ist meist immer ein Textfeld mit der Bezeichnung 
+          <literal>Name</literal>, wo der Name des spezifischen Modellelementes 
+          eingegeben werden kann. Die verbleibenden Felder variieren, je nach 
+          markiertem Modellelement.
+        </para>
 
         <para lang="en">The detailed property sheets for all ArgoUML model elements 
         are discussed in separate chapters for each of the diagram 
@@ -33481,6 +34377,19 @@ available at http://www.opencontent.org/openpub/.
         <xref linkend="ch.ref.entdeploy"/>). Property sheets for 
         model elements that are common to all diagram types have their own 
         chapter (<xref linkend="ch.ref.entities"/>).</para>
+        <para lang="de">
+          Die detaillierten Eigenschaftstabellen für alle ArgoUML-Modellelemente 
+          werden in separaten Kapiteln für jeden Diagrammtyp diskutiert (
+          Anwendungsfalldiagramm (<xref linkend="ch.ref.entusecase"/>, 
+          Klassendiagramm (<xref linkend="ch.ref.entclass"/>, Sequenzdiagramm 
+          (<xref linkend="ch.ref.entseq"/>, Zustandsdiagramm (
+          <xref linkend="ch.ref.entstate"/>, Kollaborationsdiagramm (
+          <xref linkend="ch.ref.entcollab"/>, Aktivitätsdiagramm (
+          <xref linkend="ch.ref.entactiv"/>, Verteilungsdiagramm (
+          <xref linkend="ch.ref.entdeploy"/>). Eigenschaftstabellen für 
+          Modellelemente, die sehr häufig in allen Diagrammtypen erscheinen, 
+          haben ihr eigenes Kapitel (<xref linkend="ch.ref.entities"/>).
+        </para>
 
         <caution>
 
@@ -33489,6 +34398,14 @@ available at http://www.opencontent.org/openpub/.
           it may become unusable. The solution is to either enlarge the 
           property tab by enlarging the main window, or by moving the 
           dividers to left and top.</para>
+          <para lang="de">
+            ArgoUML wird immer versuchen, alle Felder auf dem Register 
+            Eigenschaften auszugeben. Ist die Größe des Registers Eigenschaften 
+            zu klein, wird es unhandlich. Die Lösung ist, entweder das Register 
+            Eigenschaften durch vergrößern des Hauptfensters oder durch 
+            verschieben der Bereichsteiler nach links und nach oben ebenfalls zu 
+            vergrößern 
+          </para>
 
         </caution>
 
@@ -33498,6 +34415,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Documentation Tab</phrase>
+			<phrase lang="de">Das Register Dokumentation</phrase>
 		</title>
 
         <para lang="en">Within the UML&nbsp;1.4 standard, all model elements are children 
@@ -33508,16 +34426,36 @@ available at http://www.opencontent.org/openpub/.
         applies to every model element, it is given its own tab in the 
         details pane, rather than being part of the <literal>
         Tagged Values</literal> tab.</para>
+        <para lang="de">
+          Innerhalb des UML&nbsp;1.4-Standards sind alle Modellelemente 
+          Subelemente der Metaklasse <literal>Element</literal>. Die Metaklasse 
+          <literal>Element</literal> definiert einen gekennzeichneten Wert 
+          <literal>Dokumentation</literal> für einen Kommentar, eine Beschreibung 
+          oder eine Erläuterung eines jeden Elementes. Da dieser gekennzeichnete 
+          Wert zu jedem Modellelement gehört, hat er sein eigenes Register im 
+          Bereich Details erhalten und nicht im Bereich 
+          <literal>Eigenschaftswerte</literal>.
+        </para>
 
         <para lang="en"><xref linkend="fig.ref.details_documentation"/> shows a 
         typical documentation tab for a model element in ArgoUML.</para>
+        <para lang="de">
+          <xref linkend="fig.ref.details_documentation"/> zeigt ein typisches 
+          Register Dokumentation für ein Modellelement in ArgoUML.
+        </para>
 
         <figure float="1" id="fig.ref.details_documentation">
 
           <title>
-			<phrase lang="en">A typical <literal>Documentation</literal> tab on the 
-          details pane</phrase>
-		</title>
+			<phrase lang="en">
+				A typical <literal>Documentation</literal> tab on the 
+          		details pane
+          	</phrase>
+			<phrase lang="de">
+				Ein typisches Register <literal>Dokumentation</literal> im 
+          		Bereich Details
+          	</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33534,12 +34472,30 @@ available at http://www.opencontent.org/openpub/.
         <literal>deprecated</literal>, 
         <literal>see</literal>.
         </para>
+        <para lang="de">
+          Wie Sie sehen können, wurden sehr viel mehr Felder dem 
+          Dokumentationsfeld hinzugefügt. Die anderen Felder speichern Ihre 
+          Informationen gewöhnlich unter Eigenschaftswerte: 
+          <literal>Autor</literal>,
+          <literal>Version</literal>, 
+          <literal>Seit</literal>, 
+          <literal>Veraltet</literal>, 
+          <literal>Siehe</literal>.
+        </para>
         
         <para lang="en">The fields on this tab are the same for all 
         model elements.</para>
+        <para lang="de">
+          Die Felder in diesem Register sind für alle Modellelemente die 
+          gleichen.
+        </para>
 
         <para lang="en">Since UML comments are a kind of documentation, 
         they are also shown on this tab, with name and body.</para>
+        <para lang="de">
+          Da UML-Kommentare eine Art von Dokumentation sind, werden sie auch in 
+          diesem Register mit ihrem Namen und Erläuterungen angezeigt.
+        </para>
 
         <itemizedlist>
 
@@ -33547,6 +34503,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en"><literal>Author:</literal> A text box for the author 
             of the documentation.</para>
+            <para lang="de">
+              <literal>Autor:</literal> Ein Textfeld für den Autor der 
+              Dokumentation.
+            </para>
 
           </listitem>
 
@@ -33554,6 +34514,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en"><literal>Version:</literal> A text box for the 
             version of the documentation.</para>
+            <para lang="de">
+              <literal>Version:</literal> Ein Textfeld für die Version dieser 
+              Dokumentation. 
+            </para>
 
           </listitem>
 
@@ -33561,6 +34525,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en"><literal>Since:</literal> A text box to show how long 
             the documentation has been valid.</para>
+            <para lang="de">
+              <literal>Seit:</literal> Ein Textfeld, das angibt, seit wann die 
+              Dokumentation gültig ist. 
+            </para>
 
           </listitem>
 
@@ -33569,6 +34537,11 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en"><literal>Deprecated:</literal> A check box to 
             indicate whether this model element is deprecated (i.e. planned 
             for removal in future versions of the design model).</para>
+            <para lang="de">
+              <literal>Veraltet:</literal> Ein Markierfeld, das angibt, ob das 
+              Modellelement veraltet ist (z.B. soll in künftigen Versionen des 
+              Designmodelles entfernt werden).
+            </para>
 
           </listitem>
 
@@ -33576,6 +34549,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en"><literal>See:</literal> Pointers to documentation 
             outside the system.</para>
+            <para lang="de">
+              <literal>Siehe:</literal> Referenzen auf Dokumentationen ausserhalb 
+              dieses Systems. 
+            </para>
 
           </listitem>
 
@@ -33583,6 +34560,9 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en"><literal>Documentation:</literal> Literal text of any 
             documentation.</para>
+            <para lang="de">
+              <literal>Dokumentation:</literal> Der Text einer Dokumentation.
+            </para>
 
           </listitem>
 
@@ -33591,6 +34571,10 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en"><literal>Comment Name:</literal> 
             The names of all comments attached to the modelelement.
             </para>
+            <para lang="de">
+              <literal>Kommentarbezeichnung:</literal> Die Namen aller 
+              Kommentare, die diesem Modellelement hinzugefügt wurden.
+            </para>
 
           </listitem>
           
@@ -33598,6 +34582,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en"><literal>Body:</literal> 
             The bodies of all comments attached to this modelelement.
+            </para>
+            <para lang="de">
+              <literal>Kommentar:</literal> 
+              Die diesem Modellelement hinzugefügten Kommentare.
             </para>
 
           </listitem>
@@ -33610,6 +34598,12 @@ available at http://www.opencontent.org/openpub/.
           model elements that require heavy documentation, notably use 
           cases, the use of the <literal>See:</literal> field to point 
           to external documents is more practical.</para>
+          <para lang="de">
+            ArgoUML ist primär kein Dokumentationssystem. Bei Modellelementen, 
+            die eine umfangreiche Dokumentation erfordern, zum Beispiel 
+            Anwendungsfälle, verwenden Sie das Feld <literal>Siehe:</literal>, 
+            um auf externe Dokumente zu verweisen. Dies ist praktischer.
+          </para>
 
         </tip>
 
@@ -33619,27 +34613,50 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Presentation Tab</phrase>
+			<phrase lang="de">Das Register Darstellung</phrase>
 		</title>
 
         <para lang="en">This tab provides some limited control over the graphical 
         representation of model elements in the diagram in the editing 
         pane.</para>
+        <para lang="de">
+          Dieses Register enthält eine begrenzte Steuerung der grafischen 
+          Darstellung von Modellelementen im Diagramm des Editierbereiches. 
+        </para>
 
         <para lang="en">Model elements that do not have any specific direct graphical 
         representation on the screen (beyond their textual description) 
         do not have style tabs of their own. For example the style 
         sheet of an operation on a class will be downlighted.</para>
+        <para lang="de">
+          Modellelemente, die keine spezifische grafische Repräsentation auf 
+          dem Bildschirm (neben ihrer Textbeschreibung) haben, weisen keine 
+          Register Darstellung auf. Die Darstellungs-Tabelle einer Operation 
+          einer Klasse, zum Beispiel, wird deaktiviert.  
+        </para>
 
         <para lang="en">Style sheets vary a little from model element to model element, but 
         <xref linkend="fig.ref.details_style"/> shows a typical style 
         tab for a model element in ArgoUML (in this case a class).</para>
+        <para lang="de">
+          Darstellungstabellen variieren etwas von Modellelement zu Modellelement, 
+          aber <xref linkend="fig.ref.details_style"/> zeigt ein typisches 
+          Register Darstellung für ein Modellelement in ArgoUML (in diesem Fall 
+          eine Klasse).
+        </para>
 
         <figure float="1" id="fig.ref.details_style">
 
           <title>
-			<phrase lang="en">A typical <literal>Presentation</literal> tab on the 
-          details pane</phrase>
-		</title>
+			<phrase lang="en">
+				A typical <literal>Presentation</literal> tab on the 
+          		details pane
+          	</phrase>
+			<phrase lang="de">
+	            Eine typisches Register <literal>Darstellung</literal> im 
+	            Bereich Details
+          	</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33649,6 +34666,10 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en">There may be further fields in some cases, e.g. for a 
         package, but most fields are common to many model elements.</para>
+        <para lang="de">
+          In einigen Fällen können weitere Felder vorhanden sein, z.B. für ein 
+          Paket. Aber die meisten Felder sind den Modellelementen gemeinsam.
+        </para>
 
         <itemizedlist>
 
@@ -33660,12 +34681,25 @@ available at http://www.opencontent.org/openpub/.
               seperators. E.g. the ArgoUML Main class would be shown as: 
               <literal>org::argouml::application::Main</literal>.
             </para>
+            <para lang="de">
+              <literal>Pfad</literal>
+              Dieses Markierfeld erlaubt es, den Pfad vor dem Namen des 
+              Modellelementes auszugeben oder nicht. Er wird in der UML-Notation 
+              durch <literal>::</literal>-Trenner dargestellt. Zum Beispiel würde 
+              die Klasse Main von ArgoUML wie folgt angezeigt:
+              <literal>org::argouml::application::Main</literal>.
+            </para>
           </listitem>
 
           <listitem>
             <para lang="en"><literal>Attributes</literal>
             This checkbox allows to hide or show the attributes compartment of 
             a class.
+            </para>
+            <para lang="de">
+              <literal>Attribute</literal>
+              Dieses Markierfeld erlaubt es, den Attributbereich einer Klasse 
+              ein- und auszublenden.
             </para>
           </listitem>
 
@@ -33674,12 +34708,22 @@ available at http://www.opencontent.org/openpub/.
             This checkbox allows to hide or show the operations compartment of 
             a class or interface.
             </para>
+            <para lang="de">
+              <literal>Operation</literal>
+              Dieses Markierfeld erlaubt es, den Operationsbereich einer Klasse 
+              oder einer Schnittstelle ein- und auszublenden.
+            </para>
           </listitem>
 
           <listitem>
             <para lang="en"><literal>Stereotype</literal>
             This checkbox allows to reveal or hide the stereotypes of 
             a package, shown above the name.
+            </para>
+            <para lang="de">
+              <literal>Stereotyp</literal>
+              Dieses Markierfeld erlaubt es, die über dem Namen dargestellten 
+              Stereotypen eines Paketes ein- und auszublenden.
             </para>
           </listitem>
 
@@ -33689,6 +34733,13 @@ available at http://www.opencontent.org/openpub/.
             a package. 
             The visibility is shown in UML notation as +, -, # or ~.
             </para>
+            <para lang="de">
+              <literal>Sichtbarkeit</literal>
+              Dieses Markierfeld erlaubt es, die Sichtbarkeit eines Paketes ein- 
+              und auszublenden.
+              Die Sichtbarkeit wird in der UML-Notation als  +, -, # oder ~ 
+              dargestellt.
+            </para>
           </listitem>
 
           <listitem>
@@ -33696,6 +34747,11 @@ available at http://www.opencontent.org/openpub/.
             This checkbox allows to reveal or hide 
             the extensions points compartment of 
             a usecase.
+            </para>
+            <para lang="de">
+              <literal>Erweiterungspunkte</literal>
+              Das Markierfeld erlaubt es Ihnen, die Erweiterungspunkte von 
+              Anwendungsfällen ein- und auszublenden.
             </para>
           </listitem>
 
@@ -33707,11 +34763,25 @@ available at http://www.opencontent.org/openpub/.
             of the box; ii) the Y coordinate of the upper left corner 
             of the box; iii) the width of the box; and iv) the height 
             of the box. All units are pixels on the editing pane.</para>
+            <para lang="de">
+              <literal>Begrenzung:</literal> Sie definiert die Ecken des 
+              2D-Modellelementes. Es besteht aus vier, durch Kommas separierte 
+              Nummern. Diese vier Nummern sind: i) die X-Koordinate der linken 
+              oberen Ecke; ii) die Y-Koordinate der linken oberen Ecke; iii) 
+              die Breite des Feldes und iv) die Höhe des Feldes. Alle Einheiten 
+              sind Pixel im Editierbereiches. 
+            </para>
 
             <para lang="en">This field has no effect on 1D model elements that link 
             other model elements (associations, generalizations etc), since 
             their position is constrained by their connectedness. In 
             this case the field is downlighted.</para>
+            <para lang="de">
+              Dieses Feld hat bei 1D-Modellelementen, die andere Modellelemente 
+              verbinden (Assoziationen, Vererbungen, usw.) keine Auswirkung, da 
+              deren Position durch ihre Verbindungspartner bestimmt wird. In 
+              diesem Fall ist dieses Feld deaktiviert.
+            </para>
 
           </listitem>
 
@@ -33725,6 +34795,16 @@ available at http://www.opencontent.org/openpub/.
             then the ones listed. It causes the color selector dialog 
             box to appear, see 
             <xref linkend="fig.ref.details_style_colorpicker1"/>.</para>
+            <para lang="de">
+              <literal>Füllfarbe:</literal> Diese DropDown-Auswahl bestimmt die 
+              Füllfarbe der 2D-Modellelemente. Sie ist bei Linien-Modellelementen 
+              nicht vorhanden. Die Auswahl <literal>Keine Füllfarbe</literal> 
+              macht das Modellelement transparent. Die Auswahl <literal>
+              Benutzerdefiniert</literal> erlaubt es andere Farben auszuwählen, 
+              als die derzeit aufgelisteten. Die Auswahl dieses Eintrages öffnet 
+              den Farbauswahl-Dialog, siehe 
+              <xref linkend="fig.ref.details_style_colorpicker1"/>.
+            </para>
 
           </listitem>
 
@@ -33737,6 +34817,15 @@ available at http://www.opencontent.org/openpub/.
             then the ones listed. It causes the color selector dialog 
             box to appear, see 
             <xref linkend="fig.ref.details_style_colorpicker1"/>.</para>
+            <para lang="de">
+              <literal>Linienfarbe:</literal> Diese DropDown-Auswahl bestimmt die 
+              Linienfarbe der Modellelemente. Die Auswahl <literal>Keine 
+              Linienfarbe</literal> macht das Modellelement transparent. Die 
+              Auswahl <literal>Benutzerdefiniert</literal> erlaubt es andere 
+              Farben auszuwählen, als die derzeit aufgelisteten. Die Auswahl 
+              dieses Eintrages öffnet den Farbauswahl-Dialog, siehe
+              <xref linkend="fig.ref.details_style_colorpicker1"/>.
+            </para>
 
           </listitem>
 
@@ -33745,9 +34834,13 @@ available at http://www.opencontent.org/openpub/.
         <figure float="1" id="fig.ref.details_style_colorpicker1">
 
           <title>
-			<phrase lang="en">The <literal>Custom Fill/Line Color</literal> dialog 
-          box</phrase>
-		</title>
+			<phrase lang="en">
+				The <literal>Custom Fill/Line Color</literal> dialog box
+          	</phrase>
+			<phrase lang="de">
+				Der Dialog <literal>Benutzerdefinierte Füll-/Linienfarbe</literal>
+          	</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33758,9 +34851,13 @@ available at http://www.opencontent.org/openpub/.
         <figure float="1" id="fig.ref.details_style_colorpicker2">
 
           <title>
-			<phrase lang="en">The <literal>Custom Fill/Line Color</literal> dialog 
-          box</phrase>
-		</title>
+			<phrase lang="en">
+				The <literal>Custom Fill/Line Color</literal> dialog box
+			</phrase>
+			<phrase lang="de">
+				Der Dialog <literal>Benutzerdefinierte Füll-/Linienfarbe</literal>
+			</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33771,9 +34868,13 @@ available at http://www.opencontent.org/openpub/.
         <figure float="1" id="fig.ref.details_style_colorpicker3">
 
           <title>
-			<phrase lang="en">The <literal>Custom Fill/Line Color</literal> dialog 
-          box</phrase>
-		</title>
+			<phrase lang="en">
+				The <literal>Custom Fill/Line Color</literal> dialog box
+			</phrase>
+			<phrase lang="de">
+				Der Dialog <literal>Benutzerdefinierte Füll-/Linienfarbe</literal>
+			</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33787,6 +34888,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Source Tab</phrase>
+			<phrase lang="de">Source Tab</phrase>
 		</title>
 
         <para lang="en">This tab shows the source code that 
@@ -33795,12 +34897,20 @@ available at http://www.opencontent.org/openpub/.
         The code shown here, may be saved in the indicated files 
         with the aid of the functions in the Generation menu.
         </para>
+        <para lang="de">
+          Dieses Register zeigt den Quellcode, der für dieses Modellelement in 
+          der ausgewählten Sprache generiert wurde. ArgoUML generiert den Code 
+          zum Beispiel für Klassen und Schnittstellen. Der hier gezeigte Code 
+          kann in den angezeigten Dateien mit Hilfe der Funktionen im Menü 
+          Generieren gespeichert werden. 
+        </para>
 
         <figure float="1" id="fig.ref.details_source">
 
           <title>
 			<phrase lang="en">The Source Tab of a class.</phrase>
-		</title>
+			<phrase lang="de">Das Register Quellcode einer Klasse.</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33811,18 +34921,30 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">Any code you add will be lost - that 
         is not the intention of ArgoUML - use an IDE instead.
         </para>
+        <para lang="de">
+          Jeder von Ihnen hinzugefügte Code geht verloren - das ist nicht die 
+          Absicht von ArgoUML - verwenden Sie stattdessen eine IDE.
+        </para>
         
         <para lang="en">The dropdown at the right allows selection of the output file. 
         This function is not very useful for languages 
         that generate all code for a class within one file,
         but serves its purpose for e.g. C++, where a .h and .cpp file
         are generated. See the figure below.</para>
+        <para lang="de">
+          Das rechte Auswahlfeld erlaubt die Auswahl der Ausgabedatei. Diese 
+          Funktion ist nicht sehr sinnvoll für Sprachen, die den gesamten Code 
+          einer Klasse in einer Datei speichern, aber sie erfüllt seinen Zweck 
+          für z.B. C++, wo eine .h und .cpp-Datei generiert wird. Sie 
+          nachfolgendes Bild.
+        </para>
          
         <figure float="1" id="fig.ref.details_source_cpp">
 
           <title>
 			<phrase lang="en">A C++ example.</phrase>
-		</title>
+			<phrase lang="de">Ein C++ Beispiel.</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33836,24 +34958,42 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Constraints Tab</phrase>
+			<phrase lang="de">Das Register Randbedingungen</phrase>
 		</title>
 
         <para lang="en">Constraints are one of the extension mechanisms provided 
         for UML. ArgoUML is equipped with a powerful constraint editor 
         based on the <emphasis>Object Constraint Language 
         (OCL)</emphasis> defined in the UML&nbsp;1.4 standard.</para>
+        <para lang="de">
+          Randbedingungen sind einer der in UML enthaltenen 
+          Erweiterungsmechanismen. ArgoUML ist mit einem leistungsfähigen 
+          Randbedingungseditor ausgerüstet, der auf der im UML&nbsp;1.4-Standard 
+          definierten <emphasis>Objekt Randbedingungssprache (Object Constraint 
+          Language; OCL)</emphasis> basiert.
+        </para>
 
         <caution>
 
           <para lang="en">The OCL editor implementation for ArgoUML V0.26 
           doesn&apos;t support OCL constraints for elements other than 
           Classes and Features.</para>
+          <para lang="de">
+            Die OCL-Editorimplementierung für ArgoUML V0.24 unterstützt keine 
+            OCL-Randbedingungen außer Klassen und Eigenschaften.
+          </para>
 
           <para lang="en">This is something of a general restriction of OCL. 
           Although the UML specification claims that there may be a 
           constraint for every model element, the OCL specification 
           only defines classes/interfaces and operations as allowable 
           contexts.</para>
+          <para lang="de">
+            Dies ist machmal eine sehr starke Einschränkung von OCL. Obwohl die 
+            UML-Spezifikation bestimmt, dass es für jedes Modellelement 
+            Randbedingungen geben kann, spezifiziert die OCL-Spezifikation diese 
+            nur für Klassen/Schnittstellen und Operationen im zulässigen Kontext.
+          </para>
 
           <para lang="en">It is not before OCL 2.0 that a more general definition 
           of allowable contexts is introduced. The key issue is that 
@@ -33866,6 +35006,18 @@ available at http://www.opencontent.org/openpub/.
           seem to expect this to be defined in the OCL specification 
           (which is why we did a first step in that direction in OCL 
           2.0).</para>
+          <para lang="de">
+            Vor OCL 2.0 wird keine generellere Definition von erlaubten Kontexten 
+            eingeführt. Der Schlüssel ist, dass Sie für jede benötigte 
+            Kontextdefinition einen kontextspezifischen Klassifizierer definieren 
+            müssen. Zum Beispiel einen Klassifizierer, der mit dem gleichen 
+            Schlüsselwort verknüpft wird. Die Ersteller der OCL-Spezifikation 
+            führen aus, dass dies kein Fehler der OCL-Spezifikation ist, aber 
+            selbst für UML einige Integrationsschritte erfordert. Es sieht so 
+            aus, das die Personen, die UML spezifizierten dachten, das dies in 
+            OCL spezifiziert wird (aus diesem Grund tun wir einen ersten Schritt 
+            in Richtung OCL 2.0). 
+          </para>
 
           <para lang="en">So, to cut a long story short, it appeared that the 
           simplest solution for ArgoUML at the moment would be to 
@@ -33873,6 +35025,13 @@ available at http://www.opencontent.org/openpub/.
           for which there actually exists a definition of the 
           contextualClassifier in OCL 1.4. These are (s. above) 
           Class/Interface and Feature.</para>
+          <para lang="de">
+            Um die Geschichte abzukürzen, scheint es so, dass es im Moment die 
+            einfachste Lösung für ArgoUML ist, den OCL-Eigenschaftsbereich nur 
+            für solche Modellelemente freizugeben, für die es aktuell eine 
+            Definition der kontextsensitiven Klassifizierer in der OCL 1.4 gibt. 
+            Dies sind (siehe oben) Klassen/Schnittstellen und Eigenschaften.
+          </para>
 
         </caution>
 
@@ -33880,9 +35039,19 @@ available at http://www.opencontent.org/openpub/.
         (for example the <literal>xor</literal> constraint over a set 
         of associations indicating that only one may be manifest for 
         any particular instance).</para>
+        <para lang="de">
+          Der Standard definierte eine kleine Anzahl von Randbedingungen vor (
+          zum Beispiel die Bedingung <literal>xor</literal> über einen Satz von 
+          Assoziationen, was anzeigt, dass nur einer in einer bestimmten Instanz 
+          bekannt ist).
+        </para>
 
         <para lang="en">The standard also envisages a number of circumstances 
         where general purpose constraints may be useful:</para>
+        <para lang="de">
+          Der Standard hat auch eine Anzahl von Umständen im Auge, in denen 
+          generelle Randbedingungen hilfreich sein können:
+        </para>
 
         <itemizedlist>
 
@@ -33890,12 +35059,20 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en">To specify invariants on classes and types in the 
             class model;</para>
+            <para lang="de">
+              Um zu kennzeichenen, dass sich Klassen und Typen im Klassenmodell 
+              nicht ändern (Invarianz);
+            </para>
 
           </listitem>
 
           <listitem>
 
             <para lang="en">To specify type invariants for stereotypes;</para>
+            <para lang="de">
+              Um zu kennzeichnen, dass sich Typen von Stereotypen nicht 
+              ändern (Invarianz);
+            </para>
 
           </listitem>
 
@@ -33903,24 +35080,31 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en">To describe pre-conditions and post-conditions on operations 
             and methods;</para>
+            <para lang="de">
+              Um Vor- und Nachbedingungen in Operationen und Methoden 
+              zu beschreiben;
+            </para>
 
           </listitem>
 
           <listitem>
 
             <para lang="en">To describe guards;</para>
+            <para lang="de">Um Wächter zu beschreiben;</para>
 
           </listitem>
 
           <listitem>
 
             <para lang="en">As a navigation language; and</para>
+            <para lang="de">Als Sprachnavigation; und</para>
 
           </listitem>
 
           <listitem>
 
             <para lang="en">To specify constraints on operations.</para>
+            <para lang="de">um Bedingungen in Operationen zu spezifizieren.</para>
 
           </listitem>
 
@@ -33929,13 +35113,24 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en"><xref linkend="fig.ref.details_constraints"/> shows a 
         typical constraint tab for a model element in ArgoUML (in this case 
         a class).</para>
+        <para lang="de">
+          <xref linkend="fig.ref.details_constraints"/> zeigt ein typisches 
+          Register Randbedingungen für ein Modellelement in ArgoUML (in diesem 
+          Fall eine Klasse). 
+        </para>
 
         <figure float="1" id="fig.ref.details_constraints">
 
           <title>
-			<phrase lang="en">A typical <literal>Constraints</literal> tab on the 
-          details pane</phrase>
-		</title>
+			<phrase lang="en">
+				A typical <literal>Constraints</literal> tab on the 
+          		details pane
+          	</phrase>
+			<phrase lang="de">
+	            Ein typisches Register <literal>Randbedingungen</literal> im 
+	            Bereich Details
+          	</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -33944,6 +35139,9 @@ available at http://www.opencontent.org/openpub/.
         </figure>
 
         <para lang="en">Along the top of the tab are a series of icons.</para>
+        <para lang="de">
+          Im oberen Bereich des Registers befinden sich eine Reihe von Symbolen.
+		</para>
 
         <itemizedlist>
 
@@ -33959,6 +35157,23 @@ available at http://www.opencontent.org/openpub/.
             (see <xref linkend="s2.ref.details_constraint_editor"/>). 
             The new constraint is created with a context declaration 
             for the currently selected model element.</para>
+            <para lang="de">
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata align="center"
+             				   fileref="images/icons/new_constraint.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Neue Randbedingung</literal>. Erzeugt eine neue 
+              Randbedingung und startet den Bedingungseditor im <literal>
+              Register Randbedingung</literal> für diese neue Randbedingung (
+              siehe <xref linkend="s2.ref.details_constraint_editor"/>).
+              Die neue Randbedingung wird mit einer Kontextdeklaration für das 
+              aktuell markierte Modellelement erstellt. 
+            </para>
 
             <warning>
 
@@ -33974,6 +35189,21 @@ available at http://www.opencontent.org/openpub/.
               refuse the constraint if its name differs from the name 
               mentioned in the constraint text. For the same reason, 
               renaming a constraint afterwards is impossible.</para>
+              <para lang="de">
+                Es scheint logisch, dass eine neue erstellte Randbedingung 
+                editiert werden muss. Aber ArgoUML V0.24 läuft beim Starten des 
+                OCL-Editors auf einen Fehler; sie müssen dies wie folgt tun: 
+                Erstens: die neue Randbedingung zuerst markieren, Zweitens: 
+                diese umbenennen und Drittens: die Schaltfläche <literal>
+                Bearbeiten Randbedingung</literal> drücken. Es ist wesentlich 
+                für das erfolgreiche Erzeugen einer Randbedingung diesen vier 
+                Schritt akkurat zu folgen: erzeugen, markieren, umbenennen und 
+                editieren. Der Schritt des Umbenennens ist notwendig, weil die 
+                Gültigkeitsprüfung diese Randbedingung ablehnt, weil ihr Name 
+                von dem im Randbedingungstext benannten Namen abweicht. Aus dem 
+                gleichen Grund ist eine spätere Umbenennung einer Bedingung 
+                nicht möglich. 
+              </para>
 
             </warning>
 
@@ -33988,12 +35218,30 @@ available at http://www.opencontent.org/openpub/.
             <literal>Delete Constraint</literal>. The constraint 
             currently selected in the <literal>
             Constraint Name</literal> box (see below) is deleted.</para>
+            <para lang="de">
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+             		<imagedata align="center"
+             				   fileref="images/icons/delete_constraint.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Bedingung löschen</literal>. Die aktuell im Feld 
+              <literal>Name der Bedingung</literal> markierte Bedingung (siehe 
+              unten) wird gelöscht. 
+            </para>
 
             <caution>
 
               <para lang="en">In V0.26 of ArgoUML this button is not downlighted 
               when it is not functional, i.e. when no constraint is 
               selected.</para>
+              <para lang="de">
+                In der V0.26 von ArgoUML wird diese Schaltfläche nicht deaktiviert, 
+                wenn sie inaktiv ist, z.B., wenn keine Bedingung markiert ist.
+              </para>
 
             </caution>
 
@@ -34010,12 +35258,32 @@ available at http://www.opencontent.org/openpub/.
             (see <xref linkend="s2.ref.details_constraint_editor"/>). 
             The editor is invoked on the constraint currently selected 
             in the <literal>Constraint Name</literal> box.</para>
+            <para lang="de">
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+            		<imagedata align="center"
+             				   fileref="images/icons/edit_constraint.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+               </guiicon> 
+              <literal>Bedingung editieren</literal>. Dies startet den 
+              Bedingungseditor im Register <literal>Randbedingungen</literal> 
+              (siehe <xref linkend="s2.ref.details_constraint_editor"/>).
+              Der Editor wird mit dem aktuell im Feld <literal>Name Bedingung
+              </literal> markierten Randbedingung aufgerufen. 
+            </para>
 
             <caution>
 
               <para lang="en">In V0.26 of ArgoUML this button is not downlighted 
               when it is not functional, i.e. when no constraint is 
               selected.</para>
+              <para lang="de">
+                In der V0.26 von ArgoUML wird diese Schaltfläche nicht deaktiviert, 
+                wenn sie inaktiv ist, z.B., wenn keine Bedingung markiert ist.
+              </para>
 
             </caution>
 
@@ -34031,12 +35299,27 @@ available at http://www.opencontent.org/openpub/.
             dialog to configure options in the constraint editor (see 
             <xref linkend="fig.ref.details_constraints_dialog"/>
             ).</para>
+            <para lang="de">
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+            		<imagedata align="center"
+             				   fileref="images/icons/configure_constraints.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Bedingungseditor konfigurieren</literal>. Dies ist ein 
+              Dialog, um die Optionen des Bedingungseditors zu konfigurieren 
+              (siehe <xref linkend="fig.ref.details_constraints_dialog"/>).
+            </para>
 
             <figure float="1" id="fig.ref.details_constraints_dialog">
 
               <title>
-			<phrase lang="en">Dialog box for configuring constraints</phrase>
-		</title>
+				<phrase lang="en">Dialog box for configuring constraints</phrase>
+				<phrase lang="de">Dialog zum Konfigurieren von Bedingungen</phrase>
+			 </title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -34046,6 +35329,9 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en">The dialog box has a check box for the following 
             option.</para>
+            <para lang="de">
+              Der Dialog hat ein Markierfeld für die folgende Option.
+            </para>
 
             <itemizedlist>
 
@@ -34057,6 +35343,14 @@ available at http://www.opencontent.org/openpub/.
                 type checking, rather than follow through all the 
                 detailed specification needed to get type 
                 consistency.</para>
+                <para lang="de">
+                  <literal>Typkonformität von OCL-Bedingungen prüfen 
+                  </literal>. OCL ist strikt typisiert. Zu frühen 
+                  Designzeitpunkten kann es hilfreich sein, die Typprüfung 
+                  auszuschalten. Dies ist besser, als allen benötigten, 
+                  detaillierten Spezifikationen zu folgen, die erforderlich sind 
+                  um Typkonsistenz zu erreichen. 
+                </para>
 
               </listitem>
 
@@ -34065,6 +35359,12 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en">At the bottom are two buttons, labeled <literal>
             OK</literal> (to accept the option changes) and <literal>
             Cancel</literal> (to discard the changes).</para>
+            <para lang="de">
+              Am unteren Ende befinden sich zwei Schaltflächen, die mit 
+              <literal>OK</literal> (um die Optionsänderungen zu akzeptieren) 
+              und <literal>Abbrechen</literal> (um die Änderungen rückgängig 
+              zu machen).
+            </para>
 
           </listitem>
 
@@ -34074,6 +35374,12 @@ available at http://www.opencontent.org/openpub/.
         a smaller to the left and a larger one to the right. The two 
         are separated by two small arrow buttons which control the size 
         of the boxes.</para>
+        <para lang="de">
+          Der Rumpf des Registers Randbedingungen enthält zwei Felder, ein 
+          kleineres auf der linken Seite und ein grösseres auf der rechten Seite. 
+          Die beiden sind durch zwei kleine Pfeil-Schaltflächen getrennt, 
+          welche die Grösse der Felder steuern.
+        </para>
 
         <itemizedlist>
 
@@ -34087,6 +35393,21 @@ available at http://www.opencontent.org/openpub/.
             shrinks the box on the left. Its effect may be reversed by 
             use of the <literal>Shrink Right</literal> button (see 
             below).</para>
+            <para lang="de">
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+            	    <imagedata align="center"
+             				   fileref="images/icons/constraints_left.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Linkes Feld verkleinern</literal>. Ein Taste&nbsp;1-Klick 
+              auf dieses Symbol verkleinert das linke Feld. Dieser 
+              Effekt kann durch die Schaltfläche <literal>Rechtes Feld 
+              verkleinern</literal> aufgehoben werden (siehe unten). 
+            </para>
 
           </listitem>
 
@@ -34100,6 +35421,21 @@ available at http://www.opencontent.org/openpub/.
             icon shrinks the box on the right. Its effect may be 
             reversed by use of the <literal>Shrink Left</literal> 
             button (see above).</para>
+            <para lang="de">
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+            		<imagedata align="center"
+             				   fileref="images/icons/constraints_right.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Rechtes Feld verkleinern</literal>. Ein Taste&nbsp;1-Klick 
+              auf dieses Symbol verkleinert das rechte Feld. Dieser 
+              Effekt kann durch die Schaltfläche <literal>Linkes Feld verkleinern
+              </literal> aufgehoben werden (siehe oben).
+			</para>
 
           </listitem>
 
@@ -34107,35 +35443,62 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en">Finer control can be achieved by using button&nbsp;1 motion to 
         drag the dividing bar to left and right.</para>
+        <para lang="de">
+          Eine feiner abgestimmte Steuerung kann durch eine Taste&nbsp;1-
+          Bewegung erfolgen, indem Sie die Trennungsleiste nach links und nach 
+          rechts verschieben.
+        </para>
 
         <para lang="en">The box on the left is titled <literal>Constraint 
         Name</literal> and lists all the constraints (if any) so far 
         defined for the selected model element. A constraint may be selected 
         by button&nbsp;1 click.</para>
+        <para lang="de">
+          Das linke Feld ist mit <literal>Name Bedingung</literal> bezeichnet 
+          und listet alle Bedingungen auf (wenn es welche gibt) so weit sie 
+          für das markierte Modellelement definiert wurden. Eine Bedingung kann 
+          durch einen Taste&nbsp;1-Klick markiert werden.
+        </para>
 
         <para lang="en">The box on the right is labeled <literal>
         Preview</literal> and contains the text of the constraint. This 
         box only shows some contents if a constraint is selected. Where 
         a constraint is too large for the box, a scroll bar is provided 
         to the right.</para>
+        <para lang="de">
+          Das rechte Feld ist mit <literal>Vorschau</literal> bezeichnet und 
+          enthält den Text der Bedingung. Dieses Feld zeigt nur einen Inhalt an, 
+          wenn eine Bedingung markiert wurde. Ist eine Bedingung für das Feld 
+          zu groß, erscheint rechts eine Scrollleiste.
+        </para>
 
         <sect2 id="s2.ref.details_constraint_editor">
 
           <title>
 			<phrase lang="en">The Constraint Editor</phrase>
-		</title>
+			<phrase lang="de">Der Bedingungs-Editor</phrase>
+		  </title>
 
           <para lang="en">This is invoked through the use of the <literal>
           Edit Constraint</literal> button on the main <literal>
           Constraints</literal> tab. The constraint editor takes up the 
           whole tab (see 
           <xref linkend="fig.ref.details_constraint_editor"/>).</para>
+          <para lang="de">
+            Dieser wird durch die Schaltfläche <literal>Editiere Bedingung
+            </literal> im Register <literal>Bedingungen</literal> aufgerufen. 
+            Der Bedingungseditor nimmt das ganze Register ein (siehe 
+            <xref linkend="fig.ref.details_constraint_editor"/>).
+          </para>
 
           <figure float="1" id="fig.ref.details_constraint_editor">
 
             <title>
-			<phrase lang="en">Dialog box for configuring constraints</phrase>
-		</title>
+				<phrase lang="en">Dialog box for configuring constraints</phrase>
+				<phrase lang="de">
+					Dialog für das Konfigurieren der Bedingungen
+				</phrase>
+		    </title>
 
             <screenshot><mediaobject><imageobject>
             <imagedata align="center"
@@ -34144,6 +35507,10 @@ available at http://www.opencontent.org/openpub/.
           </figure>
 
           <para lang="en">Along the top of the tab are a series of icons.</para>
+          <para lang="de">
+            Im oberen Bereich des Registers befinden sich eine Reihe von 
+            Symbolen.
+          </para>
 
           <itemizedlist>
 
@@ -34156,6 +35523,20 @@ available at http://www.opencontent.org/openpub/.
               <literal>Cancel Edit Constraint</literal>. This exits the 
               constraint editor without saving any changes and returns 
               to the main <literal>Constraints</literal> tab.</para>
+              <para lang="de">
+                <guiicon>
+                  <inlinemediaobject>
+                    <imageobject>
+              		  <imagedata align="center"
+               					 fileref="images/icons/cancel_edit_constraint.gif"
+               					 format="GIF"/>
+               		</imageobject>
+               	  </inlinemediaobject>
+               	</guiicon> 
+                <literal>Editieren abbrechen</literal>. Dies beendet den 
+                Bedingungseditor ohne die Änderungen abzuspeichern und kehrt 
+                zum Haupt-<literal>Bedingungen</literal>-Register zurück.
+              </para>
 
             </listitem>
 
@@ -34171,6 +35552,23 @@ available at http://www.opencontent.org/openpub/.
               returns to the main <literal>Constraints</literal> tab. 
               If the syntax is not valid, a dialog box explains the 
               problem.</para>
+              <para lang="de">
+                <guiicon>
+                  <inlinemediaobject>
+                    <imageobject>
+              		  <imagedata align="center"
+               					 fileref="images/icons/check_constraint.gif"
+               					 format="GIF"/>
+               		</imageobject>
+               	  </inlinemediaobject>
+               	</guiicon> 
+                <literal>Prüfe OCL-Syntax</literal>. Diese Schaltfläche ruft 
+                eine vollständige Syntaxprüfung der im Editor geschriebenen OCL 
+                auf. Ist die Syntax gültig, wird die Bedingung gespeichert und 
+                kehrt zum Haupt-<literal>Bedingungen</literal>-Register zurück. 
+                Wenn die Syntax ungültig ist, erläutert ein Dialogfenster das 
+                Problem. 
+              </para>
 
               <warning>
 
@@ -34180,6 +35578,12 @@ available at http://www.opencontent.org/openpub/.
                 below). But ArgoUML V0.20 does always check, and 
                 refuses to accept any constraint with the slightest 
                 error.</para>
+                <para lang="de">
+                  Ob die Typprüfung eingebunden wird, sollte mit der Schaltfläche 
+                  <literal>Bedingungseditor konfigurieren</literal> einstellbar 
+                  sein (siehe unten). ArgoUML V0.20 prüft aber immer und lehnt 
+                  jede Bedingung mit dem kleinsten Fehler ab.
+                </para>
 
               </warning>
 
@@ -34197,6 +35601,23 @@ available at http://www.opencontent.org/openpub/.
               Constraints</literal> tab and is discussed in detail 
               there (see <xref linkend="s1.ref.details_constraints"/>
               ).</para>
+              <para lang="de">
+                <guiicon>
+                  <inlinemediaobject>
+                    <imageobject>
+              		  <imagedata align="center"
+               					 fileref="images/icons/configure_constraints.gif"
+               					 format="GIF"/>
+               		</imageobject>
+               	  </inlinemediaobject>
+               	</guiicon> 
+                <literal>Bedingungseditor konfigurieren</literal>. Dies ist 
+                ein Dialog, um die Optionen des Bedingungseditors zu 
+                konfigurieren. Er ist auch im Haupt-<literal>Bedingungen
+                </literal>-Register verfügbar und wird dort detailliert 
+                beschrieben (siehe <xref linkend="s1.ref.details_constraints"/>
+                ).
+              </para>
 
             </listitem>
 
@@ -34206,15 +35627,33 @@ available at http://www.opencontent.org/openpub/.
           <literal>Syntax Assistant</literal> (unchecked by default), 
           which will enable the syntax assistant in the constraint 
           editor.</para>
+          <para lang="de">
+            Rechts von der Symbolleiste befindet sich ein Markierfeld, das als 
+            <literal>Syntaxunterstützung</literal> bezeichnet ist (standardmäßig 
+            nicht markiert). Dieses schaltet die Syntaxunterstützung im 
+            Bedingungseditor ein.
+          </para>
 
           <para lang="en">If the syntax assistant is enabled, six drop down menus 
           are provided in a row immediately below the toolbar. These 
           provide standard templates for OCL that, when selected, will 
           be inserted into the constraint being edited.</para>
+          <para lang="de">
+            Wenn die Syntaxunterstützung eingeschaltet ist, erscheinen sechs 
+            DropDown-Menüs in einer Zeile unmittelbar unterhalb der Symbolleiste. 
+            Diese enthalten Standardtemplates für OCL, die in die editierte 
+            Bedingung eingefügt werden, sofern sie ausgewählt werden.
+          </para>
 
           <para lang="en">The syntax assistant can be made floating in a separate 
           window by button&nbsp;1 motion on the small divider area to the 
           left of the row of drop-down menus.</para>
+          <para lang="de">
+            Die Syntaxunterstützung kann in ein separates Fenster gebracht 
+            werden, indem man mit einer Taste&nbsp;1-Bewegung des kleinen, links 
+            befindlichen Trenners die Zeile mit den DropDown-Menüs aus dem 
+            Fenster bewegt. 
+          </para>
 
           <itemizedlist>
 
@@ -34229,6 +35668,17 @@ available at http://www.opencontent.org/openpub/.
               reference to a value at the start of an operation); and 
               <literal>result</literal> (inserts a reference to a 
               previous result).</para>
+              <para lang="de">
+                <literal>Allgemein</literal>. Allgemeine OCL 
+                Konstrukte. Einträge: <literal>inv</literal> (fügt eine Invarianz  
+                ein); <literal>pre</literal> (fügt eine Vorbedingung ein); 
+                <literal>post</literal> (fügt eine Nachbedingung ein); 
+                <literal>self</literal> (fügt eine Referenz auf sich selbst ein); 
+                <literal>@pre</literal> (fügt eine Referenz auf einen Wert beim 
+                Start einer Operation ein); und 
+                <literal>result</literal> (fügt eine Referenz auf ein 
+                vorhergehendes Ergebnis ein).
+              </para>
 
             </listitem>
 
@@ -34240,6 +35690,14 @@ available at http://www.opencontent.org/openpub/.
               <literal>&gt;</literal>; <literal>&lt;=</literal>; 
               <literal>&gt;=</literal>; and <literal>
               ()</literal>.</para>
+              <para lang="de">
+                <literal>Operatoren</literal>. Relationale Operatoren und  
+                Klammern. Einträge: <literal>=</literal>; 
+                <literal>&lt;&gt;</literal>; <literal>&lt;</literal>; 
+                <literal>&gt;</literal>; <literal>&lt;=</literal>; 
+                <literal>&gt;=</literal>; und <literal>
+                ()</literal>.
+              </para>
 
             </listitem>
 
@@ -34252,6 +35710,15 @@ available at http://www.opencontent.org/openpub/.
               abs</literal>; <literal>max</literal>; <literal>
               min</literal>; <literal>round</literal>; and <literal>
               floor</literal>.</para>
+              <para lang="de">
+                <literal>Nummern</literal>. Arithmetische Operatoren und  
+                Funktionen. Einträge: <literal>+</literal>; <literal>
+                -</literal>; <literal>*</literal>; <literal>/</literal>; 
+                <literal>mod</literal>; <literal>div</literal>; <literal>
+                abs</literal>; <literal>max</literal>; <literal>
+                min</literal>; <literal>round</literal>; und <literal>
+                floor</literal>.
+              </para>
 
             </listitem>
 
@@ -34262,6 +35729,13 @@ available at http://www.opencontent.org/openpub/.
               size</literal>; <literal>toLower</literal>; <literal>
               toUpper</literal>; and <literal>
               substring</literal>.</para>
+              <para lang="de">
+                <literal>Zeichenketten</literal>. Funktionen für Zeichenketten. 
+                Einträge: <literal>concat</literal>; <literal>
+                size</literal>; <literal>toLower</literal>; <literal>
+                toUpper</literal>; und <literal>
+                substring</literal>.
+              </para>
 
             </listitem>
 
@@ -34272,6 +35746,13 @@ available at http://www.opencontent.org/openpub/.
               <literal>xor</literal>; <literal>not</literal>; <literal>
               implies</literal>; and <literal>
               if then else</literal>.</para>
+              <para lang="de">
+                <literal>Booleans</literal>. Logische Funktionen. 
+                Einträge: <literal>or</literal>; <literal>and</literal>; 
+                <literal>xor</literal>; <literal>not</literal>; <literal>
+                implies</literal>; und <literal>
+                if then else</literal>.
+              </para>
 
             </listitem>
 
@@ -34281,6 +35762,11 @@ available at http://www.opencontent.org/openpub/.
               functions on collections&mdash;bags, sets and sequences. The 
               large number of functions are organized into 
               sub-groups.</para>
+              <para lang="de">
+                <literal>Sammlungen</literal>. Operatoren und 
+                Funktionen für Sammlungs&mdash;Mengen , Sätzen und Sequenzen. 
+                Die grosse Anzahl von Funktionen ist in Untergruppen unterteilt.
+              </para>
 
               <itemizedlist>
 
@@ -34303,6 +35789,25 @@ available at http://www.opencontent.org/openpub/.
                   <literal>intersection</literal>; <literal>
                   including</literal>; <literal>excluding</literal>; 
                   and <literal>sum</literal>.</para>
+                  <para lang="de">
+                    <literal>Allgemein</literal>. Funktionen, die auf alle 
+                    Sammlungstypen anwendbar sind. Einträge: <literal>
+                    Collection {}</literal> (fügt eine neue Sammlung ein); 
+                  <literal>Set {}</literal> (fügt einen neuen Satz ein); 
+                  <literal>Bag {}</literal> (fügt eine neue Menge ein); 
+                  <literal>Sequence {}</literal> (fügt eine neue Sequenz ein); 
+                  <literal>size</literal>; <literal>
+                  count</literal>; <literal>isEmpty</literal>; <literal>
+                  notEmpty</literal>; <literal>includes</literal>; 
+                  <literal>includesAll</literal>; <literal>
+                  iterate</literal>; <literal>exists</literal>; 
+                  <literal>forAll</literal>; <literal>
+                  collect</literal>; <literal>select</literal>; 
+                  <literal>reject</literal>; <literal>union</literal>; 
+                  <literal>intersection</literal>; <literal>
+                  including</literal>; <literal>excluding</literal>; 
+                  und <literal>sum</literal>.
+                  </para>
 
                 </listitem>
 
@@ -34312,6 +35817,12 @@ available at http://www.opencontent.org/openpub/.
                   functions that apply only to sets. Entries: <literal>
                   -</literal> (set difference); and <literal>
                   symmetricDifference</literal>.</para>
+                  <para lang="de">
+                    <literal>Sätze</literal>. Operatoren und Funktionen die nur
+                    auf Sätze anwendbar sind. Einträge: <literal>
+                    -</literal> (set difference); und <literal>
+                    symmetricDifference</literal>.
+                  </para>
 
                 </listitem>
 
@@ -34323,6 +35834,14 @@ available at http://www.opencontent.org/openpub/.
                   at</literal>; <literal>append</literal>; <literal>
                   prepend</literal>; and <literal>
                   subSequence</literal>.</para>
+                  <para lang="de">
+                    <literal>Sequenzen</literal>. Funktionen, die nur auf  
+                    Sequenzen anwendbar sind. Einträge: <literal>
+                    first</literal>; <literal>last</literal>; <literal>
+                    at</literal>; <literal>append</literal>; <literal>
+                    prepend</literal>; und <literal>
+                    subSequence</literal>.
+                  </para>
 
                 </listitem>
 
@@ -34336,11 +35855,22 @@ available at http://www.opencontent.org/openpub/.
           containing the text to be edited. The mouse buttons have 
           their standard behavior within an editable text area (see 
           <xref linkend="s1.ref.mouse"/>).</para>
+          <para lang="de">
+            Der Rest des Registers beinhaltet ein beschreibbares Textfeld, 
+            welches den zu editierenden Text enthält. Die Maus-Schaltflächen 
+            weisen innerhalb des editierbaren Textfeldes ihr Standardverhalten 
+            auf (siehe <xref linkend="s1.ref.mouse"/>).
+          </para>
 
           <para lang="en">In addition, cut, copy and paste operations may be 
           invoked through the keyboard shortcuts <literal>
           Ctrl-X</literal>, <literal>Ctrl-C</literal> and <literal>
           Ctrl-V</literal> respectively.</para>
+          <para lang="de">
+            Zusätzlich können Ausschneiden-, Kopieren- und Einfügen-Operationen 
+            über die Tastenkürzel <literal>Strg-X</literal>, <literal>Strg-C
+            </literal> und <literal>Strg-V</literal> aufgerufen werden.
+          </para>
 
           <!--warning>
 
@@ -34358,8 +35888,9 @@ available at http://www.opencontent.org/openpub/.
       </sect1>
       
       <sect1>
-      <title>
+        <title>
 			<phrase lang="en">Stereotype Tab</phrase>
+			<phrase lang="de">Das Register Stereotypen</phrase>
 		</title>
       
       <para lang="en">This tab shows the available and applied stereotypes for the 
@@ -34368,12 +35899,21 @@ available at http://www.opencontent.org/openpub/.
       The buttons allow to move the stereotypes
       from one list to the other.
       </para>
+      <para lang="de">
+        Dieses Register zeigt die verfügbaren und anwendbaren Stereotypen für 
+        das aktuell markierte Modellelement. Es besteht aus zwei Feldern und 
+        zwei Schaltflächen. Die Schaltflächen erlauben es, die Stereotypen von 
+        einer Liste in die andere zu bewegen.
+      </para>
       
       <figure float="1" id="fig.ref.detpane_stereotype">
 
           <title>
 			<phrase lang="en">An example of a stereotype tab for a class.</phrase>
-		</title>
+			<phrase lang="de">
+				Ein Beispiel eines Registers Stereotypen für eine Klasse.
+			</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -34388,6 +35928,12 @@ available at http://www.opencontent.org/openpub/.
         may be applied to all types of classifiers, 
         such as Class, UseCase,...
         </para>
+        <para lang="de">
+          In den Listen, zwischen <literal>[]</literal> wird die Basisklasse 
+          der Stereotypen angezeigt. Zum Beispiel in dem obigen Bild kann der 
+          Stereotyp <literal>thread[Classifier]</literal> auf alle Typen von 
+          Klassifizierern wie Klassen, Anwendungsfälle, ... angewendet werden.
+        </para>
         
       </sect1>
 
@@ -34395,6 +35941,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Tagged Values Tab</phrase>
+			<phrase lang="de">Das Register Eigenschaftswerte</phrase>
 		</title>
 
         <para lang="en">Tagged values are another extension mechanism provided by 
@@ -34402,6 +35949,14 @@ available at http://www.opencontent.org/openpub/.
         model elements which define properties of that model element. The names 
         are known as <emphasis>tags</emphasis>. UML pre-defines a 
         number of tags that are useful for many of its model elements.</para>
+        <para lang="de">
+          Eigenschaftswerte sind ein anderer Erweiterungsmechanismus der in UML
+          enthalten ist. Der Anwender kann Name-Wert-Paare definieren, die mit 
+          Modellelementen verknüpft sind und die Eigenschaften dieses Modelles 
+          definieren. Die Namen sind als <emphasis>tags</emphasis> bekannt. UML 
+          definiert eine Anzahl von Tags vor, die für viele seiner Modellelemente 
+          nützlich sind.
+        </para>
 
         <note>
 
@@ -34411,6 +35966,14 @@ available at http://www.opencontent.org/openpub/.
           are provided through the <literal>Documentation</literal> 
           tab, rather than by using the <literal>
           Tagged Values</literal> tab.</para>
+          <para lang="de">
+            Die Tag-<literal>Dokumentation</literal> ist für die Top-UML-
+            Metaklasse <literal>Element</literal> definiert und ist so in allen 
+            Modellelementen verfügbar. In ArgoUML sind Dokumentationswerte im 
+            Register <literal>Dokumentation</literal> enthalten, so dass diese 
+            nicht mit Hilfe der <literal>Eigenschaftswerte</literal> definiert 
+            werden müssen. 
+          </para>
 
         </note>
 
@@ -34421,12 +35984,26 @@ available at http://www.opencontent.org/openpub/.
         the associated value. There is always at least one empty row 
         available for any new tag. 
         </para>
+        <para lang="de">
+          Das Register <literal>Eigenschaftswerte</literal> in ArgoUML umfasst 
+          eine zweispaltige Tabelle mit einem Kombinationsfeld links, um die Tag-
+          Definition in einem editierbaren Feld auszuwählen und rechts für 
+          den damit verknüpften Wert. Es gibt immer mindestens eine leere Zeile, 
+          die für einen neuen Tag bereit steht. 
+        </para>
         
         <para lang="en">The button at the top of this tab allows creation of a new 
         tagdefinition. 
         After clicking this button, go to the properties tab first
         to set the name of the new tagdefinition. 
         <!-- Why does ArgoUML not do this? TODO: Create issue. -->
+        </para>
+        <para lang="de">
+          Die Schaltfläche oben in diesem Register erlaubt das Erzeugen einer 
+          neuen Tag-Definition. Nach dem Anklicken dieser Schaltfläche gehen Sie 
+          zuerst in das Register Eigenschaften, um den Namen der neuen Tag-
+          Definition festzulegen.
+          <!-- Why does ArgoUML not do this? TODO: Create issue. -->
         </para>
 
         <para lang="en">The mouse buttons have their 
@@ -34438,6 +36015,13 @@ available at http://www.opencontent.org/openpub/.
         invoked through the keyboard shortcuts <literal>
         Ctrl-X</literal>, <literal>Ctrl-C</literal> and <literal>
         Ctrl-V</literal> respectively.</para>
+        <para lang="de">
+          die Maus-Schaltflächen weisen ihr Standardverhalten innerhalb des 
+          editierbaren Wertebereiches auf (siehe <xref linkend="s1.ref.mouse"/>).
+          Zusätzlich können Sie auch die Tastenkürzel <literal>
+          Strg-X</literal>, <literal>Strg-C</literal> und <literal>
+          Strg-V</literal> in einem Wertefeld aufrufen.
+        </para>
 
       </sect1>
 
@@ -34445,6 +36029,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Checklist Tab</phrase>
+			<phrase lang="de">Das Register Checkliste</phrase>
 		</title>
 
         <para lang="en">Conducting design reviews and inspections is one of the 
@@ -34457,11 +36042,29 @@ available at http://www.opencontent.org/openpub/.
         meetings. Recent research indicated that reviewers inspecting 
         code without meeting, makeing use of these checklists, are just 
         as effective as design review meetings.</para>
+        <para lang="de">
+          Das Durchführen von Designreviews und Inspektionen ist eine der 
+          effektivsten Arten Fehler während der Softwareentwicklung zu entdecken.
+          Ein Designreview besteht typischerweise aus einer kleinen Zahl von 
+          Designern, Implementierern oder anderen Projektbeteiligter, die eine  
+          Besprechung durchführen, um ein Stück Softwareentwicklung zu reviewen.
+          Viele Entwicklungsorganisationen haben Checklisten  von häufigen 
+          Designproblemen für solche Reviews entwickelt. Die Vergangenheit zeigt 
+          auf, dass die Reviewer den Code ohne Besprechung mit Hilfe dieser 
+          Checklisten überprüfen und dies genauso effektiv ist, wie die Design-
+          Reviews in Form einer Besprechung. 
+        </para>
 
         <para lang="en">Hence, a checklist feature has been added to ArgoUML, 
         that is much in the spirit of design review checklists. 
         However, ArgoUML&apos;s checklists are integrated into the 
         design tool user interface and the design task.</para>
+        <para lang="de">
+          Aus diesem Grund wurden ArgoUML Checklisten hinzugefügt, die den 
+          Gedanken von der Design-Review-Checkliste unterstützen. Jedoch, sind 
+          die ArgoUML-Checklisten in die Anwenderschnittstelle des Design-
+          werkzeuges und in die Designarbeit integriert. 
+        </para>
 
         <para lang="en">A software designer using ArgoUML can see a review 
         checklist for any design element. The <quote>Checklist</quote> 
@@ -34474,12 +36077,27 @@ available at http://www.opencontent.org/openpub/.
         already been considered, while unchecked items prompt the 
         designer to consider new design issues. ArgoUML supplies many 
         different checklists with many possible items.</para>
+        <para lang="de">
+          Ein Softwaredesigner, der ArgoUML verwendet, kann für jedes 
+          Designelement eine Checkliste sehen. Das Register <quote>Checkliste
+          </quote> präsentiert eine Liste von unmarkierten Elementen, die zum 
+          aktuell markierten Designelement gehören. Zum Beispiel, wenn eine 
+          Klasse in einem Designdiagramm markiert ist, zeigt das Register 
+          Checklisten Elemente, die zum kritischen Nachdenken über diese Klasse 
+          anregen. Siehe nachfolgendes Bild. Designer können Elemente als 
+          betrachtet markieren. Markierte Elemente verbleiben in der Liste, um 
+          darzustellen, dass Sie bereits betrachtet wurden, während unmarkierte 
+          Elemente den Designer auffordern, über diesen neuen Designaspekt 
+          nachzudenken. ArgoUML unterstützt unterschiedliche Checklisten mit 
+          vielen möglichen Elementen.
+        </para>
 
         <figure float="1" id="fig.ref.detpane_checklist">
 
           <title>
 			<phrase lang="en">An example of a checklist for a class.</phrase>
-		</title>
+			<phrase lang="de">Ein Beispiel für eine Checkliste einer Klasse.</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -34491,6 +36109,11 @@ available at http://www.opencontent.org/openpub/.
 
           <para lang="en">In the V0.22 release of ArgoUML, this tab is not 
           completely implemented. E.g. the checks are not saved.</para>
+          <para lang="de">
+            In der Release V0.22 von ArgoUML ist dieses Register nicht 
+            vollständig implementiert. Zum Beispiel werden die Markierungen 
+            nicht gespeichert.
+          </para>
 
         </caution>
 
@@ -34500,24 +36123,31 @@ available at http://www.opencontent.org/openpub/.
 
     <chapter id="ch.ref.todopane">
 
-      <title>
+        <title>
 			<phrase lang="en">The To-Do Pane</phrase>
+			<phrase lang="de">Der Bereich Zu-Bearbeiten</phrase>
 		</title>
 
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en"><xref linkend="fig.ref.todo_pane"/> shows the ArgoUML 
         window with the to-do pane highlighted.</para>
+        <para lang="de">
+          <xref linkend="fig.ref.todo_pane"/> zeigt das ArgoUML-Fenster mit dem 
+          hervorgehobenen Bereich Zu-Bearbeiten.
+        </para>
 
         <figure float="1" id="fig.ref.todo_pane">
 
           <title>
 			<phrase lang="en">Overview of the to-do pane</phrase>
-		</title>
+			<phrase lang="de">Überblick über den Bereich Zu-Bearbeiten</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -34527,15 +36157,30 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en">This pane provides access to the advice that comes from 
         the critics processes running within ArgoUML.</para>
+        <para lang="de">
+          Dieser Bereich hat Zugriff auf die Ergebnisse des Kritikenprozesses, 
+          der innerhalb von ArgoUML abläuft.
+        </para>
 
         <para lang="en">A selector box at the top allows a choice of how the data 
         is presented, a button allows the display of the hierarchy to 
         be changed, and there is an indicator of the number of to-do 
         items identified.</para>
+        <para lang="de">
+          Ein Auswahlfeld oben erlaubt die Einstellung, wie die Daten dargestellt 
+          werden, eine Schaltfläche erlaubt es, die Darstellung der Hierarchie 
+          zu ändern und es gibt eine Anzeige, wie viele Zu-Bearbeiten-Elemente 
+          identifiziert wurden.
+        </para>
 
         <para lang="en">More information on critics can be found in the 
         discussion of the <literal>Critique</literal> menu (see 
         <xref linkend="s1.ref.menu_critique"/>).</para>
+        <para lang="de">
+          Mehr Informationen über Kritiken können Sie in der Diskussion des 
+          <literal>Kritiken</literal>-Menüs (siehe 
+          <xref linkend="s1.ref.menu_critique"/>) finden.
+        </para>
 
       </sect1>
 
@@ -34543,20 +36188,31 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Mouse Behavior in the To-Do Pane</phrase>
+			<phrase lang="de">Das Verhalten der Maus im Bereich Zu-Bearbeiten</phrase>
 		</title>
 
         <para lang="en">Behavior of the mouse in general, and the naming of the 
         buttons is covered in the chapter on the overall user interface 
         (see <xref linkend="ch.ref.ui"/>).</para>
+        <para lang="de">
+          Das generelle Verhalten der Maus und die Benennung der Tasten ist im 
+          Kapitel über die gesamte Anwenderschnittstelle ausgeführt (siehe 
+          <xref linkend="ch.ref.ui"/>).
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Button&nbsp;1 Click</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;1-Klick</phrase>
+		  </title>
 
           <para lang="en">This action is generally used to select an item for 
           subsequent operations.</para>
+          <para lang="de">
+            Diese Aktion wird generell dazu verwendet, ein Element für darauf 
+            folgende Operationen zu markieren.
+          </para>
 
           <para lang="en">Within the hierarchical display, elements which have 
           sub-hierarchies may be indicated by <guiicon>
@@ -34568,14 +36224,48 @@ available at http://www.opencontent.org/openpub/.
            fileref="images/icons/hierarchy_open.gif"
            format="GIF"/></imageobject></inlinemediaobject></guiicon> 
           when the hierarchy is open.</para>
+          <para lang="de">
+            Innerhalb der hierarchischen Anzeige, können Elemente mit Unter-
+            Hierarchien durch 
+            <guiicon>
+          	  <inlinemediaobject>
+          	    <imageobject>
+          	      <imagedata align="center"
+           					 fileref="images/icons/hierarchy_closed.gif"
+           					 format="GIF"/>
+           		</imageobject>
+           	  </inlinemediaobject>
+           	</guiicon>
+           	angezeigt werden, wenn die Hierarchie versteckt und  
+            <guiicon>
+          	  <inlinemediaobject>
+          	    <imageobject>
+          	      <imagedata align="center"
+           					 fileref="images/icons/hierarchy_open.gif"
+           					 format="GIF"/>
+           		</imageobject>
+           	  </inlinemediaobject>
+           	</guiicon>
+           	wenn die Hierarchie geöffnet ist. 
+          </para>
 
           <para lang="en">When these icons are displayed, the display of the 
           hierarchy is toggled by button&nbsp;1 click on these icons.</para>
+          <para lang="de">
+            Wenn diese Symbole angezeigt werden, wechselt die Anzeige der 
+            Hierarchie bei jedem Taste&nbsp;1-Klick auf diese Symbole.
+          </para>
 
           <para lang="en">Button&nbsp;1 click over the headline of any to-do item will 
           cause its details to be shown in the <literal>
           To Do Item</literal> tab of the details pane. That tab is 
           automatically selected if it is not currently visible.</para>
+          <para lang="de">
+            Ein Taste&nbsp;1-Klick über der Überschrift eines Zu-Bearbeiten-
+            Elementes wird dessen Details im Register <literal>Zu-Bearbeiten-
+            Element</literal> des Bereiches Details anzeigen. Dieses Register 
+            wird automatisch ausgewählt, wenn es aktuell nicht sichtbar ist.
+          </para>
 
         </sect2>
 
@@ -34583,11 +36273,16 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Button&nbsp;1 Double Click</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;1-Doppelklick</phrase>
+		  </title>
 
           <para lang="en">When applied to the folder icon alongside a hierarchy 
           category, this will cause the display of that hierarchy to be 
           toggled.</para>
+          <para lang="de">
+            Wenn dies auf ein Verzeichnissymbol in der Hierarchie ausgeführt 
+            wird, wird sich die Darstellung dieser Hierarchie ändern.
+          </para>
 
           <para lang="en">When applied to a headline, button&nbsp;1 double click will 
           show the diagram for the model element to which the to-do item 
@@ -34595,6 +36290,14 @@ available at http://www.opencontent.org/openpub/.
           diagram using an appropriate clarifier (the model element may be 
           highlighted, underlined with a wavy line or surrounded by a 
           colored box as appropriate).</para>
+          <para lang="de">
+            Wenn dies auf eine Überschrift ausgeführt wird, wird der Taste&nbsp;
+            1-Doppelklick das Diagramm für das Modellelement anzeigen, zu dem 
+            das Zu-Bearbeiten-Element gehört und das Modellelement im Diagramm 
+            mit Hilfe des entsprechenden Elementes markieren (das Modellelement 
+            kann hervorgehoben, mit einer Wellenlinie unterstrichen oder mit 
+            einem farbigem Rahmen umgeben sein).
+          </para>
 
         </sect2>
 
@@ -34602,10 +36305,14 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Button&nbsp;2 Actions</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;2-Aktionen</phrase>
+		  </title>
 
           <para lang="en">There are no button&nbsp;2 functions in the to-do 
           pane.</para>
+          <para lang="de">
+            Es gibt keine Taste&nbsp;2-Funktionen im Bereich Zu-Bearbeiten.
+          </para>
 
         </sect2>
 
@@ -34613,10 +36320,14 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Button&nbsp;2 Double Click</phrase>
-		</title>
+			<phrase lang="de">Taste&nbsp;2-Doppelklick</phrase>
+		  </title>
 
           <para lang="en">There are no button&nbsp;2 functions in the to-do 
           pane.</para>
+          <para lang="de">
+            Es gibt keine Taste&nbsp;2-Funktionen im Bereich Zu-Bearbeiten.
+          </para>
 
         </sect2>
 
@@ -34626,6 +36337,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Presentation Selection</phrase>
+			<phrase lang="de">Auswahl der Darstellung</phrase>
 		</title>
 
         <para lang="en">At the top of the pane is a drop-down selector 
@@ -34633,6 +36345,13 @@ available at http://www.opencontent.org/openpub/.
         may be presented in six different ways. This setting is not 
         stored persistently, i.e. it is on its default vallue when 
         ArgoUML is started.</para>
+        <para lang="de">
+          Oben im Bereich befindet sich ein Kombinationsfeld, was die Darstellung 
+          der Zu-Bearbeiten-Elemente steuert. Die Zu-Bearbeiten-Elemente können 
+          auf sechs unterschiedliche Arten dargestellt werden. Diese Einstellung 
+          wird nicht dauerhaft gespeichert. Zum Beispiel ist sie auf den 
+          Standardwert beim Start von ArgoUML eingestellt. 
+        </para>
 
         <itemizedlist>
 
@@ -34646,6 +36365,16 @@ available at http://www.opencontent.org/openpub/.
             critic may be altered through the <literal>
             Critique &gt; Browse Critics...</literal> menu (see 
             <xref linkend="s2.ref.menu_browse_critics"/>).</para>
+            <para lang="de">
+              <literal>Nach Priorität</literal>. Dies ist die 
+              Standardeinstellung. Die Zu-Bearbeiten-Elemente werden nach 
+              Priorität in drei Hierarchien organisiert: <literal>Hoch</literal>, 
+              <literal>Mittel</literal> und <literal>Niedrig</literal>. 
+              Die Priorität, die mit den durch eine bestimmte Kritik generierten 
+              Zu-Bearbeiten-Elementen verknüpft sind, können über das Menü 
+              <literal>Kritiken &gt; Kritiken anzeigen...</literal> geändert 
+              werden (siehe <xref linkend="s2.ref.menu_browse_critics"/>).
+            </para>
 
           </listitem>
 
@@ -34668,6 +36397,25 @@ available at http://www.opencontent.org/openpub/.
             Stereotypes</literal>. The details of the critics in each 
             category are discussed in 
             <xref linkend="s2.ref.menu_design_issues"/>.</para>
+            <para lang="de">
+              <literal>Nach Entscheidung</literal>. Die Zu-Bearbeiten-Elemente 
+              sind in 17 Hierarchien anhand von Designmerkmalen organisiert: 
+              <literal>Unkategorisiert</literal>, <literal>
+              Klassenauswahl</literal>, <literal>Verhalten</literal>, 
+              <literal>Benennung</literal>, <literal>Speicher</literal>, 
+              <literal>Vererbung</literal>, <literal>
+              Containment</literal>, <literal>
+              Geplante Erweiterungen</literal>, <literal>
+              Zustandsautomaten</literal>, <literal>
+              Design Patterns</literal>, <literal>
+              Beziehungen</literal>, <literal>Instantiation</literal>, 
+              <literal>Modularität</literal>, <literal>
+              Expected Usage</literal>, <literal>Methoden</literal>, 
+              <literal>Codegenerierung</literal> und <literal>
+              Stereotypen</literal>. Die Details der Kritiken in jeder 
+              Kategorie werden in <xref linkend="s2.ref.menu_design_issues"/> 
+              diskutiert.
+            </para>
 
           </listitem>
 
@@ -34677,12 +36425,23 @@ available at http://www.opencontent.org/openpub/.
             that critics may be grouped according to the user goals 
             they affect. This presentation groups the to-do items into 
             hierarchies by goal.</para>
+            <para lang="de">
+              <literal>Nach Ziel</literal>. ArgoUML verfolgt das Konzept, dass 
+              Kritiken entsprechend der sie beeinflussenden Benutzerziele 
+              gruppiert werden. Diese Darstellung gruppiert die Zu-Bearbeiten-
+              Elemente in einer Hierarchie entsprechend der Ziele.
+            </para>
 
             <caution>
 
               <para lang="en">In the current release of ArgoUML there is only one 
               goal, <literal>Unspecified</literal> and all to-do items 
               will appear under this heading.</para>
+              <para lang="de">
+                In der aktuellen Release von ArgoUML gibt es nur ein Ziel 
+                <literal>Unspezifiziert</literal>. Alle Zu-Bearbeiten-Elemente 
+                werden unter dieser Überschrift erscheinen.
+              </para>
 
             </caution>
 
@@ -34695,6 +36454,14 @@ available at http://www.opencontent.org/openpub/.
             caused the problem. Todo items that were manually created 
             with the &quot;New ToDo item&quot; button (i.e. not by a 
             critic), are not listed here.</para>
+            <para lang="de">
+              <literal>Nach Problemen</literal>. Die Zu-Bearbeiten-Elemente 
+              werden hierarchisch entsprechend des Modellelementes organisiert, 
+              welches das Problem verursachte. Zu-Bearbeiten-Elemente, die 
+              manuell mit der Schaltfläche &quot;Neues Zu-Bearbeiten-Element&quot; 
+              erzeugt wurden (z.B. nicht durch eine Kritik) werden hier nicht 
+              aufgelistet.
+            </para>
 
           </listitem>
 
@@ -34705,6 +36472,12 @@ available at http://www.opencontent.org/openpub/.
             generated the to-do item. The class name of the critic is 
             listed instead of just its headline name since the former 
             is guaranteed to be a unique name.</para>
+            <para lang="de">
+              <literal>Nach Kurzbezeichnung</literal>. Die Zu-Bearbeiten-Elemente 
+              werden danach hierarchisch organisiert, welche Kritik das 
+              Zu-Bearbeiten-Element generierte. Der Klassenname der Kritik 
+              wird anstelle seiner Überschrift aufgelistet.
+            </para>
 
           </listitem>
 
@@ -34723,6 +36496,20 @@ available at http://www.opencontent.org/openpub/.
             and <literal>Tool</literal>. The former category 
             (Designer&apos;s) contains the manually entered todo 
             items.</para>
+            <para lang="de">
+              <literal>Nach Wissensgebiet</literal>. ArgoUML hat das Konzept, 
+              dass Kritiken einen Ausschnitt eines Wissensgebietes reflektieren.
+              Diese Darstellungsoptionen gruppieren die Kritiken entsprechend 
+              der Kategorie des Wissensgebietes: <literal>
+              Entwurf</literal>, <literal>Korrektheit</literal>, 
+              <literal>Vollständigkeit</literal>, <literal>
+              Konsistenz</literal>, <literal>Syntax</literal>, <literal>
+              Semantik</literal>, <literal>Optimierung</literal>, 
+              <literal>Darstellbarkeit</literal>, <literal>
+              Organisierbarkeit</literal>, <literal>Experiencial</literal> 
+              und <literal>Werkzeug</literal>. Die Hauptkategorie  
+              (Entwürfe) enthält die manuell eingegebenen Zu-Bearbeiten-Elemente.
+            </para>
 
           </listitem>
 
@@ -34734,12 +36521,20 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Item Count</phrase>
+			<phrase lang="de">Element-Zähler</phrase>
 		</title>
 
         <para lang="en">To the right of the flat/hierarchical button is a count 
         of the number of to-do items currently found. It will be 
         highlighted in yellow when the number of to-do items grows 
         above 50 todo items, and red when above 100.</para>
+        <para lang="de">
+          Rechts von der Schaltfläche flach/hierarchisch befindet sich ein 
+          Zähler, der die Anzahl der aktuell gefundenen Zu-Bearbeiten-Elemente 
+          ausgibt. Er wird gelb hervorgehoben, wenn die Anzahl der Zu-Bearbeiten-
+          Elemente auf über 50 Zu-Bearbeiten-Elemente anwächst und rot, wenn 
+          es über 100 sind.
+        </para>
 
       </sect1>
 
@@ -34747,14 +36542,16 @@ available at http://www.opencontent.org/openpub/.
 
     <chapter id="ch.ref.critics">
 
-      <title>
+        <title>
 			<phrase lang="en">The Critics</phrase>
+			<phrase lang="de">Die Kritiken</phrase>
 		</title>
 
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en">The key feature that distinguishes ArgoUML from other UML 
@@ -34763,18 +36560,39 @@ available at http://www.opencontent.org/openpub/.
         PhD dissertation 
         <ulink url="http://argouml.tigris.org/docs/robbins_dissertation/">
         http://argouml.tigris.org/docs/robbins_dissertation/</ulink>.</para>
+        <para lang="de">
+        	Die Schlüsselfunktion, die ArgoUML von anderen UML-Werzeugen 
+        	unterscheidet, ist die Verwendung von Konzepten der kognitiven 
+        	Psychologie. Die dahinter stehende Theroie ist in Jason Robbins&apos;
+        	PhD Dissertation 
+        	<ulink url="http://argouml.tigris.org/docs/robbins_dissertation/">
+        	http://argouml.tigris.org/docs/robbins_dissertation/</ulink>
+        	beschrieben.
+        </para>
 
         <para lang="en">Critics are one of the main ways in which these ideas are 
         implemented. Running in the background they offer advice to the 
         designer which may be accepted or ignored. A key point is that 
         they do not <emphasis>impose</emphasis> a decision on the 
         designer.</para>
+        <para lang="de">
+        	Kritiken sind einer der Hauptarten mit denen diese Ideen 
+        	implementiert wurden. Im Hintergrund laufend, bieten Sie dem 
+        	Designer Ratschläge an, die akzeptiert oder ignoriert werden 
+        	können. Der Schlüsselpunkt ist, dass sie keine Entscheidung des 
+        	Designers <emphasis>ausschliessen</emphasis>.
+        </para>
 
         <note>
 
           <para lang="en">The critics are asynchronous processes that run in 
           parallel with the main ArgoUML tool. Changes typically take a 
           second or two to propagate as the critics wake up.</para>
+          <para lang="de">
+          	Die Kritiken sind asynchrone Prozesse, die parallel zu ArgoUML 
+          	ablaufen. Änderungen benötigen eine oder zwei Sekunden, bis die 
+          	Kritiken erneut erzeugt wurden.
+          </para>
 
         </note>
 
@@ -34782,21 +36600,38 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Terminology</phrase>
-		</title>
+			<phrase lang="de">Terminologie</phrase>
+		  </title>
 
           <para lang="en">The <emphasis>critics</emphasis> are background 
           processes, which evaluate the current model according to 
           various <quote>good</quote> design criteria. There is one 
           critic for every design criterion.</para>
+          <para lang="de">
+          Die <emphasis>Kritiken</emphasis> sind Hintergrundprozesse, die das 
+          aktuelle Modell anhand verschiedener <quote>guter</quote> 
+          Designkriterien überprüfen. Es gibt eine Kritik für jedes 
+          Designkriterium. 
+          </para>
 
           <para lang="en">The output of a critic is a 
           <emphasis>critique</emphasis>&mdash;a statement about some aspect 
           of the model that does not appear to follow good design 
           practice.</para>
+          <para lang="de">
+          	Die Ausgabe einer Kritik ist eine <emphasis>Kritik</emphasis>&mdash; 
+          	eine Anweisung über einige Aspekte des Modelles, die nicht der 
+          	guten Designpraxis folgen.
+          </para>
 
           <para lang="en">Finally a critique will generally suggest how the bad 
           design issue it has identified can be rectified, by raising a 
           <emphasis>to-do item</emphasis>.</para>
+          <para lang="de">
+          	Natürlich wird eine Kritik nur vorschlagen, wie der gefundene 
+          	Designmangel behoben werden kann, in dem es ein <emphasis>
+          	Zu-Bearbeiten-Element</emphasis> erzeugt.
+          </para>
 
         </sect2>
 
@@ -34804,14 +36639,24 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Design Issues</phrase>
-		</title>
+			<phrase lang="de">Design-Mangel</phrase>
+		  </title>
 
           <para lang="en">ArgoUML categorizes critics according the the design 
           issue they address (some critics may be in more than one 
           category). At present there are 16 such categories.</para>
+          <para lang="de">
+          	ArgoUML kategorisiert Kritiken entsprechend der von ihnen 
+          	adressierten Designmängel (einige Kritiken können in mehr als 
+          	einer Kategorie erscheinen). Aktuell gibt es 16 solcher Kategorien.
+          </para>
 
           <para lang="en">Within this manual the descriptions of critics are 
           grouped in sections by design issue.</para>
+          <para lang="de">
+          	In diesen Handbuch sind die Beschreibungen der Kritiken entsprechend 
+          	ihres Designmangels in Abschnitten gruppiert.
+          </para>
 
         </sect2>
 
@@ -34821,13 +36666,21 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Uncategorized</phrase>
+			<phrase lang="de">Unkategorisiert</phrase>
 		</title>
 
         <para lang="en">These are critics that do not fit into any other 
         category.</para>
+        <para lang="de">
+        	Diese Kritiken passen zu keiner der anderen Kategorien.
+        </para>
 
         <para lang="en">ArgoUML has no critics in this category. Maybe some will 
         be added in later versions.</para>
+        <para lang="de">
+        	ArgoUML hat keine Kritik mit dieser Kategorie. Vielleicht werden 
+        	einige in späteren Versionen hinzugefügt.
+        </para>
 
       </sect1>
 
@@ -34835,23 +36688,36 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Class Selection</phrase>
+			<phrase lang="de">Klassenauswahl</phrase>
 		</title>
 
         <para lang="en">These are critics concerning how classes are chosen and 
         used.</para>
+        <para lang="de">
+        	Dies sind Kritiken, die sich darauf beziehen, wie Klassen ausgewählt 
+        	und verwendet wurden.
+        </para>
 
         <para lang="en">ArgoUML has the following critics in this category.</para>
+        <para lang="de">ArgoUML hat die folgenden Kritiken in dieser Kategorie.</para>
 
         <sect2 id="critics.CrNonAggDataType">
 
           <title>
 			<phrase lang="en">Wrap DataType</phrase>
-		</title>
+			<phrase lang="de">Datentyp verbergen</phrase>
+		  </title>
 
           <para lang="en">DataTypes are not full classes within UML 1.4. They can 
           only have enumeration literals as values, and only support 
           <literal>query</literal> operations (that is operations that 
           do not change the DataType&apos;s state).</para>
+          <para lang="de">
+          	Datentypen sind innerhalb von UML 1.4 keine vollständigen Klassen. 
+          	Sie können nur Aufzählungsliterale als Werte haben und nur 
+          	<literal>Abfrage</literal>-Operationen unterstützen (Das sind 
+          	Operationen, die nicht den Zustand des Datentyps verändern).
+          </para>
 
           <para lang="en">DataTypes cannot be associated with classes, unless the 
           DataType is part of a composite (black diamond) aggregation. 
@@ -34859,18 +36725,32 @@ available at http://www.opencontent.org/openpub/.
           of DataType instances to a class instance. In effect such a 
           DataType is an attribute of the class with 
           multiplicity.</para>
+          <para lang="de">
+          	Datentypen können nicht mit Klassen assoziiert werden, es sei denn, 
+          	der Datentyp ist Teil einer Komposition (schwarzer Diamant). So 
+          	eine Assoziation reflektiert die feste Verbindung einer Sammlung 
+          	von Datentyp-Instanzen zu einer Klasseninstanz. In der Konsequenz 
+          	ist so ein Datentyp ein Attribut der Klasse mit einer Kardinalität.
+          </para>
 
           <para lang="en">Good OOA&amp;D depends on careful choices about which 
           entities to represent as full objects and which to represent 
           as attributes of objects.</para>
+          <para lang="de">
+          	Eine gute OOA&amp;D hängt von der richtigen Auswahl der Entities ab, 
+          	welche die vollständigen Objekte und welche die Attribute von 
+          	Objekten repräsentieren. 
+          </para>
 
           <para lang="en">There are two options to fix this problem.</para>
+          <para lang="de">Es gibt zwei Optionen, um dieses Problem zu lösen.</para>
 
           <itemizedlist>
 
             <listitem>
 
               <para lang="en">Replace the DataType with a full class.</para>
+              <para lang="de">Ersetze den Datentyp durch eine ganze Klasse.</para>
 
             </listitem>
 
@@ -34878,6 +36758,10 @@ available at http://www.opencontent.org/openpub/.
 
               <para lang="en">or change the association aggregation to composite 
               relationship at the DataType end.</para>
+              <para lang="de">
+              	oder ändere die Aggregation in eine Komposition am Ende das 
+              	Datentyps.
+              </para>
 
             </listitem>
 
@@ -34889,7 +36773,10 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Reduce Classes in namespace &lt;namespace&gt;</phrase>
-		</title>
+			<phrase lang="de">
+				Veringere die Anzahl der Klassen im Namensraum &lt;Namensraum&gt;
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion to improve understandability by having fewer 
           classes in one namespace. If one namespace 
