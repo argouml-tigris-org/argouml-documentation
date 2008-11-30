@@ -39756,8 +39756,8 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>ToDoItem</literal></term>
-              <term><literal>Zu-Bearbeiten-Element</literal></term>
+              <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
@@ -40785,20 +40785,21 @@ available at http://www.opencontent.org/openpub/.
                     	wird erhalten, wenn eine Instanz gelöscht wird.
                     </para>
 
-                    <tip>
-
-                      <para lang="en">Since user defined datatypes are 
-                      enumerations, they have no state to preserve, and 
-                      the value of this tagged value is 
-                      irrelevant.</para>
-                      <para lang="de">
-                      	Da benutzerdefinierte Datentypen Aufzählungen sind, 
-                      	haben sie keinen zu erhaltenden Zustand und der Wert 
-                      	dieses Eigenschaftswertes ist irrelevant.
-                      </para>
-
-                    </tip>
-
+					<para>
+	                    <tip>
+	
+	                      <para lang="en">Since user defined datatypes are 
+	                      enumerations, they have no state to preserve, and 
+	                      the value of this tagged value is 
+	                      irrelevant.</para>
+	                      <para lang="de">
+	                      	Da benutzerdefinierte Datentypen Aufzählungen sind, 
+	                      	haben sie keinen zu erhaltenden Zustand und der Wert 
+	                      	dieses Eigenschaftswertes ist irrelevant.
+	                      </para>
+	
+	                    </tip>
+					</para>
                   </listitem>
 
                   <listitem>
@@ -40831,22 +40832,24 @@ available at http://www.opencontent.org/openpub/.
 	                    abgeleitet werden. <literal>false</literal> bedeutet, dass 
 	                    sie nicht abgeleitet werden kann. 
                     </para>
-
-                    <tip>
-
-                      <para lang="en">While formally available, a derived 
-                      datatype does not have an obvious value, and so 
-                      datatypes should always be marked with <literal>
-                      derived=false</literal>.</para>
-                      <para lang="de">
-                      	Obwohl formal verfügbar, hat ein abgeleiteter Datentyp 
-                      	keinen bestimmten Wert und daher sollten Datentypen 
-                      	immer mit <literal>derived=false</literal> bezeichnet 
-                      	werden. 
-                      </para>
-
-                    </tip>
-
+					
+					<para>
+	                    <tip>
+	
+	                      <para lang="en">While formally available, a derived 
+	                      datatype does not have an obvious value, and so 
+	                      datatypes should always be marked with <literal>
+	                      derived=false</literal>.</para>
+	                      <para lang="de">
+	                      	Obwohl formal verfügbar, hat ein abgeleiteter Datentyp 
+	                      	keinen bestimmten Wert und daher sollten Datentypen 
+	                      	immer mit <literal>derived=false</literal> bezeichnet 
+	                      	werden. 
+	                      </para>
+	
+	                    </tip>
+					</para>
+					
                   </listitem>
 
                 </itemizedlist>
