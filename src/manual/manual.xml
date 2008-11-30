@@ -39895,19 +39895,32 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><guiicon><inlinemediaobject><imageobject>
+              <term lang="en"><guiicon><inlinemediaobject><imageobject>
               <imagedata align="center"
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the composition structure of the 
                 model.</para>
+                <para lang="de">
+                	Navigiert durch die zusammengesetzte Struktur des Modelles 
+                	nach oben.
+                </para>
 
                 <para lang="en">Since the model is the top package nothing can 
                 happen, and this button is allways downlighted.</para>
+                <para lang="de">
+                	Das das Modell das oberste Paket ist, kann nichts passieren. 
+                	Aus diesem Grund ist die Schaltfläche immer deaktiviert.
+                </para>
 
               </listitem>
 
@@ -39915,22 +39928,39 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><guiicon><inlinemediaobject><imageobject>
+              <term lang="en"><guiicon><inlinemediaobject><imageobject>
               <imagedata align="center"
                fileref="images/icons/package.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Package</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/package.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neues Paket</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Package</primary></indexterm>
+                <indexterm lang="de"><primary>Paket hinzufügen</primary></indexterm>
                 <indexterm lang="en"><primary>New Package</primary></indexterm>
+                <indexterm lang="de"><primary>Neues Paket</primary></indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Package</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neu erzeugen</primary>
+                	<secondary>Package</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Package (see 
                 <xref linkend="s1.ref.package"/>) within the model 
                 (which appears on no diagram), navigating immediately 
                 to the properties tab for that package.</para>
+                <para lang="de">
+                	Dies erzeugt eine neues Paket (siehe 
+                	<xref linkend="s1.ref.package"/>) innerhalb des Modelles 
+                	(das in keinem Diagramm erscheint), und springt sofort in 
+                	das Register Eigenschaften des Paketes.
+                </para>
 
                 <tip>
 
@@ -39938,6 +39968,12 @@ available at http://www.opencontent.org/openpub/.
                   the model this way, it is usually a lot clearer to 
                   create them within diagrams where you want 
                   them.</para>
+                  <para lang="de">
+                  	Da es Sinn machen kann, Pakete für diese Modell auf diese 
+                  	Weise zu erzeugen, ist es gewöhnlich deutlich klarer, diese 
+                  	innerhalb der Diagramme zu erzeugen, wenn Sie welche 
+                  	benötigen.
+                  </para>
 
                 </tip>
 
@@ -39947,22 +39983,39 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><guiicon><inlinemediaobject><imageobject>
+              <term lang="en"><guiicon><inlinemediaobject><imageobject>
               <imagedata align="center"
                fileref="images/icons/datatype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New DataType</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/datatype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Datentyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add DataType</primary></indexterm>
+                <indexterm lang="de"><primary>Datentyp hinzufügen</primary></indexterm>
                 <indexterm lang="en"><primary>New DataType</primary></indexterm>
+                <indexterm lang="de"><primary>Neuer Datentyp</primary></indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>DataType</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neu erzeugen</primary>
+                	<secondary>Datentyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new DataType (see 
                 <xref linkend="s1.ref.datatype"/>) within the model 
                 (which appears on no diagram), navigating immediately 
                 to the properties tab for that DataType.</para>
+                <para lang="de">
+                	Dies erzeugt einen neuen Datentyp (siehe 
+                	<xref linkend="s1.ref.datatype"/>) innerhalb des Modelles 
+                	(der in keinem Diagramm erscheint) und springt sofort in das 
+                	Register Eigenschaften dieses Datentyps. 
+                </para>
 
               </listitem>
 
@@ -39970,22 +40023,39 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><guiicon><inlinemediaobject><imageobject>
+              <term lang="en"><guiicon><inlinemediaobject><imageobject>
               <imagedata align="center"
                fileref="images/icons/enumeration.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Enumeration</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/enumeration.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neue Aufzählung</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Enumeration</primary></indexterm>
+                <indexterm lang="de"><primary>Aufzählung hinzufügen</primary></indexterm>
                 <indexterm lang="en"><primary>New Enumeration</primary></indexterm>
+                <indexterm lang="de"><primary>Neue Aufzählung</primary></indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Enumeration</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neu erzeugen</primary>
+                	<secondary>Aufzählung</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Enumeration (see 
                 <xref linkend="s1.ref.enumeration"/>) within the model 
                 (which appears on no diagram), navigating immediately 
                 to the properties tab for that Enumeration.</para>
+                <para lang="de">
+                	Dies erzeugt eine neue Aufzählung (siehe 
+                	<xref linkend="s1.ref.enumeration"/>) innerhalb des Modelles 
+                	(die in keinem Diagramm erscheint) und springt sofort in das 
+                	Register Eigenschaften dieser Aufzählung. 
+                </para>
 
               </listitem>
 
@@ -39993,22 +40063,39 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><guiicon><inlinemediaobject><imageobject>
+              <term lang="en"><guiicon><inlinemediaobject><imageobject>
               <imagedata align="center"
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de"><primary>Stereotyp hinzufügen</primary></indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de"><primary>Neuer Stereotyp</primary></indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neu erzeugen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) within the model, 
                 navigating immediately to the properties tab for that 
                 stereotype.</para>
+                <para lang="de">
+                	Dies erzeugt einen neuen Stereotypen (siehe 
+                 	<xref linkend="s1.ref.stereotype"/>) innerhalb des Modelles 
+                 	und springt sofort in das Register Eigenschaften dieses 
+                 	Stereotypen. 
+                </para>
 
               </listitem>
 
@@ -40016,16 +40103,25 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><guiicon><inlinemediaobject><imageobject>
+              <term lang="en"><guiicon><inlinemediaobject><imageobject>
               <imagedata align="center"
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This tool is always downlighted, since it is 
                 meaningless to delete the model!</para>
+                <para lang="de">
+                	Dieses Symbol ist immer deaktiviert, da es keinen Sinn 
+                	macht, das Modell zu löschen!
+                </para>
 
               </listitem>
 
@@ -40039,22 +40135,34 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For The Model</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder des Modelles</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
-              <term><literal>Name</literal></term>
+              <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Model Name</primary></indexterm>
+                <indexterm lang="de"><primary>Name des Modelles</primary></indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of 
                 Model</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>von Modell</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the model. The name of a 
                 model, like all packages, is by convention all lower 
                 case.</para>
+                <para lang="de">
+                	Textfeld. Name des Modelles. Der Name des Modelles, wie 
+                	alle anderen Pakete, wird per Konvention in Kleinbuchstaben 
+                	geschrieben.
+                </para>
 
                 <note>
 
@@ -40063,6 +40171,13 @@ available at http://www.opencontent.org/openpub/.
                   erroneous and guarantees that ArgoUML always starts 
                   up with at least one problem being reported by the 
                   design critics.</para>
+                  <para lang="de">
+                  	Der Standardname, der einem neuen Modell in ArgoUML 
+                  	zugwiesen wird ist <literal>unbenanntesModell</literal>. Er 
+                  	ist daher fehlerfrei und garantiert, dass ArgoUML immer 
+                  	mit mindestens einem Problem startet, was durch die Design-
+                  	Kritiken ausgestellt wird. 
+                  </para>
 
                 </note>
 
@@ -40072,24 +40187,45 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Stereotype</literal></term>
+              <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Model 
                 Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Modell Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Stereotype</primary><secondary>of 
                 Model</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp</primary>
+                	<secondary>von Modell</secondary>
+                </indexterm>
                 <para lang="en">Drop down selector. Model is provided by default 
                 with the UML standard stereotypes for model (
                 <literal>systemModel</literal> and <literal>
                 metamodel</literal>) and package (
                 <literal>facade</literal>, <literal>
                 framework</literal>, <literal>stub</literal>).</para>
+                <para lang="de">
+                	DropDown-Auswahl. Das Modell ist standardmäßig mit den 
+                	UML-Standard-Stereotypen für Modelle (
+                	<literal>systemModel</literal> und <literal>
+                	metamodel</literal>) und dem Paket (
+                	<literal>facade</literal>, <literal>
+                	framework</literal>, <literal>stub</literal>) ausgestattet.
+                </para>
 
                 <para lang="en">Stereotyping models is a useful thing, although 
                 it is of limited value in ArgoUML where you have only a 
                 single model.</para>
+                <para lang="de">
+                	Das stereotypisieren von Modellen ist nützlich, obwohl es 
+                	in ArgoUML nur von eingeschränktem Wert ist, da Sie nur ein 
+                	einziges Modell haben.
+                </para>
 
               </listitem>
 
@@ -40097,7 +40233,8 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Navigate Stereotype</literal></term>
+              <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotypen steuern</literal></term>
 
               <listitem>
 
@@ -40108,6 +40245,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+                	<guiicon><inlinemediaobject><imageobject>
+                	<imagedata align="center"
+                 	fileref="images/icons/navigate_stereotype.gif"
+                 	format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+                	Symbol. Wenn ein Stereotyp markiert wurde, wird dieser über das  
+                	Stereotyp-Eigenschaftsfenster gesteuert (siehe 
+                	<xref linkend="s1.ref.stereotype"/>).
+                </para>
 
               </listitem>
 
@@ -40115,18 +40261,31 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Namespace</literal></term>
+              <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Model 
                 Namespace</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Modell-Namensraum</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Namespace</primary><secondary>of 
                 Model</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namensraum</primary>
+                	<secondary> von Modell</secondary>
+                </indexterm>
                 <para lang="en">Text box. Records the namespace for the model. 
                 This is the package hierarchy. However since the model 
                 is at the top of the hierarchy in ArgoUML, this box is 
                 always empty.</para>
+                <para lang="de">
+                	Textfeld. Nimmt den Namensraum des Modelles auf. Dies ist 
+                	die Pakethierarchie. Da sich das Modell an der Spitze der 
+                	Hierarchie befindet, ist dieses Feld immer leer. 
+                </para>
 
               </listitem>
 
@@ -40134,22 +40293,41 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Visibility</literal></term>
+              <term lang="en"><literal>Visibility</literal></term>
+              <term lang="de"><literal>Sichtbarkeit</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Model 
                 Visibility</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Modell-Sichtbarkeit</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Visibility</primary><secondary>of 
                 Model</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Sichtbarkeit</primary>
+                	<secondary>von Modell</secondary>
+                </indexterm>
                 <para lang="en">Radio box, with entries <literal>
                 public</literal>, <literal>private</literal>,  
                 <literal>protected</literal>, and 
                 <literal>package</literal>.</para>
+                <para lang="de">
+                	Auswahlbereich mit den Einträgen <literal>
+                	public</literal>, <literal>private</literal>,  
+                	<literal>protected</literal> und 
+                	<literal>package</literal>.
+                </para>
 
                 <para lang="en">Records the visibility for the model. Since 
                 ArgoUML only permits one model, this has no meaningful 
                 use.</para>
+                <para lang="de">
+                	Zeichnet die Sichtbarkeit des Modelles auf. Da ArgoUML nur 
+                	ein Modell erlaubt, hat diese Eigenschaft keine besondere 
+                	Bedeutung.
+                </para>
 
               </listitem>
 
@@ -40157,17 +40335,30 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Modifiers</literal></term>
+              <term lang="en"><literal>Modifiers</literal></term>
+              <term lang="de"><literal>Modifizierer</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Model 
                 Modifiers</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Modell-Modifizierer</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Modifiers</primary><secondary>of 
                 Model</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Modifizierer</primary>
+                	<secondary>von Modell</secondary>
+                </indexterm>
                 <para lang="en">Check box, with entries <literal>
                 Abstract</literal>, <literal>Leaf</literal> and 
                 <literal>Root</literal>.</para>
+                <para lang="de">
+                	Markier-Bereich mit den Einträgen <literal>
+                	Abstract</literal>, <literal>Leaf</literal> und 
+                	<literal>Root</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -40176,6 +40367,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>abstract</literal> is used to 
                     declare that this model cannot be instantiated, but 
                     must always be specialized.</para>
+                    <para lang="de">
+                    	<literal>abstract</literal> wird verwendet, um zu 
+                    	deklarieren, dass dieses Modell nicht instantiiert 
+                    	werden kann. Aber es muß immer spezialisiert werden.
+                    </para>
 
                     <para lang="en">The meaning of <literal>abstract</literal> 
                     applied to a model is not that clear. It might mean 
@@ -40183,6 +40379,14 @@ available at http://www.opencontent.org/openpub/.
                     classes without realizations. Since ArgoUML only 
                     permits one model, this is not a meaningful box to 
                     check.</para>
+                    <para lang="de">
+                    	Die Bedeutung von <literal>abstract</literal>, wenn es 
+                    	auf ein Modell angewendet wird ist nicht klar. Es 
+                    	könnte bedeuten, dass das Modell Schnittstellen oder 
+                    	abstrakteKlassen ohne Realiserung enthält. Da ArgoUML 
+                    	nur ein Modell erlaubt, ist das markieren dieses 
+                    	Feldes bedeutungslos.
+                    </para>
 
                   </listitem>
 
@@ -40192,6 +40396,12 @@ available at http://www.opencontent.org/openpub/.
                     model can have no further subpackages, while 
                     <literal>root</literal> indicates it is the top 
                     level model.</para>
+                    <para lang="de">
+                    	<literal>Leaf</literal> gibt an, dass diese Modell keine 
+                    	weiteren Subpakete haben darf, während <literal>root
+                    	</literal> angibt, das es das Modell auf oberster Ebene 
+                    	ist.
+                    </para>
 
                     <para lang="en">Within ArgoUML <literal>root</literal> only 
                     meaningfully applies to the Model, since all 
@@ -40199,6 +40409,14 @@ available at http://www.opencontent.org/openpub/.
                     the <literal>topLevel</literal> stereotype, this 
                     could be used to emphasize that the Model is at the 
                     top level.</para>
+                    <para lang="de">
+                    	Innerhalb von ArgoUML kann <literal>root</literal> nur 
+                    	auf das Modell sinnvoll angewendet werden, da alle 
+                    	Pakete sich innerhalb des Modelles befinden. In 
+                    	Abwesenheit des Stereotypen <literal>topLevel</literal>, 
+                    	kann dies dazu verwendet werden, herauszustellen dass 
+                    	das Modell sich auf der obersten Ebene befindet.
+                    </para>
 
                   </listitem>
 
@@ -40210,18 +40428,28 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Generalizations</literal></term>
+              <term lang="en"><literal>Generalizations</literal></term>
+              <term lang="de"><literal>Generalisierungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists any model that 
                 <emphasis>generalizes</emphasis> this model.</para>
+                <para lang="de">
+                	Textbereich. Listet jedes Modell auf, das dieses Modell 
+                	<emphasis>generalisiert</emphasis>.
+                </para>
 
                 <note>
 
                   <para lang="en">Since there is only one model in ArgoUML there 
                   is no sensible specialization or generalization that 
                   could be created.</para>
+                  <para lang="de">
+                  	Da es in ArgoUML nur ein Modell gibt, gibt es keine 
+                  	Spezialisierung oder Generalisierung, die erzeugt werden 
+                  	könnte.
+                  </para>
 
                 </note>
 
@@ -40231,18 +40459,28 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Specializations</literal></term>
+              <term lang="en"><literal>Specializations</literal></term>
+              <term lang="de"><literal>Spezialisierung</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any specialized model (i.e. for 
                 which this model is a generalization.</para>
+                <para lang="de">
+                	Textbereich. Listet jedes spezialisiertes Modell auf (z.B. 
+                	für welches Modell diese Modell eine Generalisierung ist).
+                </para>
 
                 <note>
 
                   <para lang="en">Since there is only one model in ArgoUML there 
                   is no sensible specialization or generalization that 
                   could be created.</para>
+                  <para lang="de">
+                  	Da es in ArgoUML nur ein Modell gibt, gibt es keine 
+                  	Spezialisierung oder Generalisierung, die erzeugt werden 
+                  	könnte.
+                  </para>
 
                 </note>
 
@@ -40252,22 +40490,40 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Owned Elements</literal></term>
+              <term lang="en"><literal>Owned Elements</literal></term>
+              <term lang="de"><literal>Eigene Elemente</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Model Owned 
                 Elements</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Modell-eigene Elemente</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Owned 
                 Elements</primary><secondary>of 
                 Model</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigene Elemente</primary>
+                	<secondary> von Modell</secondary>
+                </indexterm>
                 <para lang="en">Text area. A listing of the top level packages, 
                 classes, interfaces, datatypes, actors, use cases, 
                 associations, generalizations, and stereotypes within 
                 the model.</para>
+                <para lang="de">
+	                Textbereich. Eine Liste der Pakte, Klassen, Schnittstellen, 
+	                Datentypen, Akteure, Anwendungsfälle, Assoziationen, 
+	                Generalisierungen und Stereotypen innerhalb des Modelles auf 
+	                oberster Ebene. 
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on any of the model elements 
                 yields navigating to that model element.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Klick auf jedes dieser Modellelemente 
+                	veranlasst, dass zu diesem Modellelement gesprungen wird.
+                </para>
 
               </listitem>
 
@@ -40283,9 +40539,11 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Datatype</phrase>
+			<phrase lang="de">Datatyp</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Datatype</primary></indexterm>
+        <indexterm lang="de"><primary>Datentyp</primary></indexterm>
         <para lang="en">Datatypes can be thought of as simple classes. They have 
         no attributes, and any operations on them must have no 
         side-effects. A useful analogy is primitive datatypes in a 
@@ -40294,6 +40552,17 @@ available at http://www.opencontent.org/openpub/.
         example addition) on the integers, but when I perform <literal>
         3&nbsp;+&nbsp;4</literal> the result is a new number, <quote>3</quote> 
         and <quote>4</quote> are unchanged by the exercise.</para>
+        <para lang="de">
+        	Datentypen kann man sich als einfache Klassen denken. Sie haben 
+        	keine Attribute und jede Operation von Ihnen darf keine Seiteneffekte 
+        	aufweisen. Eine nützliche Analogie sind primitive Datentypen in 
+        	einer Sprache wie Java. Die Integerzahl <quote>3</quote> steht für 
+        	sich selbst&mdash; sie hat keine innere Struktur. Es gibt 
+        	Operationen (z.B. Addition) auf Integerzahlen, aber wenn sie 
+        	<literal>3&nbsp;+&nbsp;4</literal> ausführen, ist das Ergebnis eine 
+        	neue Zahl, <quote>3</quote> und <quote>4</quote> bleiben in diesem 
+        	Beispiel unverändert.
+        </para>
 
         <para lang="en">Within UML&nbsp;1.4, <literal>DataType</literal> is a 
         sub-class of the <literal>Classifier</literal> metaclass. It 
@@ -40304,11 +40573,25 @@ available at http://www.opencontent.org/openpub/.
         short</literal>), the predefined enumeration, <literal>
         boolean</literal> and user defined <emphasis>enumeration 
         types</emphasis>.</para>
+        <para lang="de">
+        	Innerhalb von UML&nbsp;1.4 ist ein <literal>Datentyp</literal> eine 
+        	Subklasse der Metaklasse <literal>Klassifizierer</literal>. Dieser 
+        	umfasst die vordefinierten primitiven Typen (<literal>byte</literal>
+        	, <literal>char</literal>, <literal>double</literal>, <literal>
+        	float</literal>, <literal>int</literal>, <literal>long</literal> und 
+        	<literal>short</literal>), die vordefinierte Aufzählung, <literal>
+        	boolean</literal> und die anwenderdefinierten <emphasis>enumeration 
+        	Typen</emphasis>.
+        </para>
 
         <note>
 
           <para lang="en">Also <literal>void</literal> is implemented as a 
           datatype within ArgoUML</para>
+          <para lang="de">
+          	Auch <literal>void</literal> ist als Datentyp innerhalb von ArgoUML 
+          	definiert.
+          </para>
 
         </note>
 
@@ -40319,6 +40602,15 @@ available at http://www.opencontent.org/openpub/.
         tab for datatype. 
         Datatypes can also be created with the tool 
         in the diagram toolbar of a class diagram.</para>
+        <para lang="de">
+        	Innerhalb von ArgoUML können neue Datentypen mit Hilfe der 
+        	Schaltfläche <literal>Neuer Datentyp</literal> im Register 
+        	Eigenschaften des Modelles und Paketen (in diesem Fall ist der 
+        	neue Datentyp auf den Scope des Paktes beschränkt), als auch im 
+        	Register Eigenschaften für Datentypen erzeugt werden.
+        	Datentypen können auch mit dem Symbol in der Diagrammsymbolleiste 
+        	eines Klassendiagrammes erzeugt werden.
+        </para>
 
         <para lang="en">The UML&nbsp;1.4 standard 
         allows user defined datatypes to be placed on 
@@ -40330,29 +40622,52 @@ available at http://www.opencontent.org/openpub/.
         and contains the name. 
         The lower one contains operations.
         </para>
+        <para lang="de">
+        	Der UML&nbsp;1.4-Standard erlaubt das Plazieren von 
+        	benutzerdefinierten Datentypen in Klassendiagrammen, um deren 
+        	Vererbungsstruktur zu definieren.
+        	Dies ist auch in ArgoUML möglich.
+        	Er wird im Diagramm durch einen Rahmen mit zwei Bereichen dargestellt, 
+        	wobei der oberste mit <literal>&laquo;Datentyp&raquo;</literal> 
+        	gekennzeichnet ist und den Namen enthält.
+        	Der untere enthält die Operationen.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Datatype Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Register Datentypdetails</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Datatype Details 
           Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Register Datatypdetails</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Datatype</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Register</primary>
+          	<secondary>für Datatypdetails</secondary>
+          </indexterm>
           <para lang="en">The details tabs that are active for datatypes are as 
           follows.</para>
+          <para lang="de">
+          	Folgende Detail-Register sind für Datentypen aktiv:
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
-              <term><literal>ToDoItem</literal></term>
+              <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -40360,18 +40675,29 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Properties</literal></term>
+              <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Datatype 
                 Properties</primary></indexterm>
+                <indexterm lang="de"><primary>Datatyp- 
+                Eigenschaften</primary></indexterm>
                 <indexterm lang="en"><primary>Properties</primary><secondary>of 
                 Datatype</secondary></indexterm>
+                <indexterm lang="de"><primary>Eigenschaften</primary><secondary>von 
+                Datatypen</secondary></indexterm>
                 <para lang="en">See 
                 <xref linkend="s2.ref.datatype_property_toolbar"/> and 
                 <xref linkend="s2.ref.datatype_property_fields"/> 
                 below.</para>
+                <para lang="de">
+                	Siehe 
+                	<xref linkend="s2.ref.datatype_property_toolbar"/> und 
+                	<xref linkend="s2.ref.datatype_property_fields"/> 
+                	unten.
+                </para>
 
               </listitem>
 
@@ -40379,12 +40705,17 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Documentation</literal></term>
+              <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+                	Standard-Register. Siehe 
+                	<xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -40392,13 +40723,19 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Source</literal></term>
+              <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. Unused. One would expect a class 
                 declaration for the new datatype to support code 
                 generation.</para>
+                <para lang="de">
+                	Standard-Register. Nicht im Einsatz. Es würde eine 
+                	Klassendeklaration für den neuen Datentyp erwarten, um die 
+                	Code-Generierung zu ermöglichen. 
+                </para>
 
               </listitem>
 
@@ -40406,18 +40743,28 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Tagged Values</literal></term>
+              <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Datatype Tagged 
                 Values</primary></indexterm>
+                <indexterm lang="de"><primary>Datatyp Eigenschaftswerte 
+                </primary></indexterm>
                 <indexterm lang="en"><primary>Tagged 
                 Values</primary><secondary>of 
                 Datatype</secondary></indexterm>
+                <indexterm lang="de"><primary>Eigenschaftswerte 
+                </primary><secondary>von  
+                Datatypen</secondary></indexterm>
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Datatype</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Das UML-Metamodell hat die folgenden 
+                	Eigenschaftswerte für <literal>Datentyp</literal> definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -40429,6 +40776,14 @@ available at http://www.opencontent.org/openpub/.
                     destroyed when an instance is destroyed or <literal>
                     persistent</literal>, marking state is preserved 
                     when an instance is destroyed.</para>
+                    <para lang="de">
+                    	<literal>persistence</literal> (von der Superklasse 
+                    	, <literal>Classifier</literal>). Werte 
+                    	<literal>transitory</literal>, geben an, dass der Zustand 
+                    	gelöscht wird, wenn eine Instanz gelöscht oder <literal>
+                    	persistent</literal> wird, der markierte Zustand 
+                    	wird erhalten, wenn eine Instanz gelöscht wird.
+                    </para>
 
                     <tip>
 
@@ -40436,6 +40791,11 @@ available at http://www.opencontent.org/openpub/.
                       enumerations, they have no state to preserve, and 
                       the value of this tagged value is 
                       irrelevant.</para>
+                      <para lang="de">
+                      	Da benutzerdefinierte Datentypen Aufzählungen sind, 
+                      	haben sie keinen zu erhaltenden Zustand und der Wert 
+                      	dieses Eigenschaftswertes ist irrelevant.
+                      </para>
 
                     </tip>
 
@@ -40447,6 +40807,11 @@ available at http://www.opencontent.org/openpub/.
                     superclass, <literal>Classifier</literal>). The 
                     value is a specification of the semantics of the 
                     datatype.</para>
+                    <para lang="de">
+                    <literal>semantics</literal> (von der Superklasse 
+                    , <literal>Classifier</literal>). Der Wert ist eine 
+                    Spezifikation der Semantik des Datentyps. 
+                    </para>
 
                   </listitem>
 
@@ -40458,6 +40823,14 @@ available at http://www.opencontent.org/openpub/.
                     is redundant&mdash;it can be formally derived from other 
                     elements, or <literal>false</literal> meaning it 
                     cannot.</para>
+                    <para lang="de">
+	                    <literal>derived</literal> (von der Superklasse 
+	                    , <literal>Modell-Element</literal>). 
+	                    Werte mit <literal>true</literal> bedeuten, dass die Klasse 
+	                    redundant ist&mdash; sie kann formal von anderen Elementen 
+	                    abgeleitet werden. <literal>false</literal> bedeutet, dass 
+	                    sie nicht abgeleitet werden kann. 
+                    </para>
 
                     <tip>
 
@@ -40465,6 +40838,12 @@ available at http://www.opencontent.org/openpub/.
                       datatype does not have an obvious value, and so 
                       datatypes should always be marked with <literal>
                       derived=false</literal>.</para>
+                      <para lang="de">
+                      	Obwohl formal verfügbar, hat ein abgeleiteter Datentyp 
+                      	keinen bestimmten Wert und daher sollten Datentypen 
+                      	immer mit <literal>derived=false</literal> bezeichnet 
+                      	werden. 
+                      </para>
 
                     </tip>
 
@@ -40484,7 +40863,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Datatype Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Symbolleiste Datentypeigenschaften</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Datatype Property 
           Toolbar</primary></indexterm>
