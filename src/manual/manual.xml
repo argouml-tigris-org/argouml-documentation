@@ -34888,7 +34888,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Source Tab</phrase>
-			<phrase lang="de">Source Tab</phrase>
+			<phrase lang="de">Das Register Quellcode</phrase>
 		</title>
 
         <para lang="en">This tab shows the source code that 
@@ -36786,16 +36786,35 @@ available at http://www.opencontent.org/openpub/.
           understand. Defining an understandable set of
           namespaces 
           is an important part of your design.</para>
+          <para lang="de">
+          	Ein Vorschlag, die Verständlichkeit durch weniger Klassen in einem 
+          	Namensraum zu verbessern. Wenn ein Namensraum (wie ein Modell, ein 
+          	Paket, oder eine Klasse) zu viele Klassen aufweist, wird es für 
+          	Menschen sehr schwierig dies zu verstehen. Einen verständlichen Satz 
+          	von Namensräumen zu definieren ist ein wichtiger Teil Ihres Designs.
+          </para>
           
           <para lang="en">The Wizard of this critic allows setting of the treshold, 
           i.e. the maximum number of classes
           allowed before this critic fires.  </para>
+          <para lang="de">
+          	Der Assistent dieser Kritik erlaubt das Setzen eines Schwellwertes, 
+          	z.B. die maximale Anzahl von Klassen, ab der die Kritik ausgelöst 
+          	wird.
+          </para>
 
           <caution>
             <para lang="en">This number is not stored persistently, and
             there is no way to reduce it after it has been set higher,
             except by creating more classes until the critic fires again.
             Restarting ArgoUML resets this number to its default: 20.
+            </para>
+            <para lang="de">
+            	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
+            	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
+            	denn, man erzeugt mehr Klassen, bis die Kritik erneut ausgelöst 
+            	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
+            	seinen Standardwert: 20.
             </para>
           </caution>
 
@@ -36805,10 +36824,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Clean Up Diagram</phrase>
-		</title>
+			<phrase lang="de">Diagramm aufräumen</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the diagram could be improved by moving 
           model elements that are overlapping.</para>
+          <para lang="de">
+          	Vorschlag, dass das Diagramm verbessert werden sollte, indem man 
+          	sich überlappende Modellelemente auseinander zieht.
+          </para>
 
         </sect2>
 
@@ -36818,21 +36842,32 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Naming</phrase>
+			<phrase lang="de">Benennung</phrase>
 		</title>
 
         <para lang="en">These are critics concerning the naming of model elements. The 
         current version of ArgoUML has 18 critics in this 
         category.</para>
+        <para lang="de">
+        	Dies sind Kritiken, die sich auf die Benennung von Modellelementen 
+        	beziehen. Die aktuelle Version von ArgoUML hat 18 Kritiken in dieser 
+        	Kategorie.
+        </para>
 
         <sect2 id="critics.CrAssocNameConflict">
 
           <title>
 			<phrase lang="en">Resolve Association Name Conflict</phrase>
-		</title>
+			<phrase lang="de">Assoziations-Namenskonflikt auflösen</phrase>
+		  </title>
 
           <para lang="en">Suggestion that two association names in the same 
           namespace have the same name. This is not permitted in 
           UML.</para>
+          <para lang="de">
+          	Hinweis, dass zwei Assoziationen im gleichen Namensraum den 
+          	gleichen Namen haben. Dies ist in UML nicht erlaubt.
+          </para>
 
         </sect2>
 
@@ -36840,15 +36875,26 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Revise Attribute Names to Avoid Conflict</phrase>
-		</title>
+			<phrase lang="de">
+				Überarbeite die Attributnamen, um einen Konflikt zu vermeiden
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that two attribute names of a class have the 
           same name. This is not permitted in UML.</para>
+          <para lang="de">
+          	Hinweis, dass zwei Attribute einer Klasse den gleichen Namen 
+          	haben. Dies ist in UML nicht erlaubt.
+          </para>
 
           <note>
 
             <para lang="en">The problem may be caused by inheritance of an 
             attribute through a generalization relationship.</para>
+            <para lang="de">
+            	Das Problem kann durch vererben eines Attributes über eine 
+            	Vererbungsbeziehung verursacht werden.
+            </para>
 
           </note>
 
@@ -36858,23 +36904,40 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Change Names or Signatures in a model element</phrase>
-		</title>
+			<phrase lang="de">
+				Ändere Namen oder Signaturen in einem Modellelement
+			</phrase>
+		  </title>
 
           <para lang="en">Two operations in &lt;model element&gt; have the same 
           signature. This means their name is the same, and the list of 
           parameters has the same type.</para>
+          <para lang="de">
+          	Zwei Operationen in einem &lt;Modellelement&gt; haben die gleiche 
+          	Signatur. Das heißt, die Namen sind gleich und die Liste der 
+          	Parameter hat den gleichen Typ.
+          </para>
 
           <para lang="en">Where there are conflicting signatures, correct code 
           cannot be generated for mainstream OO languages. It also 
           leads to very unclear semantics of the design.</para>
+          <para lang="de">
+          	Wo es Signaturkonflikte gibt, kann kein korrekter Code in den 
+          	hauptsächlich verwendeten OO-Sprachen generiert werden. Es führt 
+          	auch zu einer sehr unklaren Semantik des Designs. 
+          </para>
 
           <para lang="en">In comparing signatures, this critic considers:</para>
+          <para lang="de">
+          	Beim Vergleichen von Signaturen betrachtet die Kritik:
+          </para>
 
           <orderedlist>
 
             <listitem>
 
               <para lang="en">the name;</para>
+              <para lang="de">den Namen;</para>
 
             </listitem>
 
@@ -36882,6 +36945,10 @@ available at http://www.opencontent.org/openpub/.
 
               <para lang="en">the list of in, out and in-out parameter types 
               <emphasis>in order</emphasis>; and</para>
+              <para lang="de">
+              	die Liste der Ein-, Aus- und Ein-Ausgabeparamtertypen in 
+              	ihrer <emphasis>Reihenfolge</emphasis>;
+              </para>
 
             </listitem>
 
@@ -36889,11 +36956,20 @@ available at http://www.opencontent.org/openpub/.
 
           <para lang="en">Only if these all match in both type and order, will 
           the signatures be considered as the same.</para>
+          <para lang="de">
+          	Nur wenn diese sowohl in Typ und Reihenfolge übereinstimmen, wird 
+          	die Signatur als gleich betrachtet.
+          </para>
 
           <para lang="en">This follows the line of Java/C++ in ignoring the 
           return parameters for the signature. This 
           <emphasis>may</emphasis> be unsatisfactory for some 
           functional OO languages.</para>
+          <para lang="de">
+          	Dies folgt der Linie von Java/C++, welche die Rückgabeparameter 
+          	bei der Signatur ignorieren. Dies <emphasis>kann</emphasis> bei 
+          	einigen funktionalen OO-Sprachen unvorteilhaft sein.
+          </para>
 
           <note>
 
@@ -36902,6 +36978,13 @@ available at http://www.opencontent.org/openpub/.
             However no practical programming language can do this when 
             resolving an overloaded method invocation, so this critic 
             lumps them all together.</para>
+            <para lang="de">
+            	Einige Puristen würden argumentieren, dass der Vergleich 
+            	zwischen Ein-, Aus- und Ein-Ausgabeparametern differenzieren 
+            	sollte. Jedoch kann keine praktische Programmiersprache so etwas 
+            	tun, wenn sie einen überladenen Methodenaufruf auflöst. Aus 
+            	diese Grund behandelt diese Kritik sie alle pauschal.
+            </para>
 
           </note>
 
@@ -36911,19 +36994,37 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Duplicate End (Role) Names for an Association</phrase>
-		</title>
+			<phrase lang="de">
+				Doppelte End- (Rollen-) Namen in einer Assoziation
+			</phrase>
+		  </title>
 
           <para lang="en">The specified association has two (or more) ends 
           (roles) with the same name. One of the well-formedness rules 
           in UML 1.4 for associations, is that all end (role) names 
           must be unique.</para>
+          <para lang="de">
+          	Die angegebene Assoziation hat zwei (oder mehrere) Enden (Rollen) 
+          	mit dem gleichen Namen. Eine der wohlgeformten Regeln für 
+          	Assoziationen in UML 1.4 ist, dass alle Enden (Rollen)-Namen 
+          	eindeutig sein müssen. 
+          </para>
 
           <para lang="en">This ensures that there can be unambiguous reference to 
           the ends of the association.</para>
+          <para lang="de">
+          	Dies stellt sicher, dass es keine mehrdeutige Referenz auf die 
+          	Enden einer Assoziation geben kann.
+          </para>
 
           <para lang="en">To fix this, manually select the association and change 
           the names of one or more of the offending ends (roles) using 
           the button&nbsp;2 pop-up menu or the property sheet.</para>
+          <para lang="de">
+          	Um dies zu beheben, markieren Sie die Assoziation manuell und ändern 
+          	die Namen von einer oder mehreren der betroffenen Enden (Rollen) mit 
+          	Hilfe des Taste&nbsp;2-Popup-Menüs oder der Eigenschaftstabelle.
+          </para>
 
         </sect2>
 
@@ -36931,12 +37032,21 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Role name conflicts with member</phrase>
-		</title>
+			<phrase lang="de">
+				Rollenname steht im Konflikt mit einem Element
+			</phrase>
+		  </title>
 
           <para lang="en">A suggestions that good design avoids role names for 
           associations that clash with attributes or operations of the 
           source class. Roles may be realized in the code as attributes 
           or operations, causing code generation problems.</para>
+          <para lang="de">
+          	Ein Hinweis, dass ein gutes Design Rollenname für Assoziationen 
+          	verhindert, die mit Attributen oder Operationen der Quellklasse 
+          	kollidieren. Rollen können im Code als Attribute oder Operationen 
+          	realisiert werden, die dann Codegenerierungsprobleme auslösen.
+          </para>
 
         </sect2>
 
@@ -36944,12 +37054,21 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Choose a Name (Classes and Interfaces)</phrase>
-		</title>
+			<phrase lang="de">
+				Einen Namen auswählen (Klassen und Schnittstellen)
+			</phrase>
+		  </title>
 
           <para lang="en">The class or interface concerned has been given no name 
           (it will appear in the model as <literal>Unnamed</literal>). 
           Suggestion that good design requires that all interfaces and 
           classes are named.</para>
+          <para lang="de">
+          	Der betrachteten Klasse oder Schnittstelle wurde kein Name gegeben 
+          	(sie wird im Modell als <literal>Unbenannt</literal> erscheinen). 
+          	Hinweis, dass gutes Design fordert, dass alle Schnittstellen und 
+          	Klassen benannt werden.
+          </para>
 
         </sect2>
 
@@ -36957,25 +37076,43 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Name conflict in a namespace</phrase>
-		</title>
+			<phrase lang="de">Namenskonflikt in einem Namensraum</phrase>
+		  </title>
 
           <para lang="en">The namespace (e.g. package) concerned 
           contains a class or interface specified that has 
           the same name as another (in the same namespace), 
           which is bad design and will prevent valid code generation.</para>
-
+		  <para lang="de">
+		  	Der betrachtete Namensraum (z.B. Paket) enthält eine Klasse oder 
+		  	eine Schnittstelle mit dem gleichen Namen wie eine andere (im 
+		  	gleichen Namensraum). Dies ist schlechtes Design und verhindert 
+		  	das generieren gültigen Codes.
+		  </para>
+		  
         </sect2>
 
         <sect2 id="critics.CrDisambigClassName">
 
           <title>
-			<phrase lang="en">Choose a Unique Name for a model element (Classes and 
-          Interfaces)</phrase>
-		</title>
+			<phrase lang="en">
+				Choose a Unique Name for a model element (Classes and 
+          		Interfaces)
+          	</phrase>
+			<phrase lang="de">
+	          	Wählen Sie einen eindeutigen Namen für ein Modellelement aus 
+	          	(Klassen und Schnittstellen)
+          	</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the class or interface specified has 
           the same name as another (in the namespace), which is bad 
           design and will prevent valid code generation.</para>
+          <para lang="de">
+          	Hinweis, dass die angegebene Klasse oder Schnittstelle den gleichen 
+          	Namen wie eine andere (im Namensraum) aufweist. Dies ist schlechtes 
+          	Design und wird eine gültige Codegenerierung verhindern.
+          </para>
 
         </sect2>
 
@@ -36983,12 +37120,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Choose a Name (Attributes)</phrase>
-		</title>
+			<phrase lang="de">Wählen Sie einen Namen aus (Attribute)</phrase>
+		  </title>
 
           <para lang="en">The attribute concerned has been given no name (it will 
           appear in the model as <literal>(Unnamed Attribute)</literal>). 
           Suggestion that good design requires that all attributes are 
           named.</para>
+          <para lang="de">
+          	Das betrachtete Attribut hat keinen Namen erhalten (es wird im Modell 
+          	als <literal>(Unbenanntes Attribute)</literal> erscheinen). 
+          	Hinweis, dass gutes Design fordert, dass alle Attribute benannt 
+          	werden.
+          </para>
 
         </sect2>
 
@@ -36996,12 +37140,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Choose a Name (Operations)</phrase>
-		</title>
+			<phrase lang="de">Wählen Sie einen Namen aus (Operationen)</phrase>
+		  </title>
 
           <para lang="en">The operation concerned has been given no name (it will 
           appear in the model as <literal>(Unnamed Operation)</literal>). 
           Suggestion that good design requires that all operations are 
           named.</para>
+          <para lang="de">
+          	Die betrachtete Operation hat keinen Namen erhalten (sie wird im 
+          	Modell als <literal>(Unbenannte Operation)</literal> erscheinen). 
+          	Hinweis, dass gutes Design fordert, dass alle Operationen benannt 
+          	werden.
+          </para>
 
         </sect2>
 
@@ -37009,25 +37160,43 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Choose a Name (States)</phrase>
-		</title>
+			<phrase lang="de">Wählen Sie einen Namen aus (Zustände)</phrase>
+		  </title>
 
           <para lang="en">The state concerned has been given no name (it will 
           appear in the model as <literal>(Unnamed State)</literal>). 
           Suggestion that good design requires that all states are 
           named.</para>
+          <para lang="de">
+          	Das betrachtete Zustand hat keinen Namen erhalten (es wird im Modell 
+          	als <literal>(Unbenannter Zustand)</literal> erscheinen). 
+          	Hinweis, dass gutes Design fordert, dass alle Zustände benannt 
+          	werden.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrDisambigStateName">
 
           <title>
-			<phrase lang="en">Choose a Unique Name for a (State related) 
-          model element</phrase>
-		</title>
+			<phrase lang="en">
+				Choose a Unique Name for a (State related) 
+          		model element
+          	</phrase>
+			<phrase lang="de">
+				Wählen Sie einen eindeutigen Namen für ein (zustandsbehaftetes) 
+          		Modellelement aus.
+          	</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the state specified has the same name 
           as another (in the current statechart diagram), which is bad 
           design and will prevent valid code generation.</para>
+          <para lang="de">
+          	Hinweis, dass der angegebene Zustand den gleichen Namen wie ein 
+          	anderer aufweist (im aktuellen Zustandsdiagramm). Dies ist 
+          	schlechtes Design und wird die gültige Codegenerierung verhindern.
+          </para>
 
         </sect2>
 
@@ -37035,11 +37204,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Revise Name to Avoid Confusion</phrase>
-		</title>
+			<phrase lang="de">
+				Ändern Sie den Namen, um eine Konfusion zu verhindern
+			</phrase>
+		  </title>
 
           <para lang="en">Two names in the same namespace have very similar names 
           (differing only by one character). Suggestion this could 
           potentially lead to confusion.</para>
+          <para lang="de">
+          	Zwei Namen im gleichen Namensraum haben sehr ähnliche Namen (sie 
+          	unterscheiden sich nur durch ein Zeichen voneinander). Hinweis, dass 
+          	dies potentiell zu einer Konfusion führt.
+          </para>
 
           <caution>
 
@@ -37047,11 +37224,23 @@ available at http://www.opencontent.org/openpub/.
             times it is useful and good design to have a series of 
             model elements <literal>var1</literal>, <literal>var2</literal> 
             etc.</para>
+            <para lang="de">
+            	Diese Kritik kann manchmal störend sein, da es manchmal nützlich 
+            	und gutes Design ist, eine Serie von Modellelemente <literal>
+            	var1</literal>, <literal>var2</literal> usw. zu haben.
+            </para>
 
             <para lang="en">It is important to remember that critics offer 
             guidance, and are not always correct. ArgoUML lets you 
             dismiss the resulting to-do items through the to-do pane 
             (see <xref linkend="ch.ref.todopane"/>).</para>
+            <para lang="de">
+            	Es ist wichtig sich daran zu erinnern, dass Kritiken Anleitungen 
+            	anbieten, die nicht immer korrekt sein müssen. ArgoUML läßt es 
+            	zu, dass Sie die entsprechenden Zu-Bearbeiten-Elemente über den 
+            	Zu-Bearbeiten-Bereich verlassen (siehe 
+            	<xref linkend="ch.ref.todopane"/>).
+            </para>
 
           </caution>
 
@@ -37061,11 +37250,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Choose a Legal Name</phrase>
-		</title>
+			<phrase lang="de">Wählen Sie einen gültigen Namen aus</phrase>
+		  </title>
 
           <para lang="en">All model element names in ArgoUML must use only letters, 
           digits and underscore characters. This critic suggests an 
           entity has not met this requirement.</para>
+          <para lang="de">
+          	Alle Modellelementnamen in ArgoUML dürfen nur aus Buchstaben, 
+          	Ziffern und Unterstrichen bestehen. Diese Kritik weist Sie darauf hin, 
+          	dass eine Entität nicht dieser Anforderung entspricht.
+          </para>
 
         </sect2>
 
@@ -37073,11 +37268,20 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Change a model element to a Non-Reserved Word</phrase>
-		</title>
+			<phrase lang="de">
+	          	Ändern Sie den Namen des Modellelementes in ein 
+	            nicht-reserviertes Wort
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that this model element&apos;s name is the same 
           as a reserved word in UML (or within one character of one), 
           which is not permitted.</para>
+          <para lang="de">
+          	Hinweis, dass der Name dieses Modellelementes dem Namen eines in 
+          	UML resevierten Wortes entspricht (or within one character of one). 
+          	Dies ist nicht erlaubt.
+          </para>
 
         </sect2>
 
@@ -37085,11 +37289,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Choose a Better Operation Name</phrase>
-		</title>
+			<phrase lang="de">
+				Wählen Sie einen besseren Namen für die Operation aus
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that an operation has not followed the 
           naming convention that operation names begin with lower case 
           letters.</para>
+          <para lang="de">
+          	Hinweis, dass der Name einer Operation nicht der Namenskonvention 
+          	entspricht, dass Namen von Operationen mit einem Kleinbuchstaben 
+          	beginnen.
+          </para>
 
           <caution>
 
@@ -37098,11 +37310,25 @@ available at http://www.opencontent.org/openpub/.
             begins with an upper case character. In ArgoUML, this will 
             trigger this critic, unless the constructor is stereotyped 
             <literal>&laquo;create&raquo;</literal>.</para>
+            <para lang="de">
+            	Der Java und C++-Konvention folgend, geben die meisten Designer 
+            	Ihren Konstruktoren den gleichen Namen wie der Klasse, die mit 
+            	einem Grossbuchstaben gebinnt. In ArgoUML wird dies diese 
+            	Kritik auslösen, es sei denn, der Konstruktor erhält den 
+            	Stereotyp <literal>&laquo;create&raquo;</literal>.
+            </para>
 
             <para lang="en">It is important to remember that critics offer 
             guidance, and are not always correct. ArgoUML lets you 
             dismiss the resulting to-do items through the to-do pane 
             (see <xref linkend="ch.ref.todopane"/>).</para>
+            <para lang="de">
+            	Es ist wichtig sich daran zu erinnern, dass Kritiken Anleitungen 
+            	anbieten, die nicht immer korrekt sein müssen. ArgoUML läßt es 
+            	zu, dass Sie die entsprechenden Zu-Bearbeiten-Elemente über den 
+            	Zu-Bearbeiten-Bereich verlassen (siehe 
+            	<xref linkend="ch.ref.todopane"/>).
+            </para>
 
           </caution>
 
@@ -37112,11 +37338,18 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Choose a Better Attribute Name</phrase>
-		</title>
+			<phrase lang="de">
+				Wählen Sie einen besseren Attributnamen aus
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that an attribute has not followed the 
           naming convention that attribute names begin with lower case 
           letters.</para>
+          <para lang="de">
+          	Hinweis, dass ein Attribut nicht der Namenskonvention entspricht, 
+          	dass Namen von Attributen mit einem Kleinbuchstaben beginnen.
+          </para>
 
         </sect2>
 
@@ -37124,15 +37357,24 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Capitalize Class Name</phrase>
-		</title>
+			<phrase lang="de">Klassenname groß schreiben</phrase>
+		  </title>
 
           <para lang="en">Suggestion that a class has not followed the naming 
           convention that classes begin with upper case letters.</para>
+          <para lang="de">
+          	Hinweis, dass eine Klasse nicht der Namenskonvention entspricht, dass 
+          	Klassen mit einem Großbuchstaben beginnen.
+          </para>
 
           <note>
 
             <para lang="en">Although not triggering this critic, the same 
             convention should apply to interfaces.</para>
+            <para lang="de">
+            	Obwohl sie diese Kritik nicht auslöst, sollte die gleiche 
+            	Konvention auf Schnittstellen angewendet werden.
+            </para>
 
           </note>
 
@@ -37142,11 +37384,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Revise Package Name</phrase>
-		</title>
+			<phrase lang="de">Paketname überarbeiten</phrase>
+		  </title>
 
           <para lang="en">Suggestion that a package has not followed the naming 
           convention of using lower case letters with periods used to 
           indicated sub-packages.</para>
+          <para lang="de">
+          	Hinweis, dass ein Paket nicht der Namenskonvention entspricht, dass 
+          	Kleinbuchstaben mit Punkten verwendet werden, um Subpakete zu 
+          	kennzeichnen.
+          </para>
 
         </sect2>
 
@@ -37156,22 +37404,38 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Storage</phrase>
+			<phrase lang="de">Speicher</phrase>
 		</title>
 
         <para lang="en">Critics concerning attributes of classes.</para>
+        <para lang="de">
+        	Kritiken, die sich auf die Attribute von Klassen beziehen.
+        </para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
+        <para lang="de">
+        	Die aktuelle Version von ArgoUML hat in dieser Kategorie die 
+        	folgenden Kritiken.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Revise Attribute Names to Avoid Conflict</phrase>
-		</title>
+			<phrase lang="de">
+          		Überarbeiten Sie die Attributnamen, um einen Konflikt zu 
+          		vermeiden
+			</phrase>
+		  </title>
 
           <para lang="en">This critic is discussed under an earlier design issues 
           category (see <xref linkend="critics.CrAttrNameConflict"/>
           ).</para>
+          <para lang="de">
+          	Diese Kritik wurde in einer früheren Designmangel-Kategorie 
+          	diskutiert (siehe <xref linkend="critics.CrAttrNameConflict"/>).
+          </para>
 
         </sect2>
 
@@ -37179,13 +37443,23 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add Instance Variables to a Class</phrase>
-		</title>
+			<phrase lang="de">
+				Fügen Sie Instanzvariablen zu einer Klasse hinzu
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that no instance variables have been 
           specified for the given class. Such classes may be created to 
           specify static attributes and methods, but by convention 
           should then be given the stereotype <literal>
           &laquo;utility&raquo;</literal>.</para>
+          <para lang="de">
+          	Hinweis, dass für die angegebene Klasse keine Instanzvariable 
+          	spezifiziert wurde. Solche Klassen können erzeugt werden, um 
+          	statische Attribute und Methoden zu spezifizieren, aber sie sollten 
+          	per Konvention das Stereotyp <literal>&laquo;utility&raquo;</literal> 
+          	erhalten.
+          </para>
 
         </sect2>
 
@@ -37193,17 +37467,32 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add a Constructor to a Class</phrase>
-		</title>
+			<phrase lang="de">
+				Fügen Sie der Klasse einen Konstruktor hinzu
+			</phrase>
+		  </title>
 
           <para lang="en">You have not yet defined a constructor for class 
           <emphasis>class</emphasis>. Constructors initialize new 
           instances such that their attributes have valid values. This 
           class probably needs a constructor because not all of its 
           attributes have initial values.</para>
+          <para lang="de">
+          	Sie haben bis jetzt keinen Konstruktor für die Klasse <emphasis>
+          	Klasse</emphasis> definiert. Konstruktoren initialisieren neue 
+          	Instanzen, sodaß deren Attribute gültige Werte aufweisen. Diese 
+          	Klasse benötigt wahrscheinlich einen Konstruktor, weil nicht alle 
+          	seiner Attribute initiale Werte aufweisen.
+          </para>
 
           <para lang="en">Defining good constructors is key to establishing class 
           invariants, and class invariants are a powerful aid in 
           writing solid code.</para>
+          <para lang="de">
+          	Das Definieren guter Konstruktoren ist der Schlüssel für das 
+          	Einrichten unveränderlicher Klassen und unveränderliche Klassen sind 
+          	eine leistungsfähige Hilfe beim Schreiben soliden Codes.
+          </para>
 
           <para lang="en">To fix this, add a constructor manually by clicking on 
           <emphasis>class</emphasis> in the explorer and adding an 
@@ -37211,17 +37500,38 @@ available at http://www.opencontent.org/openpub/.
           property tab, or select <emphasis>class</emphasis> where it 
           appears on a class diagram and use the <literal>Add 
           Operation</literal> tool.</para>
+          <para lang="de">
+          	Um dies zu beheben, fügen Sie manuell einen Konstruktor hinzu, indem 
+          	Sie im Explorer auf die <emphasis>Klasse</emphasis> klicken und eine 
+          	Operation mit Hilfe des kontextsensitiven Popup-Menüs des 
+          	Eigenschaftsregisters hinzufügen, oder die <emphasis>Klasse
+          	</emphasis> im Diagramm markieren und das Werkzeug <literal>
+          	Operation hinzufügen</literal> verwenden.
+          </para>
 
           <para lang="en">In the UML 1.4 standard, a constructor is an operation 
           with the stereotype &laquo;create&raquo;. Although not strictly standard, 
           ArgoUML will also accept &laquo;Create&raquo; as a stereotype for 
           constructors.</para>
+          <para lang="de">
+          	Im UML 1.4 Standard ist ein Konstruktor eine Operation mit dem 
+          	Stereotypen &laquo;create&raquo;. Obwohl kein strikter Standard, 
+          	wird ArgoUML auch &laquo;Create&raquo; als Stereotyp für 
+          	Konstruktoren akzeptieren.
+          </para>
 
           <para lang="en">By convention in Java and C++ a constructor has the 
           same name as the class, is not static, and returns no value. 
           ArgoUML will also accept any operation that follows these 
           conventions as a constructor even if it is not stereotyped 
           &laquo;create&raquo;.</para>
+          <para lang="de">
+          	Gemäß Java und C++-Konvention hat ein Konstruktor den gleichen 
+          	Namen wie die Klasse, ist nicht statisch und gibt keinen Wert 
+          	zurück. ArgoUML wird auch jede Operation akzeptieren, die diesen 
+          	Konventionen eines Konstruktors folgt, auch wenn sie nicht den 
+          	Stereotypen &laquo;create&raquo; aufweist.
+          </para>
 
           <caution>
 
@@ -37229,6 +37539,11 @@ available at http://www.opencontent.org/openpub/.
             return parameter (named <literal>return</literal>). You 
             will need to remove this parameter to meet the Java/C++ 
             convention.</para>
+            <para lang="de">
+            	Operatoren werden in ArgoUML mit einem Standard-Rückgabeparameter 
+            	(<literal>return</literal> genannt) erzeugt. Sie müssen diesen 
+            	Parameter entfernen, um der Java/C++-Konvention zu entsprechen.
+            </para>
 
           </caution>
 
@@ -37238,21 +37553,40 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Reduce Attributes on a Class</phrase>
-		</title>
+			<phrase lang="de">
+				Reduzieren Sie die Zahl der Attribute in der Klasse
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the class has too many attributes for a 
           good design, and is at risk of becoming a design 
           bottleneck.</para>
+          <para lang="de">
+          	Hinweis, dass die Klasse für ein gutes Design zu viele Attribute 
+          	aufweist und das Risiko eines Designengpaß in sich birgt. 
+          </para>
           
           <para lang="en">The Wizard of this critic allows setting of the treshold, 
           i.e. the maximum number of attributes 
           allowed before this critic fires.  </para>
+          <para lang="de">
+          	Der Assistent dieser Kritik erlaubt das Einstellen eines 
+          	Schwellwertes, z.B. die maximal erlaubte Anzahl von Attributen 
+          	bevor diese Kritik ausgelöst wird.
+          </para>
 
           <caution>
             <para lang="en">This number is not stored persistently, and
             there is no way to reduce it after it has been set higher,
             except by creating more attributes until the critic fires again.
             Restarting ArgoUML resets this number to its default: 7.
+            </para>
+            <para lang="de">
+            	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
+            	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
+            	denn, man erzeugt mehr Attribute, bis die Kritik erneut ausgelöst 
+            	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
+            	seinen Standardwert: 7.
             </para>
           </caution>
 
@@ -37264,29 +37598,49 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Planned Extensions</phrase>
+			<phrase lang="de">Geplante Erweiterungen</phrase>
 		</title>
 
         <para lang="en">Critics concerning interfaces and subclasses.</para>
+        <para lang="de">
+        	Kritiken, die sich auf Schnittstellen und Subklassen beziehen.
+        </para>
 
         <note>
 
           <para lang="en">It is not clear why this category has the name 
           <quote>Planned Extensions</quote>.</para>
+          <para lang="de">
+          	Es ist nicht klar, warum diese Kategorie den Namen <quote>Geplante 
+          	Erweiterungen</quote> hat.
+          </para>
 
         </note>
 
         <para lang="en">The current version of ArgoUML has three critics in this 
         category.</para>
+        <para lang="de">
+        	Die aktuelle Version von ArgoUML hat drei Kritiken in dieser 
+        	Kategorie.
+        </para>
 
         <sect2 id="critics.CrIntefaceAllPublic">
 
           <title>
 			<phrase lang="en">Operations in Interfaces must be public</phrase>
-		</title>
+			<phrase lang="de">
+				Operationen in Schnittstellen müssen public sein
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that there is no point in having non-public 
           operations in Interfaces, since they must be visible to be 
           realized by a class.</para>
+          <para lang="de">
+          	Hinweis, dass es keinen Punkt gibt, non-public Operationen in 
+          	Schnittstellen haben zu müssen, da sie in einer realisierten Klasse 
+          	sichtbar sein müssen. 
+          </para>
 
         </sect2>
 
@@ -37294,10 +37648,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Interfaces may only have operations</phrase>
-		</title>
+			<phrase lang="de">Schnittstellen dürfen nur Operationen haben</phrase>
+		  </title>
 
           <para lang="en">Suggestion that an interfaces has attributes defined. 
           The UML standard defines interfaces to have operations.</para>
+          <para lang="de">
+          	Hinweis, dass in einer Schnittstelle Attribute definiert wurden. 
+          	Der UML-Standard definiert Schnittstellen nur mit Operationen.
+          </para>
 
           <caution>
 
@@ -37305,6 +37664,13 @@ available at http://www.opencontent.org/openpub/.
             interfaces, so this should never occur in the ArgoUML 
             model. It might trigger if a project has been loaded with 
             XMI created by another tool.</para>
+            <para lang="de">
+            	ArgoUML erlaubt es Ihnen nicht, Schnittstellen Attribute 
+            	hinzuzufügen, sodaß dies in einem ArgoUML-Modell niemals 
+            	auftreten sollte. Sie kann ausgelöst werden, wenn ein Projekt 
+            	mit XMI geladen wurde, die durch ein anderes Werkzeug 
+            	erzeugt wurde.
+            </para>
 
           </caution>
 
@@ -37314,11 +37680,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Remove Reference to Specific Subclass</phrase>
-		</title>
+			<phrase lang="de">
+				Entferne die Referenz auf die spezifische Subklasse
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that in a good design, a class should not 
           reference its subclasses directly through attributes, 
           operations or associations.</para>
+          <para lang="de">
+          	Hinweis, dass eine Klasse in einem guten Design seine Subklassen 
+          	nicht direkt über Attribute, Operationen oder Assoziationen 
+          	referenzieren soll.
+          </para>
 
         </sect2>
 
@@ -37328,30 +37702,54 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">State Machines</phrase>
+			<phrase lang="de">Zustandsautomaten</phrase>
 		</title>
 
         <para lang="en">Critics concerning state machines.</para>
+        <para lang="de">Kritiken, die sich auf Zustandsautomaten beziehen.</para>
 
         <para lang="en">ArgoUML has the following critics in this category.</para>
+        <para lang="de">
+        	ArgoUML hat die folgenden Kritiken in dieser Kategorie.
+        </para>
 
         <sect2 id="critics.CrTooManyTransitions">
 
           <title>
 			<phrase lang="en">Reduce Transitions on &lt;state&gt;</phrase>
-		</title>
+			<phrase lang="de">
+				Reduzieren Sie die Anzahl der Transitionen im &lt;Zustand&gt;
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion given state is involved in so many 
           transitions it may be a maintenance bottleneck.</para>
+          <para lang="de">
+          	Hinweis, das der angegebene Zustand so viele Transitionen aufweist, 
+          	dass er zu einem Leistungsengpass werden dürfte.
+          </para>
                     
           <para lang="en">The Wizard of this critic allows setting of the treshold, 
           i.e. the maximum number of transitions 
           allowed before this critic fires.  </para>
+          <para lang="de">
+          	Der Assistenz dieser Kritik erlaubt das Einstellen eines 
+          	Schwellwertes, z.B. die maximale Anzahl von Transitionen bevor 
+          	diese Kritik ausgelöst wird.
+          </para>
 
           <caution>
             <para lang="en">This number is not stored persistently, and
             there is no way to reduce it after it has been set higher,
             except by creating more transition until the critic fires again.
             Restarting ArgoUML resets this number to its default: 10.
+            </para>
+            <para lang="de">
+            	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
+            	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
+            	denn, man erzeugt mehr Transitionen, bis die Kritik erneut ausgelöst 
+            	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
+            	seinen Standardwert: 10.
             </para>
           </caution>
           
@@ -37362,22 +37760,44 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Reduce States in machine &lt;machine&gt;</phrase>
-		</title>
+			<phrase lang="de">
+          		Reduzieren Sie die Anzahl der Zustände im Automaten 
+          		&lt;Automat&gt;
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the given state machine has so many 
           states as to be confusing and should be simplified (perhaps 
           by breaking into several machines, or using a 
           hierarchy).</para>
+          <para lang="de">
+          	Hinweis, dass der angegebene Zustandsautomat so viele Zustände 
+          	aufweist, daß er bereits Konfusion auslöst und vereinfacht ( 
+          	vielleicht durch unterteilen in mehrere Automaten, oder durch 
+          	Nutzung einer Hierarchie) werden sollte.
+          </para>
                     
           <para lang="en">The Wizard of this critic allows setting of the treshold, 
           i.e. the maximum number of states 
           allowed before this critic fires.  </para>
+          <para lang="de">
+          	Der Assistenz dieser Kritik erlaubt die Einstellung eines 
+          	Schwellwertes, z.B. die maximale Anzahl von erlaubten Zuständen 
+          	bevor diese Kritik ausgelöst wird.
+          </para>
 
           <caution>
             <para lang="en">This number is not stored persistently, and
             there is no way to reduce it after it has been set higher,
             except by creating more states until the critic fires again.
             Restarting ArgoUML resets this number to its default: 20.
+            </para>
+            <para lang="de">
+            	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
+            	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
+            	denn, man erzeugt mehr Zustände, bis die Kritik erneut ausgelöst 
+            	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
+            	seinen Standardwert: 20.
             </para>
           </caution>
           
@@ -37388,10 +37808,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add Transitions to &lt;state&gt;</phrase>
-		</title>
+			<phrase lang="de">
+				Fügen Sie dem &lt;Zustand&gt; Transitionen hinzu
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the given state requires both incoming 
           and outgoing transitions.</para>
+          <para lang="de">
+          	Hinweis, daß der angegebene Zustand ankommende und abgehende 
+          	Transitionen benötigt.
+          </para>
 
         </sect2>
 
@@ -37399,21 +37826,39 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add Incoming Transitions to &lt;model element&gt;</phrase>
-		</title>
+			<phrase lang="de">
+	          	Fügen Sie dem Modellelement &lt;Modellelement&gt; ankommende 
+	          	Transitionen hinzu
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the given state requires incoming 
           transitions.</para>
+          <para lang="de">
+          	Hinweis, daß der angegebene Zustand ankommende Transitionen 
+          	benötigt.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNoOutgoingTransitions">
 
           <title>
-			<phrase lang="en">Add Outgoing Transitions from &lt;model element&gt;</phrase>
-		</title>
+			<phrase lang="en">
+				Add Outgoing Transitions from &lt;model element&gt;
+			</phrase>
+			<phrase lang="de">
+          		Fügen Sie dem Modellelement &lt;Modellelement&gt; abgehende 
+          		Transitionen hinzu
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the given state requires outgoing 
           transitions.</para>
+          <para lang="de">
+          	Hinweis, daß der angegebene Zustand abgehende Transitionen 
+          	benötigt.
+          </para>
 
         </sect2>
 
@@ -37421,11 +37866,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Remove Extra Initial States</phrase>
-		</title>
+			<phrase lang="de">
+				Entfernen Sie den zusätzlichen Initialzustand
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that there is more than one initial state in 
           the state machine or composite state, which is not permitted 
           in UML.</para>
+          <para lang="de">
+          	Hinweis, daß es mehr als einen Initialzustand in dem 
+          	Zustandsautomaten oder dem zusammengesetzten Zustand gibt, was in 
+          	UML nicht erlaubt ist.
+          </para>
 
         </sect2>
 
@@ -37433,10 +37886,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Place an Initial State</phrase>
-		</title>
+			<phrase lang="de">Fügen Sie einen initialen Zustand ein</phrase>
+		  </title>
 
           <para lang="en">Suggestion that there is no initial state in the state 
           machine or composite state.</para>
+          <para lang="de">
+          	Hinweis, daß es keinen initialien Zustand in dem Zustandsautomaten 
+          	oder dem zusammengesetzten Zustand gibt.
+          </para>
 
         </sect2>
 
@@ -37444,11 +37902,18 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add Trigger or Guard to Transition</phrase>
-		</title>
+			<phrase lang="de">
+				Fügen Sie der Transition ein Signal oder einen Wächter hinzu
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that a transition is missing either a 
           trigger or guard, one at least of which is required for it to 
           be taken.</para>
+          <para lang="de">
+          	Hinweis, dass eine Transition entweder ein Signal oder einen 
+          	Wächter vermisst. Einer davon ist mindestens notwendig.
+          </para>
 
         </sect2>
 
@@ -37456,11 +37921,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Change Join Transitions</phrase>
-		</title>
+			<phrase lang="de">Ändere Vereinigungs-Transitionen</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the join pseudostate has an invalid 
           number of transitions. Normally there should be one outgoing 
           and two or more incoming.</para>
+          <para lang="de">
+          	Hinweis, dass der Pseudozustand "Vereinigen" eine ungültige Anzahl 
+          	von Transitionen aufweist. Normalerweise sollten es eine abgehende 
+          	und zwei oder mehrere ankommende sein.
+          </para>
 
         </sect2>
 
@@ -37468,11 +37939,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Change Fork Transitions</phrase>
-		</title>
+			<phrase lang="de">Ändere Gabelungs-Transitionen</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the fork pseudostate has an invalid 
           number of transitions. Normally there should be one incoming 
           and two or more outgoing.</para>
+          <para lang="de">
+          	Hinweis, dass der Pseudozustand "Gabelung" eine ungültige Anzahl 
+          	von Transitionen aufweist. Normalerweise sollten es eine ankommende 
+          	und zwei oder mehrere abgehende sein.	
+          </para>
 
         </sect2>
 
@@ -37480,12 +37957,21 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add Choice/Junction Transitions</phrase>
-		</title>
+			<phrase lang="de">
+				Fügen Sie Entscheidungs-/Kreuzungstransitionen hinzu
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the branch (choice or junction) 
           pseudostate has an invalid number of transitions. Normally 
           there should be at least one incoming transition and at least 
           one outgoing transition.</para>
+          <para lang="de">
+          	Hinweis, dass der Pseudozustands-Zweig (Entscheidung oder Kreuzung) 
+          	eine ungültige Zahl von Transitionen aufweist. Normalerweise 
+          	sollten es mindestens eine ankommende Transition und mindestens 
+          	eine abgehende Transition sein. 
+          </para>
 
         </sect2>
 
@@ -37493,9 +37979,14 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add Guard to Transition</phrase>
-		</title>
+			<phrase lang="de">
+				Fügen Sie der Transition einen Wächter hinzu</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the transition requires a guard.</para>
+          <para lang="de">
+          	Hinweis, dass die Transition einen Wächter benötigt.
+          </para>
 
           <caution>
 
@@ -37503,6 +37994,12 @@ available at http://www.opencontent.org/openpub/.
             perfectly acceptable to have a transition without a 
             guard&mdash;the transition is always taken when the trigger is 
             invoked.</para>
+            <para lang="de">
+            	Es ist nicht klar, ob dies eine gültige Kritik ist. Es ist 
+            	sicherlich akzeptabel, eine Transistion ohne Wächter zu haben 
+            	&mdash; die Transition wird immer genommen, wenn das Signal 
+            	ausgelöst wird.
+            </para>
 
           </caution>
 
@@ -37512,11 +38009,16 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Clean Up Diagram</phrase>
-		</title>
+			<phrase lang="de">Das Diagramm aufräumen</phrase>
+		  </title>
 
           <para lang="en">This critic is discussed under an earlier design issues 
           category (see <xref linkend="critics.CrNodesOverlap"/>
           ).</para>
+          <para lang="de">
+          	Diese Kritik wurde unter einer früheren Design-Kategorie diskutiert 
+          	( siehe <xref linkend="critics.CrNodesOverlap"/>).
+          </para>
 
         </sect2>
 
@@ -37524,34 +38026,61 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Make Edge More Visible</phrase>
-		</title>
+			<phrase lang="de">Eine Kante sichtbarer machen</phrase>
+		  </title>
 
           <para lang="en">Suggestion that an edge model element such as an association 
           or abstraction is so short it may be missed. Move the 
           connected model elements apart to make the edge more 
           visible.</para>
+          <para lang="de">
+          	Hinweis, dass ein Kanten-Modellelement, wie zum Beispiel eine 
+          	Assoziation oder Abstraktion so kurz ist, dass sie vermisst werden 
+          	könnte. Ziehen Sie die verbundenen Modellelemente auseinander, um 
+          	die Kanten sichtbarer zu machen.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrMultiComposite">
 
           <title>
-			<phrase lang="en">Composite Association End with Multiplicity &gt; 
-          1</phrase>
+			<phrase lang="en">
+				Composite Association End with Multiplicity &gt;1
+			</phrase>
+			<phrase lang="en">
+				Zusammengesetztes Assoziationsende mit der Kardinalität &gt;1
+			</phrase>
 		</title>
 
           <para lang="en">An instance may not belong by composition to more than 
           one composite instance. You must change the multiplicity at 
           the composite end of the association to either 0..1 or 1..1 
           (1) for your model to make sense.</para>
+          <para lang="de">
+          	Eine Instanz kann durch eine Komposition nicht zu mehr als 
+          	einer Kompositions-Instanz gehören. Sie müssen die Kardinalität 
+          	am zusammengesetzten Ende der Assoziation entweder auf 0..1 oder 
+          	1..1 (1) setzen, damit das Modell Sinn macht.
+          </para>
 
           <para lang="en">Remember that composition is the stronger aggregation 
           kind and aggregation is the weaker. The problem can be 
           compared to a model where a finger can be an integral part of 
           several hands at the same time.</para>
+          <para lang="de">
+          	Erinnern Sie sich, dass die Komposition die strengere Aggregationsart 
+          	ist und die Aggregation schwächer ist. Das Problem kann mit einem 
+          	Modell verglichen werden, in dem ein Finger der integrale Teil von 
+          	mehreren Händen gleichzeitig sein kann.
+          </para>
 
           <para lang="en">This is the second well-formedness rule on 
           AssociationEnd in UML 1.4.</para>
+          <para lang="de">
+          	Dies ist die zweite wohlgeformte Regel bei Assoziationsenden in 
+          	UML 1.4.
+          </para>
 
         </sect2>
 
@@ -37561,21 +38090,35 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Design Patterns</phrase>
+			<phrase lang="de">Designmuster</phrase>
 		</title>
 
         <para lang="en">Critics concerning design pattern usage in ArgoUML.</para>
+        <para lang="de">Kritiken über die Nutzung von Designmustern in ArgoUML.</para>
 
         <para lang="en">These relate to the use of patterns as described by the 
         so called <quote>Gang of Four</quote>. ArgoUML also uses this 
         category for critics associated with deployment and sequence 
         diagrams. The current version of ArgoUML has the following 
         critics in this category.</para>
+        <para lang="de">
+          Diese beziehen sich auf die Nutzung von Mustern, wie sie durch die 
+          sogenannte <quote>Viererbande</quote> beschrieben wurden. ArgoUML 
+          nutzt diese Kategorie auch für Kritiken, die sich auf Verteilungs- 
+          und Sequenzdiagramme beziehen. Die aktuelle Version von ArgoUML hat 
+          die folgenden Kritiken in dieser Kategorie.
+        </para>
 
         <sect2 id="critics.CrConsiderSingleton">
 
           <title>
-			<phrase lang="en">Consider using Singleton Pattern for 
-          &lt;class&gt;</phrase>
+			<phrase lang="en">
+				Consider using Singleton Pattern for &lt;class&gt;
+			</phrase>
+			<phrase lang="de">
+	          	Ziehen Sie Nutzung des Singleton-Musters für eine &lt;class&gt; 
+	          	in Betracht.
+			</phrase>
 		</title>
 
           <para lang="en">The <emphasis>class</emphasis> has no non-static 
@@ -37584,23 +38127,51 @@ available at http://www.opencontent.org/openpub/.
           this class will be identical to every other instance, since 
           there will be nothing about the instances that can 
           differentiate them.</para>
+          <para lang="de">
+          	Die <emphasis>Klasse</emphasis> hat keine nicht-statischen Attribute 
+          	noch Assoziationen, die von der Instanz dieser Klasse abgehen. Das 
+          	bedeutet, dass jede Instanz dieser Klasse identisch mit jeder anderen 
+          	Instanz sein wird, da es nichts über die Instanz gibt, was sie 
+          	voneinander unterscheidbar macht.
+          </para>
 
           <para lang="en">Under these circumstances you should consider making 
           explicit that you have exactly one instance of this class, by 
           using the singleton Pattern. Using the singleton pattern can 
           save time and memory space. Within ArgoUML this can be done 
           by using the &laquo;singleton&raquo; stereotype on this class.</para>
+          <para lang="de">
+          	Unter diesen Umständen sollten sie in Betracht ziehen, dass Sie 
+          	genau eine Instanz dieser Klsse haben, indem Sie das Singleton-Muster 
+          	verwenden. Die Nutzung des Singleton-Musters kann Zeit und 
+          	Speicherplatz einsparen. Innerhalb von ArgoUML kann dies durch 
+          	Nutzung des Stereotyps &laquo;singleton&raquo; auf diese Klasse 
+          	umgesetzt werden.
+          </para>
 
           <para lang="en">If it is not your intent to have a single instance, you 
           should define instance variables (i.e. non-static attributes) 
           and/or outgoing associations that will represent differences 
           bewteen instances.</para>
+          <para lang="de">
+          	Wenn es nicht Ihre Absicht ist nur eine Instanz zu haben, sollten 
+          	Sie Instanzvariablen definieren (z.B. nicht-statische Attribute) 
+          	und/oder abgehende Assoziationen, welche die Unterschiede zwischen 
+          	den Instanzen repräsentieren. 
+          </para>
 
           <para lang="en">Having specified <emphasis>class</emphasis> as a 
           singleton, you need to define the class so there can only be 
           a single instance. This will complete the information 
           representation part of your design. To achieve this you need 
           to do the following.</para>
+          <para lang="de">
+          	Wenn Sie eine <emphasis>Klasse</emphasis> als Singleton spezifiziert 
+          	haben, müssen Sie die Klasse so definieren, dass sie nur eine 
+          	Instanz haben kann. Dies wird die Informationsdarstellung Ihres 
+          	Designs vervollständigen. Um dies zu erreichen, müssen Sie folgendes 
+          	tun.
+          </para>
 
           <orderedlist>
 
@@ -37609,6 +38180,11 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en">You must define a static attribute (a class 
               variable) holding the instance. This must therefore have 
               <emphasis>class</emphasis> as its type.</para>
+              <para lang="de">
+              	Sie müssen ein statisches Attribut definieren (eine 
+              	Klassenvariable), welche die Instanz aufnimmt. Diese muss aus 
+              	diesem Grund den Typ <emphasis>Klasse</emphasis> aufweisen.
+              </para>
 
             </listitem>
 
@@ -37619,6 +38195,13 @@ available at http://www.opencontent.org/openpub/.
               the single instance could be through a suitable helper 
               operation, which invokes this private constructor just 
               once.</para>
+              <para lang="de">
+              	Sie dürfen nur einen privaten Konstruktor haben, so dass keine 
+              	neuen Instanzen durch anderen Code erzeugt werden kann. Das 
+              	Erzeugen der einzigen Instanz kann durch eine passende 
+              	Hilfsoperation erfolgen, die diesen privaten Konstruktor genau 
+              	einmals aufruft.
+              </para>
 
             </listitem>
 
@@ -37627,6 +38210,12 @@ available at http://www.opencontent.org/openpub/.
               <para lang="en">You must have at least one constructor to override 
               the default constructor, so that the default constructor 
               is not used to create multiple instances.</para>
+              <para lang="de">
+              	Sie müssen mindestens einen Konstruktor haben, um den 
+              	Standardkonstruktor zu überschreiben, so dass der 
+              	Standardkonstruktor nicht dazu verwendet wird mehrere Instanzen 
+              	zu erzeugen.
+              </para>
 
             </listitem>
 
@@ -37636,6 +38225,11 @@ available at http://www.opencontent.org/openpub/.
           standard, and extensions to that definition accepted by 
           ArgoUML see <xref linkend="critics.CrConstructorNeeded"/>
           .</para>
+          <para lang="de">
+	          Die Definition eines Konstruktors gemäß UML-Standard 1.4 und dessen 
+	          Erweiterungen, so dass die Definition durch ArgoUML akzeptiert wird, 
+	          siehe <xref linkend="critics.CrConstructorNeeded"/>.
+          </para>
 
         </sect2>
 
@@ -37643,7 +38237,10 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Singleton Stereotype Violated in &lt;class&gt;</phrase>
-		</title>
+			<phrase lang="de">
+				Singleton Stereotyp-Verletzung in &lt;Klasse&gt;
+			</phrase>
+		  </title>
 
           <para lang="en">This class is marked with the &laquo;singleton&raquo; stereotype, 
           but it does not satisfy the constraints imposed on singletons 
@@ -37652,21 +38249,47 @@ available at http://www.opencontent.org/openpub/.
           instance. This means that the class must meet the design 
           criteria for a singleton (see 
           <xref linkend="critics.CrConsiderSingleton"/>).</para>
+          <para lang="de">
+          	Diese Klasse ist mit dem &laquo;singleton&raquo;-Stereotyp versehen, 
+          	stimmt aber nicht mit den für Singletons geltenden Randbedingungen 
+          	überein (ArgoUML akzeptiert auch den Stereotyp &laquo;Singleton
+          	&raquo; beim Definieren eines Singletons). Eine Singletonklasse 
+          	kann maximal eine Instanz haben. Das bedeutet, dass die Klasse den 
+          	Designkriterien für ein Singleton entsprechen muss (siehe 
+          	<xref linkend="critics.CrConsiderSingleton"/>).
+          </para>
 
           <para lang="en">Whenever you mark a class with a stereotype, the class 
           should satisfy all constraints of the stereotype. This is an 
           important part of making a self-consistent and understangle 
           design. Using the singleton pattern can save time and memory 
           space.</para>
+          <para lang="de">
+          	Immer, wenn Sie eine Klasse mit einem Stereotypen kennzeichnen, 
+          	sollte die Klasse allen Bedingungen dieses Stereotyps entsprechen. 
+          	Die ist ein wichtiger Teil bei der Erstellung eines konsitenten und 
+          	verständlichen Designs. Die Nutzung des Singletonmusters kann Zeit 
+          	und Speicherplatz einsparen.
+          </para>
 
           <para lang="en">If you no longer want this class to be a singleton, 
           remove the &laquo;singleton&raquo; stereotype by clicking on the class 
           and selecting the blank selection on the stereotype drop-down 
           within the properties tab.</para>
+          <para lang="de">
+          	Wenn Sie diese Klasse nicht länger als Singleton benötigen, entfernen 
+          	Sie den Stereotypen &laquo;singleton&raquo; indem Sie auf die Klasse 
+          	klicken und die leere Auswahl im Stereotyp-Kombinationsfeld des 
+          	Registers Eigenschaften auswählen. 
+          </para>
 
           <para lang="en">To apply the singleton pattern you should follow the 
           directions in <xref linkend="critics.CrConsiderSingleton"/>
           .</para>
+          <para lang="de">
+          	Bei der Anwendung eines Singletonmusters sollten Sie den Anweisungen 
+          	in <xref linkend="critics.CrConsiderSingleton"/> folgen.
+          </para>
 
         </sect2>
 
@@ -37674,11 +38297,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Nodes normally have no enclosers</phrase>
-		</title>
+			<phrase lang="de">Knoten haben normalerweise keine Hülle</phrase>
+		  </title>
 
           <para lang="en">A suggestion that nodes should not be drawn inside 
           other model elements on the deployment diagram, since they 
           represent an autonomous physical object.</para>
+          <para lang="de">
+          	Ein Hinweis, dass Knoten nicht innerhalb anderer Modellelemente im 
+          	Verteilungsdiagramm eingezeichnet werden sollten, da sie ein 
+          	autonomes physikalisches Objekt repräsentieren.
+          </para>
 
         </sect2>
 
@@ -37686,11 +38315,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">NodeInstances normally have no enclosers</phrase>
-		</title>
+			<phrase lang="de">
+				Knoteninstanzen haben normalerweise keine Hülle
+			</phrase>
+		  </title>
 
           <para lang="en">A suggestion that node instances should not be drawn 
           inside other model elements on the deployment diagram, since they 
           represent an autonomous physical object.</para>
+          <para lang="de">
+          	Ein Hinweis, dass Knoteninstanzen nicht innerhalb anderer 
+          	Modellelemente im Verteilungsdiagramm eingezeichnet werden sollten, 
+          	da sie ein autonomes physikalisches Objekt repräsentieren.
+          </para>
 
         </sect2>
 
@@ -37698,12 +38335,21 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Components normally are inside nodes</phrase>
-		</title>
+			<phrase lang="de">
+				Komponenten befinden sich normalerweise innerhalb von Knoten
+			</phrase>
+		  </title>
 
           <para lang="en">A suggestion that components represent the logical 
           entities within physical nodes, and so should be drawn within 
           a node, where nodes are shown on the deployment 
           diagram.</para>
+          <para lang="de">
+          	Ein Hinweis, dass Komponenten logische Entitäten innerhalb 
+          	physikalischer Knoten repräsentieren und innerhalb eines Knoten 
+          	eingezeichnet werden sollten, wobei Knoten in einem 
+          	Verteilungsdiagramm dargestellt werden.
+          </para>
 
         </sect2>
 
@@ -37711,12 +38357,22 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">ComponentInstances normally are inside nodes</phrase>
-		</title>
+			<phrase lang="de">
+				Komponenteninstanzen befinden sich normalerweise innerhalb von 
+				Knoten
+			</phrase>
+		  </title>
 
           <para lang="en">A suggestion that component instances represent the 
           logical entities within physical nodes, and so should be 
           drawn within a node instance, where node instances are shown 
           on the deployment diagram.</para>
+          <para lang="de">
+          	Ein Hinweis, dass Komponenteninstanzen logische Entitäten innerhalb 
+          	physikalischer Knoten repräsentieren und innerhalb einer 
+          	Knoteninstanz eingezeichnet werden sollten, wobei Knoteninstanzen 
+          	in einem Verteilungsdiagramm dargestellt werden.
+          </para>
 
         </sect2>
 
@@ -37724,11 +38380,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Classes normally are inside components</phrase>
-		</title>
+			<phrase lang="de">
+				Klassen befinden sich normalerweise innerhalb von Komponenten
+			</phrase>
+		  </title>
 
           <para lang="en">A suggestion that classes, as model elements making up 
           components, should be drawn within components on the 
           deployment diagram.</para>
+          <para lang="de">
+          	Ein Hinweis, dass Klassen als Modellelemente Komponenten bilden und 
+          	innerhalb von Komponenten in Verteilungsdiagrammen eingezeichnet 
+          	werden sollten.
+          </para>
 
         </sect2>
 
@@ -37736,11 +38400,20 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Interfaces normally are inside components</phrase>
-		</title>
+			<phrase lang="de">
+				Schnittstellen befinden sich normalerweise innerhalb von 
+				Komponenten
+			</phrase>
+		  </title>
 
           <para lang="en">A suggestion that interfaces, as model elements making up 
           components, should be drawn within components on the 
           deployment diagram.</para>
+          <para lang="de">
+          	Ein Hinweis, dass Schnittstellen als Modellelemente Komponenten 
+          	bilden und innerhalb von Komponenten in Verteilungsdiagrammen 
+          	eingezeichnet werden sollten.
+          </para>
 
         </sect2>
 
@@ -37748,11 +38421,20 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Objects normally are inside components</phrase>
-		</title>
+			<phrase lang="de">
+				Objekte befinden sich normalerweise innerhalb von Komponenten
+			</phrase>
+		  </title>
 
           <para lang="en">A suggestion that objects, as instances of model elements 
           making up components, should be drawn within components or 
           component instances on the deployment diagram.</para>
+          <para lang="de">
+          	Ein Hinweis, dass Objekte als Instanzen von Modellelementen 
+          	Komponenten bilden, die innerhalb von Komponenten oder 
+          	Komponenteninstanzen in Verteilungsdiagrammen eingezeichnet werden 
+          	sollten.
+          </para>
 
         </sect2>
 
@@ -37760,12 +38442,21 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">LinkEnds have not the same locations</phrase>
-		</title>
+			<phrase lang="de">
+				Verknüpfungsenden haben nicht die gleiche Ebene
+			</phrase>
+		  </title>
 
           <para lang="en">A suggestion that a link (e.g. association) connecting 
           objects on a deployment diagram has one end in a component 
           and the other in a component instance (since objects can be 
           in either). This makes no sense.</para>
+          <para lang="de">
+          	Ein Hinweis, dass eine Verknüpfung (z.B. eine Assoziation), die 
+          	Objekte in einem Verteilungsdiagramm verbindet, ein Ende in einer 
+          	Komponente und das andere Ende in einer Komponenteninstanz (da 
+          	Objekte in beiden auftreten können) hat. Dies macht keinen Sinn. 
+          </para>
 
         </sect2>
 
@@ -37773,11 +38464,18 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Set classifier (Deployment Diagram)</phrase>
-		</title>
+			<phrase lang="de">
+				Klassifizierung einstellen (Verteilungsdiagramm)
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that there is an instance (object) without 
           an associated classifier (class, datatype) on a deployment 
           diagram.</para>
+          <para lang="de">
+          	Hinweis, dass es in einem Verteilungsdiagramm eine Instanz (Objekt) 
+          	ohne eine verknüpfte Klassifizierung gibt (Klasse, Datentyp).
+          </para>
 
         </sect2>
 
@@ -37785,10 +38483,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Missing return-actions</phrase>
-		</title>
+			<phrase lang="de">Return-Aktionen werden vermisst</phrase>
+		  </title>
 
           <para lang="en">Suggestion that a sequence diagram has a send or call 
           action without a corresponding return action.</para>
+          <para lang="de">
+          	Hinweis, dass ein Sequenzdiagramm eine Sende- oder Aufrufaktion ohne 
+          	entsprechende Return-Aktion enthält.
+          </para>
 
         </sect2>
 
@@ -37796,10 +38499,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Missing call(send)-action</phrase>
-		</title>
+			<phrase lang="de">Vermisse Aufruf(Sende)-Aktion</phrase>
+		  </title>
 
           <para lang="en">Suggestion that a sequence diagram has a return action, 
           but no preceding call or send action.</para>
+          <para lang="de">
+          	Hinweis, dass ein Sequenzdiagramm eine Return-Aktion enthält, aber 
+          	keine vorhergehende Aufruf- oder Sende-Aktion.
+          </para>
 
         </sect2>
 
@@ -37807,11 +38515,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">No Stimuli on these links</phrase>
-		</title>
+			<phrase lang="de">
+				Kein Auslöseimpuls bei diesen Verknüpfungen
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that a sequence diagram has a link 
           connecting objects without an associated stimulus (without 
           which the link is meaningless).</para>
+          <para lang="de">
+          	Hinweis, dass ein Sequenzdiagramm eine Objekte verbindende 
+          	Verknüpfung ohne verknüpften Auslöseimpuls aufweist (ohne den die 
+          	Verknüpfung bedeutungslos ist).
+          </para>
 
           <warning>
 
@@ -37821,6 +38537,15 @@ available at http://www.opencontent.org/openpub/.
             was created by loading a corrupt project, with an XMI file 
             describing a link without a stimulus, possibly created by a 
             tool other than ArgoUML.</para>
+            <para lang="de">
+            	Das Auslösen dieser Kritik weist auf schwerwiegendes Probleme hin, 
+            	da ArgoUML keine Mechanismen für das Erzeugen einer Verknüpfung 
+            	ohne einen Auslöseimpuls enthält. Es weist wahrscheinlich 
+            	darauf hin, dass das Diagramm durch Laden eines defekten 
+            	Projektes mit einer XMI-Datei erzeugt wurde, welche eine 
+            	Verknüpfung ohne Auslöseimpuls beschreibt. Diese wurde 
+            	möglicherweise durch ein anderes Werkzeug erzeugt.
+            </para>
 
           </warning>
 
@@ -37830,11 +38555,18 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Set Classifier (Sequence Diagram)</phrase>
-		</title>
+			<phrase lang="de">
+				Klassifizierung einstellen (Sequenzdiagramm)
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that there is an object without an 
           associated classifier (class, datatype) on a sequence 
           diagram.</para>
+          <para lang="de">
+          	Hinweis, dass es in einem Sequenzdiagramm ein Objekt ohne eine damit 
+          	verknüpfte Klassifizierung (Klasse, Datentyp) gibt.
+          </para>
 
         </sect2>
 
@@ -37842,11 +38574,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Wrong position of these stimuli</phrase>
-		</title>
+			<phrase lang="de">Falsche Position dieses Auslöseimpulses</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the initiation of send/call-return 
           message exchanges in a sequence diagram does not properly 
           initiate from left to right.</para>
+          <para lang="de">
+          	Hinweis, dass in einem Sequenzdiagramm die Initiierung eines 
+          	Sende/Aufruf-Return-Nachrichtaustausches nicht richtig von links 
+          	nach rechts initiiert wurde.
+          </para>
 
         </sect2>
 
@@ -37856,26 +38594,41 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Relationships</phrase>
+			<phrase lang="de">Beziehungen</phrase>
 		</title>
 
         <para lang="en">Critics concerning associations in ArgoUML.</para>
+        <para lang="de">Kritiken, die sich in ArgoUML auf Assoziationen beziehen.</para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
+        <para lang="de">
+        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	dieser Kategorie.
+        </para>
 
         <sect2 id="critics.CrCircularAssocClass">
 
           <title>
 			<phrase lang="en">Circular Association</phrase>
-		</title>
+			<phrase lang="de">Zirkuläre Assoziation</phrase>
+		  </title>
 
           <para lang="en">Suggestion that an association class has a role that 
           refers back directly to itself, which is not permitted.</para>
+          <para lang="de">
+          	Hinweis, dass eine Assoziationsklasse eine Rolle aufweist, die auf 
+          	sich selbst verweist. Dies ist nicht erlaubt.
+          </para>
 
           <warning>
 
             <para lang="en">This critic is meaningless in the V0.14 version of 
             ArgoUML which does not support association classes.</para>
+            <para lang="de">
+            	Diese Kritik ist in der V0.14 von ArgoUML bedeutungslos, da 
+            	sie Assoziationsklassen nicht unterstützt.
+            </para>
 
           </warning>
 
@@ -37885,46 +38638,87 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Make &lt;association&gt; Navigable</phrase>
-		</title>
+			<phrase lang="de"> &lt;Assoziation&gt; navigierbar machen</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the association referred to is not 
           navigable in either direction. This is permitted in the UML 
           standard, but has no obvious meaning in any practical 
           design.</para>
+          <para lang="de">
+          	Hinweis, dass die betreffende Assoziation in keine Richtung 
+          	navigierbar ist. Dies ist im UML-Standard erlaubt, aber es hat 
+          	in einem praktischen Design keinerlei Bedeutung.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNavFromInterface">
 
           <title>
-			<phrase lang="en">Remove Navigation from Interface via 
-          &lt;association&gt;</phrase>
+			<phrase lang="en">
+				Remove Navigation from Interface via &lt;association&gt;
+			</phrase>
+			<phrase lang="de">
+	          	Entferne die Navigation von der Schnittstelle via 
+	          	&lt;Assoziation&gt;
+			</phrase>
 		</title>
 
           <para lang="en">Associations involving an interface can be not be 
           navigable in the direction from the interface. This is 
           because interfaces contain only operation declarations and 
           cannot hold pointers to other objects.</para>
+          <para lang="de">
+          	Assoziationen die eine Schnittstelle beinhalten können nicht von 
+          	der Schnittstelle aus navigierbar sein. Dies ist so, weil 
+          	Schnittstellen nur Operationsdeklarationen enthalten und keine 
+          	Zeiger auf andere Objekte halten können.
+          </para>
 
           <para lang="en">This part of the design should be changed before you 
           can generate code from this design. If you do generate code 
           before fixing this problem, the code will not match the 
           design.</para>
+          <para lang="de">
+          	Dieser Teil des Designs sollte geändert werden, bevor Sie Code 
+          	von diesem Design generieren. Wenn Sie den Code generieren, bevor 
+          	Sie dieses Problem lösen, wird der Code nicht mit dem Design 
+          	übereinstimmen.
+          </para>
 
           <para lang="en">To fix this, select the association and use the 
           <literal>Properties</literal> tab to select in turn each 
           association end that is <emphasis>not</emphasis> connected to 
           the interface. Uncheck <literal>Navigable</literal> for each 
           of these ends.</para>
+          <para lang="de">
+          	Um dies zu beheben markieren Sie die Assoziation und nutzen das 
+          	Register <literal>Eigenschaften</literal>, um nach und nach jedes 
+          	Assoziationsende auszuwählen, das <emphasis>nicht</emphasis> mit 
+          	der Schnittstelle verbunden ist. Entfernen Sie die Markierung 
+          	<literal>Navigierbar</literal> für jedes dieser Enden.
+          </para>
 
           <para lang="en">The association should then appear with a stick 
           arrowhead pointed towards the interface</para>
+          <para lang="de">
+          	Die Assoziation sollte dann mit einem Pfeil in Richtung der 
+          	Schnittstelle erscheinen.
+          </para>
 
           <para lang="en">When an association between a class and interface is 
           created in ArgoUML, it is by default navigable only from the 
           class to the interface. However, ArgoUML does not prevent to 
           change the navigability afterwards into a wrong situation. 
           Which will cause this critic to be triggered.</para>
+          <para lang="de">
+          	Wenn eine Assoziation zwischen einer Klasse und einer Schnittstelle 
+          	in ArgoUML erzeugt wird, ist diese standardmäßig nur von der Klasse 
+          	zur Schnittstelle navigierbar. Jedoch verhindert es ArgoUML nicht, 
+          	wenn die Navigierbarkeit danach fehlerhaft geändert wird. Was diese 
+          	Kritik auslösen würde.
+          </para>
 
         </sect2>
 
@@ -37932,12 +38726,21 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add Associations to &lt;model element&gt;</phrase>
-		</title>
+			<phrase lang="de">
+				Fügen Sie dem &lt;Modellelement&gt; eine Assoziation hinzu
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the specified model element (actor, use case 
           or class) has no associations connecting it to other 
           model elements. This is required for the model element to be useful in 
           a design.</para>
+          <para lang="de">
+          	Hinweis, dass das spezifizierte Modellelement (Akteur, Anwendungsfall 
+          	oder Klasse) keine verbindenden Assoziationen zu anderen 
+          	Modellelementen aufweist. Dies ist aber erforderlich, wenn das 
+          	Modellelement in einem Design nützlich sein soll.
+          </para>
 
         </sect2>
 
@@ -37945,11 +38748,18 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Remove Reference to Specific Subclass</phrase>
-		</title>
+			<phrase lang="de">
+				Entfernen Sie die Referenz auf die spezifische Subklasse
+			</phrase>
+		  </title>
 
           <para lang="en">This critic is discussed under an earlier design issues 
           category (see <xref linkend="critics.CrSubclassReference"/>
           ).</para>
+          <para lang="de">
+          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrSubclassReference"/>).
+          </para>
 
         </sect2>
 
@@ -37957,21 +38767,41 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Reduce Associations on &lt;model element&gt;</phrase>
-		</title>
+			<phrase lang="de">
+				Reduzieren Sie die Assoziationen des &lt;Modellelementes&gt;
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the given model element (actor, use case, 
           class or interface) has so many associations it may be a 
           maintenance bottleneck.</para>
+          <para lang="de">
+          	Hinweis, dass das betreffende Modellelement (Akteur, Anwendungsfall, 
+          	Klasse oder Schnittstelle) so viele Assoziationen aufweist, dass 
+          	diese zu einem Wartungsengpass führen können.
+          </para>
           
           <para lang="en">The Wizard of this critic allows setting of the treshold, 
           i.e. the maximum number of associations 
           allowed before this critic fires.  </para>
+          <para lang="de">
+          	Der Assistent dieser Kritik erlaubt das Einstellen eines 
+          	Schwellwertes, z.B. die maximale Anzahl von erlaubten Assoziationen 
+          	bevor diese Kritk ausgelöst wird.
+          </para>
 
           <caution>
             <para lang="en">This number is not stored persistently, and
             there is no way to reduce it after it has been set higher,
             except by creating more associations until the critic fires again.
             Restarting ArgoUML resets this number to its default: 7.
+            </para>
+            <para lang="de">
+            	Diese Zahl wird nicht dauerhaft gespeichert. Es gibt keinen 
+            	Weg sie zu reduzieren, nachdem sie nach oben gesetzt wurde. Es 
+            	sei denn, man erzeugt mehr Assoziationen bis die Kritik erneut 
+            	ausgelöst wird. Ein Restart von ArgoUML setzt diese Zahl auf 
+            	seinen Standard zurück: 7.
             </para>
           </caution>
 
@@ -37981,11 +38811,16 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Make Edge More Visible</phrase>
-		</title>
+			<phrase lang="de">Kante sichtbarer machen</phrase>
+		  </title>
 
           <para lang="en">This critic is discussed under an earlier design issues 
           category (see <xref linkend="critics.CrZeroLengthEdge"/>
           ).</para>
+          <para lang="de">
+          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrZeroLengthEdge"/>).
+          </para>
 
         </sect2>
 
@@ -37995,13 +38830,22 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Instantiation</phrase>
+			<phrase lang="de">Instanzen bilden</phrase>
 		</title>
 
         <para lang="en">Critics concerning instantiation of classifiers in 
         ArgoUML.</para>
+        <para lang="de">
+        	Kritiken, die sich auf das Bilden von Instanzen bei Klassifizierern 
+        	in ArgoUML beziehen.
+        </para>
 
         <para lang="en">The current version of ArgoUML has no critics in this 
         category.</para>
+        <para lang="de">
+        	Die aktuelle Version von ArgoUML hat keine Kritiken in dieser 
+        	Kategorie.
+        </para>
 
       </sect1>
 
@@ -38009,31 +38853,59 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Modularity</phrase>
+			<phrase lang="de">Modularität</phrase>
 		</title>
 
         <para lang="en">Critics concerning modular development in ArgoUML.</para>
+        <para lang="de">
+        	Kritiken, die sich auf die modulare Entwicklung in ArgoUML 
+        	beziehen.
+		</para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
+        <para lang="de">
+        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	dieser Kategorie.
+        </para>
 
         <sect2 id="critics.CrCrossNamespaceAssoc">
 
           <title>
 			<phrase lang="en">Classifier not in Namespace of its Association</phrase>
-		</title>
+			<phrase lang="de">
+	          	Der Klassifizierer befindet sich nicht im Namensraum seiner 
+	          	Assoziation.
+			</phrase>
+		  </title>
 
           <para lang="en">One of the well-formedness rules in UML 1.4 for 
           associations, is that all the classifiers attached to the 
           ends of the association should belong to the same namespace 
           as the association.</para>
+          <para lang="de">
+          	Eine der wohlgeformten Regeln in UML 1.4 für Assoziationen lautet, 
+          	dass alle Klassifizierer, die den Enden einer Assoziation zugewiesen 
+          	werden, zum gleichen Namensraum gehören müssen wie die Assoziation.
+          </para>
 
           <para lang="en">If this were not the case, there would be no naming, by 
           which each end could refer to all the others.</para>
+          <para lang="de">
+          	Wenn dies nicht der Fall wäre, würde es keine Bezeichnung geben, 
+          	über das jedes Ende alle anderen referenzieren kann.
+          </para>
 
           <para lang="en">This critic is triggered when an association does not 
           meet this criterion. The solution is to delete the 
           association, and recreate it on a diagram, whose namespace 
           includes those of all the attached classifiers.</para>
+          <para lang="de">
+          	Diese Kritik wird ausgelöst, wenn eine Assoziation nicht mit diesem 
+          	Kriterium übereinstimmt. Die Lösung ist, die Assoziation zu löschen 
+          	und im Diagramm neu zu erzeugen, sodass der Namensraum alle 
+          	zugewiesenen Klassifizierer enthält.
+          </para>
 
           <caution>
 
@@ -38042,6 +38914,14 @@ available at http://www.opencontent.org/openpub/.
             it will trigger for associations where the immediate 
             namespaces of the attached classifiers is different, even 
             though they are part of the same namespace hierarchy.</para>
+            <para lang="de">
+            	Diese Kritik kann in der aktuellen Implementierung von ArgoUML 
+            	keine hierarchischen Namensräume verarbeiten. Als Konsequenz 
+            	daraus, wird die Kritik für Assoziationen ausgelöst, bei denen 
+            	der sich unmittelbare Namensraum der zugewiesenen Klassifizierer 
+            	von dem der Assoziation unterscheidet, auch wenn sie Teil der 
+            	gleichen Namensraumhierarchie sind. 
+            </para>
 
           </caution>
 
@@ -38051,17 +38931,28 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add Elements to Package &lt;package&gt;</phrase>
-		</title>
+			<phrase lang="de">
+				Fügen Sie Elemente zum Paket &lt;Paket&gt; hinzu.
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the specified package has no content. 
           Good design suggests packages are created to put things 
           in.</para>
+          <para lang="de">
+          	Hinweis, dass das angegebene Paket keinen Inhalt hat. Gutes Desgin 
+          	weist Pakete auf, die erzeugt wurden, Dinge hinein zu tun.
+          </para>
 
           <note>
 
             <para lang="en">This will always trigger when you first create a 
             package, since you cannot create one that is not 
             empty!</para>
+            <para lang="de">
+            	Diese Kritik wird immer ausgelöst, wenn Sie erstmalig ein Paket 
+            	erzeugen, da Sie kein Paket erzeugen können, das nicht leer ist.
+            </para>
 
           </note>
 
@@ -38073,23 +38964,37 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Expected Usage</phrase>
+			<phrase lang="de">Erwartete Verwendung</phrase>
 		</title>
 
         <para lang="en">Critics concerning generally accepted good practice in 
         ArgoUML.</para>
+        <para lang="de">
+        	Kritiken, die sich auf eine generell akzeptierte, gute Praxis 
+        	beziehen.
+        </para>
 
         <para lang="en">The current version of ArgoUML has one critic in this 
         category.</para>
+        <para lang="de">
+        	Die aktuelle Version von ArgoUML hat eine Kritik in dieser 
+        	Kategorie.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Clean Up Diagram</phrase>
-		</title>
+			<phrase lang="de">Diagramm aufräumen</phrase>
+		  </title>
 
           <para lang="en">This critic is discussed under an earlier design issues 
           category (see <xref linkend="critics.CrNodesOverlap"/>
           ).</para>
+          <para lang="de">
+          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrNodesOverlap"/>).
+          </para>
 
         </sect2>
 
@@ -38099,22 +39004,35 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Methods</phrase>
+			<phrase lang="de">Methoden</phrase>
 		</title>
 
         <para lang="en">Critics concerning operations in ArgoUML.</para>
+        <para lang="de">Kritiken, die sich auf Operationen in ArgoUML beziehen.</para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
+        <para lang="de">
+        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	dieser Kategorie.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Change Names or Signatures in &lt;model element&gt;</phrase>
-		</title>
+			<phrase lang="de">
+				Ändere Namen oder Signaturen im &lt;Modellelement&gt;
+			</phrase>
+		  </title>
 
           <para lang="en">This critic is discussed under an earlier design issues 
           category (see <xref linkend="critics.CrOperNameConflict"/>
           ).</para>
+          <para lang="de">
+          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrOperNameConflict"/>).
+          </para>
 
         </sect2>
 
@@ -38122,10 +39040,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Class Must be Abstract</phrase>
-		</title>
+			<phrase lang="de">Die Klasse muß abstrakt sein</phrase>
+		  </title>
 
           <para lang="en">Suggestion that a class that inherits or defines 
           abstract operations must be marked abstract.</para>
+          <para lang="de">
+          	Hinweis, dass eine Klasse, die abstrakte Operationen erbt oder 
+          	definiert als abstrakte Klasse bezeichnet sein muß.
+          </para>
 
         </sect2>
 
@@ -38133,11 +39056,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add Operations to &lt;class&gt;</phrase>
-		</title>
+			<phrase lang="de">
+				Fügen Sie der &lt;Klasse&gt; Operationen hinzu
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the specified class has no operations 
           defined. This is required for the class to be useful in a 
           design.</para>
+          <para lang="de">
+          	Hinweis, dass in der angegebenen Klasse keine Operationen definiert 
+          	wurden. Dies ist für die Klasse aber erforderlich, damit sie im 
+          	Design einen Nutzen hat.
+          </para>
 
         </sect2>
 
@@ -38145,21 +39076,41 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Reduce Operations on &lt;model element&gt;</phrase>
-		</title>
+			<phrase lang="en">
+				Reduzieren Sie die Anzahl der Operationen im &lt;Modellelement&gt;
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the model element (class or interface) has 
           too many operations for a good design, and is at risk of 
           becoming a design bottleneck.</para>
+          <para lang="de">
+          	Hinweis; dass das Modellelement (Klasse oder Schnittstelle) zu viele 
+          	Operationen aufweist, um gutem Design zu entsprechen. Darüber hinaus 
+          	beinhaltet es das Risiko, zum Design-Wartungsengpaß zu werden.
+          </para>
           
           <para lang="en">The Wizard of this critic allows setting of the treshold, 
           i.e. the maximum number of operations 
           allowed before this critic fires.  </para>
+          <para lang="de">
+          	Der Assistent dieser Kritik erlaubt das Setzen eines Schwellwertes, 
+          	z.B. die maximale Anzahl von erlaubten Operationen bevor diese 
+          	Kritik ausgelöst wird.
+          </para>
 
           <caution>
             <para lang="en">This number is not stored persistently, and
             there is no way to reduce it after it has been set higher,
             except by creating more operations until the critic fires again.
             Restarting ArgoUML resets this number to its default: 20.
+            </para>
+            <para lang="de">
+            	Diese Anzahl wird nicht dauerhaft gespeichert. Es gibt keinen 
+            	Weg diese Anzahl zu reduzieren, nachdem sei einmal hochgesetzt 
+            	wurde. Außer, Sie erzeugen weitere Operationen bis diese 
+            	Kritik erneut ausgelöst wird. Der Neustart von ArgoUML setzt 
+            	diese Anzahl auf den Standardwert: 20 zurück. 
             </para>
           </caution>
 
@@ -38171,23 +39122,39 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Code Generation</phrase>
+			<phrase lang="de">Code-Generierung</phrase>
 		</title>
 
         <para lang="en">Critics concerning code generation in ArgoUML.</para>
+        <para lang="de">
+        	Kritiken, die sich auf die Code-Generierung in ArgoUML beziehen.
+        </para>
 
         <para lang="en">The current version of ArgoUML has one critic in this 
         category.</para>
+        <para lang="de">
+        	Die aktuelle Version von ArgoUML hat eine Kritik in dieser 
+        	Kategorie.
+        </para>
 
         <sect2 id="critics.CrMultipleInheritance">
 
           <title>
 			<phrase lang="en">Change Multiple Inheritance to interfaces</phrase>
-		</title>
+			<phrase lang="de">
+				Ändern Sie die Mehrfachvererbung in Schnittstellen
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that a class has multiple generalizations, 
           which is permitted by UML, but cannot be generated into Java 
           code, because Java does not support multiple 
           inheritance.</para>
+          <para lang="de">
+          	Hinweis, dass eine Klasse mehrere Vererbungen aufweist, was in UML 
+          	erlaubt ist, aber nicht in Java-Code umgesetzt werden kann, da Java 
+          	keine Mehrfachvererbung unterstützt.
+          </para>
 
         </sect2>
 
@@ -38197,12 +39164,18 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Stereotypes</phrase>
+			<phrase lang="de">Stereotypen</phrase>
 		</title>
 
         <para lang="en">Critics concerning stereotypes in ArgoUML.</para>
+        <para lang="de">Kritiken, die sich auf Stereotypen in ArgoUML beziehen.</para>
 
         <para lang="en">The current version of ArgoUML has no critics in this 
         category.</para>
+        <para lang="de">
+        	Die aktuelle Version von ArgoUML hat keine Kritiken in dieser 
+        	Kategorie.
+        </para>
 
       </sect1>
 
@@ -38210,41 +39183,70 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Inheritance</phrase>
+			<phrase lang="de">Vererbung</phrase>
 		</title>
 
         <para lang="en">Critics concerning generalization and specialization in 
         ArgoUML.</para>
+        <para lang="de">
+        	Kritiken, die sich mit der Generalisierung und Spezialisierung in 
+        	ArgoUML befassen.
+        </para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
+        <para lang="de">
+        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	dieser Kategorie.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Revise Attribute Names to Avoid Conflict</phrase>
-		</title>
+			<phrase lang="de">
+				Überprüfen Sie die Attributnamen, um einen Konflikt zu vermeiden.
+			</phrase>
+		  </title>
 
           <para lang="en">This critic is discussed under an earlier design issues 
           category (see <xref linkend="critics.CrAttrNameConflict"/>
           ).</para>
+          <para lang="de">
+          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrAttrNameConflict"/>).
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrCircularInheritance">
 
           <title>
-			<phrase lang="en">Remove &lt;class&gt;&apos;s Circular 
-          Inheritance</phrase>
+			<phrase lang="en">
+				Remove &lt;class&gt;&apos;s Circular Inheritance
+			</phrase>
+			<phrase lang="de">
+				Entfernen Sie die zirkuläre Vererbung der Klasse &lt;Klasse&gt;
+			</phrase>
 		</title>
 
           <para lang="en">Suggestion that a class inherits from itself, through a 
           chain of generalizations, which is not permitted.</para>
+          <para lang="de">
+          	Hinweis, dass eine Klasse über eine Kette von Vererbungen von sich 
+          	selbst erbt, was nicht erlaubt ist.
+          </para>
 
           <caution>
 
             <para lang="en">This critic is marked inactive by default in the 
             current release of ArgoUML (the only one so marked). It 
             will not trigger unless made active.</para>
+            <para lang="de">
+            	Diese Kritik ist in der aktuellen Release von ArgoUML 
+            	standardmäßig als inaktiv markiert (die einzige so markierte 
+            	Kritik). Sie wird nicht ausgelöst, bis sie aktiviert wird.
+            </para>
 
           </caution>
 
@@ -38254,11 +39256,16 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Class Must be Abstract</phrase>
-		</title>
+			<phrase lang="de">Die Klasse muß abstrakt sein</phrase>
+		  </title>
 
           <para lang="en">This critic is discussed under an earlier design issues 
           category (see <xref linkend="critics.CrClassMustBeAbstract"/>
           ).</para>
+          <para lang="de">
+          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrClassMustBeAbstract"/>).
+          </para>
 
         </sect2>
 
@@ -38266,10 +39273,18 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Remove final keyword or remove subclasses</phrase>
-		</title>
+			<phrase lang="de">
+				Entfernen Sie das Schlüsselwort final oder entfernen Sie 
+				Subklassen
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that a class that is final has 
           specializations, which is not permitted in UML.</para>
+          <para lang="de">
+          	Hinweis, das eine als final deklarierte Klasse Spezialisierungen 
+          	aufweist, was in UML nicht erlaubt ist. 
+          </para>
 
         </sect2>
 
@@ -38277,11 +39292,16 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Illegal Generalization</phrase>
-		</title>
+			<phrase lang="de">Illegale Generalisierung</phrase>
+		  </title>
 
           <para lang="en">Suggestion that there is a generalization between 
           model elements of different UML metaclasses, which is not 
           permitted.</para>
+          <para lang="de">
+          	Hinweis, dass es eine Generalisierung zwischen Modellelementen 
+          	unterschiedlicher UML-Metaklassen gibt, was nicht erlaubt ist.
+          </para>
 
           <caution>
 
@@ -38290,6 +39310,14 @@ available at http://www.opencontent.org/openpub/.
             diagram was created by loading a corrupt project, with an 
             XMI file describing such a generalization, possibly created 
             by a tool other than ArgoUML.</para>
+            <para lang="de">
+            	Es ist nicht klar, wie so eine Generalisierung in ArgoUML 
+            	erzeugt werden könnte. Wahrscheinlich zeigt sie auf, dass das 
+            	Diagramm durch Laden eines defekten Projektes, mit einer XMI-
+            	Datei erzeugt wurde, die so eine Generalisierung beschreibt.
+            	Wahrscheinlich wurde diese durch ein anderes Tool als ArgoUML 
+            	erzeugt.
+            </para>
 
           </caution>
 
@@ -38299,13 +39327,23 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Remove Unneeded Realizes from &lt;class&gt;</phrase>
-		</title>
+			<phrase lang="de">
+				Enferne unnötige Realisierungen aus der Klasse &lt;Klasse&gt;
+			</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the specified class has a realization 
           relationship both directly and indirectly to the same 
           interface (by realization from two interfaces, one of which 
           is a generalization of the other for example). Good design 
           deprecates such duplication.</para>
+          <para lang="de">
+          	Hinweis, das die angegebene Klasse eine realisierte, direkte und 
+          	indirekte Beziehung auf die gleiche Schnittstelle hat (durch 
+          	Realisierung von zwei Schnittstellen, eine davon ist die 
+          	Generalisierung der anderen, zum Beispiel). Ein gutes Design 
+          	vermeidet solche Duplizierungen. 
+          </para>
 
         </sect2>
 
@@ -38313,10 +39351,16 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Define Concrete (Sub)Class</phrase>
-		</title>
+			<phrase lang="de">Definiere eine konkrete (Sub-)Klasse</phrase>
+		  </title>
 
           <para lang="en">Suggestion that a class is abstract with no concrete 
           subclasses, and so can never be realized.</para>
+          <para lang="de">
+          	Hinweis, dass eine Klasse als abstrakt deklariert ist, und keine 
+          	konkrete Subklassen aufweist, so dass sie niemals realisiert 
+          	(erzeugt) werden kann.
+          </para>
 
         </sect2>
 
@@ -38324,11 +39368,20 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Define Class to Implement &lt;interface&gt;</phrase>
-		</title>
+			<phrase lang="de">
+				Definieren Sie eine Klasse, um die Schnittstelle 
+          		&lt;Schnittstelle&gt; zu implementieren
+          	</phrase>
+		  </title>
 
           <para lang="en">Suggestion that the interface referred to has no 
           influence on the running system, since it is never 
           implemented by a class.</para>
+          <para lang="de">
+          	Hinweis, dass die referenzierte Schnittstelle keine Auswirkung auf 
+          	das laufende System hat, da sie nicht durch eine Klasse 
+          	implementiert wurde.
+          </para>
 
         </sect2>
 
@@ -38336,11 +39389,18 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Change Multiple Inheritance to interfaces</phrase>
-		</title>
+			<phrase lang="de">
+				Ändere Mehrfachvererbung in Schnittstellen
+			</phrase>
+		  </title>
 
           <para lang="en">This critic is discussed under an earlier design issues 
           category (see <xref linkend="critics.CrMultipleInheritance"/>
           ).</para>
+          <para lang="de">
+          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrMultipleInheritance"/>).
+          </para>
 
         </sect2>
 
@@ -38348,11 +39408,16 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Make Edge More Visible</phrase>
-		</title>
+			<phrase lang="de">Machen Sie die Kante sichtbarer</phrase>
+		  </title>
 
           <para lang="en">This critic is discussed under an earlier design issues 
           category (see <xref linkend="critics.CrZeroLengthEdge"/>
           ).</para>
+          <para lang="de">
+          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrZeroLengthEdge"/>).
+          </para>
 
         </sect2>
 
@@ -38362,23 +39427,38 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Containment</phrase>
+			<phrase lang="de">Containment</phrase>
 		</title>
 
         <para lang="en">Critics concerning containment in ArgoUML, that is where 
         one model element forms a component part of another.</para>
+        <para lang="de">
+        	Kritiken, die sich auf das Containment in ArgoUML beziehen. D.h., 
+        	wo ein Modellelement den Komponententeil eines anderen bildet.
+        </para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
+        <para lang="de">
+        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	dieser Kategorie.
+        </para>
 
         <sect2 id="critics.CrCircularComposition">
 
           <title>
 			<phrase lang="en">Remove Circular Composition</phrase>
-		</title>
+			<phrase lang="de">Entferne zirkuläre Komposition</phrase>
+		  </title>
 
           <para lang="en">Suggestion that there is a series of composition 
           relationships (associations with black diamonds) that form a 
           cycle, which is not permitted.</para>
+          <para lang="de">
+          	Hinweis, das es eine Reihe von Kompositionen (Assoziationen mit 
+          	einem schwarzen Diamanten) gibt, die einen Zirkelbezug bilden, was 
+          	nicht erlaubt ist.
+          </para>
 
         </sect2>
 
@@ -38386,34 +39466,61 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Duplicate Parameter Name</phrase>
-		</title>
+			<phrase lang="de">Duplizieren Sie den Parameternamen</phrase>
+		  </title>
 
           <para lang="en">Suggestion that a parameter list to an operation or 
           event has two or more parameters with the same name, which is 
           not permitted.</para>
+          <para lang="de">
+          	Hinweis, dass eine Parameterliste einer Operation oder eines 
+          	Ereignisses zwei oder mehr Parameter mit dem gleichen Namen aufweist, 
+          	was nicht erlaubt ist.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrMultipleAgg">
 
           <title>
-			<phrase lang="en">Two Aggregate Ends (Roles) in Binary 
-          Association</phrase>
+			<phrase lang="en">
+				Two Aggregate Ends (Roles) in Binary Association
+			</phrase>
+			<phrase lang="de">
+				Zwei Aggregatenden (Rollen) in binärer Assoziation
+			</phrase>
 		</title>
 
           <para lang="en">Only one end (role) of a binary association can be 
           aggregate or composite. This a well-formedness rule of the 
           UML 1.4 standard.</para>
+          <para lang="de">
+          	Nur ein Ende (Rolle) einer binären Assoziation kann Aggregat oder 
+          	Komposition sein. Dies ist eine wohlgeformte Regel des UML 1.4-
+          	Standards.
+          </para>
 
           <para lang="en">Aggregation and composition are used to indicate 
           whole-part relationships, and by definition, the 
           <quote>part</quote> end cannot be aggregate.</para>
+          <para lang="de">
+          	Aggregation und Komposition werden verwendet, um Ganzes-Teil-
+          	Beziehungen darzustellen und der <quote>Teil</quote> kann per 
+          	Definition kein Aggregat(Zusammenfassung) sein.
+          </para>
 
           <para lang="en">To fix this, identify the <quote>part</quote> end of 
           the association, and use the critic wizard (the <literal>
           Next&gt;</literal> button, or manually set its aggregation to 
           <literal>none</literal> using the button&nbsp;2 pop-up menu or the 
           property sheet.</para>
+          <para lang="de">
+          	Um dies zu lösen, identifizieren Sie das <quote>Teil</quote>-Ende 
+          	der Assoziation und verwenden Sie im Kritikassistenten die 
+          	Schaltfläche <literal>Weiter &gt;</literal>, setzen seine 
+          	Aggregation manuell mit Hilfe des Taste&nbsp;2-Popup-Menüs oder des 
+          	Eigenschaftsregisters auf <literal>none</literal>.
+          </para>
 
           <para lang="en">Composition (more correctly called composite 
           aggregation) is used where there is a whole-part relationship 
@@ -38423,12 +39530,28 @@ available at http://www.opencontent.org/openpub/.
           and destroying instances of the associated part. This also 
           means that a class can only be a part in one composite 
           aggregation.</para>
+          <para lang="de">
+          	Eine Komposition (korrekter verbundene Aggregation genannt) wird 
+          	verwendet, wenn es eine Ganzes-Teil-Beziehung gibt, die eins-zu-eins 
+          	oder eins-zu-viele sind und die Lebensdauer des Teils unauflösbar 
+          	von der Lebensdauer des Ganzen abhängt. Instanzen des Ganzen sind 
+          	für das Erzeugen und Löschen der Instanzen der verknpften Teile 
+          	verantwortlich. Das bedeutet auch, dass eine Klasse nur Teil einer 
+          	verbundenen Aggregation sein kann.
+          </para>
 
           <para lang="en">An example of a composite aggregation might be a 
           database of cars and their wheels. This is a one-to-four 
           relationship, and the database entry for a wheel is 
           associated with its car. When the car ceases to exist in the 
           database, so do its wheels.</para>
+          <para lang="de">
+          	Ein Beispiel einer verbundenen Aggregation könnte eine Datenbank 
+          	von Autos mit deren Reifen sein. Dies ist eine eins-zu-vier-
+          	Beziehung und der Datenbankeintrag für einen Reifen ist mit seinem 
+          	Auto verknüpft. Wenn ein Auto in der Datenbank aufhört zu existieren, 
+          	dann trifft dies auch auf seine Reifen zu.
+          </para>
 
           <para lang="en">Aggregation (more correctly called shared aggregation) 
           is used where there is a whole-part relationship, that does 
@@ -38439,28 +39562,58 @@ available at http://www.opencontent.org/openpub/.
           relationship between students and course (a student continues 
           to exist even after a course is finished) and the 
           relationship is many-to-many.</para>
+          <para lang="de">
+          	Die Aggregation (korrekter aufgeteilte Aggregation genannt) wird 
+          	verwendet, wenn es eine Ganzes-Teil-Beziehung gibt, die nicht den 
+          	Kriterien für eine verbunden Aggregation übereinstimmt. Ein Beispiel 
+          	könnte eine Datenbank von Universitätskursen und den Studenten sein, 
+          	die diese belegen. Es gibt eine Ganzes-Teil-Beziehung zwischen den 
+          	Kursen und den Studenten. Jedoch gibt es keine Lebensdauerbeziehung 
+          	zwischen den Studenten und den Kursen (ein Student existiert weiter, 
+          	nachdem er den Kurs absolviert hat) und die Beziehung lautet 
+          	viele-zu-viele.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNWayAgg">
 
           <title>
-			<phrase lang="en">Aggregate End (Role) in 3-way (or More) 
-          Association</phrase>
+			<phrase lang="en">
+				Aggregate End (Role) in 3-way (or More) Association
+			</phrase>
+			<phrase lang="de">
+				Aggregatende (Rolle) in 3-Wege (oder mehr) Assoziation
+			</phrase>
 		</title>
 
           <para lang="en">Three-way (or more) associations can not have aggregate 
           ends (roles). This a well-formedness rule of the UML 1.4 
           standard.</para>
+          <para lang="de">
+          	Drei-Wege- (oder mehr) Assoziationen können keine Aggregatenden 
+          	(Rollen) haben. Dies ist eine wohlgeformte Regel des UML 1.4-
+          	Standards.
+          </para>
 
           <para lang="en">Aggregation and composition are used to indicate 
           whole-part relationships, and by definition can only apply to 
           binary associations between model elements.</para>
+          <para lang="de">
+          	Aggregation und Komposition werden verwendet, um Ganzes-Teile-
+          	Beziehungen darzustellen. Diese können per Definition nur auf 
+          	binäre Assoziationen zwischen Modellelementen angewendet werden.
+          </para>
 
           <para lang="en">To fix this, manually select the association, and set 
           the aggregation of each of its ends (roles) to <literal>
           none</literal> using the button&nbsp;2 pop-up menu or the property 
           sheet.</para>
+          <para lang="de">
+          	Um dies zu lösen, markieren Sie die Assoziation manuell und setzen 
+          	Sie jedes Ende (Rolle) dieser Aggregation mit Hilfe des Taste&nbsp;2-
+          	Popup-Menüs oder dem Eigenschaftsregister auf <literal>none</literal>.
+          </para>
 
         </sect2>
 
@@ -38468,11 +39621,16 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Wrap DataType</phrase>
-		</title>
+			<phrase lang="de">Verbergen Sie den Datentyp</phrase>
+		  </title>
 
           <para lang="en">This critic is discussed under an earlier design issues 
           category (see <xref linkend="critics.CrNonAggDataType"/>
           ).</para>
+          <para lang="de">
+          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrNonAggDataType"/>).
+          </para>
 
         </sect2>
 
@@ -38485,19 +39643,22 @@ available at http://www.opencontent.org/openpub/.
   <part>
 
     <title>
-			<phrase lang="en">Model Reference</phrase>
-		</title>
+		<phrase lang="en">Model Reference</phrase>
+		<phrase lang="de">Modellreferenz</phrase>
+	</title>
 
     <chapter id="ch.ref.entities">
 
       <title>
-			<phrase lang="en">Top Level Model Element Reference</phrase>
-		</title>
+		<phrase lang="en">Top Level Model Element Reference</phrase>
+		<phrase lang="de">Modellreferenz auf höchster Ebene</phrase>
+	  </title>
 
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en">This chapter describes each model element that can be created 
@@ -38506,12 +39667,27 @@ available at http://www.opencontent.org/openpub/.
         <xref linkend="ch.ref.entusecase"/> through 
         <xref linkend="ch.ref.entdeploy"/>) cover each of the ArgoUML 
         diagrams.</para>
+        <para lang="de">
+        	Dieses Kapitel beschreibt jedes Modellelement, dass innerhalb 
+        	von ArgoUML erzeugt werden kann. Das Kapitel deckt die <quote>
+        	generellen</quote> Modellelemente auf höchster Ebene ab. Die 
+        	folgenden Kapitel (siehe <xref linkend="ch.ref.entusecase"/> bis 
+        	<xref linkend="ch.ref.entdeploy"/>) decken jedes der ArgoUML-
+        	Diagramme ab.
+        </para>
 
         <para lang="en">There is a close relationship between this material and 
         the properties tab of the details pane (see 
         <xref linkend="s1.ref.proptab"/>). That section covers 
         properties in general, in this chapter they are linked to 
         specific model elements.</para>
+        <para lang="de">
+        	Es gibt eine enge Beziehung zwischen diesem Material und dem 
+        	Register Eigenschaften des Detailfensters (siehe 
+        	<xref linkend="s1.ref.proptab"/>). Dieser Abschnitt deckt die 
+        	Eigenschaften im Allgemeinen ab, in diesem Kapitel werden sie mit 
+        	den spezifischen Modellelementen verknüpft.
+        </para>
 
       </sect1>
 
@@ -38519,18 +39695,29 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">The Model</phrase>
+			<phrase lang="de">Das Modell</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Model, The</primary></indexterm>
+        <indexterm lang="de"><primary>Modell, Das</primary></indexterm>
         <para lang="en">The model is the top level model element within ArgoUML. In 
         the UML meta-model it is a sub-class of package. In many 
         respects within ArgoUML it behaves similarly to a package (see 
         <xref linkend="s1.ref.package"/>).</para>
+        <para lang="de">
+        	Das Modell ist in ArgoUML ein Modellelement auf höchster Ebene. Im 
+        	UML-Metamodell ist es eine Subklasse von package. In vielerlei 
+        	Hinsicht weist es innerhalb von ArgoUML Ähnlichkeiten mit einem 
+        	package auf (siehe <xref linkend="s1.ref.package"/>).
+        </para>
 
         <note>
 
           <para lang="en">ArgoUML is restricted to one model within the 
           tool.</para>
+          <para lang="de">
+          	ArgoUML ist auf ein Modell beschränkt.
+          </para>
 
         </note>
 
@@ -38539,28 +39726,43 @@ available at http://www.opencontent.org/openpub/.
         sub-packages of the model. These sub-packages are not initially 
         present in the model but are added to the model when 
         used.</para>
+        <para lang="de">
+        	Standard-Datentypen, Klassen und Pakete werden (der Standard, siehe 
+        	<xref linkend="ch.ref.entbuiltin"/>) als Sub-Pakete des Modells 
+        	geladen. Diese Subpakete sind im Modell zu Beginn nicht präsent, 
+        	werden aber zum Modell hinzugefügt, wenn sie verwendet werden. 
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Model Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Register Modelldetails</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Model Details Tabs</primary></indexterm>
+          <indexterm lang="de"><primary>Register Modelldetails</primary></indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Model</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Register</primary>
+          	<secondary>für Modelldetails</secondary>
+          </indexterm>
           <para lang="en">The details tabs that are active for the model are as 
           follows.</para>
+          <para lang="de">Folgende Detail-Register sind für das Modell aktiv.</para>
 
           <variablelist>
 
             <varlistentry>
 
               <term><literal>ToDoItem</literal></term>
+              <term><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -38568,7 +39770,8 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Properties</literal></term>
+              <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -38576,34 +39779,10 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.model_property_toolbar"/> and 
                 <xref linkend="s2.ref.model_property_fields"/> 
                 below.</para>
-
-              </listitem>
-
-            </varlistentry>
-
-            <varlistentry>
-
-              <term><literal>Documentation</literal></term>
-
-              <listitem>
-
-                <para lang="en">Standard tab. See 
-                <xref linkend="s2.ref.documentation_tab"/>.</para>
-
-              </listitem>
-
-            </varlistentry>
-
-            <varlistentry>
-
-              <term><literal>Stereotype</literal></term>
-
-              <listitem>
-
-                <para lang="en">Standard tab. 
-                This contains a a list of the stereotypes 
-                applied to this model, and a list of
-                available stereotypes that may be applied to the model.
+                <para lang="de">
+                	Siehe <xref linkend="s2.ref.model_property_toolbar"/> und 
+                	<xref linkend="s2.ref.model_property_fields"/> 
+                	unten.
                 </para>
 
               </listitem>
@@ -38612,13 +39791,57 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term><literal>Tagged Values</literal></term>
+              <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
+
+              <listitem>
+
+                <para lang="en">Standard tab. See 
+                <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">Standard-Register. Siehe 
+                <xref linkend="s2.ref.documentation_tab"/>.</para>
+
+              </listitem>
+
+            </varlistentry>
+
+            <varlistentry>
+
+              <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotypen</literal></term>
+
+              <listitem>
+
+                <para lang="en">Standard tab. 
+                This contains a a list of the stereotypes 
+                applied to this model, and a list of
+                available stereotypes that may be applied to the model.
+                </para>
+                <para lang="de">Standard-Register.
+	                Dies enthält eine Liste von Stereotypen, die diesem Modell 
+	                zugeordnet sind und eine Liste der verfügbaren 
+	                Stereotypen, die auf dieses Modell angewendet werden können. 
+                </para>
+
+              </listitem>
+
+            </varlistentry>
+
+            <varlistentry>
+
+              <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML meta-model, <literal>
                 Model</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell hat das <literal>
+                	Modell</literal> die folgenden Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -38626,15 +39849,28 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>derived</literal> (from the 
                     superclass, <literal>ModelElement</literal>).</para>
+                    <para lang="de"><literal>derived</literal> (von der Superklasse, 
+                    <literal>Modellelement</literal>).</para>
 
                     <para lang="en">Values <literal>true</literal>, meaning the 
                     class is redundant &mdash; it can be formally derived 
                     from other elements, or <literal>false</literal> 
                     meaning it cannot.</para>
+                    <para lang="de">
+                    	Werte <literal>true</literal>, bedeutet: die Klasse 
+                    	ist redundant &mdash; sie kann formal von anderen Elementen 
+                    	abgeleitet werden oder, <literal>false</literal> bedeutet: 
+                    	sie kann nicht von anderen Elementen abgeleitet werden.
+                    </para>
 
                     <para lang="en">Derived models have their value in analysis 
                     to introduce useful names or concepts, and in 
                     design to avoid re-computation.</para>
+                    <para lang="de">
+                    	Abgeleitete Modelle haben ihren Wert in der Analyse, um 
+                    	nützliche Namen oder Konzepte einzuführen und im Design, 
+                    	um eine Nachverarbeitung zu verhindern.
+                    </para>
 
                   </listitem>
 
@@ -38652,7 +39888,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Model Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Symbolleiste Modelleigenschaften</phrase>
+		 </title>
 
           <variablelist>
 
