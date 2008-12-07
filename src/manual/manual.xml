@@ -46456,9 +46456,20 @@ available at http://www.opencontent.org/openpub/.
         actor&apos;s involvement in the use case. The invocation of the 
         use case will involve some (significant) change perceived by 
         the actor.</para>
+        <para lang="de">
+        	Eine Assoziation in einem Anwendungsfalldiagramm repräsentiert eine 
+        	Beziehung zwischen einem Akteur und einem Anwendungsfall und zeigt, 
+        	wie der Akteur in diesen Anwendungsfall eingebunden ist. Der Aufruf 
+        	des Anwendungsfalles wird einige (signifikante) Änderungen zur Folge 
+        	haben, die der Akteur wahrnimmt.
+        </para>
 
         <para lang="en">Associations are described fully under class diagrams 
         (see <xref linkend="s1.ref.association_class"/>).</para>
+        <para lang="de">
+        	Assoziationen sind unter Klassendiagramme (siehe 
+        	<xref linkend="s1.ref.association_class"/>) vollständig beschrieben.
+        </para>
 
       </sect1>
 
@@ -46466,10 +46477,15 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Association End</phrase>
+			<phrase lang="de">Assoziationsenden</phrase>
 		</title>
 
         <para lang="en">Association ends are described under class diagrams (see 
         <xref linkend="s1.ref.association_end_class"/>).</para>
+        <para lang="de">
+        	Assoziationsenden sind unter Klassendiagramme (siehe
+        	<xref linkend="s1.ref.association_end_class"/>) beschrieben.
+        </para>
 
       </sect1>
 
@@ -46477,10 +46493,15 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Dependency</phrase>
+			<phrase lang="de">Abhängigkeit</phrase>
 		</title>
 
         <para lang="en">Dependencies are described under class diagrams (see 
         <xref linkend="s1.ref.dependency_class"/>).</para>
+        <para lang="de">
+        	Abhängigkeiten sind unter Klassendiagramme (siehe 
+        	<xref linkend="s1.ref.dependency_class"/>) beschrieben.
+        </para>
 
         <caution>
 
@@ -46488,6 +46509,12 @@ available at http://www.opencontent.org/openpub/.
           provided, because earlier versions of ArgoUML used it 
           (incorrectly) to implement include and extends 
           relationships.</para>
+          <para lang="de">
+          	Äbhängigkeiten haben in Anwendungsfalldiagrammen wenig Sinn. Sie 
+          	sind Notwendig, weil frühere Versionen von ArgoUML sie nutzten 
+          	(unkorrekterweise), um include- und extend-Beziehungen zu 
+          	implementieren.
+          </para>
 
         </caution>
 
@@ -46497,22 +46524,43 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Generalization</phrase>
+			<phrase lang="de">Generalisierung</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Generalization</primary></indexterm>
+        <indexterm lang="de">
+        	<primary>Generalisierung</primary>
+        </indexterm>
         <para lang="en">Generalization is a relationship between two use cases or 
         two actors. Where A is a generalization of B, it means A 
         describes more general behavior and B a more specific version 
         of that behavior.</para>
+        <para lang="de">
+        	Eine Generalisierung ist eine Beziehung zwischen zwei 
+        	Anwendungsfällen oder zwei Akteuren. Wenn A eine Generalisierung 
+        	von B ist, bedeutet das, dass A das generelle Verhalten beschreibt 
+        	und B eine speziellere Version dieses Verhaltens darstellt.
+        </para>
 
         <para lang="en">Examples for a travel agent sales system might be the use 
         case for making a booking as a generalization of the use case 
         for making a flight booking and a salesman actor being a 
         generalization of a supervisor actor (since supervisors can 
         also act as salesmen, but not vice versa).</para>
+        <para lang="de">
+        	Beispiele in einem Verkaufssystem für reisende Verkäufer könnte der 
+        	Anwendungsfall des Buchens als eine Generalisierung des 
+        	Anwendungsfalles Flugbuchung und ein Akteur Verkäufer eine 
+        	Generalisierung des Akteurs Kontrolleur (da Kontrolleure 
+        	auch als Verkäufer fungieren können, aber nicht umgekehrt)
+        </para>
 
         <para lang="en">Generalization is analogous to class inheritance within 
         OO programming.</para>
+        <para lang="de">
+        	Die Generalisierung ist die Analogie zur Klassenvererbung in der 
+        	OO-Programmierung.
+        </para>
 
         <note>
 
@@ -46521,40 +46569,70 @@ available at http://www.opencontent.org/openpub/.
           extends is about augmenting a use case&apos;s behavior at a 
           specific point. Generalization is about specializing the 
           behavior throughout the use case.</para>
+          <para lang="de">
+          	Es geht sehr schnell, eine <emphasis>extends</emphasis>-Beziehung 
+          	zwischen Anwendungsfällen mit einer Generalisierung zu verwechseln. 
+          	Jedoch extends erweitert das Verhalten eines Anwendungsfalles in 
+          	einem speziellen Punkt. Während eine Generalisierung das Verhalten 
+          	über den ganzen Anwendungsfall spezialisiert.
+          </para>
 
         </note>
 
         <para lang="en">Within the UML metamodel, <literal>
         Generalization</literal> is a sub-class of <literal>
         Relationship</literal>.</para>
+        <para lang="de">
+        	Innerhalb des UML-Metamodelles ist die <literal>Generalisierung
+        	</literal> eine Subklasse der <literal>Beziehung</literal>.
+        </para>
 
         <para lang="en">Generalization is represented as an arrow with white 
         filled head from the specialized use case or actor to the 
         generalized use case or actor (see 
         <xref linkend="fig.ref.use_case_diagram"/>).</para>
+        <para lang="de">
+        	Eine Generalisierung wird mit einem Pfeil, mit weiss ausgefüllter 
+        	Spitze vom spezialisierten Anwendungsfall oder Akteur zum 
+        	generalisierenden Anwendungsfall oder Akteur dargestellt (siehe
+	        <xref linkend="fig.ref.use_case_diagram"/>).
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Generalization Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Generalisierung</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Generalization Details 
           Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register Generalisierung</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Generalization</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register</primary>
+          	<secondary>für die Generalisierung</secondary>
+          </indexterm>
           <para lang="en">The details tabs that are active for associations are 
           as follows.</para>
+          <para lang="de">
+          	Die für Assoziationen aktiven Detail-Register sind die folgenden. 
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -46563,6 +46641,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -46571,6 +46650,13 @@ available at http://www.opencontent.org/openpub/.
                  and 
                 <xref linkend="s2.ref.generalization_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe 
+	                <xref linkend="s2.ref.generalization_property_toolbar"/>
+	                und 
+	                <xref linkend="s2.ref.generalization_property_fields"/> 
+	                folgende.
+	            </para>
 
               </listitem>
 
@@ -46579,11 +46665,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+                	Standard-Register. Siehe 
+                	<xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -46592,17 +46683,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
                 <note>
 
                   <para lang="en">The values in the "bounds" field 
                     of the generalization are not editable, 
                     since they are determined by 
-                    the properties of the endpoints of the line.</para>
+                    the properties of the endpoints of the line.
+                  </para>
+                  <para lang="de">
+                  	Die Werte im Feld "bounds" der Generalisierung kann nicht 
+                  	editiert werden, weil sie durch die Eigenschaften der 
+                  	Endpunkte der Linie bestimmt werden.
+                  </para>
 
                 </note>
 
@@ -46613,10 +46712,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. </para>
+                <para lang="de">Standard-Register. </para>
 
               </listitem>
 
@@ -46625,12 +46726,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Generalization</literal> has the following standard 
                 tagged values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für die 
+                	<literal>Generalisierung</literal> die folgenden Standard-
+                	Eigenschaftswerte definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -46642,6 +46749,14 @@ available at http://www.opencontent.org/openpub/.
                     generalization is redundant&mdash;it can be formally 
                     derived from other elements, or <literal>
                     false</literal> meaning it cannot.</para>
+                    <para lang="de">
+	                    <literal>derived</literal> (von der 
+	                    Superklasse <literal>ModellElement</literal>). 
+	                    Der Wert <literal>true</literal> bedeutet, dass die 
+	                    Generalisierung redundant ist&mdash;sie kann formal aus 
+	                    anderen Elementen abgeleitet werden, oder <literal>
+	                    false</literal> wenn sie es nicht kann.
+                    </para>
 
                     <note>
 
@@ -46649,6 +46764,12 @@ available at http://www.opencontent.org/openpub/.
                       value in analysis to introduce useful names or 
                       concepts, and in design to avoid 
                       re-computation.</para>
+                      <para lang="de">
+	                      Abgeleitete Generalisierungen haben Ihren Wert in der 
+	                      Analyse, um nützliche Namen oder Konzepte einzuführen 
+	                      und im Design, um eine wiederholte Berechnung zu 
+	                      verhindern.
+                      </para>
 
                     </note>
 
@@ -46668,7 +46789,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Generalization Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Generalisierung</phrase>
+		  </title>
 
           <variablelist>
 
@@ -46679,13 +46801,22 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure of the 
                 model. For a generalization this will be the package 
                 containing the generalization.</para>
-
+				<para lang="de">
+					Geht in der Paketstruktur des Modelles nach oben. Bei der 
+					Generalisierung ist dies das Paket, das die 
+					Generalisierung enthält. 
+				</para>
               </listitem>
 
             </varlistentry>
@@ -46697,17 +46828,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 generalization, navigating immediately to the 
                 properties tab for that generalization.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Generalisierung und springt sofort in das Register 
+                	Eigenschaften dieser Generalisierung.
+                </para>
 
               </listitem>
 
@@ -46720,11 +46872,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the selected generalization from the 
                 model.</para>
+                <para lang="de">
+                	Entfernt die markierte Generalisierung aus dem Modell.
+                </para>
 
                 <warning>
 
@@ -46733,6 +46893,14 @@ available at http://www.opencontent.org/openpub/.
                   a generalization from the diagram, but keep it within 
                   the model, use the main menu <literal>Remove From 
                   Diagram</literal> (or press the Delete key).</para>
+                  <para lang="de">
+                  	Die ist ein Entfernen aus dem Modell und <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Um eine Generalisierung 
+                  	aus einem Diagramm zu entfernen, aber diese im Modell zu 
+                  	erhalten, verwenden Sie das Hauptmenü <literal>Aus 
+                  	Diagramm entfernen</literal> (oder drücken Sie die Taste 
+                  	Entf).
+                  </para>
 
                 </warning>
 
@@ -46748,26 +46916,40 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Generalization</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder der Generalisierung</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Generalization 
                 Name</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name der Generalisierung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of 
                 Generalization</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>der Generalisierung</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the generalization.</para>
+                <para lang="en">Textfeld. Der Name der Generalisierung.</para>
 
                 <tip>
 
                   <para lang="en">It is quite common to leave generalizations 
                   unnamed in use case analysis.</para>
+                  <para lang="de">
+                  	In der Anwendungsfallanalyse wird die Generalisierung sehr 
+                  	häufig nicht benannt.
+                  </para>
 
                 </tip>
 
@@ -46775,6 +46957,9 @@ available at http://www.opencontent.org/openpub/.
 
                   <para lang="en">ArgoUML does not enforce any naming convention 
                   for associations.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt keine Namenskonvention für Assoziationen.
+                  </para>
 
                 </note>
 
@@ -46782,6 +46967,10 @@ available at http://www.opencontent.org/openpub/.
 
                   <para lang="en">There is no representation of the name of a 
                   generalization on the diagram.</para>
+                  <para lang="de">
+                  	Es gibt keine Darstellung des Namens einer Generalisierung 
+                  	im Diagramm.
+                  </para>
 
                 </note>
 
@@ -46792,18 +46981,32 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Discriminator</literal></term>
+              <term lang="en"><literal>Diskriminator</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Generalization 
                 Discriminator</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Diskriminator Generalisierung</primary>
+                </indexterm>
                 <indexterm lang="en">
                 <primary>Discriminator</primary><secondary>of 
                 Generalization</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Diskriminator</primary>
+                	<secondary>der Generalisierung</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of a discriminator for the 
                 specialization. UML&nbsp;1.4 allows grouping of 
                 specializations into a number of sets, on the basis of 
                 this value.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Diskriminators für die 
+                	Spezialisierung. UML&nbsp;1.4 erlaubt das Gruppieren von 
+                	Spezialisierungen in eine Anzahl von Gruppen auf Basis 
+                	dieses Wertes.
+                </para>
 
                 <tip>
 
@@ -46817,9 +47020,25 @@ available at http://www.opencontent.org/openpub/.
                   (which can be identified by one discriminator) and 
                   one indicating their function as a user (identified 
                   by a different discriminator).</para>
+                  <para lang="de">
+                  	Der leere String <quote /> ist ein gültiger Eintrag (und 
+                  	der Standard) für dieses Feld. Der Diskriminator ist nur im 
+                  	Falle einer Mehrfachvererbung von praktischem Nutzen. Ein 
+                  	(Klassendiagramm) Beispiel wird in 
+                  	<xref linkend="fig.discriminator_example"/> gezeigt. Hier 
+                  	soolte jeder Anwendertyp von zwei Anwenderarten erben. Eine, 
+                  	die zwischen localen und fernen Anwendern unterscheidet 
+                  	(die durch einen Diskriminator identifiziert werden können) 
+                  	und eine, welche die Funktion eines Anwenders angibt (durch 
+                  	einen anderen Diskriminator bezeichnet).
+                  </para>
 
                   <para lang="en">There is little point in using this within a 
                   use case diagram.</para>
+                  <para lang="de">
+                  	Dies ist ein kleiner Punkt, wie dies innerhalb eines 
+                  	Anwendungsfalldiagrammes genutzt werden kann.
+                  </para>
 
                 </tip>
 
@@ -46830,16 +47049,27 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Generalization 
                 Namespace</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namensraum Generalisierung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Namespace</primary><secondary>of 
                 Generalization</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namensraum</primary>
+                	<secondary>der Generalisierung</secondary></indexterm>
                 <para lang="en">Text box with navigation button. 
                 Records the namespace for the 
                 generalization. This is the package hierarchy.</para>
+                <para lang="de">
+                	Textfeld mit Navigationsschaltfläche. Gibt den Namensraum 
+                	der Generalisierung an. Dies ist die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -46848,18 +47078,33 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Parent</literal></term>
+              <term lang="de"><literal>Superklasse</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Generalization 
                 Parent</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Superklasse Generalisierung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Parent</primary><secondary>of 
                 Generalization</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Superklasse</primary>
+                	<secondary>der Generaliserung</secondary>
+                </indexterm>
                 <para lang="en">Text box. Shows the use case or actor that is the 
                 <emphasis>parent</emphasis> in this relationship, i.e. 
                 the more general end of the relationship. Button&nbsp;1 
                 Double Click on this entry will navigate to that use 
                 case or actor. </para>
+                <para lang="de">
+                	Textfeld. Zeigt den Anwendungsfall oder Akteur, der die 
+                	<emphasis>Superklasse</emphasis> dieser Beziehung darstellt. 
+                	Z.B. das generellere Ende der Beziehung. Ein Taste&nbsp;1-
+                	Doppelklick auf diesen Eintrag springt zu diesem 
+                	Anwendungsfall oder Akteur.
+                </para>
 
               </listitem>
 
@@ -46868,18 +47113,33 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Child</literal></term>
+              <term lang="de"><literal>Subklasse</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Generalization 
                 Child</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Subklasse Generalisierung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Child</primary><secondary>of 
                 Generalization</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Subklasse</primary>
+                	<secondary>der Generaliserung</secondary>
+                </indexterm>
                 <para lang="en">Text box. Shows the use case or actor that is the 
                 <emphasis>child</emphasis> in this relationship, i.e. 
                 the more specific end of the relationship. Button&nbsp;1 
                 Double Click on this entry will navigate to that use 
                 case or actor. </para>
+                <para lang="de">
+                	Textfeld. Zeigt den Anwendungsfall oder Akteur, der die 
+                	<emphasis>Subklasse</emphasis> dieser Beziehung darstellt. 
+                	Z.B. das spezifischere Ende der Beziehung. Ein Taste&nbsp;1-
+                	Doppelklick auf diesen Eintrag springt zu diesem 
+                	Anwendungsfall oder Akteur.
+                </para>
 
               </listitem>
 
@@ -46888,19 +47148,35 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Powertype</literal></term>
+              <term lang="de"><literal>Powertype</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Generalization 
                 Powertype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Powertype Generalisierung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Powertype</primary><secondary>of 
                 Generalization</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Powertype</primary>
+                	<secondary>der Generalisierung</secondary>
+                </indexterm>
                 <para lang="en">Drop down selector providing access to all 
                 standard UML types provided by ArgoUML and all new 
                 classes created within the current model.</para>
+                <para lang="de">
+                	Drop-Down-Auswahl mit Zugriff auf alle Standard-UML-Typen, 
+                	die durch ArgoUML unterstützt werden und allen neuen Klassen, 
+                	die innerhalb des aktuellen Modelles erzeugt wurden.
+                </para>
 
                 <para lang="en">This is the type of the child entity of the 
                 generalization.</para>
+                <para lang="de">
+                	Dies ist der Typ der Subklasse der Generalisierung.
+                </para>
 
                 <tip>
 
@@ -46908,6 +47184,12 @@ available at http://www.opencontent.org/openpub/.
                   only sensible value to put in would be the child use 
                   case type (as a classifier, this appears in the drop 
                   down list.</para>
+                  <para lang="de">
+                  	Dies kann in der Anwendungsfallanalyse ignoriert werden.
+                  	Der einzige, einzugebende sensible Wert würde der Typ des 
+                  	Subklassen-Anwendungsfalles sein (wie ein Klassifizierer, 
+                  	der in der Drop-Down-Auswahlliste erscheint).
+                  </para>
 
                 </tip>
 
@@ -46920,8 +47202,12 @@ available at http://www.opencontent.org/openpub/.
           <figure float="1" id="fig.discriminator_example">
 
             <title>
-			<phrase lang="en">Example use of a discriminator with 
-            generalization</phrase>
+				<phrase lang="en">
+					Example use of a discriminator with generalization
+            	</phrase>
+				<phrase lang="en">
+					Beispiel eines Diskrimintators mit Generalisierung
+            	</phrase>
 		</title>
 
             <screenshot><mediaobject><imageobject>
@@ -46938,6 +47224,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Extend</phrase>
+			<phrase lang="de">Extend</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Extend Relationship</primary></indexterm>
