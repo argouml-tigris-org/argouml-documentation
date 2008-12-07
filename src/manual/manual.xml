@@ -45712,9 +45712,17 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="en">Text box. Lists any association ends (see 
                 <xref linkend="s1.ref.association_class"/>) of 
                 associations connected to this use case.</para>
-
+				<para lang="de">
+					Textfeld. Listet alle Assoziationsenden (siehe 
+					<xref linkend="s1.ref.association_class"/>) der mit diesem 
+					Anwendungsfall verbundenen Assoziationen auf.
+				</para>
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick springt zu dem ausgewählten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -45723,7 +45731,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Operations</literal></term>
-
+			  <term lang="de"><literal>Operationen</literal></term>
               <listitem>
 
                 <para lang="en">Text area. Lists all the operations (see 
@@ -45731,7 +45739,14 @@ available at http://www.opencontent.org/openpub/.
                 use case. Button&nbsp;1 click navigates to the selected 
                 operation. Button&nbsp;2 gives a pop up menu with two 
                 entries, which allow reordering the operations.</para>
-
+				<para lang="de">
+					Textbereich. Listet alle Operationen auf (siehe 
+					<xref linkend="s1.ref.operation"/>), die für diesen 
+					Anwendungsfall definiert wurden. Ein Taste&nbsp;1-Klick 
+					springt zu der ausgewählten Operation. Taste&nbsp;2 öffnet 
+					ein Popup-Menü mit zwei Einträgen, die es erlauben die 
+					Reihenfolge der Operationen zu ändern.
+				</para>
                 <itemizedlist>
 
                   <listitem>
@@ -45740,7 +45755,13 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more operations listed, and 
                     the operation selected is not at the top. It moves 
                     the operation up one position.</para>
-
+					<para lang="de">
+						<literal>Nach oben</literal>. Nur verfügbar, wenn zwei 
+						oder mehr Operationen aufgelistet sind und die markierte 
+						Operation sich nicht ganz oben befindet. Es bewegt die 
+						Operation um einen Schritt nach oben.
+					</para>
+					
                   </listitem>
 
                   <listitem>
@@ -45749,6 +45770,12 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more operations listed, and 
                     the operation selected is not at the bottom. It 
                     moves the operation down one position.</para>
+					<para lang="de">
+						<literal>Nach unten</literal>. Nur verfügbar, wenn zwei 
+						oder mehr Operationen aufgelistet sind und die markierte 
+						Operation sich nicht ganz unten befindet. Es bewegt die 
+						Operation um einen Schritt nach unten.
+					</para>
 
                   </listitem>
 
@@ -45762,29 +45789,50 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Extension Points</literal></term>
-
+			  <term lang="de"><literal>Erweiterungspunkte</literal></term>
               <listitem>
 
                 <indexterm lang="en"><primary>Use Case Extension 
                 Points</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erweiterungspunkte Anwendungsfall</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Extension 
                 Point</primary><secondary>of Use 
                 Case</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erweiterungspunkt</primary>
+                	<secondary>eines Anwendungsfalles</secondary>
+                </indexterm>
                 <para lang="en">Text box. If this use case is, or can be 
                 extended, this field lists the extension points for the 
                 use case.</para>
+                <para lang="de">
+                	Textfeld. Wenn dieser Anwendungsfall erweitert ist oder 
+                	erweitert werden kann, listet dieses Feld alle 
+                	Erweiterungspunkte dieses Anwendungsfalles auf.
+                </para>
 
                 <note>
 
                   <para lang="en">Extension points are listed by their location 
                   point rather than their name.</para>
-
+				  <para lang="de">
+				  	Erweiterungspunkte werden nicht anhand ihrer Namen sondern 
+				  	anhand des Erstellungsortes gelistet.
+				  </para>
                 </note>
 
                 <para lang="en">Where an extension point has been created (see 
                 below), button&nbsp;1 Double Click will navigate to that 
                 relationship. Button&nbsp;2 gives a pop up menu with
                 the following entries.</para>
+                <para lang="de">
+                	An der Stelle, wo ein Erweiterungspunkt erstellt wurde 
+                	(siehe unten) wird ein Taste&nbsp;1-Doppelklick zu dieser 
+                	Beziehung springen. Taste&nbsp;2 öffnet ein Popup-Menü mit 
+                	den folgenden Einträgen.
+                </para>
 
                 <itemizedlist>
 
@@ -45793,7 +45841,12 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>New</literal>. Add a new extension 
                     point and navigate to it, making this use case the 
                     owning use case of the extension point.</para>
-
+					<para lang="de">
+						<literal>Neu</literal>. Fügt einen neuen 
+						Erweiterungspunkt hinzu und springt dort hin. Er 
+						macht diesen Anwendungsfall zum Eigentümer-Anwendungsfall 
+						dieses Erweiterungspunktes.
+					</para>
                   </listitem>
 
                   <listitem>
@@ -45802,6 +45855,13 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more extension points listed, and 
                     the extension point selected is not at the top. It moves 
                     the extension point up one position.</para>
+                    <para lang="de">
+                    	<literal>Nach oben</literal>. Nur verfügbar, wenn 
+                    	zwei oder mehr Erweiterungspunkte aufgelistet sind und 
+                    	der sich der ausgewählte Erweiterungspunkt nicht ganz 
+                    	oben befindet. Er bewegt den Erweiterungspunkt um eine 
+                    	Position nach oben.
+                    </para>
 
                   </listitem>
 
@@ -45811,6 +45871,13 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more extension points listed, and 
                     the extension point selected is not at the bottom. It 
                     moves the extension point down one position.</para>
+                    <para lang="de">
+                    	<literal>Nach unten</literal>. Nur verfügbar, wenn 
+                    	zwei oder mehr Erweiterungspunkte aufgelistet sind und 
+                    	der sich der ausgewählte Erweiterungspunkt nicht ganz 
+                    	unten befindet. Er bewegt den Erweiterungspunkt um eine 
+                    	Position nach unten.
+                    </para>
 
                   </listitem>
 
@@ -45830,16 +45897,32 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Extension Point</phrase>
+			<phrase lang="de">Erweiterungspunkt</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Extension Point</primary></indexterm>
+        <indexterm lang="de">
+        	<primary>Erweiterungspunkt</primary>
+        </indexterm>
         <para lang="en">An extension point describes a point in a use case where 
         an extending use case may provide additional behavior.</para>
+        <para lang="de">
+        	Ein Erweiterungspunkt beschreibt einen Punkt in einem Anwendungsfall, 
+        	bei dem ein erweiternder Anwendungsfall zusätzliches Verhalten 
+        	enthalten kann.
+        </para>
 
         <para lang="en">Examples for a travel agent sales system might be the use 
         case for paying for a ticket, which has an extension point in 
         the specification of the payment. Extending use cases may then 
         extend at this point to pay by cash, credit card etc.</para>
+        <para lang="de">
+        	Beispiele in einem Verkaufssystem für Vertriebler könnte der 
+        	Anwendungsfall für das Bezahlen eines Tickets sein, das einen 
+        	Erweiterungspunkt für die Art der Bezahlung aufweist. Erweiternde 
+        	Anwendungsfälle können diese Punkt durch die Bezahlung per 
+        	Barzahlung, Kreditkarte usw. erweitern.
+        </para>
 
         <para lang="en">Within the UML metamodel, <literal>Extension 
         Point</literal> is a sub-class of <literal>
@@ -45847,11 +45930,22 @@ available at http://www.opencontent.org/openpub/.
         point compartment (see <xref linkend="s1.ref.use_case"/> for 
         details), in which extension points are shown with the 
         following syntax.</para>
+        <para lang="de">
+        	Innerhalb des UML-Metamodelles ist der <literal>Erweiterungspunkt
+        	</literal> eine Subklasse des <literal>Modellelementes</literal>. 
+        	Ein Anwendungsfall kann einen Erweiterungspunktbereich anzeigen 
+        	(Details, siehe <xref linkend="s1.ref.use_case"/>), in dem die 
+        	Erweiterungspunkte in der folgenden Syntax dargestellt werden. 
+        </para>
 
         <blockquote>
 
           <para lang="en"><emphasis>name</emphasis>
           <literal>:</literal><emphasis>location</emphasis>.</para>
+          <para lang="de">
+          	<emphasis>Name</emphasis><literal>:</literal><emphasis>Ort
+          	</emphasis>.
+          </para>
 
         </blockquote>
 
@@ -45859,25 +45953,36 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Extension Point Details Tabs</phrase>
+			<phrase lang="de">Detail-Register Erweiterungpunkt</phrase>
 		</title>
 
           <indexterm lang="en"><primary>Extension Point Details 
           Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register Erweiterungspunkt</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Extension Point</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register</primary>
+          	<secondary>für einen Erweiterungspunkt</secondary>
+          </indexterm>
           <para lang="en">The details tabs that are active for extension points 
           are as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Erweiterungspunkte sind folgende.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
-
+			  <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
               <listitem>
 
                 <para lang="en">Standard tab.</para>
-
+				<para lang="de">Standard-Register.</para>
               </listitem>
 
             </varlistentry>
@@ -45885,14 +45990,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
-
+			  <term lang="de"><literal>Eigenschaften</literal></term>
               <listitem>
 
-                <para lang="en">See 
-                <xref linkend="s2.ref.extension_point_property_toolbar"/>
-                 and 
-                <xref linkend="s2.ref.extension_point_property_fields"/>
-                 below.</para>
+                <para lang="en">
+	                See 
+	                <xref linkend="s2.ref.extension_point_property_toolbar"/>
+	                 and 
+	                <xref linkend="s2.ref.extension_point_property_fields"/>
+	                 below.
+	            </para>
+                <para lang="de">
+	                Siehe 
+	                <xref linkend="s2.ref.extension_point_property_toolbar"/>
+	                 und 
+	                <xref linkend="s2.ref.extension_point_property_fields"/>
+	                 unten.
+	            </para>
 
               </listitem>
 
@@ -45901,11 +46015,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
-
+			  <term lang="de"><literal>Dokumentation</literal></term>
               <listitem>
 
-                <para lang="en">Standard tab. See 
-                <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="en">
+                	Standard tab. See 
+                	<xref linkend="s2.ref.documentation_tab"/>.
+                </para>
+                <para lang="de">
+                	Standard-Register. Siehe 
+                	<xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -45914,13 +46034,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
-
+			  <term lang="de"><literal>Stereotyp</literal></term>
               <listitem>
 
                 <para lang="en">Standard tab. </para>
+                <para lang="de">Standard-Register. </para>
 
                 <para lang="en">Extensionpoints do not have 
                 any stereotypes defined by default.</para>
+                <para lang="de">
+                	Erweiterungspunkte haben standardmäßig keinen definierten 
+                	Stereotypen.
+                </para>
 
               </listitem>
 
@@ -45929,12 +46054,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
-
+			  <term lang="de"><literal>Eigenschaftswerte</literal></term>
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 ExtensionPoint</literal> has the following standard 
                 tagged values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für die <literal>
+                	Erweiterungspunkte</literal> die folgenden Standard-
+                	Eigenschaftswerte definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -45946,12 +46076,23 @@ available at http://www.opencontent.org/openpub/.
                     extension point is redundant&mdash;it can be formally 
                     derived from other elements, or <literal>
                     false</literal> meaning it cannot.</para>
+                    <para lang="de">
+	                    <literal>derived</literal> (von der Superklasse 
+	                    <literal>ModellElement</literal>). 
+	                    Der Wert <literal>true</literal> bedeutet, dass der 
+	                    Erweiterungspunkt redundant ist&mdash; er kann formal 
+	                    von anderen Elementen abgeleitet werden, oder <literal>
+	                    false</literal> bedeutet, er kann es nicht.
+                    </para>
 
                     <note>
 
                       <para lang="en">It is not clear how derived extension 
                       points could have any value in analysis.</para>
-
+					  <para lang="de">
+					  	Es ist nicht klar, wie abgeleitete Erweiterungspunkte 
+					  	einen Wert in der Analyse aufweisen können.
+					  </para>
                     </note>
 
                   </listitem>
@@ -45970,7 +46111,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Extension Point Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Erweiterungspunkt</phrase>
+		  </title>
 
           <variablelist>
 
@@ -45981,11 +46123,20 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up to the use case which owns this 
                 extension point.</para>
+                <para lang="de">
+                	Springt nach oben zu dem Anwendungsfall, der Eigentümer 
+                	dieses Erweiterungspunktes ist.
+                </para>
 
               </listitem>
 
@@ -45998,20 +46149,40 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/extension_point.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Extension Point</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/extension_point.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Erweiterungspunkt</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Extension 
                 Point</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erweiterungspunkt hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Extension 
                 Point</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Erweiterungspunkt</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Extension 
                 Point</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Erweiterungspunkt</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Extension Point below the 
                 selected extension point, navigating immediately to the 
                 properties tab of the newly created extension 
                 point.</para>
+                <para lang="de">
+                	Erzeugt unterhalb des markierten Erweiterungspunktes einen 
+                	neuen Erweiterungspunkt und springt sofort in das Register 
+                	Eigenschaften des neue erzeugten Erweiterungspunktes.
+                </para>
 
               </listitem>
 
@@ -46024,17 +46195,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Sterotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 extension point, navigating immediately to the 
                 properties tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt für den markierten Erweiterungspunkt einen neuen 
+                	Stereotyp (siehe <xref linkend="s1.ref.stereotype"/>) und 
+                	springt sofort in das Register Eigenschaften dieses 
+                	Stereotypen.
+                </para>
 
               </listitem>
 
@@ -46047,11 +46239,20 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the selected extension point from 
                 the model.</para>
+                <para lang="de">
+                	Entfernt den markierten Erweiterungspunkt aus 
+                	dem Modell.
+                </para>
 
               </listitem>
 
@@ -46065,21 +46266,33 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Extension Point</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder des Erweiterungspunktes</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Extension Point 
                 Name</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name Erweiterungspunkt</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of 
                 Extension Point</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>des Erweiterungspunktes</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the extension point.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Erweiterungspunktes.
+                </para>
 
                 <tip>
 
@@ -46087,6 +46300,12 @@ available at http://www.opencontent.org/openpub/.
                   unnamed in use case analysis, since they are always 
                   listed (within use cases and extend relationships) by 
                   their location.</para>
+                  <para lang="de">
+                  	Sehr häufig werden die Erweiterungspunkte während der 
+                  	Anwendungsfallanalyse unbenannt gelassen, weil sie immer 
+                  	anhand ihrer Erstellungsorte (innerhalb des Anwendungsfalles 
+                  	und der erweiterten Beziehung) aufgelistet werden. 
+                  </para>
 
                 </tip>
 
@@ -46094,6 +46313,10 @@ available at http://www.opencontent.org/openpub/.
 
                   <para lang="en">ArgoUML does not enforce any naming convention 
                   for extension points.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt keine Namenskonvention für 
+                  	Erweiterungspunkte.
+                  </para>
 
                 </note>
 
@@ -46104,15 +46327,28 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Location</literal></term>
+              <term lang="de"><literal>Ort</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Extension Point 
                 Location</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Ort Erweiterungspunkt</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Location</primary><secondary>of 
                 Extension Point</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Ort</primary>
+                	<secondary>des Erweiterungspunktes</secondary>
+                </indexterm>
                 <para lang="en">Text box. A description of the location of this 
                 extension point within the owning use case.</para>
+                <para lang="de">
+                	Textfeld. Eine Beschreibung des Erstellungsortes dieses 
+                	Erweiterungspunktes innerhalb des 
+                	Eigentümer-Anwendungsfalles.
+                </para>
 
                 <tip>
 
@@ -46120,6 +46356,12 @@ available at http://www.opencontent.org/openpub/.
                   cases and extend relationships) by their location. 
                   Typically this will be the number/name of the 
                   paragraph in the specification.</para>
+                  <para lang="de">
+                  	Erweiterungspunkte werden immer anhand ihres Erstellungsortes 
+                  	(innerhalb des Anwendungsfalles und der erweiterten 
+                  	Beziehungen) aufgelistet. Typischerweise wird die Nummer/
+                  	der Name des Absatzes in der Spezifikation sein. 
+                  </para>
 
                 </tip>
 
@@ -46130,17 +46372,30 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Base Use Case</literal></term>
+              <term lang="de"><literal>Basis-Anwendungsfall</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Extension Point Base Use 
                 Case</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Basis-Anwendungsfall Erweiterungspunkt</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Base Use 
                 Case</primary><secondary>of Extension 
                 Point</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Basis-Anwendungsfall</primary>
+                	<secondary>des Erweiterungspunktes</secondary>
+                </indexterm>
                 <para lang="en">Text box. Shows the base use case within which 
                 this extension point is defined. Button&nbsp;1 Double Click 
                 will navigate to the use case.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Basis-Anwendungsfall in dem der 
+                	Anwendungsfall definiert wurde. Ein Taste&nbsp;1-Doppelklick 
+                	springt zu dem Anwendungsfall.
+                </para>
 
               </listitem>
 
@@ -46149,19 +46404,35 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Extend</literal></term>
+              <term lang="de"><literal>Extend</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Extension Point Extending Use 
                 Cases</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erweiterungspunkt erweitert Anwendungsfälle</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Extending Use 
                 Cases</primary><secondary>of Extension 
                 Point</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erweiternde Anwendungsfälle</primary>
+                	<secondary>eines Erweiterungspunktes</secondary>
+                </indexterm>
                 <para lang="en">Text box. Lists all use cases which extend the 
                 base use case through this extension point.</para>
+                <para lang="de">
+                	Textfeld. Listet alle Anwendungsfälle auf, die den Basis-
+                	Anwendungsfall über diesen Erweiterungspunkt erweitern.
+                </para>
 
                 <para lang="en">Where an extending use case exists, button&nbsp;1 
                 double click will navigate to that relationship.</para>
+                <para lang="de">
+                	Dort, wo ein Erweiterungspunkte existiert, wird ein 
+                	Taste&nbsp;1-Doppelklick zu der Beziehung springen.
+                </para>
 
               </listitem>
 
@@ -46177,6 +46448,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Association</phrase>
+			<phrase lang="de">Assoziation</phrase>
 		</title>
 
         <para lang="en">An association on a use case diagram represents a 
