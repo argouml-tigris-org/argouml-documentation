@@ -47228,11 +47228,18 @@ available at http://www.opencontent.org/openpub/.
 		</title>
 
         <indexterm lang="en"><primary>Extend Relationship</primary></indexterm>
+        <indexterm lang="de"><primary>Extend-Beziehung</primary></indexterm>
         <para lang="en">Extend is a relationship between two use cases. Where A 
         extends B, it means A describes some additional behavior 
         that is executed conditionally (under exceptional circumstances)
         at some point
         during the normal behavior of B.
+        </para>
+        <para lang="de">
+        	Extend ist eine Beziehung zwischen zwei Anwendungsfällen. Wenn A 
+        	B erweitert, bedeutet das, dass A zusätzliches Verhalten beschreibt, 
+        	das bedingungsabhängig (unter bestimmten Umständen) irgendwann 
+        	während des normalen Ablaufes von B ausgeführt wird.  
         </para>
 
         <para lang="en">In some respects extend is like generalization. However 
@@ -47242,42 +47249,92 @@ available at http://www.opencontent.org/openpub/.
         places where its behavior may be extended. The extending use 
         case must define at which of these extension points it adds 
         behavior.</para>
+        <para lang="de">
+        	In gewisser Hinsicht ist Extend der Generalisierung ähnlich. Der 
+        	Hauptunterschied ist jedoch, dass die erweiterten Anwendungsfälle 
+        	<emphasis>Erweiterungspunkte</emphasis> definieren (siehe 
+        	<xref linkend="s1.ref.extension_point"/>), welches die einzigen 
+        	Stellen sind an denen sein Verhalten erweitert werden darf. Der 
+        	erweiterte Anwendungsfall muss definieren, an welchem dieser 
+        	Erweiterungspunkte er das Verhalten hinzufügt.
+        </para>
 
         <para lang="en">This makes the use of extend more tightly controlled than 
         general extension, and it is thus preferred wherever 
         possible.</para>
+        <para lang="de">
+        	Dadurch ist die Verwendung von Extend strenger kontrolliert als die 
+        	allgemeine Erweiterung. Sie wird daher bevorzugt, wo immer dies 
+        	möglich ist.
+        </para>
 
         <para lang="en">Examples for a travel agent sales system might be the use 
         case for paying for a ticket, which has an extension point in 
         the specification of the payment. Extending use cases may then 
         extend at this point to pay by cash, credit card etc.</para>
+        <para lang="de">
+        	Beispiele in einem Verkaufssystem für reisende Vertriebsmitarbeiter 
+        	könnten die Anwendungsfälle für das Bezahlen eines Tickets sein, 
+        	das einen Erweiterungspunkt in der in der Spezifikation des 
+        	Bezahlvorganges hat. Erweiternde Anwendungsfälle können diese an 
+        	diesem Punkt erweitern (extend), um mit Bargeld, Kreditkarte usw. 
+        	zu bezahlen.
+        </para>
 
         <para lang="en">Within the UML metamodel, <literal>Extend</literal> is a 
         sub-class of <literal>Relationship</literal>.</para>
+        <para lang="de">
+        	Innerhalb des UML-Metamodelles ist <literal>Extend</literal> eine 
+        	Subklasse von <literal>Relationship (Beziehung)</literal>.
+        </para>
 
         <para lang="en">An extend relationship is represented as a dotted link 
         with an open arrow head and a label <literal>
         &laquo;extend&raquo;</literal>. If a condition is defined, it is shown 
         under the <literal>&laquo;extend&raquo;</literal> label (see 
         <xref linkend="fig.ref.use_case_diagram"/>).</para>
+        <para lang="de">
+        	Eine Extend-Beziehung wird als gepunktete Verbindung mit einer 
+        	nicht ausgefüllten Pfeilspitze und der Bezeichnung <literal>
+        	&laquo;extend&raquo;</literal> dargestellt. Wenn eine Bedingung 
+        	definiert wurde, wird diese unter der Bezeichnung <literal>
+        	&laquo;extend&raquo;</literal> angezeigt (siehe 
+        	<xref linkend="fig.ref.use_case_diagram"/>).
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Extend Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Extend</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Extend Relationship Details 
           Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register Extend-Beziehung</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Extend Relationship</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register</primary>
+          	<secondary>einer Extend-Beziehung</secondary>
+          </indexterm>
           <para lang="en">The details tabs that are active for extend 
           relationships are as follows.</para>
+          <para lang="de">
+          	Die Detail-Register, die bei einer Extend-Beziehung aktiv sind, sind 
+          	folgende.
+          </para>
 
           <note>
 
             <para lang="en">There is no source tab, since there is no source code 
             that could be generated for an extend relationship.</para>
+            <para lang="de">
+            	Es gibt kein Register Quellcode, da es keinen Quellcode gibt, 
+            	der für eine Extend-Beziehung generiert werden könnte.
+            </para>
 
           </note>
 
@@ -47286,10 +47343,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -47298,6 +47357,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -47305,6 +47365,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.extend_property_toolbar"/> and 
                 <xref linkend="s2.ref.extend_property_fields"/> 
                 below.</para>
+                <para lang="de">
+                	Siehe 
+                	<xref linkend="s2.ref.extend_property_toolbar"/> und 
+                	<xref linkend="s2.ref.extend_property_fields"/> 
+                	unten.
+                </para>
 
               </listitem>
 
@@ -47313,11 +47379,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+                	Standard-Register. Siehe 
+                	<xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -47326,10 +47397,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab</para>
+                <para lang="de">Standard-Register</para>
 
                 <note>
 
@@ -47337,6 +47410,11 @@ available at http://www.opencontent.org/openpub/.
                     The values in the "bounds" field of the extend
                     are not editable, since they are determined 
                     by the properties of the endpoints of the line.
+                  </para>
+                  <para lang="de">
+                  	Die Werte im "bounds"-Feld von Extend ist nicht editierbar, 
+                  	weil sie durch die Eigenschaften der Endpunkte dieser 
+                  	Linie bestimmt werden.
                   </para>
 
                 </note>
@@ -47348,10 +47426,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. </para>
+                <para lang="de">Standard-Register. </para>
 
               </listitem>
 
@@ -47360,12 +47440,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Extend</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Extend</literal> die folgenden Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -47377,12 +47463,25 @@ available at http://www.opencontent.org/openpub/.
                     relationship is redundant&mdash;it can be formally 
                     derived from other elements, or <literal>
                     false</literal> meaning it cannot.</para>
+                    <para lang="de">
+                    	<literal>derived</literal> (von der  
+                    	Superklasse, <literal>ModelElement</literal>). 
+                    	Der Wert <literal>true</literal> bedeutet, dass die 
+                    	Extend-Beziehung redundant ist&mdash; sie kann formal 
+                    	von anderen Elementen abgeleitet werden, oder <literal>
+                    	false</literal>, wenn sie nicht abgeleitet werden kann.
+                    </para>
 
                     <note>
 
                       <para lang="en">Derived extend relationships could have 
                       their value in analysis to introduce useful names 
                       or concepts.</para>
+                      <para lang="de">
+                      	Abgeleitete Extend-Beziehungen können ihren Wert in der 
+                      	Analyse haben, um nützliche Namen oder Konzepte 
+                      	einzuführen.
+                      </para>
 
                     </note>
 
@@ -47402,7 +47501,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Extend Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Extend Eigenschaftssymbolleiste</phrase>
+		  </title>
 
           <variablelist>
 
@@ -47413,12 +47513,22 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure of the 
                 model. For a extend this will be the package containing 
                 the extend.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur des Modelles nach oben. Bei 
+                	Extend ist dies das Paket, in dem sich die Erweiterung 
+                	befindet.
+                </para>
 
               </listitem>
 
@@ -47431,20 +47541,40 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/extension_point.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New extension point</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/extension_point.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Erweiterungspunkt</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Extend 
                 Relationship</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Extend-Beziehung hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Extend 
                 Relationship</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neue Extend-Beziehung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Extend 
                 Relationship</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neue</primary>
+                	<secondary>Extend-Beziehung</secondary>
+                </indexterm>
                 <para lang="en">This creates a new use case extension point 
                 within the namespace of the current extend 
                 relationship, with the current extend relationship as 
                 its first extending relationship.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Anwendungsfall-Erweiterungspunkt im 
+                	Namensraum der aktuellen Extend-Beziehung, mit der aktuellen 
+                	Extend-Beziehung als dessen erste erweiternde Beziehung.
+                </para>
 
                 <tip>
 
@@ -47452,12 +47582,25 @@ available at http://www.opencontent.org/openpub/.
                   points from an extend relationship, the created 
                   extension point will have no associated use case (it 
                   can subsequently be set up).</para>
+                  <para lang="de">
+                  	Es ist zwar völlig in Ordnung, einen Erweiterungspunkt von 
+                  	einer Extend-Beziehung aus zu erzeugen. Der erzeugte 
+                  	Erweiterungspunkt wird aber keinen mit ihm verknüpften 
+                  	Anwendungsfall aufweisen (er kann später eingerichtet 
+                  	werden). 
+                  </para>
 
                   <para lang="en">It would be more usual to instead create the 
                   extension point within a use case and subsequently 
                   link to it from an extend relationship (see 
                   <xref linkend="s2.ref.extend_property_fields"/> 
                   below).</para>
+                  <para lang="de">
+                  	Üblicher wäre es, einen Erweiterungspunkt innerhalb eines 
+                  	Anwendungsfalles zu erzeugen und diesen anschliessend mit 
+                  	einer Extend-Beziehung zu verknüpfen (siehe
+                  	<xref linkend="s2.ref.extend_property_fields"/> unten.
+                  </para>
 
                 </tip>
 
@@ -47472,17 +47615,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 extent relationship, navigating immediately to the 
                 properties tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotypen (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Extend-Beziehung und springt unmittelbar in das Register 
+                	Eigenschaften dieses Stereotypen.
+                </para>
 
               </listitem>
 
@@ -47495,11 +47659,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the selected extend relationship 
                 from the model.</para>
+                <para lang="de">
+                	Enfernt die markierte Extend-Beziehung aus dem Modell.
+                </para>
 
                 <warning>
 
@@ -47508,6 +47680,14 @@ available at http://www.opencontent.org/openpub/.
                   a extend from the diagram, but keep it within the 
                   model, use the main menu <literal>Remove From 
                   Diagram</literal> (or press the Delete key).</para>
+                  <para lang="de">
+                  	Diese Funktion löscht aus dem Modell, <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Um eine Extend-Beziehung 
+                  	aus einem Diagramm zu entfernen, diese aber im Modell zu 
+                  	erhalten, nehmen Sie <literal>Aus Diagramm entfernen
+                  	</literal> aus dem Hauptmenü (oder drücken Sie die Taste 
+                  	Entf).
+                  </para>
 
                 </warning>
 
@@ -47523,27 +47703,43 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Extend</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für Extend</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Extend Relationship 
                 Name</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name Extend-Beziehung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of Extend 
                 Relationship</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>der Extend-Beziehung</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the extend 
                 relationship.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Extend-Beziehung.
+                </para>
 
                 <tip>
 
                   <para lang="en">It is quite common to leave extends unnamed in 
                   use case analysis.</para>
+                  <para lang="de">
+                  	Sehr häufig läßt man die Extend-Beziehungen in der 
+                  	Anwendungsfall-Analyse unbenannt.
+                  </para>
 
                 </tip>
 
@@ -47551,6 +47747,10 @@ available at http://www.opencontent.org/openpub/.
 
                   <para lang="en">ArgoUML does not enforce any naming convention 
                   for extend relationships.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt keine Namenskonvention für Extend-
+                  	Beziehungen.
+                  </para>
 
                 </note>
 
@@ -47561,19 +47761,36 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Extend Relationship 
                 Namespace</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namensraum Extend-Beziehung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Namespace</primary><secondary>of 
                 Extend Relationship</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namensraum</primary>
+                	<secondary>der Extend-Beziehung</secondary>
+                </indexterm>
                 <para lang="en">Text box. Records the namespace for the extend 
                 relationship. This is the package hierarchy.</para>
+                <para lang="de">
+                	Textfeld. Nimmt den Namensraum für die Extend-Beziehung auf. 
+                	Dies entspricht der Pakethierarchie.
+                </para>
 
                 <para lang="en">Button&nbsp;1 Double Click on the entry will navigate 
                 to the package defining this namespace (or the model 
                 for the top level namespace).</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf den Eintrag navigiert in 
+                	das Paket, das diesen Namensraum definiert (oder in das 
+                	Modell mit dem obersten Namensraum). 
+                </para>
 
               </listitem>
 
@@ -47582,19 +47799,32 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Base Use Case</literal></term>
+              <term lang="de"><literal>Basis-Anwendungsfall</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Extend Relationship Base Use 
                 Case</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Basis-Anwendungsfall der Extend-Beziehung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Base Use 
                 Case</primary><secondary>of Extend 
                 Relationship</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Basis-Anwendungsfall</primary>
+                	<secondary>der Extend-Beziehung</secondary>
+                </indexterm>
                 <para lang="en">Text box. Shows the use case that is 
                 being extended by this extend relationship. Button&nbsp;1 
                 double
                 click on this entry will navigate 
                 to the base use case.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Anwendungsfall, der durch diese Extend-
+                	Beziehung erweitert wird. Ein Taste&nbsp;1-Doppelklick auf 
+                	diesen Eintrag navigiert zu diesem Basis-Anwendungsfall.
+                </para>
 
               </listitem>
 
@@ -47603,18 +47833,32 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Extension</literal></term>
+              <term lang="de"><literal>Erweiterung</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Extend Relationship 
                 Extension</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erweiterung Extend-Beziehung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Extension</primary><secondary>of 
                 Extend Relationship</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erweiterung</primary>
+                	<secondary>der Extend-Beziehung</secondary>
+                </indexterm>
                 <para lang="en">Text box. Show the use case that is 
                 doing the extending through this extend relationship. 
                 Button&nbsp;1 double click on this entry 
                 will navigate 
                 to the extension use case.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Anwendungsfall, der die Erweiterung über 
+                	diese Extend-Beziehung darstellt. Ein Taste&nbsp;1-
+                	Doppelklick auf diesen Eintrag navigiert zu diesem 
+                	Erweiterungs-Anwendungsfall.
+                </para>
 
               </listitem>
 
@@ -47623,17 +47867,30 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Extension Points</literal></term>
+              <term lang="de"><literal>Erweiterungspunkte</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Extend Relationship Extension 
                 Point</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erweiterungspunkt Extend-Beziehung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Extension 
                 Point</primary><secondary>of Extend 
                 Relationship</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erweiterungspunkt</primary>
+                	<secondary>der Extend-Beziehung</secondary>
+                </indexterm>
                 <para lang="en">Text box. Lists the extension points 
                 of the base use case where the extension 
                 will be applied if the condition holds.
+                </para>
+                <para lang="de">
+                	Textfeld. Listet die Erweiterungspunkte des Basis-
+                	Anwendungsfalles auf, bei denen die Erweiterung ausgeführt 
+                	wird, wenn die Bedingung eintritt.
                 </para>
 
                 <note>
@@ -47649,10 +47906,28 @@ available at http://www.opencontent.org/openpub/.
                   at the first referenced extension point, 
                   and if it is fulfilled all of the extending use case 
                   is inserted in the original sequence.</para>
+                  <para lang="de">
+                  	Wenn die Bedingung erfüllt ist, wird die Sequenz der
+                  	Anwendungsfall-Instanz durch das Einbinden der Sequenz des 
+                  	erweiternden Anwendungsfalles erweitert. Die 
+                  	unterschiedlichen Teile des erweiternden Anwendungsfalles 
+                  	werden an den durch die Abfolge der Erweiterungspunkte in 
+                  	der Beziehung bestimmten Stellen eingefügt - ein Teil an 
+                  	jedem referenzierten Erweiterungspunkt.
+                  	Beachten Sie, dass die Bedingung nur einmal geprüft wird:
+                  	nämlich am ersten referenzierten Erweiterungspunkt. Wenn sie 
+                  	erfüllt ist, werden alle erweiternden Anwendungsfälle in 
+                  	die Original-Sequenz eingefügt. 
+                  </para>
                   <para lang="en">Hence, the sequence of the extension points is 
                   irrelevant, except for the position of the first one; 
                   since that one determines 
                   where the condition is evaluated.
+                  </para>
+                  <para lang="de">
+                  	Daher ist die Reihenfolge der Erweiterungspunkte irrelevant, 
+                  	ausser der Position des ersten Erweiterungspunktes; weil 
+                  	dieser bestimmt, wo die Bedingung geprüft wird.
                   </para>
 
                 </note>
@@ -47662,6 +47937,12 @@ available at http://www.opencontent.org/openpub/.
                 relationship. Button&nbsp;2 gives a pop up menu with
                 the following
                 entries.</para>
+                <para lang="de">
+                	Dort, wo ein Erweiterungspunkt erstellt wurde, wird ein 
+                	Taste&nbsp;1-Doppelklick zu dieser Beziehung navigieren. 
+                	Taste&nbsp;2 öffnet ein Popup-Menü mit den folgenden 
+                	Einträgen.
+                </para>
 
                 <itemizedlist>
 
@@ -47671,6 +47952,12 @@ available at http://www.opencontent.org/openpub/.
                     ExtensionPoints</quote> window opens. In this 
                     window it is possible to build a list of extension 
                     points.</para>
+                    <para lang="de">
+                    	<literal>Hinzufügen</literal>. Das Fenster 
+                    	<quote>Erweiterungspunkte hinzufügen/entfernen</quote> 
+                    	öffnet sich. In diesem Fenster ist es möglich, eine 
+                    	Liste der Erweiterungspunkte zu erstellen.
+                    </para>
 
                   </listitem>
 
@@ -47681,6 +47968,13 @@ available at http://www.opencontent.org/openpub/.
                     extend relationship is added as the first in list 
                     of extending relationships of the new extension 
                     point.</para>
+                    <para lang="de">
+                    	<literal>Neu</literal>. Fügt einen neuen 
+                    	Erweiterungspunkt in die Liste ein und navigiert dort 
+                    	hin. Die aktuelle Extend-Beziehung wird als erste in die 
+                    	Liste der erweiternden Beziehungen des neuen 
+                    	Erweiterungspunktes aufgenommen.
+                    </para>
 
                   </listitem>
 
@@ -47690,6 +47984,13 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more extension points listed, and 
                     the extension point selected is not at the top. It moves 
                     the extension point up one position.</para>
+                    <para lang="de">
+                    	<literal>Nach oben</literal>. Nur verfügbar, wenn  
+                    	zwei oder mehr Erweiterungspunkte aufgeführt sind und 
+                    	der markierte Erweiterungspunkt sich nicht oben befindet.
+                    	Sie bewegt den Erweiterungspunkt um eine Position nach 
+                    	oben.
+                    </para>
 
                   </listitem>
 
@@ -47699,6 +48000,13 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more extension points listed, and 
                     the extension point selected is not at the bottom. It 
                     moves the extension point down one position.</para>
+                    <para lang="de">
+                    	<literal>Nach unten</literal>. Nur verfügbar, wenn  
+                    	zwei oder mehr Erweiterungspunkte aufgeführt sind und 
+                    	der markierte Erweiterungspunkt sich nicht unten befindet.
+                    	Sie bewegt den Erweiterungspunkt um eine Position nach 
+                    	unten.
+                    </para>
 
                   </listitem>
 
@@ -47711,12 +48019,20 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Condition</literal></term>
+              <term lang="de"><literal>Bedingung</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Multi-line textual description of any 
                 condition attached to the extend relationship.</para>
+                <para lang="de">
+                	Textbereich. Mehrzeilige textuelle Beschreibung jeder 
+                	Bedingung der Extend-Beziehung.
+                </para>
                 <para lang="en">The text entered here is shown on the diagram.</para>
+                <para lang="de">
+                	Der hier eingegebene Text wird im Diagramm angezeigt.
+                </para>
 
               </listitem>
 
@@ -47732,6 +48048,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Include</phrase>
+			<phrase lang="de">Include</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Include Relationship</primary></indexterm>
