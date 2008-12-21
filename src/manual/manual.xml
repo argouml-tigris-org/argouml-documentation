@@ -46698,7 +46698,7 @@ available at http://www.opencontent.org/openpub/.
                     the properties of the endpoints of the line.
                   </para>
                   <para lang="de">
-                  	Die Werte im Feld "bounds" der Generalisierung kann nicht 
+                  	Die Werte im Feld "Begrenzung" der Generalisierung kann nicht 
                   	editiert werden, weil sie durch die Eigenschaften der 
                   	Endpunkte der Linie bestimmt werden.
                   </para>
@@ -47412,7 +47412,7 @@ available at http://www.opencontent.org/openpub/.
                     by the properties of the endpoints of the line.
                   </para>
                   <para lang="de">
-                  	Die Werte im "bounds"-Feld von Extend ist nicht editierbar, 
+                  	Die Werte im Feld "Begrenzung" von Extend ist nicht editierbar, 
                   	weil sie durch die Eigenschaften der Endpunkte dieser 
                   	Linie bestimmt werden.
                   </para>
@@ -48052,40 +48052,78 @@ available at http://www.opencontent.org/openpub/.
 		</title>
 
         <indexterm lang="en"><primary>Include Relationship</primary></indexterm>
+        <indexterm lang="de"><primary>Include-Beziehung</primary></indexterm>
         <para lang="en">Include is a relationship between two use cases. Where A 
         includes B, it means B described behavior that is to be 
         included in the description of the behavior of A at some point 
         (defined internally by A).</para>
+        <para lang="de">
+        	Include ist eine Beziehung zwischen zwei Anwendungsfällen. Wenn A 
+        	B includiert, bedeutet das, dass B das Verhalten beschreibt, das in 
+        	die Beschreibung des Verhaltens von A an einigen Punkten (intern in 
+        	A definiert) einfügt. 
+        </para>
 
         <para lang="en">Examples for a travel agent sales system might be the use 
         case for booking travel, which includes use cases for booking 
         flights and taking payment.</para>
+        <para lang="de">
+        	Beispiele in einem Verkaufssystem für reisende Verkäufer könnte der 
+        	Anwendungsfall <quote>Reise buchen</quote> sein, der die 
+        	Anwendungsfälle für das Buchen von Flügen und die Handhabung der 
+        	Bezahlung beinhaltet.
+        </para>
 
         <para lang="en">Within the UML metamodel, <literal>Include</literal> is a 
         sub-class of <literal>Relationship</literal>.</para>
+        <para lang="de">
+        	Innerhalb des UML-Metamodelles ist <literal>Include</literal> eine 
+        	Subklasse von <literal>Beziehung</literal>.
+        </para>
 
         <para lang="en">An include relationship is represented as a dotted link 
         with an open arrow head and a label <literal>
         &laquo;include&raquo;</literal> (see 
         <xref linkend="fig.ref.use_case_diagram"/>).</para>
+        <para lang="de">
+        	Eine Include-Beziehung wird als gepunktete Verbindung mit einem 
+        	offen Pfeil und der Bezeichnung <literal>&laquo;include&raquo;
+        	</literal> dargestellt (siehe 
+        	<xref linkend="fig.ref.use_case_diagram"/>).
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Include Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Include</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Include Relationship Details 
           Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register Include-Beziehung</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Include Relationship</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register</primary>
+          	<secondary>für eine Include-Beziehung</secondary>
+          </indexterm>
           <para lang="en">The details tabs that are active for include 
           relationships are as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Include-Beziehungen sind folgende.
+          </para>
 
           <note>
 
             <para lang="en">There is no source tab, since there is no source code 
             that could be generated for an include relationship.</para>
+            <para lang="de">
+            	Es gibt kein Register Quellcode, weil es keinen Quellcode gibt, 
+            	der für eine Include-Beziehung generiert werden könnte.
+            </para>
 
           </note>
 
@@ -48094,10 +48132,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -48106,6 +48146,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -48113,6 +48154,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.include_property_toolbar"/> and 
                 <xref linkend="s2.ref.include_property_fields"/> 
                 below.</para>
+                <para lang="de">
+                	Siehe 
+                	<xref linkend="s2.ref.include_property_toolbar"/> und 
+                	<xref linkend="s2.ref.include_property_fields"/> 
+                	unten.
+                </para>
 
               </listitem>
 
@@ -48121,11 +48168,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+                	Standard-Register. Siehe 
+                	<xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -48134,10 +48186,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab</para>
+                <para lang="de">Standard-Register</para>
 
                 <note>
 
@@ -48146,6 +48200,11 @@ available at http://www.opencontent.org/openpub/.
                     include relationships
                     are not editable, since they are determined 
                     by the properties of the endpoints of the line.
+                  </para>
+                  <para lang="de">
+                  	Die Werte im Feld "Begrenzung" der Include-Beziehung sind nicht 
+                  	editierbar, weil sie durch die Eigenschaften der Endpunkte 
+                  	der Linie bestimmt werden.
                   </para>
 
                 </note>
@@ -48157,12 +48216,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Include</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell hat <literal>Include
+                	</literal> die folgenden Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -48174,12 +48239,26 @@ available at http://www.opencontent.org/openpub/.
                     relationship is redundant&mdash;it can be formally 
                     derived from other elements, or <literal>
                     false</literal> meaning it cannot.</para>
+                    <para lang="de">
+                    	<literal>derived</literal> (von der Superklasse 
+                    	<literal>ModelElement</literal>.
+                    	Der Wert <literal>true</literal> bedeutet, dass die 
+                    	Include-Beziehung redundant ist&mdash;sie kann formal 
+                    	von anderen Elementen abgeleitet werden, oder <literal>
+                    	false</literal> bedeutet, sie kann nicht abgeleitet 
+                    	werden.
+                    </para>
 
                     <note>
 
                       <para lang="en">Derived include relationships could have 
                       their value in analysis to introduce useful names 
                       or concepts.</para>
+                      <para lang="de">
+                      	Abgeleitete Incldue-Beziehungen können ihren Wert in der 
+                      	Analyse haben, um nützliche Namen oder Konzepte 
+                      	einzubinden.
+                      </para>
 
                     </note>
 
@@ -48199,7 +48278,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Include Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Include Eigenschaftssymbolleiste</phrase>
+		  </title>
 
           <variablelist>
 
@@ -48210,12 +48290,21 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure of the 
                 model. For a include this will be the package 
                 containing the include.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur des Modelles nach oben. Bei 
+                	Include ist dies das Paket, das den Include beinhaltet.
+                </para>
 
               </listitem>
 
@@ -48228,17 +48317,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 include relationship, navigating immediately to the 
                 properties tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotypen (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Include-Beziehung und springt sofort in das 
+                	Eigenschaftsregister dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -48251,11 +48361,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Lösche</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the selected include relationship 
                 from the model.</para>
+                <para lang="de">
+                	Entfernt die markierte Include-Beziehung aus dem Modell.
+                </para>
 
                 <warning>
 
@@ -48264,6 +48382,13 @@ available at http://www.opencontent.org/openpub/.
                   a include from the diagram, but keep it within the 
                   model, use the main menu <literal>Remove From 
                   Diagram</literal> (or press the Delete key).</para>
+                  <para lang="de">
+                  	Diese Funktion löscht aus dem Modell und <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Um eine Include-Beziehung 
+                  	aus dem Diagramm zu löschen, sie aber im Modell zu erhalten, 
+                  	verwenden Sie den Eintrag <literal>Aus Diagramm entfernen
+                  	</literal> des Hauptmenüs (oder drücken Sie die Taste Entf).
+                  </para>
 
                 </warning>
 
@@ -48279,27 +48404,43 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Include</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für Include</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Include Relationship 
                 Name</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namen der Include-Beziehung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of Include 
                 Relationship</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>der Include-Beziehung</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the include 
                 relationship.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Include-Beziehung.
+                </para>
 
                 <tip>
 
                   <para lang="en">It is quite common to leave include 
                   relationships unnamed in use case analysis.</para>
+                  <para lang="de">
+                  	Sehr häufig bleibt die Include-Beziehung in der Analyse 
+                  	unbenannt.
+                  </para>
 
                 </tip>
 
@@ -48307,6 +48448,10 @@ available at http://www.opencontent.org/openpub/.
 
                   <para lang="en">ArgoUML does not enforce any naming convention 
                   for include relationships.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt keine Namenskonvention für Include-
+                  	Beziehungen.
+                  </para>
 
                 </note>
 
@@ -48317,19 +48462,36 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Include Relationship 
                 Namespace</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namensraum der Include-Beziehung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Namespace</primary><secondary>of 
                 Include Relationship</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namensraum</primary>
+                	<secondary>der Include-Beziehung</secondary>
+                </indexterm>
                 <para lang="en">Text box. Records the namespace for the include. 
                 This is the package hierarchy.</para>
+                <para lang="de">
+                	Textfeld. Gibt den Namensraum für die Include-Beziehung 
+                	wieder. Dies entspricht der Pakethierarchie.
+                </para>
 
                 <para lang="en">Button&nbsp;1 click on the entry will navigate to the 
                 package defining this namespace (or the model for the 
                 top level namespace).</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Klick auf diesen Eintrag springt zu dem 
+                	Paket, das diesen Namensraum definiert (oder das Modell als 
+                	oberster Namensraum).
+                </para>
 
               </listitem>
 
@@ -48338,18 +48500,33 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Base Use Case</literal></term>
+              <term lang="de"><literal>Basis-Anwendungsfall</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Include Relationship 
                 Base</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Basis der Include-Beziehung</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Base</primary><secondary>of Include 
                 Relationship</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Basis</primary>
+                	<secondary>der Include-Beziehung</secondary>
+                </indexterm>
                 <para lang="en">Drop down selector. Records the use case that is 
                 doing the including in this include relationship. 
                 Button&nbsp;1 click on this entry will give a drop down menu 
                 of all available use cases which may be selected by 
                 button&nbsp;1 click.</para>
+                <para lang="de">
+                	Kombinationsfeld. Gibt den Anwendungsfall wieder, der den 
+                	anderen Anwendungsfall in dieser Include-Beziehung aufnimmt.
+                	Ein Taste&nbsp;1-Klick auf diesen Eintrag öffnet ein 
+                	DropDown-Menü aller verfügbaren Anwendungsfälle, die durch 
+                	einen Taste&nbsp;1-Klick ausgewählt werden können.
+                </para>
 
               </listitem>
 
@@ -48358,19 +48535,36 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Included Use Case</literal></term>
+              <term lang="de"><literal>Eingefügter Anwendungsfall</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Include Relationship Included Use 
                 Case</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>
+                		Eingefügter Anwendungsfall der Include-Beziehung
+                	</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Included Use 
                 Case</primary><secondary>of Include 
                 Relationship</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eingefügter Anwendungsfall</primary>
+                	<secondary>der Include Relationship</secondary>
+                </indexterm>
                 <para lang="en">Drop down selector. Records the use case that is 
                 being included by this include relationship. Button&nbsp;1 
                 click on this entry will give a drop down menu of all 
                 available use cases (and an empty entry) which may be 
                 selected by button&nbsp;1 click.</para>
+                <para lang="de">
+                	Kombinationsfeld. Gibt den Anwendungsfall wieder, der durch 
+                	diese Include-Beziehung eingefügt wird. Ein Taste&nbsp;1-
+                	Klick auf diesen Eintrag öffnet ein DropDown-Menü aller 
+                	verfügbaren Anwendungsfälle (und ein leerer Eintrag), die 
+                	durch einen Taste&nbsp;1-Klick ausgewählt werden können.
+                </para>
 
               </listitem>
 
@@ -48386,45 +48580,80 @@ available at http://www.opencontent.org/openpub/.
 
     <chapter id="ch.ref.entclass">
 
-      <title>
+      	<title>
 			<phrase lang="en">Class Diagram Model Element Reference</phrase>
+			<phrase lang="de">Modellelement-Referenz Klassendiagramm</phrase>
 		</title>
 
       <indexterm lang="en"><primary>Class Diagram</primary></indexterm>
+      <indexterm lang="de"><primary>Klassendiagramm</primary></indexterm>
       <indexterm lang="en"><primary>Object Diagrams</primary></indexterm>
+      <indexterm lang="de"><primary>Objektdiagramme</primary></indexterm>
       <indexterm lang="en"><primary>Package Diagrams</primary></indexterm>
+      <indexterm lang="de"><primary>Paketdiagramme</primary></indexterm>
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en">This chapter describes each model element that can be created 
         within a class diagram. Note that some sub-model elements of 
         model elements on the diagram may not actually themselves appear on 
         the diagram.</para>
+        <para lang="de">
+        	Dieses Kapitel beschreibt jedes Modellelement, das innerhalb eines 
+        	Klassendiagrammes erzeugt werden kann. Beachten Sie, dass einige 
+        	Submodell-Elemente von Modellelementen nicht selbst im Diagramm 
+        	erscheinen können.
+        </para>
 
         <para lang="en">Class diagrams are used for only one of the UML static 
         structure diagrams, the class diagram itself. Object diagrams 
         are represented on the ArgoUML deployment diagram.</para>
+        <para lang="de">
+        	Klassendiagramme werden nur für eines der statischen 
+        	UML-Strukturdiagramme verwendet, das Klassendiagramm selbst. 
+        	Objektdiagramme werden durch ArgoUML-Verteilungsdiagramme 
+        	repräsentiert. 
+        </para>
 
         <para lang="en">In addition, ArgoUML uses the class diagram to show model 
         structure through the use of packages.</para>
+        <para lang="de">
+        	Zusätzlich verwendet ArgoUML das Klassendiagramm, um die 
+        	Modellstruktur durch die Nutzung von Paketen darzustellen.
+        </para>
 
         <para lang="en">There is a close relationship between this material and 
         the Properties Tab of the Details Pane (see 
         <xref linkend="s1.ref.proptab"/>). That section covers 
         Properties in general, in this chapter they are linked to 
         specific model elements.</para>
+        <para lang="de">
+        	Es gibt eine enge Beziehung zwischen diesem Material und dem 
+        	Register Eigenschaften des Detailfensters (siehe 
+        	<xref linkend="s1.ref.proptab"/>). Dessen Abschnitt behandelt die 
+        	Eigenschaften allgemein, in diesem Kapitel sind sie mit 
+        	spezifischen Modellelementen verknüpft.
+        </para>
 
         <para lang="en"><xref linkend="fig.ref.class_diagram"/> shows a class 
         diagram with all possible model elements displayed.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.class_diagram"/> zeigt ein Klassendiagramm 
+        	mit allen denkbaren Modellelementen.
+        </para>
 
         <figure float="1" id="fig.ref.class_diagram">
 
           <title>
 			<phrase lang="en">Possible model elements on a class diagram.</phrase>
-		</title>
+			<phrase lang="de">
+				Denkbare Modellelemente in einem Klassendiagramm.
+			</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -48434,12 +48663,19 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en"><xref linkend="fig.ref.package_diagram"/> shows a package 
         diagram with all possible model elements displayed.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.package_diagram"/> zeigt ein Paketdiagramm 
+        	mit allen denkbaren Modellelementen.
+        </para>
 
         <figure float="1" id="fig.ref.package_diagram">
 
           <title>
 			<phrase lang="en">Possible model elements on a package diagram.</phrase>
-		</title>
+			<phrase lang="de">
+				Denkbare Modellelemente in einem Paketdiagramm.
+			</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -48450,12 +48686,19 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en"><xref linkend="fig.ref.datatype_diagram"/> shows a 
         datatype 
         diagram with a datatype and an enumeration displayed.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.datatype_diagram"/> zeigt ein Datentyp-
+        	Diagramm mit einem Datentyp und einer Aufzählung.
+        </para>
 
         <figure float="1" id="fig.ref.datatype_diagram">
 
           <title>
 			<phrase lang="en">Possible model elements on a datatype diagram.</phrase>
-		</title>
+			<phrase lang="de">
+				Denkbare Modellelemente in einem Datentypdiagramm.
+			</phrase>
+		  </title>
           <!-- See ClassDiagram-Datatypes.zargo -->
 
           <screenshot><mediaobject><imageobject>
@@ -48467,13 +48710,21 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en"><xref linkend="fig.ref.stereotype_diagram"/> shows a 
         stereotype definition
         diagram with all possible model elements displayed.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.stereotype_diagram"/> zeigt ein Stereotyp-
+        	Definitionsdiagramm mit allen denkbaren Modellelementen.
+        </para>
 
         <figure float="1" id="fig.ref.stereotype_diagram">
 
           <title>
-			<phrase lang="en">Possible model elements on a 
-          stereotype definition diagram.</phrase>
-		</title>
+			<phrase lang="en">
+				Possible model elements on a stereotype definition diagram.
+			</phrase>
+			<phrase lang="de">
+				Denkbare Modellelemente in einem Stereotyp-Definitionsdiagramm.
+			</phrase>
+		  </title>
           <!-- See ClassDiagram-Datatypes.zargo -->
 
           <screenshot><mediaobject><imageobject>
@@ -48485,15 +48736,25 @@ available at http://www.opencontent.org/openpub/.
         <sect2>
 
           <title>
-			<phrase lang="en">Limitations Concerning Class Diagrams in 
-          ArgoUML</phrase>
-		</title>
+			<phrase lang="en">
+				Limitations Concerning Class Diagrams in ArgoUML
+			</phrase>
+			<phrase lang="de">
+				Einschränkungen bei Klassendiagrammen in ArgoUML
+			</phrase>
+		  </title>
 
           <para lang="en">Various limitations exist in V0.26 of ArgoUML 
           for stereotype definition diagrams. 
           E.g. the implementation does not allow 
           stereotype compartments
           to be shown on stereotype definition diagrams.</para>
+          <para lang="de">
+          	In V0.26 von ArgoUML existieren verschiedene Einschränkungen bei 
+          	Stereotyp-Definitionsdiagrammen. Z.B. erlaubt die Implementierung 
+          	keine Stereotyp-Bereiche, die in Stereotyp-Definitionsdiagrammen 
+          	dargestellt werden können.
+          </para>
 
           <para lang="en">Another variant of the class diagram within the UML standard 
           is the <emphasis>object diagram</emphasis>. There is 
@@ -48501,6 +48762,14 @@ available at http://www.opencontent.org/openpub/.
           class diagrams. Instead the ArgoUML deployment diagram does 
           have both objects and links, and can be used to draw object 
           diagrams.</para>
+          <para lang="de">
+          	Eine andere Variante des Klassendiagrammes ist innerhalb des UML-
+          	Standards das <emphasis>Ojektdiagramm</emphasis>. Es gibt aktuell 
+          	keine Unterstützung für Objekte oder Verknüpfungen innerhalb von 
+          	ArgoUML-Klassendiagrammen. Dafür hat das ArgoUML-Verteilungsdiagramm 
+          	beides, Objekte und Verknüpfungen. Es kann für das Zeichnen von 
+          	Objektdiagrammen verwendet werden.
+          </para>
 
         </sect2>
 
@@ -48510,13 +48779,20 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Package</phrase>
+			<phrase lang="de">Paket</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Package</primary></indexterm>
+        <indexterm lang="de"><primary>Paket</primary></indexterm>
         <para lang="en">The package is the main organizational model element within 
         ArgoUML. In the UML metamodel it is a sub-class of both 
         <literal>Namespace</literal> and <literal>
         GeneralizableElement</literal>.</para>
+        <para lang="de">
+        	Das Paket ist das hauptsächlich organisierende Modellelement in 
+        	ArgoUML. Im UML-Metamodell ist es eine Subklasse von <literal>
+        	Namensraum</literal> und <literal>GeneralisierbaresElement</literal>.
+        </para>
 
         <note>
 
@@ -48524,6 +48800,11 @@ available at http://www.opencontent.org/openpub/.
           Model</literal> model element as a sub-class of package, but 
           <emphasis>not</emphasis> the <literal>Subsystem</literal> 
           model element.</para>
+          <para lang="de">
+          	ArgoUML implementiert auch das UML-Modellelement <literal>Modell
+          	</literal> als Subklasse von Paket, aber <emphasis>nicht</emphasis> 
+          	das Modellelement <literal>Subsystem</literal>.
+          </para>
 
         </note>
 
@@ -48532,12 +48813,20 @@ available at http://www.opencontent.org/openpub/.
         defines as <literal>Generalization</literal> and the sub-class 
         dependency <literal>Permission</literal> for use between 
         packages.</para>
+        <para lang="de">
+        	ArgoUML implementiert auch einige weniger häufige Aspekte der UML-
+        	Modellverwaltung. Im Einzelnen ist die Beziehung UML 1.4 als 
+        	<literal>Generalisierung</literal> definiert und die Subklassen-
+        	Abhängigkeit <literal>Berechtigung</literal> wird zwischen Paketen 
+        	verwendet.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Package Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Paket</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Package Details Tabs</primary></indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
