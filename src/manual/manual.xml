@@ -48829,20 +48829,32 @@ available at http://www.opencontent.org/openpub/.
 		  </title>
 
           <indexterm lang="en"><primary>Package Details Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register Paket</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Package</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register</primary>
+          	<secondary>für ein Paket</secondary>
+          </indexterm>
           <para lang="en">The details tabs that are active for packages are as 
           follows.</para>
+          <para lang="de">
+          	Die für Pakete aktiven Detail-Register sind folgende.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="en">Standard-Register.</para>
 
               </listitem>
 
@@ -48851,6 +48863,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="en"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -48858,6 +48871,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.package_property_toolbar"/> and 
                 <xref linkend="s2.ref.package_property_fields"/> 
                 below.</para>
+                <para lang="en">
+                	Siehe 
+                	<xref linkend="s2.ref.package_property_toolbar"/> und 
+                	<xref linkend="s2.ref.package_property_fields"/> 
+                	unten.
+                </para>
 
               </listitem>
 
@@ -48866,11 +48885,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+                	Standard-Register. Siehe
+                	<xref linkend="s2.ref.documentation_tab"/>. 
+                </para>
 
               </listitem>
 
@@ -48879,12 +48903,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. The editable <literal>Bounds</literal> 
                 field defines the bounding box for the package on the 
                 diagram.</para>
+                <para lang="de">
+                	Standard-Register. Das editierbare Feld <literal>Begrenzung
+                	</literal> definiert die Größe des Rahmens des Paketes im 
+                	Diagramm.
+                </para>
 
               </listitem>
 
@@ -48893,10 +48923,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. </para>
+                <para lang="de">Standard-Register. </para>
 
               </listitem>
 
@@ -48905,12 +48937,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Package</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+					Standard-Register. Im UML-Metamodell hat das <literal>Paket
+					</literal> die folgenden definierten Eigenschaftswerte.
+				</para>
 
                 <itemizedlist>
 
@@ -48922,12 +48959,25 @@ available at http://www.opencontent.org/openpub/.
                     is redundant&mdash;it can be formally derived from other 
                     elements, or <literal>false</literal> meaning it 
                     cannot.</para>
+                    <para lang="en">
+	                    <literal>derived</literal> (von der Superklasse 
+	                    <literal>ModelElement</literal>). Der Wert <literal>true
+	                    </literal> bedeutet, dass das Paket redundant ist&mdash; 
+	                    es kann formal von anderen Elementen abgeleitet werden. 
+	                    Oder, <literal>false</literal> bedeutet, dass es nicht 
+	                    von anderen Elementen abgeleitet werden kann.
+                    </para>
 
                     <note>
 
                       <para lang="en">Derived packages still have their value in 
                       analysis to introduce useful names or concepts, 
                       and in design to avoid re-computation.</para>
+                      <para lang="de">
+                      	Abgeleitete Pakete haben Ihren Wert in der Analyse, um 
+                      	nützliche Namen oder Konzepte einzufügen und im Design, 
+                      	um eine wiederholte Verarbeitung zu verhindern.
+                      </para>
 
                     </note>
 
@@ -48947,7 +48997,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Package Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Paket Eigenschaftssymbolleiste</phrase>
+		  </title>
 
           <variablelist>
 
@@ -48958,11 +49009,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
-
+				<para lang="de">
+					Navigiert in der Paketstruktur nach oben.
+				</para>
+				
               </listitem>
 
             </varlistentry>
@@ -48974,12 +49033,22 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/package.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Package</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/package.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neues Paket</literal></term>
 
               <listitem>
 
                 <para lang="en">This creates a new package within the package 
                 (which appears on no diagram), navigating immediately 
                 to the properties tab for that package.</para>
+                <para lang="de">
+                	Erzeugt ein neues Paket innerhalb des Paketes (das in keinem 
+                	Diagramm erscheint) und springt sofort in das Register 
+                	Eigenschaften dieses Paketes.
+                </para>
 
               </listitem>
 
@@ -48992,17 +49061,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/datatype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Datatype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/datatype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Datentyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Datatype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Datentyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Datatype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Datentyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Datatype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Datatyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Datatype (see 
                 <xref linkend="s1.ref.datatype"/>) for the selected 
                 package, navigating immediately to the properties tab 
                 for that datatype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Datentyp (siehe 
+                	<xref linkend="s1.ref.datatype"/>) in dem markierten 
+                	Paket und springt sofort in das Register Eigenschaften 
+                	dieses Datentyps.
+                </para>
 
               </listitem>
 
@@ -49015,17 +49105,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/enumeration.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Enumeration</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/enumeration.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neue Enumeration (Aufzählung)</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Enumeration</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Enumeration (Aufzählung) hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Enumeration</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neue Enumeration (Aufzählung)</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Enumeration</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neue</primary>
+                	<secondary>Enumeration (Aufzählung)</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Enumeration (see 
                 <xref linkend="s1.ref.enumeration"/>) for the selected 
                 package, navigating immediately to the properties tab 
                 for that enumeration.</para>
+                <para lang="de">
+                	Erzeugt eine neue Enumeration (Aufzählung; siehe 
+                	<xref linkend="s1.ref.enumeration"/>) im markierten Paket 
+                	und springt sofort in das Register Eigenschaften dieser 
+                	Enumeration (Aufzählung).
+                </para>
 
               </listitem>
 
@@ -49038,17 +49149,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 package, navigating immediately to the properties tab 
                 for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) im markierten Paket 
+                	und springt sofort in das Register Eigenschaften dieses 
+                	Stereotypen.
+                </para>
 
               </listitem>
 
@@ -49061,6 +49193,11 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/tag_definition.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Tag Definition</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/tag_definition.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neue Eigenschaftsdefinition</literal></term>
 
               <listitem>
 
@@ -49069,6 +49206,13 @@ available at http://www.opencontent.org/openpub/.
                 package 
                 (which appears on no diagram), navigating immediately 
                 to the properties tab for that tagdefinition.</para>
+                <para lang="de">
+                	Erzeugt eine neue Eigenschaftsdefinition (siehe 
+                	<xref linkend="s1.ref.tagdefinition"/>) innerhalb des 
+                	Paketes (das in keinem Diagramm erscheint) und springt 
+                	sofort in das Register Eigenschaften dieser 
+                	Eigenschaftsdefinition. 
+                </para>
 
               </listitem>
 
@@ -49081,10 +49225,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete Package</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Paket löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">Deletes the package from the model.</para>
+                <para lang="de">
+                	Entfernt das Paket aus dem Modell.
+                </para>
 
                 <warning>
 
@@ -49093,6 +49245,13 @@ available at http://www.opencontent.org/openpub/.
                   a package from the diagram, but keep it within the 
                   model, use the main menu <literal>Remove From 
                   Diagram</literal> (or press the Delete key).</para>
+                  <para lang="de">
+                  	Dies ist ein Entfernen aus dem Modell und <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Um ein Paket aus dem 
+                  	Diagramm zu löschen, es aber innerhalb des Modelles zu 
+                  	erhalten, verwenden Sie <literal>Aus Diagramm entfernen
+                  	</literal> im Hauptmenü (oder drücken Sie die Taste Entf).
+                  </para>
 
                 </warning>
 
@@ -49108,28 +49267,47 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Package</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für ein Paket</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Package Name</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name des Paketes</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of 
                 Package</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>des Paketes</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the package. The name of a 
                 package, like all packages, is by convention all lower 
                 case, not containing any punctuation marks.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Paketes. Der Name eines Paketes ist, 
+                	wie alle Pakete, wird per Konvention in Kleinbuchstaben 
+                	geschrieben und enthält keinerlei Satzzeichen. 
+                </para>
 
                 <note>
 
                   <para lang="en">By default a new package has no name defined. 
                   The package will appear with the name <literal>(Unnamed 
                   Package)</literal> in the explorer.</para>
+                  <para lang="de">
+                  	Standardmäßig hat ein neues Paket keinen definierten Namen. 
+                  	Das Paket wird mit dem Namen <literal>(unbenanntes Paket)
+                  	</literal> im Explorer erscheinen.
+                  </para>
 
                 </note>
 
@@ -49140,15 +49318,27 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Package 
                 Namespace</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namensraum Paket</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Namespace</primary><secondary>of 
                 Package</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namensraum</primary>
+                	<secondary>des Paketes</secondary>
+                </indexterm>
                 <para lang="en">Drop down selector. Records the namespace for the 
                 package. This is the package hierarchy.</para>
+                <para lang="de">
+                	Kombinationsfeld. Gibt den Namensraum des Paketes wieder. 
+                	Dies entspricht der Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -49157,6 +49347,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Visibility</literal></term>
+              <term lang="de"><literal>Sichtbarkeit</literal></term>
 
               <listitem>
 
@@ -49165,6 +49356,13 @@ available at http://www.opencontent.org/openpub/.
                 <literal>protected</literal>, and
                 <literal>package</literal>. Indicates whether the 
                 package is visible outside the package.</para>
+                <para lang="de">
+	                Auswahlfeld mit vier Einträgen <literal>
+	                public</literal>, <literal>private</literal>, 
+	                <literal>protected</literal> und
+	                <literal>package</literal>. Gibt an, ob das Paket außerhalb 
+	                des Paketes sichtbar ist. 
+                </para>
 
               </listitem>
 
@@ -49173,16 +49371,29 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Modifiers</literal></term>
+              <term lang="de"><literal>Modifizierer</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Package 
                 Modifiers</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Paket-Modifizierer</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Modifiers</primary><secondary>of 
                 Package</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Modifizierer</primary>
+                	<secondary>von Paket</secondary>
+                </indexterm>
                 <para lang="en">Check box, with entries <literal>
                 abstract</literal>, <literal>leaf</literal> and 
                 <literal>root</literal>.</para>
+                <para lang="de">
+	                Markierfelder mit den Einträgen <literal>
+	                abstract</literal>, <literal>leaf</literal> und 
+	                <literal>root</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -49191,6 +49402,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>Abstract</literal> is used to 
                     declare that this package cannot be instantiated, 
                     but must always be specialized.</para>
+                    <para lang="de">
+                    	<literal>Abstract</literal> wird verwendet, um zu 
+                    	deklarieren, daß dieses Paket nicht instanziiert werden 
+                    	kann, aber immer spezialisiert werden muss.
+                    </para>
 
                     <tip>
 
@@ -49201,6 +49417,14 @@ available at http://www.opencontent.org/openpub/.
                       probably better handled through stereotyping of 
                       the package (for example <literal>
                       &laquo;facade&raquo;</literal>).</para>
+                      <para lang="de">
+                      	Die Bedeutung von <literal>abstract</literal>, angewendet 
+                      	auf ein Paket ist nicht ganz klar. Es könnte bedeuten, 
+                      	dass das Paket Schnittstellen oder abstrakte Klassen 
+                      	ohne Realisierung enthält. Dies würde wahrscheinlich 
+                      	besser über Stereotypen auf das Paket gehandhabt (z.B. 
+                      	<literal>&laquo;facade&raquo;</literal>).
+                      </para>
 
                     </tip>
 
@@ -49210,6 +49434,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Leaf</literal> indicates that this 
                     package can have no further subpackages.</para>
+                    <para lang="de">
+                    	<literal>Leaf (Blatt)</literal> gibt an, dass dieses 
+                    	Paket keine weiteren Subpakete haben darf.
+                    </para>
 
                   </listitem>
 
@@ -49217,6 +49445,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Root</literal> indicates that it is 
                     the top level package.</para>
+                    <para lang="de">
+                    	<literal>Root (Wurzel)</literal> gibt an, dass dies das 
+                    	Paket auf oberster Ebene ist.
+                    </para>
 
                     <tip>
 
@@ -49225,6 +49457,13 @@ available at http://www.opencontent.org/openpub/.
                       packages sit within the model. This could be used 
                       to emphasize that the Model is at the top 
                       level.</para>
+                      <para lang="de">
+                      	Innerhalb von ArgoUML kann <literal>Root (Wurzel)
+                      	</literal> nur auf das Modell angewendet werden, da 
+                      	alle Pakete sich innerhalb des Modelles befinden. Dies 
+                      	kann dazu verwendet werden, um zu betonen, dass sich das 
+                      	Modell auf oberste Ebene befindet.
+                      </para>
 
                     </tip>
 
@@ -49239,19 +49478,35 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Generalizations</literal></term>
+              <term lang="de"><literal>Generealisierung</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Package 
                 Generalizations</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Paket-Generalisierungen</primary>
+                </indexterm>
                 <indexterm lang="en">
                 <primary>Generalizations</primary><secondary>of 
                 Package</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Generalisierungen</primary>
+                	<secondary>von Paket</secondary>
+                </indexterm>
                 <para lang="en">Text area. Lists any package that 
                 <emphasis>generalizes</emphasis> this package.</para>
+                <para lang="de">
+                	Textbereich. Listet alle Pakete auf, die dieses Paket 
+                	<emphasis>generalisieren</emphasis>.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the 
                 generalization and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zur Generalisierung 
+                	und öffnet dessen Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -49260,19 +49515,35 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Specializations</literal></term>
+              <term lang="de"><literal>Spezialisierungen</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Package 
                 Specializations</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Paket-Spezialisierungen</primary>
+                </indexterm>
                 <indexterm lang="en">
                 <primary>Specializations</primary><secondary>of 
                 Package</secondary></indexterm>
+                <indexterm lang="de">
+	                <primary>Spezialisierungen</primary>
+	                <secondary>von Paket</secondary>
+	            </indexterm>
                 <para lang="en">Text box. Lists any specialized package (i.e. for 
                 which this package is a generalization.</para>
+                <para lang="de">
+                	Textfeld. Listet alle spezialisierten Pakete auf (z.B. für 
+                	die dieses Paket eine Generalisierung ist).
+                </para>
 
                 <para lang="en">button&nbsp;1 double click navigates to the 
                 generalization and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der 
+                	Spezialisierung und öffnet dessen Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -49281,21 +49552,38 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Owned Elements</literal></term>
+              <term lang="de"><literal>Eigene Elemente</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Package Owned 
                 Elements</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Paket-eigene-Elemente</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Owned 
                 Elements</primary><secondary>of 
                 Package</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigene Elemente</primary>
+                	<secondary>des Paketes</secondary>
+                </indexterm>
                 <para lang="en">Text area. A listing of all the packages, 
                 classes, interfaces, datatypes, actors, use cases, 
                 associations, generalizations, stereotypes, etc. within 
                 the package.</para>
+                <para lang="de">
+                	Textbereich. Eine Liste aller Pakete, Klassen, Schnittstellen, 
+                	Datentypen, Akteure, Anwendungsfälle, Assoziationen, 
+                	Generalisierungen, Stereotypen usw. des Paketes.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on any item listed here 
                 navigates to that model element.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf eines der aufgelisteten 
+                	Einträge navigiert zu diesem Modellelement.
+                </para>
 
               </listitem>
 
@@ -49304,21 +49592,38 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
             
               <term lang="en"><literal>Imported Elements</literal></term>
+              <term lang="de"><literal>Importierte Elemente</literal></term>
               
               <listitem>
                 <indexterm lang="en"><primary>Package Imported 
                 Elements</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Paket Importierte Elemente</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Imported 
                 Elements</primary><secondary>of 
                 Package</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Importierte Elemente</primary>
+                	<secondary>eines Paketes</secondary></indexterm>
                 <para lang="en">Text Area. A listing of all imported elements,
                 i.e. elements that are owned by a different package, but 
                 are explicitely made visible in this package.</para>
+                <para lang="de">
+                	Textbereich. Eine Liste aller importierten Elemente, z.B. 
+                	Elemente, die zu einem anderen Paket gehören, aber 
+                	ausdrücklich in diesem Paket sichtbar gemacht wurden.
+                </para>
                 
                 <para lang="en">Button&nbsp;1 double click on any item listed here 
                 navigates to that model element.
                 Button&nbsp;2 gives a pop up menu with
                 the following entries.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf eines dieser aufgelisteten 
+                	Elemente navigiert zu diesem Modellelement. Ein Taste&nbsp;2-
+                	Klick öffnet ein Popup-Menü mit den folgenden Einträgen.
+                </para>
 
                 <itemizedlist>
 
@@ -49328,6 +49633,12 @@ available at http://www.opencontent.org/openpub/.
                     Imported Elements</quote> window opens. In this 
                     window it is possible to build a list of imported 
                     elements.</para>
+                    <para lang="de">
+                    	<literal>Hinzufügen</literal>. Das Fenster <quote>
+                    	Hinzufügen/Entfernen importierter Elemente</quote> 
+                    	 öffnet sich. In diesem Fenster ist es möglich, eine 
+                    	 Liste von importierten Elementen zu erstellen.
+                    </para>
 
                   </listitem>
 
@@ -49335,6 +49646,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Remove</literal>.  
                     Removes the import.</para>
+                    <para lang="de">
+                    	<literal>Entfernen</literal>.  
+                    	Entfernt das importierte Element.
+                    </para>
 
                   </listitem>
 
@@ -49354,11 +49669,17 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Datatype</phrase>
+			<phrase lang="de">Datatyp</phrase>
 		</title>
 
         <para lang="en">Datatypes are not specific to packages or class diagrams, 
         and are discussed within the chapter on top level model elements 
         (see <xref linkend="s1.ref.datatype"/>).</para>
+        <para lang="de">
+        	Datentypen sind nicht spezifisch für Paket- oder Klassendiagramme 
+        	und werden in den Kapiteln der Modellelemente auf oberster Ebene 
+        	diskutiert (siehe <xref linkend="s1.ref.datatype"/>).
+        </para>
 
       </sect1>
 
@@ -49366,11 +49687,18 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Enumeration</phrase>
+			<phrase lang="de">Enumeration (Aufzählung)</phrase>
 		</title>
 
         <para lang="en">Enumeration are not specific to packages or class diagrams, 
         and are discussed within the chapter on top level model elements 
         (see <xref linkend="s1.ref.enumeration"/>).</para>
+        <para lang="de">
+        	Enumerationen (Aufzählungen) sind nicht spezifisch für Paket- oder 
+        	Klassendiagramme und werden in den Kapiteln der Modellelemente auf 
+        	oberster Ebene diskutiert (siehe 
+        	<xref linkend="s1.ref.enumeration"/>).
+        </para>
 
       </sect1>
 
@@ -49378,11 +49706,18 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Stereotype</phrase>
+			<phrase lang="de">Stereotyp</phrase>
 		</title>
 
         <para lang="en">Stereotypes are not specific to packages or class 
         diagrams, and are discussed within the chapter on top level 
         model elements (see <xref linkend="s1.ref.stereotype"/>).</para>
+        <para lang="de">
+        	Stereotypen sind nicht spezifisch für Paket- oder 
+        	Klassendiagramme und werden in den Kapiteln der Modellelemente auf 
+        	oberster Ebene diskutiert (siehe 
+        	<xref linkend="s1.ref.stereotype"/>).
+        </para>
 
       </sect1>
 
@@ -49390,41 +49725,67 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Class</phrase>
+			<phrase lang="de">Klasse</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Class</primary></indexterm>
+        <indexterm lang="de"><primary>Klasse</primary></indexterm>
         <para lang="en">The class is the dominant model element on a class diagram. In 
         the UML metamodel it is a sub-class of <literal>
         Classifier</literal> and <literal>
         GeneralizableElement</literal>.</para>
+        <para lang="de">
+        	Die Klasse ist das dominante Modellelement in einem Klassendiagramm. 
+        	im UML-Metamodell ist sie eine Subklasse von <literal>Classifier
+        	</literal> und <literal>GeneralizableElement</literal>.
+        </para>
 
         <para lang="en">A class is represented on a class diagram as a rectangle 
         with three compartments. The top compartment 
         displays the class name (and stereotypes), the second 
         compartment any attributes and the third any operations. These 
         last two compartments may optionally be hidden.</para>
+        <para lang="de">
+        	Eine Klasse wird in einem Klassendiagramm als Rechteck mit drei 
+        	Bereichen dargestellt. Der oberste Bereich zeigt den Klassennamen 
+        	(und Stereotypen) an, der zweite Bereich alle Attribute und der 
+        	Dritte alle Operationen. Diese letzten zwei Bereich können optional 
+        	versteckt werden.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Class Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Klasse</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Class Details Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register Klasse</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Class</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register</primary>
+          	<secondary>für eine Klasse</secondary></indexterm>
           <para lang="en">The details tabs that are active for classes are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Klassen sind folgende.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -49433,6 +49794,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -49440,6 +49802,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.class_property_toolbar"/> and 
                 <xref linkend="s2.ref.class_property_fields"/> 
                 below.</para>
+                <para lang="en">
+	                Siehe 
+	                <xref linkend="s2.ref.class_property_toolbar"/> und 
+	                <xref linkend="s2.ref.class_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -49448,11 +49816,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+	                Standard-Register. Siehe
+	                <xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -49461,6 +49834,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
@@ -49472,6 +49846,15 @@ available at http://www.opencontent.org/openpub/.
                 editable
                 <literal>Bounds</literal> field defines the bounding 
                 box for the package on the diagram.</para>
+                <para lang="de">
+                	Standard-Register. Die Markierfelder <literal>Attribute
+                	</literal> und <literal>Operationen</literal> erlauben es, 
+                	die Attribut- und Operations-Bereiche anzuzeigen (der 
+                	Standard) oder auszublenden. Dies ist eine Einstellung, die 
+                	nur für das aktuelle Diagramm gültig ist, das die Klasse 
+                	darstellt. Die editierbaren Felder <literal>Begrenzung
+                	</literal> definieren die Größe des Paketrahmens im Diagramm.
+                </para>
 
               </listitem>
 
@@ -49480,12 +49863,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. This contains a template for the 
                 class declaration and declarations of associated 
                 classes.</para>
+                <para lang="de">
+                	Standard-Register. Enthält ein Template für die 
+                	Klassendeklaration und Deklarationen der verküpften Klassen.
+                </para>
 
               </listitem>
 
@@ -49494,12 +49882,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Constraints</literal></term>
+              <term lang="de"><literal>Randbedingungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. There are no standard constraints 
                 defined for <literal>Class</literal> within the UML 
                 metamodel.</para>
+                <para lang="de">
+                	Standard-Register. Es sind keine Standard-Randbedingungen 
+                	für <literal>Klassen</literal> innerhalb des UML-Metamodelles 
+                	definiert.
+                </para>
 
               </listitem>
 
@@ -49508,10 +49902,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotypes</literal></term>
+              <term lang="de"><literal>Stereotypen</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. </para>
+                <para lang="de">Standard-Register. </para>
 
               </listitem>
 
@@ -49520,17 +49916,30 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Class Tagged 
                 Values</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigenschaftswerte Klasse</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Tagged 
                 Values</primary><secondary>of 
                 Class</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigenschaftswerte</primary>
+                	<secondary>von Klasse</secondary>
+                </indexterm>
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Class</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell hat die <literal>Klasse
+                	</literal> die folgenden Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -49542,6 +49951,16 @@ available at http://www.opencontent.org/openpub/.
                     destroyed when an instance is destroyed or <literal>
                     persistent</literal>, marking state is preserved 
                     when an instance is destroyed.</para>
+                    <para lang="en">
+	                    <literal>persistence</literal> (von der Superklasse
+	                    s<literal>Classifier</literal>). Die Werte  
+	                    <literal>transitory</literal>, gibt an, dass der Zustand 
+	                    gelöscht wurde, nachdem die Instanz gelöscht oder 
+	                    <literal>persistent</literal> wurde, indicating state is 
+	                    destroyed when an instance is destroyed or <literal>
+	                    persistent</literal>, mit der Kennzeichnung, dass der 
+	                    Zustand erhalten bleibt, wenn die Instanz gelöscht wurde.
+                    </para>
 
                   </listitem>
 
@@ -49551,6 +49970,11 @@ available at http://www.opencontent.org/openpub/.
                     superclass, <literal>Classifier</literal>). The 
                     value is a specification of the semantics of the 
                     class.</para>
+                    <para lang="de">
+	                    <literal>semantics</literal> (von der Superklasse 
+	                    <literal>Classifier</literal>). Der Wert ist eine 
+	                    Spezifikation der Semantik der Klasse. 
+                    </para>
 
                   </listitem>
 
@@ -49562,12 +49986,25 @@ available at http://www.opencontent.org/openpub/.
                     is redundant&mdash;it can be formally derived from other 
                     elements, or <literal>false</literal> meaning it 
                     cannot.</para>
+                    <para lang="de">
+	                    <literal>derived</literal> (von der Superklasse 
+	                    <literal>ModelElement</literal>). 
+	                    Der Wert <literal>true</literal> bedeutet, dass die 
+	                    Klasse redundant ist&mdash; sie kann formal von anderen 
+	                    Elemente abgeleitet werden. Oder <literal>false</literal>, 
+	                    wenn sie nicht abgeleitet werden kann. 
+                    </para>
 
                     <note>
 
                       <para lang="en">Derived classes still have their value in 
                       analysis to introduce useful names or concepts, 
                       and in design to avoid re-computation.</para>
+                      <para lang="de">
+                      	Abgeleitete Klassen haben ihren Wert bei der Analyse, 
+                      	um nützliche Namen oder Konzepte einzubinden und in der 
+                      	Analyse, um die wiederholte Verarbeitung zu verhindern.
+                      </para>
 
                     </note>
 
@@ -49582,6 +50019,13 @@ available at http://www.opencontent.org/openpub/.
                   the tagged element <literal>documentation</literal> 
                   which is handled by the <emphasis>documentation 
                   tab</emphasis> under ArgoUML</para>
+                  <para lang="de">
+                  	Die UML <literal>Element</literal> Metaklasse, aus der alle 
+                  	anderen Modellelemente abgeleitet werden, enthält das 
+                  	Eigenschaftselement <literal>documentation</literal>, das 
+                  	durch das Register <literal>Dokumentation</literal> in 
+                  	ArgoUML bearbeitet wird.
+                  </para>
 
                 </note>
 
@@ -49592,10 +50036,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Checklist</literal></term>
+              <term lang="de"><literal>Checkliste</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab for a Classifier.</para>
+                <para lang="de">Standard-Register für einen Klassifizierer.</para>
 
               </listitem>
 
@@ -49609,12 +50055,20 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Class Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Klasse</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Class Property 
           Toolbar</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste Klasse</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Toolbar</primary><secondary>for 
           Class</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste</primary>
+          	<secondary>für eine Klasse</secondary>
+          </indexterm>
           <variablelist>
 
             <varlistentry>
@@ -49624,10 +50078,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur nach oben.
+                </para>
 
               </listitem>
 
@@ -49640,6 +50102,11 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/attribute.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New attribute</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/attribute.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neues Attribut</literal></term>
 
               <listitem>
 
@@ -49647,6 +50114,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s1.ref.attribute"/>) within the class, 
                 navigating immediately to the properties tab for that 
                 attribute.</para>
+                <para lang="de">
+                	Erzeugt ein neues Attribut (siehe 
+                	<xref linkend="s1.ref.attribute"/>) in der Klasse und 
+                	navigiert sofort in das Register Eigenschaften dieses 
+                	Attributes.
+                </para>
 
               </listitem>
 
@@ -49659,6 +50132,11 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/operation.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New operation</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/operation.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neue Operation</literal></term>
 
               <listitem>
 
@@ -49666,6 +50144,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s1.ref.operation"/>) within the class, 
                 navigating immediately to the properties tab for that 
                 operation.</para>
+                <para lang="de">
+                	Erzeugt eine neue Operation (siehe 
+                	<xref linkend="s1.ref.operation"/>) in der Klasse und 
+                	navigiert sofort in das Register Eigenschaften dieser 
+                	Operation.
+                </para>
 
               </listitem>
 
@@ -49678,12 +50162,21 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/reception.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New reception</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/reception.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neues Empfangssignal</literal></term>
 
               <listitem>
 
                 <para lang="en">This creates a new reception, navigating 
                 immediately to the properties tab for that 
                 reception.</para>
+                <para lang="de">
+                	Erzeugt ein neues Empfangssignal und navigiert sofort in das 
+                	Register Eigenschaften dieses Empfangssignales.
+                </para>
 
               </listitem>
 
@@ -49696,6 +50189,11 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/inner_class.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New inner class</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/inner_class.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neue innere Klasse</literal></term>
 
               <listitem>
 
@@ -49705,6 +50203,14 @@ available at http://www.opencontent.org/openpub/.
                 exactly models the Java concept of inner class. As an 
                 inner class it needs no attributes or operations, since 
                 it shares those of its owner.</para>
+                <para lang="de">
+                	Erzeugt innerhalb der Klasse eine neue innere Klasse (die in 
+                	keinem Diagramm erscheint). Sie gehört zur Klasse und ist 
+                	auf den Namensraum dieser Klasse beschränkt. Sie modelliert 
+                	exakt das Java-Konzept einer inneren Klasse. Als innere 
+                	Klasse benötigt sie keine Attribute oder Operationen, weil 
+                	sie diese mit ihrem Eigentümer teilt.
+                </para>
 
                 <note>
 
@@ -49712,6 +50218,11 @@ available at http://www.opencontent.org/openpub/.
                   This is a convenient shorthand for creating a class 
                   that is restricted to the namespace of its owning 
                   class.</para>
+                  <para lang="de">
+                  	Die innere Klasse ist kein separates Konzept in der UML. Sie 
+                  	ist eine praktische Abkürzung für eine Klasse, die auf 
+                  	den Namensraum seiner Eigentümerklasse beschränkt ist.
+                  </para>
 
                 </note>
 
@@ -49725,12 +50236,20 @@ available at http://www.opencontent.org/openpub/.
               <imagedata align="center" fileref="images/icons/class.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New class</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center" fileref="images/icons/class.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neue Klasse</literal></term>
 
               <listitem>
 
                 <para lang="en">This creates a new class (which appears on no 
                 diagram) within the same namespace as the current 
                 class.</para>
+                <para lang="de">
+                	Erzeugt im gleichen Namensraum der aktuellen Klasse eine 
+                	neue Klasse (die in keinem Diagramm erscheint). 
+                </para>
 
               </listitem>
 
@@ -49743,17 +50262,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 class, navigating immediately to the properties tab for 
                 that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte Klasse 
+                	und navigiert sofort in das Register Eigenschaften dieses 
+                	Stereotypen.
+                </para>
 
               </listitem>
 
@@ -49766,11 +50306,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the class from the model</para>
-
+				<para lang="de">
+					Löscht die Klasse aus dem Modell.
+				</para>
+				
                 <warning>
 
                   <para lang="en">This is a deletion from the model 
@@ -49778,6 +50326,13 @@ available at http://www.opencontent.org/openpub/.
                   a class from the diagram, but keep it within the 
                   model, use the main menu <literal>Remove From 
                   Diagram</literal> (or press the Delete key).</para>
+                  <para lang="de">
+                  	Dies ist ein Entfernen aus dem Modell und <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Um eine Klasse aus 
+                  	einem Diagramm zu entfernen, diese aber im Modell zu 
+                  	erhalten, verwenden Sie <literal>Aus Diagramm entferen
+                  	</literal> im Hauptmenü (oder drücken die Tasten Entf).
+                  </para>
 
                 </warning>
 
@@ -49793,31 +50348,53 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Class</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für eine Klasse</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Class Property 
           Fields</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder Klasse</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Fields</primary><secondary>for 
           Class</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder</primary>
+          	<secondary>für eine Klasse</secondary></indexterm>
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Class Name</primary></indexterm>
+                <indexterm lang="de"><primary>Klassenname</primary></indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of 
                 Class</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>der Klasse</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the class. The name of a 
                 class has a leading capital letter, with words 
                 separated by <quote>bumpy caps</quote>.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Klasse. Der Name der Klasse beginnt 
+                	mit einem Großbuchstaben und mit Wörtern, die durch <quote>
+                	wechselnde Groß-/Kleinschreibung</quote> getrennt werden. 
+                </para>
 
                 <note>
 
                   <para lang="en">The ArgoUML critics will complain about class 
                   names that do not have an initial capital.</para>
+                  <para lang="de">
+                  	Die ArgoUML-Kritik wird sich über Klassennamen beschweren, 
+                  	die nicht mit einem Großbuchstaben beginnen.
+                  </para>
 
                 </note>
 
@@ -49828,6 +50405,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
@@ -49835,9 +50413,17 @@ available at http://www.opencontent.org/openpub/.
                 Records and allows setting of 
                 the namespace for the class. This is the package 
                 hierarchy.</para>
+                <para lang="de">
+                	Kombinationsfeld. Gibt den Namensraum einer Klasse wieder 
+                	und erlaubt dessen Erstellung. Die ist die Pakethierarchie.
+                </para>
 
                 <para lang="en">Button&nbsp;1 click on the entry will move the class 
                 to the selected namespace.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Klick auf den Eintrag verschiebt die Klasse 
+                	in den markierten Namensraum.
+                </para>
 
               </listitem>
 
@@ -49846,16 +50432,29 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Modifiers</literal></term>
+              <term lang="de"><literal>Modifizierer</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Class 
                 Modifiers</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Klassenmodifizierer</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Modifiers</primary><secondary>of 
                 Class</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Modifizierer</primary>
+                	<secondary>einer Klasse</secondary>
+                </indexterm>
                 <para lang="en">Check box, with entries <literal>
                 Abstract</literal>, <literal>Leaf</literal>, <literal>
                 Root</literal>, and <literal>Active</literal>.</para>
+                <para lang="en">
+	                Markierfelder mit den Einträgen <literal>
+	                Abstract</literal>, <literal>Leaf</literal>, <literal>
+	                Root</literal> und <literal>Active</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -49865,12 +50464,24 @@ available at http://www.opencontent.org/openpub/.
                     declare that this class cannot be instantiated, but 
                     must always be subclassed. The name of an abstract 
                     class is displayed in italics on the diagram.</para>
+                    <para lang="de">
+                    	<literal>Abstract</literal> wird verwendet, um zu 
+                    	deklarieren, dass diese Klasse nicht instanziiert 
+                    	werden kann, aber immer Spezialisiert werden muss. Der 
+                    	Name einer abstrakten Klasse wird im Diagramm kursiv 
+                    	dargestellt.
+                    </para>
 
                     <caution>
 
                       <para lang="en">If a class has any abstract operations, 
                       then it should be declared abstract. ArgoUML will 
                       not enforce this.</para>
+                      <para lang="de">
+                      	Wenn eine Klasse eine abstrakte Operation aufweist, 
+                      	dann sollte sie als abstrakt deklariert werden. ArgoUML 
+                      	erzwingt dies allerdings nicht.
+                      </para>
 
                     </caution>
 
@@ -49884,6 +50495,14 @@ available at http://www.opencontent.org/openpub/.
                     It is possible for a class to be both Abstract and 
                     Leaf, since its static operations may still be 
                     referenced.</para>
+                    <para lang="de">
+                    	<literal>Leaf(Blatt)</literal> gibt an, dass diese Klasse 
+                    	nicht weiter spezialisiert werden kann, während <literal>
+                    	Root (Wurzel)</literal> angibt, dass sie keine weitere 
+                    	Subklasse haben kann. Es ist bei einer Klasse möglich, 
+                    	dass Sie abstrakt und Leaf (Blatt) ist, weil seine 
+                    	statischen Operationen referenziert werden können.
+                    </para>
 
                   </listitem>
 
@@ -49892,6 +50511,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>Active</literal> indicates that this 
                     class exhibits dynamic behavior (and is thus 
                     associated with a state or activity diagram).</para>
+                    <para lang="de">
+                    	<literal>Active</literal> gibt an, dass diese Klasse 
+                    	ein dynamisches Verhalten aufweist (und ist daher mit 
+                    	einem Zustands- oder Aktivitätsdiagramm verknüpft).
+                    </para>
 
                   </listitem>
 
