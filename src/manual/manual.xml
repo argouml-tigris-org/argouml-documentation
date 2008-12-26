@@ -50528,6 +50528,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Visibility</literal></term>
+              <term lang="de"><literal>Sichtbarkeit</literal></term>
 
               <listitem>
 
@@ -50536,6 +50537,13 @@ available at http://www.opencontent.org/openpub/.
                 <literal>protected</literal>, and
                 <literal>package</literal>. Indicates whether the 
                 class is visible outside the namespace.</para>
+                <para lang="de">
+	                Auswahlfelder mit vier Einträgen <literal>
+	                public</literal>, <literal>private</literal>, 
+	                <literal>protected</literal> und
+	                <literal>package</literal>. Gibt an, ob die Klasser 
+	                außerhalb des Namensraumes sichtbar ist. 
+                </para>
 
               </listitem>
 
@@ -50544,19 +50552,35 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Client Dependencies</literal></term>
+              <term lang="de"><literal>Abhängig von</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists the <quote>depending</quote> 
                 ends of the relationship, i.e. the end that makes use 
                 of the other end.</para>
+                <para lang="de">
+                	Textbereich. Listet alle <quote>abhängigen</quote> Enden der 
+                	Beziehung auf. Z.B. das Ende, welches Gebrauch vom anderen 
+                	Ende macht.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the dependency 
                 and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der Abhängigkeit 
+                	und öffnet dessen Register Eigenschaften.
+                </para>
                 <para lang="en">Button&nbsp;2 click shows a pop-up menu with one entry
                 <literal>Add...</literal> that
                 opens a dialog box where you can add and remove 
                 depending modelelements.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;2-Klick zeigt ein Popup-Menü mit einem Eintrag 
+                	<literal>Hinzufügen...</literal>. Dieser Eintrag öffnet ein 
+                	Dialogfenster, in dem Sie abhängige Modellelemente 
+                	hinzufügen oder entfernen können.
+                </para>
 
               </listitem>
 
@@ -50565,19 +50589,35 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Supplier Dependencies</literal></term>
+              <term lang="de"><literal>Notwendig für</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists the <quote>supplying</quote> 
                 ends of the relationship, i.e. the end supplying what 
                 is needed by the other end.</para>
+                <para lang="de">
+                	Textbereich. Listet alle Enden der Beziehung auf, die von 
+                	dieser Klasse abhängen. Z.B. das Ende, welches notwendig für 
+                	das andere Ende ist.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the dependency 
                 and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der abhängigen 
+                	Klasse und öffnet dessen Register Eigenschaften.
+                </para>
                 <para lang="en">Button&nbsp;2 click shows a pop-up menu with one entry
                 <literal>Add...</literal> that
                 opens a dialog box where you can add and remove 
                 dependent modelelements.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;2-Klick zeigt ein Popup-Menü mit dem Eintrag 
+                	<literal>Hinzufügen...</literal>. Dieser Eintrag öffnet ein 
+                	Dialogfenster in dem Sie abhängige Modellelemente hinzufügen 
+                	oder entfernen können.
+                </para>
 
               </listitem>
 
@@ -50586,14 +50626,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Generalizations</literal></term>
+              <term lang="de"><literal>Generalisierungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists any class that 
                 <emphasis>generalizes</emphasis> this class.</para>
+                <para lang="de">
+                	Textbereich. Listet jede Klasse auf, die diese Klasse 
+                	<emphasis>generalisiert</emphasis>.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the 
                 generalization and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zur Generalisierung 
+                	und öffnet dessen Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -50602,14 +50651,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Specializations</literal></term>
+              <term lang="de"><literal>Spezialisierungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any specialized class (i.e. for 
                 which this class is a generalization).</para>
+                <para lang="de">
+                	Textfeld. Listet jede spezialisierte Klasse auf (z.B. für 
+                	die diese Klasse eine Generalisierung ist).
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the 
                 generalization and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der 
+					Spezialisierung und öffnet dessen Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -50618,6 +50676,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Attributes</literal></term>
+              <term lang="de"><literal>Attribute</literal></term>
 
               <listitem>
 
@@ -50626,6 +50685,14 @@ available at http://www.opencontent.org/openpub/.
                 class. Button&nbsp;1 double click navigates to the selected 
                 attribute. Button&nbsp;2 gives a pop up menu with two 
                 entries, which allow reordering the attributes.</para>
+                <para lang="de">
+                	Textbereich. Listet alle Attribute auf (siehe 
+                	<xref linkend="s1.ref.attribute"/>), die für diese Klasse 
+                	definiert sind. Ein Taste&nbsp;1-Doppelklick navigiert zu 
+                	dem markierten Attribut. Ein Taste&nbsp;2-Klick öffnet ein 
+                	Popup-Menü mit zwei Einträgen, die eine Neuanordnung der 
+                	Attribute erlauben.
+                </para>
 
                 <itemizedlist>
 
@@ -50635,6 +50702,12 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more attributes listed, and 
                     the attribute selected is not at the top. It moves 
                     the attribute up one position.</para>
+                    <para lang="de">
+                    	<literal>Nach oben</literal>. Nur verfügbar, wenn mehr 
+                    	als zwei Attribute gelistet sind und sich das markierte 
+                    	Attribut nicht ganz oben befindet. Bewegt das Attribut 
+                    	um eine Position nach oben.
+                    </para>
 
                   </listitem>
 
@@ -50644,6 +50717,12 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more attributes listed, and 
                     the attribute selected is not at the bottom. It 
                     moves the attribute down one position.</para>
+                    <para lang="de">
+                    	<literal>Nach unten</literal>. Nur verfügbar, wenn mehr 
+                    	als zwei Attribute gelistet sind und sich das markierte 
+                    	Attribut nicht ganz unten befindet. Bewegt das Attribut 
+                    	um eine Position nach unten.
+                    </para>
 
                   </listitem>
 
@@ -50656,15 +50735,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Association Ends</literal></term>
+              <term lang="de"><literal>Endpunkte (Assoziation)</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any association ends (see 
                 <xref linkend="s1.ref.association_class"/>) of 
                 associations connected to this class.</para>
+                <para lang="de">
+                	Textfeld. Listet jeden Endpunkt der Assoziationen auf (siehe 
+                	<xref linkend="s1.ref.association_class"/>), die mit 
+                	dieser Klasse verbunden sind. 
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -50673,6 +50762,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Operations</literal></term>
+              <term lang="de"><literal>Operationen</literal></term>
 
               <listitem>
 
@@ -50681,6 +50771,14 @@ available at http://www.opencontent.org/openpub/.
                 class. Button&nbsp;1 click navigates to the selected 
                 operation. Button&nbsp;2 gives a pop up menu with two 
                 entries, which allow reordering the operations.</para>
+                <para lang="de">
+                	Textbereich. Listet alle Operationen auf (siehe 
+                	<xref linkend="s1.ref.operation"/>), die für diese Klasse 
+                	definiert sind. Ein Taste&nbsp;1-Klick navigiert zu der 
+                	markierten Operation. Ein Taste&nbsp;2-Klick öffnet ein 
+                	Popup-Menü mit zwei Einträgen, die eine Neuanordnung der 
+                	Operationen erlauben.
+                </para>
 
                 <itemizedlist>
 
@@ -50690,6 +50788,12 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more operations listed, and 
                     the operation selected is not at the top. It moves 
                     the operation up one position.</para>
+                    <para lang="de">
+                    	<literal>Nach oben</literal>. Nur verfügbar, wenn mehr 
+                    	als zwei Operationen gelistet sind und sich die markierte 
+                    	Operation nicht ganz oben befindet. Bewegt die Operation 
+                    	um eine Position nach oben.
+                    </para>
 
                   </listitem>
 
@@ -50699,6 +50803,12 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more operations listed, and 
                     the operation selected is not at the bottom. It 
                     moves the operation down one position.</para>
+                    <para lang="de">
+                    	<literal>Nach unten</literal>. Nur verfügbar, wenn mehr 
+                    	als zwei Operationen gelistet sind und sich die markierte 
+                    	Operation nicht ganz unten befindet. Bewegt die Operation 
+                    	um eine Position nach unten.
+                    </para>
 
                   </listitem>
 
@@ -50711,6 +50821,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Owned Elements</literal></term>
+              <term lang="de"><literal>Eigene Elemente</literal></term>
 
               <listitem>
 
@@ -50719,9 +50830,19 @@ available at http://www.opencontent.org/openpub/.
                 inner class (see 
                 <xref linkend="s2.ref.class_property_toolbar"/>) will 
                 appear</para>
+                <para lang="de">
+                	Textbereich. Eine Liste von Modellelementen, die sich im 
+                	Namensraum der Klasse befinden. Hier wird jede innere 
+                	Klasse (siehe 
+                	<xref linkend="s2.ref.class_property_toolbar"/>) erscheinen.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on any of the model elements 
                 navigates to that model element.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf eines der Modellelemente 
+                	navigiert zu diesem Modellelement.
+                </para>
 
                 <tip>
 
@@ -50731,6 +50852,14 @@ available at http://www.opencontent.org/openpub/.
                   Conceivable datatypes, signals and interfaces could 
                   also appear here, but actors and use cases would seem 
                   of no value.</para>
+                  <para lang="de">
+                  	Die meisten Namensraumhierarchien sollten über den 
+                  	Paketmechanismus verwaltet werden. Namensraumhierarchien 
+                  	über Klassen sind am besten auf innere Klassen zu 
+                  	beschränken. Denkbare Datentypen, Signale und Schnittstellen 
+                  	können hier auch erscheinen, aber Akteure und 
+                  	Anwendungsfälle scheinen hier wertlos.
+                  </para>
 
                 </tip>
 
@@ -50748,19 +50877,33 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Attribute</phrase>
+			<phrase lang="de">Attribute</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Attribute</primary></indexterm>
+        <indexterm lang="de"><primary>Attribute</primary></indexterm>
         <para lang="en">Attribute is a named slot within a class (or other 
         <literal>Classifier</literal>) describing a range of values 
         that may be held by instances of the class. In the UML 
         metamodel it is a sub-class of <literal>
         StructuralFeature</literal> which is itself a sub-class of 
         <literal>Feature</literal>.</para>
+        <para lang="de">
+        	Ein Attribut ist ein benanntes Element innerhalb einer Klasse (oder 
+        	ein anderer <literal>Klassifizierer</literal>), das den Wertebereich 
+        	beschreibt, den eine Klasseninstanz aufweisen kann. Im UML-Metamodell 
+        	ist dies eine Subklasse von <literal>StructuralFeature</literal>, die 
+        	widerum selbst ein Subklasse von <literal>Feature</literal> ist.
+        </para>
 
         <para lang="en">An attribute is represented in the diagram on a single 
         line within the attribute compartment of the class. Its syntax 
         is as follows:</para>
+        <para lang="de">
+        	Ein Attribut wird in einem Diagramm innerhalb des Attributbereiches 
+        	der Klasse als separate Zeile dargestellt. Seine Syntax ist wie 
+        	folgt:
+        </para>
 
         <blockquote>
 
@@ -50768,6 +50911,10 @@ available at http://www.opencontent.org/openpub/.
           <emphasis>attributeName</emphasis> <literal>:</literal> 
           <emphasis>type</emphasis> [<literal>=</literal> 
           <emphasis>initialValue</emphasis>]</para>
+          <para lang="de"><emphasis>Sichtbarkeit</emphasis> 
+          <emphasis>Attributname</emphasis> <literal>:</literal> 
+          <emphasis>Typ</emphasis> [<literal>=</literal> 
+          <emphasis>Anfangswert</emphasis>]</para>
 
         </blockquote>
 
@@ -50777,43 +50924,80 @@ available at http://www.opencontent.org/openpub/.
         <literal>public</literal>, <literal>protected</literal>, 
         <literal>private</literal>, or <literal>package</literal> 
         visibility respectively.</para>
+        <para lang="de">
+	        Die <emphasis>Sichtbarkeit</emphasis> ist <literal>+</literal>, 
+	        <literal>#</literal>, <literal>-</literal> oder 
+	        <literal>~</literal> entsprechend den Werten  
+	        <literal>public</literal>, <literal>protected</literal>, 
+	        <literal>private</literal>, oder <literal>package</literal>.
+        </para>
 
         <para lang="en"><emphasis>attributeName</emphasis> is the actual name of 
         the attribute being declared.</para>
+        <para lang="de">
+        	<emphasis>Attributname</emphasis> ist der aktuelle Name des 
+        	deklarierten Attributes.
+        </para>
 
         <para lang="en"><emphasis>type</emphasis> is the type (UML datatype, 
         class or interface) declared for the attribute.</para>
+        <para lang="de">
+        	<emphasis>Typ</emphasis> ist der für das Attribut deklarierte Typ 
+        	(UML-Datentyp, Klasse oder Schnittstelle).
+        </para>
 
         <para lang="en"><emphasis>initialValue</emphasis> is any initial value to 
         be given to the attribute when an instance of the class is 
         created. This may be overridden by any constructor 
         operation.</para>
+        <para lang="de">
+        	<emphasis>Anfangswert</emphasis> ist der Anfangswert, der dem 
+        	Attribut zugewiesen wird, wenn die Klasseninstanz erzeugt wird. 
+        	Dieser kann von einer Konstruktoroperation überschrieben werden.
+        </para>
 
         <para lang="en">In addition any attribute declared static will have its 
         whole entry underlined on the diagram.</para>
+        <para lang="de">
+        	Desweiteren wird der ganze Eintrag eines als static deklarierten 
+        	Attributes im Diagramm unterstrichen.
+        </para>
 
         <sect2 id="s2.ref.attribute_details_tabs">
 
           <title>
 			<phrase lang="en">Attribute Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Attribut</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Attribute Details 
           Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register Attribut</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Attribute</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register</primary>
+          	<secondary>für ein Attribut</secondary>
+          </indexterm>
           <para lang="en">The details tabs that are active for attributes are as 
           follows.</para>
+          <para lang="de">
+          	Die für Attribute aktiven Detail-Register sind folgende.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -50822,6 +51006,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -50829,6 +51014,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.attribute_property_toolbar"/> and 
                 <xref linkend="s2.ref.attribute_property_fields"/> 
                 below.</para>
+                <para lang="en">
+	                Siehe 
+	                <xref linkend="s2.ref.attribute_property_toolbar"/> und 
+	                <xref linkend="s2.ref.attribute_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -50837,11 +51028,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+	                Standard-Register. Siehe 
+	                <xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -50850,12 +51046,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Constraints</literal></term>
+              <term lang="de"><literal>Randbedingungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. There are no standard constraints 
                 defined for <literal>Attribute</literal> within the UML 
                 metamodel.</para>
+                <para lang="de">
+                	Standard-Register. Es sind im UML-Metamodell keine 
+                	Standard-Randbedingungen für <literal>Attribute</literal> 
+                	definiert.
+                </para>
 
               </listitem>
 
@@ -50864,10 +51066,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. </para>
+                <para lang="de">Standard-Register. </para>
 
               </listitem>
 
@@ -50876,23 +51080,35 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Attribute Tagged 
                 Values</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigenschaftswerte Attribut</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Tagged 
                 Values</primary><secondary>of 
                 Attribute</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigenschaftswerte</primary>
+                	<secondary>von Attribut</secondary>
+                </indexterm>
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Attribute</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind die folgenden 
+                	Eigenschaftswerte für <literal>Attribute</literal> definiert.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para lang="en"><literal>transient</literal>.</para>
+                    <para><literal>transient</literal>.</para>
 
                   </listitem>
 
@@ -50903,6 +51119,13 @@ available at http://www.opencontent.org/openpub/.
                     indicate that this attribute is realized in some 
                     volatile form (for example it will be a memory 
                     mapped control register).</para>
+                    <para lang="de">
+                    	<literal>volatile</literal>. Dies ist eine ArgoUML-
+                    	Erweiterung des UML 1.4-Standards, um anzuzeigen, dass 
+                    	dieses Attribut in flüchtiger Form realisiert wurde (z. 
+                    	B. könnte es ein dem Speicher zugeordnetes Steuerregister 
+                    	sein).
+                    </para>
 
                   </listitem>
 
@@ -50915,6 +51138,13 @@ available at http://www.opencontent.org/openpub/.
                   the tagged element <literal>documentation</literal> 
                   which is handled by the <emphasis>documentation 
                   tab</emphasis> under ArgoUML</para>
+                  <para lang="de">
+                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
+                  	anderen Modellelemente abgeleitet sind, enthält den 
+                  	Eigenschaftswert <literal>documentation</literal>, der in 
+                  	ArgoUML über das Register <emphasis>Dokumentation</emphasis> 
+                  	verwaltet wird.
+                  </para>
 
                 </note>
 
@@ -50925,10 +51155,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Checklist</literal></term>
+              <term lang="de"><literal>Checkliste</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab for a Attribute.</para>
+                <para lang="de">Standard-Register für ein Attribut.</para>
 
               </listitem>
 
@@ -50942,12 +51174,20 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Attribute Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Attribut</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Attribute Property 
           Toolbar</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste Attribut</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Toolbar</primary><secondary>for 
           Attribute</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste</primary>
+          	<secondary>für ein Attribut</secondary>
+          </indexterm>
           <variablelist>
 
             <varlistentry>
@@ -50957,10 +51197,16 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">Navigiert in der Paketstruktur nach oben.</para>
 
               </listitem>
 
@@ -50973,6 +51219,11 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up_previous.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go to Previous</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up_previous.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Vorheriges</literal></term>
 
               <listitem>
 
@@ -50980,6 +51231,11 @@ available at http://www.opencontent.org/openpub/.
                 of the class that owns them. 
                 This button is downlighted 
                 if the current attribute is the first one.</para>
+                <para lang="de">
+                	Navigiert zum vorherigen Attribut der Klasse. Diese 
+                	Schaltfläche ist deaktiviert, wenn das aktuelle Attribut 
+                	das Erste ist.
+                </para>
 
               </listitem>
 
@@ -50992,6 +51248,11 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up_next.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go to Next</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up_next.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nächstes</literal></term>
 
               <listitem>
 
@@ -50999,6 +51260,11 @@ available at http://www.opencontent.org/openpub/.
                 of the class that owns them. 
                 This button is downlighted 
                 if the current attribute is the last one.</para>
+                <para lang="de">
+                	Navigiert zum nächsten Attribut der Klasse. Diese 
+                	Schaltfläche ist deaktiviert, wenn das aktuelle Attribut das 
+                	Erste ist.
+                </para>
 
               </listitem>
 
@@ -51012,17 +51278,30 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/attribute.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New attribute</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/attribute.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neues Attribut</literal></term>
 
               <listitem>
 
                 <para lang="en">This creates a new attribute within the owning 
                 class of the current attribute, navigating immediately 
                 to the properties tab for that attribute.</para>
+                <para lang="de">
+                	Erzeugt ein neues Attribut innerhalb der Klasse und springt 
+                	sofort in das Register Eigenschaften dieses Attributes.
+                </para>
 
                 <tip>
 
                   <para lang="en">This is a very convenient way to add a number 
                   of attributes, one after the other, to a class.</para>
+                  <para lang="de">
+                  	Dies ist ein sehr bequemer Weg, mehrere Attribute, eines 
+                  	nach dem anderen, zu der Klasse hinzuzufügen.
+                  </para>
 
                 </tip>
 
@@ -51037,17 +51316,34 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/datatype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Datatype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/datatype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Datentyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Datatype</primary></indexterm>
+                <indexterm lang="de"><primary>Datentyp hinzufügen</primary></indexterm>
                 <indexterm lang="en"><primary>New Datatype</primary></indexterm>
+                <indexterm lang="de"><primary>Neuer Datatyp</primary></indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Datatype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Datatyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Datatype (see 
                 <xref linkend="s1.ref.datatype"/>) for the selected 
                 attribute, navigating immediately to the properties tab 
                 for that datatype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Datentyp (siehe 
+                	<xref linkend="s1.ref.datatype"/>) für das markierte 
+                	Attribut und springt sofort in das Register Eigenschaften 
+                	dieses Datentyps.
+                </para>
 
               </listitem>
 
@@ -51060,18 +51356,39 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/enumeration.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Enumeration</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/enumeration.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neue Enumeration (Aufzählung)</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Enumeration</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Enumeration (Aufzählung) hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Enumeration</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neue Enumeration (Aufzählung)</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Enumeration</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neue</primary>
+                	<secondary>Enumeration (Aufzählung)</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Enumeration (see 
                 <xref linkend="s1.ref.enumeration"/>) for the  
                 package that owns the class,
                 navigating immediately to the properties tab 
                 for that enumeration.</para>
+                <para lang="de">
+                	Erzeugt eine neue Enumeration (Aufzählung; siehe 
+                	<xref linkend="s1.ref.enumeration"/>) für das Paket, welches 
+                	die Klasse enthält und springt sofort in das Register 
+                	Eigenschaften dieser Enumeration (Aufzählung).
+                </para>
 
               </listitem>
 
@@ -51084,17 +51401,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 attribute, navigating immediately to the properties tab 
                 for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotypen (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für das markierte 
+                	Attribut und springt sofort in das Register Eigenschaften 
+                	dieses Stereotypen.
+                </para>
 
               </listitem>
 
@@ -51107,10 +51445,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the attribute from the model</para>
+                <para lang="de">
+                	Löscht das Attribut aus dem Modell.
+                </para>
 
                 <warning>
 
@@ -51121,6 +51467,15 @@ available at http://www.opencontent.org/openpub/.
                   <xref linkend="s2.ref.attribute_property_toolbar"/>) 
                   or the button&nbsp;2 pop up menu for the class on the 
                   diagram.</para>
+                  <para lang="de">
+                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Wenn gewünscht, kann der 
+                  	ganze Attributbereich im Diagramm mit Hilfe des Registers 
+                  	<emphasis>Darstellung</emphasis> (siehe 
+                  	<xref linkend="s2.ref.attribute_property_toolbar"/>), oder 
+                  	mit Hilfe des Taste&nbsp;2-Popup-Menüs für Klassen 
+                  	ausgeblendet werden.
+                  </para>
 
                 </warning>
 
@@ -51136,32 +51491,56 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Attribute</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für Attribute</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Attribute Property 
           Fields</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder Attribute</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Fields</primary><secondary>for 
           Attribute</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder</primary>
+          	<secondary>für Attribute</secondary></indexterm>
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Attribute Name</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Attribute Name</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of 
                 Attribute</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>eines Attributes</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the attribute. The name of 
                 a attribute has a leading lower case letter, with words 
                 separated by <quote>bumpy caps</quote>.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Attributes. Der Name eines Attributes 
+                	beginnt mit einem Kleinbuchstaben und mit Worten die durch 
+                	Groß-/Kleinschreibung getrennt sind.
+                </para>
 
                 <note>
 
                   <para lang="en">The ArgoUML critics will complain about 
                   attribute names that do not have an initial lower 
                   case letter.</para>
+                  <para lang="de">
+                  	Die ArgoUML-Kritiken werden sich über Attributnamen 
+                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
+                  </para>
 
                 </note>
 
@@ -51172,14 +51551,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Owner</literal></term>
+              <term lang="de"><literal>Eigentümer</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Records the class which contains this 
                 attribute.</para>
+                <para lang="de">
+                	Textfeld. Gibt die Klasse wieder, die dieses Attribut 
+                	enthält.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on the entry will navigate 
                 to the class.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf diesen Eintrag navigiert 
+                	zu der Klasse.
+                </para>
 
               </listitem>
 
@@ -51188,13 +51576,21 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Multiplicity</literal></term>
+              <term lang="de"><literal>Kardinalität</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Attribute 
                 Multiplicity</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Kardinalität Attribut</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Multiplicity</primary><secondary>of 
                 Attribute</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Kardinaltität</primary>
+                	<secondary>des Attributes</secondary>
+                </indexterm>
                 <para lang="en">Editable drop down selector with checkmark. 
                 The default value 
                 (1) is that there is one instance of this attribute for 
@@ -51204,6 +51600,18 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="en">When the checkmark is unchecked, 
                 then the multiplicity remains undefind in the model
                 (and the drop down selector is downlighted).</para>
+                <para lang="de">
+                	Editierbares Auswahlfeld mit Markierfeld. Der Standardwert 
+                	(1) heißt, dass es eine Attributinstanz für jede 
+                	Klasseninstanz gibt. Z.B. es handelt sich um ein skalares 
+                	Attribut. Das Auswahlfeld enthält eine Anzahl häufig 
+                	verwendeter Spezifikationen für nicht-skalare Attribute.
+                </para>
+                <para lang="de">
+                	Wenn das Markierfeld unmarkiert ist, dann bleibt die 
+                	Kardinalität im Modell undefiniert (und das Auswahlfeld 
+                	ist deaktiviert).
+                </para>
 
                 <note>
 
@@ -51211,11 +51619,23 @@ available at http://www.opencontent.org/openpub/.
                   for multiplicity for easy access. The user may also 
                   enter any user defined range that follows the UML 
                   syntax, such as <quote>1..3,7,10</quote>.</para>
+                  <para lang="de">
+                  	ArgoUML stellt eine Anzahl vordefinierter 
+                  	Kardinalitätsbereiche für die vereinfachte Auswahl zur 
+                  	Verfügung. Der Anwender kann aber jeden benutzerdefinierten 
+                  	Bereich eingeben, der der UML-Syntax folgt, wie z.B. 
+                  	<quote>1..3,7,10</quote>. 
+                  </para>
 
                   <para lang="en">The value <literal>1..1</literal> is equivalent 
                   to the default (exactly one scalar instance). The 
                   selection <literal>0..1</literal> indicates an 
                   optional scalar attribute.</para>
+                  <para lang="de">
+                  	Der Wert <literal>1..1</literal> entspricht dem Standard 
+                  	(exact einer skalaren Instanz). Die Auswahl <literal>0..1
+                  	</literal> kennzeichnet ein optional skalares Attribut.
+                  </para>
 
                 </note>
 
@@ -51226,17 +51646,31 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Visibility</literal></term>
+              <term lang="de"><literal>Sichtbarkeit</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Attribute 
                 Visibility</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Sichtbarkeit Attribut</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Visibility</primary><secondary>of 
                 Attribute</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Sichtbarkeit</primary>
+                	<secondary>eines Attributes</secondary>
+                </indexterm>
                 <para lang="en">Radio box, with entries <literal>
                 public</literal>, <literal>private</literal>, 
                 <literal>protected</literal> and 
                 <literal>package</literal>.</para>
+                <para lang="en">
+	                Auswahlfeld mit den vier Einträgen <literal>
+	                public</literal>, <literal>private</literal>, 
+	                <literal>protected</literal> und 
+	                <literal>package</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -51245,6 +51679,10 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>public</literal>. The attribute is 
                     available to any model element that can see the owning 
                     class.</para>
+                    <para lang="de">
+                    	<literal>public</literal>. Das Attribut ist für jedes 
+                    	Modellelement verfügbar, welches die Klasse sehen kann.
+                    </para>
 
                   </listitem>
 
@@ -51253,6 +51691,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>private</literal>. The attribute is 
                     available only to the owning class (and any inner 
                     classes).</para>
+                    <para lang="de">
+                    	<literal>private</literal>. Das Attribut ist nur 
+                    	innerhalb der Klasse verfügbar (und jeder inneren 
+                    	Klasse).
+                    </para>
 
                   </listitem>
 
@@ -51261,6 +51704,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>protected</literal>. The attribute 
                     is available only to the owning class, or model elements 
                     that are subclasses of the owning class.</para>
+                    <para lang="de">
+                    	<literal>protected</literal>. Das Attribut ist nur in 
+                    	der Klasse oder in Modellelementen verfügbar, die 
+                    	Subklassen der Klasse sind.
+                    </para>
 
                   </listitem>
 
@@ -51270,6 +51718,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>package</literal>. The attribute 
                     is available only to model elements contained in the
                     same package.</para>
+                    <para lang="de">
+                    	<literal>package</literal>. Das Attribut ist nur für 
+                    	Modellelemente verfügbar, die sich im gleichen Paket 
+                    	befinden.
+                    </para>
 
                   </listitem>
                   
@@ -51282,17 +51735,30 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Changeability</literal></term>
+              <term lang="de"><literal>Änderbarkeit</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Attribute 
                 Changeability</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Änderbarkeit Attribut</primary>
+                </indexterm>
                 <indexterm lang="en">
                 <primary>Changeability</primary><secondary>of 
                 Attribute</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Änderbarkeit</primary>
+                	<secondary>eines Attributes</secondary>
+                </indexterm>
                 <para lang="en">Radio box, with entries <literal>
                 addOnly</literal>, <literal>changeable</literal>, and 
                 <literal>frozen</literal>.</para>
+                <para lang="de">
+                	Auswahlfeld mit den Einträgen <literal>
+                	Nur hinzufügen</literal>, <literal>veränderbar</literal> und 
+                	<literal>unveränderlich</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -51303,6 +51769,14 @@ available at http://www.opencontent.org/openpub/.
                     Additional values may be added to the set of 
                     values, but once created a value may not be removed 
                     or altered.</para>
+                    <para lang="de">
+                    	<literal>Nur hinzufügen</literal>. Nur dann von 
+                    	Bedeutung, wenn die Kardinalität nicht auf einen 
+                    	einzigen Wert festgelegt ist. Zusätzliche Werte können 
+                    	dem Satz von Werten hinzugefügt werden. Wenn der Wert 
+                    	einmal erzeugt wurde, darf er nicht entfernt oder 
+                    	geändert werden. 
+                    </para>
 
                   </listitem>
 
@@ -51310,6 +51784,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>changeable</literal>. There are no 
                     restrictions of modification.</para>
+                    <para lang="de">
+                    	<literal>veränderlich</literal>. Es gibt keine 
+                    	Einschränkungen hinsichtlich der Veränderbarkeit. 
+                    </para>
 
                   </listitem>
 
@@ -51323,6 +51801,16 @@ available at http://www.opencontent.org/openpub/.
                     implies that there is usually an argument for this 
                     value in a constructor and that there is no 
                     operation that updates this value.</para>
+                    <para lang="de">
+                    	<literal>unveränderlich</literal>. Auch <quote>
+                    	eingefroren</quote> genannt. Der Wert des Attributes 
+                    	darf während der Lebensdauer der Klasse nicht geändert 
+                    	werden. Der Wert muss bei der Objekterzeugung gesetzt 
+                    	werden und darf danach niemals geändert werden. Dies 
+                    	hat zur Folge, dass es gewöhnlich ein Argument für 
+                    	diesen Wert in einem Konstruktor gibt und dass es keine 
+                    	Operation gibt, die diesen Wert aktualisiert.
+                    </para>
 
                   </listitem>
 
@@ -51335,6 +51823,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Modifiers</literal></term>
+              <term lang="de"><literal>Modifizierer</literal></term>
 
               <listitem>
 
@@ -51344,6 +51833,14 @@ available at http://www.opencontent.org/openpub/.
                 attribute is static, i.e. it has <quote>class 
                 scope</quote>. Static attributes are indicated on the 
                 diagram by underlining.</para>
+                <para lang="de">
+                	Markierfeld für <literal>static</literal>. Ist dies nicht 
+                	markiert (der Standard), dann hat das Attribut den Fokus 
+                	<quote>Instanz</quote>. Ist es markiert, dann ist das 
+                	Attribut static; es hat den Fokus <quote>Klasse</quote>. 
+                	Statische Attribute werden im Diagramm unterstrichen 
+                	dargestellt.
+                </para>
 
               </listitem>
 
@@ -51352,6 +51849,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Type</literal></term>
+              <term lang="de"><literal>Typ</literal></term>
 
               <listitem>
 
