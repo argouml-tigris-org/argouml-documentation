@@ -51854,14 +51854,25 @@ available at http://www.opencontent.org/openpub/.
               <listitem>
 
                 <indexterm lang="en"><primary>Attribute Type</primary></indexterm>
+                <indexterm lang="de"><primary>Attributtyp</primary></indexterm>
                 <indexterm lang="en"><primary>Type</primary><secondary>of 
                 Attribute</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Typ</primary>
+                	<secondary>des Attributes</secondary></indexterm>
                 <para lang="en">Drop down selector with navigation button. 
                 The type of this attribute. 
                 This can be any UML <literal>Classifier</literal>, 
                 although in practice only <literal>Class</literal>, 
                 <literal>DataType</literal>, or <literal>
                 Interface</literal> make any sense.</para>
+                <para lang="de">
+                	Kombinationsfeld. Der Typ dieses Attributes. Dies kann 
+                	jeder UML-<literal>Klassifizierer</literal> sein, obwohl  
+                	in der Praxis nur <literal>Klasse</literal>, <literal>
+                	Datentyp</literal> oder <literal>Schnittstelle</literal> 
+                	Sinn machen.
+                </para>
                 
                 <para lang="en">Pressing the navigation button
                 will navigate to the property panel for the 
@@ -51869,12 +51880,24 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s1.ref.class_class"/>, 
                 <xref linkend="s1.ref.datatype_class"/> and 
                 <xref linkend="s1.ref.interface_class"/>).</para>
+                <para lang="de">
+                	Das Drücken der Navigationsschaltfläche navigiert zum 
+                	Eigenschaftsfenster des aktuell markierten Typs. (Siehe 
+                	<xref linkend="s1.ref.class_class"/>, 
+                	<xref linkend="s1.ref.datatype_class"/> und 
+                	<xref linkend="s1.ref.interface_class"/>).
+                </para>
 
                 <note>
 
                   <para lang="en">A type must be declared (it can be <literal>
                   void</literal>). By default ArgoUML supplies <literal>
                   int</literal> as the type.</para>
+                  <para lang="de">
+                  	Ein Typ muss dekariert werden (er kann <literal>void
+                  	</literal> sein). Standardmäßig ist in ArgoUML <literal>
+                  	int</literal> als Typ voreingestellt.
+                  </para>
 
                 </note>
 
@@ -51885,14 +51908,22 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Initial Value</literal></term>
+              <term lang="de"><literal>Anfangswert</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Attribute Initial 
                 Value</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Anfangswert Attribut</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Initial 
                 Value</primary><secondary>of 
                 Attribute</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Anfangswert</primary>
+                	<secondary>des Attributs</secondary>
+                </indexterm>
                 <para lang="en">Text box with 2 compartments. 
                 This allows you to set 
                 an initial value for the attribute if desired (this is 
@@ -51900,21 +51931,44 @@ available at http://www.opencontent.org/openpub/.
                 common values <literal>0</literal>, <literal>
                 1</literal>, <literal>2</literal>, and <literal>
                 null</literal>.</para>
+                <para lang="de">
+                	Textfeld mit 2 Bereichen. Dies erlaubt es Ihnen, wenn 
+                	gewünscht, einen Anfangswert für das Attribut festzulegen 
+                	(dies ist optional). Das DropDown-Menü erlaubt den Zugriff 
+                	auf die vordefinierten Werte <literal>0</literal>, <literal>
+                	1</literal>, <literal>2</literal> und <literal>
+                	null</literal>.
+                </para>
                 
                 <para lang="en">The left hand side of this field contains 
                 the body of the expression that forms the initial value.
                 The right hand side defines 
                 the language in which the expression is written.</para>
+                <para lang="de">
+                	Der linke Teil des Feldes enthält den Rumpf des Ausdrucks, 
+                	der den Anfangswert bildet. Der rechte Teil definiert die 
+                	Sprache, in der der Ausdruck geschrieben wurde.
+                </para>
                 
                 <para lang="en">Hovering the mouse pointer over these fields, 
                 reveals a tooltip <literal>Body</literal> or 
                 <literal>Language</literal>, 
                 to help remember which is which.</para>
+                <para lang="de">
+                	Wenn Sie den Mauszeiger über diese Felder bewegen, wird 
+                	ein Hinweis <literal>Rumpf</literal> oder <literal>Sprache
+                	</literal> erscheinen, um Ihnen zu helfen, welches Feld für 
+                	was gedacht ist.
+                </para>
 
                 <caution>
 
                   <para lang="en">Any constructor operation may ignore this 
                   initial value.</para>
+                  <para lang="de">
+                  	Jede Konstruktor-Operation darf diesen Anfangswert 
+                  	ignorieren.
+                  </para>
 
                 </caution>
 
@@ -51932,36 +51986,66 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Operation</phrase>
+			<phrase lang="de">Operation</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Operation</primary></indexterm>
+        <indexterm lang="de"><primary>Operation</primary></indexterm>
         <para lang="en">An operation is a service that can be requested from an 
         object to effect behavior. In the UML metamodel it is a 
         sub-class of <literal>BehavioralFeature</literal> which is 
         itself a sub-class of <literal>Feature</literal>.</para>
+        <para lang="de">
+        	Eine Operation ist eine Dienstleistung, die von einem Objekt 
+        	angefordert werden kann, um ein Verhalten auszulösen. Im UML-
+        	Metamodell ist sie eine Subklasse von <literal>BehavioralFeature
+        	</literal>, die widerum selbst eine Subklasse von <literal>Feature
+        	</literal> ist.
+        </para>
 
         <para lang="en">In the diagram, an operation is represented on a single 
         line within the operation compartment of the class. Its syntax 
         is as follows:</para>
+        <para lang="de">
+        	Im Diagramm wird eine Operation innerhalb des Operationen-Bereiches 
+        	der Klasse durch eine Zeile dargestellt. Die Syntax ist wie folgt:
+        </para>
 
         <blockquote>
 
           <para lang="en">visibility name (parameter list) : 
           return-type-expression {property-string}</para>
+          <para lang="de">Sichtbarkeit Name (Parameterliste) : 
+          Rückgabetyp {Eigenschafts-String}</para>
 
         </blockquote>
 
         <para lang="en">You can edit this line directly in the diagram, by 
         double-clicking on it. All elements are optional and, if left 
         unspecified, the old values will be preserved.</para>
+        <para lang="de">
+        	Sie können diese Zeile im Diagramm direkt editieren, indem Sie einen 
+        	Doppelklick darauf ausführen. Alle Elemente sind optional und, wenn 
+        	sie unspezifiziert bleiben, bleiben die alten Werte erhalten.
+        </para>
 
         <para lang="en">A <emphasis>stereotype</emphasis> can be given between 
         any two elements in the line in the format: <literal>
         &lt;&lt;stereotype&gt;&gt;</literal>.</para>
+        <para lang="de">
+        	Ein <emphasis>Stereotyp</emphasis> kann zwischen zwei Elementen 
+        	einer Zeile im Format: <literal>&lt;&lt;stereotype&gt;&gt;</literal> 
+        	eingegeben werden.
+        </para>
 
         <para lang="en">The following properties are recognized to have special 
         meaning: abstract, concurrency, concurrent, guarded, leaf, 
         query, root and sequential.</para>
+        <para lang="de">
+        	Die folgenden Eigenschaften werden in ihrer speziellen Bedeutung 
+        	erkannt: abstract, concurrency, concurrent, guarded, leaf, 
+        	query, root und sequential.
+        </para>
 
         <para lang="en">The <emphasis>visibility</emphasis> is <literal>
         +</literal>, <literal>#</literal>, <literal>-</literal> or
@@ -51970,52 +52054,94 @@ available at http://www.opencontent.org/openpub/.
         protected</literal>, <literal>private</literal> visibility,
         or <literal>package</literal> visibility 
         respectively.</para>
+        <para lang="de">
+        	Die <emphasis>Sichtbarkeit</emphasis> ist <literal>
+        	+</literal>, <literal>#</literal>, <literal>-</literal> oder
+        	<literal>~</literal> und entspricht der  
+        	<literal>public</literal>, <literal>
+        	protected</literal>, <literal>private</literal> Sichtbarkeit,
+        	oder der Sichtbarkeit <literal>package</literal>.
+        </para>
 
         <para lang="en"><literal>static</literal> and <literal>final</literal> 
         optionally appear if the operation has those modifiers. Any 
         operation declared static will have its whole entry underlined 
         on the diagram.</para>
+        <para lang="de">
+        	<literal>static</literal> und <literal>final</literal> erscheinen 
+        	zusätzlich, wenn die Operation diese Modifizierer aufweist. Bei jeder  
+        	static deklarierten Operation wird deren ganzer Eintrag im Diagramm 
+        	unterstrichen.
+        </para>
 
         <para lang="en">There may be zero or more entries in the 
         <emphasis>parameter list</emphasis> separated by commas. Every 
         entry is a pair of the form:</para>
+        <para lang="de">
+        	Es können Null oder mehr Einträge in der <emphasis>Parameterliste
+        	</emphasis> durch Kommata getrennt vorhanden sein. Jeder Eintrag 
+        	besteht aus einem Paar in der Form:
+        </para>
 
         <blockquote>
 
           <para lang="en"><emphasis>name</emphasis> <literal>:</literal> 
           <emphasis>type</emphasis></para>
+          <para lang="de"><emphasis>Name</emphasis> <literal>:</literal> 
+          <emphasis>Typ</emphasis></para>
 
         </blockquote>
 
         <para lang="en">The <emphasis>return-type-expression</emphasis> is the 
         type (UML datatype, class or interface) of the result 
         returned.</para>
+        <para lang="de">
+        	Der <emphasis>Rückgabetyp</emphasis> ist der Typ des zurückgegebenen 
+        	Ergebnisses (UML-Datentyp, Klasse oder Schnittstelle).
+        </para>
 
         <para lang="en">Finally the whole entry is shown in italics if the 
         operation is declared abstract.</para>
+        <para lang="de">
+        	Schließlich wird der gesamte Eintrag kursiv dargestellt, wenn die 
+        	Operation als abstract deklariert wurde.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Operation Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Operation</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Operation Details 
           Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register Operation</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Operation</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register</primary>
+          	<secondary>für eine Operation</secondary>
+          </indexterm>
           <para lang="en">The details tabs that are active for operations are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Operationen sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -52024,6 +52150,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -52031,6 +52158,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.operation_property_toolbar"/> and 
                 <xref linkend="s2.ref.operation_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe 
+	                <xref linkend="s2.ref.operation_property_toolbar"/> und 
+	                <xref linkend="s2.ref.operation_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -52039,11 +52172,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+                	Standard-Register. Siehe 
+                	<xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -52052,12 +52190,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. The <literal>Bounds:</literal> 
                 field does allow editing, but the changes have no 
                 effect.</para>
+                <para lang="de">
+                	Standard-Register. Das Feld <literal>Begrenzung</literal> 
+                	erlaubt das Editieren, aber die Änderungen haben keine 
+                	Auswirkungen.
+                </para>
 
               </listitem>
 
@@ -52066,11 +52210,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. This contains a declaration for the 
                 operation.</para>
+                <para lang="de">
+                	Standard-Register. Dieses enthält die Deklaration für die 
+                	Operation.
+                </para>
 
               </listitem>
 
@@ -52079,12 +52228,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Constraints</literal></term>
+              <term lang="de"><literal>Randbedingungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. There are no standard constraints 
                 defined for <literal>Operation</literal> within the UML 
                 metamodel.</para>
+                <para lang="de">
+                	Standard-Register. Es sind innerhalb des UML-Metamodelles 
+                	keine Standard-Randbedingungen für <literal>Operation
+                	</literal> definiert.
+                </para>
 
               </listitem>
 
@@ -52093,17 +52248,30 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Operation Tagged 
                 Values</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigenschaftswerte Operation</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Tagged 
                 Values</primary><secondary>of 
                 Operation</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigenschaftswerte</primary>
+                	<secondary>der Operation</secondary>
+                </indexterm>
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Operation</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Operation</literal> die folgenden Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -52112,6 +52280,10 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>semantics</literal>. The value is a 
                     specification of the semantics of the 
                     operation.</para>
+                    <para lang="de">
+                    	<literal>semantics</literal>. Der Wert ist eine 
+                    	Spezifikation der Semantik der Operation.
+                    </para>
 
                   </listitem>
 
@@ -52123,6 +52295,15 @@ available at http://www.opencontent.org/openpub/.
                     operation is redundant&mdash;it can be formally derived 
                     from other elements, or <literal>false</literal> 
                     meaning it cannot.</para>
+                    <para lang="de">
+                    	<literal>derived</literal> (von der Superklasse 
+                    	<literal>ModelElement</literal>). Der Wert 
+                    	<literal>true</literal> bedeutet, dass die Operation 
+                    	redundant ist&mdash; sie kann formal von anderen 
+                    	Elementen abgeleitet werden. Oder <literal>false
+                    	</literal>, wenn sie nicht abgeleitet werden kann. 
+                    	
+                    </para>
 
                     <note>
 
@@ -52130,6 +52311,12 @@ available at http://www.opencontent.org/openpub/.
                       in analysis to introduce useful names or 
                       concepts, and in design to avoid 
                       re-computation.</para>
+                      <para lang="de">
+                      	Abgeleitete Operationen können Ihren Wert in der 
+                      	Analyse besitzen, um nützliche Namen oder Konzepte 
+                      	einzuführen. Im Design, um die wiederholte Verarbeitung 
+                      	zu verhindern.
+                      </para>
 
                     </note>
 
@@ -52144,6 +52331,13 @@ available at http://www.opencontent.org/openpub/.
                   the tagged element <literal>documentation</literal> 
                   which is handled by the <emphasis>documentation 
                   tab</emphasis> under ArgoUML</para>
+                  <para lang="de">
+                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
+                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
+                  	Eigenschaftswert <literal>documentation</literal>, der in 
+                  	ArgoUML im Register <emphasis>Dokumentation</emphasis> 
+                  	verwaltet wird.
+                  </para>
 
                 </note>
 
@@ -52154,10 +52348,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Checklist</literal></term>
+              <term lang="de"><literal>Checkliste</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab for an Operation.</para>
+                <para lang="de">Standard-Register für eine Operation.</para>
 
               </listitem>
 
@@ -52171,12 +52367,20 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Operation Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Operation</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Operation Property 
           Toolbar</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste Operation</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Toolbar</primary><secondary>for 
           Operation</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste</primary>
+          	<secondary>für eine Operation</secondary>
+          </indexterm>
           <variablelist>
 
             <varlistentry>
@@ -52186,11 +52390,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
-
+				<para lang="de">
+					Navigiert in der Paketstruktur nach oben.
+				</para>
+				
               </listitem>
 
             </varlistentry>
@@ -52202,17 +52414,30 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/operation.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New operation</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/operation.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neue Operation</literal></term>
 
               <listitem>
 
                 <para lang="en">This creates a new operation within the owning 
                 class of the current operation, navigating immediately 
                 to the properties tab for that operation.</para>
+                <para lang="de">
+                	Erzeugt eine neue Operation in der Klasse und navigiert 
+                	sofort in das Register Eigenschaften dieser Operation.
+                </para>
 
                 <tip>
 
                   <para lang="en">This is a very convenient way to add a number 
                   of operations, one after the other, to a class.</para>
+                  <para lang="de">
+                  	Dies ist ein sehr bequemer Weg, eine Anzahl von Operationen, 
+                  	eine nach der anderen, eine Klasse hinzuzufügen.
+                  </para>
 
                 </tip>
 
@@ -52227,12 +52452,22 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/parameter.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New parameter</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/parameter.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Parameter</literal></term>
 
               <listitem>
 
                 <para lang="en">This creates a new parameter for the operation, 
                 navigating immediately to the properties tab for that 
                 parameter.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Parameter für die Operation und 
+                	navigiert sofort in das Register Eigenschaften dieses 
+                	Parameters.
+                </para>
 
               </listitem>
 
@@ -52245,12 +52480,21 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/signal.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New raised signal</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/signal.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neues Signal</literal></term>
 
               <listitem>
 
                 <para lang="en">This creates a new raised signal for the 
                 operation, navigating immediately to the properties tab 
                 for that raised signal.</para>
+                <para lang="de">
+                	Erzeugt ein neues Signal für die Operation und navigiert 
+                	sofort in das Register Eigenschaften dieses Signals.
+                </para>
 
               </listitem>
 
@@ -52263,17 +52507,36 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/datatype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Datatype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/datatype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Datentyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Datatype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Datatyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Datatype</primary></indexterm>
+                <indexterm lang="de"><primary>Neuer Datatyp</primary></indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Datatype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeugt neuen</primary>
+                	<secondary>Datatyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Datatype (see 
                 <xref linkend="s1.ref.datatype"/>) in the namespace of 
                 the owner of the operation, navigating immediately to 
                 the properties tab for that datatype.</para>
+                <para lang="de">
+                	Erzeugt im Namensraum des Eigentümers dieser Operation einen 
+                	neuen Datentyp (siehe <xref linkend="s1.ref.datatype"/>) 
+                	und springt sofort in das Register Eigenschaften dieses 
+                	Datentyps.
+                </para>
 
               </listitem>
 
@@ -52286,17 +52549,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotypen</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 operation, navigating immediately to the properties tab 
                 for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotypen (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Operation und springt sofort in das Register Eigenschaften 
+                	dieses Stereotypen.
+                </para>
 
               </listitem>
 
@@ -52309,10 +52593,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the operation from the model</para>
+                <para lang="de">
+                	Löscht die Operation aus dem Modell.
+                </para>
 
                 <warning>
 
@@ -52324,6 +52616,14 @@ available at http://www.opencontent.org/openpub/.
                   <xref linkend="s2.ref.operation_property_toolbar"/>) 
                   or the button&nbsp;2 pop up menu for the class on the 
                   diagram.</para>
+                  <para lang="de">
+                  	Dies ist eine Löschung aus dem Modell und <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Wenn gewünscht, kann der 
+                  	ganze Operationen-Bereich der Klasse im Diagramm mit Hilfe 
+                  	des Registers <emphasis>Darstellung</emphasis> 
+                  	(siehe <xref linkend="s2.ref.operation_property_toolbar"/>) 
+                  	oder dem Taste&nbsp;2-Popup-Menü versteckt werden.
+                  </para>
 
                 </warning>
 
@@ -52339,32 +52639,57 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Operation</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für Operation</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Operation Property 
           Fields</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder Operation</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Fields</primary><secondary>for 
           Operation</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder</primary>
+          	<secondary>für eine Operation</secondary>
+          </indexterm>
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Operation Name</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name der Operation</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of 
                 Operation</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>der Operation</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the operation. The name of 
                 an operation has a leading lower case letter, with 
                 words separated by <quote>bumpy caps</quote>.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Operation. Der Name einer Operation 
+                	beginnt mit einem Kleinbuchstaben und besteht aus Wörtern, 
+                	die durch Groß-/Kleinschreibung getrennt sind.
+                </para>
 
                 <note>
 
                   <para lang="en">The ArgoUML critics will complain about 
                   operation names that do not have an initial lower 
                   case letter.</para>
+                  <para lang="de">
+                  	Die ArgoUML-Kritiken werden sich über Operationsnamen 
+                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
+                  </para>
 
                 </note>
 
@@ -52375,6 +52700,13 @@ available at http://www.opencontent.org/openpub/.
                   will violate this rule. Silence the critic by setting 
                   the stereotype <literal>create</literal> for the 
                   constructor operation.</para>
+                  <para lang="de">
+                  	Wenn Sie der Java-Konvention folgen wollen, dass 
+                  	Konstruktoren den gleichen Namen wie die Klasse haben, werden 
+                  	Sie diese Regel brechen. Bringen Sie diese Kritik zum 
+                  	Schweigen, indem Sie den Stereotypen <literal>create
+                  	</literal> für die Konstruktor-Operation vergeben. 
+                  </para>
 
                 </tip>
 
@@ -52385,18 +52717,32 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Operation 
                 Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp Operation</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Stereotype</primary><secondary>of 
                 Operation</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp</primary>
+                	<secondary>der Operation</secondary>
+                </indexterm>
                 <para lang="en">Drop down selector. There are two UML standard 
                 stereotypes for <literal>Operation</literal> (from the 
                 parent metaclass, <literal>
                 BehavioralFeature</literal>), <literal>create</literal> 
                 and <literal>destroy</literal>.</para>
+                <para lang="de">
+                	Kombinationsfeld. Es gibt zwei UML-Standard-Stereotypen für 
+                	eine <literal>Operation</literal> (von der Eltern-Metaklasse 
+                	<literal>BehavioralFeature</literal>) <literal>create
+                	</literal> und <literal>destroy</literal>.
+                </para>
 
                 <tip>
 
@@ -52404,6 +52750,12 @@ available at http://www.opencontent.org/openpub/.
                   stereotype for constructors, and <literal>
                   destroy</literal> for destructors (which are called 
                   <quote>finalize</quote> methods under Java).</para>
+                  <para lang="de">
+                  	Sie sollten <literal>create</literal> als Stereotyp für 
+                  	Konstruktoren und <literal>destroy</literal> für Destruktoren 
+                  	(die über die <quote>finalize</quote>-Methoden in Java 
+                  	aufgerufen werden).
+                  </para>
 
                 </tip>
 
@@ -52414,6 +52766,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotype navigieren</literal></term>
 
               <listitem>
 
@@ -52424,6 +52777,16 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, clicking 
                 button&nbsp;1 will navigate to the stereotype property panel 
                 (see <xref linkend="s1.ref.stereotype_class"/>).</para>
+                <para lang="de">
+                	<guiicon><inlinemediaobject><imageobject>
+                	<imagedata align="center"
+                 	fileref="images/icons/navigate_stereotype.gif"
+                 	format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+                	Symbol. Wenn ein Stereotyp markiert wurde, navigiert das 
+                	Klicken auf die Taste&nbsp;1 in das Eigenschaftsfenster des 
+                	Stereotypen (siehe 
+                	<xref linkend="s1.ref.stereotype_class"/>).
+                </para>
 
               </listitem>
 
@@ -52432,14 +52795,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Owner</literal></term>
+              <term lang="de"><literal>Eigentümer</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Records the class which contains this 
                 operation.</para>
+                <para lang="de">
+                	Textfeld. Gibt die Klasse wieder, die diese Operation 
+                	enthält.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on the entry will navigate 
                 to the class.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf diesen Eintrag navigiert 
+                	zu der Klasse.
+                </para>
 
               </listitem>
 
@@ -52448,17 +52820,31 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Visibility</literal></term>
+              <term lang="de"><literal>Sichtbarkeit</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Operation 
                 Visibility</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Sichtbarkeit Operation</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Visibility</primary><secondary>of 
                 Operation</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Sichtbarkeit</primary>
+                	<secondary>der Operation</secondary>
+                </indexterm>
                 <para lang="en">Radio box, with entries <literal>
                 public</literal>, <literal>private</literal>,  
                 <literal>protected</literal> and
                 <literal>package</literal>.</para>
+                <para lang="de">
+	                Auswahlfelder mit den Einträgen <literal>
+	                public</literal>, <literal>private</literal>,  
+	                <literal>protected</literal> und
+	                <literal>package</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -52467,6 +52853,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>public</literal>. The operation is 
                     available to any model element that can see the owning 
                     class.</para>
+                    <para lang="de">
+                    	<literal>public</literal>. Die Operation ist für jedes 
+                    	Modellelement verfügbar, dass die zugehörige Klasse 
+                    	sehen kann.
+                    </para>
 
                   </listitem>
 
@@ -52475,6 +52866,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>private</literal>. The operation is 
                     available only to the owning class (and any inner 
                     classes).</para>
+                    <para lang="de">
+                    	<literal>private</literal>. Die Operation ist nur 
+                    	innerhalb der zugehörgien Klasse (und jeder inneren 
+                    	Klasse) verfügbar.
+                    </para>
 
                   </listitem>
 
@@ -52483,6 +52879,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>protected</literal>. The operation 
                     is available only to the owning class, or model elements 
                     that are subclasses of the owning class.</para>
+                    <para lang="de">
+                    	<literal>protected</literal>. Die Operation ist nur in 
+                    	der zugehörigen Klasse oder den Modellelementen, die 
+                    	Subklassen der zugehörigen Klasse sind, verfügbar.
+                    </para>
 
                   </listitem>
                   <listitem>
@@ -52490,6 +52891,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>package</literal>. The operation 
                     is available only model elements contained in the 
                     same package.</para>
+                    <para lang="de">
+                    	<literal>package</literal>. Die Operation ist nur für 
+                    	die Modellelemente verfügbar, die sich im gleichen 
+                    	Paket befinden.
+                    </para>
 
                   </listitem>
 
@@ -52502,17 +52908,31 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Modifiers</literal></term>
+              <term lang="de"><literal>Modifizierer</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Operation 
                 Modifiers</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Operation Modifizierer</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Modifiers</primary><secondary>of 
                 Operation</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Modifizierer</primary>
+                	<secondary>für eine Operation</secondary>
+                </indexterm>
                 <para lang="en">Check box, with entries <literal>
                 abstract</literal>, <literal>leaf</literal>, <literal>
                 root</literal>, <literal>query</literal>, and <literal>
                 static</literal>.</para>
+                <para lang="de">
+                	Markierfelder mit den Einträgen <literal>
+                	abstract</literal>, <literal>leaf</literal>, <literal>
+                	root</literal>, <literal>query</literal>, und <literal>
+                	static</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -52522,11 +52942,20 @@ available at http://www.opencontent.org/openpub/.
                     has no implementation with this class. The 
                     implementation must be provided by a 
                     subclass.</para>
+                    <para lang="de">
+                    	<literal>abstract</literal>. Diese Operation wird in 
+                    	dieser Klasse nicht implementiert. Die Implementierung 
+                    	muss in einer Subklasse enthalten sein.
+                    </para>
 
                     <important>
 
                       <para lang="en">Any class with an abstract operation must 
                       itself be declared abstract.</para>
+                      <para lang="de">
+                      	Jede Klasse mit einer abstrakten Operation muss selbst 
+                      	als abstract deklariert werden.
+                      </para>
 
                     </important>
 
@@ -52537,6 +52966,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>leaf</literal>. The implementation 
                     of this operation must not be overridden by any 
                     subclass.</para>
+                    <para lang="de">
+                    	<literal>leaf (Blatt)</literal>. Die Implementierung 
+                    	dieser Operation darf nicht durch eine Subklasse 
+                    	überschrieben werden. 
+                    </para>
 
                   </listitem>
 
@@ -52545,6 +52979,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>root</literal>. The declaration of 
                     this operation must not override a declaration of 
                     the operation from a superclass.</para>
+                    <para lang="de">
+                    	<literal>root (Wurzel)</literal>. Die Deklaration dieser 
+                    	Operation darf nicht durch eine Deklaration einer 
+                    	Operation einer Subklasse überschrieben werden. 
+                    </para>
 
                   </listitem>
 
@@ -52554,11 +52993,21 @@ available at http://www.opencontent.org/openpub/.
                     the operation must have no side effects (i.e. it 
                     must not change the state of the system). It can 
                     only return a value.</para>
+                    <para lang="de">
+                    	<literal>query (Abfrage)</literal>. Dies gibt an, dass 
+                    	die Operation keine Seiteneffekte haben darf (z.B. sie 
+                    	darf den Zustand des Systems nicht verändern). Sie kann 
+                    	nur einen Wert zurückgeben. 
+                    </para>
 
                     <caution>
 
                       <para lang="en">Operations for user defined datatypes must 
                       always check this modifier.</para>
+                      <para lang="de">
+                      	Operationen benutzerdefinierter Datentypen müssen 
+                      	diesen Modifizierer immer prüfen.
+                      </para>
 
                     </caution>
 
@@ -52573,6 +53022,15 @@ available at http://www.opencontent.org/openpub/.
                     attribute of a <literal>Feature</literal> metaclass 
                     within UML. Any operation declared static is shown 
                     underlined on the class diagram.</para>
+                    <para lang="de">
+                    	<literal>static</literal>. Es gibt nur eine Instanz 
+                    	von dieser, mit der Klasse verknüpften Operation (im 
+                    	Gegensatz zu einer Operation für jede Instanz einer 
+                    	Klasse). Dies ist das Attribut <literal>OwnerScope
+                    	</literal> der Metaklasse <literal>Feature</literal> in 
+                    	UML. Jede static deklarierte Operation wird im 
+                    	Klassendiagramm unterstrichen dargestellt.
+                    </para>
 
                   </listitem>
 
@@ -52585,16 +53043,29 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Concurrency</literal></term>
+              <term lang="de"><literal>Gleichzeitigkeit</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Operation 
                 Concurrency</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Gleichzeitigkeit Operation</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Concurrency</primary><secondary>of 
                 Operation</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Gleichzeitigkeit</primary>
+                	<secondary>einer Operation</secondary>
+                </indexterm>
                 <para lang="en">Radio box, with entries <literal>
                 guarded</literal>, <literal>sequential</literal>, and 
                 <literal>concurrent</literal>.</para>
+                <para lang="de">
+	                Auswahlfelder mit den Einträgen <literal>
+	                guarded</literal>, <literal>sequential</literal> und 
+	                <literal>concurrent</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -52606,6 +53077,13 @@ available at http://www.opencontent.org/openpub/.
                     one is allowed to commence. The others are blocked 
                     until the performance of the first operation is 
                     complete.</para>
+                    <para lang="de">
+                    	<literal>guarded</literal>. Mehrere Aufrufe 
+                    	konkurrierender Threads können für eine Instanz 
+                    	gleichzeitig auftreten (bei jeder geschützten Operation), 
+                    	aber nur eine darf beginnen. Die anderen werden so lange 
+                    	geblockt, bis die erste Operation abgeschlossen ist.
+                    </para>
 
                     <caution>
 
@@ -52614,6 +53092,12 @@ available at http://www.opencontent.org/openpub/.
                       responsibility of the operation to implement the 
                       blocking behavior (as opposed to the 
                       system).</para>
+                      <para lang="de">
+                      	Der Systemdesigner muss sicherstellen, dass kein 
+                      	Deadlock auftreten kann. Es liegt in der Verantwortung 
+                      	der Operation, das blockierende Verhalten zu 
+                      	implementieren (im Gegensatz zum System).
+                      </para>
 
                     </caution>
 
@@ -52626,6 +53110,13 @@ available at http://www.opencontent.org/openpub/.
                     may be outstanding at any one time. There is no 
                     protection, and no guarantee of behavior if the 
                     system violates this rule.</para>
+                    <para lang="de">
+                    	<literal>sequential</literal>. Nur ein Aufruf auf die 
+                    	Instanz (der Klasse mit der Operation) darf zu einer 
+                    	bestimmten Zeit anstehen. Es gibt keinen Schutz und 
+                    	keine Garantie des Verhaltens, wenn das System diese 
+                    	Regel verletzt.
+                    </para>
 
                   </listitem>
 
@@ -52637,6 +53128,15 @@ available at http://www.opencontent.org/openpub/.
                     behavior. This must be managed even if there are 
                     other sequential or synchronized (guarded) 
                     operations executing at the time.</para>
+                    <para lang="de">
+                    	<literal>concurrent</literal>. Mehrer Aufrufe auf eine 
+                    	Instanz können gleichzeitig ausgeführt werden. Die 
+                    	Operation ist in der Lage, korrektes Verhalten 
+                    	sicherzustellen. Dies muss verwaltet werden, wenn es  
+                    	andere sequenzielle oder synchronisierte (geschützte) 
+                    	Operationen gibt, die zur gleichen Zeit ausgeführt 
+                    	werden.
+                    </para>
 
                   </listitem>
 
@@ -52649,22 +53149,42 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Parameter</literal></term>
+              <term lang="de"><literal>Parameter</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Operation 
                 Parameter</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Operation Parameter</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Parameter</primary><secondary>of 
                 Operation</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Parameter</primary>
+                	<secondary>einer Operation</secondary>
+                </indexterm>
                 <para lang="en">Text area, with entries for all the parameters of 
                 the operation (see <xref linkend="s1.ref.parameter"/>). 
                 A new operation is always created with one new 
                 parameter, <literal>return</literal> to define the 
                 return type of the operation.</para>
+                <para lang="de">
+                	Textbereich, mit Einträgen für alle Parameter der Operation 
+                	(siehe <xref linkend="s1.ref.parameter"/>).
+                	Eine neue Operation wird immer mit einem neuen Parameter 
+                	<literal>return</literal> erzeugt, um den Rückgabetyp der 
+                	Operation zu definieren.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on any of the parameters 
                 navigates to that parameter. Button&nbsp;2 click brings up a 
                 pop up menu with two entries.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf einen dieser Parameter 
+                	navigiert zu diesem Parameter. Ein Taste&nbsp;2-Klick 
+                	öffnet ein Popup-Menü mit zwei Einträgen.
+                </para>
 
                 <itemizedlist>
 
@@ -52674,6 +53194,12 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more parameters, and the 
                     parameter selected is not at the top. It is moved 
                     up one position.</para>
+                    <para lang="de">
+                    	<literal>Nach oben</literal>. Nur verfügbar, wenn es 
+                    	mehr als zwei Parameter gibt und sich der markierte 
+                    	Parameter nicht ganz oben befindet. Er wird um eine 
+                    	Position nach oben bewegt.
+                    </para>
 
                   </listitem>
 
@@ -52683,6 +53209,12 @@ available at http://www.opencontent.org/openpub/.
                     where there are two or more parameters listed, and 
                     the parameter selected is not at the bottom. It is 
                     moved down one position.</para>
+                    <para lang="de">
+                    	<literal>Nach unten</literal>. Nur verfügbar, wenn es 
+                    	mehr als zwei Parameter gibt und sich der markierte 
+                    	Parameter nicht ganz unten befindet. Er wird um eine 
+                    	Position nach unten bewegt.
+                    </para>
 
                   </listitem>
 
@@ -52695,28 +53227,51 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Raised Signals</literal></term>
+              <term lang="de"><literal>Ausgelöste Signale</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Operation Raised 
                 Signals</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Operation Ausgelöste Signale</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Raised 
                 Signals</primary><secondary>of 
                 Operation</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Ausgelöste Signale</primary>
+                	<secondary>einer Operation</secondary>
+                </indexterm>
                 <para lang="en">Text area, with entries for all the signals (see 
                 <xref linkend="s1.ref.signal"/>) that can be raised by 
                 the operation.</para>
+                <para lang="de">
+                	Textbereich mit Einträgen für alle Signale (siehe 
+                	<xref linkend="s1.ref.signal"/>), die durch diese Operation 
+                	ausgelöst werden.
+                </para>
 
                 <caution>
 
                   <para lang="en">ArgoUML at present (V0.18) has limited support 
                   for signals. In particular they are not linked to 
                   signal events that could drive state machines.</para>
+                  <para lang="de">
+                  	Das aktuelle ArgoUML (V0.18) enthält nur einen eingeschränkten 
+                  	Support für Signale. Sie sind insbesondere nicht mit 
+                  	Signalereignissen verknüpft, die Zustandsautomaten aktivieren 
+                  	könnten. 
+                  </para>
 
                 </caution>
 
                 <para lang="en">Button&nbsp;1 double click on any of the signals 
                 navigates to that parameter.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf jedes der Signale navigiert 
+                	zu diesem Signal.
+                </para>
 
               </listitem>
 
@@ -52732,6 +53287,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Parameter</phrase>
+			<phrase lang="de">Parameter</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Parameter</primary></indexterm>
