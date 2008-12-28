@@ -53291,53 +53291,88 @@ available at http://www.opencontent.org/openpub/.
 		</title>
 
         <indexterm lang="en"><primary>Parameter</primary></indexterm>
+        <indexterm lang="de"><primary>Parameter</primary></indexterm>
         <para lang="en">A parameter is a variable that can be passed. In the UML 
         metamodel it is a sub-class of <literal>
         ModelElement</literal>.</para>
+        <para lang="de">
+        	Ein Parameter ist eine Variable, die übergeben werden kann. Im UML-
+        	Metamodell ist er eine Subklasse von <literal>ModelElement</literal>.
+        </para>
 
         <para lang="en">A parameter is represented within the operation 
         declaration in the operation compartment of a class as 
         follows.</para>
+        <para lang="de">
+        	Ein Parameter wird innerhalb der Operationsdeklaration im 
+        	Operationenbereich der Klasse wie folgt dargestellt.
+        </para>
 
         <blockquote>
 
           <para lang="en"><emphasis>name</emphasis> <literal>:</literal> 
           <emphasis>type</emphasis></para>
+          <para lang="de"><emphasis>Name</emphasis> <literal>:</literal> 
+          <emphasis>Typ</emphasis></para>
 
         </blockquote>
 
         <para lang="en"><emphasis>name</emphasis> is the name of the 
         parameter.</para>
+        <para lang="de">
+        	<emphasis>Name</emphasis> ist der Name des Parameters. 
+        </para>
 
         <para lang="en"><emphasis>type</emphasis> is the type (UML datatype, 
         class or interface) of the parameter.</para>
+        <para lang="de">
+        	<emphasis>Typ</emphasis> ist der Typ (UML-Datentyp, Klasse oder 
+        	Schnittstelle) des Parameters. 
+        </para>
 
         <para lang="en">The exception is any parameter representing a return 
         value, whose type only is shown at the end of the operation 
         declaration.</para>
+        <para lang="de">
+        	Die Ausnahme ist ein Parameter, der einen Rückgabewert darstellt, 
+        	dessen Typ nur am Ende der Operationsdeklaration angezeigt wird.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Parameter Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Parameter</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Parameter Details 
           Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register Parameter</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Parameter</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register</primary>
+          	<secondary>für einen Parameter</secondary>
+          </indexterm>
           <para lang="en">The details tabs that are active for parameters are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Parameter sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -53346,6 +53381,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -53353,6 +53389,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.parameter_property_toolbar"/> and 
                 <xref linkend="s2.ref.parameter_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe 
+	                <xref linkend="s2.ref.parameter_property_toolbar"/> und 
+	                <xref linkend="s2.ref.parameter_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -53361,11 +53403,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+	                Standard-Register. Siehe 
+	                <xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -53374,11 +53421,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. This contains a declaration for the 
                 parameter.</para>
+                <para lang="de">
+                	Standard-Register. Enthält die Deklaration für einen 
+                	Parameter.
+                </para>
 
               </listitem>
 
@@ -53387,17 +53439,30 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Parameter Tagged 
                 Values</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigenschaftswerte Parameter</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Tagged 
                 Values</primary><secondary>of 
                 Parameter</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigenschaftswerte</primary>
+                	<secondary>eines Parameters</secondary>
+                </indexterm>
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Parameter</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell hat ein <literal>
+                	Parameter</literal> die folgenden definierten 
+                	Standard-Eigenschaftswerte. 
+                </para>
 
                 <itemizedlist>
 
@@ -53409,11 +53474,23 @@ available at http://www.opencontent.org/openpub/.
                     parameter is redundant&mdash;it can be formally derived 
                     from other elements, or <literal>false</literal> 
                     meaning it cannot.</para>
+                    <para lang="de">
+	                    <literal>derived</literal> (von der Superklasse  
+	                    <literal>ModelElement</literal>). 
+	                    Der Wert <literal>true</literal> bedeutet, dass der 
+	                    Parameter redundant ist&mdash; er kann formal von 
+	                    anderen Elementen abgeleitet werden oder <literal>false
+	                    </literal>, wenn er nicht abgeleitet werden kann. 
+                    </para>
 
                     <caution>
 
                       <para lang="en">A derived parameter is a meaningless 
                       concept.</para>
+                      <para lang="de">
+                      	Ein abgeleiteter Parameter ist ein bedeutungsloses 
+                      	Konzept.
+                      </para>
 
                     </caution>
 
@@ -53428,6 +53505,13 @@ available at http://www.opencontent.org/openpub/.
                   the tagged element <literal>documentation</literal> 
                   which is handled by the <emphasis>documentation 
                   tab</emphasis> under ArgoUML</para>
+                  <para lang="de">
+                  	Die UML-Metaklasse <literal>Element</literal>, von dem alle 
+                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
+                  	Eigenschaftswert <literal>documentation</literal>. Dieser 
+                  	wird in ArgoUML durch das Register <emphasis>Dokumentation
+                  	</emphasis> verwaltet.
+                  </para>
 
                 </note>
 
@@ -53443,12 +53527,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Parameter Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Parameter</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Parameter Property 
           Toolbar</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste Parameter</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Toolbar</primary><secondary>for 
           Parameter</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste</primary>
+          	<secondary>für einen Parameter</secondary></indexterm>
           <variablelist>
 
             <varlistentry>
@@ -53458,10 +53549,16 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">Navigiert in der Paketstruktur nach obene.</para>
 
               </listitem>
 
@@ -53474,6 +53571,11 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/parameter.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New parameter</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/parameter.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Parameter</literal></term>
 
               <listitem>
 
@@ -53481,11 +53583,20 @@ available at http://www.opencontent.org/openpub/.
                 operation as the current parameter, navigating 
                 immediately to the properties tab for that 
                 parameter.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Parameter für die gleiche Operation des 
+                	aktuellen Parameters und springt sofort in das Register 
+                	Eigenschaften dieses Parameters.
+                </para>
 
                 <tip>
 
                   <para lang="en">This is a convenient way to add a series of 
                   parameters for the same operation.</para>
+                  <para lang="de">
+                  	Dies ist ein bequemer Weg, um eine Reihe von Parametern der 
+                  	gleichen Operation hinzuzufügen.
+                  </para>
 
                 </tip>
 
@@ -53500,18 +53611,39 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/datatype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Datatype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/datatype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Datentyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Datatype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Datentyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Datatype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Datentyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Datatype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Datentyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Datatype (see 
                 <xref linkend="s1.ref.datatype"/>) in the namespace of 
                 the owner of the operation of the parameter, navigating 
                 immediately to the properties tab for that 
                 datatype.</para>
+                <para lang="de">
+                	Erzeugt im Namensraum des Eigentümers der Operation dieses 
+                	Parameters einen neuen Datentyp (siehe 
+                	<xref linkend="s1.ref.datatype"/>) und springt sofort in das 
+                	Register Eigenschaften dieses Datentyps. 
+                </para>
 
               </listitem>
 
@@ -53524,17 +53656,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 parameter, navigating immediately to the properties tab 
                 for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotypen (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für dem markierten 
+                	Parameter und springt sofort in das Register Eigenschaften 
+                	dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -53547,11 +53700,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the parameter from the model</para>
-
+				<para lang="de">
+					Löscht den Parameter aus dem Modell.
+				</para>
+				
                 <warning>
 
                   <para lang="en">This is a deletion from the model 
@@ -53560,6 +53721,13 @@ available at http://www.opencontent.org/openpub/.
                   diagram using the <emphasis>presentation</emphasis> 
                   tab or the button&nbsp;2 pop up menu for the class on the 
                   diagram.</para>
+                  <para lang="de">
+                  	Dies ist eine Löschung aus dem Modell und <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Wenn gewünscht, kann der 
+                  	ganze Operationenbereich im Diagramm mit Hilfe des Registers 
+                  	<literal>Darstellung</literal> oder mit dem Taste&nbsp;2-
+                  	Popup-Menü der Klasse versteckt werden.
+                  </para>
 
                 </warning>
 
@@ -53575,33 +53743,59 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Parameter</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für Parameter</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Parameter Property 
           Fields</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder Parameter</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Fields</primary><secondary>for 
           Parameter</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder</primary>
+          	<secondary>für einen Parameter</secondary>
+          </indexterm>
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Parameter Name</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Parameter-Name</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of 
                 Parameter</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>des Parameters</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the parameter. By 
                 convention, the name of a parameter has a leading lower 
                 case letter, with words separated by <quote>bumpy 
                 caps</quote>.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Parameters. Der Name des Parameters 
+                	beginnt per Konvention mit einem Kleinbuchstaben und ist aus 
+                	Wörter zusammengesetzt, die durch Groß-/Kleinschreibung 
+                	getrennt werden. 
+                </para>
 
                 <note>
 
                   <para lang="en">The ArgoUML critics do not complain about 
                   parameter names that do not have an initial lower 
                   case letter.</para>
+                  <para lang="de">
+                  	Die ArgoUML-Kritiken werden sich nicht über Parameternamen 
+                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
+                  </para>
 
                 </note>
 
@@ -53612,15 +53806,27 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Parameter 
                 Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Parameter-Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Stereotype</primary><secondary>of 
                 Parameter</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp</primary>
+                	<secondary>eines Parameters</secondary>
+                </indexterm>
                 <para lang="en">Drop down selector. There are no UML standard 
                 stereotypes for <literal>Parameter</literal>.</para>
+                <para lang="de">
+                	Kombinationsfeld. Es gibt keine UML-Standard-Stereotypen 
+                	für <literal>Parameter</literal>.
+                </para>
 
               </listitem>
 
@@ -53629,6 +53835,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -53639,6 +53846,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, wird ArgoUML 
+	                zum Eigenschaftsfenster dieses Stereotypen springen. (siehe  
+	                <xref linkend="s1.ref.stereotype"/>).
+                </para>
 
               </listitem>
 
@@ -53647,14 +53863,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Owner</literal></term>
+              <term lang="de"><literal>Eigentümer</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Records the operation which contains 
                 this parameter.</para>
+                <para lang="de">
+                	Textbereich. Gibt die Operation wieder, die diesen Parameter 
+                	beinhaltet.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on the entry will navigate 
                 to the operation.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf diesen Eintrag navigiert 
+                	zu der entsprechenden Operation.
+                </para>
 
               </listitem>
 
@@ -53663,17 +53888,32 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Type</literal></term>
+              <term lang="de"><literal>Typ</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Parameter Type</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Parameter-Typ</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Type</primary><secondary>of 
                 Parameter</secondary></indexterm>
-                <para lang="en">Drop down selector. The type of this parameter. 
+                <indexterm lang="de">
+                	<primary>Typ</primary>
+                	<secondary>des Parameters</secondary>
+                </indexterm>
+                 <para lang="en">Drop down selector. The type of this parameter. 
                 This can be any UML <literal>Classifier</literal>, 
                 although in practice only <literal>Class</literal>, 
                 <literal>DataType</literal>, or <literal>
                 Interface</literal> make any sense.</para>
+                <para lang="de">
+                	Auswahlfeld. Der Typ dieses Parameters. Dies kann jeder 
+                	UML-<literal>Klassifizierer</literal> sein, obwohl in der 
+                	Praxis nur <literal>Klasse</literal>, <literal>Datentyp
+                	</literal>, oder <literal>Schnittstelle</literal> Sinn 
+                	machen.
+                </para>
 
                 <note>
 
@@ -53683,6 +53923,13 @@ available at http://www.opencontent.org/openpub/.
                   <literal>int</literal> as the type the first time a 
                   parameter is created, and thereafter the type of the 
                   most recently created parameter.</para>
+                  <para lang="de">
+                  	Ein Typ muss deklariert sein (er kann <literal>void
+                  	</literal> sein, dies macht aber nur für Return-Parameter 
+                  	Sinn). Standardmäßig ist <literal>int</literal> beim 
+                  	Erzeugen eines Parameters voreingestellt und daher der Typ 
+                  	des am häufigsten erzeugten Parameters. 
+                  </para>
 
                 </note>
 
@@ -53693,31 +53940,57 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Default Value</literal></term>
+              <term lang="de"><literal>Standardwert</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Parameter Initial 
                 Value</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Anfangswert Parameter</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Initial 
                 Value</primary><secondary>of 
                 Parameter</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Anfangswert</primary>
+                	<secondary>des Parameters</secondary>
+                </indexterm>
                 <indexterm lang="en"><primary>Parameter Default 
                 Value</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Standardwert Parameter</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Default 
                 Value</primary><secondary>of 
                 Parameter</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Standardwert</primary>
+                	<secondary>des Parameters</secondary>
+                </indexterm>
                 <para lang="en">Text box with drop down. This allows you to set 
                 an initial value for the parameter if desired (this is 
                 optional). The drop down menu provides access to the 
                 common values <literal>0</literal>, <literal>
                 1</literal>, <literal>2</literal>, and <literal>
                 null</literal>.</para>
+                <para lang="de">
+                	Auswahlfeld. Dieser erlaubt es Ihnen, wenn gewüscht, einen 
+                	Anfangswert für den Parameter einzustellen (dies ist 
+                	optional). Das Auswahlmenü enthält Zugriff auf die folgenden 
+                	Werte <literal>0</literal>, <literal>1</literal>, <literal>
+                	2</literal> und <literal>null</literal>.
+                </para>
 
                 <caution>
 
                   <para lang="en">This only makes sense for <literal>
                   out</literal> or <literal>return</literal> 
                   parameters.</para>
+                  <para lang="de">
+                  	Dies macht nur Sinn für <literal>out</literal>- oder 
+                  	<literal>return</literal>-Parameter. 
+                  </para>
 
                 </caution>
 
@@ -53728,15 +54001,26 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Kind</literal></term>
+              <term lang="de"><literal>Art</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Parameter Kind</primary></indexterm>
+                <indexterm lang="de"><primary>Art Parameter</primary></indexterm>
                 <indexterm lang="en"><primary>Kind</primary><secondary>of 
                 Parameter</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Art</primary>
+                	<secondary>des Parameters</secondary>
+                </indexterm>
                 <para lang="en">Radio box, with entries <literal>out</literal>, 
                 <literal>in/out</literal>, <literal>return</literal>, 
                 and <literal>in</literal>.</para>
+                <para lang="de">
+                	Auswahlfeld mit den Einträgen <literal>out</literal>, 
+                <literal>in/out</literal>, <literal>return</literal> 
+                und <literal>in</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -53744,6 +54028,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>out</literal>. The parameter is used 
                     only to pass values back from the operation.</para>
+                    <para lang="de">
+                    	<literal>out</literal>. Der Parameter wird nur dazu 
+                    	verwendet, um Werte von der Operation zurückzugeben.
+                    </para>
 
                   </listitem>
 
@@ -53752,11 +54040,19 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>in/out</literal>. The parameter is 
                     used both to pass values in and to pass results 
                     back out of the operation.</para>
+                    <para lang="de">
+                    	<literal>in/out</literal>. Der Parameter wird für beides 
+                    	verwendet, um Werte an die Operation zu übergeben und 
+                    	Ergebnisse von der Operation zurückzugeben.
+                    </para>
 
                     <note>
 
                       <para lang="en">This is the default for any new 
                       parameter.</para>
+                      <para lang="de">
+                      	Dies ist der Standard für jeden neuen Parameter.
+                      </para>
 
                     </note>
 
@@ -53766,12 +54062,21 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>return</literal>. The parameter is a 
                     return result from the call.</para>
+                    <para lang="de">
+                    	<literal>return</literal>. Der Parameter ist ein Rückgabe-
+                    	Ergebnis des Aufrufes.
+                    </para>
 
                     <note>
 
                       <para lang="en">There is nothing to stop you declaring more 
                       than one return parameter (some programming 
                       languages support this concept).</para>
+                      <para lang="de">
+                      	Es gibt nichts, was Sie davon abhält mehr als einen 
+                      	Return-Parameter zu deklarieren (einige 
+                      	Programmiersprachen unterstützen so ein Konzept).
+                      </para>
 
                     </note>
 
@@ -53783,6 +54088,14 @@ available at http://www.opencontent.org/openpub/.
                       <literal>return</literal> to identify it in the 
                       list of parameters on the operation property 
                       tab.</para>
+                      <para lang="de">
+                      	Der Name des Return-Parameters erscheint nicht im 
+                      	Diagramm, aber es ist bequemer ihm einen entsprechenden 
+                      	Namen zu geben (wie z.B. Standard-<literal>return
+                      	</literal>, um ihn in der Liste der Parameter im 
+                      	Register Eigenschaften der Operation identifizieren 
+                      	zu können.
+                      </para>
 
                     </tip>
 
@@ -53792,6 +54105,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>in</literal>. The parameter is used 
                     only to pass values in to the operation.</para>
+                    <para lang="de">
+                    	<literal>in</literal>. Der Parameter wird nur zur 
+                    	Übergabe eines Wertes an die Operation verwendet.
+                    </para>
 
                   </listitem>
 
@@ -53811,6 +54128,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Signal</phrase>
+			<phrase lang="de">Signal</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Signal</primary></indexterm>
