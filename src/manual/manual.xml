@@ -55176,8 +55176,15 @@ available at http://www.opencontent.org/openpub/.
 
           <indexterm lang="en"><primary>Association Property 
           Toolbar</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste Assoziation</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Toolbar</primary><secondary>for 
           Association</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste</primary>
+          	<secondary>für eine Assoziation</secondary>
+          </indexterm>
           <variablelist>
 
             <varlistentry>
@@ -55187,12 +55194,22 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure of the 
                 model. For an association this will be the package 
                 containing the association.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur des Modelles nach oben. Bei 
+                	einer Assoziation ist dies das Paket, welches die 
+                	Assoziation enthält.
+                </para>
 
               </listitem>
 
@@ -55205,17 +55222,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 association, navigating immediately to the properties 
                 tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Assoziation und springt sofort in das Register Eigenschaften 
+                	dieses Stereotypen.
+                </para>
 
               </listitem>
 
@@ -55228,11 +55266,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the selected association from the 
                 model.</para>
+                <para lang="de">
+                	Löscht die markierte Assoziation aus dem Modell.
+                </para>
 
                 <warning>
 
@@ -55241,6 +55287,13 @@ available at http://www.opencontent.org/openpub/.
                   an association from the diagram, but keep it within 
                   the model, use the main menu <literal>Remove From 
                   Diagram</literal> (or press the Delete key).</para>
+                  <para lang="de">
+                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Um eine Assoziation aus 
+                  	dem Diagramm zu löschen, sie aber im Modell zu erhalten, 
+                  	verwenden Sie <literal>Aus Diagramm entfernen</literal> des 
+                  	Hauptmenüs (oder drücken Sie die Taste Entf).
+                  </para>
 
                 </warning>
 
@@ -55256,34 +55309,60 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Association</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für eine Assoziation</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Association Property 
           Fields</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder Assoziation</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Fields</primary><secondary>for 
           Association</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder</primary>
+          	<secondary>für eine Assoziation</secondary>
+          </indexterm>
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association 
                 Name</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Assoziationsname</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of 
                 Association</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>einer Assoziation</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the association. By 
                 convention association names start with a lower case 
                 letter, with <quote>bumpy caps</quote> used to indicate 
                 words within the name, thus: <literal>
                 salesHandling</literal>.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Assoziation. Per Konvention beginnen 
+                	Assoziationsnamen mit einem Kleinbuchstaben und mit Groß-/
+                	Kleinschreibung, um Wörter innerhalb des Namens 
+                	unterscheiden zu können. Beispiel: <literal>verkaufsVorgehen
+                	</literal>. 
+                </para>
 
                 <note>
 
                   <para lang="en">ArgoUML does not enforce any naming convention 
                   for associations.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt keine Namenskonvention für Assoziationen.
+                  </para>
 
                 </note>
 
@@ -55294,6 +55373,13 @@ available at http://www.opencontent.org/openpub/.
                   associations on a class diagram, since the 
                   relationship is often obvious from the classes (or 
                   class and interface) name.</para>
+                  <para lang="de">
+                  	Obwohl die Designkritiken dies fordern, ist es auf der 
+                  	anderen Seite normal, die Assoziationen in einem 
+                  	Klassendiagramm nicht zu benennen, da die Beziehung der 
+                  	Klassennamen (oder Klasse und Schnittstelle) sehr häufig 
+                  	offensichtlich ist.
+                  </para>
 
                 </tip>
 
@@ -55304,24 +55390,47 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association 
                 Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Assoziations-Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Stereotype</primary><secondary>of 
                 Association</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp</primary>
+                	<secondary>einer Assoziation</secondary>
+                </indexterm>
                 <para lang="en">Drop down selector. Association is provided by 
                 default with the UML standard stereotype for 
                 Association (<literal>implicit</literal>) .</para>
+                <para lang="de">
+                	Auswahlfeld. Die Assoziation bietet standardmäßig die UML-
+                	Standard-Stereotypen für eine Assoziation an (<literal>
+                	implicit</literal>).
+                </para>
 
                 <para lang="en">Stereotyping can be useful when creating 
                 associations in the problem domain (requirements 
                 capture) and solution domain (analysis), as well as for 
                 processes based on patterns.</para>
+                <para lang="de">
+                	Stereotypisieren kann nützlich sein, wenn Sie Assoziationen 
+                	im Problembereich (Anforderungsaufnahme) und dem 
+                	Lösungsbereich (Analyse) erzeugen, wie auch bei auf Mustern 
+                	basierenden Prozessen.
+                </para>
 
                 <para lang="en">The stereotype is shown between &laquo; and &raquo; below the 
                 name of the association on the diagram.</para>
+                <para lang="de">
+                	Der Stereotyp wird zwischen &laquo; and &raquo; unterhalb 
+                	des Assoziationsnamens im Diagramm angezeigt.
+                </para>
 
               </listitem>
 
@@ -55330,6 +55439,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -55340,6 +55450,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, wird es in das 
+	                Eigenschaftsfenster des Stereotypen navigieren. (siehe 
+	                <xref linkend="s1.ref.stereotype"/>).
+                </para>
 
               </listitem>
 
@@ -55348,12 +55467,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Records and allows changing 
                 the namespace for the association. This is the package 
                 hierarchy.</para>
+                <para lang="de">
+                	Kombinationsfeld. Gibt den Namensraum für die Assoziation 
+                	wieder und erlaubt dessen Änderung. Dies ist die 
+                	Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -55362,34 +55487,65 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Connections</literal></term>
+              <term lang="de"><literal>Verbindungen</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association 
                 Ends</primary><secondary>of 
                 Association</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Assoziationsenden</primary>
+                	<secondary>einer Assoziation</secondary>
+                </indexterm>
                 <indexterm lang="en"><primary>Connections</primary><secondary>of 
                 Association</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Verbindungen</primary>
+                	<secondary>einer Assoziation</secondary>
+                </indexterm>
                 <para lang="en">Text area. Lists the ends of this association. An 
                 association can have two or more ends. For more on 
                 association ends see 
                 <xref linkend="s1.ref.association_end_class"/>.</para>
+                <para lang="de">
+                	Textbereich. Listet die Enden dieser Assoziation auf. Eine 
+                	Assoziation kann zwei oder mehr Enden haben. Bei mehr als 
+                	zwei Assoziationsenden siehe 
+                	<xref linkend="s1.ref.association_end_class"/>.
+                </para>
 
                 <para lang="en">The names of the association ends are listed, 
                 unless the association end has no name (the case when 
                 it is first created), in which case <literal>(Unnamed 
                 AssociationEnd)</literal> is shown.</para>
+                <para lang="de">
+                	Die Namen der Assoziationsenden werden aufgelistet, es sei 
+                	denn das Assoziationsende hat keinen Namen (dies ist der 
+                	Fall, wenn sie das erste Mal erzeugt wird). In diesen Fall 
+                	wird <literal>(Unbekanntes Assoziationsende)</literal> 
+                	angezeigt.
+                </para>
 
                 <note>
 
                   <para lang="en">The only representation of association ends on 
                   a diagram is that their name appears at the relevant 
                   end of the corresponding association.</para>
+                  <para lang="de">
+                  	Die einzige Darstellung von Assoziationsenden im Diagramm 
+                  	ist, dass deren Name am relevanten Ende der entsprechenden 
+                  	Assoziation erscheint.
+                  </para>
 
                 </note>
 
                 <para lang="en">Button&nbsp;1 double click on an association end will 
                 navigate to that end.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf ein Assoziationsende 
+                	navigiert zu diesem Ende.
+                </para>
 
               </listitem>
 
@@ -55398,10 +55554,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Association Roles</literal></term>
+              <term lang="de"><literal>Assoziationsrollen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. (To be written)</para>
+                <para lang="de">Textbereich. (Noch zu beschreiben)</para>
 
               </listitem>
 
@@ -55410,10 +55568,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Links</literal></term>
+              <term lang="de"><literal>Verknüpfungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. (To be written)</para>
+                <para lang="de">Textbereich. (Noch zu beschreiben)</para>
 
               </listitem>
 
@@ -55429,16 +55589,26 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Association End</phrase>
+			<phrase lang="de">Assoziationsende</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Association End</primary></indexterm>
+        <indexterm lang="de"><primary>Assoziationsende</primary></indexterm>
         <para lang="en">Two or more association ends are associated with each 
         association (see <xref linkend="s1.ref.association_use_case"/>
         ).</para>
+        <para lang="de">
+        	Zwei oder mehr Assoziationsenden sind mit jeder Assoziation 
+        	verknüpft (siehe <xref linkend="s1.ref.association_use_case"/>).
+        </para>
 
         <para lang="en">Within the UML metamodel, <literal>
         AssociationEnd</literal> is a sub-class of <literal>
         ModelElement</literal>.</para>
+        <para lang="de">
+        	Innerhalb des UML-Metamodelles ist <literal>AssociationEnd</literal> 
+        	eine Subklasse von <literal>ModelElement</literal>.
+        </para>
 
         <para lang="en">The association end has no direct access on any diagram 
         for binary associations. The ends of an N-ary association may 
@@ -55449,6 +55619,18 @@ available at http://www.opencontent.org/openpub/.
         composite aggregation is selected for one association end, the 
         opposite end is shown as a solid diamond (composite 
         aggregation) or hollow diamond (shared aggregation).</para>
+        <para lang="de">
+        	Das Assoziationsende hat keinen direkten Zugriff auf die Diagramme 
+        	für binäre Assoziationen. Die Enden einer N-fach Assoziation können 
+        	durch Anklicken der Zeile im Diagramm ausgewählt werden. Der 
+        	Stereotyp, der Name und die Kardinalität werden am relevanten Ende 
+        	der Eltern-Assoziation angezeigt (siehe 
+        	<xref linkend="fig.ref.use_case_diagram"/>). Wo eine trennbare  
+        	oder eine untrennbare Aggregation für eine Assoziationsende ausgewählt 
+        	wurde, wird das gegenüber liegende Ende als ausgefüllter Diamant 
+        	(untrennbare Aggregation) oder als nicht ausgefüllter 
+        	Diamant (trennbare Aggregation) angezeigt.   
+        </para>
 
         <tip>
 
@@ -55458,6 +55640,15 @@ available at http://www.opencontent.org/openpub/.
           use in class diagrams, and are of limited relevance to use 
           cases. The most useful attributes to consider altering are 
           the name (used as the role name) and the multiplicity.</para>
+          <para lang="de">
+          	Obwohl sie die Attribute der Assoziationsenden beim Erzeugen eines 
+          	Anwendungsfallmodelles ändern können, ist dies oft nicht notwendig. 
+          	Viele der Eigenschaften eines Assoziationsendes beziehen sich auf 
+          	seine Nutzung in Klassendiagrammen und sind von begrenzter Relevanz 
+          	hinsichtlich der Anwendungsfälle. Die meisten nützlichen Attribute, 
+          	die geändert werden können sind der Name (als Rollenname verwendet) 
+          	und die Kardinalität.
+          </para>
 
         </tip>
 
@@ -55465,6 +55656,10 @@ available at http://www.opencontent.org/openpub/.
 
           <para lang="en">ArgoUML does not currently support showing qualifiers 
           on the diagram, as described in the UML&nbsp;1.3 standard.</para>
+          <para lang="de">
+          	ArgoUML unterstützt aktuell nicht das Anzeigen von Qualifizierern 
+          	im Diagramm, wie im UML&nbsp;1.3-Standard beschrieben.
+          </para>
 
         </note>
 
@@ -55472,24 +55667,37 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Association End Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Assoziationsenden</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for associations are 
           as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Assoziationen sind die folgenden.
+          </para>
 
           <indexterm lang="en"><primary>Association End Details 
           Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register Assoziationsenden</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Association End</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register</primary>
+          	<secondary>für ein Assoziationsende</secondary>
+          </indexterm>
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -55498,6 +55706,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -55506,6 +55715,13 @@ available at http://www.opencontent.org/openpub/.
                  and 
                 <xref linkend="s2.ref.association_end_property_fields"/>
                  below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.association_end_property_toolbar"/>
+	                 und 
+	                <xref linkend="s2.ref.association_end_property_fields"/>
+	                 unten.
+                 </para>
 
               </listitem>
 
@@ -55514,11 +55730,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+	                Standard-Register. Siehe  
+	                <xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -55527,10 +55748,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -55539,12 +55762,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. This tab contains a declaration for 
                 the association end as an instance of the model element to 
                 which it is connected.</para>
+                <para lang="de">
+                	Standard-Register. Dieses Register enthält eine Deklaration 
+                	für ein Assoziationsende als Instanz des Modellelementes, mit 
+                	der es verbunden ist.
+                </para>
 
               </listitem>
 
@@ -55553,17 +55782,30 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association End Tagged 
                 Values</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigenschaftswerte Assoziationsende</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Tagged 
                 Values</primary><secondary>of Association 
                 End</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Eigenschaftswerte</primary>
+                	<secondary>eines Assoziationsendes</secondary>
+                </indexterm>
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 AssociationEnd</literal> has the following standard 
                 tagged values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	AssociationEnd</literal> die folgenden Standard-
+                	Eigenschaftswerte definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -55575,6 +55817,14 @@ available at http://www.opencontent.org/openpub/.
                     association end is redundant&mdash;it can be formally 
                     derived from other elements, or <literal>
                     false</literal> meaning it cannot.</para>
+                    <para lang="de">
+	                    <literal>derived</literal> (von der Superklasse 
+	                    <literal>ModelElement</literal>). 
+	                    Der Wert <literal>true</literal> bedeutet, dass die 
+	                    Assoziation redundant ist&mdash; sie kann formal von 
+	                    anderen Elementen abgeleitet werden, oder <literal>
+	                    false</literal>, wenn sie es nicht kann. 
+                    </para>
 
                     <tip>
 
@@ -55584,6 +55834,14 @@ available at http://www.opencontent.org/openpub/.
                       However the tag only makes sense for an 
                       association end if it is also applied to the 
                       parent association.</para>
+                      <para lang="de">
+                      	Abgeleitete Assoziationsenden haben Ihren Wert in der 
+                      	Analyse, um nützliche Namen oder Konzepte einzubinden 
+                      	und im Design, um eine Wiederverarbeitung zu verhindern. 
+                      	Der Eigenschaftswert macht bei einem Assoziationsende 
+                      	jedoch nur Sinn, wenn er auch auf die Eltern-Assoziation 
+                      	angewendet wird.  
+                      </para>
 
                     </tip>
 
@@ -55598,6 +55856,13 @@ available at http://www.opencontent.org/openpub/.
                   the tagged element <literal>documentation</literal> 
                   which is handled by the <emphasis>documentation 
                   tab</emphasis> under ArgoUML</para>
+                  <para lang="de">
+                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
+                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
+                  	Eigenschaftswert <literal>documentation</literal>, der in 
+                  	ArgoUML im Register <emphasis>Dokumentation</emphasis> 
+                  	bearbeitet wird.
+                  </para>
 
                 </note>
 
@@ -55613,12 +55878,20 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Association End Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Assoziationsende</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Association End Property 
           Toolbar</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste Assoziationsende</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Toolbar</primary><secondary>for 
           Association End</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftssymbolleiste</primary>
+          	<secondary>für ein Assoziationsende</secondary>
+          </indexterm>
           <variablelist>
 
             <varlistentry>
@@ -55628,11 +55901,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up to the association to which this end 
                 belongs.</para>
+                <para lang="de">
+                	Navigiert zu der Assoziation, zu der dieses Ende gehört.
+                </para>
 
               </listitem>
 
@@ -55645,11 +55926,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/association_end.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go Opposite</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/association_end.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Gehe zum anderen Ende</literal></term>
 
               <listitem>
 
                 <para lang="en">This navigates to the other end of the 
                 association.</para>
+                <para lang="de">
+                	Navigiert zum anderen Ende der Assoziation.
+                </para>
 
               </listitem>
 
@@ -55662,16 +55951,36 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/attribute.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Qualifier</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/attribute.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Qualifizierer</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Qualifier</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Qualifizierer hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Qualifier</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Qualifizierer</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Qualifier</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Qualifizierer</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Qualifier for the selected 
                 association-end, navigating immediately to the 
                 properties tab for that qualifier.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Qualifizierer für das markierte 
+                	Assoziationsende und springt sofort in das Register 
+                	Eigenschaften dieses Qualifizierers.
+                </para>
 
                 <warning>
 
@@ -55680,6 +55989,13 @@ available at http://www.opencontent.org/openpub/.
                   qualifier in the model, which is not shown on the 
                   diagram. Also, the properties panel for a qualifier 
                   equals that of a regular attribute.</para>
+                  <para lang="de">
+                  	Qualifizierer werden nur teilweise von ArgoUML&nbsp;V0.18 
+                  	unterstützt. Aus diesem Grund erzeugt die Aktivierung dieser 
+                  	Schaltfläche einen Qualifizierer im Modell, der im Diagramm 
+                  	nicht angezeigt wird. Auch das Eigenschaftsfenster eines 
+                  	Qualifizierers entspricht dem eines regulären Attributes. 
+                  </para>
 
                 </warning>
 
@@ -55694,17 +56010,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 association-end, navigating immediately to the 
                 properties tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für das markierte 
+                	Assoziationsende und springt sofort in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -55717,11 +56054,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the selected association-end from 
                 the model.</para>
+                <para lang="de">
+                	Löscht das markierte Assoziationsende aus dem Modell.
+                </para>
 
                 <note>
 
@@ -55730,6 +56075,13 @@ available at http://www.opencontent.org/openpub/.
                   <emphasis>two</emphasis> ends. Only for N-ary 
                   associations, this button is accessable, and deletes 
                   just one end from the association.</para>
+                  <para lang="de">
+                  	Diese Schaltfläche ist bei binären Assoziationen deaktiviert, 
+                  	weil eine Assoziation mindestens <emphasis>zwei</emphasis> 
+                  	Enden benötigt. Nur für N-fache Assoziationen ist diese 
+                  	Schaltfläche zugreifbar und löscht nur ein Ende aus der 
+                  	Assoziation.
+                  </para>
 
                 </note>
 
@@ -55745,35 +56097,63 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Association End</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für ein Assoziationsende</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Association End Property 
           Fields</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder Assoziationsende</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Property Fields</primary><secondary>for 
           Association End</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Eigenschaftsfelder</primary>
+          	<secondary>für ein Assoziationsende</secondary>
+          </indexterm>
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association End 
                 Name</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name Assoziationsende</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of 
                 Association End</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>eines Assoziationsendes</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the association end, which 
                 provides a <emphasis>role name</emphasis> for this end 
                 of the association. This role name can be used for 
                 navigation, and in an implementation context, provides 
                 a name by which the source end of an association can 
                 reference the target end.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Assoziationsendes, das einen 
+                	<emphasis>Rollenname</emphasis> für dieses Ende der 
+                	Assoziation enthält. Dieser Rollenname kann für die 
+                	Navigation und im Kontext der Implementation, enthält es 
+                	einen Namen, durch den das Quell-Ende einer Assoziation 
+                	durch das Ziel-Ende referenziert wird.
+                </para>
 
                 <note>
 
                   <para lang="en">ArgoUML does not enforce any naming convention 
                   for association ends.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt keine Namenskonvention für 
+                  	Assoziationsenden.
+                  </para>
 
                 </note>
 
@@ -55784,19 +56164,34 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association End 
                 Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp Assoziationsende</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Stereotype</primary><secondary>of 
                 Association End</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp</primary>
+                	<secondary>eines Assoziationsendes</secondary>
+                </indexterm>
                 <para lang="en">Drop down selector. Association end is provided 
                 by default with the UML standard stereotypes for 
                 AssociationEnd (<literal>association</literal>, 
                 <literal>global</literal>, <literal>local</literal>, 
                 <literal>parameter</literal>, <literal>
                 self</literal>).</para>
+                <para lang="de">
+                	Kombinationsfeld. Das Assoziationsende bietet standardmäßig 
+                	die UML-Standard-Stereotypen für Assoziationsenden (
+                	<literal>association</literal>, <literal>global</literal>, 
+                	<literal>local</literal>, <literal>parameter</literal>, 
+                	<literal>self</literal>) an.
+                </para>
 
               </listitem>
 
@@ -55805,6 +56200,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -55815,6 +56211,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, navigiert es zum 
+	                Eigenschaftsfenster des Stereotypen. (siehe  
+	                <xref linkend="s1.ref.stereotype"/>).
+                </para>
 
               </listitem>
 
@@ -55823,12 +56228,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Association</literal></term>
+              <term lang="de"><literal>Assoziation</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Records the parent association for this 
                 association end. Button&nbsp;1 double click on this entry 
                 will navigate to that association.</para>
+                <para lang="de">
+                	Textfeld. Gibt die Eltern-Assoziation für dieses 
+                	Assoziationsende wieder. Ein Taste&nbsp;1-Doppelklick auf 
+                	diesen Eintrag navigiert zu der Assoziation.
+                </para>
 
               </listitem>
 
@@ -55837,19 +56248,36 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Type</literal></term>
+              <term lang="de"><literal>Typ</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association End 
                 Type</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Typ Assoziationsende</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Type</primary><secondary>of 
                 Association End</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Typ</primary>
+                	<secondary>eines Assoziationsendes</secondary>
+                </indexterm>
                 <para lang="en">Drop down selector providing access to all 
                 standard UML types provided by ArgoUML and all new 
                 classes created within the current model.</para>
+                <para lang="de">
+                	Das Kombinationsfeld bietet Zugriff auf alle Standard-UML-
+                	Typen von ArgoUML und alle neuen Klasse an, die innerhalb 
+                	des aktuelle Modelles erezgut wurden. 
+                </para>
 
                 <para lang="en">This is the type of the entity attached to this 
                 end of the association.</para>
+                <para lang="de">
+                	Dies ist der zu diesem Ende der Assoziation hinzugefügte Typ 
+                	der Entität. 
+                </para>
 
                 <tip>
 
@@ -55857,6 +56285,13 @@ available at http://www.opencontent.org/openpub/.
                   model element to which the linkend is connected. However, 
                   an association can be moved to another class by 
                   selecting another entry here.</para>
+                  <para lang="de">
+                  	Standardmäßig wird ArgoUML die Klasse des Modellelementes 
+                  	markieren, mit der die Verknüpfung verbunden ist. Jedoch 
+                  	kann eine Assoziation zu einer anderen Klasse durch 
+                  	markieren des anderen Eintrages bewegt werden.
+                  	Modellelementen 
+                  </para>
 
                 </tip>
 
@@ -55867,13 +56302,21 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Multiplicity</literal></term>
+              <term lang="de"><literal>Kardinalität</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association End 
                 Multiplicity</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Kardinalität Assoziationsende</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Multiplicity</primary><secondary>of 
                 Association End</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Kardinalität</primary>
+                	<secondary>eines Assoziationsendes</secondary>
+                </indexterm>
                 <para lang="en">Drop down menu with edit box. The value can be 
                 chosen from the drop down box, or a new one can be 
                 edited in the text box. Records the multiplicity of 
@@ -55882,6 +56325,16 @@ available at http://www.opencontent.org/openpub/.
                 with an instance of the other end. The multiplicity is 
                 shown on the diagram at that end of the 
                 association.</para>
+                <para lang="de">
+                	DropDown-Menü mit Editierfenster. Der Wert kann aus dem 
+                	Auswahlfenster ausgewählt werden oder eine neue kann im 
+                	Textfeld editiert werden. Nimmt die Kardinalität dieses 
+                	Assoziationsendes wieder (unter Berücksichtigung des anderen 
+                	Endes). Z.B. wie viele Instanzen dieses Endes können mit 
+                	einer Instanz des anderen Endes verknüpft werden. Die 
+                	Kardinalität wird im Diagramm am Ende der Assoziation 
+                	angezeigt.
+                </para>
 
               </listitem>
 
@@ -55890,16 +56343,29 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Modifiers</literal></term>
+              <term lang="de"><literal>Modifizierer</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association End 
                 Modifiers</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Modifizierer Assoziationsende</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Modifiers</primary><secondary>of 
                 Association End</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Modifizierer</primary>
+                	<secondary>eines Assoziationsendes</secondary>
+                </indexterm>
                 <para lang="en">There are 3 modifiers: <literal>
                 navigable</literal>, <literal>ordered</literal> and 
                 <literal>static</literal>. All 3 are checkboxes.</para>
+                <para lang="de">
+                	Es gibt 3 Modifizierer: <literal>navigable</literal>, 
+                	<literal>ordered</literal> und <literal>static</literal>. 
+                	Alle 3 sind Markierfelder.
+                </para>
 
                 <itemizedlist>
 
@@ -55908,6 +56374,10 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>navigable</literal>. Indicates that 
                     this end can be navigated to from the other 
                     end.</para>
+                    <para lang="de">
+                    	<literal>navigable</literal>. Gibt an, dass dieses Ende 
+                    	vom anderen Ende aus erreicht werden kann.
+                    </para>
 
                     <note>
 
@@ -55920,6 +56390,16 @@ available at http://www.opencontent.org/openpub/.
                       navigation is possible. This means that the 
                       default, with both ends navigable has no 
                       arrows.</para>
+                      <para lang="de">
+                      	Der UML&nbsp;1.4-Standard bietet eine Anzahl Optionen an, 
+                      	wie die Navigation an einem Assoziationsende angezeigt 
+                      	wird. ArgoUML verwendet die Option 3, was bedeutet, 
+                      	dass Pfeile am Ende einer Assoziation angezeigt werden, 
+                      	bei der die Navigation nur an einem Ende aktiviert ist, 
+                      	um die Richtung anzuzeigen, in der die Navigation möglich 
+                      	ist. Das bedeutet, dass der Standard, mit beiden Enden 
+                      	navigierbar, keine Pfeile aufweist.
+                      </para>
 
                     </note>
 
@@ -55937,6 +56417,19 @@ available at http://www.opencontent.org/openpub/.
                     Unchecked - The links form a set with no inherent 
                     ordering. Checked - A set of ordered links can be 
                     scanned in order.</para>
+                    <para lang="de">
+                    	<literal>ordered</literal>. Wenn an einem Ende plaziert, 
+                    	spezifiziert es, ob der Satz von Verknüpfungen von der 
+                    	anderen Instanz zu dieser Instanz eine Reihenfolge 
+                    	aufweist. Die Reihenfolge muss bestimmt und durch 
+                    	Operationen, die Verknüpfungen hinzufügen verwaltet 
+                    	werden. Es stellt zusätzliche Information bereit, die 
+                    	in den Objekten oder Verknpfungen selbst nicht 
+                    	innewohnen. Einstellungen für die Markierfelder sind: 
+                    	Nicht markiert - Die Verweise bilden einen Satz 
+                    	ohne innewohnende Reihenfolge. Markiert - Ein Satz 
+                    	geordneter Verweise in einer Reihenfolge.
+                    </para>
 
                   </listitem>
 
@@ -55944,6 +56437,9 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Static</literal> (To be 
                     written)</para>
+                    <para lang="de">
+                    	<literal>Static</literal> (Noch zu beschreiben)
+                    </para>
 
                   </listitem>
 
@@ -55956,6 +56452,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Specification</literal></term>
+              <term lang="de"><literal>Spezifikation</literal></term>
 
               <listitem>
 
@@ -55967,10 +56464,26 @@ available at http://www.opencontent.org/openpub/.
                 the end to support the intent of the Association. May 
                 be an Interface or another Classifier. The type of 
                 classifier is indicated by an icon.</para>
+                <para lang="de">
+                	Liste. Benennt Null oder mehr Klassifizierer, welche 
+                	die Operationen spezifizieren, die auf eine Instanz 
+                	angewendet werden können, auf die über die Assoziationsenden 
+                	der Assoziation zugegriffen werden kann. Diese bestimmen 
+                	die minimale Schnittstelle, die durch den aktuellen 
+                	Klassifizierer am Ende realisert werden muss um die Absicht 
+                	der Assoziation zu unterstützen. Es kann eine Schnittstelle 
+                	oder ein anderer Klassifizierer sein. Der Typ des 
+                	Klassifizierers wird als Symbol angezeigt.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 classifier, button&nbsp;2 click brings a pop up menu with 
                 one entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Klassifizierer. Ein Taste&nbsp;2-Klick öffnet ein Popup-Menü 
+                	mit einem Eintrag.
+                </para>
 
                 <itemizedlist>
 
@@ -55982,13 +56495,28 @@ available at http://www.opencontent.org/openpub/.
                     dialog box (see figure below), which allows 
                     choosing between all possible classifiers, and 
                     adding or removing them to the selected list.</para>
+                    <para lang="de">
+                    	<literal>Hinzufügen</literal>. Fügt einen neuen 
+                    	Spezifikationsklassifizierer hinzu. Dies öffnet das 
+                    	Dialogfenster <emphasis>Spezifikationen hinzufügen/
+                    	entfernen</emphasis> (siehe Bild unten), das es erlaubt, 
+                    	zwischen allen möglichen Klassifizierern auszuwählen 
+                    	und diese zu der ausgewählten Liste hinzuzufügen oder 
+                    	zu entfernen.
+                    </para>
 
                     <figure float="1" id="fig.ref.signal_add_specification">
 
                       <title>
-			<phrase lang="en">The <quote>Add/Remove 
-                      Specifications</quote> dialog box</phrase>
-		</title>
+						<phrase lang="en">
+							The <quote>Add/Remove Specifications</quote> dialog 
+							box
+						</phrase>
+						<phrase lang="de">
+							Das Dialogfenster <quote>Spezifikationen hinzufügen/
+							entfernen</quote>
+						</phrase>
+					  </title>
 
                       <screenshot><mediaobject><imageobject>
                       <imagedata align="center"
@@ -56007,6 +56535,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Qualifiers</literal></term>
+              <term lang="de"><literal>Qualifizierer</literal></term>
 
               <listitem>
 
@@ -56016,6 +56545,15 @@ available at http://www.opencontent.org/openpub/.
                 show a popup menu containing two items: <literal>Move 
                 Up</literal> and <literal>Move Down</literal>, which 
                 allow reordering the qualifiers.</para>
+                <para lang="de">
+                	Textfeld. Nimmt die Qualifizierer für dieses Assoziationsende 
+                	auf. Ein Taste&nbsp;1-Doppelklick auf diesen Eintrag 
+                	navigiert zu diesem Qualifizierer. Ein Taste&nbsp;2-Klick 
+                	öffnet ein Popup-Menü, das zwei Einträge enthält: 
+                	<literal>Nach oben</literal> und <literal>Nach unten
+                	</literal>, die ein Ändern der Reihenfolge der Qualifizierer 
+                	ermöglichen.
+                </para>
 
               </listitem>
 
@@ -56024,13 +56562,21 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Aggregation</literal></term>
+              <term lang="de"><literal>Aggregation</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association End 
                 Aggregation</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Assoziationsende Aggregation</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Aggregation</primary><secondary>of 
                 Association End</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Aggregation</primary>
+                	<secondary>eines Assoziationsendes</secondary>
+                </indexterm>
                 <para lang="en">Radio box, with three entries <literal>
                 composite</literal>, <literal>none</literal> and 
                 <literal>aggregate</literal>. Indicates whether the 
@@ -56038,21 +56584,45 @@ available at http://www.opencontent.org/openpub/.
                 loose whole-part relationship (
                 <literal>aggregation</literal>) or tight whole-part 
                 relationship (<literal>composite</literal>).</para>
+                <para lang="de">
+                	Auswahlfeld mit den drei Einträgen <literal>
+                	composite</literal>, <literal>none</literal> und 
+                	<literal>aggregate</literal>. Gibt an, ob die Beziehung mit 
+                	dem fernen Ende eine trennbare Ganzes-Teile-Beziehung 
+                	darstellt (<literal>aggregation</literal>) oder eine 
+                	untrennbare Ganzes-Teile-Beziehung (<literal>composite
+                	</literal>).
+                </para>
 
                 <para lang="en">Shared aggregation is shown by a hollow diamond 
                 at the <quote>whole</quote> end of the association. 
                 Composite aggregation is shown by a solid 
                 diamond.</para>
+                <para lang="de">
+                	Eine trennbare Aggregation wird durch einen unausgefüllten 
+                	Diamanten am <quote>Ganzes</quote>-Ende der Assoziation 
+                	dargestellt. Eine untrennbare Aggregation wird durch einen 
+                	ausgefüllten Diamanten dargestellt.
+                </para>
 
                 <note>
 
                   <para lang="en">You may not have aggregation at both ends of an 
                   association. ArgoUML does not enforce this 
                   constraint.</para>
+                  <para lang="de">
+                  	Sie dürfen nicht an beiden Enden einer Assoziation eine 
+                  	Aggregation haben. ArgoUML erzwingt diese Bedingung nicht.
+                  </para>
 
                   <para lang="en">The <quote>whole</quote> end of a composite 
                   aggregation should have a multiplicity of one. 
                   ArgoUML does not enforce this constraint.</para>
+                  <para lang="de">
+                  	Das <quote>Ganzes</quote>-Ende einer untrennbaren 
+                  	Aggregation sollte die Kardinalität eins haben. ArgoUML 
+                  	erzwingt diese Bedingung nicht.
+                  </para>
 
                 </note>
 
@@ -56063,14 +56633,22 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Changeability</literal></term>
+              <term lang="de"><literal>Änderbarkeit</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association End 
                 Changeability</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Änderbarkeit Assoziationsende</primary>
+                </indexterm>
                 <indexterm lang="en">
                 <primary>Changeability</primary><secondary>of 
                 Association End</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Änderbarkeit</primary>
+                	<secondary>eines Assoziationsendes</secondary>
+                </indexterm>
                 <para lang="en">Radio box, with three entries <literal>add 
                 only</literal>, <literal>changeable</literal> and 
                 <literal>frozen</literal>. Indicates whether instances 
@@ -56079,6 +56657,15 @@ available at http://www.opencontent.org/openpub/.
                 ii) created and deleted by the source after the target 
                 instance is created; or iii) not created or deleted by 
                 the source after the target instance is created.</para>
+                <para lang="de">
+                	Auswahlfeld mit den drei Einträgen <literal>add only
+                	</literal>, <literal>changeable</literal> und <literal>
+                	frozen</literal>. Gibt an, ob Instanzen dieses Endes des 
+                	Assoziationsendes sein darf: i) erzeugt, aber nicht 
+                	gelöscht nachdem die Zielinstanz erzeugt wurde; ii) erzeugt 
+                	und gelöscht; oder iii) nicht erzeugt oder gelöscht durch 
+                	die Quelle nadem die Zielinstanz erzeugt wurde.
+                </para>
 
               </listitem>
 
@@ -56087,13 +56674,21 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Visibility</literal></term>
+              <term lang="de"><literal>Sichtbarkeit</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Association End 
                 Visibility</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Sichtbarkeit Assoziationsende</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Visibility</primary><secondary>of 
                 Association End</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Sichtbarkeit</primary>
+                	<secondary>eines Assoziationsendes</secondary>
+                </indexterm>
                 <para lang="en">Radio box, with four entries <literal>
                 public</literal>, <literal>private</literal>,  
                 <literal>protected</literal>, and 
@@ -56101,6 +56696,14 @@ available at http://www.opencontent.org/openpub/.
                 navigation to this end may be by: i) any classifier; 
                 ii) only by the source classifier; or iii) only the 
                 source classifier and its children.</para>
+                <para lang="de">
+                	Auswahlfeld mit den vier Einträgen <literal>public</literal>, 
+                	<literal>private</literal>, <literal>protected</literal> und  
+                	<literal>package</literal>. gibt an, ob die Navigation zu 
+                	diesem Ende sein darf: i) jeder Klassifizierer; ii) nur durch 
+                	die Quellklassifizierer; oder iii) nur durch die 
+                	Quellklassifizierer und deren Kinder.
+                </para>
 
               </listitem>
 
@@ -56116,41 +56719,69 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Dependency</phrase>
+			<phrase lang="de">Abhängigkeit</phrase>
 		</title>
 
         <indexterm lang="en"><primary>Dependency</primary></indexterm>
+        <indexterm lang="de"><primary>Abhängigkeit</primary></indexterm>
         <para lang="en">Dependency is a relationship between two model elements 
         showing that one depends on the other.</para>
+        <para lang="de">
+        	Eine Abhängigkeit ist eine Beziehung zwischen zwei Modellelementen, 
+        	die zeigt, dass das eine vom anderen abhängt.
+        </para>
 
         <para lang="en">Within the UML metamodel, <literal>Dependency</literal> 
         is a sub-class of <literal>Relationship</literal>.</para>
+        <para lang="de">
+        	Innerhalb des UML-Metamodelles ist <literal>Dependency</literal> 
+        	eine Subklasse von <literal>Relationship</literal>.
+        </para>
 
         <para lang="en">Dependency is represented as a dashed line with an open 
         arrow head from the depending model element to that which it is 
         dependent upon.</para>
+        <para lang="de">
+        	Ein Abhängigkeit wird durch eine gestrichelte Line mit einem offenen 
+        	Pfeil vom abhängigen Modellelement zu dem Modellelement von dem es 
+        	abhängt dargestellt.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Dependency Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Abhängigkeit</phrase>
+		  </title>
 
           <indexterm lang="en"><primary>Dependency Details 
           Tabs</primary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register Abhängigkeit</primary>
+          </indexterm>
           <indexterm lang="en"><primary>Details Tabs</primary><secondary>for 
           Dependency</secondary></indexterm>
+          <indexterm lang="de">
+          	<primary>Detail-Register</primary>
+          	<secondary>einer Abhängigkeit</secondary>
+          </indexterm>
           <para lang="en">The details tabs that are active for dependencies are 
           as follows.</para>
+          <para lang="de">
+          	Die akviten Detail-Register für Abhängigkeiten sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -56159,6 +56790,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -56166,6 +56798,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.dependency_property_toolbar"/> 
                 and <xref linkend="s2.ref.dependency_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.dependency_property_toolbar"/> 
+	                und <xref linkend="s2.ref.dependency_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -56174,11 +56812,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+	                Standard-Register. Siehe 
+	                <xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -56187,10 +56830,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab</para>
+                <para lang="de">Standard-Register</para>
 
                 <note>
 
@@ -56199,6 +56844,11 @@ available at http://www.opencontent.org/openpub/.
                     dependency
                     are not editable, since they are determined 
                     by the properties of the endpoints of the line.
+                  </para>
+                  <para lang="de">
+                  	Die Werte im Feld "Begrenzung" der Abhängigkeit sind nicht 
+                  	editierbar, weil sie durch die Eigenschaften der 
+                  	Linienendpunkte bestimmt werden.
                   </para>
 
                 </note>
@@ -56210,6 +56860,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
@@ -56217,6 +56868,12 @@ available at http://www.opencontent.org/openpub/.
                 Dependency</literal> has no tagged values of its own, 
                 but through superclasses has the following standard 
                 tagged values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell hat die <literal>
+                	Dependency</literal> keine Eigenschaftswerte über sich 
+                	selbst. Aber über die Superklassen sind die folgenden 
+                	Standard-Eigenschaftswerte definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -56228,12 +56885,25 @@ available at http://www.opencontent.org/openpub/.
                     dependency relationship is redundant&mdash;it can be 
                     formally derived from other elements, or <literal>
                     false</literal> meaning it cannot.</para>
+                    <para lang="de">
+	                    <literal>derived</literal> (von der Superklasse 
+	                    <literal>ModelElement</literal>). 
+	                    Der Wert <literal>true</literal> bedeutet, dass die 
+	                    Abhängigkeitsbeziehung redundant ist&mdash; sie kann 
+	                    formal von anderen Elementen abgeleitet werden, oder 
+	                    <literal>false</literal>, sie kann es nicht. 
+                    </para>
 
                     <note>
 
                       <para lang="en">Derived dependencies still have their value 
                       in analysis to introduce useful names or 
                       concepts.</para>
+                      <para lang="de">
+                      	Abgeleitete Abhängigkeiten können ihren Wert in der 
+                      	Analyse haben, um nützliche Namen oder Konzepte 
+                      	einzuführen.
+                      </para>
 
                     </note>
 
@@ -56253,7 +56923,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Dependency Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Abhängigkeit</phrase>
+		  </title>
 
           <variablelist>
 
@@ -56264,12 +56935,22 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure of the 
                 model. For a dependency this will be the package 
                 containing the dependency.</para>
+                <para lang="de">
+                	Navigiert durch die Paketstruktur des Modelles nach oben. 
+                	Bei einer Abhängigkeit wird dies das Paket sein, das die 
+                	Abhängigkeit enthält.
+                </para>
 
               </listitem>
 
@@ -56282,17 +56963,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 dependency, navigating immediately to the properties 
                 tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Abhängigkeit und springt sofort in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -56305,11 +57007,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the selected dependency from the 
                 model.</para>
+                <para lang="de">
+                	Löscht die markierte Abhängigkeit aus dem Modell.
+                </para>
 
                 <warning>
 
@@ -56318,6 +57028,13 @@ available at http://www.opencontent.org/openpub/.
                   a dependency from the diagram, but keep it within the 
                   model, use the main menu <literal>Remove From 
                   Diagram</literal> (or press the Delete key).</para>
+                  <para lang="de">
+                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Um eine Abhängigkeit im 
+                  	Diagramm zu löschen, aber im Modell zu erhalten, verwenden 
+                  	Sie <literal>Aus Diagramm entfernen</literal> im Hauptmenü 
+                  	(oder drücken Sie die Taste Entf).
+                  </para>
 
                 </warning>
 
@@ -56333,26 +57050,42 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Dependency</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für eine Abhängigkeit</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Dependency 
                 Name</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Abhängigkeitsname</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Name</primary><secondary>of 
                 Dependency</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Name</primary>
+                	<secondary>einer Abhängigkeit</secondary>
+                </indexterm>
                 <para lang="en">Text box. The name of the dependency.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Abhängigkeit.
+                </para>
 
                 <tip>
 
                   <para lang="en">It is quite common to leave dependencies 
                   unnamed.</para>
+                  <para lang="de">
+                  	Es kommt sehr häufig vor, die Abhängigkeiten unbenannt 
+                  	zu lassen.
+                  </para>
 
                 </tip>
 
@@ -56360,6 +57093,9 @@ available at http://www.opencontent.org/openpub/.
 
                   <para lang="en">ArgoUML does not enforce any naming convention 
                   for associations.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt keine Namenskonvention für Abhängigkeiten.
+                  </para>
 
                 </note>
 
@@ -56367,6 +57103,10 @@ available at http://www.opencontent.org/openpub/.
 
                   <para lang="en">There is no representation of the name of a 
                   dependency on the diagram.</para>
+                  <para lang="de">
+                  	Es gibt keine Darstellung des Namens einer Abhängigkeit im 
+                  	Diagramm.
+                  </para>
 
                 </note>
 
@@ -56377,17 +57117,31 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Dependency 
                 Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp Abhängigkeit</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Stereotype</primary><secondary>of 
                 Dependency</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp</primary>
+                	<secondary>einer Abhängigkeit</secondary>
+                </indexterm>
                 <para lang="en">Drop down selector. Dependency has no standard 
                 stereotypes of its own under UML&nbsp;1.3. and so ArgoUML 
                 does not provide any. The stereotype is shown between  &laquo;
                 and &raquo; above or across the generalization.</para>
+                <para lang="de">
+                	Kombinationsfeld. Die Abhängigkeit hat unter UML&nbsp;1.3 
+                	keine Standard-Stereotypen und daher bietet ArgoUML auch 
+                	keine an. Der Stereotyp wird zwischen &laquo; und &raquo; 
+                	über oder quer zur Generalisierung angezeigt.
+                </para>
 
               </listitem>
 
@@ -56396,6 +57150,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -56406,6 +57161,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, wird es in das 
+	                Eigenschaftsfenster dieses Stereotypen navigieren (siehe  
+	                <xref linkend="s1.ref.stereotype"/>).
+                </para>
 
               </listitem>
 
@@ -56414,15 +57178,27 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Dependency 
                 Namespace</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namensraum Abhängigkeit</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Namespace</primary><secondary>of 
                 Dependency</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Namensraum</primary>
+                	<secondary>einer Abhängigkeit</secondary>
+                </indexterm>
                 <para lang="en">Text box. Records the namespace for the 
                 dependency. This is the package hierarchy.</para>
+                <para lang="de">
+                	Textfeld. Nimmt den Namensraum für die Abhängigkeit auf. 
+                	Dies ist die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -56431,18 +57207,34 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Suppliers</literal></term>
+              <term lang="de"><literal>Lieferanten</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Dependency 
                 Suppliers</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Lieferanten Abhängigkeit</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Suppliers</primary><secondary>of 
                 Dependency</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Lieferanten</primary>
+                	<secondary>einer Abhängigkeit</secondary>
+                </indexterm>
                 <para lang="en">Text area. Lists the end of the relationship that 
                 is supplying what is needed by the other end.</para>
+                <para lang="de">
+                	Textbereich. Liste das Ende der Beziehung auf, die das 
+                	liefert, was für das andere Ende erforderlich ist.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on a supplier will navigate 
                 to that element.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf einen Lieferanten wird zu 
+                	diesem Element navigieren.
+                </para>
 
               </listitem>
 
@@ -56451,19 +57243,36 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Clients</literal></term>
+              <term lang="de"><literal>Clients</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Dependency 
                 Clients</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Abhängigkeits Clients</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Clients</primary><secondary>of 
                 Dependency</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Clients</primary>
+                	<secondary>einer Abhängigkeit</secondary>
+                </indexterm>
                 <para lang="en">Text area. Lists the <quote>depending</quote> 
                 ends of the relationship, i.e. the end that makes use 
                 of the other end.</para>
+                <para lang="de">
+                	Textbereich. Listet die <quote>abhängigen</quote> Enden 
+                	der Beziehung auf, z.B. das Ende, welches das andere 
+                	verwendet.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on a client will navigate 
                 to that element.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf einen Client wird zu diesem 
+                	Element navigieren.
+                </para>
 
               </listitem>
 
@@ -56479,16 +57288,26 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Generalization</phrase>
+			<phrase lang="de">Generalisierung</phrase>
 		</title>
 
         <para lang="en">Generalization is described under use case diagrams (see 
         <xref linkend="s1.ref.generalization_use_case"/>).</para>
+        <para lang="de">
+        	Die Generalisierung ist unter Anwendungsfalldiagramme beschrieben 
+        	(siehe <xref linkend="s1.ref.generalization_use_case"/>).
+        </para>
 
         <note>
 
           <para lang="en">Within the context of classes, generalization and 
           specialization are the UML terms describing class 
           inheritance.</para>
+          <para lang="de">
+          	Innerhalb des Kontextes von Klassen sind die Generalisierung und die 
+          	Spezialisierung UML-Begriffe, welche die Klassenvererbung 
+          	beschreiben.
+          </para>
 
         </note>
 
@@ -56498,6 +57317,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Interface</phrase>
+			<phrase lang="de">Schnittstelle</phrase>
 		</title>
 
         <para lang="en">An interface is a set of operations characterizing the 
@@ -56506,31 +57326,52 @@ available at http://www.opencontent.org/openpub/.
         operations. In the UML metamodel it is a sub-class of <literal>
         Classifier</literal> and through that <literal>
         GeneralizableElement</literal>.</para>
+        <para lang="de">
+        	Eine Schnittstelle ist ein Satz von Operationen, die das Verhalten 
+        	eines Elementes beschreiben. Sie kann als abstrakte Klasse ohne 
+        	Attribute und ohne nicht-abstrakte Operationen angesehen werden. 
+        	Im UML-Metamodell ist sie eine Subklasse von <literal>Classifier
+        	</literal> und dadurch von <literal>GeneralizableElement</literal>.
+        </para>
 
         <para lang="en">An interface is represented on a class diagram as a 
         rectangle with two horizontal compartments. The top compartment 
         displays the interface name (and above it <literal>
         &laquo;interface&raquo;</literal>) and the second any operations. Just like 
         a class, the operations compartment can be hidden.</para>
+        <para lang="de">
+        	Eine Schnittstelle wird in einem Klassendiagramm als Rechteck mit 
+        	zwei horizontalen Bereichen dargestellt. Der oberste Bereich zeigt 
+        	den Schnittstellennamen an (und darüber <literal>&laquo;interface
+        	&raquo;</literal>) und im zweiten Bereich jede Operation. Wie bei 
+        	der Klasse, kann der Operationsbereich versteckt werden.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Interface Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Schnittstelle</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for interfaces are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für eine Schnittstelle sind die 
+          	folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -56539,6 +57380,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -56546,6 +57388,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.interface_property_toolbar"/> and 
                 <xref linkend="s2.ref.interface_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.interface_property_toolbar"/> und 
+	                <xref linkend="s2.ref.interface_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -56554,11 +57402,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+	                Standard-Register. Siehe  
+	                <xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -56567,6 +57420,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
@@ -56576,6 +57430,14 @@ available at http://www.opencontent.org/openpub/.
                 valid for only the current diagram. The <literal>
                 Bounds:</literal> field defines the bounding box for 
                 the package on the diagram.</para>
+                <para lang="de">
+                	Standard-Register. Das Markierfeld <literal>Operationen
+                	</literal> erlaubt es, den Operationenbereich anzuzeigen 
+                	(der Standard) oder zu verstecken. Diese Einstellung ist nur 
+                	für das aktuelle Diagramm gültig. Das Feld <literal>
+                	Begrenzung</literal> definiert die Grenzen der Schnittstelle 
+                	im Diagramm.
+                </para>
 
               </listitem>
 
@@ -56584,12 +57446,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. This contains a template for the 
                 interface declaration and declarations of associated 
                 interfaces.</para>
+                <para lang="de">
+                	Standard-Register. Enthält ein Template für die 
+                	Schnittstellendeklaration und der Deklarationen von 
+                	verbundenen Schnittstellen.
+                </para>
 
               </listitem>
 
@@ -56598,12 +57466,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Interface</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für die <literal>
+                	Schnittstelle</literal> die folgenden Standard-
+                	Eigenschaftswerte definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -56615,6 +57489,14 @@ available at http://www.opencontent.org/openpub/.
                     destroyed when an instance is destroyed or <literal>
                     persistent</literal>, marking state is preserved 
                     when an instance is destroyed.</para>
+                    <para lang="de">
+	                    <literal>persistence</literal> (von der Superklasse 
+	                    <literal>Classifier</literal>). Der Wert  
+	                    <literal>transitory</literal>gibt an, dass der Zustand 
+	                    zerstört wird, wenn die Instanz zerstört wird, oder 
+	                    <literal>persistent</literal>, wenn der gekennzeichnete 
+	                    Zustand erhalten bleibt, wenn die Instanz zerstört wird.
+                    </para>
 
                     <warning>
 
@@ -56622,6 +57504,12 @@ available at http://www.opencontent.org/openpub/.
                       abstract, they can have no instance, and so this 
                       tagged value must refer to the properties of the 
                       realizing class.</para>
+                      <para lang="de">
+                      	Da Schnittstellen per Definition abstrakt sind, können 
+                      	sie keine Instanz haben. Daher müssen sich diese 
+                      	Eigenschaftswerte sich auf die Eigenschaften der 
+                      	realisierenden Klasse beziehen.
+                      </para>
 
                     </warning>
 
@@ -56633,6 +57521,11 @@ available at http://www.opencontent.org/openpub/.
                     superclass, <literal>Classifier</literal>). The 
                     value is a specification of the semantics of the 
                     interface.</para>
+                    <para lang="de">
+                    	<literal>semantics</literal> (von der Superklasse 
+                    	<literal>Classifier</literal>). Der Wert ist eine 
+                    	Spezifikation der Semantik der Schnittstelle.
+                    </para>
 
                   </listitem>
 
@@ -56644,6 +57537,14 @@ available at http://www.opencontent.org/openpub/.
                     interface is redundant&mdash;it can be formally derived 
                     from other elements, or <literal>false</literal> 
                     meaning it cannot.</para>
+                    <para lang="de">
+                    	<literal>derived</literal> (von der Superklasse 
+                    	<literal>ModelElement</literal>). Der Wert <literal>true
+                    	</literal> bedeutet, dass die Schnittstelle redundant 
+                    	ist&mdash; sie kann formal von anderen Elementen 
+                    	abgeleitet werden, oder <literal>false</literal>, wenn 
+                    	sie es nicht kann. 
+                    </para>
 
                     <note>
 
@@ -56651,6 +57552,12 @@ available at http://www.opencontent.org/openpub/.
                       in analysis to introduce useful names or 
                       concepts, and in design to avoid 
                       re-computation.</para>
+                      <para lang="de">
+                      	Abgeleitete Schnittstellen können ihren Wert in der 
+                      	Analyse haben, um nützliche Namen oder Konzepte 
+                      	einzuführen und im Design, um eine Wiederverarbeitung zu 
+                      	verhindern.
+                      </para>
 
                     </note>
 
@@ -56665,6 +57572,13 @@ available at http://www.opencontent.org/openpub/.
                   the tagged element <literal>documentation</literal> 
                   which is handled by the <emphasis>documentation 
                   tab</emphasis> under ArgoUML</para>
+                  <para lang="de">
+                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
+                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
+                  	Eigenschaftswert <literal>documentation</literal>, der in 
+                  	ArgoUML im Register <emphasis>Dokumentation</emphasis> 
+                  	bearbeitet wird.
+                  </para>
 
                 </note>
 
@@ -56675,10 +57589,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Checklist</literal></term>
+              <term lang="de"><literal>Checkliste</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab for an Interface.</para>
+                <para lang="de">Standard-Register für eine Schnittstelle.</para>
 
               </listitem>
 
@@ -56692,7 +57608,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Interface Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Schnittstelle</phrase>
+		  </title>
 
           <variablelist>
 
@@ -56703,10 +57620,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur nach oben.
+                </para>
 
               </listitem>
 
@@ -56719,6 +57644,11 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/operation.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New operation</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/operation.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neue Operation</literal></term>
 
               <listitem>
 
@@ -56726,6 +57656,11 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s1.ref.operation"/>) within the 
                 interface, navigating immediately to the properties tab 
                 for that operation.</para>
+                <para lang="de">
+                	Erzeugt innerhalb der Schnittstelle eine neue Operation 
+                	(siehe <xref linkend="s1.ref.operation"/>) und springt 
+                	sofort in das Register Eigenschaften dieser Operation. 
+                </para>
 
               </listitem>
 
@@ -56738,12 +57673,21 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/reception.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New reception</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/reception.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neues Empfangssignal</literal></term>
 
               <listitem>
 
                 <para lang="en">This creates a new reception, navigating 
                 immediately to the properties tab for that 
                 reception.</para>
+                <para lang="de">
+                	Erzeugt ein neues Empfangssignal und springt sofort in das 
+                	Register Eigenschaften dieses Empfangssignals.
+                </para>
 
               </listitem>
 
@@ -56756,6 +57700,11 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/interface.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New interface</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/interface.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neue Schnittstelle</literal></term>
 
               <listitem>
 
@@ -56763,6 +57712,11 @@ available at http://www.opencontent.org/openpub/.
                 namespace as the selected interface, navigating 
                 immediately to the properties tab for the new 
                 interface.</para>
+                <para lang="de">
+                	Erzeugt im gleichen Namensraum wie die markierte Schnittstelle 
+                	eine neue Schnittstelle und springt sofort in das Register 
+                	Eigenschaften dieser neuen Schnittstelle.
+                </para>
 
               </listitem>
 
@@ -56775,17 +57729,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 interface, navigating immediately to the properties tab 
                 for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Schnittstelle und springt sofort in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -56798,10 +57773,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the interface from the model</para>
+                <para lang="de">
+                	Löscht die Schnittstelle aus dem Modell.
+                </para>
 
                 <warning>
 
@@ -56810,6 +57793,13 @@ available at http://www.opencontent.org/openpub/.
                   an interface from the diagram, but keep it within the 
                   model, use the main menu <literal>Remove From 
                   Diagram</literal> (or press the Delete key).</para>
+                  <para lang="de">
+                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Um eine Schnittstelle 
+                  	aus dem Diagramm zu löschen, aber es im Modell zu behalten, 
+                  	verwenden Sie <literal>Aus Diagramm entfernen</literal> im 
+                  	Hauptmenü (oder drücken Sie die Taste Entf).
+                  </para>
 
                 </warning>
 
@@ -56825,25 +57815,38 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Interface</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder einer Schnittstelle</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. The name of the interface. The name of 
                 an interface has a leading capital letter, with words 
                 separated by <quote>bumpy caps</quote>.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Schnittstelle. Der Name der 
+                	Schnittstelle beginnt mit einem Großbuchstaben und besteht 
+                	aus Wörtern, die durch Groß-/Kleinschreibung voneinander 
+                	getrennt sind.
+                </para>
 
                 <note>
 
                   <para lang="en">Unlike classes, the ArgoUML critics will not 
                   complain about interface names that do not have an 
                   initial capital.</para>
+                  <para lang="de">
+                  	Wie bei Klassen werden sich die ArgoUML-Kritiken nicht 
+                  	beschweren, wenn die Schnittstellennamen nicht mit einem 
+                  	Großbuchstaben beginnen.
+                  </para>
 
                 </note>
 
@@ -56854,6 +57857,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -56864,6 +57868,13 @@ available at http://www.opencontent.org/openpub/.
                 powertype</literal>, <literal>process</literal>, 
                 <literal>thread</literal> and <literal>
                 utility</literal>).</para>
+                <para lang="de">
+                	Kombinationsfeld. Die Schnittstelle bietet standardmäßig die 
+                	UML-Standard-Stereotypen für die Eltern-Metaklasse <literal>
+                	Classifier</literal> (<literal>metaclass</literal>, <literal>
+                	powertype</literal>, <literal>process</literal>, <literal>
+                	thread</literal> und <literal>utility</literal>) an.
+                </para>
 
               </listitem>
 
@@ -56872,6 +57883,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -56882,6 +57894,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wird, navigiert es in 
+	                das Eigenschaftsfenster Stereotyp (siehe 
+	                <xref linkend="s1.ref.stereotype"/>).
+                </para>
 
               </listitem>
 
@@ -56890,12 +57911,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Records and allows changing 
                 the namespace for the interface. This is the package 
                 hierarchy.</para>
+                <para lang="de">
+                	Kombinationsfeld. Nimmt den Namensraum für die Schnittstelle 
+                	auf und erlaubt deren Änderung. Dies ist die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -56904,12 +57930,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Modifiers</literal></term>
+              <term lang="de"><literal>Modifizierer</literal></term>
 
               <listitem>
 
                 <para lang="en">Check box, with entries <literal>
                 Abstract</literal>, <literal>Leaf</literal> and 
                 <literal>Root</literal>.</para>
+                <para lang="de">
+                	Markierfelder mit den Einträgen <literal>Abstract</literal>, 
+                	<literal>Leaf</literal> und <literal>Root</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -56920,12 +57951,24 @@ available at http://www.opencontent.org/openpub/.
                     but must always be specialized. The name of an 
                     abstract interface is displayed in italics on the 
                     diagram.</para>
+                    <para lang="de">
+                    	<literal>Abstract</literal> wird verwendet, um zu 
+                    	deklarieren, dass diese Schnittstelle nicht instanziiert 
+                    	werden kann, aber immer spezialisiert werden muss. Der 
+                    	Name einer abstrakten Schnittstelle wird in kursiver 
+                    	Schrift im Diagramm dargestellt.
+                    </para>
 
                     <caution>
 
                       <para lang="en">This is meaningless, since by definition an 
                       interface is an abstract entity. The UML&nbsp;1.3 
                       standard offers no clarification.</para>
+                      <para lang="de">
+                      	Dies ist bedeutungslos, weil die Schnittstelle per 
+                      	Definition eine abstrakte Entität ist. Der UML&nbsp;1.3-
+                      	Standard bietet hier keine Erläuterung an.
+                      </para>
 
                     </caution>
 
@@ -56937,6 +57980,12 @@ available at http://www.opencontent.org/openpub/.
                     interface cannot be further specialized, while 
                     <literal>Root</literal> indicates it can have no 
                     generalizations.</para>
+                    <para lang="de">
+                    	<literal>Leaf</literal> gibt an, dass diese Schnittstelle 
+                    	nicht weiter spezialisiert werden kann, während 
+                    	<literal>Root</literal> angibt, dass sie keine 
+                    	Generalisierungen haben kann.
+                    </para>
 
                   </listitem>
 
@@ -56949,6 +57998,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Visibility</literal></term>
+              <term lang="de"><literal>Sichtbarkeit</literal></term>
 
               <listitem>
 
@@ -56959,6 +58009,14 @@ available at http://www.opencontent.org/openpub/.
                 navigation to this end may be by: i) any classifier; 
                 ii) only the source classifier and its children; or 
                 iii) only by the source classifier.</para>
+                <para lang="de">
+                	Auswahlfeld mit den drei Einträgen <literal>public</literal>, 
+                	<literal>protected</literal>, <literal>private</literal> und
+                	<literal>package</literal>. Gibt an, ob die Navigation zu 
+                	diesem Ende sein darf durch: i) jeden Klassifizierer; ii) nur 
+                	den Quellklassifizierer und dessen Kinder; oder iii) nur   
+                	durch den Quellklassifizierer.
+                </para>
 
               </listitem>
 
@@ -56967,14 +58025,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Generalizations</literal></term>
+              <term lang="de"><literal>Generalisierungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists any interface that 
                 <emphasis>generalizes</emphasis> this interface.</para>
+                <para lang="de">
+                	Textbereich. Listet jede Schnittstelle auf, die diese 
+                	Schnittstelle <emphasis>generalisiert</emphasis>.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the 
                 generalization and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der Generalisierung 
+                	und öffnet deren Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -56983,14 +58050,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Specializations</literal></term>
+              <term lang="de"><literal>Spezialisierungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any specialized interface (i.e. 
                 for which this interface is a generalization.</para>
+                <para lang="de">
+                	Textfeld. Listet alle spezialisierten Schnittstellen auf 
+                	(z.B. für die diese Schnittstelle eine Generalisierung ist).
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the 
                 generalization and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der Spezialisierung 
+                	und öffnet deren Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -56999,12 +58075,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>AssociationEnds</literal></term>
+              <term lang="de"><literal>Assoziationsenden</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any AssociationEnds (see 
                 <xref linkend="s1.ref.association_end_class"/>) 
                 connected to this interface.</para>
+                <para lang="de">
+                	Textfeld. Listet alle Assoziationsenden auf (siehe 
+                	<xref linkend="s1.ref.association_end_class"/>), die mit 
+                	dieser Schnittstelle verbunden sind.
+                </para>
 
                 <note>
 
@@ -57015,11 +58097,23 @@ available at http://www.opencontent.org/openpub/.
                   classes and interfaces with the correct navigability, 
                   but does not prevent the user from altering 
                   this.</para>
+                  <para lang="de">
+                  	Assoziationen zwischen Klassen und Schnittstellen 
+                  	<emphasis>dürfen nur</emphasis> von der Klasse zur 
+                  	Schnittstelle navigierbar sein. ArgoUML wird Assoziationen 
+                  	zwischen Klassen und Schnittstellen mit der korrekten 
+                  	Navigierbarkeit erzeugen, verhindert aber nicht, wenn der 
+                  	Anwender versucht, dies zu ändern. 
+                  </para>
 
                 </note>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -57028,6 +58122,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Operations</literal></term>
+              <term lang="de"><literal>Operationen</literal></term>
 
               <listitem>
 
@@ -57038,12 +58133,26 @@ available at http://www.opencontent.org/openpub/.
                 menu with two items: <literal>Move Up</literal> and 
                 <literal>Move Down</literal>, which allow reordering 
                 the operations.</para>
+                <para lang="de">
+                	Textbereich. Listet alle Operationen auf (siehe 
+                	<xref linkend="s1.ref.operation"/>), die in dieser 
+                	Schnittstelle definiert sind. Ein Taste&nbsp;1-Doppelklick 
+                	navigiert zu der markierten Operation. Ein Taste&nbsp;2-
+                	Klick öffnet ein Popup-Menü mit zwei Einträgen: <literal>
+                	Nach oben</literal> und <literal>Nach unten</literal>, die 
+                	ein Ändern der Reihenfolge erlauben.
+                </para>
 
                 <caution>
 
                   <para lang="en">All operations on an interface 
                   <emphasis>must</emphasis> be public. The ArgoUML 
                   critics will complain if this is not the case.</para>
+                  <para lang="de">
+                  	Alle Operationen in einer Schnittstelle <emphasis>müssen
+                  	</emphasis> public sein. Die ArgoUML-Kritiken werden sich 
+                  	darüber beschweren, wenn dies nicht der Fall ist.
+                  </para>
 
                 </caution>
 
@@ -57061,6 +58170,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Abstraction</phrase>
+			<phrase lang="de">Abstraktion</phrase>
 		</title>
 
         <para lang="en">An abstraction is a dependency relationship joining two 
@@ -66834,68 +67944,68 @@ available at http://www.opencontent.org/openpub/.
             <thead>
 
               <row>
-                <entry><para lang="en"><emphasis>StereoType</emphasis></para></entry>
-                <entry><para lang="en"><emphasis>Base Element</emphasis></para></entry>
+                <entry><para><emphasis>StereoType</emphasis></para></entry>
+                <entry><para><emphasis>Base Element</emphasis></para></entry>
               </row>
 
             </thead>
 
             <tbody>
 
-              <row><entry><para lang="en">access</para></entry><entry><para lang="en">Permission</para></entry></row>
-              <row><entry><para lang="en">appliedProfile</para></entry><entry><para lang="en">Package</para></entry></row>
-              <row><entry><para lang="en">association</para></entry><entry><para lang="en">AssociationEnd</para></entry></row>
-              <row><entry><para lang="en">auxiliary</para></entry><entry><para lang="en">Class</para></entry></row>
-              <row><entry><para lang="en">become</para></entry><entry><para lang="en">Flow</para></entry></row>
-              <row><entry><para lang="en">call</para></entry><entry><para lang="en">Usage</para></entry></row>
-              <row><entry><para lang="en">copy</para></entry><entry><para lang="en">Flow</para></entry></row>
-              <row><entry><para lang="en">create</para></entry><entry><para lang="en">BehavioralFeature</para></entry></row>
-              <row><entry><para lang="en">create</para></entry><entry><para lang="en">CallEvent</para></entry></row>
-              <row><entry><para lang="en">create</para></entry><entry><para lang="en">Usage</para></entry></row>
-              <row><entry><para lang="en">derive</para></entry><entry><para lang="en">Abstraction</para></entry></row>
-              <row><entry><para lang="en">destroy</para></entry><entry><para lang="en">BehavioralFeature</para></entry></row>
-              <row><entry><para lang="en">destroy</para></entry><entry><para lang="en">CallEvent</para></entry></row>
-              <row><entry><para lang="en">document</para></entry><entry><para lang="en">Abstraction</para></entry></row>
-              <row><entry><para lang="en">executable</para></entry><entry><para lang="en">Abstraction</para></entry></row>
-              <row><entry><para lang="en">facade</para></entry><entry><para lang="en">Package</para></entry></row>
-              <row><entry><para lang="en">file</para></entry><entry><para lang="en">Abstraction</para></entry></row>
-              <row><entry><para lang="en">focus</para></entry><entry><para lang="en">Class</para></entry></row>
-              <row><entry><para lang="en">framework</para></entry><entry><para lang="en">Package</para></entry></row>
-              <row><entry><para lang="en">friend</para></entry><entry><para lang="en">Permission</para></entry></row>
-              <row><entry><para lang="en">global</para></entry><entry><para lang="en">AssociationEnd</para></entry></row>
-              <row><entry><para lang="en">implementation</para></entry><entry><para lang="en">Class</para></entry></row>
-              <row><entry><para lang="en">implementation</para></entry><entry><para lang="en">Generalization</para></entry></row>
-              <row><entry><para lang="en">implicit</para></entry><entry><para lang="en">Association</para></entry></row>
-              <row><entry><para lang="en">import</para></entry><entry><para lang="en">Permission</para></entry></row>
-              <row><entry><para lang="en">instantiate</para></entry><entry><para lang="en">Usage</para></entry></row>
-              <row><entry><para lang="en">invariant</para></entry><entry><para lang="en">Constraint</para></entry></row>
-              <row><entry><para lang="en">library</para></entry><entry><para lang="en">Abstraction</para></entry></row>
-              <row><entry><para lang="en">local</para></entry><entry><para lang="en">AssociationEnd</para></entry></row>
-              <row><entry><para lang="en">metaclass</para></entry><entry><para lang="en">Class</para></entry></row>
-              <row><entry><para lang="en">metamodel</para></entry><entry><para lang="en">Package</para></entry></row>
-              <row><entry><para lang="en">modelLibrary</para></entry><entry><para lang="en">Package</para></entry></row>
-              <row><entry><para lang="en">parameter</para></entry><entry><para lang="en">AssociationEnd</para></entry></row>
-              <row><entry><para lang="en">postcondition</para></entry><entry><para lang="en">Constraint</para></entry></row>
-              <row><entry><para lang="en">powertype</para></entry><entry><para lang="en">Class</para></entry></row>
-              <row><entry><para lang="en">precondition</para></entry><entry><para lang="en">Constraint</para></entry></row>
-              <row><entry><para lang="en">process</para></entry><entry><para lang="en">Classifier</para></entry></row>
-              <row><entry><para lang="en">profile</para></entry><entry><para lang="en">Package</para></entry></row>
-              <row><entry><para lang="en">realize</para></entry><entry><para lang="en">Abstraction</para></entry></row>
-              <row><entry><para lang="en">refine</para></entry><entry><para lang="en">Abstraction</para></entry></row>
-              <row><entry><para lang="en">requirement</para></entry><entry><para lang="en">Comment</para></entry></row>
-              <row><entry><para lang="en">responsibility</para></entry><entry><para lang="en">Comment</para></entry></row>
-              <row><entry><para lang="en">self</para></entry><entry><para lang="en">AssociationEnd</para></entry></row>
-              <row><entry><para lang="en">send</para></entry><entry><para lang="en">Usage</para></entry></row>
-              <row><entry><para lang="en">signalflow</para></entry><entry><para lang="en">ObjectFlowState</para></entry></row>
-              <row><entry><para lang="en">source</para></entry><entry><para lang="en">Abstraction</para></entry></row>
-              <row><entry><para lang="en">stateInvariant</para></entry><entry><para lang="en">Constraint</para></entry></row>
-              <row><entry><para lang="en">stub</para></entry><entry><para lang="en">Package</para></entry></row>
-              <row><entry><para lang="en">systemModel</para></entry><entry><para lang="en">Package</para></entry></row>
-              <row><entry><para lang="en">table</para></entry><entry><para lang="en">Abstraction</para></entry></row>
-              <row><entry><para lang="en">thread</para></entry><entry><para lang="en">Classifier</para></entry></row>
-              <row><entry><para lang="en">topLevel</para></entry><entry><para lang="en">Package</para></entry></row>
-              <row><entry><para lang="en">trace</para></entry><entry><para lang="en">Abstraction</para></entry></row>
-              <row><entry><para lang="en">type</para></entry><entry><para lang="en">Class</para></entry></row>
+              <row><entry><para>access</para></entry><entry><para>Permission</para></entry></row>
+              <row><entry><para>appliedProfile</para></entry><entry><para>Package</para></entry></row>
+              <row><entry><para>association</para></entry><entry><para>AssociationEnd</para></entry></row>
+              <row><entry><para>auxiliary</para></entry><entry><para>Class</para></entry></row>
+              <row><entry><para>become</para></entry><entry><para>Flow</para></entry></row>
+              <row><entry><para>call</para></entry><entry><para>Usage</para></entry></row>
+              <row><entry><para>copy</para></entry><entry><para>Flow</para></entry></row>
+              <row><entry><para>create</para></entry><entry><para>BehavioralFeature</para></entry></row>
+              <row><entry><para>create</para></entry><entry><para>CallEvent</para></entry></row>
+              <row><entry><para>create</para></entry><entry><para>Usage</para></entry></row>
+              <row><entry><para>derive</para></entry><entry><para>Abstraction</para></entry></row>
+              <row><entry><para>destroy</para></entry><entry><para>BehavioralFeature</para></entry></row>
+              <row><entry><para>destroy</para></entry><entry><para>CallEvent</para></entry></row>
+              <row><entry><para>document</para></entry><entry><para>Abstraction</para></entry></row>
+              <row><entry><para>executable</para></entry><entry><para>Abstraction</para></entry></row>
+              <row><entry><para>facade</para></entry><entry><para>Package</para></entry></row>
+              <row><entry><para>file</para></entry><entry><para>Abstraction</para></entry></row>
+              <row><entry><para>focus</para></entry><entry><para>Class</para></entry></row>
+              <row><entry><para>framework</para></entry><entry><para>Package</para></entry></row>
+              <row><entry><para>friend</para></entry><entry><para>Permission</para></entry></row>
+              <row><entry><para>global</para></entry><entry><para>AssociationEnd</para></entry></row>
+              <row><entry><para>implementation</para></entry><entry><para>Class</para></entry></row>
+              <row><entry><para>implementation</para></entry><entry><para>Generalization</para></entry></row>
+              <row><entry><para>implicit</para></entry><entry><para>Association</para></entry></row>
+              <row><entry><para>import</para></entry><entry><para>Permission</para></entry></row>
+              <row><entry><para>instantiate</para></entry><entry><para>Usage</para></entry></row>
+              <row><entry><para>invariant</para></entry><entry><para>Constraint</para></entry></row>
+              <row><entry><para>library</para></entry><entry><para>Abstraction</para></entry></row>
+              <row><entry><para>local</para></entry><entry><para>AssociationEnd</para></entry></row>
+              <row><entry><para>metaclass</para></entry><entry><para>Class</para></entry></row>
+              <row><entry><para>metamodel</para></entry><entry><para>Package</para></entry></row>
+              <row><entry><para>modelLibrary</para></entry><entry><para>Package</para></entry></row>
+              <row><entry><para>parameter</para></entry><entry><para>AssociationEnd</para></entry></row>
+              <row><entry><para>postcondition</para></entry><entry><para>Constraint</para></entry></row>
+              <row><entry><para>powertype</para></entry><entry><para>Class</para></entry></row>
+              <row><entry><para>precondition</para></entry><entry><para>Constraint</para></entry></row>
+              <row><entry><para>process</para></entry><entry><para>Classifier</para></entry></row>
+              <row><entry><para>profile</para></entry><entry><para>Package</para></entry></row>
+              <row><entry><para>realize</para></entry><entry><para>Abstraction</para></entry></row>
+              <row><entry><para>refine</para></entry><entry><para>Abstraction</para></entry></row>
+              <row><entry><para>requirement</para></entry><entry><para>Comment</para></entry></row>
+              <row><entry><para>responsibility</para></entry><entry><para>Comment</para></entry></row>
+              <row><entry><para>self</para></entry><entry><para>AssociationEnd</para></entry></row>
+              <row><entry><para>send</para></entry><entry><para>Usage</para></entry></row>
+              <row><entry><para>signalflow</para></entry><entry><para>ObjectFlowState</para></entry></row>
+              <row><entry><para>source</para></entry><entry><para>Abstraction</para></entry></row>
+              <row><entry><para>stateInvariant</para></entry><entry><para>Constraint</para></entry></row>
+              <row><entry><para>stub</para></entry><entry><para>Package</para></entry></row>
+              <row><entry><para>systemModel</para></entry><entry><para>Package</para></entry></row>
+              <row><entry><para>table</para></entry><entry><para>Abstraction</para></entry></row>
+              <row><entry><para>thread</para></entry><entry><para>Classifier</para></entry></row>
+              <row><entry><para>topLevel</para></entry><entry><para>Package</para></entry></row>
+              <row><entry><para>trace</para></entry><entry><para>Abstraction</para></entry></row>
+              <row><entry><para>type</para></entry><entry><para>Class</para></entry></row>
             </tbody>
 
           </tgroup>
@@ -66915,22 +68025,22 @@ available at http://www.opencontent.org/openpub/.
 
           <itemizedlist>
             <listitem>
-              <para lang="en"><literal>derived</literal></para>
+              <para><literal>derived</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>documentation</literal></para>
+              <para><literal>documentation</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>persistence</literal></para>
+              <para><literal>persistence</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>persistent</literal></para>
+              <para><literal>persistent</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>semantics</literal></para>
+              <para><literal>semantics</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>usage</literal></para>
+              <para><literal>usage</literal></para>
             </listitem>
           </itemizedlist>
 
@@ -67055,34 +68165,34 @@ available at http://www.opencontent.org/openpub/.
 
           <itemizedlist>
             <listitem>
-              <para lang="en"><literal>Boolean</literal></para>
+              <para><literal>Boolean</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Byte</literal></para>
+              <para><literal>Byte</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Char</literal></para>
+              <para><literal>Char</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Double</literal></para>
+              <para><literal>Double</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Float</literal></para>
+              <para><literal>Float</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Integer</literal></para>
+              <para><literal>Integer</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Long</literal></para>
+              <para><literal>Long</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Object</literal></para>
+              <para><literal>Object</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Short</literal></para>
+              <para><literal>Short</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>String</literal></para>
+              <para><literal>String</literal></para>
             </listitem>
           </itemizedlist>
 
@@ -67100,10 +68210,10 @@ available at http://www.opencontent.org/openpub/.
 
           <itemizedlist>
             <listitem>
-              <para lang="en"><literal>Big Decimal</literal></para>
+              <para><literal>Big Decimal</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Big Integer</literal></para>
+              <para><literal>Big Integer</literal></para>
             </listitem>
           </itemizedlist>
 
@@ -67121,7 +68231,7 @@ available at http://www.opencontent.org/openpub/.
 
           <itemizedlist>
             <listitem>
-              <para lang="en"><literal>URL</literal></para>
+              <para><literal>URL</literal></para>
             </listitem>
           </itemizedlist>
 
@@ -67139,13 +68249,13 @@ available at http://www.opencontent.org/openpub/.
 
           <itemizedlist>
             <listitem>
-              <para lang="en"><literal>Date</literal></para>
+              <para><literal>Date</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Time</literal></para>
+              <para><literal>Time</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Vector</literal></para>
+              <para><literal>Vector</literal></para>
             </listitem>
           </itemizedlist>
 
@@ -67174,19 +68284,19 @@ available at http://www.opencontent.org/openpub/.
         <itemizedlist>
 
             <listitem>
-              <para lang="en"><literal>Collection</literal></para>
+              <para><literal>Collection</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Iterator</literal></para>
+              <para><literal>Iterator</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>List</literal></para>
+              <para><literal>List</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>Set</literal></para>
+              <para><literal>Set</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>SortedSet</literal></para>
+              <para><literal>SortedSet</literal></para>
             </listitem>
         </itemizedlist>
 
