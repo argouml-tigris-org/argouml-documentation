@@ -58181,20 +58181,45 @@ available at http://www.opencontent.org/openpub/.
         <emphasis>specify</emphasis> behavior to the corresponding 
         model elements that <emphasis>implement</emphasis> the 
         behavior.</para>
+        <para lang="de">
+        	Eine Abstraktion ist eine Abhängigkeitsbeziehung, die zwei 
+        	Modellelemente innerhalb des Modelles auf unterschiedlichen 
+        	Abstraktionsebenen miteinander verbindet. Innerhalb von ArgoUML wird 
+        	dies prinzipiell über seine spezifischen Stereotyp <literal>realize
+        	</literal>, um Realisierungsabhängigkeiten zu definieren, die 
+        	Modellelemente die Verhalten <emphasis>beschreiben</emphasis> mit 
+        	den Modellelementen die Verhalten <emphasis>implementieren
+        	</emphasis> zu verknüpfen.
+        </para>
 
         <para lang="en">In the UML metamodel <literal>Abstraction</literal> is a 
         sub-class of <literal>Dependency</literal> and through that 
         <literal>Relationship</literal>.</para>
+        <para lang="de">
+        	Im UML-Metamodell ist die <literal>Abstraction</literal> eine 
+        	Subklasse von <literal>Dependency</literal> und darüber von 
+        	<literal>Relationship</literal>.
+        </para>
 
         <para lang="en">An abstraction with stereotype <literal>realize</literal> 
         is represented on a class diagram as a dotted line with a solid 
         white head at the specifying end.</para>
+        <para lang="de">
+        	Eine Abstraktion mit dem Stereotyp <literal>realize</literal> wird 
+        	in einem Klassendiagramm als gepunktete Linie mit einem weissen 
+        	Kopf am spezifizierenden Ende dargestellt.
+        </para>
 
         <caution>
 
           <para lang="en">All other stereotypes of abstraction should be 
           represented using an open arrow head, but this is not 
           supported by ArgoUML.</para>
+          <para lang="de">
+          	Alle anderen Stereotypen einer Abstraktion sollten mit einem offenen 
+          	Pfeil dargestellt werden, aber dies wird durch ArgoUML nicht 
+          	unterstützt.
+          </para>
 
         </caution>
 
@@ -58202,20 +58227,26 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Abstraction Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Abstraktion</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for abstractions are 
           as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für eine Abstraktion sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -58224,6 +58255,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -58231,6 +58263,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.abstraction_property_toolbar"/> 
                 and <xref linkend="s2.ref.abstraction_property_fields"/>
                  below.</para>
+                <para lang="de">
+	                Siehe 
+	                <xref linkend="s2.ref.abstraction_property_toolbar"/> 
+	                und <xref linkend="s2.ref.abstraction_property_fields"/>
+	                 unten.
+                 </para>
 
               </listitem>
 
@@ -58239,11 +58277,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. See 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para lang="de">
+	                Standard-Register. Siehe 
+	                <xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -58252,10 +58295,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
                 <note>
 
@@ -58264,6 +58309,11 @@ available at http://www.opencontent.org/openpub/.
                     abstraction
                     are not editable, since they are determined 
                     by the properties of the endpoints of the line.
+                  </para>
+                  <para lang="de">
+                  	Der Werte im Feld "Begrenzung der Abstraktion sind nicht 
+                  	editierbar, weil sie durch die Eigenschaften der 
+                  	Linienendpunkte bestimmt werden.
                   </para>
 
                 </note>
@@ -58275,11 +58325,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. This contains the single 
                 downlighted text <literal>N/A</literal>.</para>
+                <para lang="de">
+                	Standard-Register. Enthält den deaktivierten Text 
+                	<literal>N/A</literal>.
+                </para>
 
               </listitem>
 
@@ -58288,12 +58343,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Abstraction</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Abstraktion</literal> die folgenden Standard-
+                	Eigenschaftswerte definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -58305,6 +58366,14 @@ available at http://www.opencontent.org/openpub/.
                     abstraction is redundant&mdash;it can be formally derived 
                     from other elements, or <literal>false</literal> 
                     meaning it cannot.</para>
+                    <para lang="de">
+                    	<literal>derived</literal> (von der Superklasse 
+                    	<literal>ModelElement</literal>). Der Wert <literal>
+                    	true</literal> bedeutet, dass die Abstraktion 
+                    	redundant ist&mdash; sie kann formal von anderen 
+                    	Elementen abgeleitet werden, oder <literal>false
+                    	</literal>, wenn sie es nicht kann. 
+                    </para>
 
                     <note>
 
@@ -58312,6 +58381,11 @@ available at http://www.opencontent.org/openpub/.
                       in analysis to introduce useful names or 
                       concepts, and in design to avoid 
                       re-computation.</para>
+                      <para lang="de">
+                      	Abgeleitete Abstraktionen haben ihren Wert in der 
+                      	Analyse, um nützliche Namen oder Konzepte einzuführen 
+                      	und im Design um eine Wiederverarbeitung zu verhindern.
+                      </para>
 
                     </note>
 
@@ -58326,6 +58400,13 @@ available at http://www.opencontent.org/openpub/.
                   the tagged element <literal>documentation</literal> 
                   which is handled by the <emphasis>documentation 
                   tab</emphasis> under ArgoUML</para>
+                  <para lang="de">
+                  	Die UML-Metaklasse <literal>Element</literal>, von der 
+                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
+                  	den Eigenschaftswert <literal>documentation</literal>, der 
+                  	in ArgoUML im Register <emphasis>Dokumentation</emphasis> 
+                  	bearbeitet wird.
+                  </para>
 
                 </note>
 
@@ -58341,7 +58422,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Abstraction Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Abstraktion</phrase>
+		  </title>
 
           <variablelist>
 
@@ -58352,10 +58434,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur nach oben.
+                </para>
 
               </listitem>
 
@@ -58368,10 +58458,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the abstraction from the model</para>
+                <para lang="de">
+                	Löscht die Abstraktion aus dem Modell.
+                </para>
 
                 <warning>
 
@@ -58380,6 +58478,13 @@ available at http://www.opencontent.org/openpub/.
                   an abstraction from the diagram, but keep it within 
                   the model, use the main menu <literal>Remove From 
                   Diagram</literal> (or press the Delete key).</para>
+                  <para lang="de">
+                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Um eine Abstraktion aus 
+                  	dem Diagramm zu entfernen, es aber im Modell zu erhalten, 
+                  	verwenden Sie <literal>Aus Diagramm entfernen</literal> im 
+                  	Hauptmenü (oder drücken Sie die Taste Entf).
+                  </para>
 
                 </warning>
 
@@ -58395,19 +58500,26 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Abstraction</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für eine Abstraktion</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. The name of the abstraction. There are 
                 no constraints on the name of an abstraction, which is 
                 not shown on any diagram.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Abstraktion. Es gibt keine 
+                	Randbedingungen für die Namen einer Abstraktion, der im 
+                	diagramm nicht angezeigt wird.
+                </para>
 
               </listitem>
 
@@ -58416,6 +58528,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -58423,6 +58536,12 @@ available at http://www.opencontent.org/openpub/.
                 default with the UML standard stereotypes <literal>
                 derive</literal>, <literal>realize</literal>, <literal>
                 refine</literal> and <literal>trace</literal>.</para>
+                <para lang="de">
+                	Kombinationsfeld. Die Abstraktion bietet standardmäßig die 
+                	UML-Standard-Stereotypen <literal>derive</literal>, 
+                	<literal>realize</literal>, <literal>refine</literal> und 
+                	<literal>trace</literal> an.
+                </para>
 
                 <caution>
 
@@ -58432,6 +58551,14 @@ available at http://www.opencontent.org/openpub/.
                   to indicate for example a <literal>trace</literal> 
                   relationship. However ArgoUML will not alter the 
                   representation on the diagram accordingly.</para>
+                  <para lang="de">
+                  	ArgoUML wählt den Stereotyp realize automatisch aus, wenn 
+                  	eine Abstraktion erzeugt wird. Dem Anwender steht es frei, 
+                  	diesen Stereotyp zu ändern, um über die Abstraktion zum 
+                  	Beispiel eine <literal>trace</literal>-Beziehung 
+                  	darzustellen. ArgoUML wird jedoch die Darstellung im 
+                  	Diagramm nicht entsprechend ändern.
+                  </para>
 
                 </caution>
 
@@ -58442,6 +58569,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -58452,6 +58580,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, navigiert es in 
+	                das Eigenschaftsfenster des Stereotyps (siehe 
+	                <xref linkend="s1.ref.stereotype"/>).
+                </para>
 
               </listitem>
 
@@ -58460,12 +58597,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Records and allows changing 
                 the namespace for the abstraction. This is the package 
                 hierarchy.</para>
+                <para lang="de">
+                	Kombinationsfeld. Nimmt den Namensraum der Abstraktion auf 
+                	und erlaubt deren Änderung. Dies ist die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -58474,22 +58616,37 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Suppliers</literal></term>
+              <term lang="de"><literal>Lieferanten</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists the model element that is the 
                 supplier end of this abstraction (for a realization 
                 this is the end providing the implementation).</para>
+                <para lang="de">
+                	Textbereich. Listet die Modellelemente auf, die das 
+                	Lieferantenende dieser Abstraktion darstellen (bei einer 
+                	Realisierung ist dies das Ende, das die Implementierung 
+                	enthält).
+                </para>
 
                 <note>
 
                   <para lang="en">Although this is a text area there is no 
                   mechanism for adding more than one supplier.</para>
+                  <para lang="de">
+                  	Obwohl dies ein Textbereich ist, gibt es keinen Mechanismus, 
+                  	mehr als einen Lieferanten hinzuzufügen.
+                  </para>
 
                 </note>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -58498,22 +58655,36 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Clients</literal></term>
+              <term lang="de"><literal>Clients</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists the model element that is the client 
                 end of this abstraction (for a realization this is the 
                 end providing the specification).</para>
+                <para lang="de">
+                	Textbereich. Listet die Modellelemente auf, die das Client-
+                	Ende dieser Abstraktion darstellen (bei einer Realisierung 
+                	ist dies das Ende, das die Spezifikation enthält).
+                </para>
 
                 <note>
 
                   <para lang="en">Although this is a text area there is no 
                   mechanism for adding more than one client.</para>
+                  <para lang="de">
+                  	Obwohl dies ein Textbereich ist, gibt es keinen Mechanismus 
+                  	mehr als einen Client hinzuzufügen.
+                  </para>
 
                 </note>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -58529,43 +58700,70 @@ available at http://www.opencontent.org/openpub/.
 
     <chapter id="ch.ref.entseq">
 
-      <title>
+        <title>
 			<phrase lang="en">Sequence Diagram Model Element Reference</phrase>
+			<phrase lang="de">Modellelement-Referenz Sequenzdiagramm</phrase>
 		</title>
 
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en">This chapter describes each model element that can be created 
         within a sequence diagram. Note that some sub-model elements of 
         model elements on the diagram may not actually themselves appear on 
         the diagram.</para>
+        <para lang="de">
+        	Dieses Kapitel beschreibt jedes Modellelement, das innerhalb eines 
+        	Sequenzdiagrammes erzeugt werden kann. Beachten Sie, dass einige 
+        	Sub-Modellelemente von Modellelementen des Diagrammes nicht selbst 
+        	im Diagramm erscheinen.
+        </para>
 
         <para lang="en">There is a close relationship between this material and 
         the <literal>Properties</literal> tab of the details pane (see 
         <xref linkend="s1.ref.proptab"/>). That section covers 
         properties in general, in this chapter they are linked to 
         specific model elements.</para>
+        <para lang="de">
+        	Es gibt eine enge Beziehung zwischen diesem Material und dem 
+        	Register <literal>Eigenschaften</literal> des Detailfensters (siehe 
+        	<xref linkend="s1.ref.proptab"/>). Dieser Abschnitt behandelt die 
+        	Eigenschaften allgemein, in diesem Kapitel sind sie mit spezifischen 
+        	Modellelementen verknüpft.
+        </para>
 
         <caution>
 
           <para lang="en">Sequence diagrams are not fully developed yet in 
           ArgoUML. Many aspects are not fully implemented, or may not 
           behave as expected.</para>
+          <para lang="de">
+          	Sequenzdiagramme sind aktuell nicht vollständig in ArgoUML 
+          	implementiert. Viele Aspekte sind nicht vollständig, oder verhalten 
+          	sich nicht wie erwartet.
+          </para>
 
         </caution>
 
         <para lang="en"><xref linkend="fig.ref.sequence_diagram"/> shows a 
         sequence diagram with all possible model elements displayed.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.sequence_diagram"/> zeigt ein Sequenzdiagramm 
+        	mit allen denkbaren Modellelementen.
+        </para>
 
         <figure float="1" id="fig.ref.sequence_diagram">
 
           <title>
 			<phrase lang="en">Possible model elements on a sequence diagram.</phrase>
-		</title>
+			<phrase lang="de">
+				Denkbare Modellelemente in einem Sequenzdiagramm.
+			</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -58576,17 +58774,30 @@ available at http://www.opencontent.org/openpub/.
         <sect2>
 
           <title>
-			<phrase lang="en">Limitations Concerning Sequence Diagrams in 
-          ArgoUML</phrase>
-		</title>
+			<phrase lang="en">
+				Limitations Concerning Sequence Diagrams in ArgoUML
+			</phrase>
+			<phrase lang="de">
+				Einschränkungen, die Sequenzdiagramme in ArgoUML betreffen
+			</phrase>
+		  </title>
 
           <para lang="en">The sequence diagram is still rather under-developed in 
           ArgoUML.</para>
+          <para lang="de">
+          	Das Sequenzdiagramm ist in ArgoUML noch recht unterentwickelt.
+          </para>
 
           <para lang="en">The biggest difficulties are with the actions behind 
           the stimuli. These are purely textual in implementation, and 
           there is no way to link them back to their associated 
           operations or signals.</para>
+          <para lang="de">
+          	Die größten Unterschiede befinden sich in den Aktionen hinter den 
+          	Impulsen. Diese sind vollständig textuell implementiert 
+          	und es gibt keinen Weg, diese mit deren verknüpften Operationen oder 
+          	Signalen zurückzuverfolgen. 
+          </para>
 
         </sect2>
 
@@ -58596,6 +58807,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Object</phrase>
+			<phrase lang="de">Objekt</phrase>
 		</title>
 
         <para lang="en">An object is an instance of a class. In the UML metamodel 
@@ -58605,6 +58817,15 @@ available at http://www.opencontent.org/openpub/.
         collaboration diagrams (see <xref linkend="ch.ref.entcollab"/>
         ), sequence diagrams cannot show generic behavior between 
         classifier roles.</para>
+        <para lang="de">
+        	Ein Objekt ist eine Instanz einer Klasse. Im UML-Metamodell ist 
+        	<literal>Object</literal> eine Subklasse von <literal>Instance
+        	</literal>. Innerhalb eines Sequenzdiagrammes könnten Objekte 
+        	verwendet werden, um eine spezielle Instanz einer Klasse 
+        	darzustellen. Wie in Kollaborationsdiagrammen (siehe 
+        	<xref linkend="ch.ref.entcollab"/> können Sequenzdiagramme kein 
+        	generelles Verhalten zwischen Klassifzierer-Rollen darstellen. 
+        </para>
 
         <para lang="en">An object is represented on a sequence diagram in ArgoUML 
         as a plain box labeled with the object name (if any) and class 
@@ -58612,6 +58833,14 @@ available at http://www.opencontent.org/openpub/.
         from other objects are added, a time line grows down from the 
         object. This is thin where the object does not have control and 
         thick where it does.</para>
+        <para lang="de">
+        	Ein Objekt wird in einem Sequenzdiagramm von ArgoUML als Rechteck 
+        	mit dem Objektnamen (sofern vorhanden) und durch ein Semikolon 
+        	abgetrennten (:) Klassennamen dargestellt. Als Verbindungen werden 
+        	Impulse von und zu anderen Objekten hinzugefügt und eine Zeitline 
+        	geht vom Objekt aus nach unten. Diese ist dünn, wenn das Objekt 
+        	keine Steuerungsfunktion hat und dick, wenn es eine hat.
+        </para>
 
         <caution>
 
@@ -58619,11 +58848,22 @@ available at http://www.opencontent.org/openpub/.
           between objects, although the UML standard for sequence 
           diagrams is for interaction between instances of any 
           classifier).</para>
+          <para lang="de">
+          	Die aktuelle Release von ArgoUML zeigt Interaktionen zwischen 
+          	Objekten, obwohl der UML-Standard für Sequenzdiagramme für 
+          	Interaktionen zwischen Instanzen eines Klassifizierers gedacht ist.
+          </para>
 
           <para lang="en">However the actual implementation in ArgoUML permits 
           any classifier to be used with the object, and so the diagram 
           can successfully represent instances of actors for example as 
           well as classes.</para>
+          <para lang="de">
+          	Die aktuelle Implementierung in ArgoUML erlaubt jedoch die Anwendung  
+          	jedes Klassifizierers mit dem Objekt. So kann das Diagramm zum 
+          	Beispiel Instanzen von Akteuren wie auch Klassen erfolgreich 
+          	darstellen.
+          </para>
 
         </caution>
 
@@ -58631,20 +58871,26 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Object Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Objekt</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for objects are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Objekte sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -58653,6 +58899,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -58660,6 +58907,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.object_property_toolbar"/> and 
                 <xref linkend="s2.ref.object_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe 
+	                <xref linkend="s2.ref.object_property_toolbar"/> und 
+	                <xref linkend="s2.ref.object_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -58668,10 +58921,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -58680,6 +58935,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
@@ -58688,6 +58944,13 @@ available at http://www.opencontent.org/openpub/.
                 and its time line. However if you change them it will 
                 have no effect, and the original values will be reset 
                 when you next revisit the tab.</para>
+                <para lang="de">
+                	Standard-Register. Die Werte für die Begrenzung des 
+                	Objeketes definieren theoretisch den begrenzenden Rahmen des 
+                	Objektes und seine Zeitlinie. Wenn Sie diese jedoch ändern, 
+                	hat dies keinen Effekt und die Originalwerte werden wieder 
+                	eingestellt, wenn Sie das Register erneut aufsuchen.
+                </para>
 
               </listitem>
 
@@ -58696,17 +58959,28 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab, but with no contents.</para>
+                <para lang="de">
+                	Standard-Register, aber ohne Inhalte.
+                </para>
 
-                <caution>
-
-                  <para lang="en">An object should not generate any code, so 
-                  having this tab active is probably a mistake.</para>
-
-                </caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">An object should not generate any code, so 
+	                  having this tab active is probably a mistake.</para>
+	                  <para lang="de">
+	                  	Ein Objekt sollte keinen Code generieren, so dass die 
+	                  	Tatsache, dass dieses Register aktiv ist, wahrscheinlich 
+	                  	einen Fehler darstellt.
+	                  </para>
+	
+	                </caution>
+                </para>
 
               </listitem>
 
@@ -58715,12 +58989,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Object</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Object</literal> die folgenden Eigenschaftswerte definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -58734,6 +59013,15 @@ available at http://www.opencontent.org/openpub/.
                     object is destroyed) and <literal>
                     persistent</literal> (state is preserved when the 
                     object is destroyed).</para>
+                    <para lang="de">
+                    	<literal>persistence</literal> (von der Superklasse 
+                    	<literal>Instance</literal>. Zeigt die Dauerhaftigkeit 
+                    	der mit dem Objekt verknüpften Zustandsinformationen an. 
+                    	Werte sind <literal>transitory</literal> (der Zustand 
+                    	wird zerstört, wenn das Objekt zerstört wird) und  
+                    	<literal>persistent</literal> (der Zustand bleibt 
+                    	erhalten, wenn das Objekt zerstört wird). 
+                    </para>
 
                   </listitem>
 
@@ -58745,30 +59033,54 @@ available at http://www.opencontent.org/openpub/.
                     is redundant&mdash;it can be formally derived from other 
                     elements, or <literal>false</literal> meaning it 
                     cannot.</para>
+                    <para lang="de">
+                    	<literal>derived</literal> (von der Superklasse 
+                    	<literal>ModelElement</literal>). Der Wert <literal>true
+                    	</literal> bedeutet, dass das Objekt redundant ist&mdash; 
+                    	es kann formal von anderen Elementen abgeleitet werden, 
+                    	oder <literal>false</literal>, wenn es das nicht kann.
+                    </para>
 
-                    <note>
-
-                      <para lang="en">Derived objects still have their value in 
-                      analysis and design to introduce useful names or 
-                      concepts, and in design to avoid 
-                      re-computation.</para>
-
-                    </note>
-
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived objects still have their value in 
+	                      analysis and design to introduce useful names or 
+	                      concepts, and in design to avoid 
+	                      re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Objekte haben ihren Wert in der Analyse 
+	                      	und im Design, um nützliche Namen oder Konzepte 
+	                      	einzuführen und im Design, um eine 
+	                      	Wiederverarbeitung zu verhindern.
+	                      </para>
+	
+	                    </note>
+					</para>
+					
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-
-                </note>
-
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
+	                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
+	                  	Eigenschaftswert <literal>documentation</literal>, der in 
+	                  	ArgoUML im Register <emphasis>Dokumentation</emphasis> 
+	                  	bearbeitet wird.
+	                  </para>
+	
+	                </note>
+				</para>
+				
               </listitem>
 
             </varlistentry>
@@ -58776,10 +59088,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Checklist</literal></term>
+              <term lang="de"><literal>Checkliste</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab for a Classifier.</para>
+                <para lang="de">Standard-Register für einen Klassifizierer.</para>
 
               </listitem>
 
@@ -58793,7 +59107,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Object Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Objekt</phrase>
+		  </title>
 
           <variablelist>
 
@@ -58804,10 +59119,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur nach oben.
+                </para>
 
               </listitem>
 
@@ -58820,17 +59143,37 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary></indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 object, navigating immediately to the properties tab 
                 for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für das markierte 
+                	Objekt und springt sofort in das Register Eigeschaften 
+                	dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -58843,10 +59186,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the object from the model</para>
+                <para lang="de">
+                	Löscht das Objekt aus dem Modell.
+                </para>
 
                 <warning>
 
@@ -58855,6 +59206,13 @@ available at http://www.opencontent.org/openpub/.
                   an object from the diagram, but keep it within the 
                   model, use the main menu <literal>Remove From 
                   Diagram</literal> (or press the Delete key).</para>
+                  <para lang="de">
+                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Um ein Objekt aus dem 
+                  	Diagramm zu löschen, es aber im Modell zu erhalten, 
+                  	verwenden Sie <literal>Aus Diagramm entfernen</literal> im 
+                  	Hauptmenü (oder drücken Sie die Taste Entf).
+                  </para>
 
                 </warning>
 
@@ -58870,26 +59228,39 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Object</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für ein Objekt</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. The name of the object. By convention 
                 object names start with a lower case letter and use 
                 bumpy caps to divide words within the name.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Objekts. Per Konvention beginnt der 
+                	Objektname mit einem Kleinbuchstaben und verwendet die 
+                	Groß-/Kleinschreibung, um Wörter innerhalb des Namens 
+                	voneinander zu trennen.
+                </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonvention.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -58898,11 +59269,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Object has no stereotypes by 
                 default in the UML standard.</para>
+                <para lang="de">
+                	Kombinationsfeld. Das Objekt hat im UML-Standard 
+                	standardmäßig keine Stereotypen.
+                </para>
 
               </listitem>
 
@@ -58911,6 +59287,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -58921,6 +59298,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype_class"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, wird es in das 
+	                Eigenschaftsfenster dieses Stereotyps navigieren (siehe 
+	                <xref linkend="s1.ref.stereotype_class"/>).
+                </para>
 
               </listitem>
 
@@ -58929,11 +59315,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Records the namespace for the object. 
                 This is the package hierarchy.</para>
+                <para lang="de">
+                	Textfeld. Nimmt den Namensraum für das Objekt auf. Dies ist 
+                	die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -58942,11 +59333,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stimuli Sent</literal></term>
+              <term lang="de"><literal>Impulse gesendet</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists the stimuli sent to this 
                 object.</para>
+                <para lang="de">
+                	Textbereich. Listet alle Impulse auf, die zu diesem Objekt 
+                	gesendet wurden.
+                </para>
 
               </listitem>
 
@@ -58955,11 +59351,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stimuli Received</literal></term>
+              <term lang="de"><literal>Impulse empfangen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists the stimuli received by this 
                 object.</para>
+                <para lang="de">
+                	Textbereich. Listet die von diesem Objekt empfangenen 
+                	Impulse auf.
+                </para>
 
               </listitem>
 
@@ -58968,34 +59369,58 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Classifier</literal></term>
+              <term lang="en"><literal>Klassifizierer</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. The name of the classifier of 
                 which this is an object.</para>
+                <para lang="de">
+                	Kombinationsfeld. Der Name des Klassifizierers von dem dies 
+                	ein Objekt ist.
+                </para>
 
-                <caution>
-
-                  <para lang="en">In the current release of ArgoUML the drop down 
-                  selector will include <emphasis>all</emphasis> 
-                  classifiers (i.e. interfaces, actors, use cases and 
-                  datatypes as well), which is what is wanted on the 
-                  diagram, although it should properly be called an 
-                  instance, rather than an object. In practice only 
-                  instances of classes and actors make much 
-                  sense.</para>
-
-                </caution>
-
-                <note>
-
-                  <para lang="en">In the current release of ArgoUML the same 
-                  graphical presentation is used, even if the object is 
-                  actually representing an instance of an actor (when a 
-                  stick-man would be more usual).</para>
-
-                </note>
-
+				<para>
+	                <caution>
+	
+	                  <para lang="en">In the current release of ArgoUML the drop down 
+	                  selector will include <emphasis>all</emphasis> 
+	                  classifiers (i.e. interfaces, actors, use cases and 
+	                  datatypes as well), which is what is wanted on the 
+	                  diagram, although it should properly be called an 
+	                  instance, rather than an object. In practice only 
+	                  instances of classes and actors make much 
+	                  sense.</para>
+	                  <para lang="de">
+	                  	In der aktuellen Release von ArgouML enthält das 
+	                  	Kombinationsfeld <emphasis>alle</emphasis> Klassifizierer 
+	                  	(z.B. Schnittstellen, Akteure, Anwendungsfälle und 
+	                  	Datentypen), was das ist, was im Diagramm gewollt ist, 
+	                  	obwohl es richtigerweise als eine Instanz anstelle von 
+	                  	Objekt bezeichnet werden sollte. In der Praxis machen nur 
+	                  	Instanzen von Klassen und Akteuren einen Sinn. 
+	                  </para>
+	
+	                </caution>
+				</para>
+				
+				<para>
+	                <note>
+	
+	                  <para lang="en">In the current release of ArgoUML the same 
+	                  graphical presentation is used, even if the object is 
+	                  actually representing an instance of an actor (when a 
+	                  stick-man would be more usual).</para>
+	                  <para lang="de">
+	                  	In der aktuellen Release von ArgoUML wird die gleiche 
+	                  	grafische Darstellung verwendet, auch wenn das Objekt aktuell 
+	                  	die Instanz eines Akteurs darstellt (auch wenn ein 
+	                  	Strichmännchen üblich wäre).
+	                  </para>
+	
+	                </note>
+				</para>
+				
               </listitem>
 
             </varlistentry>
@@ -59010,6 +59435,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Stimulus</phrase>
+			<phrase lang="de">Impuls</phrase>
 		</title>
 
         <para lang="en">A stimulus is a communication between two instances and 
@@ -59018,6 +59444,14 @@ available at http://www.opencontent.org/openpub/.
         two object instances. In the UML metamodel <literal>
         Stimulus</literal> is a sub-class of <literal>
         ModelElement</literal>.</para>
+        <para lang="de">
+        	Ein Impuls ist eine Kommunikation zwischen zwei Instanzen und wird 
+        	durch eine Aktion generiert. In einem Sequenzdiagramm ist ein 
+        	Impuls mit einer Verbindung verknüpft&mdash; eine Instanz einer 
+        	Assoziation verbindet zwei Objektinstanzen. Im UML-Metamodell ist 
+        	<literal>Stimulus</literal> eine Subklasse von <literal>
+       	 	ModelElement</literal>.
+        </para>
 
         <para lang="en">The link (see <xref linkend="s1.ref.link_sequence"/>) 
         associated with a stimulus is represented on a sequence diagram 
@@ -59027,6 +59461,15 @@ available at http://www.opencontent.org/openpub/.
         and the action, separated by a colon (:). The type of line and 
         arrowhead depends on the type of action that generated the 
         stimulus:</para>
+        <para lang="de">
+        	Die Verbindung (siehe <xref linkend="s1.ref.link_sequence"/>) mit 
+        	einem Impuls wird in einem Sequenzdiagramm von ArgoUML als Pfeil 
+        	zwischen den Zeitlinien der Objektinstanzen (oder dem Objektkopf im 
+        	Fall des Erzeugens eines Impulses; unten beschrieben) dargestellt, 
+        	mit dem Namen der Aktion bezeichnet (sofern gewünscht) und der, 
+        	durch ein Doppelpunkt (:) getrennte Aktion. Der Linietyp und die 
+        	Pfeile hängen vom Typ der Aktion ab, die den Impuls generieren:
+        </para>
 
         <itemizedlist>
 
@@ -59036,6 +59479,12 @@ available at http://www.opencontent.org/openpub/.
             action, itself the result of an operation of a class. Shown 
             as a solid line with a solid arrowhead to the time line of 
             the object instance receiving the stimulus.</para>
+            <para lang="de">
+            	<literal>Impulsaufruf</literal>. Durch eine Aufrufaktion 
+            	generiert, ist selbst das Ergebnis einer Operation der Klasse. 
+            	Wird als durgehende Linie mit einem ausgemalten Pfeil auf der 
+            	Zeitlinie der, den Impuls empfangenden Objektinstanz dargestellt. 
+            </para>
 
           </listitem>
 
@@ -59045,6 +59494,12 @@ available at http://www.opencontent.org/openpub/.
             create action for the class for which an instance is to be 
             created Shown as a solid line with a solid arrowhead to the 
             object head of the object instance being created.</para>
+            <para lang="de">
+            	<literal>Impuls erzeugen</literal>. Von einer Create-Aktion der 
+            	Klasse generiert, von der eine Instanz erzeugt wurde. Dargestellt 
+            	als durchgehende Linie mit einem ausgemalten Pfeil auf den 
+            	Objektkopf der erzeugten Objektinstanz.
+            </para>
 
           </listitem>
 
@@ -59055,6 +59510,13 @@ available at http://www.opencontent.org/openpub/.
             line with an open arrowhead terminating in a diagonal cross 
             at the end of the time line of the receiving (destroyed) 
             object instance.</para>
+            <para lang="de">
+            	<literal>Impuls löschen</literal>. Von einer Lösch-Aktion des 
+            	Ursprungsobjektes generiert. Dargestellt als durchgehende Linie 
+            	mit einem offenen Pfeil. Die Zeitlinie der empfangenden 
+            	(gelöschten) Objektinstanz wird mit einem diagonalen Kreuz 
+            	abgeschlossen.
+            </para>
 
           </listitem>
 
@@ -59065,6 +59527,13 @@ available at http://www.opencontent.org/openpub/.
             the sending object instance and handled by the receiving 
             object instance. Shown as a solid line with half an open 
             arrowhead.</para>
+            <para lang="de">
+            	<literal>Impuls gesendet</literal>. Von einer Sende-Aktion 
+            	generiert, ist es das Ergebnis eines, durch eine Operation der 
+            	sendenden Objektinstanz ausgelöstes Signal und wird durch die 
+            	empfangende Objektinstanz bearbeitet. Dargestellt als 
+            	durchgehende Linie mit einem halb offenen Pfeil.
+            </para>
 
           </listitem>
 
@@ -59074,50 +59543,82 @@ available at http://www.opencontent.org/openpub/.
             object instance that has received an earlier call stimulus 
             and is returning a result to the calling object instance. 
             Shown as a dotted line with an open arrowhead.</para>
+            <para lang="de">
+            	<literal>Impuls Rückgabe</literal>. Von einer Objektinstanz 
+            	generiert, die vorher einen Impulsaufruf empfangen hat und das 
+            	Ergebnis an die aufrufende Objektinstanz zurückliefert. 
+            	Dargestellt als gepunktete Linie mit einem offenen Pfeil.
+            </para>
 
           </listitem>
 
         </itemizedlist>
 
-        <note>
-
-          <para lang="en">ArgoUML does not allow you to create stimuli directly, 
-          but instead provides tools to create stimuli of each of the 
-          five types above.</para>
-
-        </note>
-
-        <caution>
-
-          <para lang="en">In the current release of ArgoUML there is no way to 
-          show a terminate action where an object instance destroys 
-          itself. One way is to draw a destroy action that loops back 
-          to the object itself, give it an action with no name and use 
-          the style tab to set an invisible line, but this still leaves 
-          the arrow head showing, which is unsightly. It is also 
-          semantically incorrect anyway to use a destroy action to 
-          represent a terminate action.</para>
-
-        </caution>
-
+		<para>
+	        <note>
+	
+	          <para lang="en">ArgoUML does not allow you to create stimuli directly, 
+	          but instead provides tools to create stimuli of each of the 
+	          five types above.</para>
+	          <para lang="de">
+	          	ArgoUML erlaubt es Ihnen nicht, Impulse direkt zu erzeugen. Es 
+	          	bietet aber Werkzeuge an, um alle oben genannten fünf Impulstypen 
+	          	als Impuls zu erzeugen. 
+	          </para>
+	
+	        </note>
+		</para>
+		
+		<para>
+	        <caution>
+	
+	          <para lang="en">In the current release of ArgoUML there is no way to 
+	          show a terminate action where an object instance destroys 
+	          itself. One way is to draw a destroy action that loops back 
+	          to the object itself, give it an action with no name and use 
+	          the style tab to set an invisible line, but this still leaves 
+	          the arrow head showing, which is unsightly. It is also 
+	          semantically incorrect anyway to use a destroy action to 
+	          represent a terminate action.</para>
+	          <para lang="de">
+	          	In der aktuellen Release von ArgoUML gibt es keinen Weg, eine 
+	          	Beenden-Aktion anzuzeigen, womit sich eine Objektinstanz selbst 
+	          	zerstört. Ein Weg ist, eine Lösch-Aktion zu zeichnen, die in 
+	          	einer Schleife auf das Objekt selbst zeigt, dieser eine Aktion 
+	          	ohne Namen zu vergeben und mit Hilfe des Registers Darstellung 
+	          	eine unsichtbare Linie einzustellen. Dabei bleibt aber der Pfeil 
+	          	sichbar, der nicht unsichtbar gemacht werden kann. Es ist also 
+	          	immer sematisch falsch, eine Lösch-Aktion zu verwenden, die eine 
+	          	Beenden-Aktion dargstellt. 
+	          </para>
+	
+	        </caution>
+		</para>
+		
         <sect2>
 
           <title>
 			<phrase lang="en">Stimulus Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Impuls</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for stimuli are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Impulse sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -59126,6 +59627,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -59133,6 +59635,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.stimulus_property_toolbar"/> and 
                 <xref linkend="s2.ref.stimulus_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.stimulus_property_toolbar"/> und 
+	                <xref linkend="s2.ref.stimulus_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -59141,10 +59649,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -59153,6 +59663,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Style</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
@@ -59161,34 +59672,67 @@ available at http://www.opencontent.org/openpub/.
                 stimulus and its time line. However if you change them 
                 it will have no effect, and the original values will be 
                 reset when you next revisit the tab.</para>
+                <para lang="de">
+                	Standard-Register. Die Werte für die Begrenzung des Impulses 
+                	ist theoretisch durch die Grenzen des Impulsrahmens und seiner 
+                	Zeitlinie definiert. Wenn Sie diese jedoch ändern, wird dies 
+                	keinen Effekt zeigen und der Ursprungswert wird wieder 
+                	eingestellt, wenn Sie das Register wieder aufsuchen.
+                </para>
 
                 <para lang="en">Altering the <literal>Fill</literal> and <literal>
                 Shadow</literal> entries has no effect. Rather 
                 bizarrely you can set the <literal>Line</literal> entry 
                 and it will draw a line around the signal, which is not 
                 a standard UML representation.</para>
+                <para lang="de">
+                	Das Ändern der Einträge <literal>Füllfarbe</literal> und 
+                	<literal>Schatten</literal> hat keinen Effekt. Sie können 
+                	den Eintrag <literal>Linienfarbe</literal> verändern und es 
+                	wird eine Linie um das Signal gezeichnet, was keine UML-
+                	Darstellung ist und eher bizarr ist.
+                </para>
 
-                <tip>
-
-                  <para lang="en">To change the color of the line, you should 
-                  select the associated link (click on it a little way 
-                  from the stimulus) and use its style tab (see 
-                  <xref linkend="s1.ref.link_sequence"/>).</para>
-
-                </tip>
-
-                <caution>
-
-                  <para lang="en">In the current release of ArgoUML changing the 
-                  values of the <literal>Bounds</literal> field is 
-                  possible, but will make only a temporary change to 
-                  the position of the stimulus. Selecting any model element 
-                  on the screen causes the stimulus to return to its 
-                  original position and the original values to be 
-                  restored.</para>
-
-                </caution>
-
+				<para>
+	                <tip>
+	
+	                  <para lang="en">To change the color of the line, you should 
+	                  select the associated link (click on it a little way 
+	                  from the stimulus) and use its style tab (see 
+	                  <xref linkend="s1.ref.link_sequence"/>).</para>
+	                  <para lang="de">
+	                  	Um die Farbe der Linie zu ändern, sollten Sie die verknüpfte 
+	                  	Verbindung markieren (etwas abseits des Impulses klicken) 
+	                  	und dessen Register Darstellung verwenden (siehe 
+	                  	<xref linkend="s1.ref.link_sequence"/>).
+	                  </para>
+	
+	                </tip>
+				</para>
+				
+				<para>
+	                <caution>
+	
+	                  <para lang="en">In the current release of ArgoUML changing the 
+	                  values of the <literal>Bounds</literal> field is 
+	                  possible, but will make only a temporary change to 
+	                  the position of the stimulus. Selecting any model element 
+	                  on the screen causes the stimulus to return to its 
+	                  original position and the original values to be 
+	                  restored.</para>
+	                  <para lang="de">
+	                  	In der aktuellen Release von ArgoUML ist das ändern des 
+	                  	Feldes <literal>Begrenzung</literal> möglich, wird aber 
+	                  	die Position des Impulses nur temporär ändern. Das 
+	                  	Markieren irgend eines Modellelementes auf dem 
+	                  	Bildschirm veranlasst den Impuls wird zu seiner 
+	                  	Ursprungsposition zurückzukehren und die Ursprungswerte 
+	                  	werden zurückgeholt. 
+	                  </para>
+	
+	                </caution>
+				</para>
+				
               </listitem>
 
             </varlistentry>
@@ -59196,15 +59740,24 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab, but with no contents.</para>
+                <para lang="de">
+                	Standard-Register, aber ohne Inhalte.
+                </para>
 
                 <caution>
 
                   <para lang="en">A stimulus should not generate any code, so 
                   having this tab active is probably a mistake.</para>
+                  <para lang="de">
+                  	Ein Impuls sollte keinen Code generieren, so dass die 
+                  	Tatsache, dass dieses Register aktiv ist, wahrscheinlich 
+                  	einen Fehler darstellt.
+                  </para>
 
                 </caution>
 
@@ -59215,6 +59768,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Constraints</literal></term>
+              <term lang="de"><literal>Randbedingungen</literal></term>
 
               <listitem>
 
@@ -59222,6 +59776,11 @@ available at http://www.opencontent.org/openpub/.
                 on Classes and Features (Attributes, Operations, 
                 Receptions, and Methods), so this tab is grayed 
                 out.</para>
+                <para lang="de">
+                	Standard-Register. ArgoUML unterstützt nur Randbedingungen 
+                	bei Klassen und Features (Attribute, Operationen, Signalen 
+                	und Methoden), so dass dieses Register deaktiviert ist.
+                </para>
 
               </listitem>
 
@@ -59230,12 +59789,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Stimulus</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Stimulus</literal> die folgenden Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -59247,30 +59812,53 @@ available at http://www.opencontent.org/openpub/.
                     stimulus is redundant&mdash;it can be formally derived 
                     from other elements, or <literal>false</literal> 
                     meaning it cannot.</para>
-
-                    <note>
-
-                      <para lang="en">Derived stimuli still have their value in 
-                      analysis and design to introduce useful names or 
-                      concepts, and in design to avoid 
-                      re-computation.</para>
-
-                    </note>
-
+                    <para lang="de">
+                    	<literal>derived</literal> (von der Superklasse 
+                    	<literal>ModelElement</literal>). Der Wert <literal>true
+                    	</literal> bedeutet, dass der Impuls redundant ist&mdash; 
+                    	er kann formal von anderen Elementen abgeleitet werden, 
+                    	oder <literal>false</literal>, wenn er es nicht kann.
+                    </para>
+					
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived stimuli still have their value in 
+	                      analysis and design to introduce useful names or 
+	                      concepts, and in design to avoid 
+	                      re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Impulse haben ihren Wert in der Analyse und 
+	                      	im Design, um nützliche Namen oder Konzepte einzuführen. 
+	                      	Und im Design, um eine Wiederverarbeitung zu verhindern.
+	                      </para>
+	
+	                    </note>
+					</para>
+					
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-
-                </note>
-
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der 
+	                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
+	                  	den Eigenschaftswert <literal>documentation</literal>, 
+	                  	der in ArgoUML im Register <emphasis>Dokumentation
+	                  	</emphasis> bearbeitet wird.
+	                  </para>
+	
+	                </note>
+				</para>
+				
               </listitem>
 
             </varlistentry>
@@ -59283,7 +59871,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Stimulus Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Impuls</phrase>
+		  </title>
 
           <variablelist>
 
@@ -59294,10 +59883,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur nach oben.
+                </para>
 
               </listitem>
 
@@ -59310,21 +59907,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the stimulus from the model</para>
+                <para lang="de">
+                	Löscht den Impuls aus dem Modell.
+                </para>
 
-                <warning>
-
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. To delete 
-                  an stimulus from the diagram, but keep it within the 
-                  model, use the main menu <literal>Remove From 
-                  Diagram</literal> (or press the Delete key).</para>
-
-                </warning>
-
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram. To delete 
+	                  an stimulus from the diagram, but keep it within the 
+	                  model, use the main menu <literal>Remove From 
+	                  Diagram</literal> (or press the Delete key).</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm. Um einen Impuls aus 
+	                  	dem Diagramm zu löschen, ihn aber im Modell zu erhalten, 
+	                  	verwenden Sie <literal>Aus Diagramm entfernen</literal> 
+	                  	im Hauptmenü (oder drücken Sie die Taste Entf).
+	                  </para>
+	
+	                </warning>
+				</para>
+				
               </listitem>
 
             </varlistentry>
@@ -59337,28 +59951,43 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Stimulus</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für einen Impuls</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. There is no convention for naming 
                 stimuli, and it is quite normal to leave them unnamed. 
                 The action is sufficient identification.</para>
+                <para lang="de">
+                	Textfeld. Es gibt keine Namenskonvention für die Benennung 
+                	von Impulsen und es ist normal, diesen unbenannt zu lassen. 
+                	Die Aktion ist eine ausreichende Identifikation.
+                </para>
 
-                <tip>
-
-                  <para lang="en">It is sometimes useful to give simple names to 
-                  stimuli, so they can be referred to in attached notes 
-                  giving timing constraints.</para>
-
-                </tip>
-
+				<para>
+	                <tip>
+	
+	                  <para lang="en">It is sometimes useful to give simple names to 
+	                  stimuli, so they can be referred to in attached notes 
+	                  giving timing constraints.</para>
+	                  <para lang="de">
+	                  	Es ist manchmal nützlich, Impulsen einfache Namen zu 
+	                  	geben, so dass sie in den hinzugefügten Notizen, welche 
+	                  	die zeitlichen Randbedingungen beschreiben, referenziert 
+	                  	werden können.
+	                  </para>
+	
+	                </tip>
+				</para>
+				
               </listitem>
 
             </varlistentry>
@@ -59366,29 +59995,53 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Action</literal></term>
+              <term lang="de"><literal>Aktion</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. This is used to identify the action 
                 that generated the stimulus.</para>
+                <para lang="de">
+                	Textfeld. Wird verwendet, um die Aktion zu identifizieren, 
+                	die den Impuls generiert hat.
+                </para>
 
-                <caution>
-
-                  <para lang="en">The current release of ArgoUML only implements 
-                  actions as textual descriptions.</para>
-
-                  <para lang="en">As a practical convention it is suggested that 
-                  call actions are shown as the name of the operation 
-                  generating the action with any arguments in 
-                  parentheses and that send actions are shown as the 
-                  name of the signal generating the action with any 
-                  arguments in parentheses. Return actions should be 
-                  shown as the expression for the value they return, or 
-                  empty otherwise. Create and destroy actions should be 
-                  left empty, since they are implied by their 
-                  representation.</para>
-
-                </caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">The current release of ArgoUML only implements 
+	                  actions as textual descriptions.</para>
+	                  <para lang="de">
+	                  	Die aktuelle Release von ArgoUML implementiert Aktionen 
+	                  	nur als textuelle Beschreibungen.
+	                  </para>
+	
+	                  <para lang="en">As a practical convention it is suggested that 
+	                  call actions are shown as the name of the operation 
+	                  generating the action with any arguments in 
+	                  parentheses and that send actions are shown as the 
+	                  name of the signal generating the action with any 
+	                  arguments in parentheses. Return actions should be 
+	                  shown as the expression for the value they return, or 
+	                  empty otherwise. Create and destroy actions should be 
+	                  left empty, since they are implied by their 
+	                  representation.</para>
+	                  <para lang="de">
+	                  	Als praktische Konvention wird empfohlen, dass Aufruf-
+	                  	Aktionen mit dem Namen der Operation dargestellt werden, 
+	                  	welche die Aktion, einschliesslich aller, in Klammern 
+	                  	gesetzten Argumente erzeugen und Sende-Aktionen mit dem 
+	                  	Namen des Signales dargestellt werden, welche die 
+	                  	Aktion, einschliesslich aller, in Klammern 
+	                  	gesetzten Argumente generieren. Rückgabe-Aktionen sollten 
+	                  	als Ausdruck für den Rückgabewert dargestellt werden, 
+	                  	oder im anderen Fall leer sein. Erzeugen- und Lösch-
+	                  	Aktionen sollten leer bleiben, weil sie durch ihre 
+	                  	Darstellung erklärt sind.
+	                  </para>
+	
+	                </caution>
+                </para>
 
               </listitem>
 
@@ -59397,6 +60050,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -59405,16 +60059,30 @@ available at http://www.opencontent.org/openpub/.
                 the stereotypes, <literal>machine</literal>, <literal>
                 organization</literal> and <literal>
                 person</literal>.</para>
+                <para lang="de">
+                	Kombinationsfeld. Ein Impuls hat im UML-Standard 
+                	standardmäßig keine Stereotypen, aber ArgoUML bietet die 
+                	Stereotypen <literal>machine</literal>, <literal>
+                	organization</literal> und <literal>person</literal> an.
+                </para>
 
-                <caution>
-
-                  <para lang="en">ArgoUML also provides the stereotype <literal>
-                  realize</literal> for stimuli. This appears to be an 
-                  error, since this stereotype properly belongs to the 
-                  <literal>Abstraction</literal> metaclass.</para>
-
-                </caution>
-
+				<para>
+	                <caution>
+	
+	                  <para lang="en">ArgoUML also provides the stereotype <literal>
+	                  realize</literal> for stimuli. This appears to be an 
+	                  error, since this stereotype properly belongs to the 
+	                  <literal>Abstraction</literal> metaclass.</para>
+	                  <para lang="de">
+	                  	ArgoUML bietet auch den Stereotyp <literal>realize
+	                  	</literal> für einen Impuls an. Dies scheint ein Fehler 
+	                  	zu sein, weil dieser Stereotyp richtigerweise zur 
+	                  	Metaklasse <literal>Abstraction</literal> gehört.
+	                  </para>
+	
+	                </caution>
+				</para>
+				
               </listitem>
 
             </varlistentry>
@@ -59422,6 +60090,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -59432,6 +60101,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype_class"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, wird es in das 
+	                Eigenschaftsfenster des Stereotyps navigieren (siehe 
+	                <xref linkend="s1.ref.stereotype_class"/>).
+                </para>
 
               </listitem>
 
@@ -59440,14 +60118,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Sender</literal></term>
+              <term lang="de"><literal>Sender</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Identifies the instance which sent this 
                 stimulus.</para>
+                <para lang="de">
+                	Textfeld. Identifiziert die Instanz, die diesen Impuls 
+                	sendete.
+                </para>
 
                 <para lang="en">Button&nbsp;1 click navigates to the sender instance, 
                 button&nbsp;2 gives a pop up menu with one entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Klick navigiert zur Senderinstanz,  
+                	Taste&nbsp;2 öffnet ein Popup-Menü mit einem Eintrag.
+                </para>
 
                 <itemizedlist>
 
@@ -59455,6 +60142,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Open</literal>. Navigate to the 
                     selected sender instance.</para>
+                    <para lang="de">
+                    	<literal>Öffnen</literal>. Navigiert zur markierten 
+                    	Senderinstanz.
+                    </para>
 
                   </listitem>
 
@@ -59467,15 +60158,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Receiver</literal></term>
+              <term lang="de"><literal>Empfänger</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Identifies the instance which receives 
                 this stimulus.</para>
+                <para lang="de">
+                	Textfeld. Identifiziert die Instanz, die den Impuls empfängt.
+                </para>
 
                 <para lang="en">Button&nbsp;1 click navigates to the receiver 
                 instance, button&nbsp;2 gives a pop up menu with one 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Klick navigiert zu der Empfängerinstanz, 
+                	Taste&nbsp;2 öffnet ein Popup-Menü mit einem Eintrag.
+                </para>
 
                 <itemizedlist>
 
@@ -59483,19 +60182,30 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Open</literal>. Navigate to the 
                     selected receiver instance.</para>
+                    <para lang="de">
+                    	<literal>Öffnen</literal>. Navigiert zu der markierten 
+                    	Empfängerinstanz.
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <warning>
-
-                  <para lang="en">In the current release of ArgoUML this field is 
-                  broken. It always shows the entry <literal>
-                  none</literal> and the pop-up menu is grayed 
-                  out.</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">In the current release of ArgoUML this field is 
+	                  broken. It always shows the entry <literal>
+	                  none</literal> and the pop-up menu is grayed 
+	                  out.</para>
+	                  <para lang="de">
+	                  	In der aktuellen Release von ArgoUML ist dieses Feld 
+	                  	ohne Funktion. Es zeigt immer den Eintrag <literal>none
+	                  	</literal> und das Popup-Menü ist deaktiviert.
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -59504,15 +60214,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Records the namespace for the stimulus. 
                 This is the package hierarchy.</para>
+                <para lang="de">
+                	Textfeld. Nimmt den Namensraum für den Impuls auf. Dies ist 
+                	die Pakethierarchie.
+                </para>
 
                 <para lang="en">Button&nbsp;1 click on the entry will navigate to the 
                 package defining this namespace (or the model for the 
                 top level namespace).</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Klick auf diesen Eintrag navigiert zu dem 
+                	Paket, das diesen Namensraum definiert (oder zum Modell als 
+                	Namensraum auf oberster Ebene).
+                </para>
 
               </listitem>
 
@@ -59528,6 +60248,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Stimulus Call</phrase>
+			<phrase lang="de">Impuls-Aufruf</phrase>
 		</title>
 
         <para lang="en">This tool creates a stimulus associated with a call 
