@@ -61617,15 +61617,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Do-Activity</literal></term>
-              <term lang="de"><literal>Do-Activity</literal></term>
+              <term lang="de"><literal>Ausführen-Aktion</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the action (if any) to be 
                 executed while being in this state.</para>
+                <para lang="de">
+                	Textfeld. Zeigt die Aktion (falls vorhanden), die ausgeführt 
+                	wird, solange Sie sich in dem Zustand befinden.
+                </para>
 
                 <para lang="en">Button&nbsp;1 click navigates to the selected action, 
                 button&nbsp;2 gives a pop up menu with two entries.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Klick navigiert zu der markierten Aktion, 
+                	Taste&nbsp;2 öffnet ein Popup-Menü mit zwei Einträgen.
+                </para>
 
                 <itemizedlist>
 
@@ -61637,6 +61645,14 @@ available at http://www.opencontent.org/openpub/.
                     Call Action, Create Action, Destroy Action, Return 
                     Action, Send Action, Terminate Action, 
                     Uninterpreted Action.</para>
+                    <para lang="de">
+                    	<literal>Neu</literal>. Fügt eine neue Ausführen-Aktion 
+                    	einer bestimmten Art ein. Dieses Menü hat die folgenden 
+                    	Submenüs, um die Art der Aktion auszuwählen: 
+                    	Call Action, Create Action, Destroy Action, Return 
+                    	Action, Send Action, Terminate Action, 
+                    	Uninterpreted Action.
+                    </para>
 
                   </listitem>
 
@@ -61644,6 +61660,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Delete From Model</literal>. Delete 
                     the Do-Activity.</para>
+                    <para lang="de">
+                    	<literal>Aus Modell entfernen</literal>. Löscht die 
+                    	Ausführen-Aktion.
+                    </para>
 
                   </listitem>
 
@@ -61656,6 +61676,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Deferrable Events</literal></term>
+              <term lang="de"><literal>Verzögerbare Ereignisse</literal></term>
 
               <listitem>
 
@@ -61665,10 +61686,21 @@ available at http://www.opencontent.org/openpub/.
                 if they trigger no transitions out of the
                 state (not consumed).
                 </para>
+                <para lang="de">
+                	Textfeld. Zeigt eine Liste von Ereignissen, die Kandidaten 
+                	dafür sind, dass sie durch den Zustandsautomaten 
+                	zurückgehalten werden, wenn sie keine Transitionen aus dem 
+                	Zustand auslösen (nicht verbraucht).
+                </para>
 
                 <para lang="en">Button&nbsp;1 click navigates to the selected event, 
                 button&nbsp;2 on an event 
                 gives a pop up menu with the following entries.
+                </para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Klick navigiert zu dem markierten Ereignis, 
+                	Taste&nbsp;2 auf ein Ereignis öffnet ein Popup-Menü mit den 
+                	folgenden Einträgen:
                 </para>
 
                 <itemizedlist>
@@ -61678,6 +61710,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>Select</literal>. Allows 
                     to add already existing events 
                     to the list of deferred ones.
+                    </para>
+                    <para lang="de">
+	                    <literal>Auswählen</literal>. Erlaubt das 
+	                    hinzufügen bereits existierender Ereignisse zur Liste 
+	                    der aufgeschobenen Ereignisse.
                     </para>
 
                   </listitem>
@@ -61689,6 +61726,12 @@ available at http://www.opencontent.org/openpub/.
                     following submenus to select the kind of event: 
                     Call Event, Change Event, Signal Event, Time Event.
                     </para>
+                    <para lang="de">
+                    	<literal>Neu</literal>. Fügt ein neues Ereignis einer 
+                    	bestimmten Art hinzu. Dieses Menü hat die folgenden 
+                    	Submenüs, um die Art des Ereignisses auszuwählen: 
+                    	Call Event, Change Event, Signal Event, Time Event.
+                    </para>
 
                   </listitem>
 
@@ -61696,6 +61739,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Delete From Model</literal>. Delete 
                     the event.</para>
+                    <para lang="de">
+                    	<literal>Aus Modell entfernen</literal>. Löscht das 
+                    	Ereignis.
+                    </para>
 
                   </listitem>
 
@@ -61708,14 +61755,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Incoming</literal></term>
+              <term lang="de"><literal>Ankommend</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists all the transitions that enter 
                 this state.</para>
+                <para lang="de">
+                	Textbereich. Listet alle Transitionen auf, die in diesen 
+                	Zustand eintreten.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eingang.
+                </para>
 
               </listitem>
 
@@ -61724,14 +61780,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Outgoing</literal></term>
+              <term lang="de"><literal>Abgehend</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists all the transitions that leave 
                 this state.</para>
+                <para lang="de">
+                	Textbereich. Listet alle Transitionen auf, die diesen 
+                	Zustand verlassen.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 action.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eingang.
+                </para>
 
               </listitem>
 
@@ -61740,6 +61805,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Internal Transitions</literal></term>
+              <term lang="de"><literal>Interne Transitionen</literal></term>
 
               <listitem>
 
@@ -61747,19 +61813,38 @@ available at http://www.opencontent.org/openpub/.
                 the state. Such transitions neither exit nor enter the 
                 state, so they do not cause a state change. Which means 
                 that the Entry and Exit actions are not invoked.</para>
+                <para lang="de">
+                	Textbereich. Listet alle internen Transitionen des Zustandes 
+                	auf. Solche Transitionen weder verlassen noch gehen in den 
+                	Zustand hinein, so dass sie keinen Zustandswechsel 
+                	verursachen. Das bedeutet, das die Übergangs- und Verlassen-
+                	Aktionen nicht aufgerufen werden.
+                </para>
 
-                <note>
-
-                  <para lang="en">This field shows the name of the transition, 
-                  while on the diagram the name of the trigger is 
-                  shown, separated with a <literal>/</literal> from
-                  the effect script.</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">This field shows the name of the transition, 
+	                  while on the diagram the name of the trigger is 
+	                  shown, separated with a <literal>/</literal> from
+	                  the effect script.</para>
+	                  <para lang="de">
+	                  	Dieses Feld zeigt den Namen der Transition, während im 
+	                  	Diagramm der Name des Auslösers, mit einem <literal>/
+	                  	</literal> getrennt vom Auswirkungsskript angezeigt wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 transition, button&nbsp;2 gives a pop up menu with one 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der markierten 
+                	Transition, Taste&nbsp;2 öffnet ein Popup-Menü mit einem 
+                	Eintrag.
+                </para>
 
                 <itemizedlist>
 
@@ -61767,6 +61852,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>New</literal>. Add a new internal 
                     transition.</para>
+                    <para lang="de">
+                    	<literal>Neu</literal>. Fügt eine neue interne 
+                    	Transition hinzu. 
+                    </para>
 
                   </listitem>
 
@@ -61786,6 +61875,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Action</phrase>
+			<phrase lang="de">Aktion</phrase>
 		</title>
 
         <para lang="en">An action specifies an executable statement and is an 
@@ -61795,9 +61885,23 @@ available at http://www.opencontent.org/openpub/.
         ActionSequence is itself an Action that is an aggregation of 
         other actions (i.e. the &quot;composite&quot; pattern), an 
         ActionSequence may be used anywhere an action may be.</para>
+        <para lang="de">
+        	Eine Aktion spezifiziert eine ausführbare Anweisung und ist eine 
+        	Abstraktion einer verarbeitbaren Prozedur, die den Zustand des 
+        	Modelles ändern kann. Im UML-Metamodell ist sie ein Kind von 
+        	<literal>ModelElement</literal>. Weil im Metamodell eine 
+        	ActionSequence selbst eine Aktion ist, die eine Aggregation von 
+        	anderen Aktionen ist (z.B. das &quot;zusammengesetzte&quot;-Muster), 
+        	kann eine ActionSequence überall dort verwendet werden, wo auch 
+        	eine Aktion sein darf.
+        </para>
 
         <para lang="en">There are a number of different types of action that are 
         children of Action within the UML metamodel.</para>
+        <para lang="de">
+        	Es gibt eine Anzahl unterschiedlicher Aktionstypen, die im UML-
+        	Metamodell Kinder von Action sind.
+        </para>
 
         <itemizedlist>
 
@@ -61806,6 +61910,11 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en"><literal>CreateAction</literal>. Associated with a 
             classifier, this action creates an instance of that 
             classifier.</para>
+            <para lang="de">
+            	<literal>CreateAction</literal>. Verknüpft mit einem 
+            	Klassifizierer erzeugt diese Aktion eine Instanz des 
+            	Klassifizierers.
+            </para>
 
           </listitem>
 
@@ -61814,6 +61923,10 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en"><literal>CallAction</literal>. Associated with an 
             operation, this action calls the given 
             operation.</para>
+            <para lang="de">
+            	<literal>CallAction</literal>. Verknüpft mit einer Operation 
+            	ruft diese Aktion die angegebene Operation auf.
+            </para>
 
           </listitem>
 
@@ -61821,6 +61934,11 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en"><literal>ReturnAction</literal>. An action used to 
             return a result to an earlier caller.</para>
+            <para lang="de">
+            	<literal>ReturnAction</literal>. Eine Aktion, die dazu 
+            	verwendet wird, das Ergebnis eines früheren Aufrufes 
+            	zurückzugeben.
+            </para>
 
           </listitem>
 
@@ -61828,6 +61946,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en"><literal>SendAction</literal>. Associated with a 
             signal, this action causes the signal to be raised.</para>
+            <para lang="de">
+            	<literal>SendAction</literal>. Verknüpft mit einem Signal löst 
+            	diese Aktion das Signal aus.
+            </para>
 
           </listitem>
 
@@ -61835,6 +61957,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en"><literal>TerminateAction</literal>. Causes the 
             invoking object to self-destruct.</para>
+            <para lang="de">
+            	<literal>TerminateAction</literal>. Veranlasst das aufgerufene 
+            	Objekt sich selbst zu beenden.
+            </para>
 
           </listitem>
 
@@ -61843,6 +61969,11 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en"><literal>UninterpretedAction</literal>. An action 
             used to specify language-specific actions that do not 
             classify under the other types of actions.</para>
+            <para lang="de">
+            	<literal>UninterpretedAction</literal>. Eine Aktion, die dazu 
+            	verwendet wird, sprachspezifische Aktionen zu spezifizieren, die 
+            	nicht anderen Aktionstypen zugeordnet werden können.
+            </para>
 
           </listitem>
 
@@ -61850,6 +61981,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en"><literal>DestroyAction</literal>. Destroys the 
             specified target object.</para>
+            <para lang="de">
+            	<literal>DestroyAction</literal>. Zerstört das angegebene 
+            	Zielobjekt.
+            </para>
 
           </listitem>
 
@@ -61857,42 +61992,69 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en">An action is represented on the diagram by the text of 
         its expression.</para>
+        <para lang="de">
+        	Eine Aktion wird im Diagramm durch den Text eines Ausdrucks 
+        	dargestellt.
+        </para>
 
-        <caution>
-          <para lang="en">The V0.20 release of ArgoUML only partially 
-                  implements actions. As a practical convention it is 
-                  suggested that call actions are shown as the name of 
-                  the operation generating the action with any 
-                  arguments in parentheses and that send actions are 
-                  shown as the name of the signal generating the action 
-                  with any arguments in parentheses. Return actions 
-                  should be shown as the expression for the value they 
-                  return, or empty otherwise. Create and destroy 
-                  actions should shown as <literal>
-                  create(&lt;target&gt;)</literal> and <literal>
-                  destroy(&lt;target&gt;)</literal>. Terminate action 
-                  should be shown as <literal>
-                  terminate</literal>.
-          </para>
-        </caution>
+		<para>
+	        <caution>
+	          <para lang="en">The V0.20 release of ArgoUML only partially 
+	                  implements actions. As a practical convention it is 
+	                  suggested that call actions are shown as the name of 
+	                  the operation generating the action with any 
+	                  arguments in parentheses and that send actions are 
+	                  shown as the name of the signal generating the action 
+	                  with any arguments in parentheses. Return actions 
+	                  should be shown as the expression for the value they 
+	                  return, or empty otherwise. Create and destroy 
+	                  actions should shown as <literal>
+	                  create(&lt;target&gt;)</literal> and <literal>
+	                  destroy(&lt;target&gt;)</literal>. Terminate action 
+	                  should be shown as <literal>
+	                  terminate</literal>.
+	          </para>
+	          <para lang="de">
+	          	Die Release V0.20 von ArgoUML implementiert nur teilweise 
+	          	Aktionen. Als praktiable Konvention wird angenommen, dass 
+	          	Aufruf-Aktionen als Name der Operation dargestellt werden, die 
+	          	die Aktion mit in Klammer gesetzten Argumenten generiert und 
+	          	Sende-Aktionen werden als Name des Signals dargestellt, die 
+	          	die Aktion mit in Klammer gesetzten Argumenten generiert. 
+	          	Rückgabe-Aktionen sollten als Ausdruck des Wertes den sie 
+	          	zurückgeben dargestellt werden, oder im anderen Fall leer sein. 
+	          	Erzeugen- und Zerstören-Aktionen sollten als <literal>
+	            create(&lt;target&gt;)</literal> und <literal>
+	            destroy(&lt;target&gt;)</literal>. Beenden-Aktionen sollten als  
+	            <literal>terminate</literal> dargestellt werden. 
+	          </para>
+	        </caution>
+        </para>
+        
         <sect2>
 
           <title>
 			<phrase lang="en">Action Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Aktion</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for actions are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Aktionen sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -61901,6 +62063,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -61908,6 +62071,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.action_property_toolbar"/> and 
                 <xref linkend="s2.ref.action_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe 
+	                <xref linkend="s2.ref.action_property_toolbar"/> und 
+	                <xref linkend="s2.ref.action_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -61916,10 +62085,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -61928,6 +62099,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -61935,6 +62107,10 @@ available at http://www.opencontent.org/openpub/.
                 In the UML metamodel, <literal>
                 Action</literal> has no standard 
                 stereotypes defined.
+                </para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Action</literal> keine Standard-Stereotypen definiert.
                 </para>
 
               </listitem>
@@ -61944,12 +62120,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Action</literal> has no standard tagged 
                 value defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Action</literal> keine Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
               </listitem>
 
@@ -61963,7 +62145,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Action Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Aktion</phrase>
+		  </title>
 
           <variablelist>
 
@@ -61974,11 +62157,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the hierarchical 
                 structure.</para>
+                <para lang="de">
+                	Navigiert in der hierarchischen Struktur nach oben.
+                </para>
 
               </listitem>
 
@@ -61991,17 +62182,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 action, navigating immediately to the properties tab 
                 for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Aktion und springt sofort in das Register Eigenschaften 
+                	dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -62014,10 +62226,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the Action from the model</para>
+                <para lang="de">
+                	Löscht die Aktion aus dem Modell.
+                </para>
 
               </listitem>
 
@@ -62031,26 +62251,39 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Action</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für eine Aktion</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. The name of the action. By convention 
                 action names start with a lower case letter and use 
                 bumpy caps to divide words within the name.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Aktion. Per Konvention beginnt der 
+                	Aktionsname mit eine Kleinbuchstaben und nutzt die Groß-/
+                	Kleinschreibung um Wörter innerhalb des Namens voneinander 
+                	zu trennen.
+                </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -62059,10 +62292,15 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Asynchronous</literal></term>
+              <term lang="de"><literal>Asynchron</literal></term>
 
               <listitem>
                 <para lang="en">Check box. 
                 Indicates if a dispatched Stimulus is asynchronous or not.
+                </para>
+                <para lang="de">
+                	Markierfeld. Gibt an, ob ein verteilter Impuls asynchron ist 
+                	oder nicht.
                 </para>
               </listitem>
 
@@ -62071,6 +62309,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Script</literal></term>
+              <term lang="de"><literal>Skript</literal></term>
 
               <listitem>
                 <para lang="en">Double text box with the expression that defines the 
@@ -62080,6 +62319,13 @@ available at http://www.opencontent.org/openpub/.
                 and the second one contains the particular programming language 
                 used to write the expression.
                 </para>
+                <para lang="de">
+                	Doppeltes Textfeld mit einem Ausdruck, der die Aktion 
+                	definiert. Dieses Feld besteht aus zwei Teilen. Der erste 
+                	enthält den Rumpf (Skript) des Ausdrucks und der zweite 
+                	enthält die speziell verwendete Programmiersprache, mit der 
+                	dieser Ausdruck geschrieben wurde.
+                </para>
               </listitem>
 
             </varlistentry>
@@ -62087,6 +62333,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Recurrence</literal></term>
+              <term lang="de"><literal>Rekursion</literal></term>
 
               <listitem>
 
@@ -62094,6 +62341,12 @@ available at http://www.opencontent.org/openpub/.
                 An expression stating how many times the Action should be performed.
                 The field consists of two parts: the first one for the expression, 
                 the second one for the language it is written in.
+                </para>
+                <para lang="de">
+                	Doppeltes Textfeld. Ein Ausdruck, der ausdrückt, wie oft die 
+                	Aktion ausgeführt werden soll. Das Feld besteht aus zwei 
+                	Teilen: dem ersten für den Ausdruck und den zweiten für 
+                	die Sprache, in der dieser Ausdruck geschrieben wurde.
                 </para>
 
            </listitem>
@@ -62103,27 +62356,45 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Arguments</literal></term>
+              <term lang="de"><literal>Argumente</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. 
                 This is an ordered list with the arguments of the action.
                 </para>
+                <para lang="de">
+                	Textfeld. Dies ist eine geordnete Liste mit Argumenten der 
+                	Aktion.
+                </para>
 				
 				<para lang="en">Button&nbsp;1 double-click on any of the arguments 
                 navigates to that argument, button&nbsp;2 click brings up a 
                 pop up menu with two entries.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf einen der Argumente 
+                	navigiert zu diesem Argument, ein Taste&nbsp;2-Klick öffnet 
+                	ein Popup-Menü mit zwei Einträgen.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
                     <para lang="en"><literal>New</literal>. Create a 
                     new argument and navigate to it.</para>
+                    <para lang="de">
+                    	<literal>Neu</literal>. Erzeugt ein neues Argument und 
+                    	navigiert dort hin.
+                    </para>
                   </listitem>
 
                   <listitem>
                     <para lang="en"><literal>Remove</literal>. Deletes the 
                     argument from the model.</para>
+                    <para lang="de">
+                    	<literal>Entfernen</literal>. Löscht das Argument aus 
+                    	dem Modell.
+                    </para>
                   </listitem>
 
                 </itemizedlist>
@@ -62134,16 +62405,28 @@ available at http://www.opencontent.org/openpub/.
            <varlistentry>
 
               <term lang="en"><literal>Instantiation (only for CreateAction)</literal></term>
+              <term lang="de">
+              	<literal>Instanziierung (nur für CreateAction)</literal>
+              </term>
 
               <listitem>
 
                 <para lang="en">Text box. 
                 This shows the classifier that gets instantiated by the create-action.
                 </para>
+                <para lang="de">
+                	Textfeld. Dies zeigt den Klassifizierer, der durch die 
+                	Erzeugen-Aktion instanziiert wird.
+                </para>
 				
 				<para lang="en">Button&nbsp;1 double-click on the classifier 
                 navigates to that argument, button&nbsp;2 click brings up a 
                 pop up menu with one entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf den Klassifizierer 
+                	navigiert zu diesem Argument, ein Taste&nbsp;2-Klick öffnet 
+                	ein Popup-Menü mit einem Eintrag.
+                </para>
 
                 <itemizedlist>
 
@@ -62151,6 +62434,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>Add...</literal>. 
                     This brings up a dialog box that allows 
                     selecting the one classifier that gets created.</para>
+                    <para lang="de">
+                    	<literal>Hinzufügen...</literal>. Öffnet ein 
+                    	Dialogfenster, dass die Auswahl des einen Klassifizierers 
+                    	erlaubt, der erzeugt wird.
+                    </para>
                   </listitem>
 
                 </itemizedlist>
@@ -62170,11 +62458,17 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Composite State</phrase>
+			<phrase lang="de">Zusammengesetzter Zustand</phrase>
 		</title>
 
         <para lang="en">A composite state is a state that contains other states 
         (known as sub-states), allowing hierarchical state machines to 
         be constructed.</para>
+        <para lang="de">
+        	Ein zusammengesetzter Zustand ist ein Zustand, der andere Zustände 
+        	enthält (bekannt als Sub-Zustände) und erlaubt das Konstruieren 
+        	hierarchischer Zustandsautomaten.
+        </para>
 
         <para lang="en">A composite state is represented on a statechart diagram 
         in ArgoUML as a large rectangle with rounded corners, with a 
@@ -62182,12 +62476,29 @@ available at http://www.opencontent.org/openpub/.
         description of the behavior and the model of the sub-state 
         machine below. The description of the behavior includes the 
         entry, exit and do actions and any internal transitions.</para>
+        <para lang="de">
+        	Ein zusammengesetzter Zustand wird in einem Zustandsdiagramm von 
+        	ArgoUML als ein grosses Rechteck mit abgerundeten Ecken, mit einer 
+        	horizontalen Linie, der den Namen oben von der Beschreibung des 
+        	Verhaltens und das Modell des Sub-Zustandsautomaten unten trennt, 
+        	dargestellt. die Beschreibung des Verhaltens beinhaltet die 
+        	Übergangs-, Verlassen und Ausführen-Aktionen und die internen 
+        	Transitionen. 
+        </para>
 
         <para lang="en">Sub-states are placed within a composite machine by 
         placing them entirely within the composite state. This can be 
         done at creation time, i.e. when creating the state for the 
         first time in the editing pane. Alternatively, an existing 
         state can be dragged onto a composite state.</para>
+        <para lang="de">
+        	Sub-Zustände werden innerhalb eines zusammengesetzten Automaten 
+        	plaziert, indem Sie in dem zusammengesetzten Zustand vollständig 
+        	plaziert werden. Das kann zum Zeitpunkt des Erzeugens getan werden, 
+        	z.B., wenn der Zustand das erste Mal im Editierfenster erzeugt wird. 
+        	Alternativ kann ein existierender Zustand auf den zusammengesetzten 
+        	Zustand gezogen werden.
+        </para>
 
         <para lang="en">The description of a composite state is almost identical 
         to that of a state (see <xref linkend="s1.ref.state"/> and so 
@@ -62195,6 +62506,13 @@ available at http://www.opencontent.org/openpub/.
         tool, one missing field, 
         and one additional field, which are described as 
         follows.</para>
+        <para lang="de">
+        	die Beschreibung eines zusammengesetzten Zustandes ist immer 
+        	identisch mit dem des Zustandes (siehe <xref linkend="s1.ref.state"/> 
+        	und wurde daher hier nicht dupliziert. Der einzige Unterschied ist 
+        	ein zusätzliches Werkzeug, ein fehlendes Feld und ein zusätzliches 
+        	Feld, die im folgenden beschrieben werden.
+        </para>
 
         <variablelist>
 
@@ -62205,11 +62523,20 @@ available at http://www.opencontent.org/openpub/.
              fileref="images/icons/concurrent_region.gif"
              format="GIF"/></imageobject></inlinemediaobject></guiicon> 
             <literal>New Concurrent Region</literal></term>
+            <term lang="de"><guiicon><inlinemediaobject><imageobject>
+            <imagedata align="center"
+             fileref="images/icons/concurrent_region.gif"
+             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+            <literal>Neue nebenläufige Region</literal></term>
 
             <listitem>
 
               <para lang="en">Adds a new concurrent region to the selected 
               composite state.</para>
+              <para lang="de">
+              	Fügt eine neue nebenläufige Region dem markierten 
+              	zusammengesetzten Zustand hinzu.
+              </para>
 
             </listitem>
 
@@ -62219,10 +62546,16 @@ available at http://www.opencontent.org/openpub/.
 
             <term lang="en">
             <literal>Deferrable Events</literal></term>
+            <term lang="de">
+            	<literal>Verzögerte Ereignisse</literal>
+            </term>
 
             <listitem>
 
               <para lang="en">This field is missing from V0.20 of ArgoUML.</para>
+              <para lang="de">
+              	Dieses Feld fehlt in V0.20 von ArgoUML.
+              </para>
 
             </listitem>
 
@@ -62231,15 +62564,24 @@ available at http://www.opencontent.org/openpub/.
           <varlistentry>
 
             <term lang="en"><literal>Subvertices</literal></term>
+            <term lang="de"><literal>Unterpunkte</literal></term>
 
             <listitem>
 
               <para lang="en">Text area. Lists all the sub-states contained 
               within this composite state.</para>
+              <para lang="de">
+              	Textbereich. Listet alle, in diesem zusammengesetzten Zustand 
+              	enthaltenen Sub-Zustände auf. 
+              </para>
 
               <para lang="en">Button&nbsp;1 double-click navigates to the selected 
               entry, button&nbsp;2 gives a pop up menu with two 
               entries.</para>
+              <para lang="de">
+              	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten Übergang, 
+              	Taste&nbsp;2 öffnet ein Popup-Menü mit zwei Einträgen.
+              </para>
 
               <itemizedlist>
 
@@ -62251,18 +62593,39 @@ available at http://www.opencontent.org/openpub/.
                   Pseudo State, Synch State, Stub State, Composite 
                   State, Simple State, Final State, Submachine 
                   State.</para>
+                  <para lang="de">
+                  	<literal>Neu</literal>. Es öffnet sich ein Submenü mit einer 
+                  	Auswahl von 7 Zustandsarten, die dem Modell hinzugefügt 
+                  	werden können. Die 7 unterstützten Zustandsarten sind: 
+                  	Pseudo-Zustand, Synch-Zustand, Stub-Zustand, 
+                  	Zusammengesetzter Zustand, Einfacher Zustand, 
+                  	Abschliessender Zustand, Sub-Zustandsautomat Zustand.                  	
+                  </para>
 
-                  <warning>
-
-                    <para lang="en">Using this way of adding states to the model 
-                    is not a good idea, since you will have to add the 
-                    state to the diagram later. This can be done by 
-                    selecting it in the explorer, and activating the 
-                    pop-up menu, and selecting <quote>Add to 
-                    Diagram</quote>. It is advisable to use the toolbar 
-                    of the diagram instead.</para>
-
-                  </warning>
+				  <para>
+	                  <warning>
+	
+	                    <para lang="en">Using this way of adding states to the model 
+	                    is not a good idea, since you will have to add the 
+	                    state to the diagram later. This can be done by 
+	                    selecting it in the explorer, and activating the 
+	                    pop-up menu, and selecting <quote>Add to 
+	                    Diagram</quote>. It is advisable to use the toolbar 
+	                    of the diagram instead.</para>
+	                    <para lang="de">
+	                    	Dem Modell Zustände auf diese Art und Weise 
+	                    	hinzuzufügen ist keine gute Idee, weil Sie den 
+	                    	Zustand dem Diagramm später hinzufügen müssen. 
+	                    	Dies können Sie tun, indem Sie ihn im Explorer 
+	                    	markieren und das Popup-Menü aktivieren und dort 
+	                    	<literal>Zum Diagramm hinzufügen</literal> auswählen. 
+	                    	Es ist ratsam, stattdessen die Symbolleiste des 
+	                    	Diagrammes zu nehmen.
+	                    	
+	                    </para>
+	
+	                  </warning>
+                  </para>
 
                 </listitem>
 
@@ -62270,6 +62633,10 @@ available at http://www.opencontent.org/openpub/.
 
                   <para lang="en"><literal>Delete From Model</literal> Delete the 
                   selected state from the model.</para>
+                  <para lang="de">
+                  	<literal>Aus Modell entfernen</literal>. Löscht den 
+                  	markierten Zustand aus dem Modell.
+                  </para>
 
                 </listitem>
 
@@ -62287,23 +62654,44 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Concurrent Region</phrase>
+			<phrase lang="de">Nebenläufige Region</phrase>
 		</title>
 
         <para lang="en">A Concurrent Region is an <quote>orthogonal 
         conjunctive</quote> component of a composite state, allowing 
         concurrency to be constructed.</para>
+        <para lang="de">
+        	Eine nebenläufige Region ist eine <quote>rechtwinklige verbindende
+        	</quote> Komponente eines zusammengesetzten Zustandes, die es 
+        	erlaubt, Nebenläufigkeit zu konstruieren.
+        </para>
 
         <para lang="en">A concurrent region is represented on the diagram by a 
         tile of a composite state, separated from other regions by a 
         dashed line.</para>
+        <para lang="de">
+        	Eine nebenläufige Region wird im Diagramm durch das Teilen eines 
+        	zusammengesetzten Zustandes dargestellt, bei dem andere Regionen 
+        	durch eine gestrichelte Linie voneinander getrennt sind.
+        </para>
 
         <para lang="en">ArgoUML currently only supports a horizontal division of 
         a concurrent composite state in regions.</para>
+        <para lang="de">
+        	ArgoUML unterstützt aktuell nur eine horizontale Teilung eines 
+        	nebenläufigen zusammengesetzten Zustandes in Regionen.
+        </para>
 
         <para lang="en">The description of the details panels of a concurrent 
         region is identical to that of a composite state (see 
         <xref linkend="s1.ref.composite_state"/> and so is not 
         duplicated here.</para>
+        <para lang="de">
+        	Die Beschreibung der Detailfenster einer nebenläufigen Region ist 
+        	identisch mit der eines zusammengesetzten Zustandes (siehe 
+        	<xref linkend="s1.ref.composite_state"/> und wird daher jetzt nicht 
+        	wiederholt.
+        </para>
 
       </sect1>
 
@@ -62311,6 +62699,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Submachine State</phrase>
+			<phrase lang="de">Subautomaten Zustand</phrase>
 		</title>
 
         <para lang="en">A submachine state is a syntactical convenience that 
@@ -62326,6 +62715,22 @@ available at http://www.opencontent.org/openpub/.
         <emphasis>subroutine</emphasis> with one or more entry 
         and exit points. The entry and exit points are specified by 
         stub states. SubmachineState is a child of State.</para>
+        <para lang="de">
+        	Ein Subautomaten-Zustand ist eine syntaktische Bequemlichkeit, die 
+        	die Wiederverwendung und die Modularisation erleichert. Es ist eine 
+        	Kurzform die eine makroähnliche Erweiterung durch einen anderen 
+        	Zustandsautomaten darstellt, der sematisch einem zusammengesetzten 
+        	Zustand entspricht. Der eingefügte Zustandsautomat wird referenzierter 
+        	Zustandsautomat genannt, während der Zustandsautomat, der den 
+        	Subautomaten-Zustand enthält, der haltende Zustandsautomat genannt 
+        	wird. Der gleiche Zustandsautomat kann mehr als einmal im Kontext 
+        	eines einfachen haltenden Zustandsautomaten referenziert werden.  
+        	In der Tat stellt ein Subautomaten-Zustand ein <emphasis>Aufruf
+        	</emphasis> einer <emphasis>Subroutine</emphasis> eines 
+        	Zustandsautomaten dar, mit einem oder mehreren Eintritts- und 
+        	Austrittspunkten. Die Eintritts- und Austrittspunkte werden durch 
+        	flache Zustände spezifiziert.
+        </para>
 
         <para lang="en">The submachine state is depicted as a normal state with 
         the additional <emphasis>include</emphasis>
@@ -62333,26 +62738,49 @@ available at http://www.opencontent.org/openpub/.
         line from) its internal transitions compartment. The expression 
         following the <literal>include</literal> reserved word is the 
         name of the invoked submachine.</para>
+        <para lang="de">
+        	Der Subautomaten-Zustand wird dargestellt wie ein normaler Zustand 
+        	mit einer zusätzlichen <emphasis>include</emphasis>-Deklaration 
+        	(und durch eine Linie getrennt) oberhalb seines internen 
+        	Transitionsbereiches. Der Ausdruck, der dem reservierten Wort 
+        	<literal>include</literal> folgt, ist der Name des aufgerufenen 
+        	Subautomaten.
+        </para>
 
         <para lang="en">ArgoUML currently only supports a horizontal division of 
         a concurrent composite state in regions.</para>
+        <para lang="de">
+        	ArgoUML unterstützt aktuell nur die horizontale Teilung eines 
+        	nebenläufigen zusammengesetzten Zustandes in Regionen.
+        </para>
 
         <para lang="en">The description of the details panels of a concurrent 
         region is almost identical to that of a composite state (see 
         <xref linkend="s1.ref.composite_state"/> and so is not 
         duplicated here. The only difference is one additional 
         field:</para>
+        <para lang="de">
+        	Die Beschreibung der Detailfenster einer nebenläufigen Region ist 
+        	immer identisch mit einem zusammengesetzten Zustand (siehe 
+        	<xref linkend="s1.ref.composite_state"/> und wird daher hier nicht 
+        	wiederholt. Der einzige Unterschied ist ein zusätzliches Feld:
+        </para>
 
         <variablelist>
 
           <varlistentry>
 
             <term lang="en"><literal>Submachine</literal></term>
+            <term lang="de"><literal>Subautomat</literal></term>
 
             <listitem>
 
               <para lang="en">Drop-down selector. Allows selecting the submachine 
               included within this composite state.</para>
+              <para lang="de">
+              	Kombinationsfeld. Erlaubt das Auswählen des Subautomaten, der 
+              	in diesen zusammengesetzten Zustand eingefügt wird.
+              </para>
 
             </listitem>
 
@@ -62366,6 +62794,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Stub State</phrase>
+			<phrase lang="de">Flacher Zustand</phrase>
 		</title>
 
         <para lang="en">A stub state only appears on a submachine state.</para>
