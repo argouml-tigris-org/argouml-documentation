@@ -61483,7 +61483,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Entry-Action</literal></term>
-              <term lang="de"><literal>Übergangs-Aktion</literal></term>
+              <term lang="de"><literal>Eintritt-Aktion</literal></term>
 
               <listitem>
 
@@ -61491,7 +61491,7 @@ available at http://www.opencontent.org/openpub/.
                 to be executed on entry to this state.</para>
                 <para lang="de">
                 	Textfeld. Zeigt den Namen der Aktion (falls vorhanden), die 
-                	beim Übergang in diesen Zustand ausgeführt wird.
+                	beim Eintritt in diesen Zustand ausgeführt wird.
                 </para>
 
 				<para>
@@ -61528,7 +61528,7 @@ available at http://www.opencontent.org/openpub/.
                     Action, Send Action, Terminate Action, 
                     Uninterpreted Action.</para>
                     <para lang="de">
-                    	<literal>Neu</literal>. Fügt eine neue Übergangs-Aktion 
+                    	<literal>Neu</literal>. Fügt eine neue Eintritt-Aktion 
                     	einer bestimmten Art ein. Dieses Menü hat die folgenden 
                     	Submenüs, um die Art der Aktion auszuwählen: 
                     	Call Action, Create Action, Destroy Action, Return 
@@ -61544,7 +61544,7 @@ available at http://www.opencontent.org/openpub/.
                     the Entry-Action.</para>
                     <para lang="de">
                     	<literal>Aus Modell entfernen</literal>. Löscht die 
-                    	Übergangs-Aktion.
+                    	Eintritt-Aktion.
                     </para>
 
                   </listitem>
@@ -61558,7 +61558,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Exit-Action</literal></term>
-              <term lang="de"><literal>Verlassen-Aktion</literal></term>
+              <term lang="de"><literal>Austritt-Aktion</literal></term>
 
               <listitem>
 
@@ -61587,7 +61587,7 @@ available at http://www.opencontent.org/openpub/.
                     Action, Terminate Action, Uninterpreted 
                     Action.</para>
                     <para lang="de">
-                    	<literal>Neu</literal>. Fügt eine neue Verlassen-Aktion 
+                    	<literal>Neu</literal>. Fügt eine neue Austritt-Aktion 
                     	einer bestimmten Art ein. Dieses Menü hat die folgenden 
                     	Submenüs, um die Art der Aktion auszuwählen: 
                     	Call Action, Create Action, Destroy Action, Return 
@@ -61603,7 +61603,7 @@ available at http://www.opencontent.org/openpub/.
                     the Exit-Action.</para>
                     <para lang="de">
                     	<literal>Aus Modell entfernen</literal>. Löscht die 
-                    	Verlassen-Aktion.
+                    	Austritt-Aktion.
                     </para>
 
                   </listitem>
@@ -61817,7 +61817,7 @@ available at http://www.opencontent.org/openpub/.
                 	Textbereich. Listet alle internen Transitionen des Zustandes 
                 	auf. Solche Transitionen weder verlassen noch gehen in den 
                 	Zustand hinein, so dass sie keinen Zustandswechsel 
-                	verursachen. Das bedeutet, das die Übergangs- und Verlassen-
+                	verursachen. Das bedeutet, das die Eintritt- und Austritt-
                 	Aktionen nicht aufgerufen werden.
                 </para>
 
@@ -62482,7 +62482,7 @@ available at http://www.opencontent.org/openpub/.
         	horizontalen Linie, der den Namen oben von der Beschreibung des 
         	Verhaltens und das Modell des Sub-Zustandsautomaten unten trennt, 
         	dargestellt. die Beschreibung des Verhaltens beinhaltet die 
-        	Übergangs-, Verlassen und Ausführen-Aktionen und die internen 
+        	Eintritt-, Austritt- und Ausführen-Aktionen und die internen 
         	Transitionen. 
         </para>
 
@@ -62579,8 +62579,9 @@ available at http://www.opencontent.org/openpub/.
               entry, button&nbsp;2 gives a pop up menu with two 
               entries.</para>
               <para lang="de">
-              	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten Übergang, 
-              	Taste&nbsp;2 öffnet ein Popup-Menü mit zwei Einträgen.
+              	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+              	Eintrittspunkt, Taste&nbsp;2 öffnet ein Popup-Menü mit zwei 
+              	Einträgen.
               </para>
 
               <itemizedlist>
@@ -62798,6 +62799,9 @@ available at http://www.opencontent.org/openpub/.
 		</title>
 
         <para lang="en">A stub state only appears on a submachine state.</para>
+        <para lang="de">
+        	Ein flacher Zustand erscheint nur in einem Subautomatenzustand.
+        </para>
 
         <para lang="en">A submachine state represents the invocation of a state 
         machine defined elsewhere. In the general case, an invoked 
@@ -62807,26 +62811,53 @@ available at http://www.opencontent.org/openpub/.
         reaching its final state. The non-default entry and exits are 
         specified through <emphasis>stub states</emphasis>. In the UML 
         metamodel, StubState is a child of State.</para>
+        <para lang="de">
+        	Ein Subautomatenzustand stellt den Aufruf eines irgendwo definierten 
+        	Zustandsautomaten dar. Im allgmeinen Fall, kann ein aufgerufener 
+        	Zustandsautomat an jedem seiner Subzustände oder an seinem 
+        	Standard (initialen) Pseudozustand eingegeben werden. Ebenso läßt er 
+        	sich an jedem Subzustand oder als Ergebnis des aufgerufenen 
+        	Zustandsautomaten verlassen werden und erreicht seinen 
+        	abschliessenden Zustand. Die nicht-standardmäßigen Eintritts- oder 
+        	Austrittspunkte werden über <emphasis>flache Zustände</emphasis> 
+        	spezifiziert. Im UML-Metamodell ist StubState ein Kind von State.
+        </para>
 
         <para lang="en">Every Stub State has a label on the diagram, which 
         corresponds to the pathname represented by the <quote>Reference 
         State</quote> attribute of the stub state.</para>
+        <para lang="de">
+        	Jeder flache Zustand hat im Diagramm eine Bezeichnung, die mit dem 
+        	Pfadnamen korrespondiert, der durch das Attribut <quote>
+        	Referenzzustand</quote> des flachen Zustandes repräsentiert wird.
+        </para>
 
         <para lang="en">The description of the details panels of a stub state is 
         almost identical to that of a pseudo state (see 
         <xref linkend="s1.ref.pseudostate"/> and so is not duplicated 
         here. The only difference is one additional field:</para>
+        <para lang="de">
+        	Die Beschreibung der Detailfenster eines flachen Zustandes ist immer 
+        	mit der eines Pseudozustandes identisch (siehe 
+        	<xref linkend="s1.ref.pseudostate"/> und wird daher hier nicht 
+        	wiederholt. Der einzige Unterschied ist ein zusätzliches Feld:
+        </para>
 
         <variablelist>
 
           <varlistentry>
 
             <term lang="en"><literal>Reference State</literal></term>
+            <term lang="de"><literal>Referenzzustand</literal></term>
 
             <listitem>
 
               <para lang="en">Drop-down selector. Allows entering the path name 
               of the reference state.</para>
+              <para lang="de">
+              	Kombinationsfeld. Erlaubt die Eingabe eines Pfadnamens auf den 
+              	Referenzzustand.
+              </para>
 
             </listitem>
 
@@ -62840,6 +62871,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Transition</phrase>
+			<phrase lang="de">Transition</phrase>
 		</title>
 
         <para lang="en">A transition is a directed relation between a source 
@@ -62847,6 +62879,13 @@ available at http://www.opencontent.org/openpub/.
         (any kind, e.g. composite state). Within the UML metamodel, 
         <literal>Transition</literal> is a sub-class of <literal>
         ModelElement</literal>.</para>
+        <para lang="de">
+        	Eine Transition ist eine gerichtete Beziehung zwischen einem 
+        	Ursprungszustand (jeder Art, z.B. ein zusammengesetzter Zustand) und 
+        	einem Zielzustand (jeder Art, z.B. ein zusammengesetzter Zustand). 
+        	Innerhalb des UML-Metamodelles ist <literal>Transition</literal> 
+        	eine Subklasse von <literal>ModelElement</literal>.
+        </para>
 
         <para lang="en">A transition is represented on a statechart diagram in 
         ArgoUML as a line with arrow connecting the source to the 
@@ -62858,25 +62897,43 @@ available at http://www.opencontent.org/openpub/.
         effect (e.g. Call Action) defined, a slash (
         <literal>/</literal>) followed by the expression of the 
         action.</para>
+        <para lang="de">
+        	Eine Transition wird in einem Zustandsdiagramm in ArgoUML als Linie 
+        	mit einem Pfeil dargestellt, der den Ursprungs- mit dem Zielzustand 
+        	verbindet. In der Nähe dieser Linie befindet sich eine Zeichenkette, 
+        	die die folgenden drei Teile enthält: Das Auslöseimpuls-Ereignis 
+        	(z.B. ein Aufruf-Ereignis), das Parameter zwischen Klammern haben 
+        	kann <literal>()</literal>. Als nächstes folgen (falls vorhanden) 
+        	der Wächter in eckigen Klammern (<literal>[]</literal>). 
+        	Abschliessend, wenn ein Effekt (z.B. Aufruf-Aktion) definiert ist, 
+        	ein Schrägstrich (<literal>/</literal>), gefolgt durch einen 
+        	Aktionsausdruck.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Transition Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Transition</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for transitions are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Transitionen sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -62885,6 +62942,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -62892,6 +62950,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.transition_property_toolbar"/> 
                 and <xref linkend="s2.ref.transition_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.transition_property_toolbar"/> 
+	                und <xref linkend="s2.ref.transition_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -62900,10 +62964,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -62912,18 +62978,28 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. </para>
-                <note>
-                  <para lang="en">
-                    The values in the "bounds" field of the 
-                    transition
-                    are not editable, since they are determined 
-                    by the properties of the endpoints of the line.
-                  </para>
-                </note>
+                <para lang="de">Standard-Register. </para>
+                
+                <para>
+	                <note>
+	                  <para lang="en">
+	                    The values in the "bounds" field of the 
+	                    transition
+	                    are not editable, since they are determined 
+	                    by the properties of the endpoints of the line.
+	                  </para>
+	                  <para lang="de">
+	                  	Die Werte im Feld "Begrenzung" der Transition sind nicht 
+	                  	editierbar, weil sie durch die Eigenschaften der 
+	                  	Endpunkte der Linie bestimmt werden.
+	                  </para>
+	                </note>
+                </para>
 
               </listitem>
 
@@ -62932,11 +63008,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.  In the UML metamodel, <literal>
                 Transition</literal> has no stereotypes defined by default.
+                </para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Transition</literal> standardmäßig keine Stereotypen 
+                	definiert.
                 </para>
 
               </listitem>
@@ -62946,12 +63028,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Transition</literal> has no standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Transition</literal> keine Standard-Eigenschaftswerte 
+                	definiert. 
+                </para>
 
               </listitem>
 
@@ -62960,10 +63048,14 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Checklist</literal></term>
+              <term lang="de"><literal>Checkliste</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab for a transition.</para>
+                <para lang="de">
+                	Standard-Register für eine Transition.
+                </para>
 
               </listitem>
 
@@ -62977,7 +63069,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Transition Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Transition</phrase>
+		  </title>
 
           <variablelist>
 
@@ -62988,11 +63081,20 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up in the hierarchy to the parent state 
                 machine.</para>
+                <para lang="de">
+                	Navigiert in der Hierarchie nach oben zum Eltern-
+                	Zustandsautomaten
+                </para>
 
               </listitem>
 
@@ -63005,17 +63107,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 transition, navigating immediately to the properties 
                 tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Transition und springt sofort in das Register Eigenschaften 
+                	dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -63028,20 +63151,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the transition from the model.</para>
+                <para lang="de">
+                	Löscht die Transition aus dem Modell.
+                </para>
 
-                <warning>
-
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. To delete 
-                  a transition from the diagram, but keep it within the 
-                  model, use the main menu <literal>Remove From 
-                  Diagram</literal> (or press the Delete key).</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram. To delete 
+	                  a transition from the diagram, but keep it within the 
+	                  model, use the main menu <literal>Remove From 
+	                  Diagram</literal> (or press the Delete key).</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm. Um eine Transition 
+	                  	aus einem Diagramm zu entfernen, sie aber im Modell zu 
+	                  	erhalten, verwenden Sie <literal>Aus Diagramm entfernen
+	                  	</literal> des Hauptmenü (oder drücken Sie die Taste 
+	                  	Entf).
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -63055,13 +63196,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Transition</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für eine Transition</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -63069,13 +63212,24 @@ available at http://www.opencontent.org/openpub/.
                 convention transition names start with a lower case 
                 letter and use bumpy caps to divide words within the 
                 name.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Transition. Per Konvention beginnen 
+                	Transitionsnamen mit einem Kleinbuchstaben und verwenden die 
+                	Groß-/Kleinschreibung, um Wörter innerhalb des Namens zu 
+                	unterscheiden.
+                </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -63084,14 +63238,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>StateMachine</literal></term>
+              <term lang="de"><literal>Zustandsautomat</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the name of the parent 
                 StateMachine for the transition.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Namen des Eltern-Zustandsautomaten der 
+                	Transition.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the 
                 StateMachine shown.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem gezeigten 
+                	Zustandsautomaten.
+                </para>
 
               </listitem>
 
@@ -63100,14 +63263,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>State</literal></term>
+              <term lang="de"><literal>Zustand</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the name of the parent State in 
                 case of an internal transition.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Namen des Eltern-Zustandes im Fall 
+                	einer internen Transition.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the State 
                 shown.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem gezeigten 
+                	Zustand.
+                </para>
 
               </listitem>
 
@@ -63116,14 +63288,22 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the source state for the 
                 transition.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Ursprungszustand der Transition an.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -63132,14 +63312,22 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Target</literal></term>
+              <term lang="de"><literal>Ziel</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the target state for the 
                 transition.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Zielzustand der Transition.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -63148,24 +63336,41 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Trigger</literal></term>
+              <term lang="de"><literal>Auslöseimpuls</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the trigger event (if any) which 
                 invokes this transition.</para>
+                <para lang="de">
+                	Textfeld. Zeigt das Auslöseimpuls-Ereignis (falls vorhanden), 
+                	welches diese Transition aufruft.
+                </para>
 
-                <note>
-
-                  <para lang="en">UML does not require there to be a trigger, 
-                  e.g. when a guard is defined. In this case, 
-                  the transition is taken 
-                  immediately if the guard is true.</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">UML does not require there to be a trigger, 
+	                  e.g. when a guard is defined. In this case, 
+	                  the transition is taken 
+	                  immediately if the guard is true.</para>
+	                  <para lang="de">
+	                  	In der UML ist es nicht erforderlich, dass ein 
+	                  	Auslöseimpuls existiert, z.B., wenn ein Wächter 
+	                  	definiert ist.
+	                  </para>
+	
+	                </note>
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 entry, button&nbsp;2 gives a pop up menu with three 
                 entries.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag, Taste&nbsp;2 öffnet ein Popup-Menü mit drei 
+                	Einträgen.
+                </para>
 
                 <itemizedlist>
 
@@ -63175,6 +63380,12 @@ available at http://www.opencontent.org/openpub/.
                     This Add an existing trigger 
                     event. A sub-menu opens with 4 choices: Call Event, 
                     Change Event, Signal Event, Time Event.</para>
+                    <para lang="de">
+                    	<literal>Auswählen - Hinzufügen...</literal>. Fügt ein 
+                    	existierendes Auslöseimpuls-Ereignis hinzu. Ein Untermenü 
+                    	öffnet mit 4 Einträgen: Aufruf-Ereignis, Änderungs-
+                    	Ereignis, Signal-Ereignis, Zeit-Ereignis.
+                    </para>
 
                   </listitem>
 
@@ -63183,6 +63394,12 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>New</literal>. Add a new trigger 
                     event. A sub-menu opens with 4 choices: Call Event, 
                     Change Event, Signal Event, Time Event.</para>
+                    <para lang="de">
+                    	<literal>Neu</literal>. Fügt ein neues Auslöseimpuls-
+                    	Ereignis hinzu. Ein Untermenü mit 4 Einträgen öffnet: 
+                    	Aufruf-Ereignis, Änderungs-Ereignis, Signal-Ereignis, 
+                    	Zeit-Ereignis.
+                    </para>
 
                   </listitem>
 
@@ -63192,6 +63409,12 @@ available at http://www.opencontent.org/openpub/.
                     the trigger event from the model. This feature is 
                     always downlighted in the current version of 
                     ArgoUML.</para>
+                    <para lang="de">
+                    	<literal>Aus Modell entfernen</literal>. Löscht das 
+                    	Auslöseimpuls-Ereignis aus dem Modell. Diese Eigenschaft 
+                    	ist in der aktuellen Version von ArgoUML immer 
+                    	deaktiviert.
+                    </para>
 
                   </listitem>
 
@@ -63204,16 +63427,27 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Guard</literal></term>
+              <term lang="de"><literal>Wächter</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the name of a guard (if any). The 
                 expression of a guard must be true before this 
                 transition can be taken.</para>
+                <para lang="de">
+                	Textfeld. Zeigtden Namen eines Wächters (falls vorhanden). 
+                	Der Ausdruck eines Wächters muss true sein, bevor diese 
+                	Transition ausgeführt werden kann.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 entry, button&nbsp;2 gives a pop up menu with one 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag, Taste&nbsp;2 öffnet ein Popup-Menü mit einem 
+                	Eintrag.
+                </para>
 
                 <itemizedlist>
 
@@ -63221,6 +63455,9 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>New</literal>. Add a new 
                     guard.</para>
+                    <para lang="de">
+                    	<literal>Neu</literal>. Fügt einen neuen Wächter hinzu.
+                    </para>
 
                   </listitem>
 
@@ -63233,15 +63470,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Effect</literal></term>
+              <term lang="de"><literal>Effekt</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the action (if any) to be invoked 
                 as this transition is taken.</para>
+                <para lang="de">
+                	Textfeld. Zeigt die Aktion (falls vorhanden), die aufgerufen 
+                	wird, wenn dies Transition ausgeführt wird. 
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 action, button&nbsp;2 gives a pop up menu with two 
                 entries.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der markierten 
+                	Aktion, Taste&nbsp;2 öffnet ein Popup-Menü mit zwei 
+                	Einträgen.
+                </para>
 
                 <itemizedlist>
 
@@ -63253,6 +63500,14 @@ available at http://www.opencontent.org/openpub/.
                     Call Action, Create Action, Destroy Action, Return 
                     Action, Send Action, Terminate Action, 
                     Uninterpreted Action.</para>
+                    <para lang="de">
+                    	<literal>Neu</literal>. Fügt einen neuen Effekt (Aktion) 
+                    	einer bestimmten Art hinzu. Dieses Menü hat die folgenden 
+                    	Submenüs, um die Art der Aktion auszuwählen: 
+                    	Aufruf-Aktion, Erzeugen-Aktion, Zerstören-Aktion, 
+                    	Rückgabe-Aktion, Sende-Aktion, Beenden-Aktion, 
+                    	uninterpretierte Aktion.
+                    </para>
 
                   </listitem>
 
@@ -63260,6 +63515,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Delete From Model</literal>. Delete 
                     the selected action from the model. 
+                    </para>
+                    <para lang="de">
+                    	<literal>Aus Modell entfernen</literal>. Löscht die 
+                    	markierte Aktion aus dem Modell.
                     </para>
 
                   </listitem>
@@ -63280,14 +63539,23 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Event</phrase>
+			<phrase lang="de">Ereignis</phrase>
 		</title>
 
         <para lang="en">An event is an observable occurrence. In the UML 
         metamodel it is a child of <literal>
         ModelElement</literal>.</para>
+        <para lang="de">
+        	Ein Ereignis ist ein beobachtbares Vorkommen. Im UML-Metamodell 
+        	ist es ein Kind von <literal>ModelElement</literal>.
+        </para>
 
         <para lang="en">There are a number of different types of events that are 
         children of event within the UML metamodel.</para>
+        <para lang="de">
+        	Es gibt eine Anzahl unterschiedlicher Typen von Ereignissen, die 
+        	Kinder eines Ereignisses innerhalb des UML-Metamodelles sind.
+        </para>
 
         <itemizedlist>
 
@@ -63297,6 +63565,12 @@ available at http://www.opencontent.org/openpub/.
             operation of a class, this event is caused by a call to the 
             given operation. The expected effect is that the steps of 
             the operation will be executed.</para>
+            <para lang="de">
+            	<literal>Aufruf-Ereignis</literal>. Verknüpft mit einer Operation 
+            	einer Klasse, verursacht dieses Ereignis einen Aufruf der 
+            	angegebenen Operation. Der erwartete Effekt ist, dass die 
+            	Operationsschritte ausgeführt werden.
+            </para>
 
           </listitem>
 
@@ -63305,6 +63579,10 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en"><literal>SignalEvent</literal>. Associated with a 
             signal, this event is caused by the signal being 
             raised.</para>
+            <para lang="de">
+            	<literal>Signal-Ereignis</literal>. Verknüpft mit einem Signal, 
+            	verursacht diese Ereignis das Auslösen eines Signales.
+            </para>
 
           </listitem>
 
@@ -63312,6 +63590,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en"><literal>TimeEvent</literal>. An event cause by 
             expiration of a timing deadline.</para>
+            <para lang="de">
+            	<literal>Zeit-Ereignis</literal>. Ein Ereignis, verursacht 
+            	durch den Ablauf einer zeitlichen Frist.
+            </para>
 
           </listitem>
 
@@ -63320,31 +63602,43 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en"><literal>ChangeEvent</literal>. An event caused by a 
             particular expression (of attributes and associations) 
             becoming true.</para>
+            <para lang="de">
+            	<literal>Änderungs-Ereignis</literal>. Ein Ereignis, verursacht 
+            	durch einen bestimmten Ausdruck (von Attributen und 
+            	Assoziationen) der true wird. 
+            </para>
 
           </listitem>
 
         </itemizedlist>
 
         <para lang="en">An event is represented by its name.</para>
+        <para lang="de">Ein Ereignis wird durch seinen Namen dargestellt.</para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Event Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Ereignis</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for events are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Ereignisse sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -63353,6 +63647,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -63360,6 +63655,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.call_event_property_toolbar"/> 
                 and <xref linkend="s2.ref.call_event_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.call_event_property_toolbar"/> 
+	                und <xref linkend="s2.ref.call_event_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -63368,10 +63669,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -63380,6 +63683,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -63388,6 +63692,11 @@ available at http://www.opencontent.org/openpub/.
                 Event</literal> has the following standard 
                 stereotypes defined.
                 </para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>Event
+                	</literal> die folgenden Standard-Stereotypen definiert.
+                </para>
+                
                 <itemizedlist>
 
                   <listitem>
@@ -63402,6 +63711,16 @@ available at http://www.opencontent.org/openpub/.
                     (and is the only kind of trigger 
                     that may be applied to an initial transition).
                     </para>
+                    <para lang="de">
+                    	<literal>Erzeugen</literal> (nur für ein <literal>Aufruf-
+                    	Ereignis</literal>). Erzeugen ist ein stereotypisiertes 
+                    	Aufruf-Ereignis, das kennzeichnet, dass die empfangende 
+                    	Instanz dieses Ereignis bereits erzeugt hat. In 
+                    	Zustandsautomaten löst es die initiale Transition auf 
+                    	oberster Ebene des Zustandsautomaten aus (und ist die 
+                    	einzige Art Auslöseimpuls, die auf eine initiale 
+                    	Transition angewendet werden darf.
+                    </para>
                   </listitem>
 
                   <listitem>
@@ -63410,6 +63729,12 @@ available at http://www.opencontent.org/openpub/.
                     Destroy is a stereotyped call event denoting 
                     that the instance receiving the event 
                     is being destroyed.
+                    </para>
+                    <para lang="de">
+                    	<literal>Zerstören</literal> (nur für ein <literal>Aufruf-
+                    	Ereignis</literal>). Zerstören ist ein stereotypisiertes 
+                    	Aufruf-Ereignis, das kennzeichnet, das die das Ereignis 
+                    	empfangende Instanz gerade zerstört wird. 
                     </para>
                   </listitem>
 
@@ -63422,12 +63747,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, an <literal>
                 Event</literal> has no standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Event</literal> keine Standard-Eigenschaftswerte definiert.
+                </para>
 
               </listitem>
 
@@ -63441,7 +63771,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Event Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Ereignis</phrase>
+		  </title>
 
           <variablelist>
 
@@ -63452,10 +63783,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the composition structure.</para>
+                <para lang="de">
+                	Navigiert durch die zusammengesetzte Struktur nach oben.
+                </para>
 
               </listitem>
 
@@ -63468,17 +63807,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 event, navigating immediately to the properties tab for 
                 that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für das markierte 
+                	Ereignis und springt sofort in das Register Eigenschaften 
+                	dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -63491,6 +63851,11 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/parameter.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New parameter</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/parameter.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Parameter</literal></term>
 
               <listitem>
 
@@ -63498,6 +63863,12 @@ available at http://www.opencontent.org/openpub/.
                 operation as the current parameter, navigating 
                 immediately to the properties tab for that parameter 
                 (see <xref linkend="s1.ref.parameter"/>).</para>
+                <para lang="de">
+                	Erzeugt einen neuen Parameter für die Ereignisoperation als 
+                	aktuellen Parameter und springt sofort in das Register 
+                	Eigenschaften dieses Parameters (siehe 
+                	<xref linkend="s1.ref.parameter"/>).
+                </para>
 
               </listitem>
 
@@ -63510,10 +63881,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the event from the model.</para>
+                <para lang="de">
+                	Löscht das Ereignis aus dem Modell.
+                </para>
 
               </listitem>
 
@@ -63527,13 +63906,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Event</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für ein Ereignis</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -63541,26 +63922,49 @@ available at http://www.opencontent.org/openpub/.
                 event names start with a lower case letter and use 
                 bumpy caps to divide words within the name in the same 
                 way as operations.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Ereignisses. Per Konvention beginnt 
+                	der Ereignisname mit einen Kleinbuchstaben und verwendet 
+                	Groß-/Kleinschreibung, um Wörter innerhalb des Namens auf 
+                	die gleiche Art und Weise wie Operationen zu unterscheiden.
+                </para>
 
-                <note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-
-                </note>
-
-                <tip>
-
-                  <para lang="en">For call events it makes sense to use the name 
-                  of the associated operation. For signal events it 
-                  make sense to use the name of the signal, prefixed by 
-                  <literal>[sig]</literal>. For time events use the 
-                  time expression, prefixed by <literal>
-                  [time]</literal> and for change events the change 
-                  expression, prefixed by <literal>
-                  [change]</literal>.</para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">For call events it makes sense to use the name 
+	                  of the associated operation. For signal events it 
+	                  make sense to use the name of the signal, prefixed by 
+	                  <literal>[sig]</literal>. For time events use the 
+	                  time expression, prefixed by <literal>
+	                  [time]</literal> and for change events the change 
+	                  expression, prefixed by <literal>
+	                  [change]</literal>.</para>
+	                  <para lang="de">
+	                  	Für Aufruf-Ereignisse macht es Sinn, den Namen der 
+	                  	verknüpften Operation zu verwenden. Für Signalereignisse 
+	                  	macht es Sinn, den Namen des Signals mit einem 
+	                  	vorangestellten Präfix <literal>[sig]</literal> zu 
+	                  	verwenden. Für Zeitereignisse verwenden Sie einen 
+	                  	Zeitausdruck mit dem Präfix <literal>[time]</literal> und 
+	                  	für Änderungsereignisse den Änderungsausdruck mit dem 
+	                  	Präfix <literal>[change]</literal>.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -63569,11 +63973,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Text field. Shows the namespace for the event. 
                 This is the composition hierarchy.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Namensraum für ein Ereignis. Dies ist 
+                	die zusammengesetzte Hierarchie.
+                </para>
 
               </listitem>
 
@@ -63582,16 +63991,27 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Parameters</literal></term>
+              <term lang="de"><literal>Parameter</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area, with entries for all the actual 
                 parameter values of the event (see 
                 <xref linkend="s1.ref.parameter"/>).</para>
+                <para lang="de">
+                	Textbereich mit den Einträgen für alle aktuellen 
+                	Parameterwerte des Ereignisses (siehe 
+                	<xref linkend="s1.ref.parameter"/>).
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click on any of the parameters 
                 navigates to that parameter, button&nbsp;2 click brings up a 
                 pop up menu with one entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf einen der Parameter 
+                	navigiert zu diesem Parameter, ein Taste&nbsp;2-Klick 
+                	öffnet ein Popup-Menü mit einem Eintrag.
+                </para>
 
                 <itemizedlist>
 
@@ -63599,6 +64019,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>New Parameter</literal>. Create a 
                     new parameter and navigate to it.</para>
+                    <para lang="de">
+                    	<literal>Neuer Parameter</literal>. Erzeugt einen neuen 
+                    	Parameter und navigiert zu ihm.
+                    </para>
 
                   </listitem>
 
@@ -63611,14 +64035,22 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Transition</literal></term>
+              <term lang="de"><literal>Transition</literal></term>
 
               <listitem>
 
                 <para lang="en">This shows the transition caused by the 
                 event.</para>
+                <para lang="de">
+                	Zeigt die von dem Ereignis verursachte Transition.
+                </para>
 
                 <para lang="en">button&nbsp;1 double-click on the transition navigates 
                 to that transition.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf die Transition navigiert 
+                	zu dieser Transition.
+                </para>
 
               </listitem>
 
@@ -63627,12 +64059,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Operations</literal></term>
+              <term lang="de"><literal>Operationen</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop-down selector. Only present for a Call 
                 Event. This allows specifying the operation that causes 
                 the event when called.</para>
+                <para lang="de">
+                	Kombinationsfeld. Nur für Aufruf-Ereignisse vorhanden. 
+                	Erlaubt das Spezifizieren der Operation, die von dem Ereignis 
+                	ausgelöst wird.
+                </para>
 
               </listitem>
 
@@ -63641,16 +64079,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Signal</literal></term>
+              <term lang="de"><literal>Signal</literal></term>
 
               <listitem>
 
                 <para lang="en">Text field. Only present for a Signal 
                 Event. This allows specifying the signal that causes 
                 the event when called.</para>
+                <para lang="de">
+                	Textfeld. Nur bei Signalereignissen vorhanden. Erlaubt das 
+                	Spezifizieren eines Signals, welches das Ereignis auslöst.
+                </para>
                 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 signal, button&nbsp;2 gives a pop up menu with two 
                 entries.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Signal, Taste&nbsp;2 öffnet ein Popup-Menü mit zwei Einträgen.
+                </para>
 
                 <itemizedlist>
 
@@ -63659,6 +64106,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>Add...</literal>. This 
                     opens a dialog box that allows selecting 
                     an already existing signal.</para>
+                    <para lang="de">
+                    	<literal>Hinzufügen...</literal>. Öffnet ein 
+                    	Dialogfenster, das es erlaubt, ein bereits existierendes 
+                    	Signal auszuwählen. 
+                    </para>
 
                   </listitem>
 
@@ -63666,6 +64118,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>New Signal</literal>. Creates 
                     a new Signal, and navigates to it. 
+                    </para>
+                    <para lang="de">
+                    	<literal>Neues Signal</literal>. Erzeugt ein neues Signal 
+                    	und navigiert dort hin.
                     </para>
 
                   </listitem>
@@ -63679,15 +64135,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>When</literal></term>
+              <term lang="de"><literal>Wenn</literal></term>
 
               <listitem>
 
                 <para lang="en">Double text field. Only present for a Time 
                 Event. This allows expressing the time that 
                 the event is called.</para>
+                <para lang="de">
+                	Doppeltes Textfeld. Nur bei Zeitereignissen vorhanden. 
+                	Erlaubt es, die Zeit auszudrücken, die das Ereignis ausgelöst 
+                	hat.
+                </para>
                 
                 <para lang="en">The first of the two fields is for the body of the expression, 
                 and the second one for the language in which it is written.</para>
+                <para lang="de">
+                	Das erste der zwei Felder ist für den Ausdruck und der 
+                	zweite für die Sprache, in der dieser geschrieben wurde.
+                </para>
 
               </listitem>
 
@@ -63695,11 +64161,18 @@ available at http://www.opencontent.org/openpub/.
             
           </variablelist>
           
-          <warning>
-            <para lang="en">In ArgoUML V0.20, 
-            the properties panel of a change event lacks a field to enter the 
-            change expression.</para>
-          </warning>
+          <para>
+	          <warning>
+	            <para lang="en">In ArgoUML V0.20, 
+	            the properties panel of a change event lacks a field to enter the 
+	            change expression.</para>
+	            <para lang="de">
+	            	In ArgoUML V0.20 fehlt im Register Eigenschaften des 
+	            	Änderungsereignisses ein Feld, um dem Änderungsausdruck 
+	            	einzugeben. 
+	            </para>
+	          </warning>
+          </para>
 
         </sect2>
 
@@ -63709,6 +64182,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Guard</phrase>
+			<phrase lang="de">Wächeter</phrase>
 		</title>
 
         <para lang="en">A guard is associated with a transition. At the time an 
@@ -63716,28 +64190,45 @@ available at http://www.opencontent.org/openpub/.
         transition is disabled. In the UML metamodel, <literal>
         Guard</literal> is a child of <literal>
         ModelElement</literal>.</para>
+        <para lang="de">
+        	Ein Wächter ist mit einer Transition verknüpft. Zum Zeipunkt des 
+        	Verteilens eines Ereignisses, wird der Wächter überprüft und, wenn 
+        	false, dessen Transition ausgeschaltet. Im UML-Metamodell ist 
+        	<literal>Gurad</literal> ein Kind von <literal>ModelElement
+        	</literal>.
+        </para>
 
         <para lang="en">A guard is shown on the diagram by the text of its 
         expression in square brackets (<literal>[]</literal>).</para>
+        <para lang="de">
+        	Ein Wächter wird im Diagramm durch den Text seines Ausdrucks in 
+        	eckigen Klammern (<literal>[]</literal>) dargestellt.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Guard Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Wächter</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for guards are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Wächter sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -63746,6 +64237,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -63753,6 +64245,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.guard_property_toolbar"/> and 
                 <xref linkend="s2.ref.guard_property_fields"/> 
                 below.</para>
+                <para lang="de">
+                Siehe  
+                <xref linkend="s2.ref.guard_property_toolbar"/> und 
+                <xref linkend="s2.ref.guard_property_fields"/> 
+                unten.
+                </para>
 
               </listitem>
 
@@ -63761,10 +64259,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -63773,6 +64273,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -63780,6 +64281,11 @@ available at http://www.opencontent.org/openpub/.
                 guard. In the UML metamodel, <literal>
                 Guard</literal> has no standard stereotypes
                 defined.</para>
+                <para lang="de">
+                	Standard-Register, welches die Stereotypen für den Wächter 
+                	enthält. Im UML-Metamodell sind für <literal>Guard</literal> 
+                	keine Standard-Stereotypen definiert.
+                </para>
 
               </listitem>
 
@@ -63788,12 +64294,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Guard</literal> has no standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Guard</literal> keine Standard-Eigenschaftswerte definiert.
+                </para>
 
                   </listitem>
 
@@ -63807,7 +64318,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Guard Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Wächter</phrase>
+		  </title>
 
           <variablelist>
 
@@ -63818,10 +64330,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur nach oben.
+                </para>
 
               </listitem>
 
@@ -63834,17 +64354,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 guard, navigating immediately to the properties tab for 
                 that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für den markierten 
+                	Wächter und springt sofort in das Register Eignschaften 
+                	dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -63857,17 +64398,31 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete from Model</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Aus Modell entfernen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the guard from the model</para>
+                <para lang="de">
+                	Löscht den Wächter aus dem Modell.
+                </para>
 
-                <warning>
-
-                  <para lang="en">This is a deletion from the model, 
-                  <emphasis>not</emphasis> just the diagram.</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model, 
+	                  <emphasis>not</emphasis> just the diagram.</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm.
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -63881,24 +64436,35 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Guard</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für einen Wächter</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. The name of the guard. By convention 
                 guard names start with a lower case letter and use 
                 bumpy caps to divide words within the name.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Wächters. Per Konvention beginnt 
+                	der Wächtername mit einem Kleinbuchstaben und verwendet 
+                	Groß-/Kleinschreibung, um die Wörter innerhalb des Namens zu 
+                	unterscheiden.
+                </para>
 
                 <note>
 
                   <para lang="en">ArgoUML does not enforce this naming 
                   convention.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt diese Namenskonvention nicht.
+                  </para>
 
                 </note>
 
@@ -63909,14 +64475,22 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Transition</literal></term>
+              <term lang="de"><literal>Transition</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box, showing the transition that owns this 
                 guard.</para>
+                <para lang="de">
+                	Textfeld, zeigt die Transition, die diesen Wächter beinhaltet.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click on the transition navigates 
                 to that transition.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf die Transition navigiert 
+                	zu dieser Transition.
+                </para>
 
               </listitem>
 
@@ -63925,11 +64499,15 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Expression</literal></term>
+              <term lang="de"><literal>Ausdruck</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. The expression that defines the 
                 guard.</para>
+                <para lang="de">
+                	Textfeld. Der Ausdruck, der den Wächter definiert.
+                </para>
 
               </listitem>
 
@@ -63938,12 +64516,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Language</literal></term>
+              <term lang="de"><literal>Sprache</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. This indicates that the expression is 
                 written in a particular interpretation language with 
                 which to evaluate the text.</para>
+                <para lang="de">
+                	Textfeld. Gibt an, dass der Ausdruck in einer bestimmten 
+                	interpretierenden Sprache geschrieben wurde, um den Text zu 
+                	evaluieren.
+                </para>
 
               </listitem>
 
@@ -63959,6 +64543,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Pseudostate</phrase>
+			<phrase lang="de">Pseudozustand</phrase>
 		</title>
 
         <para lang="en">A pseudostate encompasses a number of different transient 
@@ -63972,6 +64557,21 @@ available at http://www.opencontent.org/openpub/.
         point for transactions (but with some semantic value). Within 
         the UML metamodel, <literal>Pseudostate</literal> is a 
         sub-class of <literal>StateVertex</literal>.</para>
+        <para lang="de">
+        	Ein Pseudozustand umfasst eine Reihe von verschiedenen transienten 
+        	Eckpunkte in eine Zustandsdiagramm. Sie werden typischerweise 
+        	verwendet, mehrere Transitionen in komplexeren 
+        	Zustandstransitionspfaden miteinander zu verbinden. Zum Beispiel, 
+        	durch kombinieren einer Transition durch Eingabe eines Entscheidungs-
+        	Pseudozustandes mit einer Reihe von Transitionen, welche die 
+        	Entscheidung verlassen, erhalten wir ein zusammengesetzte Transition, 
+        	die zu einer Reihe von nebenläufigen Zielzuständen führt. 
+        	Pseudozustände haben keine Eigenschaften eines vollständigen 
+        	Zustandes und dienen nur als Verbindungspunkt für Transaktionen (
+        	aber mit einem semantischen Wert). Innerhalb des UML-Metamodelles 
+        	ist <literal>Pseudostate</literal> eine Subklasse von <literal>
+        	StateVertex</literal>.
+        </para>
 
         <para lang="en">The representation of a pseudostate on a statechart 
         diagram in ArgoUML depends on the particular kind of 
@@ -63986,25 +64586,46 @@ available at http://www.opencontent.org/openpub/.
         <xref linkend="s1.ref.join_state"/>, 
         <xref linkend="s1.ref.shallow_history"/> and 
         <xref linkend="s1.ref.deep_history"/>).</para>
+        <para lang="de">
+        	Die Darstellung eines Pseudozustandes in einem Zustandsdiagramm von 
+        	ArgoUML hängt von der Art des Pseudozustandes ab: initial, tiefe 
+        	Historie, flache Historie, Verknüpfung, Entscheidung, Kreuzung, 
+        	und Auswahl. ArgoUML läßt Sie jeden Pseudozustand durch die Werkzeuge 
+        	für die spezifischen Typen des Pseudozustandes direkt plazieren. 
+        	Diese sind in den nachfolgenden Abschnitten beschrieben (siehe 
+	        <xref linkend="s1.ref.initial_state"/>, 
+	        <xref linkend="s1.ref.junction_state"/>, 
+	        <xref linkend="s1.ref.branch_state"/>, 
+	        <xref linkend="s1.ref.fork_state"/>, 
+	        <xref linkend="s1.ref.join_state"/>, 
+	        <xref linkend="s1.ref.shallow_history"/> und 
+	        <xref linkend="s1.ref.deep_history"/>).        	 
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Pseudostate Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Pseudozustand</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for pseudostates are 
           as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Pseudozustände sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -64013,6 +64634,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -64020,6 +64642,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.pseudostate_property_toolbar"/> 
                 and <xref linkend="s2.ref.pseudostate_property_fields"/>
                  below.</para>
+                <para lang="de">
+	                Siehe 
+	                <xref linkend="s2.ref.pseudostate_property_toolbar"/> 
+	                und <xref linkend="s2.ref.pseudostate_property_fields"/>
+	                 unten.
+                 </para>
 
               </listitem>
 
@@ -64028,10 +64656,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -64040,10 +64670,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -64052,6 +64684,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -64059,6 +64692,12 @@ available at http://www.opencontent.org/openpub/.
                 pseudostate. In the UML metamodel, 
                 <literal>PseudoState</literal> has the no standard 
                 stereotypes defined.</para>
+                <para lang="de">
+                	Standard-Register, welches die Stereotypen des 
+                	Pseudozustandes enthält. Im UML-Metamodell sind für 
+                	<literal>Pseudozustand</literal> keine Standard-Stereotypen 
+                	definiert. 
+                </para>
 
               </listitem>
 
@@ -64067,12 +64706,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Pseudostate</literal> has no standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Pseudozustand</literal> keine Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
                   </listitem>
 
@@ -64086,7 +64731,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Pseudostate Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Pseudozustand</phrase>
+		  </title>
 
           <variablelist>
 
@@ -64097,10 +64743,16 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">Navigiert in der Paketstruktur nach oben.</para>
 
               </listitem>
 
@@ -64113,17 +64765,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 pseudostate, navigating immediately to the properties 
                 tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für den markierten 
+                	Pseudozustand und springt sofort in das Register 
+                	Eigenschaten dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -64136,15 +64809,27 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete from Model</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Aus Modell entfernen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the pseudostate from the model</para>
+                <para lang="de">
+                	Löscht den Pseudozustand aus dem Modell.
+                </para>
 
                 <warning>
 
                   <para lang="en">This is a deletion from the model 
                   <emphasis>not</emphasis> just the diagram.</para>
+                  <para lang="de">
+                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht 
+                  	</emphasis> nur aus dem Diagramm.
+                  </para>
 
                 </warning>
 
@@ -64160,13 +64845,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Pseudostate</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für einen Pseudozustand</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -64174,11 +64861,20 @@ available at http://www.opencontent.org/openpub/.
                 convention pseudostate names start with a lower case 
                 letter and use bumpy caps to divide words within the 
                 name.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Pseudozustandes. Per Konvention 
+                	beginnen Pseudozustandsnamen mit einem Kleinbuchstaben und 
+                	verwendet die Groß-/Kleinschreibung um die Wörter innerhalb 
+                	des Namens zu unterscheiden.
+                </para>
 
                 <note>
 
                   <para lang="en">ArgoUML does not enforce this naming 
                   convention.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt diese Namenskonvention nicht.
+                  </para>
 
                 </note>
 
@@ -64187,6 +64883,11 @@ available at http://www.opencontent.org/openpub/.
                   <para lang="en">Pseudostate names are not shown on the diagram 
                   and it is not usually necessary to give them a 
                   name.</para>
+                  <para lang="de">
+                  	Namen von Pseudozuständen werden im Diagramm nicht angezeigt 
+                  	und es ist normalerweise nicht notwendig ihnen einen Namen 
+                  	zu geben.
+                  </para>
 
                 </tip>
 
@@ -64197,16 +64898,27 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Container</literal></term>
+              <term lang="de"><literal>Container</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the container of the pseudostate. 
                 This is the state hierarchy.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Container des Pseudozustandes. Dies ist 
+                	die Zustandshierarchie.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on the entry will navigate 
                 to the composite state that contains this state (or the 
                 top-level state that is the root of the state 
                 containment hierarchy).</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf den Eintrag wird zu dem 
+                	zusammengesetzten Zustand navigieren, der diesen Zustand 
+                	enthält (oder den Zustand auf oberster Ebene, den die 
+                	Wurzel der Zustandshierarchie.
+                </para>
 
               </listitem>
 
@@ -64215,14 +64927,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Incoming</literal></term>
+              <term lang="de"><literal>Ankommend</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists any incoming transitions for the 
                 pseudostate.</para>
+                <para lang="de">
+                	Textbereich. Listet alle ankommenden Transitionen des 
+                	Pseudozustandes auf.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 transition.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der markierten 
+                	Transition.
+                </para>
 
               </listitem>
 
@@ -64231,14 +64952,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Outgoing</literal></term>
+              <term lang="de"><literal>Abgehend</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists any outgoing transitions for the 
                 pseudostate.</para>
+                <para lang="de">
+                	Textbereich. Listet alle abgehenden Transitionen des 
+                	Pseudozustandes auf.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 transition.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der markierten 
+                	Transition.
+                </para>
 
               </listitem>
 
@@ -64254,6 +64984,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Initial State</phrase>
+			<phrase lang="de">Start-Zustand</phrase>
 		</title>
 
         <para lang="en">The initial state is a pseudostate (see 
@@ -64261,18 +64992,40 @@ available at http://www.opencontent.org/openpub/.
         a single transition to the <emphasis>default</emphasis> state 
         of a composite state. It is the state from which any initial 
         transition is made.</para>
+        <para lang="de">
+        	Der Startzustand ist ein Pseudozustand (siehe 
+        	<xref linkend="s1.ref.pseudostate"/>), der den Ursprung für eine 
+        	einzelne Transition zu dem <emphasis>Standard</emphasis>-Zustand 
+        	eines zusammengesetzten Zustandes darstellt. Es ist der Zustand, von 
+        	dem aus alle initialen Transition ausgehen.
+        </para>
 
         <para lang="en">As a consequence it is not permissible to have incoming 
         transitions. ArgoUML will not let you create such transitions, 
         and if you import a model that has such transitions, a critic 
         will complain.</para>
+        <para lang="de">
+        	Als Konsequenz daraus ist es nicht möglich, ankommende Transitionen 
+        	zu haben. ArgoUML wird sie solche Transitionen nicht erzeugen lassen 
+        	und wenn Sie ein Modell importieren, das solche Transitionen aufweist, 
+        	wird sich eine Kritik beschweren.
+        </para>
 
         <para lang="en">There can be at most one initial pseudostate in a 
         composite state, which must have (at most) one outgoing 
         transition.</para>
+        <para lang="de">
+        	Bei den meisten kann ein initialer Pseudozustand in einem 
+        	zusammengesetzten Zustand vorhanden sein, der eine abgehende 
+        	Transition aufweisen muss (bei den meisten).
+        </para>
 
         <para lang="en">An initial state is represented on the diagram as a solid 
         disc.</para>
+        <para lang="de">
+        	Ein Startzustand wird im Diagramm als ausgefüllte Scheibe 
+        	dargestellt.
+        </para>
 
       </sect1>
 
@@ -64280,6 +65033,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Final State</phrase>
+			<phrase lang="de">Endezustand</phrase>
 		</title>
 
         <para lang="en">If a transition reaches a final state, it implies 
