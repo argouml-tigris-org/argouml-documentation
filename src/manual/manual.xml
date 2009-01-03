@@ -65041,38 +65041,63 @@ available at http://www.opencontent.org/openpub/.
         state, or at the top level, of the complete state machine. In 
         the UML metamodel <literal>FinalState</literal> is a child of 
         <literal>State</literal>.</para>
+        <para lang="de">
+        	Wenn eine Transition ihren Endzustand erreicht, bedeutet es den 
+        	Abschluss der mit diesem zusammengesetzten Zustand verknüpften 
+        	Aktivitäten, oder ganz oben, das Ende des Zustandsautomaten. Im 
+        	UML-Metamodell ist <literal>FinalState</literal> ein Kind von 
+        	<literal>State</literal>.
+        </para>
 
         <note>
 
           <para lang="en">A final state is a true state (with all its 
           attributes), <emphasis>not</emphasis> a pseudostate.</para>
+          <para lang="de">
+          	Ein Endzustand ist ein richtiger Zustand (mit all seinen Attributen), 
+          	<emphasis>kein</emphasis> Pseudozustand.
+          </para>
 
         </note>
 
         <para lang="en">Completion at the top level implies termination (i.e. 
         destruction) of the owning object instance.</para>
+        <para lang="de">
+        	Das Beenden ganz oben bedeutet das beenden (z.b. zerstören) der 
+        	Objektinstanz.
+        </para>
 
         <para lang="en">The representation of a final state on the diagram is a 
         circle with a small disc at its center.</para>
+        <para lang="de">
+        	Die Darstellung eines Endzustandes im Diagramm ist ein Kreis mit 
+        	einer schmalen Scheibe im Zentrum.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Final State Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Endezustand</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for final states are 
           as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für einen Endezustand sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -65081,6 +65106,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -65088,6 +65114,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.final_state_property_toolbar"/> 
                 and <xref linkend="s2.ref.final_state_property_fields"/>
                  below.</para>
+                <para lang="de">
+	                Siehe 
+	                <xref linkend="s2.ref.final_state_property_toolbar"/> 
+	                und <xref linkend="s2.ref.final_state_property_fields"/>
+	                 unten.
+                 </para>
 
               </listitem>
 
@@ -65096,10 +65128,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -65108,10 +65142,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -65120,6 +65156,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -65127,6 +65164,12 @@ available at http://www.opencontent.org/openpub/.
                 final state. In the UML metamodel, a <literal>
                 Final State</literal> has the no standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register, welches die Stereotypen des Endzustandes 
+                	enthält. Im UML-Metamodell sind für einen <literal>
+                	Final State</literal> keine Standard-Stereotypen 
+                	definiert.
+                </para>
 
               </listitem>
 
@@ -65135,12 +65178,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Final State</literal> has no standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für einen <literal>
+                	Final State</literal> keine Standard-Eigenschaftswerte  
+                	definiert.
+                </para>
 
                   </listitem>
 
@@ -65154,7 +65203,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Final State Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Endzustand</phrase>
+		  </title>
 
           <variablelist>
 
@@ -65165,10 +65215,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur nach oben.
+                </para>
 
               </listitem>
 
@@ -65181,17 +65239,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 state, navigating immediately to the properties tab for 
                 that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für den markierten 
+                	Zustand und springt sofort in das Register Eigenschaften 
+                	dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -65204,17 +65283,31 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete from Model</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Aus Modell entfernen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the final state from the model</para>
+                <para lang="de">
+                	Löscht den Endzustand aus dem Modell.
+                </para>
 
-                <warning>
-
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram.</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram.</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm.
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -65228,13 +65321,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Final State</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für einen Endzustand</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -65242,11 +65337,20 @@ available at http://www.opencontent.org/openpub/.
                 convention final state names start with a lower case 
                 letter and use bumpy caps to divide words within the 
                 name.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Endzustandes. Per Konvention beginnt 
+                	der Endzustandname mit einem Kleinbuchstaben und verwendet 
+                	die Groß-/Kleinschreibung um Wörter innerhalb des Namens zu 
+                	unterscheiden.
+                </para>
 
                 <note>
 
                   <para lang="en">ArgoUML does not enforce this naming 
                   convention.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt diese Namenskonvention nicht.
+                  </para>
 
                 </note>
 
@@ -65255,6 +65359,10 @@ available at http://www.opencontent.org/openpub/.
                   <para lang="en">Final state names are shown on the diagram but 
                   it is not usually necessary to give them a 
                   name.</para>
+                  <para lang="de">
+                  	Endzustandnamen werden im Diagramm dargestellt, aber es ist 
+                  	normalerweise nicht notwendig, ihnen einen Namen zu geben.
+                  </para>
 
                 </tip>
 
@@ -65265,16 +65373,27 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Container</literal></term>
+              <term lang="de"><literal>Container</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the container of the final state. 
                 This is the state hierarchy.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Container des Endezustandes. Dies ist 
+                	die Zustandshierarchie.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on the entry will navigate 
                 to the composite state that contains this state (or the 
                 top-level state that is the root of the state 
                 containment hierarchy).</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf den Eintrag wird zu dem 
+                	zusammengesetzten Zustand navigieren, der diesen Zustand 
+                	enthält (oder den Zustand auf oberster Ebene, der die 
+                	Wurzel der Zustandshierarchie ist).
+                </para>
 
               </listitem>
 
@@ -65283,15 +65402,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Entry-Action</literal></term>
+              <term lang="de"><literal>Eintritts-Aktion</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the name of the action (if any) 
                 to be executed on entry to this final state.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Namen der Aktion (falls vorhanden), die 
+                	beim Eintritt in diesen Endzustand ausgeführt wird.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 entry, button&nbsp;2 gives a pop up menu with two 
                 entries:</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag, Taste&nbsp;2 öffnet ein Popup-Menü mit zwei 
+                	Einträgen:
+                </para>
 
                 <itemizedlist>
 
@@ -65303,6 +65432,14 @@ available at http://www.opencontent.org/openpub/.
                     Call Action, Create Action, Destroy Action, Return 
                     Action, Send Action, Terminate Action, 
                     Uninterpreted Action.</para>
+                    <para lang="de">
+                    	<literal>Neu</literal>. Fügt eine neue Eintrittsaktion 
+                    	einer bestimmten Art hinzu. Diese Menü hat die folgenden 
+                    	7 Untermenüs, um die Art der Aktion auswählen zu können: 
+                    	Aufruf-Aktion, Erzeugen-Aktion, Zerstören-Aktion, 
+                    	Rückgabe-Aktion, Sende-Aktion, Beenden-Aktion, 
+                    	uninterpretierte Aktion.
+                    </para>
 
                   </listitem>
 
@@ -65310,6 +65447,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Delete From Model</literal>. Delete 
                     the Entry-Action.</para>
+                    <para lang="de">
+                    	<literal>Aus Modell entfernen</literal>. Löscht die 
+                    	Eintritts-Aktion.
+                    </para>
 
                   </listitem>
 
@@ -65322,14 +65463,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Incoming</literal></term>
+              <term lang="de"><literal>Ankommend</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists any incoming transitions for the 
                 final state.</para>
+                <para lang="de">
+                	Textbereich. Listet alle ankommenden Transitionen für den 
+                	Endzustand auf.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 transition.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der markierten 
+                	Transition.
+                </para>
 
               </listitem>
 
@@ -65338,6 +65488,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Internal Transitions</literal></term>
+              <term lang="de"><literal>Intere Transitionen</literal></term>
 
               <listitem>
 
@@ -65345,9 +65496,20 @@ available at http://www.opencontent.org/openpub/.
                 the state. Such transitions neither exit nor enter the 
                 state, so they do not cause a state change. Which means 
                 that the Entry and Exit actions are not invoked.</para>
+                <para lang="de">
+                	Textbereich. Listet alle internen Transitionen des Zustandes 
+                	auf. Solche Transitionen treten werder aus noch treten in den 
+                	Zustand ein, so dass sie keinen Statuswechsel verursachen. 
+                	Das bedeutet, dass die Eintritts- und Austritts-Aktionen 
+                	nicht aufgerufen werden.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 transition</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der markierten 
+                	Transition.
+                </para>
 
               </listitem>
 
@@ -65363,6 +65525,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Junction</phrase>
+			<phrase lang="de">Kreuzung</phrase>
 		</title>
 
         <para lang="en">Junction is a pseudostate (see 
@@ -65371,11 +65534,25 @@ available at http://www.opencontent.org/openpub/.
         with different guard conditions. A Junction is also called a 
         Merge or Static conditional branch. The chosen transition is 
         that whose guard is true at the time of the transition.</para>
+        <para lang="de">
+        	Eine Kreuzung ist ein Pseudozustand (siehe 
+        	<xref linkend="s1.ref.pseudostate"/>), der verwendet wird, um ein 
+        	ankommende Transition in mehrere abgehende Transitionssegmente mit 
+        	unterschiedlichen Wächterbedingungen aufzuteilen. Eine Kreuzung wird 
+        	auch Misch- oder Statischer Bedingungszweig genannt. Die gewählte 
+        	Transition ist die, deren Wächter am Ende der Transition true ist.
+        </para>
 
         <para lang="en">A predefined guard denoted <literal>else</literal> may be 
         defined for at most one outgoing transition. This transition is 
         enabled if all the guards labeling the other transitions are 
         false.</para>
+        <para lang="de">
+        	Ein vordefinierter Wächter bedeutet <literal>entweder</literal>, er 
+        	kann meistens für eine abgehende Transition definiert werden. Diese 
+        	Transition ist freigegeben, wenn alle Wächter die anderen 
+        	Transitionen mit false kennzeichnen.
+        </para>
 
         <para lang="en">According the UML standard, its symbol is a small black 
         circle. Alternatively, it may be represented by a diamond shape 
@@ -65383,6 +65560,14 @@ available at http://www.opencontent.org/openpub/.
         ArgoUML only represents a junction on the diagram as a solid 
         (white by default) diamond, and does not support the black 
         circle symbol for a junction.</para>
+        <para lang="de">
+        	Entsprechend dem UML-Standard ist sein Symbol ein kleiner schwarzer 
+        	Kreis. Alternativ kann er durch einen Diamanten dargestellt werden 
+        	(im Fall der &quot;Entscheidung&quot; für Aktivitätsdiagramme). 
+        	ArgoUML stellt eine Kreuzung in einem Diagramm nur als ausgefüllter 
+        	(standardmäßig weiss) Diamanten dar und unterstützt nicht das 
+        	schwarze Kreissymbol für eine Kreuzung.
+        </para>
 
       </sect1>
 
@@ -65390,6 +65575,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Choice</phrase>
+			<phrase lang="de">Entscheidung</phrase>
 		</title>
 
         <para lang="en">Choice is a pseudostate (see 
@@ -65399,22 +65585,49 @@ available at http://www.opencontent.org/openpub/.
         dynamic choice of outgoing transitions. The chosen transition 
         is that whose guard is true at the time of the transition (if 
         more than one is true, one is selected at random).</para>
+        <para lang="de">
+        	Eine Entscheidung ist ein Pseudozustand (siehe 
+        	<xref linkend="s1.ref.pseudostate"/>) der dazu verwendet wird, eine 
+        	ankommende Transition in mehrere abgehende Transitionssegmente mit 
+        	unterschiedlichen Wächterbedingungen aufzusplitten. Daher erlaubt 
+        	eine Entscheidung eine dynamische Auswahl abgehender Transitionen. 
+        	Die gewählte Transition ist die, deren Wächter während der 
+        	Lebensdauer der Transition true ist (wenn mehr als eine true ist, 
+        	wird nur eine zeitgleich ausgewählt).
+        </para>
 
         <para lang="en">A predefined guard denoted <literal>else</literal> may be 
         defined for at most one outgoing transition. This transition is 
         enabled if all the guards labeling the other transitions are 
         false.</para>
+        <para lang="de">
+        	Ein vordefinierter Wächter bedeutet <literal>andernfalls</literal>, 
+        	dass er meistens für eine abgehende Transition definiert werden kann. 
+        	Diese Transition wird freigegeben, wenn alle Wächter die anderen 
+        	Transitionen mit false kennzeichnen.
+        </para>
 
-        <note>
-
-          <para lang="en">This sort of pseudostate was formerly called a <literal>
-          Branch</literal> by ArgoUML.</para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">This sort of pseudostate was formerly called a <literal>
+	          Branch</literal> by ArgoUML.</para>
+	          <para lang="de">
+	          	Diese Sorte von Pseudozustand wurde formal in ArgoUML 
+	          	<literal>Abzweig</literal> genannt. 
+	          </para>
+	
+	        </note>
+        </para>
 
         <para lang="en">A choice is represented on the diagram as a small solid 
         (white by default) circle (reminiscent of a small state 
         icon).</para>
+        <para lang="de">
+        	Eine Entscheidung wird im Diagramm als kleiner gefüllter 
+        	(standardmäßig weiss) Kreis dargestellt (erinnert an ein kleines 
+        	Zustandssymbol).
+        </para>
 
       </sect1>
 
@@ -65422,28 +65635,51 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Fork</phrase>
+			<phrase lang="de">Gabelung</phrase>
 		</title>
 
         <para lang="en">Fork is a pseudostate (see 
         <xref linkend="s1.ref.pseudostate"/>) which splits a transition 
         into two or more concurrent transitions.</para>
+        <para lang="de">
+        	Eine Gabelung ist ein Pseudozustand (siehe 
+        	<xref linkend="s1.ref.pseudostate"/>), der eine Transition in zwei 
+        	oder mehr nebenläufige Transitionen aufsplittet.
+        </para>
 
-        <caution>
-
-          <para lang="en">The outgoing transitions should not have guards. 
-          However ArgoUML will not enforce this.</para>
-
-        </caution>
-
+		<para>
+	        <caution>
+	
+	          <para lang="en">The outgoing transitions should not have guards. 
+	          However ArgoUML will not enforce this.</para>
+	          <para lang="de">
+	          	Die abgehende Transition sollte keine Wächter haben. ArgoUML 
+	          	erzwingt dies aber nicht.
+	          </para>
+	
+	        </caution>
+		</para>
+		
         <para lang="en">A fork is represented on the diagram as a solid (black by 
         default) horizontal bar.</para>
+        <para lang="de">
+        	Eine Gabelung wird im Diagramm als ausgefüllte (standardmäßig 
+        	schwarz) horizontaler Balken dargestellt.
+        </para>
 
-        <tip>
-
-          <para lang="en">This bar can be made vertical by selecting the fork, 
-          and dragging with button&nbsp;1 one of its corners.</para>
-
-        </tip>
+		<para>
+	        <tip>
+	
+	          <para lang="en">This bar can be made vertical by selecting the fork, 
+	          and dragging with button&nbsp;1 one of its corners.</para>
+	          <para lang="de">
+	          	Dieser Balken kann vertikal ausgerichtet werden, indem Sie die 
+	          	Gabelung markieren und diese mit der Taste&nbsp;1 in eine seiner 
+	          	Ecken ziehen.
+	          </para>
+	
+	        </tip>
+        </para>
 
       </sect1>
 
@@ -65451,28 +65687,52 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Join</phrase>
+			<phrase lang="de">Vereinigung</phrase>
 		</title>
 
         <para lang="en">Join is a pseudostate (see 
         <xref linkend="s1.ref.pseudostate"/>) which joins two or more 
         concurrent transitions into a single transition.</para>
+        <para lang="de">
+        	Eine Vereinigung ist ein Pseudozustand (siehe 
+        	<xref linkend="s1.ref.pseudostate"/>), der zwei oder mehr 
+        	nebenläufige Transitionen zu einer Transition vereinigt.
+        </para>
 
-        <caution>
-
-          <para lang="en">The incoming transitions should not have guards. 
-          However ArgoUML will not enforce this.</para>
-
-        </caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">The incoming transitions should not have guards. 
+	          However ArgoUML will not enforce this.</para>
+	          <para lang="de">
+	          	Die ankommenden Transitionen sollten keine Wächter aufweisen. 
+	          	ArgoUML erzwingt dies jedoch nicht.
+	          </para>
+	
+	        </caution>
+        </para>
 
         <para lang="en">A join is represented on the diagram as a solid (black by 
         default) horizontal bar.</para>
+        <para lang="de">
+        	Eine Verzweigung wird im Diagrmm als ausgefüllte (standardmäßig 
+        	schwarz) horizonaler Balken dargestellt.
+        </para>
 
-        <tip>
-
-          <para lang="en">This bar can be made vertical by selecting the join, 
-          and dragging with button&nbsp;1 one of its corners.</para>
-
-        </tip>
+		<para>
+	        <tip>
+	
+	          <para lang="en">This bar can be made vertical by selecting the join, 
+	          and dragging with button&nbsp;1 one of its corners.</para>
+	          <para lang="de">
+	          	Dieser Balken kann vertikal ausgerichtet werden, indem Sie die 
+	          	Vereinigung markieren und diese mit der Taste&nbsp;1 in eine 
+	          	seiner Ecken ziehen.
+	          	
+	          </para>
+	
+	        </tip>
+        </para>
 
       </sect1>
 
@@ -65480,6 +65740,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Shallow History</phrase>
+			<phrase lang="de">Flache Historie</phrase>
 		</title>
 
         <para lang="en">Shallow History is a pseudostate (see 
@@ -65492,15 +65753,38 @@ available at http://www.opencontent.org/openpub/.
         before (i.e., when there is history), the substate that was 
         active when the container state was exited, becomes active 
         again.</para>
+        <para lang="de">
+        	Eine flache Historie ist ein Pseudozustand (siehe 
+        	<xref linkend="s1.ref.pseudostate"/>), der sich an den letzten 
+        	Zustand seines aktiven Containers erinnern kann. Die Historien-
+        	Pseudozustand zeigt mit einem Transitionspfeil auf seinen 
+        	Standardzustand, so wie es der Start-Pseudozustand tut. Diese 
+        	Transition zeigt auf den Unterzustand, der aktiv wird, wenn es keine 
+        	Historie gibt. Wenn der zusammengesetzte Zustand des Containers 
+        	vorher aktiv wurde (z.B., wenn es eine Historie gibt), wird der 
+        	Unterzustand, der aktiv war, wenn der Containerzustand verlassen 
+        	wurde, erneut aktiv. 
+        </para>
 
         <para lang="en">When placed within a multi-level hierarchy of composite 
         states, the shallow history only remembers the history for 
         states that have the same container as the history pseudostate. 
         It does not restore substates deeper in the hierarchy then the 
         history pseudostate itself.</para>
+        <para lang="de">
+        	Wenn in eine mehrstufige Hierarchie von zusammengesetzten Zuständen 
+        	plaziert, erinnert sich die flache Historie nur an Zustände, die den 
+        	gleichen Container haben, wie der Pseudozustand der Historie. Sie 
+        	speichert keine Unterzustände zurück, die tiefer liegen als der 
+        	Pseudozustand der Historie selbst.
+        </para>
 
         <para lang="en">A shallow history is represented on the diagram as a 
         circle containing the letter <literal>H</literal>.</para>
+        <para lang="de">
+        	Eine flache Historie wird im Diagramm als ein Kreis, der den 
+        	Buchstaben <literal>H</literal> enthält, dargestellt.
+        </para>
 
       </sect1>
 
@@ -65508,6 +65792,8 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Deep History</phrase>
+			<phrase lang="de">Tiefe Historie</phrase>
+			
 		</title>
 
         <para lang="en">Deep History is a pseudostate (see 
@@ -65520,15 +65806,38 @@ available at http://www.opencontent.org/openpub/.
         before (i.e., when there is history), the substate that was 
         active when the container state was exited, becomes active 
         again.</para>
+        <para lang="de">
+        	Eine tiefe Historie ist ein Pseudozustand (siehe 
+        	<xref linkend="s1.ref.pseudostate"/>), der sich an den letzten 
+        	Zustand seines aktiven Containers erinnern kann. Der Pseudozustand 
+        	der Historie zeigt mit einem Transitionspfeil auf seinen 
+        	Standardzustand, so wie es der Start-Pseudozustand tut. Diese 
+        	Transition zeigt auf den Unterzustand, der aktiv wird, wenn es keine 
+        	Historie gibt. Wenn der zusammengesetzte Containerzustand vorher 
+        	aktiv war (z.B., wenn es eine Historie gibt), wird der Unterzustand, 
+        	der aktiv war, wenn der Containerzustand verlassen wurde, erneut 
+        	aktiv wird.
+        </para>
 
         <para lang="en">When placed within a multi-level hierarchy of composite 
         states, the deep history remembers the history for all states 
         recursively which are contained in the history pseudostate 
         container. It does restore any substates no matter how deep in 
         the hierarchy.</para>
+        <para lang="de">
+        	Wenn in eine mehrstufige Hierarchie von zusammengesetzten Zuständen 
+        	plaziert, erinnert sich die tiefe Historie rekursiv an alle Zustände, 
+        	die in der Container-Pseudozustand-Historie enthalten sind. Sie 
+        	speichert alle Unterzustände zurück, egal wie tief sie in der 
+        	Historie waren. 
+        </para>
 
         <para lang="en">A deep history is represented on the diagram as a circle 
         containing the symbols <literal>H*</literal>.</para>
+        <para lang="de">
+        	Eine tiefe Historie wird im Diagramm als ein Kreis, der den 
+        	Buchstaben <literal>H*</literal> enthält, dargestellt.
+        </para>
 
       </sect1>
 
@@ -65536,6 +65845,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Synch State</phrase>
+			<phrase lang="de">Synchronisationszustand</phrase>
 		</title>
 
         <para lang="en">A synch state is for synchronizing concurrent regions of 
@@ -65547,30 +65857,56 @@ available at http://www.opencontent.org/openpub/.
         number of times outgoing and incoming transitions have fired. 
         In the UML metamodel <literal>Synch</literal> is a child of 
         <literal>StateVertex</literal>.</para>
+        <para lang="de">
+        	Ein Synchronisationszustand ist gedacht für die Synchronisation 
+        	nebenläufiger Regionen von Zustandsautomaten. Sie wird in Verbindung 
+        	mit Gabelungen und Vereinigungen verwendet, um sicherzustellen, dass 
+        	eine Region einen bestimmten Zustand oder Zustände ausgibt, bevor 
+        	eine andere Region in einen bestimmten Zustand oder Zustände 
+        	eintreten kann. Das feuern abgehender Transitionen aus einem 
+        	Synchronisationszustand kann durch die Angabe einer Grenze bezüglich 
+        	der Differenz zwischen der Anzahl der abgehenden und ankommenden 
+        	Transitionen begrenzt sein. Im UML-Metamodell ist <literal>Synch
+        	</literal> ein Kind von <literal>StateVertex</literal>.
+        </para>
 
         <para lang="en">A synch state is shown as a small circle with the upper 
         bound inside it. The bound is either a positive integer or a 
         star (&apos;*&apos;) for unlimited. Synch states are drawn on 
         the boundary between two regions when possible.</para>
+        <para lang="de">
+        	Ein Synchronisationszustand wird als kleiner Kreis mit der oberen 
+        	Grenze innerhalb des Kreises dargestellt. Die Grenze ist entweder 
+        	eine positive Integerzahl oder ein Stern (&apos;*&apos;) für 
+        	unbegrenzt. Snychronisationszustände werden, wenn möglich, auf der 
+        	Grenze zwischen zwei Regionen gezeichnet.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Synch State Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Synchronisationszustand</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for Synch states are 
           as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für einen Synchronisationszustand sind 
+          	die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -65579,6 +65915,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -65586,6 +65923,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.synch_state_property_toolbar"/> 
                 and <xref linkend="s2.ref.synch_state_property_fields"/>
                  below.</para>
+                <para lang="de">
+	                Siehe 
+	                <xref linkend="s2.ref.synch_state_property_toolbar"/> 
+	                und <xref linkend="s2.ref.synch_state_property_fields"/>
+	                 unten.
+                 </para>
 
               </listitem>
 
@@ -65594,10 +65937,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -65606,10 +65951,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -65618,6 +65965,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -65625,6 +65973,12 @@ available at http://www.opencontent.org/openpub/.
                 Synch state. In the UML metamodel, <literal>
                 Synch State</literal> has no standard  
                 stereotypes defined.</para>
+                <para lang="de">
+                	Standard-Register, welches die Stereotypen des 
+                	Synchronisationszustandes enthält. Im UML-Metamodell sind 
+                	für <literal>Synch State</literal> keine Standard-
+                	Stereotypen definiert.
+                </para>
 
               </listitem>
 
@@ -65633,14 +65987,20 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Synch State</literal> has no standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Synch State</literal> keine Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
-                  </listitem>
+              </listitem>
 
             </varlistentry>
 
@@ -65652,7 +66012,10 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Synch State Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">
+				Eigenschaftssymbolleiste Synchronisationszustand
+			</phrase>
+		  </title>
 
           <variablelist>
 
@@ -65663,10 +66026,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur nach oben.
+                </para>
 
               </listitem>
 
@@ -65679,17 +66050,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 synch state, navigating immediately to the properties 
                 tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für den markierten 
+                	Synchronisationszustand und springt sofort in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -65702,17 +66094,31 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete from Model</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Aus Modell entfernen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the synch state from the model</para>
+                <para lang="de">
+                	Löscht den Synchronisationszustand aus dem Modell.
+                </para>
 
-                <warning>
-
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram.</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram.</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm.
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -65726,13 +66132,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Synch State</phrase>
-		</title>
+			<phrase lang="de">
+				Eigenschaftsfelder für einen Synchronisationszustand
+			</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -65740,21 +66150,39 @@ available at http://www.opencontent.org/openpub/.
                 convention Synch state names start with a lower case 
                 letter and use bumpy caps to divide words within the 
                 name.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Synchronisationszustandes. Per 
+                	Konvention beginnen Synchronisationszustandsnamen mit einem 
+                	Kleinbuchstaben und verwendent die Groß-/Kleinschreibung, 
+                	um Wörter innerhalb des Namens unterscheiden zu können.
+                </para>
 
-                <note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-
-                </note>
-
-                <tip>
-
-                  <para lang="en">Synch state names are not shown on the diagram 
-                  and it is not usually necessary to give them a 
-                  name.</para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">Synch state names are not shown on the diagram 
+	                  and it is not usually necessary to give them a 
+	                  name.</para>
+	                  <para lang="de">
+	                  	Synchronisationszustandsnamen werden im Diagramm nicht 
+	                  	angezeigt und es ist normalerweise auch nicht notwendig 
+	                  	ihnen Namen zu geben.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -65763,16 +66191,27 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Container</literal></term>
+              <term lang="de"><literal>Container</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Shows the container of the Synch state. 
                 This is the state hierarchy.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Container des Synchronisationszustandes. 
+                	Dies ist die Zustandshierarchie.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on the entry will navigate 
                 to the composite state that contains this state (or the 
                 top-level state that is the root of the state 
                 containment hierarchy).</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf diesen Eintrag wird 
+                	zu dem zusammengesetzten Zustand navigieren, der diesen 
+                	Zustand enthält (oder den Zustand auf oberster Ebene, der 
+                	die Wurzel der Zustandshierarchie ist).
+                </para>
 
               </listitem>
 
@@ -65781,6 +66220,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Bound</literal></term>
+              <term lang="de"><literal>Grenze</literal></term>
 
               <listitem>
 
@@ -65792,6 +66232,15 @@ available at http://www.opencontent.org/openpub/.
                 difference between the number of times the incoming and 
                 outgoing transitions of the synch state are 
                 fired.</para>
+                <para lang="de">
+                	Editierbares Textfeld. Zeigt die Grenze des 
+                	Synchronisationszustandes. Dies ist eine positive Integerzahl 
+                	oder der Wert <literal>unbegrenzt</literal> (dargestellt 
+                	durch ein &quot;*&quot;), die die maximale Anzahl des 
+                	Synchronisationszustandes spezifiziert. Die Anzahl ist die 
+                	Differenz zwischen der Anzahl der ankommenden und abgehenden 
+                	Transitionen eines feuernden Synchronisationszustandes.
+                </para>
 
               </listitem>
 
@@ -65800,14 +66249,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Incoming</literal></term>
+              <term lang="de"><literal>Ankommend</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists any incoming transitions for the 
                 final state.</para>
+                <para lang="de">
+                	Textbereich. Listet alle ankommenden Transitionen des 
+                	Endzustandes auf.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 transition.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der markierten 
+                	Transition.
+                </para>
 
               </listitem>
 
@@ -65816,14 +66274,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Outgoing Transitions</literal></term>
+              <term lang="de"><literal>Abgehende Transitionen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists any outgoing transitions for the 
                 final state.</para>
+                <para lang="de">
+                	Textbereich. Listet alle abgehenden Transitionen für den 
+                	Endzustand auf.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 transition.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der markierten 
+                	Transition.
+                </para>
 
               </listitem>
 
@@ -65839,46 +66306,79 @@ available at http://www.opencontent.org/openpub/.
 
     <chapter id="ch.ref.entcollab">
 
-      <title>
+        <title>
 			<phrase lang="en">Collaboration Diagram Model Element Reference</phrase>
+			<phrase lang="de">
+				Modellelement-Referenz Kollaborationsdiagramm
+			</phrase>
 		</title>
 
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en">This chapter describes each model element that can be created 
         within a collaboration diagram. Note that some sub-model elements of 
         model elements on the diagram may not actually themselves appear on 
         the diagram.</para>
+        <para lang="de">
+        	Dieses Kapitel beschreibt jedes Modellelement, das innerhalb von 
+        	Kollaborationsdiagrammen erzeugt werden kann. Beachten Sie, dass 
+        	einige Sub-Modellelemente von Modellelementen im Diagramm nicht 
+        	selbst im Diagramm erscheinen können.
+        </para>
 
         <para lang="en">There is a close relationship between this material and 
         the properties tab of the details pane (see 
         <xref linkend="s1.ref.proptab"/>). That section covers 
         Properties in general, in this chapter they are linked to 
         specific model elements.</para>
+        <para lang="de">
+        	Es gibt eine enge Beziehung zwischen diesem Material und dem 
+        	Register Eigenschaften des Detailfensters (siehe 
+        	<xref linkend="s1.ref.proptab"/>). Dessen Abschnitt betrachtet die 
+        	Eigenschaften im Allgemeinen. In diesem Kapitel werden sie mit 
+        	spezifischen Modellelementen verküpft.
+        </para>
 
-        <caution>
-
-          <para lang="en">Collaboration diagrams are not fully developed yet in 
-          ArgoUML. Many aspects are not fully implemented, or may not 
-          behave as expected. In particular there are some serious 
-          problems with layout of the collaboration roles and 
-          messages.</para>
-
-        </caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">Collaboration diagrams are not fully developed yet in 
+	          ArgoUML. Many aspects are not fully implemented, or may not 
+	          behave as expected. In particular there are some serious 
+	          problems with layout of the collaboration roles and 
+	          messages.</para>
+	          <para lang="de">
+	          	Kollaborationsdiagramme sind aktuell nicht vollständig in ArgoUML 
+	          	implementiert. Viele Aspekte sind nicht vollständig implementiert 
+	          	oder Verhalten sich nicht so, wie erwartet. Im Einzelnen gibt es 
+	          	einige Probleme mit dem Layout der Kollaborationsrollen und 
+	          	-Meldungen.
+	          </para>
+	
+	        </caution>
+        </para>
 
         <para lang="en"><xref linkend="fig.ref.collaboration_diagram"/> shows a 
         collaboration diagram with all possible model elements 
         displayed.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.collaboration_diagram"/> zeigen ein 
+        	Kollaborationsdiagramm mit allen möglichen Modellelementen.
+        </para>
 
         <figure float="1" id="fig.ref.collaboration_diagram">
 
           <title>
 			<phrase lang="en">Possible model elements on a collaboration diagram.</phrase>
-		</title>
+			<phrase lang="de">
+				Denkbare Modellelemente in einem Kollaborationsdiagramm.
+			</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -65891,18 +66391,34 @@ available at http://www.opencontent.org/openpub/.
           <title>
 			<phrase lang="en">Limitations Concerning Collaboration Diagrams in 
           ArgoUML</phrase>
-		</title>
+			<phrase lang="de">
+				Einschränkungen die Kollaborationsdiagramme in ArgoUML betreffend
+			</phrase>
+		  </title>
 
           <para lang="en">The collaboration diagram is still rather 
           under-developed in ArgoUML. In particular there is no way to 
           show instance collaborations (based on objects and links) 
           rather than specification collaborations.</para>
+          <para lang="de">
+          	Das Kollaborationsdiagramm ist in ArgoUML aktuell eher 
+          	unterentwickelt. Im Einzelnen gibt es keinen Weg, 
+          	Instanzkollaborationen darzustellen (basierend auf Objekten und 
+          	Verknüpfungen), stattdessen die Spezifikation von Kollaborationen.
+          </para>
 
           <para lang="en">The biggest difficulties are with the messages. There 
           are problems with the sequencing of the messages and their 
           display on the diagram. The actions behind them are purely 
           textual in implementation and there is no way to link them 
           back to their associated operations or signals.</para>
+          <para lang="de">
+          	Der grössten Unterschiede gibt es bei den Nachrichten. Dort gibt es 
+          	Probleme bei der Reihenfolge der Nachrichten und deren Darstellung 
+          	im Diagramm. Die dahinter stehenden Aktionen sind rein textuell 
+          	implementiert und es gibt keinen Weg, diese zu deren verküpften 
+          	Operationen oder Signalen zurückzuverfolgen.  
+          </para>
 
         </sect2>
 
@@ -65912,6 +66428,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Classifier Role</phrase>
+			<phrase lang="de">Klassifizierer Rolle</phrase>
 		</title>
 
         <para lang="en">A classifier role is a specialization of a classifier, 
@@ -65919,6 +66436,14 @@ available at http://www.opencontent.org/openpub/.
         metamodel <literal>Classifier Role</literal> is a sub-class of 
         <literal>Classifier</literal>. Within a collaboration diagram 
         classifier roles may be used in one of two ways:</para>
+        <para lang="de">
+        	Eine Klassifzierer Rolle ist eine Spezialisierung eines 
+        	Klassifizierers, der dazu verwendet wird, sein Verhalten in einem 
+        	bestimmten Kontext darzustellen. Im UML-Metamodell ist <literal>
+        	Classifier Role</literal> eine Subklasse von <literal>Classifier
+        	</literal>. Innerhalb eines Kollaborationsdiagrammes können 
+        	Klassifizierer Rollen auf einen von zwei Wegen verwendet werden: 
+        </para>
 
         <itemizedlist>
 
@@ -65927,6 +66452,10 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en">To represent the classifier in a particular 
             behavioral context (the <emphasis>specification 
             level</emphasis>); or</para>
+            <para lang="de">
+            	Um den Klassifizierer in einem bestimmten Verhaltenskontext 
+            	darzustellen (der <emphasis>Spezifikations-Level</emphasis>; oder 
+            </para>
 
           </listitem>
 
@@ -65934,6 +66463,10 @@ available at http://www.opencontent.org/openpub/.
 
             <para lang="en">to specify a particular instance of the classifier 
             (the <emphasis>instance level</emphasis>).</para>
+            <para lang="de">
+            	um eine bestimmte Instanz des Klassifizierers zu spezifizieren 
+            	(der <emphasis>Instanz-Level</emphasis>).
+            </para>
 
           </listitem>
 
@@ -65944,50 +66477,91 @@ available at http://www.opencontent.org/openpub/.
         <xref linkend="ch.ref.entseq"/>) and a collaboration diagram 
         shows the same information as the sequence diagram, but in a 
         different presentation.</para>
+        <para lang="de">
+        	In dieser letzten Form sind Klassifizierer Rollen identisch mit 
+        	den in Sequenzdiagrammen verwendeten Instanzen (siehe 
+        	<xref linkend="ch.ref.entseq"/>) und ein Kollaborationsdiagramm 
+        	zeigt die gleichen Informationen wie das Sequenzdiagramm, aber in 
+        	einer anderen Darstellung.
+        </para>
 
-        <caution>
-
-          <para lang="en">A collaboration diagram should not mix classifier roles 
-          used as the specifier level and the instance level.</para>
-
-        </caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">A collaboration diagram should not mix classifier roles 
+	          used as the specifier level and the instance level.</para>
+	          <para lang="de">
+	          	Ein Kollaborationsdiagramm sollte die auf dem Spezifizierungs-
+	          	Level und dem Instanz-Level verwendeten Klassifizierer Rollen 
+	          	nicht vermischen.
+	          </para>
+	
+	        </caution>
+        </para>
 
         <para lang="en">A classifier role is represented on a sequence diagram in 
         ArgoUML as a plain box labeled with the classifier role name 
         (if any) and classifier, separated by a colon (:).</para>
+        <para lang="de">
+        	Eine Klassifizierer Rolle wird in einem Sequenzdiagramm von ArgoUML 
+        	als leeres Rechteck, gekennzeichnet mit dem Rollenname des 
+        	Klassifiziers (falls vorhanden) und dem durch ein Doppelpunkt (:) 
+        	getrennten Klassifizierer dargestellt. 
+        </para>
 
-        <caution>
-
-          <para lang="en">A classifier role should properly also show object name 
-          (if any) preceding the classifier role name and separated 
-          from it by a slash (<literal>/</literal>). This allows 
-          classifier roles in a specification level diagram to be 
-          distinguished from instances in an instance level 
-          diagram.</para>
-
-          <para lang="en">ArgoUML does show the slash, but there is no way to 
-          define the instances.</para>
-
-        </caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">A classifier role should properly also show object name 
+	          (if any) preceding the classifier role name and separated 
+	          from it by a slash (<literal>/</literal>). This allows 
+	          classifier roles in a specification level diagram to be 
+	          distinguished from instances in an instance level 
+	          diagram.</para>
+	          <para lang="de">
+	          	Eine Klassifizierer Rolle sollte wahrscheinlich auch den 
+	          	Objektnamen anzeigen (falls vorhanden), dem der Rollenname des 
+	          	Klassifizierers, getrennt durch einen Schrägstrich (<literal>/
+	          	</literal>) vorangestellt wird. Dies erlaubt es, das Klassifizier 
+	          	Rollen auf dem Spezifikations-Level im Diagramm von Instanzen 
+	          	auf dem Instanz-Level unterschieden werden können.
+	          </para>
+	
+	          <para lang="en">ArgoUML does show the slash, but there is no way to 
+	          define the instances.</para>
+	          <para lang="de">
+	          	ArgoUML zeigt den Schrägstrich nicht an, aber es gibt keinen 
+	          	Weg die Instanz zu definieren.
+	          </para>
+	
+	        </caution>
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Classifier Role Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Klassifizierer Rollen</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for classifier roles 
           are as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Klassifzierer Rollen sind die 
+          	folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -65996,6 +66570,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -66004,6 +66579,13 @@ available at http://www.opencontent.org/openpub/.
                  and 
                 <xref linkend="s2.ref.classifier_role_property_fields"/>
                  below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.classifier_role_property_toolbar"/>
+	                 znd 
+	                <xref linkend="s2.ref.classifier_role_property_fields"/>
+	                 unten.
+                 </para>
 
               </listitem>
 
@@ -66012,10 +66594,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -66024,10 +66608,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -66036,18 +66622,29 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab, but with no contents.</para>
+                <para lang="de">
+                	Standard-Register, aber ohne Inhalte.
+                </para>
 
-                <caution>
-
-                  <para lang="en">A classifier role should not generate any code, 
-                  so having this tab active is probably a 
-                  mistake.</para>
-
-                </caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">A classifier role should not generate any code, 
+	                  so having this tab active is probably a 
+	                  mistake.</para>
+	                  <para lang="de">
+	                  	Eine Klassifizierer Rolle sollte keine Code generieren, 
+	                  	so dass die Tatsache, dass dieses Register aktiv ist, 
+	                  	wahrscheinlich ein Fehler ist.
+	                  </para>
+	
+	                </caution>
+                </para>
 
               </listitem>
 
@@ -66056,12 +66653,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Classifier Role</literal> has the following standard 
                 tagged values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Classifier Role</literal> die folgenden Standard-
+                	Eigenschaftswerte definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -66075,6 +66678,16 @@ available at http://www.opencontent.org/openpub/.
                     classifier role is destroyed) and <literal>
                     persistent</literal> (state is preserved when the 
                     classifier role is destroyed).</para>
+                    <para lang="de">
+	                    <literal>persistence</literal> (von der Superklasse  
+	                    <literal>Classifier</literal>. Zeigt die Dauerhaftigkeit 
+	                    der Zustandsinformation, die mit der Klassifizierer 
+	                    Rolle verknüpft ist. Werte sind <literal>
+	                    transitory</literal> (der Zustand wird zerstört, wenn 
+	                    die Klassifzierer Rolle zerstört wird) und <literal>
+	                    persistent</literal> (der Zustand bleibt erhalten, wenn 
+	                    die Klassifizierer Rolle zerstört wird).
+                    </para>
 
                   </listitem>
 
@@ -66084,6 +66697,11 @@ available at http://www.opencontent.org/openpub/.
                     superclass, <literal>Classifier</literal>). The 
                     value is a specification of the semantics of the 
                     classifier role.</para>
+                    <para lang="de">
+                    	<literal>semantics</literal> (von der Superklasse 
+                    	<literal>Classifier</literal>). Der Wert ist eine 
+                    	Spezifikation der Semantik der Klassifizierer Rolle.
+                    </para>
 
                   </listitem>
 
@@ -66095,29 +66713,54 @@ available at http://www.opencontent.org/openpub/.
                     classifier role is redundant&mdash;it can be formally 
                     derived from other elements, or <literal>
                     false</literal> meaning it cannot.</para>
+                    <para lang="de">
+                    	<literal>derived</literal> (von der Superklasse 
+                    	<literal>ModelElement</literal>). Der Wert <literal>true
+                    	</literal> bedeutet, dass die Klassifizierer Rolle 
+                    	redundant ist&mdash; sie kann formal von anderen 
+                    	Elementen abgeleitet werden, oder <literal>false
+                    	</literal>, wenn sie es nicht kann.
+                    </para>
 
-                    <note>
-
-                      <para lang="en">Derived classifier roles still have their 
-                      value in analysis and design to introduce useful 
-                      names or concepts, and in design to avoid 
-                      re-computation.</para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived classifier roles still have their 
+	                      value in analysis and design to introduce useful 
+	                      names or concepts, and in design to avoid 
+	                      re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Klassifizierer Rollen haben ihren 
+	                      	Wert in Analyse und Design, um nützliche Namen oder 
+	                      	Konzepte einzuführen. Und im Design, um eine 
+	                      	Wiederverarbeitung zu verhindern.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der 
+	                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
+	                  	den Eigenschaftswert <literal>documentation</literal>, 
+	                  	der in ArgoUML im Register <literal>Dokumentation
+	                  	</literal> bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -66131,7 +66774,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Classifier Role Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Klassifierer Rolle</phrase>
+		  </title>
 
           <variablelist>
 
@@ -66142,10 +66786,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">
+                	Navigiert durch die Paketstruktur nach oben.
+                </para>
 
               </listitem>
 
@@ -66158,12 +66810,21 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/reception.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New reception</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/reception.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neues Empfangssignal</literal></term>
 
               <listitem>
 
                 <para lang="en">This creates a new reception, navigating 
                 immediately to the properties tab for that 
                 reception.</para>
+                <para lang="de">
+                	Erzeugt ein neues Empfangssignal und springt sofort in 
+                	das Register Eigenschaften dieses Empfangssignales.
+                </para>
 
               </listitem>
 
@@ -66176,17 +66837,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 classifier role, navigating immediately to the 
                 properties tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Klassifizierer Rolle und springt sofort in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -66199,22 +66881,39 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the classifier role from the 
                 model</para>
-
-                <warning>
-
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. To delete 
-                  an classifier role from the diagram, but keep it 
-                  within the model, use the main menu <literal>Remove 
-                  From Diagram</literal> (or press the Delete 
-                  key).</para>
-
-                </warning>
+                <para lang="de">
+                	Löscht die Klassifizierer Rolle aus dem Modell.
+                </para>
+				
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram. To delete 
+	                  an classifier role from the diagram, but keep it 
+	                  within the model, use the main menu <literal>Remove 
+	                  From Diagram</literal> (or press the Delete 
+	                  key).</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm. Um eine Klassifizierer 
+	                  	Rolle aus dem Diagramm zu löschen, aber im Modell zu 
+	                  	erhalten, verwenden Sie <literal>Aus Diagramm entfernen
+	                  	</literal> im Hauptmenü (oder drücken Sie die Taste Entf).
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -66228,13 +66927,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Classifier Role</phrase>
-		</title>
+			<phrase lang="de">
+				Eigenschaftsfelder für eine Klassifizierer Rolle
+			</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -66242,13 +66945,24 @@ available at http://www.opencontent.org/openpub/.
                 convention classifier role names start with a lower 
                 case letter and use bumpy caps to divide words within 
                 the name.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Klassifizierer Rolle. Per Konvention 
+                	beginnen Klassifizierer Rollennamen mit einem Kleinbuchstaben 
+                	und verwenden die Groß-/Kleinschreibung, um Wörter innerhalb 
+                	des Namens zu unterscheiden.
+                </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -66257,6 +66971,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -66266,6 +66981,14 @@ available at http://www.opencontent.org/openpub/.
                 powertype</literal>, <literal>process</literal>, 
                 <literal>thread</literal> and <literal>
                 utility</literal>).</para>
+                <para lang="de">
+                	Kombinationsfeld. Die Klassifizierer Rolle bietet 
+                	standardmäßig die UML-Standard-Stereotypen für einen 
+                	Klassifizierer an (<literal>metaclass</literal>, <literal>
+                	powertype</literal>, <literal>process</literal>, 
+                	<literal>thread</literal> und <literal>
+                	utility</literal>).
+                </para>
 
               </listitem>
 
@@ -66274,6 +66997,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -66284,6 +67008,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, navigiert es 
+	                zum Eigenschaftsfenster des Stereotypen (siehe 
+	                <xref linkend="s1.ref.stereotype"/>).
+                </para>
 
               </listitem>
 
@@ -66292,15 +67025,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Records the namespace for the 
                 classifier role, which is always the containing 
                 Collaboration.</para>
+                <para lang="de">
+                	Textfeld. Gibt den Namensraum für die Klassifizierer Rolle 
+                	wieder, welche immer der aufnehmenden Kollaboration 
+                	entspricht.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on the entry will navigate 
                 to the collaboration.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf den Eintrag navigiert 
+                	zu der Kollaboration.
+                </para>
 
               </listitem>
 
@@ -66309,6 +67052,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Multiplicity</literal></term>
+              <term lang="de"><literal>Kardinalität</literal></term>
 
               <listitem>
 
@@ -66319,10 +67063,24 @@ available at http://www.opencontent.org/openpub/.
                 different multiplicities. E.g. <literal>1..1</literal> 
                 would mean that only one instance plays a role in this 
                 collaboration.</para>
+                <para lang="de">
+                	Editierbares Kombinationsfeld. Der Standardwert ist 
+                	<literal>*</literal>, was bedeutet, dass es beliebig viele 
+                	Instanzen dieser Klassifizierer Rolle gibt, die in der 
+                	Kollaboration eine Rolle spielen. Das Kombinationsfeld 
+                	bietet einige andere Kardinalitäten an. Z.B. <literal>1..1
+                	</literal> würde bedeuten, dass nur eine Instanz in der 
+                	Kollaboration eine Rolle spielen würde. 
+                </para>
 
                 <para lang="en">ArgoUML does not restrict you to the predefined 
                 ranges for multiplicity. You can edit this field 
                 freely.</para>
+                <para lang="de">
+                	ArgoUML schränkt Sie hinsichtlich der vordefinierten 
+                	Kardinalitäten nicht ein. Sie können diese Feld frei 
+                	editieren.
+                </para>
 
               </listitem>
 
@@ -66331,6 +67089,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Base</literal></term>
+              <term lang="de"><literal>Basis</literal></term>
 
               <listitem>
 
@@ -66338,6 +67097,12 @@ available at http://www.opencontent.org/openpub/.
                 is a classifierrole. Button&nbsp;1 double click navigates to 
                 the classifier. Button&nbsp;2 click gives a pop up menu with 
                 the following entries.</para>
+                <para lang="de">
+                	Liste. Die Namen der Klassifizierer dieser Klassifizierer
+                	Rolle. Ein Taste&nbsp;1-Doppelklick navigiert zu dem 
+                	Klassfizierer. Taste&nbsp;2 öffnet ein Popup-Menü mit den 
+                	folgenden Einträgen.
+                </para>
 
                 <itemizedlist>
 
@@ -66347,13 +67112,23 @@ available at http://www.opencontent.org/openpub/.
                     removeing classifiers to the list. To this end, a 
                     dialog box pops up, as shown in the figure 
                     below.</para>
+                    <para lang="de">
+                    	<literal>Hinzufügen</literal>. Erlaubt das Hinzufügen 
+                    	oder Entfernen von Klassifizierern in der Liste. An 
+                    	seinem Ende öffnet sich ein Dialogfenster, wie im Bild 
+                    	unten gezeigt.
+                    </para>
 
                     <figure float="1" id="fig.ref.signal_add_classifierrole_base">
 
                       <title>
-			<phrase lang="en">The <quote>add context</quote> dialog 
-                      box</phrase>
-		</title>
+						<phrase lang="en">
+							The <quote>add context</quote> dialog box
+						</phrase>
+						<phrase lang="de">
+							Das Dialogfenster <quote>Kontext hinzufügen</quote>
+						</phrase>
+					  </title>
 
                       <screenshot><mediaobject><imageobject>
                       <imagedata align="center"
@@ -66368,6 +67143,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>Remove</literal>. Allows removeing 
                     classifiers to the list, without making use of the 
                     dialog box.</para>
+                    <para lang="de">
+                    	<literal>Entfernen</literal>. Erlaubt das Entfernen 
+                    	von Klassifzierern aus der Liste, ohne das Dialogfenster 
+                    	zu benutzen.
+                    </para>
 
                   </listitem>
 
@@ -66380,15 +67160,24 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Generalizations</literal></term>
+              <term lang="de"><literal>Generalisierungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists any classifierrole that 
                 <emphasis>generalizes</emphasis> this 
                 classifierrole.</para>
+                <para lang="de">
+                	Textbereich. Listet jede Klassifizierer Rolle auf, die 
+                	diese Klassifzierer Rolle <emphasis>generalisiert</emphasis>.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the 
                 generalization and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der 
+                	Generalisierung und öffnet dessen Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -66397,15 +67186,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Specializations</literal></term>
+              <term lang="de"><literal>Spezialisierungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any specialized classifierrole 
                 (i.e. for which this classifierrole is a 
                 generalization).</para>
+                <para lang="de">
+                	Textfeld. Listet jede spezialisierte Klassfizierer Rolle 
+                	(z.B. für die diese Klassifizierer Rolle eine Generalisierung 
+                	ist) auf.
+                </para>
 
                 <para lang="en">button&nbsp;1 double click navigates to the 
                 generalization and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der Spezialisierung 
+                	und öffnet dessen Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -66414,14 +67213,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Association End Role</literal></term>
+              <term lang="de"><literal>Rolle (Assoziationsende)</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists the association-end roles that 
                 are linked to this classifier role.</para>
+                <para lang="de">
+                	Textbereich. Listet die Rollen (Assoziationsenden) auf, die 
+                	mit dieser Klassifizierer Rolle verbunden sind.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -66430,15 +67238,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Available Contents</literal></term>
+              <term lang="de"><literal>Verfügbare Inhalte</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists the subset of modelelements 
                 contained in the base classifier which is used in the 
                 collaboration.</para>
+                <para lang="de">
+                	Textbereich. Listet das Subset von Modellelementen auf, die 
+                	im Basis-Klassifizierer enthalten ist, der in der 
+                	Kollaboration verwendet wird.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the 
                 modelelement and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem Modellelement 
+                	und öffnet dessen Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -66447,15 +67265,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Available Features</literal></term>
+              <term lang="de"><literal>Verfügbare Eigenschaften</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists the subset of features of the 
                 base classifier which is used in the 
                 collaboration.</para>
+                <para lang="de">
+                	Textfeld. Listet das Subsetz an Eigenschaften des 
+                	Basis-Klassifizierers auf, der in der Kollaboration 
+                	verwendet wird.
+                </para>
 
                 <para lang="en">button&nbsp;1 double click navigates to the feature 
                 and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der Eigenschaft 
+                	und öffnet dessen Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -66471,6 +67299,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Association Role</phrase>
+			<phrase lang="de">Assoziationsrolle</phrase>
 		</title>
 
         <para lang="en">An association role is a specialization of an 
