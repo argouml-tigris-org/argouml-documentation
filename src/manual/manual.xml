@@ -69012,13 +69012,29 @@ available at http://www.opencontent.org/openpub/.
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeue neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 message, navigating immediately to the properties tab 
                 for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Nachricht und springt sofort in das Register Eigenschaften 
+                	dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -69031,20 +69047,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the message from the model</para>
+                <para lang="de">
+                	Löscht die Nachricht aus dem Modell.
+                </para>
 
-                <warning>
-
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. To delete 
-                  an message from the diagram, but keep it within the 
-                  model, use the main menu <literal>Remove From 
-                  Diagram</literal> (or press the Delete key).</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram. To delete 
+	                  an message from the diagram, but keep it within the 
+	                  model, use the main menu <literal>Remove From 
+	                  Diagram</literal> (or press the Delete key).</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm. Um eine Nachricht 
+	                  	aus dem Diagramm zu löschen, sie aber im Modell zu 
+	                  	erhalten, verwenden Sie <literal>Aus Diagramm entfernen
+	                  	</literal> im Hauptmenü (oder drücken Sie die Taste 
+	                  	Entf).
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -69058,13 +69092,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Message</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für eine Nachricht</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -69073,6 +69109,13 @@ available at http://www.opencontent.org/openpub/.
                 (allowing alternative message hierarchies to be clearly 
                 described). ArgoUML will supply an integer sequence 
                 number by default.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Nachricht ist gewöhnlich eine 
+                	Sequenznummer, entweder eine Integerzahl oder eine 
+                	Dezimalzahl (erlaubt es, alternative Nachrichtenhierarchien 
+                	klar zu beschreiben). ArgoUML wird standardmäßig eine 
+                	Interzahl als Sequenznummer unterstützen.
+                </para>
 
               </listitem>
 
@@ -69081,11 +69124,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Message has no stereotypes by 
                 default in the UML standard.</para>
+                <para lang="de">
+                	Kombinationsfeld. Nachrichten haben standardmäßig keine 
+                	Stereotypen gemäß UML-Standard.
+                </para>
 
               </listitem>
 
@@ -69094,6 +69142,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -69104,6 +69153,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, navigiert es in 
+	                das Eigenschaftsfenster des Stereotyps (siehe 
+	                <xref linkend="s1.ref.stereotype"/>).
+                </para>
 
               </listitem>
 
@@ -69112,14 +69170,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Interaction</literal></term>
+              <term lang="de"><literal>Interaktion</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Records the Interaction of which the 
                 message is a part.</para>
+                <para lang="de">
+                	Textfeld. Nimmt die Interaktion auf, von der die Nachricht 
+                	ein Teil ist.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on the entry will navigate 
                 to the interaction.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf den Eintrag navigiert zu 
+                	der Interaktion.
+                </para>
 
               </listitem>
 
@@ -69128,14 +69195,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Sender</literal></term>
+              <term lang="de"><literal>Sender</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Identifies the classifier role which 
                 sent this message.</para>
+                <para lang="de">
+                	Textfeld. Identifiziert die Klassifiziererrolle, die diese 
+                	Nachricht sendet.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the sender 
                 classifier role.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem Sender 
+                	Klassifiziererrolle.
+                </para>
 
               </listitem>
 
@@ -69144,14 +69220,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Receiver</literal></term>
+              <term lang="de"><literal>Empfänger</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Identifies the classifier role which 
                 receives this message.</para>
+                <para lang="de">
+                	Textfeld. Indentifiziert die Klassifiziererrolle, die diese 
+                	Nachricht empfängt.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the receiver 
                 classifier role.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem Empfänger 
+                	Klassifiziererrolle.
+                </para>
 
               </listitem>
 
@@ -69160,15 +69245,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Activator</literal></term>
+              <term lang="de"><literal>Auslöser</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Identifies the message which 
                 invokes the behavior that causes the sending of this 
                 message.</para>
+                <para lang="de">
+                	Kombinationsfeld. Indentifiziert die Nachricht, die das 
+                	Verhalten aufruft, die das Senden dieser Nachricht verursacht.
+                </para>
 
                 <para lang="en">Button&nbsp;1 click allows selecting the 
                 message.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Klick erlaubt das Auswählen der Nachricht.
+                </para>
 
               </listitem>
 
@@ -69177,16 +69270,27 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Action</literal></term>
+              <term lang="de"><literal>Aktion</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists the action (see 
                 <xref linkend="s1.ref.action_state"/>) this message 
                 invokes to raise a stimulus.</para>
+                <para lang="de">
+                	Textfeld. Listet die Aktion (siehe 
+                	<xref linkend="s1.ref.action_state"/>) auf, die diese 
+                	Nachricht aufruft, um einen Impuls auszulösen.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 action, button&nbsp;2 gives a pop up menu with the following 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der markierten 
+                	Aktion, Taste&nbsp;2 öffnet ein Popup-Menü mit den 
+                	folgenden Einträgen.
+                </para>
 
                 <itemizedlist>
 
@@ -69194,9 +69298,16 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>New</literal>. Add a new 
                     action.</para>
+                    <para lang="de">
+                    	<literal>Neu</literal>. Für eine neue Aktion hinzu.
+                    </para>
 
                     <para lang="en">This item is downlighted if an action already 
                     exists.</para>
+                    <para lang="de">
+                    	Dieses Element ist deaktiviert, wenn eine Aktion bereits 
+                    	existiert.
+                    </para>
 
                   </listitem>
 
@@ -69209,16 +69320,26 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Predecessors</literal></term>
+              <term lang="de"><literal>Vorgänger</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Identifies the messages, the 
                 completion of whose execution enables this 
                 message.</para>
+                <para lang="de">
+                	Textbereich. Indentifiziert die Nachricht, deren 
+                	Ausführungsabschluss diese Nachricht ermöglicht.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 message, button&nbsp;2 gives a pop up menu with one 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der markierten 
+                	Nachricht, Taste&nbsp;2 öffnet ein Popup-Menü mit einem 
+                	Eintrag.
+                </para>
 
                 <itemizedlist>
 
@@ -69227,16 +69348,28 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>Add</literal>. Opens a dialog box 
                     that allows to select any number of messages. See 
                     figure below.</para>
+                    <para lang="de">
+                    	<literal>Hinzufügen</literal>. Öffnet ein Dialogfenster, 
+                    	das es erlaubt, Nachrichten auszuwählen. Sie Bild unten.
+                    </para>
 
                     <para lang="en">This entry is grayed out when no messages 
                     exist.</para>
+                    <para lang="de">
+                    	Dieser Eintrag ist deaktiviert, wenn keine Nachricht 
+                    	existiert.
+                    </para>
 
                     <figure float="1" id="fig.ref.message_add_predecessors">
 
-                      <title>
-			<phrase lang="en">The <quote>add predecessors</quote> dialog 
-                      box</phrase>
-		</title>
+                    <title>
+						<phrase lang="en">
+							The <quote>add predecessors</quote> dialog box
+						</phrase>
+						<phrase lang="de">
+							Das Dialogfenster <quote>Vorgänger hinzufügen</quote>
+						</phrase>
+					</title>
 
                       <screenshot><mediaobject><imageobject>
                       <imagedata align="center"
@@ -69263,33 +69396,55 @@ available at http://www.opencontent.org/openpub/.
     <chapter id="ch.ref.entactiv">
 
       <title>
-			<phrase lang="en">Activity Diagram Model Element Reference</phrase>
-		</title>
+		<phrase lang="en">Activity Diagram Model Element Reference</phrase>
+		<phrase lang="de">Modellelement-Referenz Aktivitätsdiagramm</phrase>
+	  </title>
 
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en">This chapter describes each model element that can be created 
         within an Activity diagram. Note that some sub-model elements of 
         model elements may not actually themselves appear on the 
         diagram.</para>
+        <para lang="de">
+        	Dieses Kapitel beschreibt jedes Modellelement, das innerhalb eines 
+        	Aktivitätsdiagrammes erzeugt werden kann. Beachten Sie, dass einige 
+        	Submodellelemente von Modellelementen aktuell nicht selbst im 
+        	Diagramm erscheinen.
+        </para>
 
         <para lang="en">There is a close relationship between this material and 
         the Properties Tab of the Details Pane (see 
         <xref linkend="s1.ref.proptab"/>). That section covers 
         Properties in general, in this chapter they are linked to 
         specific model elements.</para>
+        <para lang="de">
+        	Es gibt eine enge Beziehung zwischen diesem Material und dem 
+        	Register Eigenschaften des Detailfensters (siehe 
+        	<xref linkend="s1.ref.proptab"/>). Dieser Abschnitt behandelt die 
+        	Eigenschaften im Allgemeinen, während sie in diesem Kapitel mit 
+        	spezifischen Modellelementen verknüpft sind. 
+        </para>
 
         <para lang="en"><xref linkend="fig.ref.activity_diagram"/> shows an 
         Activity Diagram with all possible model elements displayed.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.activity_diagram"/>  zeigt ein 
+        	Aktivitätsdiagramm mit allen denkbaren Modellelementen.
+        </para>
 
         <figure float="1" id="fig.ref.activity_diagram">
 
-          <title>
+        <title>
 			<phrase lang="en">Possible model elements on an activity diagram.</phrase>
+			<phrase lang="de">
+				Denkbare Modellelemente in einem Aktivitätsdiagramm.
+			</phrase>
 		</title>
 
           <screenshot><mediaobject><imageobject>
@@ -69301,9 +69456,13 @@ available at http://www.opencontent.org/openpub/.
         <sect2>
 
           <title>
-			<phrase lang="en">Limitations Concerning Activity Diagrams in 
-          ArgoUML</phrase>
-		</title>
+			<phrase lang="en">
+				Limitations Concerning Activity Diagrams in ArgoUML
+			</phrase>
+			<phrase lang="de">
+				Einschränkungen, die Aktivitätsdiagramme in ArgoUML betreffend
+			</phrase>
+		  </title>
 
           <para lang="en">Activity diagrams are not fully developed yet in 
           ArgoUML. Some aspects are not fully implemented, or may not 
@@ -69311,6 +69470,15 @@ available at http://www.opencontent.org/openpub/.
           swim lanes, control icons (signals), sub-activities, synch 
           states. Interactions with other classifiers are provided by 
           an object-flow-state which is only partly implemented.</para>
+          <para lang="de">
+          	Aktivitätsdiagramme sind in ArgoUML noch nicht vollständig 
+          	entwickelt. Einige Aspekte sind noch nicht vollständig implementiert, 
+          	oder verhalten sich nicht wie erwartet. Insbesondere fehlen 
+          	Aufrufzustände, Wellenlinien (swim lanes), Steuersymbole (Signale), 
+          	Subaktivitäten, Synchronisationszustände. Interaktionen mit anderen 
+          	Klassifizierern werden über einen Objekt-Fluss-Zustand angeboten, 
+          	der nur teilweise implementiert ist.
+          </para>
 
         </sect2>
 
@@ -69320,6 +69488,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Action State</phrase>
+			<phrase lang="de">Aktionszustand</phrase>
 		</title>
 
         <para lang="en">An action state represents execution of an atomic action, 
@@ -69328,64 +69497,115 @@ available at http://www.opencontent.org/openpub/.
         SimpleState</literal>. It is a specialized simple state that 
         only has an entry action, and with an implicit trigger as soon 
         as that action is completed.</para>
+        <para lang="de">
+        	Ein Aktionszustand stellt die Ausführung einer atomaren Aktion dar, 
+        	in der Regel der Aufruf einer Aktion. Innerhalb des UML-Metamodelles 
+        	ist <literal>ActionState</literal> eine Subklasse von <literal>
+        	SimpleState</literal>. Es ist ein spezialisierter einfacher Zustand, 
+        	der nur eine Eintrittsaktion hat und mit einem impliziten Trigger, 
+        	sobald die Aktion abgeschlossen ist.
+        </para>
 
-        <caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">As a consequence any outgoing transitions from an 
+	          action state should not have explicit triggers defined 
+	          (ArgoUML will not currently check for this). They may have 
+	          guards to provide a choice where there is more than one 
+	          transition.</para>
+	          <para lang="de">
+	          	Als Konsequenz sollten für alle von einem Aktionszustand 
+	          	abgehenden Transitionen keine expliziten Trigger definiert sein 
+	          	(ArgoUML überprüft dies aktuell nicht). Sie dürfen Wächter 
+	          	haben, um eine Auswahl anzubieten, wenn es mehr als eine 
+	          	Transition gibt. 
+	          </para>
+	
+	        </caution>
+        </para>
 
-          <para lang="en">As a consequence any outgoing transitions from an 
-          action state should not have explicit triggers defined 
-          (ArgoUML will not currently check for this). They may have 
-          guards to provide a choice where there is more than one 
-          transition.</para>
-
-        </caution>
-
-        <note>
-
-          <para lang="en">Unlike an ordinary state, an internal transition, an 
-          exit action and a Do activity are not permitted for action 
-          states.</para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">Unlike an ordinary state, an internal transition, an 
+	          exit action and a Do activity are not permitted for action 
+	          states.</para>
+	          <para lang="de">
+	          	Wie bei einem gewöhnlichen Zustand, einer internen Transition, 
+	          	sind bei Aktionszuständen eine Austrittaktion und eine 
+	          	Ausführenaktion nicht erlaubt. 
+	          </para>
+	
+	        </note>
+        </para>
 
         <para lang="en">An action state is represented on an activity diagram in 
         ArgoUML as a rectangle with rounded corners containing the name 
         of the action state.</para>
+        <para lang="de">
+        	Ein Aktionszustand wird in einem Aktivitätsdiagramm von ArgoUML als 
+        	Rechteck mit abgerundeten Ecken dargestellt, welches den Namen des 
+        	Aktionszustandes enthält.
+        </para>
 
-        <caution>
-
-          <para lang="en">The UML standard specifies that the text shown in the 
-          action state on the activity diagram should contain the 
-          expression associated with the entry action - which is 
-          implemented as such since ArgoUML V0.18. In past versions of 
-          ArgoUML (0.16.1 and before), the diagram used to show the 
-          action state name. Loading a project created by one of the 
-          older versions, causes the project file to be converted to 
-          the correct format to conform to the UML standard. This process is 
-          designed to be transparent for the user, and the only 
-          drawback is, that the activity diagram in the project will 
-          not show correctly when reloaded in an old version of ArgoUML 
-          again.</para>
-
-        </caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">The UML standard specifies that the text shown in the 
+	          action state on the activity diagram should contain the 
+	          expression associated with the entry action - which is 
+	          implemented as such since ArgoUML V0.18. In past versions of 
+	          ArgoUML (0.16.1 and before), the diagram used to show the 
+	          action state name. Loading a project created by one of the 
+	          older versions, causes the project file to be converted to 
+	          the correct format to conform to the UML standard. This process is 
+	          designed to be transparent for the user, and the only 
+	          drawback is, that the activity diagram in the project will 
+	          not show correctly when reloaded in an old version of ArgoUML 
+	          again.</para>
+	          <para lang="de">
+	          	Der UML-Standard spezifiziert, dass der im Aktionszustand 
+	          	angezeigte Text in einem Aktivitätsdiagramm den mit der 
+	          	Eintrittsaktion verknüpften Ausdruck enthalten sollte - was 
+	          	als solches seit ArgoUML V0.18 implementiert ist. In den 
+	          	letzten Versionen von ArgoUML (0.16.1 und vorher), zeigte das 
+	          	verwendete Diagramm den Namen des Aktionszustandes. Das Laden 
+	          	eines, mit einer ältern Version erzeugten Projektes, konvertierte 
+	          	dieses in das richtige Format, um mit dem UML-Standard konform 
+	          	zu sein. Dieser Prozess ist für den Anwender transparent 
+	          	entworfen worden, und die einzige Auswirkung ist, dass das 
+	          	Aktivitätsdiagramm im Projekt nicht richtig angezeigt wird, wenn 
+	          	es wieder in einer älteren Version von ArgoUML geladen wird.
+	          </para>
+	
+	        </caution>
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Action State Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Aktionszustand</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for action states are 
           as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Aktionszustände sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -69394,6 +69614,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -69402,6 +69623,13 @@ available at http://www.opencontent.org/openpub/.
                 and 
                 <xref linkend="s2.ref.action_state_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.action_state_property_toolbar"/> 
+	                und 
+	                <xref linkend="s2.ref.action_state_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -69410,10 +69638,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -69422,12 +69652,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. The values for the bounds of the 
                 action state define the bounding box of the action 
                 state.</para>
+                <para lang="de">
+                	Standard-Register. Die Werte für die Begrenzu des 
+                	Aktionszustandes definieren den umgebenden Rahmen des 
+                	Aktionszustandes.
+                </para>
 
               </listitem>
 
@@ -69436,6 +69672,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -69445,6 +69682,11 @@ available at http://www.opencontent.org/openpub/.
                 there are no stereotypes defined 
                 by default for a action state.
                 </para>
+                <para lang="de">
+                	Standard-Register, das die Stereotypen eines Aktionszustandes 
+                	anzeigt. Im UML-Metamodell sind standardmäßig keine 
+                	Stereotypen für Aktionszustände definiert.
+                </para>
 
               </listitem>
 
@@ -69453,12 +69695,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 ActionState</literal> has no standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	ActionState</literal> keine Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
                   </listitem>
 
@@ -69472,7 +69720,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Action State Property ToolBar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Aktionszustand</phrase>
+		  </title>
 
           <variablelist>
 
@@ -69483,12 +69732,21 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the containment structure.
                 Action states are contained by the 
                 (otherwise invisible) top state.
+                </para>
+                <para lang="de">
+                	Navigiert durch die Umgebungsstruktur. Aktionszustände sind 
+                	im obersten Zustand enthalten (ansonsten unsichtbar).
                 </para>
 
               </listitem>
@@ -69502,17 +69760,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 action state, navigating immediately to the properties 
                 tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für den markierten 
+                	Aktionszustand und springt sofort in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -69525,25 +69804,45 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete from Model</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Aus Modell entfernen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the action state from the 
                 model</para>
+                <para lang="de">
+                	Löscht den Aktionszustand aus dem Modell.
+                </para>
 
-                <warning>
-
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. It is not 
-                  possible to delete an action state from the diagram, 
-                  since that concept does not fit the UML 
-                  standard.</para>
-
-                  <para lang="en">Hence ArgoUML does also not show the <literal>
-                  Add to Diagram</literal> pop-up menu for action 
-                  states.</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram. It is not 
+	                  possible to delete an action state from the diagram, 
+	                  since that concept does not fit the UML 
+	                  standard.</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm. Es ist nicht möglich, 
+	                  	einen Aktionszustand aus dem Diagramm zu löschen, weil 
+	                  	dieses Konzept nicht in den UML-Standard passt.
+	                  </para>
+	
+	                  <para lang="en">Hence ArgoUML does also not show the <literal>
+	                  Add to Diagram</literal> pop-up menu for action 
+	                  states.</para>
+	                  <para lang="de">
+	                  	Aus diesem Grund zeigt ArgoUML für Aktionszustände nicht 
+	                  	das Popup-Menü <literal>Aus Diagramm entfernen</literal>.
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -69557,13 +69856,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property fields for action state</phrase>
-		</title>
+			<phrase lang="de">
+				Eigenschaftsfelder für einen Aktionszustand
+			</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -69571,11 +69874,20 @@ available at http://www.opencontent.org/openpub/.
                 convention action state names start with a lower case 
                 letter and use bumpy caps to divide words within the 
                 name.</para>
+                <para lang="de">
+                	Textfeld. Der Name eines Aktionszustandes. Per Konvention 
+                	beginnt der Name eines Aktionszustandes mit einem 
+                	Kleinbuchstaben und verwendet Groß-/Kleinschreibung, um 
+                	Wörter innerhalb des Namens zu unterscheiden.
+                </para>
 
                 <note>
 
                   <para lang="en">ArgoUML does not enforce this naming 
                   convention.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt diese Namenskonvention nicht.
+                  </para>
 
                 </note>
 
@@ -69586,12 +69898,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Container</literal></term>
+              <term lang="de"><literal>Container</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. The container of the action state.
                 This shows the otherwise invisible composite state
                 at the top of the containment hierarchy.
+                </para>
+                <para lang="de">
+                	Textfeld. Der Container des Aktionszustandes. Dies zeigt 
+                	den sonst unsichtbaren zusammengesetzten Zustand ganz oben 
+                	in der Umgebungshierarchie.
                 </para>
 
               </listitem>
@@ -69601,6 +69919,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Entry-Action</literal></term>
+              <term lang="de"><literal>Eintrittsaktion</literal></term>
 
               <listitem>
 
@@ -69608,10 +69927,21 @@ available at http://www.opencontent.org/openpub/.
                 invoked on entry to this action state. According the 
                 UML standard, an Action State is obliged to have an 
                 Entry-Action.</para>
+                <para lang="de">
+                	Textfeld. Zeigt den Namen der Aktion, die beim Eintritt in 
+                	diese Aktion aufgerufen wird. Entsprechend dem UML-Standard 
+                	ist ein Aktionszustand verpflichtet, eine Eintrittsaktion zu 
+                	haben.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the shown 
                 entry, button&nbsp;2 gives a pop up menu with two 
                 entries.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem gezeigten 
+                	Eintrag, Taste&nbsp;2 öffnet ein Popup-Menü mit zwei 
+                	Einträgen.
+                </para>
 
                 <itemizedlist>
 
@@ -69623,6 +69953,14 @@ available at http://www.opencontent.org/openpub/.
                     Call Action, Create Action, Destroy Action, Return 
                     Action, Send Action, Terminate Action, 
                     Uninterpreted Action.</para>
+                    <para lang="de">
+                    	<literal>Neu</literal>. Fügt eine neue Eintrittsaktion 
+                    	eines bestimmten Typs hinzu. Dieses Menü hat die 
+                    	folgenden 7 Untermenüs, um den Aktionstyp auszuwählen: 
+                    	Aufrufaktion, Erzeugen-Aktion, Zerstören-Aktion, Rückgabe-
+                    	Aktion, Sende-Aktion, Beenden-Aktion, Uninterpretierte 
+                    	Aktion.
+                    </para>
 
                   </listitem>
 
@@ -69630,6 +69968,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Delete From Model</literal>. Delete 
                     the Entry-Action.</para>
+                    <para lang="de">
+                    	<literal>Aus Modell entfernen</literal>. Löscht die 
+                    	Eintrittsaktion.
+                    </para>
 
                   </listitem>
 
@@ -69641,11 +69983,15 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Deferrable events</literal></term>
+              <term lang="de"><literal>Verzögerte Ereignisse</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. The deferrable events of the action state. 
                 <!-- This seems to be a bug. Should this be here? -->
+                </para>
+                <para lang="de">
+                	Textfeld. Die verzögerten Ereignisse des Aktionszustandes.
                 </para>
 
               </listitem>
@@ -69655,14 +70001,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Incoming</literal></term>
+              <term lang="de"><literal>Ankommend</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists the transitions that enter this 
                 action state.</para>
+                <para lang="de">
+                	Textbereich. Listet die Transitionen auf, die in diesen 
+                	Aktionszustand eintreten.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -69671,14 +70026,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Outgoing</literal></term>
+              <term lang="de"><literal>Abgehend</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists the transitions that leave this 
                 action state.</para>
+                <para lang="de">
+                	Textbereich. Listet die Transitionen auf die diesen 
+                	Aktionszustand verlassen (austreten).
+                </para>
 
                 <para lang="en">Button&nbsp;1 double-click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -69694,10 +70058,15 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Action</phrase>
+			<phrase lang="de">Aktion</phrase>
 		</title>
 
         <para lang="en">This model element is described in the context of statechart 
         diagrams (see <xref linkend="s1.ref.action_state"/>).</para>
+        <para lang="de">
+        	Dieses Modellelement ist im Kontext des Zustandsdiagrammes 
+        	beschrieben (siehe <xref linkend="s1.ref.action_state"/>).
+        </para>
 
       </sect1>
 
@@ -69705,30 +70074,54 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Transition</phrase>
+			<phrase lang="de">Transition</phrase>
 		</title>
 
         <para lang="en">This model element is described in the context of statechart 
         diagrams (see <xref linkend="s1.ref.transition_state"/>).</para>
+        <para lang="de">
+        	Dieses Modellelement ist im Kontext des Zustandsdiagrammes 
+        	beschrieben (siehe <xref linkend="s1.ref.transition_state"/>).
+        </para>
 
-        <caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">Remember that action states do not have explicit 
+	          triggers. The transition is implicitly triggered as soon as 
+	          the entry event of the action state is complete. An explicit 
+	          trigger should not therefore be set.</para>
+	          <para lang="de">
+	          	Erinnern Sie sich, dass Aktionszustände keine expliziten Trigger 
+	          	haben. Die Transition ist implizit getriggert sobald das 
+	          	Eintrittsereignis des Aktionszustandes vollständig ist. Ein 
+	          	expliziter Trigger sollte daher nicht gesetzt werden.
+	          </para>
+	
+	          <para lang="en">The current release of ArgoUML will not check that this 
+	          constraint is met.</para>
+	          <para lang="de">
+	          	Die aktuelle Release von ArgoUML überprüft derzeit nicht, ob 
+	          	diese Bedingung erfüllt ist.
+	          </para>
+	
+	        </caution>
+        </para>
 
-          <para lang="en">Remember that action states do not have explicit 
-          triggers. The transition is implicitly triggered as soon as 
-          the entry event of the action state is complete. An explicit 
-          trigger should not therefore be set.</para>
-
-          <para lang="en">The current release of ArgoUML will not check that this 
-          constraint is met.</para>
-
-        </caution>
-
-        <note>
-
-          <para lang="en">Transitions to and from an ObjectFlowState are dashed, 
-          to distinguish <emphasis>object flow</emphasis> from 
-          <emphasis>control flow</emphasis>.</para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">Transitions to and from an ObjectFlowState are dashed, 
+	          to distinguish <emphasis>object flow</emphasis> from 
+	          <emphasis>control flow</emphasis>.</para>
+	          <para lang="de">
+	          	Transitionen zu und von Objektflusszuständen werden gepunktet, 
+	          	umd den <emphasis>Objektfluss</emphasis> vom <emphasis>
+	          	Steuerungsfluss</emphasis> zu unterscheiden.
+	          </para>
+	
+	        </note>
+        </para>
 
       </sect1>
 
@@ -69736,10 +70129,15 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Guard</phrase>
+			<phrase lang="de">Wächter</phrase>
 		</title>
 
         <para lang="en">This model element is described in the context of statechart 
         diagrams (see <xref linkend="s1.ref.guard_state"/>).</para>
+        <para lang="de">
+        	Dieses Modellelement ist im Kontext des Zustandsdiagrammes 
+        	beschrieben (siehe <xref linkend="s1.ref.guard_state"/>).
+        </para>
 
       </sect1>
 
@@ -69747,10 +70145,15 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Initial State</phrase>
+			<phrase lang="de">Startzustand</phrase>
 		</title>
 
         <para lang="en">This model element is described in the context of statechart 
         diagrams (see <xref linkend="s1.ref.initial_state"/>).</para>
+        <para lang="de">
+        	Dieses Modellelement ist im Kontext des Zustandsdiagrammes 
+        	beschrieben (siehe <xref linkend="s1.ref.initial_state"/>).
+        </para>
 
       </sect1>
 
@@ -69758,10 +70161,15 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Final State</phrase>
+			<phrase lang="de">Endezustand</phrase>
 		</title>
 
         <para lang="en">This model element is described in the context of statechart 
         diagrams (see <xref linkend="s1.ref.final_state"/>).</para>
+        <para lang="de">
+        	Dieses Modellelement ist im Kontext des Zustandsdiagrammes 
+        	beschrieben (siehe <xref linkend="s1.ref.final_state"/>).
+        </para>
 
       </sect1>
 
@@ -69769,10 +70177,15 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Junction (Decision)</phrase>
+			<phrase lang="de">Kreuzung (Entscheidung)</phrase>
 		</title>
 
         <para lang="en">This model element is described in the context of statechart 
         diagrams (see <xref linkend="s1.ref.junction_state"/>).</para>
+        <para lang="de">
+        	Dieses Modellelement ist im Kontext des Zustandsdiagrammes 
+        	beschrieben (siehe <xref linkend="s1.ref.junction_state"/>).
+        </para>
 
       </sect1>
 
@@ -69780,10 +70193,15 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Fork</phrase>
+			<phrase lang="de">Gabelung</phrase>
 		</title>
 
         <para lang="en">This model element is described in the context of statechart 
         diagrams (see <xref linkend="s1.ref.fork_state"/>).</para>
+        <para lang="de">
+        	Dieses Modellelement ist im Kontext des Zustandsdiagrammes 
+        	beschrieben (siehe <xref linkend="s1.ref.fork_state"/>).
+        </para>
 
       </sect1>
 
@@ -69791,10 +70209,15 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Join</phrase>
+			<phrase lang="de">Vereinigung</phrase>
 		</title>
 
         <para lang="en">This model element is described in the context of statechart 
         diagrams (see <xref linkend="s1.ref.join_state"/>).</para>
+        <para lang="de">
+        	Dieses Modellelement ist im Kontext des Zustandsdiagrammes 
+        	beschrieben (siehe <xref linkend="s1.ref.join_state"/>).
+        </para>
 
       </sect1>
 
@@ -69802,9 +70225,11 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">ObjectFlowState</phrase>
+			<phrase lang="de">Objektflusszustand</phrase>
 		</title>
 
         <para lang="en">(To Be Written)</para>
+        <para lang="de">(Noch zu beschreiben)</para>
 
       </sect1>
 
@@ -69814,49 +70239,87 @@ available at http://www.opencontent.org/openpub/.
 
       <title>
 			<phrase lang="en">Deployment Diagram Model Element Reference</phrase>
+			<phrase lang="de">Modellelement-Referenz Verteilungsdiagramm</phrase>
 		</title>
 
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en">This chapter describes each model element that can be created 
         within a Deployment Diagram. Note that some sub-model elements of 
         model elements on the diagram may not actually themselves appear on 
         the diagram.</para>
+        <para lang="de">
+        	Dieses Kapitel beschreibt jedes Modellelement, das innerhalb eines 
+        	Verteilungsdiagrammes erzeugt werden kann. Beachten Sie, dass einige 
+        	Submodellelemente von Modellelementen des Diagrammes aktuell im 
+        	Diagramm nicht selbst erscheinen.
+        </para>
 
         <para lang="en">There is a close relationship between this material and 
         the Properties Tab of the Details Pane (see 
         <xref linkend="s1.ref.proptab"/>). That section covers 
         Properties in general, in this chapter they are linked to 
         specific model elements.</para>
+        <para lang="de">
+        	Es gibt eine enge Beziehung zwischen diesem Material und dem 
+        	Register Eigenschaften des Detailfensters (siehe 
+        	<xref linkend="s1.ref.proptab"/>). Dieser Abschnitt behandelt die 
+        	Eigenschaften im Allgemeinen, während sie in diesem Kapitel mit 
+        	spezifischen Modellelementen verknüpft sind.
+        </para>
 
         <para lang="en">Within ArgoUML, the deployment diagram is used for both 
         component diagrams (i.e. without instances, showing static 
         dependencies of components) and deployment diagrams (showing 
         how instances of components are handled by instances of nodes 
         at run-time).</para>
+        <para lang="de">
+        	Innerhalb von ArgoUML werden Verteilungsdiagramme für 
+        	Komponentendiagramme (z.B. ohne Instanzen, statische Abhängigkeiten 
+        	von Komponenten darstellend) und Verteilungsdiagrammen (zeigen, wie 
+        	Instanzen von Komponten durch Instanzen von Knoten zur Laufzeit 
+        	gehandhabt werden).
+        </para>
 
-        <caution>
-
-          <para lang="en">Deployment diagrams are not fully developed yet in 
-          ArgoUML. Some aspects are not fully implemented or may not 
-          behave as expected. Notable omissions are the possibility to 
-          draw new interfaces and proper stereotyping of the various 
-          dependency relationships.</para>
-
-        </caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">Deployment diagrams are not fully developed yet in 
+	          ArgoUML. Some aspects are not fully implemented or may not 
+	          behave as expected. Notable omissions are the possibility to 
+	          draw new interfaces and proper stereotyping of the various 
+	          dependency relationships.</para>
+	          <para lang="de">
+	          	Verteilungsdiagramme sind in ArgoUML nicht vollständig entwickelt. 
+	          	Einige Aspekte sind nicht vollständig implementiert und können 
+	          	sich nicht wie erwartet verhalten. Beachtenswerte Auslassungen 
+	          	sind die Möglichkeit neue Schnittstellen zu zeichnen und 
+	          	richtiges stereotypisieren verschiedener Abhänigkeitsbeziehungen.
+	          </para>
+	
+	        </caution>
+        </para>
 
         <para lang="en"><xref linkend="fig.ref.component_diagram"/> shows a 
         component diagram with all possible model elements displayed.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.component_diagram"/> zeigt ein 
+        	Komponentendiagramm mit allen denkbaren Modellelementen.
+        </para>
 
         <figure float="1" id="fig.ref.component_diagram">
 
           <title>
 			<phrase lang="en">Possible model elements on a component diagram.</phrase>
-		</title>
+			<phrase lang="de">
+				Denkbare Modellelemente in einem Komponentendiagramm.
+			</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -69866,12 +70329,19 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en"><xref linkend="fig.ref.deployment_diagram"/> shows a 
         deployment diagram with all possible model elements displayed.</para>
+        <para lang="de">
+        	<xref linkend="fig.ref.deployment_diagram"/> zeigt ein 
+        	Verteilungsdiagramm mit allen denkbaren Modellelementen.
+        </para>
 
         <figure float="1" id="fig.ref.deployment_diagram">
 
           <title>
 			<phrase lang="en">Possible model elements on a deployment diagram.</phrase>
-		</title>
+			<phrase lang="de">
+				Denkbare Modellelemente in einem Verteilungsdiagramm.
+			</phrase>
+		  </title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -69882,23 +70352,42 @@ available at http://www.opencontent.org/openpub/.
         <sect2>
 
           <title>
-			<phrase lang="en">Limitations Concerning Deployment Diagrams in 
-          ArgoUML</phrase>
-		</title>
+			<phrase lang="en">
+				Limitations Concerning Deployment Diagrams in ArgoUML
+			</phrase>
+			<phrase lang="de">
+				Einschränkgungen, Verteilungsdiagramme in ArgoUML betreffend
+			</phrase>
+		  </title>
 
           <para lang="en">The deployment diagram is generally well drawn, but 
           there are only a subset of the relationships that should be 
           shown available, which restricts the ability to show dynamic 
           behavior of deployed code.</para>
+          <para lang="de">
+          	Das Verteilungsdiagramm wird in der Regel gut gezeichnet, aber es 
+          	gibt nur eine Teilmenge von Beziehungen, die als verfügbar dargestellt 
+          	werden sollten, was die Fähigkeit, dynamisches Verhalten des 
+          	entwickelten Codes darzustellen einschränkt.
+          </para>
 
           <para lang="en">It is not possible to create new interfaces directly on 
           this diagram; they can only be added if they are first 
           created in the model (by drawing them on a class 
           diagram).</para>
+          <para lang="de">
+          	Es ist nicht möglich, neue Schnittstellen in diesem Diagramm zu 
+          	erzeugen; sie können nur hinzugefügt werden, wenn sie zuerst im 
+          	Modell erzeugt wurden (durch einzeichnen in ein Klassendiagramm).
+          </para>
 
           <para lang="en">It is an inconvenience that the alternative 
           representation of an interface (as a small circle) is not 
           supported.</para>
+          <para lang="de">
+          	Es ist ein Nachteil, dass die alternative Darstellung einer 
+          	Schnittstelle (als kleiner Kreis) nicht unterstützt wird.
+          </para>
 
         </sect2>
 
@@ -69908,6 +70397,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Node</phrase>
+			<phrase lang="de">Knoten</phrase>
 		</title>
 
         <para lang="en">A node is a run-time physical object on which components 
