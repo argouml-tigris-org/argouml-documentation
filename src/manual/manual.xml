@@ -67307,6 +67307,13 @@ available at http://www.opencontent.org/openpub/.
         particular context. In the UML metamodel <literal>Association 
         Role</literal> is a sub-class of <literal>
         Association</literal>.</para>
+        <para lang="de">
+        	Eine Assoziationsrolle ist eine Spezialisierung einer Assoziation, 
+        	die dazu verwendet wird, ein Assoziationsverhalten in einem 
+        	bestimmten Kontext zu beschreiben. Im UML-Metamodell ist <literal>
+        	Association Role</literal> eine Subklasse von <literal>
+        	Association</literal>.
+        </para>
 
         <para lang="en">An association role is represented on a collaboration 
         diagram in ArgoUML as a line connecting the instances 
@@ -67314,50 +67321,87 @@ available at http://www.opencontent.org/openpub/.
         modified to reflect the type of action associated with the 
         stimulus carried on the link (see 
         <xref linkend="s1.ref.stimulus"/>).</para>
+        <para lang="de">
+        	Eine Assoziationsrolle wird in einem Kollaborationsdiagramm von 
+        	ArgoUML als Linie dargestellt, welche die betreffenden Instanzen 
+        	miteinander verbindet. In einem Sequenzdiagramm ist die Darstellung 
+        	jedoch modizifiziert, um den Aktionstyp zu reflektieren, der im 
+        	Zusammenhang mit dem Impuls auf die Verknüpfung ausgeführt wird 
+        	(siehe <xref linkend="s1.ref.stimulus"/>).  
+        </para>
 
         <para lang="en">The association role is labeled with the association role 
         name (if any).</para>
+        <para lang="de">
+        	Die Assoziationsrolle wird mit dem Namen der Assoziationsrolle 
+        	(falls vorhanden) gekennzeichnet.
+        </para>
 
         <para lang="en">
-
           An association role shows its name and the association name 
           according the following syntax:
+        </para>
+        <para lang="de">
+        	Eine Assoziationsrolle zeigt ihren Namen und den Assoziationsnamen 
+        	entsprechend der folgenden Syntax an:
+        </para>
+        
           <blockquote>
 
             <para lang="en">/ AssociationRoleName : AssociationName</para>
+            <para lang="de">/ Assoziationsrollenname : Assoziationsname</para>
 
           </blockquote>
-
+          
+		<para lang="en">
           in the same manner as a classifier role. The more generic 
           syntax is:
+        </para>
+        <para lang="de">
+        	auf die gleiche Art und Weise wie eine Klassifiziererrolle. Die 
+        	generische Syntax ist:
+        </para>
+          
           <blockquote>
 
-            <para lang="en">I / R : C</para>
+            <para>I / R : C</para>
 
           </blockquote>
-
+          
+		<para lang="en">
           which stands for an Instance named I originating from the 
           Classifier C playing the role R.
+        </para>
+        <para lang="de">
+        	was für eine Instanz mit dem Namen I, vom Klassifizierer C 
+        	abstammend und die Rolle R spielend steht.
         </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Association Role Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Assoziationsrolle</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for association roles 
           are as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Assoziationsrollen sind die 
+          	folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="en">Standard-Register.</para>
 
               </listitem>
 
@@ -67366,6 +67410,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -67374,6 +67419,13 @@ available at http://www.opencontent.org/openpub/.
                  and 
                 <xref linkend="s2.ref.association_role_property_fields"/>
                  below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.association_role_property_toolbar"/>
+	                 und 
+	                <xref linkend="s2.ref.association_role_property_fields"/>
+	                 unten.
+                 </para>
 
               </listitem>
 
@@ -67382,10 +67434,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -67394,18 +67448,27 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. </para>
-                <note>
-                  <para lang="en">
-                    The values in the "bounds" field of the 
-                    association role
-                    are not editable, since they are determined 
-                    by the properties of the endpoints of the line.
-                  </para>
-                </note>
+                <para lang="de">Standard-Register. </para>
+                <para>
+	                <note>
+	                  <para lang="en">
+	                    The values in the "bounds" field of the 
+	                    association role
+	                    are not editable, since they are determined 
+	                    by the properties of the endpoints of the line.
+	                  </para>
+	                  <para lang="de">
+	                  	Die Werte im Feld "Begrenzung" der Assoziationsrolle 
+	                  	sind nicht editierbar, weil sie durch die Eigenschaften 
+	                  	der Endpunkte der Linie bestimmt werden.
+	                  </para>
+	                </note>
+                </para>
 
               </listitem>
 
@@ -67414,18 +67477,29 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab, but with no contents.</para>
+                <para lang="de">
+                	Standard-Register, aber ohne Inhalte.
+                </para>
 
-                <caution>
-
-                  <para lang="en">An association role should not generate any 
-                  code, so having this tab active is probably a 
-                  mistake.</para>
-
-                </caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">An association role should not generate any 
+	                  code, so having this tab active is probably a 
+	                  mistake.</para>
+	                  <para lang="de">
+	                  	Eine Assoziationsrolle sollte keinen Code generieren, 
+	                  	so dass die Tatsache, dass dieses Register aktiv ist, 
+	                  	wahrscheinlich einen Fehler darstellt.
+	                  </para>
+	
+	                </caution>
+                </para>
 
               </listitem>
 
@@ -67434,12 +67508,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 AssociationRole</literal> has the following standard 
                 tagged values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	AssociationRole</literal> die folgenden Standard-
+                	Eigenschaftswerte definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -67451,6 +67531,14 @@ available at http://www.opencontent.org/openpub/.
                     destroyed when an instance is destroyed or <literal>
                     persistent</literal>, marking state is preserved 
                     when an instance is destroyed.</para>
+                    <para lang="de">
+                    	<literal>persistence</literal> (von der Superklasse 
+                    	<literal>Association</literal>). Der Wert <literal>
+                    	transitory</literal> gibt an, dass der Zustand zerstört 
+                    	wird, wenn die Instanz zerstört wird, oder <literal>
+                    	persistent</literal> kennzeichnet, dass der Zustand 
+                    	erhalten bleibt, wenn die Instanz zerstört wird.
+                    </para>
 
                   </listitem>
 
@@ -67462,29 +67550,54 @@ available at http://www.opencontent.org/openpub/.
                     association is redundant&mdash;it can be formally derived 
                     from other elements, or <literal>false</literal> 
                     meaning it cannot.</para>
+                    <para lang="de">
+                    	<literal>derived</literal> (von der Superklasse 
+                    	<literal>ModelElement</literal>). Der Wert <literal>true
+                    	</literal> bedeutet, dass die Assoziation redundant ist
+                    	&mdash; sie kann formal von anderen Elementen abgeleitet 
+                    	werden, oder <literal>false</literal>, wenn sie es nicht 
+                    	kann.
+                    </para>
 
-                    <note>
-
-                      <para lang="en">Derived association roles still have their 
-                      value in analysis to introduce useful names or 
-                      concepts, and in design to avoid 
-                      re-computation.</para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived association roles still have their 
+	                      value in analysis to introduce useful names or 
+	                      concepts, and in design to avoid 
+	                      re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Assoziationsrollen haben ihren Wert in 
+	                      	der Analyse, um nützliche Namen oder Konzepte 
+	                      	einzuführen und im Desgin, um eine Wiederverarbeitung 
+	                      	zu verhindern.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, aus der 
+	                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
+	                  	den Eigenschaftswert <literal>documentation</literal>, 
+	                  	der in ArgoUML im Register <emphasis>Dokumentation
+	                  	</emphasis> bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -67493,10 +67606,14 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Checklist</literal></term>
+              <term lang="de"><literal>Checkliste</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab for an Association Role.</para>
+                <para lang="de">
+                	Standard-Register für eine Assoziationsrolle.
+                </para>
 
               </listitem>
 
@@ -67510,7 +67627,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Association Role Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Assoziationsrolle</phrase>
+		  </title>
 
           <variablelist>
 
@@ -67521,10 +67639,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur nach oben.
+                </para>
 
               </listitem>
 
@@ -67537,22 +67663,40 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the association role from the 
                 model</para>
+                <para lang="de">
+                	Löscht die Assoziationsrolle aus dem Modell.
+                </para>
 
-                <warning>
-
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. To delete 
-                  an association role from the diagram, but keep it 
-                  within the model, use the main menu <literal>Remove 
-                  From Diagram</literal> (or press the Delete 
-                  key).</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram. To delete 
+	                  an association role from the diagram, but keep it 
+	                  within the model, use the main menu <literal>Remove 
+	                  From Diagram</literal> (or press the Delete 
+	                  key).</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm. Um eine 
+	                  	Assoziationsrolle aus dem Diagramm zu löschen, sie aber 
+	                  	im Modell zu erhalten, verwenden Sie <literal>Aus 
+	                  	Diagramm entfernen</literal> im Hauptmenü (oder drücken 
+	                  	Sie die Taste Entf).
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -67566,13 +67710,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Association Role</phrase>
-		</title>
+			<phrase lang="de">
+				Eigenschaftsfelder für eine Assoziationsrolle
+			</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -67580,13 +67728,25 @@ available at http://www.opencontent.org/openpub/.
                 is shown on the diagram. By convention association role 
                 names start with a lower case letter and use bumpy caps 
                 to divide words within the name.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Assoziationsrolle, der im Diagramm 
+                	angezeigt wird. Per Konvention beginnt der Name einer 
+                	Assoziationsrolle mit einem Kleinbuchstaben und es werden 
+                	Groß-/Kleinschreibung verwendet, um Wörter innerhalb des 
+                	Namens zu unterscheiden.
+                </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -67595,6 +67755,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -67602,6 +67763,11 @@ available at http://www.opencontent.org/openpub/.
                 by default with the UML standard stereotype from the 
                 superclass Association: <literal>
                 implicit</literal>.</para>
+                <para lang="de">
+                	Kombinationsfeld. Die Assoziationsrolle bietet standardmäßig 
+                	den UML-Standard-Stereotyp der Superklasse Assoziation an: 
+                	<literal>implicit</literal>.
+                </para>
 
               </listitem>
 
@@ -67610,6 +67776,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -67620,6 +67787,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype_class"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, navigiert es in 
+	                das Eigenschaftsfenster des Stereotyps (siehe 
+	                <xref linkend="s1.ref.stereotype_class"/>).
+                </para>
 
               </listitem>
 
@@ -67628,14 +67804,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Records the namespace for the 
                 association role. This is the package hierarchy.</para>
+                <para lang="de">
+                	Textfeld. Nimmt den Namensraum für die Assoziationsrolle auf. 
+                	Dies ist die Pakethierarchie.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on the entry will navigate 
                 to the item showm.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf den Eintrag navigiert zu 
+                	dem gezeigten Element.
+                </para>
 
               </listitem>
 
@@ -67644,15 +67829,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Base</literal></term>
+              <term lang="de"><literal>Basis</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Records the association that 
                 is the base for the association role.</para>
+                <para lang="de">
+                	Kombinationsfeld. Nimmt die Assoziation auf, die Basis der 
+                	Assoziationsrolle ist.
+                </para>
 
                 <para lang="en">The drop down selector shows all associations 
                 that exist between the classifiers that correspond with 
                 the connected classifier roles.</para>
+                <para lang="de">
+                	Das Kombinationsfeld zeigt alle Assoziationen, die zwischen 
+                	den Klassifizieren existieren, die mit der verbundenen 
+                	Klassifiziererrolle korrespondieren.
+                </para>
 
               </listitem>
 
@@ -67661,6 +67856,9 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Association End Roles</literal></term>
+              <term lang="de">
+              	<literal>Endpunkte (Assoziationsrolle)</literal>
+              </term>
 
               <listitem>
 
@@ -67671,13 +67869,32 @@ available at http://www.opencontent.org/openpub/.
                 diagrams, but this is not supported by ArgoUML). For 
                 more on association end roles see 
                 <xref linkend="s1.ref.association_end_role"/>.</para>
+                <para lang="de">
+                	Textbereich. Listet die Enden dieser Assoziationsrolle auf. 
+                	Eine Assoziationsrolle kann beliebig viele Enden haben, aber 
+                	im Allgemeinen sind zwei die einzig sinnvolle Anzahl (das 
+                	Verbinden von Objekten kann in Instanz-Level-Diagrammen zu 
+                	einem dritten Ende führen, aber dies wird von ArgoUML nicht 
+                	unterstützt). Mehr über Assoziationsrollen, siehe 
+                	<xref linkend="s1.ref.association_end_role"/>.
+                </para>
 
                 <para lang="en">The names are listed, unless the association end 
                 role has no name, then it is shown as <literal>(Unnamed 
                 AssociationEndRole)</literal>.</para>
+                <para lang="de">
+                	Die Namen werden aufgelistet, es sei denn die Rolle des 
+                	Assoziationsendes hat keinen Namen, dann wird sie als 
+                	<literal>(Unbenannte AssociationEndRole)</literal> 
+                	dargestellt.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on an association end role 
                 will navigate to that end.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick auf die Rolle Assoziationsende 
+                	navigiert zu diesem Ende.
+                </para>
 
               </listitem>
 
@@ -67686,14 +67903,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Messages</literal></term>
+              <term lang="de"><literal>Nachrichten</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists the messages that are associated 
                 with this association role.</para>
+                <para lang="de">
+                	Textbereich. Listet die Nachrichten auf, die mit dieser 
+                	Assoziationsrolle verknüpft sind.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -67709,6 +67935,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Association End Role</phrase>
+			<phrase lang="de">Rolle Assoziationsende</phrase>
 		</title>
 
         <para lang="en">An association end role is a specialization of an 
@@ -67716,11 +67943,24 @@ available at http://www.opencontent.org/openpub/.
         behavior in a particular context. In the UML metamodel <literal>
         AssociationEndRole</literal> is a sub-class of <literal>
         AssociationEnd</literal>.</para>
+        <para lang="de">
+        	Eine Rolle Assoziationsende ist eine Spezialisierung eines 
+        	Assoziationsendes, und wird dazu benutzt, das Verhalten eines 
+        	Assoziationsendes in einem bestimmten Kontext zu beschreiben. Im 
+        	UML-Metamodell ist <literal>AssociationEndRole</literal> eine 
+        	Subklasse von <literal>AssociationEnd</literal>.
+        </para>
 
         <para lang="en">Two or more association end roles are associated with 
         each association role (see 
         <xref linkend="s1.ref.association_role"/>), although for 
         ArgoUML, the number of ends can only be two.</para>
+        <para lang="de">
+        	Zwei oder mehr Rollen Assoziationsende sind mit jeder 
+        	Assoziationsrolle verknüpft (siehe 
+        	<xref linkend="s1.ref.association_role"/>), obwohl in ArgoUML die 
+        	Anzahl der Enden nur zwei sein kann. 
+        </para>
 
         <para lang="en">The association end role has no direct access on any 
         diagram, although its stereotype, name and multiplicity is 
@@ -67731,43 +67971,78 @@ available at http://www.opencontent.org/openpub/.
         association end role, the opposite end is shown as a solid 
         diamond (composite aggregation) or hollow diamond (shared 
         aggregation).</para>
+        <para lang="de">
+        	Die Rolle Assoziationsende hat keinen direkten Zugriff auf ein 
+        	Diagramm, obwohl dessen Stereotyp, Name und Kardinalität am 
+        	relevanten Ende der Eltern-Assoziationsrolle angezeigt wird (siehe 
+        	<xref linkend="fig.ref.collaboration_diagram"/>), und einige 
+        	seiner Eigenschaften direkt mit einem Taste&nbsp;2-Klick eingestellt 
+        	werden können. Dort wo trennbare oder untrennbare Aggregation für 
+        	eine Rolle Assoziationsende ausgewählt wurde, wird das 
+        	gegenüberliegende Ende als ausgefüllter Diamant (untrennbare 
+        	Aggregation) oder unausgefüllter Diamant (trennbare Aggregation) 
+        	dargestellt.
+        </para>
 
-        <note>
+		<para>
+	        <note>
+	
+	          <para lang="en">ArgoUML does not currently (V0.18) support showing 
+	          qualifiers on the diagram, as described in the UML&nbsp;1.4 
+	          standard.</para>
+	          <para lang="de">
+	          	ArgoUML (V0.18) unterstützt aktuell nicht die Anzeige von 
+	          	Qualifizierern im Diagramm, wie im UML&nbsp;1.4-Standard 
+	          	beschrieben. 
+	          </para>
+	
+	        </note>
+        </para>
 
-          <para lang="en">ArgoUML does not currently (V0.18) support showing 
-          qualifiers on the diagram, as described in the UML&nbsp;1.4 
-          standard.</para>
-
-        </note>
-
-        <caution>
-
-          <para lang="en">An association end role should have the same, or 
-          <quote>stricter</quote> attribute values than its base 
-          association end. In particular its navigability should be no 
-          more general. There is as yet no critic in ArgoUML to offer 
-          advice on this rule.</para>
-
-        </caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">An association end role should have the same, or 
+	          <quote>stricter</quote> attribute values than its base 
+	          association end. In particular its navigability should be no 
+	          more general. There is as yet no critic in ArgoUML to offer 
+	          advice on this rule.</para>
+	          <para lang="de">
+	          	Eine Rolle Assoziationsende sollte die gleichen, oder <quote>
+	          	genauer</quote> Attributwerte haben, wie das Basis-
+	          	Assoziationsende. Insbesondere seine Navigierbarkeit sollte 
+	          	nicht mehr Allgemein sein. Es gibt noch keine Kritik in ArgoUML, 
+	          	die eine Erläuterung zu dieser Regel bietet.
+	          </para>
+	
+	        </caution>
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Association End Role Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Rolle Assoziationsende</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for association end 
           roles are as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für eine Rolle Assoziationsende sind 
+          	die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -67776,6 +68051,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -67784,6 +68060,13 @@ available at http://www.opencontent.org/openpub/.
                  and 
                 <xref linkend="s2.ref.association_end_role_property_fields"/>
                  below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.association_end_role_property_toolbar"/>
+	                 und 
+	                <xref linkend="s2.ref.association_end_role_property_fields"/>
+	                 unten.
+                 </para>
 
               </listitem>
 
@@ -67792,10 +68075,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -67804,11 +68089,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. There is no code generated for an 
                 association end role.</para>
+                <para lang="de">
+                	Standard-Register. Es wird kein Code für eine Rolle 
+                	Assoziationsende generiert.
+                </para>
 
               </listitem>
 
@@ -67817,12 +68107,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 AssociationEndRole</literal> has the following standard 
                 tagged values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+               	 	AssociationEndRole</literal> die folgenden Standard-
+               	 	Eigenschaftswerte definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -67834,31 +68130,58 @@ available at http://www.opencontent.org/openpub/.
                     association end role is redundant&mdash;it can be 
                     formally derived from other elements, or <literal>
                     false</literal> meaning it cannot.</para>
+                    <para lang="de">
+                    	<literal>derived</literal> (von der Superklasse 
+                    	<literal>ModelElement</literal>). Der Wert <literal>true
+                    	</literal> bedeutet, dass die Rolle Assoziationsende 
+                    	redundant ist&mdash; sie kann von anderen Elementen 
+                    	abgeleitet werden, oder <literal>false</literal>, wenn 
+                    	sie es nicht kann.
+                    </para>
 
-                    <tip>
-
-                      <para lang="en">Derived association end roles still have 
-                      their value in analysis to introduce useful names 
-                      or concepts, and in design to avoid 
-                      re-computation. However the tag only makes sense 
-                      for an association end role if it is also applied 
-                      to the parent association role.</para>
-
-                    </tip>
+					<para>
+	                    <tip>
+	
+	                      <para lang="en">Derived association end roles still have 
+	                      their value in analysis to introduce useful names 
+	                      or concepts, and in design to avoid 
+	                      re-computation. However the tag only makes sense 
+	                      for an association end role if it is also applied 
+	                      to the parent association role.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Rollen Assoziationsende haben ihren 
+	                      	Wert in der Analyse, um nützliche Namen oder Konzepte 
+	                      	einzuführen und im Design, um eine Wiederverarbeitung 
+	                      	zu verhindern. Jedoch macht das Markieren für eine 
+	                      	Rolle Assoziationsende nur Sinn, wenn es auch auf 
+	                      	die Eltern-Assoziationsrolle angewendet wird.
+	                      </para>
+	
+	                    </tip>
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der 
+	                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
+	                  	einen Eigenschaftswert <literal>documentation</literal>, 
+	                  	der in ArgoUML im Register <emphasis>Dokumentation
+	                  	</emphasis> bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -67872,7 +68195,10 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Association End Role Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">
+				Eigenschaftssymbolleiste Rolle Assoziationsende
+			</phrase>
+		  </title>
 
           <variablelist>
 
@@ -67883,11 +68209,20 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up to the association role to which this 
                 end role belongs.</para>
+                <para lang="de">
+                	Navigiert zu der Assoziationsrolle, zu der dieses Rollenende 
+                	gehört.
+                </para>
 
               </listitem>
 
@@ -67900,11 +68235,19 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/association_end_role.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go Opposite</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/association_end_role.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Gehe zum anderen Ende</literal></term>
 
               <listitem>
 
                 <para lang="en">This navigates to the other end of the 
                 association role.</para>
+                <para lang="de">
+                	Navigiert zum anderen Ende der Assoziationsrolle.
+                </para>
 
               </listitem>
 
@@ -67917,26 +68260,56 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/attribute.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Qualifier</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/attribute.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Qualifizierer</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Qualifier</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Qualifizierer hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Qualifier</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Qualifizierer</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Qualifier</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Qualifizierer</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Qualifier for the selected 
                 association-end role, navigating immediately to the 
                 properties tab for that qualifier.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Qualifzierer für die markierte Rolle 
+                	Assoziationsende und springt sofort in das Register 
+                	Eigenschaften dieses Qualifizierers.
+                </para>
 
-                <warning>
-
-                  <para lang="en">Qualifiers are only partly supported in ArgoUML 
-                  V0.18. Hence, activating this button creates a 
-                  qualifier in the model, which is not shown on the 
-                  diagram. Also, the properties panel for a qualifier 
-                  equals that of a regular attribute.</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">Qualifiers are only partly supported in ArgoUML 
+	                  V0.18. Hence, activating this button creates a 
+	                  qualifier in the model, which is not shown on the 
+	                  diagram. Also, the properties panel for a qualifier 
+	                  equals that of a regular attribute.</para>
+	                  <para lang="de">
+	                  	Qualifizierer werden in ArgoUML&nbsp;V0.18 nur teilweise 
+	                  	unterstützt. Daher erzeugt die Aktivierung dieser 
+	                  	Schaltfläche einen Qualifizierer im Modell, der nicht 
+	                  	im Diagramm angezeigt wird. Auch das Eigenschaftsfenster 
+	                  	dieses Qualifizierers entspricht dem eines regulären 
+	                  	Attributes.
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -67949,17 +68322,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeugt neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 association-end role, navigating immediately to the 
                 properties tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Rolle Assoziationsende und springt sofort in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -67972,21 +68366,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the selected association-end from 
                 the model.</para>
+                <para lang="de">
+                	Löscht das markierte Assoziationsende aus dem Modell.
+                </para>
 
-                <note>
-
-                  <para lang="en">This button is downlighted for binary 
-                  association roles, since an association needs at 
-                  least <emphasis>two</emphasis> ends. Only for N-ary 
-                  associations, this button is accessable, and deletes 
-                  just one end from the association.</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">This button is downlighted for binary 
+	                  association roles, since an association needs at 
+	                  least <emphasis>two</emphasis> ends. Only for N-ary 
+	                  associations, this button is accessable, and deletes 
+	                  just one end from the association.</para>
+	                  <para lang="de">
+	                  	Diese Schaltfläche ist für binäre Assoziationsrollen 
+	                  	deaktiviert, weil eine Assoziation mindestens 
+	                  	<emphasis>zwei</emphasis> Enden benötigt. Nur für 
+	                  	N-fach-Assoziationen ist diese Schaltfläche verfügbar 
+	                  	und löscht ein Ende aus der Assoziation.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -68000,13 +68411,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Association End Role</phrase>
-		</title>
+			<phrase lang="de">
+				Eigenschaftsfelder für eine Rolle Assoziationsende
+			</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -68016,11 +68431,23 @@ available at http://www.opencontent.org/openpub/.
                 used for navigation, and in an implementation context, 
                 provides a name by which the source end of an 
                 association role can reference the target end.</para>
+                <para lang="de">
+                	Textfeld. Der Name einer Rolle Assoziationsende, die einen 
+                	<emphasis>Rollenname</emphasis> für dieses Ende der 
+                	Assoziationsrolle aufnimmt. Dieser Rollename kann für die 
+                	Navigation verwendet werden und im Implementationskontext 
+                	erlaubt ein Name, wie das Ursprungsende einer 
+                	Assoziationsrolle mit dem Zielende referenziert werden kann.
+                </para>
 
                 <note>
 
                   <para lang="en">ArgoUML does not enforce any naming convention 
                   for association end roles.</para>
+                  <para lang="de">
+                  	ArgoUML erzwingt keine Namenskonventionen für Rollen 
+                  	Assoziationsenden.
+                  </para>
 
                 </note>
 
@@ -68031,6 +68458,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -68040,6 +68468,14 @@ available at http://www.opencontent.org/openpub/.
                 <literal>global</literal>, <literal>local</literal>, 
                 <literal>parameter</literal>, <literal>
                 self</literal>).</para>
+                <para lang="de">
+                	Kombinationsfeld. Die Rolle Assoziationsende bietet 
+                	standardmäßig die UML-Standard-Stereotypen für 
+                	AssociationEndRole (<literal>association</literal>, 
+                	<literal>global</literal>, <literal>local</literal>, 
+                	<literal>parameter</literal>, <literal>
+                	self</literal>) an.
+                </para>
 
               </listitem>
 
@@ -68048,6 +68484,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -68058,6 +68495,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, navigiert es in 
+	                das Eigenschaftsfenster des Stereotyps (siehe 
+	                <xref linkend="s1.ref.stereotype"/>).
+                </para>
 
               </listitem>
 
@@ -68066,12 +68512,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Base</literal></term>
+              <term lang="de"><literal>Basis</literal></term>
 
               <listitem>
 
                 <para lang="en">Text field that shows the name of the 
                 corresponding association end. Button&nbsp;1 double click 
                 navigates to the association end.</para>
+                <para lang="de">
+                	Textfeld, das den Namen des entsprechenden Assoziationsendes 
+                	anzeigt. Ein Taste&nbsp;1-Doppelklick navigiert zu dem 
+                	Assoziationsende.
+                </para>
 
               </listitem>
 
@@ -68080,12 +68532,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>AssociationRole</literal></term>
+              <term lang="de"><literal>Assoziationsrolle</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Records the parent association role for 
                 this association end role. Button&nbsp;1 double click 
                 navigates to the association role.</para>
+                <para lang="de">
+                	Textfeld. Nimmt die Eltern-Assoziationsrolle für diese 
+                	Rolle Assoziationsende auf. Ein Taste&nbsp;1-Doppelklick 
+                	navigiert zu den Assoziationsrolle.
+                </para>
 
               </listitem>
 
@@ -68094,15 +68552,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Type</literal></term>
+              <term lang="de"><literal>Typ</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector providing access to all 
                 standard UML types provided by ArgoUML and all new 
                 classes created within the current model.</para>
+                <para lang="de">
+                	Das Kombinationsfeld bietet Zugriff auf alle Standard-UML-
+                	Typen, die durch ArgoUML unterstützt werden und alle neuen,  
+                	innerhalb des aktuellen Modelles erzeugten Klassen. 
+                </para>
 
                 <para lang="en">This is the type of the entity attached to this 
                 end of the association role.</para>
+                <para lang="de">
+                	Dies ist der Entitätstyp, der diesem Ende der 
+                	Assoziationsrolle zugewiesen wurde.
+                </para>
 
               </listitem>
 
@@ -68111,6 +68579,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Multiplicity</literal></term>
+              <term lang="de"><literal>Kardinalität</literal></term>
 
               <listitem>
 
@@ -68120,6 +68589,14 @@ available at http://www.opencontent.org/openpub/.
                 this end may be associated with an instance of the 
                 other end. The multiplicity is shown on the diagram at 
                 that end of the association role.</para>
+                <para lang="de">
+                	Editierbares Kombinationsfeld. Erlaubt die Änderung der 
+                	Kardinalität dieser Rolle Assoziationsende (unter 
+                	Berücksichtigung des anderen Endes). Z.B. wie viele 
+                	Instanzen dieses Endes darf mit einer Instanz des anderen 
+                	Endes verknüpft werden. Die Kardinalität wird im Diagramm 
+                	am Ende der Assoziationsrolle angezeigt. 
+                </para>
 
               </listitem>
 
@@ -68128,6 +68605,9 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>All remaining properties</literal></term>
+              <term lang="de">
+              	<literal>Alle restlichen Eigenschaften</literal>
+              </term>
 
               <listitem>
 
@@ -68135,6 +68615,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.association_end_property_fields"/>
                 . Since these are completely equal to the fields of an 
                 association end, they are not repeated here.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.association_end_property_fields"/>
+	                . Da diese mit den Feldern eines Assoziationsendes 
+	                vollständig übereinstimmen, werden sie hier nicht wiederholt.
+                </para>
 
               </listitem>
 
@@ -68150,6 +68636,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Message</phrase>
+			<phrase lang="de">Nachricht</phrase>
 		</title>
 
         <para lang="en">A message is a communication between two instances of an 
@@ -68159,6 +68646,15 @@ available at http://www.opencontent.org/openpub/.
         diagram a message is associated with an association role. In 
         the UML metamodel <literal>Message</literal> is a sub-class of 
         <literal>ModelElement</literal>.</para>
+        <para lang="de">
+        	Eine Nachricht ist eine Kommunikation zwischen zwei Instanzen einer 
+        	Assoziationsrolle in einem Kollaborationsdiagramm auf 
+        	Spezifikationsebene. Sie beschreibt eine Aktion, die den mit der 
+        	Nachricht verküpften Impuls generiert. In einem 
+        	Kollaborationsdiagramm ist eine Nachricht mit einer Assoziationsrolle 
+        	verknüpft. Im UML-Metamodell ist <literal>Message</literal> eine 
+        	Subklasse von <literal>ModelElement</literal>.
+        </para>
 
         <para lang="en">The message is represented on a collaboration diagram in 
         ArgoUML by its sequence number separated by a colon from the 
@@ -68168,33 +68664,58 @@ available at http://www.opencontent.org/openpub/.
         name of a message is not shown on the diagram. Instead the 
         diagram displays the message sequence number, either as an 
         integer or as a decimal number to show hierarchy.</para>
+        <para lang="de">
+        	Die Nachricht wird in einem Kollaborationsdiagramm von ArgoUML durch 
+        	seine durch einen Doppelpunkt vom Ausdruck, der die verküpfte Aktion 
+        	definiert, getrennten Sequenznummer dargestellt. Dies wird begleitet 
+        	durch einen Pfeil der in Richtung der Kommunikation zeigt, z.B. die 
+        	Richtung der Assoziationsrolle. Per Konvention wird der Name einer 
+        	Nachricht nicht im Diagramm angezeigt. Anstelle dessen zeigt das 
+        	Diagramm die Sequenznummer der Nachricht an, entweder als eine 
+        	Integerzahl oder als eine dezimale Zahl, um die Hierarchie 
+        	darzustellen.
+        </para>
 
-        <warning>
-
-          <para lang="en">The current release of ArgoUML does not retaining 
-          message positioning after reloading the project, i.e. as if 
-          the positions were not stored in the project file.</para>
-
-        </warning>
+		<para>
+	        <warning>
+	
+	          <para lang="en">The current release of ArgoUML does not retaining 
+	          message positioning after reloading the project, i.e. as if 
+	          the positions were not stored in the project file.</para>
+	          <para lang="de">
+	          	Die aktuelle Release von ArgoUML kann die Positionierung der 
+	          	Nachricht nach dem erneuten Öffnen des Projektes nicht 
+	          	wiederherstellen, z.B. wie als würden die Positionen in der 
+	          	Projektdatei nicht gespeichert.
+	          </para>
+	
+	        </warning>
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Message Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Nachricht</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for messages are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Nachrichten sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -68203,6 +68724,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -68210,6 +68732,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.message_property_toolbar"/> and 
                 <xref linkend="s2.ref.message_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.message_property_toolbar"/> und 
+	                <xref linkend="s2.ref.message_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -68218,10 +68746,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -68230,6 +68760,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
@@ -68238,16 +68769,32 @@ available at http://www.opencontent.org/openpub/.
                 <literal>Line</literal> field defines the arrow color. 
                 Increasing the <literal>Shadow</literal> size has an 
                 esthetically questionable effect.</para>
+                <para lang="de">
+                	Standard-Register. Die Werte für die Begrenzung der Nachricht 
+                	definiert der umgebende Rahmen der Nachricht. Das Feld 
+                	<literal>Linienfarbe</literal> definiert die Pfeilfarbe. 
+                	Das Vergrößern der <literal>Schatten</literal>-Größe hat 
+                	eine ästhetisch fragwürdigen Effekt.
+                </para>
 
-                <caution>
-
-                  <para lang="en">In the V0.18 release of ArgoUML changing the 
-                  position of the message by editing the values of the 
-                  <literal>Bounds</literal> field is possible, but will 
-                  make only a temporary change to the position of the 
-                  message, as described above.</para>
-
-                </caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">In the V0.18 release of ArgoUML changing the 
+	                  position of the message by editing the values of the 
+	                  <literal>Bounds</literal> field is possible, but will 
+	                  make only a temporary change to the position of the 
+	                  message, as described above.</para>
+	                  <para lang="de">
+	                  	Das Ändern der Position einer Nachricht durch das 
+	                  	Editieren der Werte des Feldes <literal>Begrenzung
+	                  	</literal> ist in der Release ArgoUML&nbsp;V0.18 möglich, 
+	                  	wird aber die Position der Nachricht nur temporär 
+	                  	verändern, wie oben beschrieben.
+	                  </para>
+	
+	                </caution>
+                </para>
 
               </listitem>
 
@@ -68256,21 +68803,36 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quellcode</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab, showing the message number and 
                 action expression separated by a colon (when UML 1.4 is 
                 selected in the drop-down).</para>
+                <para lang="de">
+                	Standard-Register, das die Nummer der Nachricht und den, 
+                	durch einen Doppelpunkt separierten Aktionsausdruck anzeigt 
+                	(wenn UML 1.4 im Auswahlfeld markiert wurde).
+                </para>
 
-                <caution>
-
-                  <para lang="en">A message probably should not generated any 
-                  code of itself. That should be left to the action and 
-                  possibly stimulus associated with it. In any case 
-                  changes to this tab are ignored.</para>
-
-                </caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">A message probably should not generated any 
+	                  code of itself. That should be left to the action and 
+	                  possibly stimulus associated with it. In any case 
+	                  changes to this tab are ignored.</para>
+	                  <para lang="de">
+	                  	Eine Nachricht sollte wahrscheinlich keine Code über 
+	                  	sich selbst generieren. Dies sollte der Aktion und 
+	                  	wahrscheinlich dem damit verknüpften Impuls überlassen 
+	                  	bleiben. In jedem Fall, werden Änderungen in diesem 
+	                  	Register ignoriert.
+	                  </para>
+	
+	                </caution>
+                </para>
 
               </listitem>
 
@@ -68279,12 +68841,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Message</literal> has the following standard tagged 
                 values defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                    Message</literal> die folgenden Standard-Eigenschaftswerte 
+                    definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -68296,29 +68864,54 @@ available at http://www.opencontent.org/openpub/.
                     is redundant&mdash;it can be formally derived from other 
                     elements, or <literal>false</literal> meaning it 
                     cannot.</para>
+                    <para lang="de">
+                    	<literal>derived</literal> (von der Superklasse 
+                    	<literal>ModelElement</literal>). Der Wert <literal>true
+                    	</literal> bedeutet, dass die Nachricht redundant ist
+                    	&mdash; sie kann formal von anderen Elementen abgeleitet 
+                    	werden, oder <literal>false</literal>, wenn sie es nicht 
+                    	kann.
+                    </para>
 
-                    <note>
-
-                      <para lang="en">Derived messages still have their value in 
-                      analysis and design to introduce useful names or 
-                      concepts, and in design to avoid 
-                      re-computation.</para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived messages still have their value in 
+	                      analysis and design to introduce useful names or 
+	                      concepts, and in design to avoid 
+	                      re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Nachrichten haben ihren Wert in der 
+	                      	Analyse und Design, um nützliche Namen oder Konzepte 
+	                      	einzuführen und im Design, um eine Wiederverarbeitung 
+	                      	zu verhindern.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der 
+	                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
+	                  	einen Eigenschaftswert <literal>documentation</literal>, 
+	                  	der in ArgoUML im Register <emphasis>Dokumentation
+	                  	</emphasis> bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -68332,7 +68925,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Message Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Nachricht</phrase>
+		  </title>
 
           <variablelist>
 
@@ -68343,10 +68937,18 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">
+                	Navigiert in der Paketstruktur nach oben.
+                </para>
 
               </listitem>
 
@@ -68359,17 +68961,36 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/call_action.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Action</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/call_action.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neue Aktion</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Action</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Aktion hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Action</primary></indexterm>
+                <indexterm lang="de"><primary>Neue Aktion</primary></indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Action</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neue</primary>
+                	<secondary>Aktion</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Action (see 
                 <xref linkend="s1.ref.action_state"/>) for the selected 
                 object, navigating immediately to the properties tab 
                 for that action.</para>
+                <para lang="de">
+                	Erzeugt eine neue Aktion (siehe 
+                	<xref linkend="s1.ref.action_state"/>) für das markierte 
+                	Objekt und springt sofort in das Register Eigenschaften 
+                	dieser Aktion.
+                </para>
 
               </listitem>
 
@@ -68382,6 +69003,11 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
