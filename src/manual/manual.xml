@@ -71082,38 +71082,66 @@ available at http://www.opencontent.org/openpub/.
         reside. In the UML metamodel <literal>NodeInstance</literal> is 
         a sub-class of <literal>Instance</literal> and is specifically 
         an instance that is derived from a node.</para>
+        <para lang="de">
+        	Eine Knoteninstanz ist der Fall eines Knotens, wo sich 
+        	Komponenteninstanzen (siehe 
+        	<xref linkend="s1.ref.component_instance"/>) befinden können. Im 
+        	UML-Metamodell ist <literal>NodeInstance</literal> eine Subklasse 
+        	von <literal>Instance</literal> und ist speziell eine Instanz, die 
+        	von einem Knoten abgeleitet wurde.
+        </para>
 
         <para lang="en">A node instance is represented on a deployment diagram in 
         ArgoUML as a three dimensional box labeled with the node 
         instance name (if any) and node type, separated by a colon (
         <literal>:</literal>).</para>
+        <para lang="de">
+        	Eine Knoteninstanz wird in einem Verteilungsdiagramm von ArgoUML als 
+        	dreidimensionaler Kasten, der mit dem Knoteninstanznamen (falls 
+        	vorhanden) und dem, durch einen Doppelpunkt (<literal>:</literal>) 
+        	getrennten Knotentyp bezeichnet ist, dargestellt.
+        </para>
 
-        <tip>
-
-          <para lang="en">It is the presence of the colon (<literal>:</literal>) 
-          and the underlining of the name and type that distinguishes a 
-          node instance from a node.</para>
-
-        </tip>
+		<para>
+	        <tip>
+	
+	          <para lang="en">It is the presence of the colon (<literal>:</literal>) 
+	          and the underlining of the name and type that distinguishes a 
+	          node instance from a node.</para>
+	          <para lang="de">
+	          	Die Präsenz des Doppelpunktes (<literal>:</literal>) und der 
+	          	unterstrichene Name und der Typ unterscheidet eine Knoteninstanz 
+	          	von einem Knoten.
+	          </para>
+	
+	        </tip>
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Node Instance Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Knoteninstanz</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for node instances are 
           as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für eine Knoteninstanz sind die 
+          	folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -71122,6 +71150,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -71130,6 +71159,13 @@ available at http://www.opencontent.org/openpub/.
                 and 
                 <xref linkend="s2.ref.node_instance_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.node_instance_property_toolbar"/> 
+	                und 
+	                <xref linkend="s2.ref.node_instance_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -71138,10 +71174,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -71150,22 +71188,37 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. The <literal>Bounds:</literal> 
                 field defines the bounding box for the node instance on 
                 the diagram.</para>
+                <para lang="de">
+                	Standard-Register. Das Feld <literal>Begrenzung</literal> 
+                	definiert den umgebenden Kasten der Knoteninstanz im 
+                	Diagramm.
+                </para>
 
-                <warning>
-
-                  <para lang="en">Beware that in the current release of ArgoUML, 
-                  the bounding box just refers to the front face of the 
-                  cube. This means that the three dimensional top and 
-                  side may be ignored, for example when determining the 
-                  limits of a diagram for saving graphics.</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">Beware that in the current release of ArgoUML, 
+	                  the bounding box just refers to the front face of the 
+	                  cube. This means that the three dimensional top and 
+	                  side may be ignored, for example when determining the 
+	                  limits of a diagram for saving graphics.</para>
+	                  <para lang="de">
+	                  	Vorsicht, in der Release von ArgoUML bezieht sich 
+	                  	der umgebende Kasten nur auf den vorderen Teil des Kubus. 
+	                  	Das bedeutet, dass die dreidimensionalen Teile ignoriert 
+	                  	werden, z.B. wenn die Grenzen eines Diagrammes zum 
+	                  	Speichern der Grafik bestimmt werden. 
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -71174,19 +71227,30 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quelldatei</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab, containing just the name of the 
                 node instance.</para>
+                <para lang="de">
+                	Standard-Register, enthält nur den Namen der Knoteninstanz.
+                </para>
 
-                <caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">A node instance should not generate any code, 
+	                  so having this tab active is probably a 
+	                  mistake.</para>
+	                  <para lang="de">
+	                  	Eine Knoteninstanz sollte keinen Code generieren, so 
+	                  	dass die Tatsache, dass dieses Register aktiv ist, 
+	                  	wahrscheinlich einen Fehler darstellt.
+	                  </para>
 
-                  <para lang="en">A node instance should not generate any code, 
-                  so having this tab active is probably a 
-                  mistake.</para>
-
-                </caution>
+                	</caution>
+                </para>
 
               </listitem>
 
@@ -71195,20 +71259,31 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der 
+	                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
+	                  	den Eigenschaftswert <literal>documentation</literal>, 
+	                  	der im Register <emphasis>Dokumentation</emphasis> von 
+	                  	ArgoUML bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -71217,10 +71292,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Checklist</literal></term>
+              <term lang="de"><literal>Checkliste</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab for an Instance.</para>
+                <para lang="de">Standard-Register für eine Instanz.</para>
 
               </listitem>
 
@@ -71234,7 +71311,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Node Instance Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Konteninstanz</phrase>
+		  </title>
 
           <variablelist>
 
@@ -71245,10 +71323,16 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">Navigiert in der Paketstruktur nach oben.</para>
 
               </listitem>
 
@@ -71261,17 +71345,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 node instance, navigating immediately to the properties 
                 tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Knoteninstanz und springt sofort in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -71284,21 +71389,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the node instance from the 
                 model</para>
+                <para lang="de">
+                	Löscht die Knoteninstanz aus dem Modell.
+                </para>
 
-                <warning>
-
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. To delete 
-                  an node instance from the diagram, but keep it within 
-                  the model, use the main menu <literal>Remove From 
-                  Diagram</literal> (or press the Delete key).</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram. To delete 
+	                  an node instance from the diagram, but keep it within 
+	                  the model, use the main menu <literal>Remove From 
+	                  Diagram</literal> (or press the Delete key).</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm. Um eine Knoteninstanz
+	                  	aus dem Diagramm zu löschen, aber im Modell zu 
+	                  	erhalten, verwenden Sie <literal>Aus Diagramm entfernen
+	                  	</literal> im Hauptmenü (oder drücken Sie die Taste Entf).
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -71312,13 +71434,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Node Instance</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für eine Knoteninstanz</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -71326,13 +71450,24 @@ available at http://www.opencontent.org/openpub/.
                 convention node instance names start with a lower case 
                 letter and use bumpy caps to divide words within the 
                 name.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Knoteninstanz. Per Konvention 
+                	beginnt eine Knoteninstanz mit einem Kleinbuchstaben 
+                	und verwenden die Groß-/Kleinschreibung, um Wörter innerhalb 
+                	des Namens zu unterscheiden.
+                </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -71341,11 +71476,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Node instance has no 
                 stereotypes by default in the UML standard.</para>
+                <para lang="de">
+                	Kombinationsfeld. Die Knoteninstanz hat standardmäßig im 
+                	UML-Standard keine Stereotypen.
+                </para>
 
               </listitem>
 
@@ -71354,6 +71494,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -71364,6 +71505,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, navigiert es 
+	                zum Eigenschaftsfenster des Stereotypen (siehe 
+	                <xref linkend="s1.ref.stereotype"/>).
+				</para>
 
               </listitem>
 
@@ -71372,11 +71522,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Records the namespace for the 
                 node instance. This is the package hierarchy.</para>
+                <para lang="de">
+                	Kombinationsfeld. Nimmt den Namensraum für die Knoteninstanz 
+                	auf. Dies ist die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -71385,10 +71540,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stimuli sent</literal></term>
+              <term lang="de"><literal>Auslöseimpuls gesendet</literal></term>
 
               <listitem>
 
                 <para lang="en">(To Be Written).</para>
+                <para lang="de">(Noch zu beschreiben).</para>
 
               </listitem>
 
@@ -71397,10 +71554,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stimuli Received</literal></term>
+              <term lang="de"><literal>Auslöseimpuls empfangen</literal></term>
 
               <listitem>
 
                 <para lang="en">(To Be Written).</para>
+                <para lang="de">(Noch zu beschreiben).</para>
 
               </listitem>
 
@@ -71409,15 +71568,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Residents</literal></term>
+              <term lang="de"><literal>Speicherresident</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any residents (see 
                 <xref linkend="s1.ref.component"/>) designed to be 
                 deployed on this type of node.</para>
+                <para lang="de">
+                	Textfeld. Listet alle Speicherresidenten Elemente auf (siehe 
+                	<xref linkend="s1.ref.component"/>), die entworfen wurden, 
+                	um diesen Knotentyp auszuführen.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -71426,19 +71595,30 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Classifiers</literal></term>
+              <term lang="de"><literal>Klassifizierer</literal></term>
 
               <listitem>
 
                 <para lang="en">Text field. A Node instance type can be selected 
                 here.</para>
+                <para lang="de">
+                	Textfeld. Hier kann ein Knoteninstanztyp ausgewählt werden.
+                </para>
 
-                <caution>
-
-                  <para lang="en">ArgoUML V0.18 lists many more items in the 
-                  dropdown list then solely Nodes. Beware to select 
-                  Nodes only.</para>
-
-                </caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">ArgoUML V0.18 lists many more items in the 
+	                  dropdown list then solely Nodes. Beware to select 
+	                  Nodes only.</para>
+	                  <para lang="de">
+	                  	ArgoUML V0.18 listet viel mehr Elemente in der 
+	                  	Auswahlliste auf, als ausschliesslich Knoten. Stellen 
+	                  	Sie sicher, dass Sie nur Knoten auswählen.
+	                  </para>
+	
+	                </caution>
+                </para>
 
               </listitem>
 
@@ -71454,6 +71634,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Component</phrase>
+			<phrase lang="de">Komponente</phrase>
 		</title>
 
         <para lang="en">A component type represents a distributable piece of 
@@ -71464,29 +71645,50 @@ available at http://www.opencontent.org/openpub/.
         information dependencies in a human organization. In the UML 
         metamodel it is a sub-class of <literal>
         Classifier</literal>.</para>
+        <para lang="de">
+        	Ein Komponententyp stellt eine ausführbares Stück Implemtierung eines 
+        	Systems dar, einschliesslich Softwarecode (Quellcode, Binärcode oder 
+        	ausführbare Datei), aber auch einschliesslich Geschäftsdokumente 
+        	usw., in einem menschlichen System. Komponenten können dazu 
+        	verwendet werden, Abhängigkeiten zu zeigen, solche wie Compiler und 
+        	Laufzeit-Abhängigkeiten oder Informations-Abhängigkeiten in einer 
+        	menschlichen Organisation. Im UML-Metamodell ist sie eine Subklasse 
+        	von <literal>Classifier</literal>. 
+        </para>
 
         <para lang="en">A component is represented on a class diagram as a box 
         with two small rectangles protruding from its left side, 
         labeled with its name.</para>
+        <para lang="de">
+        	Eine Komponente wird in einem Klassendiagramm als Kasten mit zwei 
+        	kleinen Rechtecken, links hervorstehend und mit seinem Namen 
+        	bezeichnet dargestellt. 
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Component Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Komponente</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for components are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Komponenten sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -71495,6 +71697,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -71502,6 +71705,12 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.component_property_toolbar"/> and 
                 <xref linkend="s2.ref.component_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.component_property_toolbar"/> und 
+	                <xref linkend="s2.ref.component_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -71510,10 +71719,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -71522,12 +71733,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. The <literal>Bounds:</literal> 
                 field defines the bounding box for the component on the 
                 diagram.</para>
+                <para lang="de">
+                	Standard-Register. Das Feld <literal>Begrenzung</literal> 
+                	definiert den umgebenden Kasten der Komponente im Diagramm.
+                </para>
 
               </listitem>
 
@@ -71536,17 +71752,26 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quelldatei</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab, but with no contents.</para>
+                <para lang="de">Standard-Register, aber ohne Inhalte.</para>
 
-                <caution>
-
-                  <para lang="en">A component should not generate any code, so 
-                  having this tab active is probably a mistake.</para>
-
-                </caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">A component should not generate any code, so 
+	                  having this tab active is probably a mistake.</para>
+	                  <para lang="de">
+	                  	Eine Komponente sollte keinen Code generieren, so dass die 
+	                  	Tatsache, dass dieses Register aktiv ist, wahrscheinlich 
+	                  	einen Fehler darstellt.
+	                  </para>
+	
+	                </caution>
+                </para>
 
               </listitem>
 
@@ -71555,20 +71780,31 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der 
+	                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
+	                  	den Eigenschaftswert <literal>documentation</literal>, 
+	                  	der im Register <emphasis>Dokumentation</emphasis> von 
+	                  	ArgoUML bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -71582,7 +71818,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Component Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Komponente</phrase>
+		  </title>
 
           <variablelist>
 
@@ -71593,10 +71830,16 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">Navigiert in der Paketstruktur nach oben.</para>
 
               </listitem>
 
@@ -71609,12 +71852,21 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/reception.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New reception</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/reception.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neues Empfangssignal</literal></term>
 
               <listitem>
 
                 <para lang="en">This creates a new reception, navigating 
                 immediately to the properties tab for that 
                 reception.</para>
+                <para lang="de">
+                	Erzeugt ein neues Empfangssignal und springt sofort in 
+                	das Register Eigenschaften dieses Empfangssignales.
+                </para>
 
               </listitem>
 
@@ -71627,17 +71879,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 component, navigating immediately to the properties tab 
                 for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Komponente und springt sofort in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -71650,20 +71923,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the component from the model</para>
+                <para lang="de">
+                	Löscht die Komponente aus dem Modell.
+                </para>
 
-                <warning>
 
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. To delete 
-                  a component from the diagram, but keep it within the 
-                  model, use the main menu <literal>Remove From 
-                  Diagram</literal> (or press the Delete key).</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram. To delete 
+	                  a component from the diagram, but keep it within the 
+	                  model, use the main menu <literal>Remove From 
+	                  Diagram</literal> (or press the Delete key).</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm. Um eine Komponente  
+	                  	aus dem Diagramm zu löschen, aber im Modell zu 
+	                  	erhalten, verwenden Sie <literal>Aus Diagramm entfernen
+	                  	</literal> im Hauptmenü (oder drücken Sie die Taste Entf).
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -71677,26 +71968,39 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Component</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für eine Komponente</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. The name of the component. The name of 
                 a component has a leading capital letter, with words 
                 separated by <quote>bumpy caps</quote>.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Komponente. Per Konvention 
+                	beginnen Komponenten mit einem Großbuchstaben 
+                	und verwenden die Groß-/Kleinschreibung, um Wörter innerhalb 
+                	des Namens zu unterscheiden.
+                </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -71705,6 +72009,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -71717,6 +72022,16 @@ available at http://www.opencontent.org/openpub/.
                 metaclass</literal>, <literal>powertype</literal>, 
                 <literal>process</literal>, <literal>thread</literal> 
                 and <literal>utility</literal>.</para>
+                <para lang="de">
+                	Kombinationsfeld. Die Komponente bietet standardmäßig im 
+                	UML-Standard die Stereotypen <literal>
+                	document</literal>, <literal>executable</literal>, 
+                	<literal>file</literal>, <literal>library</literal> und 
+                	<literal>table</literal>. ArgoUML bietet auch die Standard-
+                	Klassifzierer-Stereotypen <literal>metaclass</literal>, 
+                	<literal>powertype</literal>, <literal>process</literal>, 
+                	<literal>thread</literal> und <literal>utility</literal> an.
+                </para>
 
               </listitem>
 
@@ -71725,6 +72040,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -71735,6 +72051,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, navigiert es 
+	                zum Eigenschaftsfenster des Stereotypen (siehe 
+	                <xref linkend="s1.ref.stereotype"/>).
+				</para>
 
               </listitem>
 
@@ -71743,12 +72068,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Records and allows altering 
                 the namespace for the component. This is the package 
                 hierarchy.</para>
+                <para lang="de">
+                	Kombinationsfeld. Nimmt den Namensraum für die Komponente 
+                	auf und erlaubt des Ändern des Namensraumes. 
+                	Dies ist die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -71757,12 +72088,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Modifiers</literal></term>
+              <term lang="de"><literal>Modifizierer</literal></term>
 
               <listitem>
 
                 <para lang="en">Check box, with entries <literal>
                 abstract</literal>, <literal>leaf</literal> and 
                 <literal>root</literal>.</para>
+                <para lang="de">
+                	Markierfelder mit den Einträgen <literal>Abstract</literal>, 
+                	<literal>Leaf</literal> und <literal>Root</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -71771,6 +72107,11 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en"><literal>Abstract</literal> is used to 
                     declare that this component cannot be instantiated, 
                     but must always be specialized.</para>
+                    <para lang="de">
+                    	<literal>Abstract</literal> wird verwendet, um zu 
+                    	deklarieren, dass diese Komponente nicht instanziiert 
+                    	werden kann, aber immer spezialisiert werden muss. 
+                    </para>
 
                   </listitem>
 
@@ -71778,6 +72119,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Leaf</literal> indicates that this 
                     component cannot be further specialized.</para>
+                    <para lang="de">
+                    	<literal>Leaf</literal> gibt an, dass diese Komponente 
+                    	nicht weiter spezialisiert werden kann.
+                    </para>
 
                   </listitem>
 
@@ -71785,6 +72130,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>Root</literal> indicates the node 
                     can have no generalization.</para>
+                    <para lang="de">
+                    	<literal>root</literal> gibt an, dass die Komponente 
+                    	keine Generalisierung haben kann.
+                    </para>
 
                   </listitem>
 
@@ -71797,11 +72146,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Generalizations</literal></term>
+              <term lang="de"><literal>Generalisierungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any component that generalizes 
                 this component.</para>
+                <para lang="de">
+                	Textbereich. Listet jede Komponente auf, die diese 
+                	Komponente <emphasis>generalisiert</emphasis>.
+                </para>
 
               </listitem>
 
@@ -71810,12 +72164,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Specializations</literal></term>
+              <term lang="de"><literal>Spezialisierungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists any derived components, i.e 
                 those for which this component is a 
                 generalization.</para>
+                <para lang="de">
+                	Textfeld. Listet alle spezialisierten Komponenten auf 
+                	(z.B. für die diese Komponente eine Generalisierung ist).
+                </para>
 
               </listitem>
 
@@ -71824,11 +72183,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Client Dependencies</literal></term>
+              <term lang="de"><literal>Abhängig von</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists outgoing dependencies. Button&nbsp;1 
                 double click navigates to the dependency.</para>
+                <para lang="de">
+                	Textbereich. Listet abgehende Abhängigkeiten auf. Ein 
+                	Taste&nbsp;1-Doppelklick navigiert zu der Abhängigkeit.
+                </para>
 
               </listitem>
 
@@ -71837,11 +72201,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Supplier Dependencies</literal></term>
+              <term lang="de"><literal>Notwendig für</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists incoming dependencies. Button&nbsp;1 
                 double click navigates to the dependency.</para>
+                <para lang="de">
+                	Textbereich. Listet ankommende Abhängigkeiten auf. Ein 
+                	Taste&nbsp;1-Doppelklick navigiert zu der Abhängigkeit.
+                </para>
 
               </listitem>
 
@@ -71850,15 +72219,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Residents</literal></term>
+              <term lang="de"><literal>Speicherresident</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any residents (see 
                 <xref linkend="s1.ref.component"/>) designed to be 
                 deployed on this type of node.</para>
+                <para lang="de">
+                	Textfeld. Listet alle Speicherresidenten Elemente auf (siehe 
+                	<xref linkend="s1.ref.component"/>), die entworfen wurden, 
+                	um diesen Knotentyp auszuführen.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -71874,6 +72253,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Component Instance</phrase>
+			<phrase lang="de">Komponenteninstanz</phrase>
 		</title>
 
         <para lang="en">A component instance is an instance of a component (see 
@@ -71882,43 +72262,77 @@ available at http://www.opencontent.org/openpub/.
         UML metamodel <literal>ComponentInstance</literal> is a 
         sub-class of <literal>Instance</literal> and is specifically an 
         instance that is derived from a component.</para>
+        <para lang="de">
+        	Eine Komponenteninstanz ist eine Instanz einer Komponente (siehe 
+        	<xref linkend="s1.ref.component"/>), die sich in einer Knoteninstanz 
+        	befinden kann (siehe <xref linkend="s1.ref.node_instance"/>). Im 
+        	UML-Metamodell ist <literal>ComponentInstance</literal> eine 
+        	Subklasse von <literal>Instance</literal> und eine spezielle 
+        	Instanz, die von einer Komponente abgeleitet wurde.
+        </para>
 
         <para lang="en">A component is represented on a class diagram as a box 
         with two small rectangles protruding from its left side, 
         labeled with its name.</para>
+        <para lang="de">
+        	Eine Komponente wird in einem Klassendiagramm als Kasten mit zwei 
+        	schmalen Rechtecken, links hervorgehoben und mit seinem Namen 
+        	bezeichnet, dargestellt.
+        </para>
 
         <para lang="en">A component instance is represented on a sequence diagram 
         in ArgoUML as a box with two small rectangles protruding from 
         its left side labeled with the component instance name (if any) 
         and component type, separated by a colon (
         <literal>:</literal>).</para>
-
-        <tip>
-
-          <para lang="en">It is the presence of the colon (<literal>:</literal>) 
-          and the underlining of the name and type that distinguishes a 
-          component instance from a component.</para>
-
-        </tip>
+        <para lang="de">
+        	Eine Komponenteninstanz wird in einem Sequenzdiagramm von ArgoUML als 
+        	Kasten mit zwei schmalen Rechtecken, links hervorgehoben und mit 
+        	dem Komponenteninstanznamen (falls vorhanden) und dem, durch einen 
+        	Doppelpunkt (<literal>:</literal>) getrennten Komponententyp 
+        	bezeichnet ist, dargestellt.
+        </para>
+        
+		<para>
+	        <tip>
+	
+	          <para lang="en">It is the presence of the colon (<literal>:</literal>) 
+	          and the underlining of the name and type that distinguishes a 
+	          component instance from a component.</para>
+	          <para lang="de">
+	          	Die Präsenz des Doppelpunktes (<literal>:</literal>) und der 
+	          	unterstrichene Name und der Typ unterscheidet eine 
+	          	Komponenteninstanz von einer Komponente.
+	          </para>
+	
+	        </tip>
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Component Instance Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Komponenteninstanz</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for component 
           instances are as follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für eine Komponenteninstanz sind die 
+          	folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -71927,6 +72341,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -71935,6 +72350,13 @@ available at http://www.opencontent.org/openpub/.
                  and 
                 <xref linkend="s2.ref.component_instance_property_fields"/>
                  below.</para>
+                <para lang="de">
+	                Siehe  
+	                <xref linkend="s2.ref.component_instance_property_toolbar"/>
+	                 und 
+	                <xref linkend="s2.ref.component_instance_property_fields"/>
+	                 unten.
+                 </para>
 
               </listitem>
 
@@ -71943,10 +72365,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -71955,12 +72379,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. The <literal>Bounds:</literal> 
                 field defines the bounding box for the component on the 
                 diagram.</para>
+                <para lang="de">
+                	Standard-Register. Das Feld <literal>Begrenzung</literal> 
+                	definiert den umgebenden Kasten der Komponente im 
+                	Diagramm.
+                </para>
 
               </listitem>
 
@@ -71969,19 +72399,31 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quelldatei</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab, containing just the name of the 
                 component instance.</para>
+                <para lang="de">
+                	Standard-Register, enthält nur den Namen der 
+                	Komponenteninstanz.
+                </para>
 
-                <caution>
-
-                  <para lang="en">A component instance should not generate any 
-                  code, so having this tab active is probably a 
-                  mistake.</para>
-
-                </caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">A component instance should not generate any 
+	                  code, so having this tab active is probably a 
+	                  mistake.</para>
+	                  <para lang="de">
+	                  	Eine Komponenteninstanz sollte keinen Code generieren, so 
+	                  	dass die Tatsache, dass dieses Register aktiv ist, 
+	                  	wahrscheinlich einen Fehler darstellt.
+	                  </para>
+	
+	                </caution>
+                </para>
 
               </listitem>
 
@@ -71990,20 +72432,31 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der 
+	                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
+	                  	den Eigenschaftswert <literal>documentation</literal>, 
+	                  	der im Register <emphasis>Dokumentation</emphasis> von 
+	                  	ArgoUML bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -72012,10 +72465,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Checklist</literal></term>
+              <term lang="de"><literal>Checkliste</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab for an Instance.</para>
+                <para lang="de">Standard-Register für eine Instanz.</para>
 
               </listitem>
 
@@ -72029,7 +72484,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Component Instance Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Komponenteninstanz</phrase>
+		  </title>
 
           <variablelist>
 
@@ -72040,10 +72496,16 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">Navigiert in der Paketstruktur nach oben.</para>
 
               </listitem>
 
@@ -72056,17 +72518,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 component instance, navigating immediately to the 
                 properties tab for that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für die markierte 
+                	Komponenteninstanz und springt sofort in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -72079,22 +72562,39 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the component instance from the 
                 model</para>
+                <para lang="de">
+                	Löscht die Komponenteninstanz aus dem Modell.
+                </para>
 
-                <warning>
-
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. To delete 
-                  a component instance from the diagram, but keep it 
-                  within the model, use the main menu <literal>Remove 
-                  From Diagram</literal> (or press the Delete 
-                  key).</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram. To delete 
+	                  a component instance from the diagram, but keep it 
+	                  within the model, use the main menu <literal>Remove 
+	                  From Diagram</literal> (or press the Delete 
+	                  key).</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm. Um eine Komponenteninstanz
+	                  	aus dem Diagramm zu löschen, aber im Modell zu 
+	                  	erhalten, verwenden Sie <literal>Aus Diagramm entfernen
+	                  	</literal> im Hauptmenü (oder drücken Sie die Taste Entf).
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -72108,13 +72608,17 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Component Instance</phrase>
-		</title>
+			<phrase lang="de">
+				Eigenschaftsfelder für eine Komponenteninstanz
+			</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
@@ -72122,11 +72626,20 @@ available at http://www.opencontent.org/openpub/.
                 convention component instance names start with a lower 
                 case letter and use bumpy caps to divide words within 
                 the name.</para>
+                <para lang="de">
+                	Textfeld. Der Name der Komponenteninstanz. Per Konvention 
+                	beginnt eine Komponenteninstanz mit einem Kleinbuchstaben 
+                	und verwenden die Groß-/Kleinschreibung, um Wörter innerhalb 
+                	des Namens zu unterscheiden.
+                </para>
 
                 <note>
 
                   <para lang="en">ArgoUML does not enforce this naming 
                   convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
 
                 </note>
 
@@ -72137,11 +72650,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Component instance has no 
                 stereotypes by default in the UML standard.</para>
+                <para lang="de">
+                	Kombinationsfeld. Die Komponenteninstanz hat standardmäßig im 
+                	UML-Standard keine Stereotypen.
+                </para>
 
               </listitem>
 
@@ -72150,6 +72668,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -72160,6 +72679,15 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, navigiert es 
+	                zum Eigenschaftsfenster des Stereotypen (siehe 
+	                <xref linkend="s1.ref.stereotype"/>).
+				</para>
 
               </listitem>
 
@@ -72168,12 +72696,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Records and allows to change 
                 the namespace for the component instance. This is the 
                 package hierarchy.</para>
+                <para lang="de">
+                	Kombinationsfeld. Nimmt den Namensraum für die 
+                	Komponenteninstanz auf. Dies ist die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -72182,10 +72715,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stimuli sent</literal></term>
+              <term lang="de"><literal>Auslöseimpuls gesendet</literal></term>
 
               <listitem>
 
                 <para lang="en">(To Be Written).</para>
+                <para lang="de">(Noch zu beschreiben).</para>
 
               </listitem>
 
@@ -72194,10 +72729,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stimuli Received</literal></term>
+              <term lang="de"><literal>Auslöseimpuls empfangen</literal></term>
 
               <listitem>
 
                 <para lang="en">(To Be Written).</para>
+                <para lang="de">(Noch zu beschreiben).</para>
 
               </listitem>
 
@@ -72206,15 +72743,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Residents</literal></term>
+              <term lang="de"><literal>Speicherresident</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any residents (see 
                 <xref linkend="s1.ref.component"/>) designed to be 
                 deployed on this component.</para>
+                <para lang="de">
+                	Textfeld. Listet alle Speicherresidenten Elemente auf (siehe 
+                	<xref linkend="s1.ref.component"/>), die entworfen wurden, 
+                	um diese Komponente auszuführen.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -72223,19 +72770,31 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Classifiers</literal></term>
+              <term lang="de"><literal>Klassifizierer</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. A Component instance type can 
                 be selected here.</para>
+                <para lang="de">
+                	Textfeld. Hier kann ein Komponenteninstanztyp ausgewählt 
+                	werden.
+                </para>
 
-                <caution>
-
-                  <para lang="en">ArgoUML V0.18 lists many more items in the 
-                  dropdown list then solely Components. Beware to 
-                  select Components only.</para>
-
-                </caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">ArgoUML V0.18 lists many more items in the 
+	                  dropdown list then solely Components. Beware to 
+	                  select Components only.</para>
+	                  <para lang="de">
+	                  	ArgoUML V0.18 listet viel mehr Elemente in der 
+	                  	Auswahlliste auf, als ausschliesslich Komponenten. 
+	                  	Stellen Sie sicher, dass Sie nur Komponenten auswählen.
+	                  </para>
+	
+	                </caution>
+                </para>
 
               </listitem>
 
@@ -72251,21 +72810,36 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Dependency</phrase>
+			<phrase lang="de">Abhängigkeit</phrase>
 		</title>
 
         <para lang="en">A key part of any component or deployment diagram is to 
         show dependencies. For details see 
         <xref linkend="s1.ref.dependency_class"/>.</para>
+        <para lang="de">
+        	Ein wichtiger Teil eines Komponenten- oder eines 
+        	Verteilungsdiagrammes ist es, Abhängigkeiten darzustellen. Details 
+        	entnehmen Sie <xref linkend="s1.ref.dependency_class"/>.
+        </para>
 
-        <caution>
-
-          <para lang="en">UML relies on stereotyping of dependencies on component 
-          and deployment diagrams to characterize the types of 
-          relationship. In the current release of ArgoUML there are 
-          limitations in the implementation of dependencies which limit 
-          this functionality.</para>
-
-        </caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">UML relies on stereotyping of dependencies on component 
+	          and deployment diagrams to characterize the types of 
+	          relationship. In the current release of ArgoUML there are 
+	          limitations in the implementation of dependencies which limit 
+	          this functionality.</para>
+	          <para lang="de">
+	          	UML stützt sich auf das Stereotypisieren von Komponenten-
+	          	Abhängigkeiten und Verteilungsdiagrammen, um die Beziehungstypen 
+	          	zu charakterisieren. In der aktuellen Release von ArgoUML gibt 
+	          	es Einschränkungen bei der Implementierung von Abhängigkeiten, 
+	          	die diese Funktionalität einschränken. 
+	          </para>
+	
+	        </caution>
+        </para>
 
       </sect1>
 
@@ -72273,21 +72847,36 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Class</phrase>
+			<phrase lang="de">Klasse</phrase>
 		</title>
 
         <para lang="en">A component diagram may show the key internal structure 
         of components, including classes within the component. For 
         details see <xref linkend="s1.ref.class_class"/>.</para>
+        <para lang="de">
+        	Ein Komponentendiagramm kann die interne Struktur von Komponenten 
+        	darstellen, einschliesslic der Klassen innerhalb der Komponente. 
+        	Details entnehmen Sie <xref linkend="s1.ref.class_class"/>.
+        </para>
 
-        <caution>
-
-          <para lang="en">Classes can only be added to a component diagram if 
-          they already exist in the model (by selecting them in the 
-          explorer and executing the &quot;Add to diagram&quot; 
-          button&nbsp;2 command). There is no way to create a new class on a 
-          component diagram.</para>
-
-        </caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">Classes can only be added to a component diagram if 
+	          they already exist in the model (by selecting them in the 
+	          explorer and executing the &quot;Add to diagram&quot; 
+	          button&nbsp;2 command). There is no way to create a new class on a 
+	          component diagram.</para>
+	          <para lang="de">
+	          	Klassen können nur zu einem Komponentendiagramm hinzugefügt 
+	          	werden, wenn sie bereits im Modell existieren (durch markieren 
+	          	im Explorer und ausführen von &quot;Zum Diagramm hinzufügen&quot;). 
+	          	Es gibt keinen Weg, eine neue Klasse einem Komponentendiagramm 
+	          	zu erzeugen.
+	          </para>
+	
+	        </caution>
+        </para>
 
       </sect1>
 
@@ -72295,30 +72884,53 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Interface</phrase>
+			<phrase lang="de">Schnittstelle</phrase>
 		</title>
 
         <para lang="en">A component or deployment diagram may show components or 
         component instances which implement interfaces. For details see 
         <xref linkend="s1.ref.interface_class"/>.</para>
+        <para lang="de">
+        	Ein Komponenten- oder Verteilungsdiagramm kann Komponenten oder 
+        	Komponenteninstanzen darstellen, die Schnittstellen implementieren. 
+        	Weiter Details entnehmen Sie <xref linkend="s1.ref.interface_class"/>.
+        </para>
 
-        <caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">The V0.18 release of ArgoUML uses the same 
+	          representation of an interface as a class diagram. The UML 
+	          standard suggests that an interface on a component or 
+	          deployment diagram should just be shown as a small open 
+	          circle, connected to the component which realizes that 
+	          interface.</para>
+	          <para lang="de">
+	          	Die V0.18 Release von ArgoUML verwendet die gleiche Darstellung 
+	          	von Schnittstellen wie im Klassendiagramm. Der UML-Standard 
+	          	empfielt, dass eine Schnittstelle in einem Komponenten- oder 
+	          	Verteilungsdiagramm als kleiner offener Kreis dargestellt werden 
+	          	sollte, verbunden mit der Komponente, die diese Schnittstelle 
+	          	realisiert.
+	          </para>
+	
+	        </caution>
+        </para>
 
-          <para lang="en">The V0.18 release of ArgoUML uses the same 
-          representation of an interface as a class diagram. The UML 
-          standard suggests that an interface on a component or 
-          deployment diagram should just be shown as a small open 
-          circle, connected to the component which realizes that 
-          interface.</para>
-
-        </caution>
-
-        <warning>
-
-          <para lang="en">There is no way to show the linking of an interface to 
-          a component or component instance in the V0.18 release of 
-          ArgoUML.</para>
-
-        </warning>
+		<para>
+	        <warning>
+	
+	          <para lang="en">There is no way to show the linking of an interface to 
+	          a component or component instance in the V0.18 release of 
+	          ArgoUML.</para>
+	          <para lang="de">
+	          	Es gibt keinen Weg, die Verbindung einer Schnittstelle mit 
+	          	einer Komponente oder Komponenteninstanz in der Release V0.18 
+	          	von ArgoUML darzustellen.
+	          </para>
+	
+	        </warning>
+        </para>
 
       </sect1>
 
@@ -72326,15 +72938,25 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Association</phrase>
+			<phrase lang="de">Assoziation</phrase>
 		</title>
 
         <para lang="en">Components may be associated to each other. For details 
         about associations, see 
         <xref linkend="s1.ref.association_class"/>.</para>
+        <para lang="de">
+        	Komponenten können miteinander verknüpft werden. Weiter Details 
+        	über Assoziationen, siehe <xref linkend="s1.ref.association_class"/>.
+        </para>
 
         <para lang="en">Where classes or interfaces are shown within components 
         on component diagrams, they may be shown linked by 
         associations.</para>
+        <para lang="de">
+        	Wo Klassen oder Schnittstellen innerhalb von Komponenten in 
+        	Komponentendiagrammen dargestellt werden, können Sie als verbundene 
+        	Assoziationen dargestellt werden.
+        </para>
 
       </sect1>
 
@@ -72342,6 +72964,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Object</phrase>
+			<phrase lang="de">Objekt</phrase>
 		</title>
 
         <para lang="en">Just as components may show the classifiers that make up 
@@ -72350,6 +72973,14 @@ available at http://www.opencontent.org/openpub/.
         internal structure. In practice the only instance that is of 
         use is an object (an instance of a class). For details see 
         <xref linkend="s1.ref.object_sequence"/>.</para>
+        <para lang="de">
+        	Wie Komponenten die Klassifizierer darstellen können, die deren 
+        	interne Struktur ausmachen, können Komponenteninstanzen in 
+        	Verteilungsdiagrammen die Klassifziererinstanzen darstellen, die 
+        	deren interne Struktur ausmachen. In der Praxis ist die einzige 
+        	Instanz die verwendet wird ein Objekt (eine Instanz einer Klasse). 
+        	Details siehe <xref linkend="s1.ref.object_sequence"/>.
+        </para>
 
       </sect1>
 
@@ -72357,6 +72988,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Link</phrase>
+			<phrase lang="de">Verbindung</phrase>
 		</title>
 
         <para lang="en">Where objects (Node Instances or Class Instances) are 
@@ -72364,6 +72996,13 @@ available at http://www.opencontent.org/openpub/.
         inter-relationships may be shown as links (instances of an 
         association). See <xref linkend="s1.ref.link_sequence"/> for 
         details.</para>
+        <para lang="de">
+        	Wo Objekte (Knoteninstanzen oder Klasseninstanzen) innerhalb von 
+        	Komponenteninstanzen in Verteilungsdiagrammen dargestellt werden, 
+        	können ihre Beziehungen zueinander als Verbindungen (Instanzen einer 
+        	Assoziation) dargestellt werden. Siehe 
+        	<xref linkend="s1.ref.link_sequence"/> für weitere Details.
+        </para>
 
       </sect1>
 
@@ -72373,6 +73012,7 @@ available at http://www.opencontent.org/openpub/.
 
       <title>
 			<phrase lang="en">Profiles</phrase>
+			<phrase lang="de">Profile</phrase>
 		</title>
 
         <caution>
