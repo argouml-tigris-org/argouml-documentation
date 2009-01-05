@@ -60515,7 +60515,7 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Link Details Tabs</phrase>
-			<phrase lang="de">Deteil-Register Verknüpfung</phrase>
+			<phrase lang="de">Detail-Register Verknüpfung</phrase>
 		  </title>
 
           <para lang="en">The details tabs that are active for links are as 
@@ -70356,7 +70356,7 @@ available at http://www.opencontent.org/openpub/.
 				Limitations Concerning Deployment Diagrams in ArgoUML
 			</phrase>
 			<phrase lang="de">
-				Einschränkgungen, Verteilungsdiagramme in ArgoUML betreffend
+				Einschränkungen, Verteilungsdiagramme in ArgoUML betreffend
 			</phrase>
 		  </title>
 
@@ -70403,28 +70403,42 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">A node is a run-time physical object on which components 
         may be deployed. In the UML metamodel it is a sub-class of 
         <literal>Classifier</literal>.</para>
+        <para lang="de">
+        	Ein Knoten ist zur Laufzeit ein physikalisches Objekt auf dem 
+        	Komponenten ausgeführt werden können.
+        </para>
 
         <para lang="en">A node is represented on a class diagram as a three 
         dimensional box, labeled with its name.</para>
+        <para lang="de">
+        	Ein Knoten wird in einem Klassendiagramm als dreidimensionaler 
+        	Kasten dargestellt, der mit seinem Namen beschriftet ist.
+        </para>
 
         <sect2>
 
           <title>
 			<phrase lang="en">Node Details Tabs</phrase>
-		</title>
+			<phrase lang="de">Detail-Register Knoten</phrase>
+		  </title>
 
           <para lang="en">The details tabs that are active for nodes are as 
           follows.</para>
+          <para lang="de">
+          	Die aktiven Detail-Register für Knoten sind die folgenden.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>ToDoItem</literal></term>
+              <term lang="de"><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -70433,12 +70447,19 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
                 <para lang="en">See <xref linkend="s2.ref.node_property_toolbar"/>
                  and <xref linkend="s2.ref.node_property_fields"/> 
                 below.</para>
+                <para lang="de">
+	                Siehe 
+	                <xref linkend="s2.ref.node_property_toolbar"/>
+	                 und <xref linkend="s2.ref.node_property_fields"/> 
+	                unten.
+                </para>
 
               </listitem>
 
@@ -70447,10 +70468,12 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Documentation</literal></term>
+              <term lang="de"><literal>Dokumentation</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab.</para>
+                <para lang="de">Standard-Register.</para>
 
               </listitem>
 
@@ -70459,22 +70482,36 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Presentation</literal></term>
+              <term lang="de"><literal>Darstellung</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. The <literal>Bounds:</literal> 
                 field defines the bounding box for the node on the 
                 diagram.</para>
+                <para lang="de">
+                	Standard-Register. Das Feld <literal>Begrenzung</literal> 
+                	definiert den umgebenden Kasten des Knoten im Diagramm.
+                </para>
 
-                <warning>
-
-                  <para lang="en">Beware that in the 0.18 release of ArgoUML, the 
-                  bounding box just refers to the front face of the 
-                  cube. This means that the three dimensional top and 
-                  side may be ignored, for example when determining the 
-                  limits of a diagram for saving graphics.</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">Beware that in the 0.18 release of ArgoUML, the 
+	                  bounding box just refers to the front face of the 
+	                  cube. This means that the three dimensional top and 
+	                  side may be ignored, for example when determining the 
+	                  limits of a diagram for saving graphics.</para>
+	                  <para lang="de">
+	                  	Vorsicht, in der Release V0.18 von ArgoUML bezieht sich 
+	                  	der umgebende Kasten nur auf den vorderen Teil des Kubus. 
+	                  	Das bedeutet, dass die dreidimensionalen Teile ignoriert 
+	                  	werden, z.B. wenn die Grenzen eines Diagrammes zum 
+	                  	Speichern der Grafik bestimmt werden. 
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -70483,17 +70520,26 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Source</literal></term>
+              <term lang="de"><literal>Quelldatei</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab, but with no contents.</para>
+                <para lang="de">Standard-Register, aber ohne Inhalte.</para>
 
-                <caution>
-
-                  <para lang="en">A node should not generate any code, so having 
-                  this tab active is probably a mistake.</para>
-
-                </caution>
+				<para>
+	                <caution>
+	
+	                  <para lang="en">A node should not generate any code, so having 
+	                  this tab active is probably a mistake.</para>
+	                  <para lang="de">
+	                  	Ein Knoten sollte keinen Code generieren, so dass die 
+	                  	Tatsache, dass dieses Register aktiv ist, wahrscheinlich 
+	                  	einen Fehler darstellt.
+	                  </para>
+	
+	                </caution>
+                </para>
 
               </listitem>
 
@@ -70502,12 +70548,18 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Tagged Values</literal></term>
+              <term lang="de"><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
                 <para lang="en">Standard tab. In the UML metamodel, <literal>
                 Node</literal> has the following standard tagged values 
                 defined.</para>
+                <para lang="de">
+                	Standard-Register. Im UML-Metamodell sind für <literal>
+                	Knoten</literal> die folgenden Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
                 <itemizedlist>
 
@@ -70519,6 +70571,15 @@ available at http://www.opencontent.org/openpub/.
                     destroyed when an instance is destroyed or <literal>
                     persistent</literal>, marking state is preserved 
                     when an instance is destroyed.</para>
+                    <para lang="de">
+                    	<literal>persistence</literal> (von der Superklasse 
+                    	<literal>Classifier</literal>). Der Wert <literal>
+                    	transitory</literal> gibt an, dass der Zustand zerstört 
+                    	wird, wenn die Instanz zerstört wird, oder <literal>
+                    	persistent</literal> kennzeichnet, dass der Zustand 
+                    	erhalten bleibt, wenn die Instanz zerstört wird.
+                    </para>
+                   
 
                   </listitem>
 
@@ -70528,6 +70589,11 @@ available at http://www.opencontent.org/openpub/.
                     superclass, <literal>Classifier</literal>). The 
                     value is a specification of the semantics of the 
                     node.</para>
+                    <para lang="de">
+                    	<literal>semantics</literal> (von der Superklasse 
+                    	<literal>Classifier</literal>). Der Wert ist eine 
+                    	Spezifikation der Semantik des Knotens.
+                    </para>
 
                   </listitem>
 
@@ -70539,28 +70605,53 @@ available at http://www.opencontent.org/openpub/.
                     redundant&mdash;it can be formally derived from other 
                     elements, or <literal>false</literal> meaning it 
                     cannot.</para>
+                    <para lang="de">
+                    	<literal>derived</literal> (von der Superklasse 
+                    	<literal>ModelElement</literal>). Der Wert <literal>true
+                    	</literal> bedeutet, dass der Knoten redundant ist
+                    	&mdash; er kann formal von anderen Elementen abgeleitet 
+                    	werden, oder <literal>false</literal>, wenn er es nicht 
+                    	kann.
+                    </para>
 
-                    <note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived nodes still have their value in 
+	                      analysis to introduce useful names or concepts, 
+	                      and in design to avoid re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Knoten haben ihren 
+	                      	Wert in Analyse, um nützliche Namen oder 
+	                      	Konzepte einzuführen. Und im Design, um eine 
+	                      	Wiederverarbeitung zu verhindern.
+	                      </para>
 
-                      <para lang="en">Derived nodes still have their value in 
-                      analysis to introduce useful names or concepts, 
-                      and in design to avoid re-computation.</para>
-
-                    </note>
+	                    </note>
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der 
+	                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
+	                  	den Eigenschaftswert <literal>documentation</literal>, 
+	                  	der in ArgoUML im Register <literal>Dokumentation
+	                  	</literal> bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -70574,7 +70665,8 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Node Property Toolbar</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftssymbolleiste Knoten</phrase>
+		  </title>
 
           <variablelist>
 
@@ -70585,10 +70677,16 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Go up</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/navigate_up.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
                 <para lang="en">Navigate up through the package structure.</para>
+                <para lang="de">Navigiert in der Paketstruktur nach oben.</para>
 
               </listitem>
 
@@ -70601,12 +70699,21 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/reception.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New reception</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/reception.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neues Empfangssignal</literal></term>
 
               <listitem>
 
                 <para lang="en">This creates a new reception, navigating 
                 immediately to the properties tab for that 
                 reception.</para>
+                <para lang="de">
+                	Erzeugt ein neues Empfangssignal und springt sofort in 
+                	das Register Eigenschaften dieses Empfangssignales.
+                </para>
 
               </listitem>
 
@@ -70619,17 +70726,38 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>New Stereotype</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/stereotype.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
                 <indexterm lang="en"><primary>Add Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Stereotyp hinzufügen</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>New Stereotype</primary></indexterm>
+                <indexterm lang="de">
+                	<primary>Neuer Stereotyp</primary>
+                </indexterm>
                 <indexterm lang="en"><primary>Create 
                 New</primary><secondary>Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                	<primary>Erzeuge neuen</primary>
+                	<secondary>Stereotyp</secondary>
+                </indexterm>
                 <para lang="en">This creates a new Stereotype (see 
                 <xref linkend="s1.ref.stereotype"/>) for the selected 
                 node, navigating immediately to the properties tab for 
                 that stereotype.</para>
+                <para lang="de">
+                	Erzeugt einen neuen Stereotyp (siehe 
+                	<xref linkend="s1.ref.stereotype"/>) für den markierten 
+                	Knoten und springt sofort in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
 
               </listitem>
 
@@ -70642,20 +70770,37 @@ available at http://www.opencontent.org/openpub/.
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
+              <term lang="de"><guiicon><inlinemediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/icons/property_delete.gif"
+               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <literal>Löschen</literal></term>
 
               <listitem>
 
                 <para lang="en">This deletes the node from the model</para>
+                <para lang="de">
+                	Löscht den Knoten aus dem Modell.
+                </para>
 
-                <warning>
-
-                  <para lang="en">This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. To delete 
-                  a node from the diagram, but keep it within the 
-                  model, use the main menu <literal>Remove From 
-                  Diagram</literal> (or press the Delete key).</para>
-
-                </warning>
+				<para>
+	                <warning>
+	
+	                  <para lang="en">This is a deletion from the model 
+	                  <emphasis>not</emphasis> just the diagram. To delete 
+	                  a node from the diagram, but keep it within the 
+	                  model, use the main menu <literal>Remove From 
+	                  Diagram</literal> (or press the Delete key).</para>
+	                  <para lang="de">
+	                  	Dies ist ein Löschen aus dem Modell, <emphasis>nicht
+	                  	</emphasis> nur aus dem Diagramm. Um eine Klassifizierer 
+	                  	Rolle aus dem Diagramm zu löschen, aber im Modell zu 
+	                  	erhalten, verwenden Sie <literal>Aus Diagramm entfernen
+	                  	</literal> im Hauptmenü (oder drücken Sie die Taste Entf).
+	                  </para>
+	
+	                </warning>
+                </para>
 
               </listitem>
 
@@ -70669,26 +70814,39 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Property Fields For Node</phrase>
-		</title>
+			<phrase lang="de">Eigenschaftsfelder für einen Knoten</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
               <term lang="en"><literal>Name</literal></term>
+              <term lang="de"><literal>Name</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. The name of the node. The name of a 
                 node has a leading capital letter, with words separated 
                 by <quote>bumpy caps</quote>.</para>
+                <para lang="de">
+                	Textfeld. Der Name des Knotens. Per Konvention 
+                	beginnen Knoten mit einem Großbuchstaben 
+                	und verwenden die Groß-/Kleinschreibung, um Wörter innerhalb 
+                	des Namens zu unterscheiden.
+                </para>
 
-                <note>
+				<para>
+                	<note>
 
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
+                  	  <para lang="en">ArgoUML does not enforce this naming 
+                  	  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
 
-                </note>
+                	</note>
+                </para>
 
               </listitem>
 
@@ -70697,6 +70855,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp</literal></term>
 
               <listitem>
 
@@ -70707,6 +70866,15 @@ available at http://www.opencontent.org/openpub/.
                 metaclass</literal>, <literal>powertype</literal>, 
                 <literal>process</literal>, <literal>thread</literal> 
                 and <literal>utility</literal>.</para>
+                <para lang="de">
+                	Kombinationsfeld. Ein Knoten ist ein Klassifzierertyp und so 
+                	sind weist er die Standard-Stereotypen eines Klassifzierers  
+                	auf, wie im UML-Standard definiert. ArgoUML bietet die 
+                	Standard-Stereotypen für einen Klassifizierer an: <literal>
+                	metaclass</literal>, <literal>powertype</literal>, 
+                	<literal>process</literal>, <literal>thread</literal> 
+                	und <literal>utility</literal>.
+                </para>
 
               </listitem>
 
@@ -70715,6 +70883,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Navigate Stereotype</literal></term>
+              <term lang="de"><literal>Stereotyp navigieren</literal></term>
 
               <listitem>
 
@@ -70725,7 +70894,16 @@ available at http://www.opencontent.org/openpub/.
                 icon. If a stereotype has been selected, this will 
                 navigate to the stereotype property panel (see 
                 <xref linkend="s1.ref.stereotype"/>).</para>
-
+                <para lang="de">
+	                <guiicon><inlinemediaobject><imageobject>
+	                <imagedata align="center"
+	                 fileref="images/icons/navigate_stereotype.gif"
+	                 format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+	                Symbol. Wenn ein Stereotyp markiert wurde, navigiert es 
+	                zum Eigenschaftsfenster des Stereotypen (siehe 
+	                <xref linkend="s1.ref.stereotype"/>).
+				</para>
+				
               </listitem>
 
             </varlistentry>
@@ -70733,11 +70911,16 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Namespace</literal></term>
+              <term lang="de"><literal>Namensraum</literal></term>
 
               <listitem>
 
                 <para lang="en">Drop down selector. Allows altering the namespace 
                 for the node. This is the package hierarchy.</para>
+                <para lang="de">
+                	Kombinationsfeld. Erlaubt das Ändern des Namensraumes für 
+                	diesen Knoten. Dies ist die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -70746,12 +70929,17 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Modifiers</literal></term>
+              <term lang="de"><literal>Modifizierer</literal></term>
 
               <listitem>
 
                 <para lang="en">Check box, with entries <literal>
                 abstract</literal>, <literal>leaf</literal> and 
                 <literal>root</literal>.</para>
+                <para lang="de">
+                	Markierfelder mit den Einträgen <literal>Abstract</literal>, 
+                	<literal>Leaf</literal> und <literal>Root</literal>.
+                </para>
 
                 <itemizedlist>
 
@@ -70761,6 +70949,13 @@ available at http://www.opencontent.org/openpub/.
                     declare that this node cannot be instantiated, but 
                     must always be specialized. The name of an abstract 
                     node is displayed in italics on the diagram.</para>
+                    <para lang="de">
+                    	<literal>Abstract</literal> wird verwendet, um zu 
+                    	deklarieren, dass dieser Knoten nicht instanziiert 
+                    	werden kann, aber immer spezialisiert werden muss. Der 
+                    	Name eines abstrakten Knotens wird in kursiver 
+                    	Schrift im Diagramm dargestellt.
+                    </para>
 
                   </listitem>
 
@@ -70768,6 +70963,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>leaf</literal> indicates that this 
                     node cannot be further specialized.</para>
+                    <para lang="de">
+                    	<literal>Leaf</literal> gibt an, dass dieser Knoten 
+                    	nicht weiter spezialisiert werden kann.
+                    </para>
 
                   </listitem>
 
@@ -70775,6 +70974,10 @@ available at http://www.opencontent.org/openpub/.
 
                     <para lang="en"><literal>root</literal> indicates the node 
                     can have no generalization.</para>
+                    <para lang="de">
+                    	<literal>root</literal> gibt an, dass der Knoten keine 
+                    	Generalisierung haben kann.
+                    </para>
 
                   </listitem>
 
@@ -70787,14 +70990,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Generalizations</literal></term>
+              <term lang="de"><literal>Generalisierungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text area. Lists any node that 
                 <emphasis>generalizes</emphasis> this node.</para>
+                <para lang="de">
+                	Textbereich. Listet jeden Knoten auf, die diesen 
+                	Knoten <emphasis>generalisiert</emphasis>.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the 
                 generalization and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der Generalisierung 
+                	und öffnet deren Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -70803,14 +71015,23 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Specializations</literal></term>
+              <term lang="de"><literal>Spezialisierungen</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any specialized node (i.e. for 
                 which this node is a generalization.</para>
+                <para lang="de">
+                	Textfeld. Listet alle spezialisierten Knoten auf 
+                	(z.B. für die dieser Knoten eine Generalisierung ist).
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the 
                 specialization and opens its property tab.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu der Spezialisierung 
+                	und öffnet deren Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -70819,15 +71040,25 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Residents</literal></term>
+              <term lang="de"><literal>Speicherresident</literal></term>
 
               <listitem>
 
                 <para lang="en">Text box. Lists any residents (see 
                 <xref linkend="s1.ref.component"/>) designed to be 
                 deployed on this type of node.</para>
+                <para lang="de">
+                	Textfeld. Listet alle Speicherresidenten Elemente auf (siehe 
+                	<xref linkend="s1.ref.component"/>), die entworfen wurden, 
+                	um diesen Knotentyp auszuführen.
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
+                <para lang="de">
+                	Ein Taste&nbsp;1-Doppelklick navigiert zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -70843,6 +71074,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Node Instance</phrase>
+			<phrase lang="de">Knoteninstanz</phrase>
 		</title>
 
         <para lang="en">A node instance is an instance of a node where component 
