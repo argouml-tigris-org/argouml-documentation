@@ -73015,37 +73015,66 @@ available at http://www.opencontent.org/openpub/.
 			<phrase lang="de">Profile</phrase>
 		</title>
 
-        <caution>
-
-          <para lang="en">This section used to be called "Built In DataTypes, Classes, Interfaces and 
-      Stereotypes", and has not been updated completely since the introduction of Profiles.</para>
-
-        </caution>
+		<para>
+	        <caution>
+	
+	          <para lang="en">This section used to be called "Built In DataTypes, Classes, Interfaces and 
+	      Stereotypes", and has not been updated completely since the introduction of Profiles.</para>
+	      <para lang="de">
+	      	Dieser Abschnitt wurde "Eingebaute Datentypen, Klassen, 
+	      	Schnittstellen und Stereotypen" genannt und wurde seit der 
+	      	Einführung von Profilen nicht vollständig auf den neuesten Stand 
+	      	gebracht.
+	      </para>
+	
+	        </caution>
+        </para>
 
       <sect1>
 
         <title>
 			<phrase lang="en">Introduction</phrase>
+			<phrase lang="de">Einleitung</phrase>
 		</title>
 
         <para lang="en">This chapter describes ArgoUML's built in profiles, 
 		which contain 
         datatypes, enumerations, classes, interfaces, 
         stereotypes, tag definitions, and critics.</para>
+        <para lang="de">
+        	Dieses Kapitel beschreibt ArgoUML's eingebaute Profile, die 
+        	Datentypen, Aufzählungen, Klassen, Schnittstellen, Stereotypen, 
+        	Tag-Definitionen und Kritiken enthalten.
+        </para>
         
         <para lang="en">Datatypes, enumerations, classes and interfaces 
 		are generally available 
         for use anywhere a class may be selected in the properties tab. 
         The most common use is for return type and parameter types in 
         method signatures.</para>
+        <para lang="de">
+        	Datentypen, Aufzählungen, Klassen und Schnittstellen sind allgemein 
+        	verfügbar und können überall genutzt werden, wo eine Klasse im 
+        	Register Eigenschaften ausgewählt wurde.
+        </para>
         
 		<para lang="en">Stereotypes and tag definitions are mostly used 
 		for application specific extensions of the model, 
 		e.g. to distinct elements that need to be implemented differently.
 		</para>
+		<para lang="de">
+			Stereotypen und Tag-Definitionen werden häufig für 
+			applikationsspezifische Erweiterungen des Modelles verwendet, z.B., 
+			um Elemente zu unterscheiden, die unterschiedlich implementiert 
+			werden müssen.
+		</para>
 
 		<para lang="en">Critics are included with profiles to support
 		safeguarding constraints specific to the profile's target application.
+		</para>
+		<para lang="de">
+			Kritiken wurden in Profile eingebunden, um geschützte 
+			Randbedingungen in Profilen der Zielapplikation zu unterstützen.
 		</para>
 		
         <para lang="en">The model elements in an 
@@ -73056,12 +73085,22 @@ available at http://www.opencontent.org/openpub/.
 		they need to be present
 		with the project to be able to open it.
 		</para>
+		<para lang="de">
+			Die Modellelemente in einem UML-Profil sind als Hierarchie 
+			unterhalb des <literal>Model</literal> organisiert, sie sind aber 
+			nicht Teil Ihres Projektes. Aus diesem Grund werden sie separat 
+			geladen und müssen, einmal verwendet, vorhanden sein, damit das 
+			Projekt geöffnet werden kann.
+		</para>
 
         <figure float="1" id="fig.ref.entclasshier">
             <title><phrase lang="en">Hierarchy of 
             default profiles      
             within ArgoUML</phrase>
-            </title>
+			<phrase lang="de">
+				Hierarchie der Standardprofile innerhalb von ArgoUML
+			</phrase>            
+			</title>
             <screenshot><mediaobject><imageobject>
             <imagedata align="center"
              fileref="images/reference/entclasshier.gif"
@@ -73072,6 +73111,10 @@ available at http://www.opencontent.org/openpub/.
         ArgoUML makes it possible to create your own profiles, 
         or use profiles from a third party.
         </para>
+        <para lang="de">
+        	Nach den eingebauten Profilen macht es ArgoUML möglich, eigene 
+        	Profile zu erzeugen oder Profile Dritter zu verwenden. 
+        </para>
 
       </sect1>
 		  
@@ -73079,26 +73122,32 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">The UML 1.4 Standard Elements Profile</phrase>
+			<phrase lang="de">Das Profil UML 1.4 Standard-Elemente</phrase>
 		  </title>
 
         <sect2>
 
           <title>
             <phrase lang="en">Datatypes</phrase>
+            <phrase lang="de">Datatypen</phrase>
           </title>
 
           <para lang="en">These are the UML datatypes. For their definition 
           refer to the UML standard.</para>
+          <para lang="de">
+          	Dies sind die UML-Datentypen. Ihre Definition entnehmen Sie bitte 
+          	dem UML-Standard.
+          </para>
 
           <itemizedlist>
             <listitem>
-              <para lang="en"><literal>Integer</literal></para>
+              <para><literal>Integer</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>String</literal></para>
+              <para><literal>String</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>UnlimitedInteger</literal></para>
+              <para><literal>UnlimitedInteger</literal></para>
             </listitem>
           </itemizedlist>
 
@@ -73108,14 +73157,19 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
             <phrase lang="en">Enumerations</phrase>
+            <phrase lang="de">Aufzählungen</phrase>
           </title>
 
           <para lang="en">These are the UML enumerations. For their definition 
           refer to the UML standard.</para>
+          <para lang="de">
+          	Dies sind die UML-Aufzählungen. Ihre Definition entnehmen Sie bitte 
+          	dem UML-Standard.
+          </para>
 
           <itemizedlist>
             <listitem>
-              <para lang="en"><literal>Boolean</literal></para>
+              <para><literal>Boolean</literal></para>
             </listitem>
           </itemizedlist>
 
@@ -73128,11 +73182,17 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
           <phrase lang="en">Stereotypes</phrase>
+          <phrase lang="de">Stereotypen</phrase>
         </title>
 
         <para lang="en">UML 1.4 defines a large number of stereotypes 
         which are all supported by ArgoUML. 
         The table below lists all these stereotypes.</para>
+        <para lang="de">
+        	UML 1.4 definiert eine grosse Anzahl von Stereotypen, die alle 
+        	von ArgoUML unterstützt werden. Die unten stehende Tabelle listet 
+        	all diese Stereotypen auf.
+        </para>
 
         <para lang="en">The UML&nbsp;1.4 standard also specifies many stereotypes in 
         the chapters <quote>Example Profiles</quote>: one for 
@@ -73140,11 +73200,20 @@ available at http://www.opencontent.org/openpub/.
         <quote>Business Modeling</quote>. Due to the specialized 
         nature of these profiles, implementation in ArgoUML is 
         postponed until a yet undetermined moment.</para>
+        <para lang="de">
+        	Der UML&nbsp;1.4-Standard spezifiziert auch viele Stereotypen in 
+        	den Kapiteln <quote>Example Profiles</quote>: einen für  
+        	<quote>Software Development</quote> und einen für  
+        	<quote>Business Modeling</quote>. Auf Grund des speziellen 
+        	Charakters dieser Profile, wurde die Implementierung in ArgoUML auf 
+        	einen späteren Zeitpunkt verschoben.
+        </para>
 
         <table frame="all">
 
           <title>
             <phrase lang="en">Stereotypes defined in UML 1.4 and ArgoUML</phrase>
+            <phrase lang="en">UML 1.4 und ArgoUML definierte Stereotypen</phrase>
           </title>
 
           <tgroup cols="2">
@@ -73152,8 +73221,14 @@ available at http://www.opencontent.org/openpub/.
             <thead>
 
               <row>
-                <entry><para><emphasis>StereoType</emphasis></para></entry>
-                <entry><para><emphasis>Base Element</emphasis></para></entry>
+                <entry>
+                	<para lang="en"><emphasis>StereoType</emphasis></para>
+                	<para lang="de"><emphasis>Stereotyp</emphasis></para>
+                </entry>
+                <entry>
+                	<para lang="en"><emphasis>Base Element</emphasis></para>
+                	<para lang="de"><emphasis>Basiselement</emphasis></para>
+                </entry>
               </row>
 
             </thead>
@@ -73226,10 +73301,15 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
             <phrase lang="en">Tag Definitions</phrase>
+            <phrase lang="de">Tag-Definitionen</phrase>
           </title>
 
           <para lang="en">These are the built in standard tag definitions. For their definition 
           refer to the UML standard.</para>
+          <para lang="de">
+          	Dies sind die eingebauten Standard-Tag-Definitionen. Ihre Definition 
+          	entnehmen Sie bitte dem UML-Standard.
+          </para>
 
           <itemizedlist>
             <listitem>
@@ -73260,12 +73340,18 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">The Java Profile</phrase>
+			<phrase lang="de">Das Javaprofil</phrase>
 		  </title>
 
           <para lang="en">The Java profile contains elements that 
           are not mandated by the UML standard, 
           and should only be used in a development environment 
           that makes use of Java.</para>
+          <para lang="de">
+          	Das Javaprofil enthält Elemente, die kein Mandat des UML-Standards 
+          	haben und nur in einer Entwicklungsumgebung verwendet werden sollten, 
+          	die Java verwendet.
+          </para>
 
 		  <para lang="en">The Java profile is 
 		  effectively organized as a hierarchy beneath in four packages, <literal>
@@ -73274,6 +73360,14 @@ available at http://www.opencontent.org/openpub/.
           subpackages of <literal>java</literal>, which is a subpackage 
           of the model itself. <xref linkend="fig.ref.entclasshierjava"/> 
           shows this structure.</para>
+          <para lang="de">
+          	Das Javaprofil ist als Hierarchie effektiv organisiert und in vier 
+          	Pakete <literal>lang</literal>, <literal>math</literal>, 
+          	<literal>net</literal> und <literal>util</literal> unterteilt und 
+          	sind Subpakete von <literal>java</literal>. Dieses wiederum ist ein 
+          	Subpaket des Modelles selbst. 
+          	<xref linkend="fig.ref.entclasshierjava"/> zeigt diese Struktur. 
+          </para>
 
           <para lang="en"></para>
   
@@ -73281,7 +73375,8 @@ available at http://www.opencontent.org/openpub/.
               <title><phrase lang="en">Hierarchy of 
               the Java profile      
               within ArgoUML</phrase>
-              </title>
+			  	<phrase lang="de">Hierarchie des Javaprofiles in ArgoUML</phrase>              
+			  </title>
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
                fileref="images/reference/entclasshierjava.gif"
@@ -73293,83 +73388,123 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Datatypes</phrase>
+			<phrase lang="de">Datentypen</phrase>
 		  </title>
 
           <para lang="en">These are the built in atomic types. You can change them 
           if you wish. However this is not good practice.</para>
+          <para lang="de">
+          	Dies sind eingebaute atomare Typen. Sie können diese ändern, wenn 
+          	Sie wollen. Jedoch ist dies keine gute Praxis.
+          </para>
 
           <para lang="en">All these can be found in the <literal>
           java.lang</literal> subpackage of the main model.</para>
+          <para lang="de">
+          	All dies finden Sie im <literal>java.lang</literal>-Subpaket des 
+          	Hauptmodelles.
+          </para>
 
 
           <para lang="en">These are the standard datatypes. For their definition 
           refer to the Java standard.</para>
+          <para lang="de">
+          	Dies sind die Standard-Datentypen. Ihre Definition 
+          	entnehmen Sie bitte dem UML-Standard.
+          </para>
 
           <itemizedlist>
             <listitem>
-              <para lang="en"><literal>boolean</literal></para>
+              <para><literal>boolean</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>byte</literal></para>
+              <para><literal>byte</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>char</literal></para>
+              <para><literal>char</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>double</literal></para>
+              <para><literal>double</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>float</literal></para>
+              <para><literal>float</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>int</literal></para>
+              <para><literal>int</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>long</literal></para>
+              <para><literal>long</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>short</literal></para>
+              <para><literal>short</literal></para>
             </listitem>
             <listitem>
-              <para lang="en"><literal>void</literal></para>
+              <para><literal>void</literal></para>
             </listitem>
           </itemizedlist>
 
-          <note>
-
-            <para lang="en"><literal>void</literal> is not strictly speaking a 
-            type, but the absence of type. ArgoUML knows about void and 
-            allows it as an option where a datatype may be 
-            selected.</para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en"><literal>void</literal> is not strictly speaking a 
+	            type, but the absence of type. ArgoUML knows about void and 
+	            allows it as an option where a datatype may be 
+	            selected.</para>
+	            <para lang="de">
+	            	Bei <literal>void</literal> spricht man nicht von einem Typ, 
+	            	sondern von der Abwesenheit des Typs. ArgoUML kennt void 
+	            	und erlaubt es als Option, wo Datentypen ausgewählt werden 
+	            	müssen. 
+	            </para>
+	
+	          </note>
+          </para>
+          
         </sect2>
 
       <sect2>
 
         <title>
 			<phrase lang="en">Classes</phrase>
+			<phrase lang="de">Klassen</phrase>
 		</title>
 
         <para lang="en">These are the common classes, corresponding to classes 
         defined within the standard Java environment. It is up to you 
         if you wish to change them.</para>
+        <para lang="de">
+        	Dies sind die gemeinsamen Klassen, die den Klassen entsprechen, die 
+        	in der Standard-Java-Umgebung definiert sind. Es liegt an Ihnen, 
+        	wenn Sie diese ändern wollen.
+        </para>
 
         <para lang="en">These are found in all four subpackages of the <literal>
         java</literal> subpackage.</para>
+        <para lang="de">
+        	Diese finden sich in allen vier Subpaketen des <literal>java
+        	</literal>-Subpaketes wieder. 
+        </para>
 
         <para lang="en">For a definition of these classes see the Java language 
         and library definitions.</para>
+        <para lang="de">
+        	Die Definition dieser Klassen entnehmen Sie bitte den Java Sprach- 
+        	und Bibliotheks-Definitionen.
+        </para>
 
         <sect3>
 
           <title>
-			<phrase lang="en">Classes From <literal>
-          java.lang</literal></phrase>
+			<phrase lang="en">Classes From <literal>java.lang</literal></phrase>
+			<phrase lang="de">Klassen aus <literal>java.lang</literal></phrase>
 		</title>
 
           <para lang="en">These are the classes within the <literal>
           java.lang</literal> package.</para>
+          <para lang="de">
+          	Dies sind die Klassen innerhalb des <literal>java.lang</literal>-
+          	Paketes.
+          </para>
 
           <itemizedlist>
             <listitem>
@@ -73409,12 +73544,16 @@ available at http://www.opencontent.org/openpub/.
         <sect3>
 
           <title>
-			<phrase lang="en">Classes From <literal>
-          java.math</literal></phrase>
-		</title>
+			<phrase lang="en">Classes From <literal>java.math</literal></phrase>
+			<phrase lang="de">Klassen aus <literal>java.math</literal></phrase>
+		  </title>
 
           <para lang="en">These are the classes within the <literal>
           java.math</literal> package.</para>
+          <para lang="de">
+          	Dies sind die Klassen innerhalb des <literal>java.math</literal>-
+          	Paketes. 
+          </para>
 
           <itemizedlist>
             <listitem>
@@ -73430,12 +73569,16 @@ available at http://www.opencontent.org/openpub/.
         <sect3>
 
           <title>
-			<phrase lang="en">Classes From <literal>
-          java.net</literal></phrase>
+			<phrase lang="en">Classes From <literal>java.net</literal></phrase>
+			<phrase lang="de">Klassen aus <literal>java.net</literal></phrase>
 		</title>
 
           <para lang="en">These are the classes within the <literal>
           java.net</literal> package.</para>
+          <para lang="de">
+          	Dies sind die Klassen innerhalb des <literal>java.net</literal>-
+          	Paketes.
+          </para>
 
           <itemizedlist>
             <listitem>
@@ -73448,12 +73591,16 @@ available at http://www.opencontent.org/openpub/.
         <sect3>
 
           <title>
-			<phrase lang="en">Classes From <literal>
-          java.util</literal></phrase>
-		</title>
+			<phrase lang="en">Classes From <literal>java.util</literal></phrase>
+			<phrase lang="de">Klassen aus <literal>java.util</literal></phrase>
+		  </title>
 
           <para lang="en">These are the classes within the <literal>
           java.util</literal> package.</para>
+          <para lang="de">
+          	Dies sind die Klassen innerhalb des <literal>java.util</literal>-
+          	Paketes.
+          </para>
 
           <itemizedlist>
             <listitem>
@@ -73475,19 +73622,35 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Interfaces</phrase>
+			<phrase lang="de">Interfaces</phrase>
 		</title>
 
         <para lang="en">These are some useful interfaces, corresponding to 
         classes defined within the standard Java environment. 
         Interfaces have many of the properties of classes (like all 
         types) and you can change them if you wish.</para>
+        <para lang="de">
+        	Dieses sind einige nützliche Schnittstellen, die Klassen innerhalb 
+        	der Java-Umgebung entsprechen. Schnittstellen haben viele 
+        	Eigenschaften von Klassen (wie alle Typen) und Sie können diese 
+        	ändern, wenn Sie dies wünschen.
+        </para>
 
         <para lang="en">All these can be found in the <literal>
         java.util</literal> subpackage of the main model.</para>
+        <para lang="de">
+        	All dies finden Sie im <literal>java.util</literal>-Subpaket des 
+        	Hauptmodelles.
+        </para>
 
         <para lang="en">These are the interfaces defined within the <literal>
         java.util</literal> package. For their definition consult the 
         Java language and library references.</para>
+        <para lang="de">
+        	Dies sind die im Paket <literal>java.util</literal> definierten 
+        	Schnittstellen. Deren Definition entnehmen Sie bitte der Java 
+        	Sprach- und Biblitheks-Referenz. 
+        </para>
 
         <itemizedlist>
 
@@ -73524,24 +73687,25 @@ available at http://www.opencontent.org/openpub/.
 
     <title>
 			<phrase lang="en">Glossary</phrase>
-		</title>
+			<phrase lang="de">Glossar</phrase>
+	</title>
 
     <glossdiv>
 
       <title>
-			<phrase lang="en">A</phrase>
-		</title>
+			<phrase>A</phrase>
+	  </title>
 
-      <glossentry id="gl.activitydiag">
+      <glossentry lang="en" id="gl.activitydiag.en">
 
         <glossterm>Activity Diagram</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Activity Diagram</primary></indexterm>
-          <indexterm lang="en">
+          <indexterm><primary>Activity Diagram</primary></indexterm>
+          <indexterm>
           <primary>Diagram</primary><secondary>Activity</secondary></indexterm>
-          <para lang="en">A UML diagram capturing the dynamic behavior of a 
+          <para>A UML diagram capturing the dynamic behavior of a 
           system or sub-system. See 
           <xref linkend="s1.umlactivitydiags"/> for more 
           information.</para>
@@ -73550,14 +73714,31 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.action">
+      <glossentry lang="de" id="gl.activitydiag.de">
+
+        <glossterm>Aktivitätsdiagramm</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Aktivitätsdiagramm</primary></indexterm>
+          <indexterm>
+          <primary>Diagramm</primary><secondary>Aktivität</secondary></indexterm>
+          <para>Ein UML-Diagramm, welches das dynamische Verhalten eines 
+          Systems oder Subsystems beschreibt. Weitere Informationen, siehe 
+          <xref linkend="s1.umlactivitydiags"/>.</para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.action.en">
 
         <glossterm>Action</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Action</primary></indexterm>
-          <para lang="en">Behavior associated with <emphasis>States</emphasis> or 
+          <indexterm><primary>Action</primary></indexterm>
+          <para>Behavior associated with <emphasis>States</emphasis> or 
           <emphasis>Transitions</emphasis> in <emphasis>State 
           Diagram</emphasis>. These actions are invocations of 
           <emphasis>Methods</emphasis> and appear on 
@@ -73568,14 +73749,33 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.actor">
+      <glossentry lang="de" id="gl.action.de">
+
+        <glossterm>Aktion</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Aktion</primary></indexterm>
+          <para>
+	          Verhalten, verknüpft mit <emphasis>Zuständen</emphasis> oder 
+	          <emphasis>Transitionen</emphasis> in <emphasis>Zustandsdiagrammen
+	          </emphasis>. Diese Aktionen sind Aufrufe von <emphasis>Methoden
+	          </emphasis> und erscheinen in <emphasis>Sequenz</emphasis>- und 
+	          <emphasis>Kollaborationsdiagrammen</emphasis>.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.actor.en">
 
         <glossterm>Actor</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Actor</primary></indexterm>
-          <para lang="en">A representation of an agent (animate or inanimate) on 
+          <indexterm><primary>Actor</primary></indexterm>
+          <para>A representation of an agent (animate or inanimate) on 
           a <emphasis>Use Case Diagram</emphasis> external to the 
           system being designed.</para>
 
@@ -73583,14 +73783,31 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.analysis">
+      <glossentry lang="de" id="gl.actor.de">
+
+        <glossterm>Akteur</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Akteur</primary></indexterm>
+          <para>
+          	Die Darstellung eines Agenten (animiert oder nicht animiert) in 
+          	einem <emphasis>Anwendungsfalldiagramm</emphasis>, der ausserhalb des 
+          	zu entwerfenden Systems steht.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.analysis.en">
 
         <glossterm>Analysis</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Analysis</primary></indexterm>
-          <para lang="en">Analysis is the process of taking the 
+          <indexterm><primary>Analysis</primary></indexterm>
+          <para>Analysis is the process of taking the 
           <quote>customer</quote> requirements and re-casting them in 
           the language of, and from the perspective of, a putative 
           solution.</para>
@@ -73599,28 +73816,80 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.assocclass">
+      <glossentry lang="de" id="gl.analysis.de">
+
+        <glossterm>Analyse</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Analysis</primary></indexterm>
+          <para>
+          	Analyse ist der Prozess die <quote>Kunden</quote>-Anforderungen 
+          	aufzunehmen und diese aus der Perspektive der 
+          	mutmaßlichen Lösung in die Sprache der mutmaßlichen Lösung 
+          	umzuwandeln.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.requirements.de">
+
+        <glossterm>Anforderungserfassung</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Anforderungserfassung</primary></indexterm>
+          <para>
+          	Die Anforderungserfassung ist der Prozess des Identifizierens was 
+          	der <quote>Kunde</quote> von dem gewünschten System wünscht. Eine 
+          	ausführlichere Beschreibung, siehe 
+			<xref linkend="ch.tut.reqs"/>.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.assocclass.en">
 
         <glossterm>Association Class</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Association Class</primary></indexterm>
-          <para lang="en">A class that characterizes the association between two 
+          <indexterm><primary>Association Class</primary></indexterm>
+          <para>A class that characterizes the association between two 
           other classes.</para>
 
         </glossdef>
 
       </glossentry>
 
-      <glossentry id="gl.association">
+      <glossentry lang="de" id="gl.assocclass.de">
+
+        <glossterm>Assoziationsklasse</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Assoziationsklasse</primary></indexterm>
+          <para>
+          	Eine Klasse, die eine Assoziation zwischen zwei anderen Klassen 
+          	charakterisiert.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.association.en">
 
         <glossterm>Association</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Association</primary></indexterm>
-          <para lang="en">A relationship between two classes in a Class Diagram 
+          <indexterm><primary>Association</primary></indexterm>
+          <para>A relationship between two classes in a Class Diagram 
           or between Use Cases or Use Cases and Actors in a Use Case 
           Diagram.</para>
 
@@ -73628,18 +73897,58 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.attribute">
+      <glossentry lang="de" id="gl.association.de">
+
+        <glossterm>Assoziation</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Assoziation</primary></indexterm>
+          <para>
+          	Eine Beziehung zwischen zwei Klassen in einem Klassendiagramm oder 
+          	zwischen Anwendungsfällen oder Anwendungsfällen und Akteuren in 
+          	einem Anwendungsfalldiagramm.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.attribute.en">
 
         <glossterm>Attribute (of a Class or Object)</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Attribute</primary><secondary>of a 
+          <indexterm><primary>Attribute</primary><secondary>of a 
           Class</secondary></indexterm>
-          <indexterm lang="en"><primary>Attribute</primary><secondary>of an 
+          <indexterm><primary>Attribute</primary><secondary>of an 
           Object</secondary></indexterm>
-          <para lang="en">An attribute of a class or object is a specification of 
+          <para>An attribute of a class or object is a specification of 
           a data element encapsulated by that object.</para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.attribute.de">
+
+        <glossterm>Attribut (einer Klasse oder eines Objektes)</glossterm>
+
+        <glossdef>
+
+          <indexterm>
+          	<primary>Attribut</primary>
+          	<secondary>einer Klasse</secondary>
+          </indexterm>
+          <indexterm>
+          	<primary>Attribut</primary>
+          	<secondary>eines Objektes</secondary>
+          </indexterm>
+          <para>
+          	Ein Attribut einer Klasse oder eines Objektes ist eine 
+          	Spezifikation eines Datenelementes, gekapselt durch dieses Objekt.
+          </para>
 
         </glossdef>
 
@@ -73650,39 +73959,55 @@ available at http://www.opencontent.org/openpub/.
     <glossdiv>
 
       <title>
-			<phrase lang="en">C</phrase>
-		</title>
+			<phrase>C</phrase>
+	  </title>
 
-      <glossentry id="gl.case">
+      <glossentry lang="en" id="gl.case.en">
 
         <glossterm>CASE</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>CASE</primary></indexterm>
-          <para lang="en">Computer Aided Software Engineering.</para>
+          <indexterm><primary>CASE</primary></indexterm>
+          <para>Computer Aided Software Engineering.</para>
 
         </glossdef>
 
       </glossentry>
 
-      <glossentry id="gl.class">
+      <glossentry lang="de" id="gl.case.de">
+
+        <glossterm>CASE</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>CASE</primary></indexterm>
+          <para>
+          	Computer Aided Software Engineering (Computergestützte 
+          	Softwareentwicklung).
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.class.en">
 
         <glossterm>Class</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Class</primary></indexterm>
-          <para lang="en">The encapsulation of the data associated with a 
+          <indexterm><primary>Class</primary></indexterm>
+          <para>The encapsulation of the data associated with a 
           model element (its <emphasis>attributes</emphasis>) and the 
           actions associated with the model element (its 
           <emphasis>methods</emphasis>).</para>
 
-          <para lang="en">A class specifies the characteristics of a model element. 
+          <para>A class specifies the characteristics of a model element. 
           An <emphasis>object</emphasis> represents an instance of the 
           model element.</para>
 
-          <para lang="en">Classes and objects in UML are represented on 
+          <para>Classes and objects in UML are represented on 
           <emphasis>Activity Diagrams</emphasis>, <emphasis>Class 
           Diagrams</emphasis>, <emphasis>Collaboration 
           Diagrams</emphasis> and <emphasis>Sequence 
@@ -73692,16 +74017,16 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.classdiag">
+      <glossentry lang="en" id="gl.classdiag.en">
 
         <glossterm>Class Diagram</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Class Diagram</primary></indexterm>
-          <indexterm lang="en">
+          <indexterm><primary>Class Diagram</primary></indexterm>
+          <indexterm>
           <primary>Diagram</primary><secondary>Class</secondary></indexterm>
-          <para lang="en">A UML Diagram showing the structural relationship 
+          <para>A UML Diagram showing the structural relationship 
           between classes. See <xref linkend="s1.umlclassdiags"/> for 
           more information.</para>
 
@@ -73709,14 +74034,14 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.collaboration">
+      <glossentry lang="en" id="gl.collaboration.en">
 
         <glossterm>Collaboration</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Collaboration</primary></indexterm>
-          <para lang="en">
+          <indexterm><primary>Collaboration</primary></indexterm>
+          <para>
             The process whereby several objects cooperate to provide some
             higher level behavior that is greater than the sum of the
             behaviors of the objects.
@@ -73726,17 +74051,17 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.collabdiag">
+      <glossentry lang="en" id="gl.collabdiag.en">
 
         <glossterm>Collaboration Diagram</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Collaboration 
+          <indexterm><primary>Collaboration 
           Diagram</primary></indexterm>
-          <indexterm lang="en">
+          <indexterm>
           <primary>Diagram</primary><secondary>Collaboration</secondary></indexterm>
-          <para lang="en">A UML Diagram showing the dynamic behavior as messages 
+          <para>A UML Diagram showing the dynamic behavior as messages 
           are passed between objects. Equivalent to a 
           <emphasis>Sequence Diagram</emphasis>. Which representation 
           is appropriate depends on the problem under 
@@ -73746,14 +74071,14 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.collaborator">
+      <glossentry lang="en" id="gl.collaborator.en">
 
         <glossterm>Collaborator</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Collaborator</primary></indexterm>
-          <para lang="en">
+          <indexterm><primary>Collaborator</primary></indexterm>
+          <para>
             An object that participates in a Collaboration.
           </para>
 
@@ -73761,27 +74086,27 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.comprehension">
+      <glossentry lang="en" id="gl.comprehension.en">
 
         <glossterm>Comprehension and Problem Solving</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Comprehension</primary></indexterm>
-          <indexterm lang="en"><primary>Problem Solving</primary></indexterm>
-          <para lang="en">A design visualization theory within cognitive 
+          <indexterm><primary>Comprehension</primary></indexterm>
+          <indexterm><primary>Problem Solving</primary></indexterm>
+          <para>A design visualization theory within cognitive 
           psychology. The theory notes that designers must bridge a gap 
           between their mental model of the problem or situation and 
           the formal model of a solution or system.</para>
 
-          <para lang="en">This theory suggests that programmers will benefit 
+          <para>This theory suggests that programmers will benefit 
           from:</para>
 
           <orderedlist>
 
             <listitem>
 
-              <para lang="en">Multiple representations such as program syntactic 
+              <para>Multiple representations such as program syntactic 
               decomposition, state transitions, control flow, and data 
               flow. These allow the programmer to better identify 
               elements and relationships in the problem and solution 
@@ -73792,7 +74117,7 @@ available at http://www.opencontent.org/openpub/.
 
             <listitem>
 
-              <para lang="en">Familiar aspects of a situation model, which 
+              <para>Familiar aspects of a situation model, which 
               improve designers&apos; abilities to formulate 
               solutions.</para>
 
@@ -73804,15 +74129,15 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.conceptclassdiag">
+      <glossentry lang="en" id="gl.conceptclassdiag.en">
 
         <glossterm>Concept Class Diagram</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Concept Class 
+          <indexterm><primary>Concept Class 
           Diagram</primary></indexterm>
-          <para lang="en">A Class Diagram constructed during the Analysis Phase 
+          <para>A Class Diagram constructed during the Analysis Phase 
           to show the main structural components of the problem 
           identified in the Requirements Phase. See 
           <xref linkend="ch.tut.analysis"/> for more information.</para>
@@ -73821,14 +74146,14 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.critic">
+      <glossentry lang="en" id="gl.critic.en">
 
         <glossterm>Critic</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Critic</primary></indexterm>
-          <para lang="en">A process within ArgoUML that provides suggestions as 
+          <indexterm><primary>Critic</primary></indexterm>
+          <para>A process within ArgoUML that provides suggestions as 
           to how the design might be improved. Suggestions are based on 
           principles within three theories of cognitive psychology, 
           <emphasis>reflection-in action</emphasis>, 
@@ -73844,19 +74169,19 @@ available at http://www.opencontent.org/openpub/.
     <glossdiv>
 
       <title>
-			<phrase lang="en">E</phrase>
-		</title>
+			<phrase>E</phrase>
+	  </title>
 
-      <glossentry id="gl.extends">
+      <glossentry lang="en" id="gl.extends.en">
 
         <glossterm>Extend Relationship</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Extend Relationship</primary></indexterm>
-          <indexterm lang="en">
+          <indexterm><primary>Extend Relationship</primary></indexterm>
+          <indexterm>
           <primary>Relationship</primary><secondary>Extend</secondary></indexterm>
-          <para lang="en">A relationship between two Use Cases, where the 
+          <para>A relationship between two Use Cases, where the 
           <emphasis>extended</emphasis> Use Case describes a special 
           variant of the <emphasis>extending</emphasis> Use Case.</para>
 
@@ -73864,25 +74189,69 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
+      <glossentry lang="de" id="gl.extends.de">
+
+        <glossterm>Extend-Beziehung</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Extend-Beziehung</primary></indexterm>
+          <indexterm>
+          	<primary>Beziehung</primary>
+          	<secondary>Extend</secondary>
+          </indexterm>
+          <para>
+          	Eine Beziehung zwischen zwei Anwendungsfällen, wo der <emphasis>
+          	erweiterte</emphasis> Anwendungsfall eine spezielle Variante des zu 
+          	<emphasis>erweiternden</emphasis> Anwendungsfalles beschreibt.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
     </glossdiv>
 
+	<glossdiv>
+	
+		<title>
+			<phrase lang="de">F</phrase>
+		</title>
+		
+      <glossentry lang="de" id="gl.pane.de">
+
+        <glossterm>Fenster</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Fenster</primary></indexterm>
+          <para>
+          	Ein Subfenster im Hauptfenster der ArgoUML-Anwenderschnittstelle.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+		
+	</glossdiv>
+	
     <glossdiv>
 
       <title>
-			<phrase lang="en">G</phrase>
+			<phrase>G</phrase>
 		</title>
 
-      <glossentry id="gl.generalization">
+      <glossentry lang="en" id="gl.generalization.en">
 
         <glossterm>Generalization Relationship</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Generalization 
+          <indexterm><primary>Generalization 
           Relationship</primary></indexterm>
-          <indexterm lang="en">
+          <indexterm>
           <primary>Relationship</primary><secondary>Generalization</secondary></indexterm>
-          <para lang="en">A relationship between one 
+          <para>A relationship between one 
           <emphasis>generalizing</emphasis> Use Cases and one or more 
           <emphasis>generalized</emphasis> Use Cases, where the 
           <emphasis>generalized</emphasis> Use Cases are particular 
@@ -73893,14 +74262,52 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.gui">
+      <glossentry lang="de" id="gl.generalization.de">
+
+        <glossterm>Generalisierungs-Beziehung</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Generalisierungs-Beziehung</primary></indexterm>
+          <indexterm>
+          	<primary>Beziehung</primary>
+          	<secondary>Generalisierung</secondary>
+          </indexterm>
+          <para>
+          	Eine Beziehung zwischen einem <emphasis>generalisierenden</emphasis> 
+          	Anwendungsfall und einem oder mehreren <emphasis>generalisierten
+          	</emphasis> Anwendungsfällen, bei dem der <emphasis>generalisierte
+          	</emphasis> Anwendungsfall besondere Beispiele des <emphasis>
+          	generalisierten</emphasis> Anwendungsfalles sind.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.gui.en">
 
         <glossterm>GUI</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>GUI</primary></indexterm>
-          <para lang="en">Graphical User Interface.</para>
+          <indexterm><primary>GUI</primary></indexterm>
+          <para>Graphical User Interface.</para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.gui.de">
+
+        <glossterm>GUI</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>GUI</primary></indexterm>
+          <para>
+          	Graphical User Interface (Grafische Anwenderschnittstelle).
+          </para>
 
         </glossdef>
 
@@ -73911,20 +74318,20 @@ available at http://www.opencontent.org/openpub/.
     <glossdiv>
 
       <title>
-			<phrase lang="en">H</phrase>
-		</title>
+			<phrase>H</phrase>
+	  </title>
 
-      <glossentry id="gl.hierstatediag">
+      <glossentry lang="en" id="gl.hierstatediag.en">
 
         <glossterm>Hierarchical Statechart Diagram</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Hierarchical Statechart 
+          <indexterm><primary>Hierarchical Statechart 
           Diagram</primary></indexterm>
-          <indexterm lang="en"><primary>Statechart Diagram, 
+          <indexterm><primary>Statechart Diagram, 
           Hierarchical</primary></indexterm>
-          <para lang="en">A <emphasis>Statechart Diagram</emphasis> that contains 
+          <para>A <emphasis>Statechart Diagram</emphasis> that contains 
           subsidiary statechart diagrams within individual 
           <emphasis>States</emphasis>.</para>
 
@@ -73932,24 +74339,46 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
+      <glossentry lang="de" id="gl.hierstatediag.de">
+
+        <glossterm>Hierarchisches Zustandsdiagramm</glossterm>
+
+        <glossdef>
+
+          <indexterm>
+          	<primary>Hierarchisches Zustandsdiagramm</primary>
+          </indexterm>
+          <indexterm>
+          	<primary>Zustandsdiagramm, Hierarchisch</primary>
+          </indexterm>
+          <para>
+          	Ein <emphasis>Zustandsdiagramm</emphasis>, das untergeordnete 
+          	Zustandsdiagramme mit individuellen <emphasis>Zuständen</emphasis> 
+          	enthält.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
     </glossdiv>
 
     <glossdiv>
 
       <title>
-			<phrase lang="en">I</phrase>
-		</title>
+			<phrase>I</phrase>
+	  </title>
 
-      <glossentry id="gl.includes">
+      <glossentry lang="en" id="gl.includes.en">
 
         <glossterm>Include Relationship</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Include Relationship</primary></indexterm>
-          <indexterm lang="en">
+          <indexterm><primary>Include Relationship</primary></indexterm>
+          <indexterm>
           <primary>Relationship</primary><secondary>Include</secondary></indexterm>
-          <para lang="en">A relationship between two Use Cases, where the 
+          <para>A relationship between two Use Cases, where the 
           <emphasis>included</emphasis> Use Case describes part of the 
           functionality of the <emphasis>including</emphasis> Use 
           Case.</para>
@@ -73958,17 +74387,38 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.iterative">
+      <glossentry lang="de" id="gl.includes.de">
+
+        <glossterm>Include-Beziehung</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Include-Beziehung</primary></indexterm>
+          <indexterm>
+          	<primary>Beziehung</primary>
+          	<secondary>Include</secondary>
+          </indexterm>
+          <para>
+          	Eine Beziehung zwischen zwei Anwendungsfällen, wo der <emphasis>
+          	eingefügte</emphasis> Anwendungsfall Teile der Funktionalität des 
+          	<emphasis>einfügenden</emphasis> Anwendungsfalles beschreibt.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.iterative.en">
 
         <glossterm>Iterative Design Process</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Iterative Design 
+          <indexterm><primary>Iterative Design 
           Process</primary></indexterm>
-          <indexterm lang="en"><primary>Design 
+          <indexterm><primary>Design 
           Process</primary><secondary>Iterative</secondary></indexterm>
-          <para lang="en">A design process where each all phases (requirements, 
+          <para>A design process where each all phases (requirements, 
           analysis, design, build, test) are tackled partially in a 
           series of iterations. See <xref linkend="s2.proctypes"/> for 
           more information.</para>
@@ -73977,32 +74427,22 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-    </glossdiv>
+      <glossentry lang="de" id="gl.iterative.de">
 
-    <glossdiv>
-
-      <title>
-			<phrase lang="en">J</phrase>
-		</title>
-
-      <glossentry id="gl.java">
-
-        <glossterm>Java</glossterm>
+        <glossterm>Iterativer Designprozess</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Java</primary></indexterm>
-          <para lang="en">A fully object oriented programming language introduced 
-          by Sun Microsystems. More strongly typed than C++, it 
-          compiles to an interpreted code, the Java Virtual Machine 
-          (JVM). The JVM means that Java code should run on any machine 
-          that has implemented the JVM.</para>
-
-          <para lang="en">The most significant component of Java was integration 
-          of the JVM into web browsers, allowing code (Applets) to be 
-          download and run over the web.</para>
-
-          <para lang="en">ArgoUML is written in Java.</para>
+          <indexterm><primary>Iterativer Designprozess</primary></indexterm>
+          <indexterm>
+          	<primary>Designprozess</primary>
+          	<secondary>Iterativ</secondary>
+          </indexterm>
+          <para>
+          	Ein Designprozess, in dem alle Phasen (Anforderungen, Analyse, Design, 
+          	Build, Test) partiell in einer Abfolge von Iterationen durchlaufen 
+          	werden. Mehr Informationen, siehe <xref linkend="s2.proctypes"/>.
+          </para>
 
         </glossdef>
 
@@ -74013,51 +74453,317 @@ available at http://www.opencontent.org/openpub/.
     <glossdiv>
 
       <title>
-			<phrase lang="en">M</phrase>
+			<phrase>J</phrase>
 		</title>
 
-      <glossentry id="gl.mealy">
+      <glossentry lang="en" id="gl.java.en">
+
+        <glossterm>Java</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Java</primary></indexterm>
+          <para>A fully object oriented programming language introduced 
+          by Sun Microsystems. More strongly typed than C++, it 
+          compiles to an interpreted code, the Java Virtual Machine 
+          (JVM). The JVM means that Java code should run on any machine 
+          that has implemented the JVM.</para>
+
+          <para>The most significant component of Java was integration 
+          of the JVM into web browsers, allowing code (Applets) to be 
+          download and run over the web.</para>
+
+          <para>ArgoUML is written in Java.</para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.java.de">
+
+        <glossterm>Java</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Java</primary></indexterm>
+          <para>
+          	Eine vollständig objektorientierte Programmiersprache, die von 
+          	Sun Microsystems eingeführt wurde. Strenger typisiert wie C++, 
+          	übersetzt sie in einen interpretierenden Code, der Java Virtual 
+          	Machine (JVM). Die JVM bedeutet, dass Javacode auf jeder Maschine 
+          	ablaufen kann, auf der eine JVM implementiert ist.
+          </para>
+
+          <para>
+          	Die wichtigsten Komponente von Java war die Integration der JVM in 
+          	Webbrowsern, die es erlaubt, Code (Applets) herunterzulasen und über 
+          	das Web auszuführen.
+          </para>
+
+          <para>ArgoUML ist in Java geschrieben.</para>
+
+        </glossdef>
+
+      </glossentry>
+
+    </glossdiv>
+
+	<glossdiv>
+	
+		<title>
+			<phrase lang="de">K</phrase>
+		</title>
+		
+      <glossentry lang="de" id="gl.class.de">
+
+        <glossterm>Klasse</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Klasse</primary></indexterm>
+          <para>
+          	Die Kapselung von Daten verbunden mit einem Modellelement (seine 
+          	<emphasis>Attribute</emphasis>) und die Aktionen, die mit dem 
+          	Modellelement verbunden sind (seine <emphasis>Methoden</emphasis>).
+          </para>
+
+          <para>
+          	Eine Klasse spezifiziert die Charakteristika eines Modellelementes. 
+          	Ein <emphasis>Objekt</emphasis> repräsentiert eine Instanz eines 
+          	Modellelementes.
+          </para>
+
+          <para>
+          	Klassen und Objekte werden in UML in 
+          	<emphasis>Aktivitätsdiagrammen</emphasis>, 
+          	<emphasis>Klassendiagrammen</emphasis>, 
+          	<emphasis>Kollaborationsdiagrammen</emphasis> und 
+          	<emphasis>Sequenzdiagrammen</emphasis> dargestellt.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.classdiag.de">
+
+        <glossterm>Klassendiagramm</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Klassendiagramm</primary></indexterm>
+          <indexterm>
+          	<primary>Diagramm</primary>
+          	<secondary>Klasse</secondary>
+          </indexterm>
+          <para>
+          	Ein UML-Diagramm, das die strukturelle Beziehung zwischen Klassen 
+          	darstellt. Weitere Informationen, siehe 
+          	<xref linkend="s1.umlclassdiags"/>.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.collaboration.de">
+
+        <glossterm>Kollaboration</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Kollaboration</primary></indexterm>
+          <para>
+          	Ein Prozess, indem mehrere Objekte kooperieren, um ein höherwertiges 
+          	Verhalten anzubieten, das umfangreicher ist als die Summe der 
+          	Verhaltensweisen von Objekten.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.collabdiag.de">
+
+        <glossterm>Kollaborationsdiagramm</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Kollaborationsdiagramm</primary></indexterm>
+          <indexterm>
+          	<primary>Diagramm</primary>
+          	<secondary>Kollaboration</secondary>
+          </indexterm>
+          <para>
+          	Ein UML-Diagramm, welches das dynamische Verhalten darstellt, wie 
+          	Botschaften die zwischen Objekten ausgetauscht werden. Ähnlich  
+          	einem <emphasis>Sequenzdiagramm</emphasis>. Dessen Darstellung ist 
+          	ähnlich, abhängig vom betrachteten Problem.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.collaborator.de">
+
+        <glossterm>Kollaborator</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Kollaborator</primary></indexterm>
+          <para>
+          	Ein Objekt das an einer Kollaboration teilnimmt.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.conceptclassdiag.de">
+
+        <glossterm>Konzept Klassendiagramm</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Konzept Klassendiagramm</primary></indexterm>
+          <para>
+          	Ein, während der Analysephase konstruiertes Klassendiagramm zeigt 
+          	die strukturellen Hauptkomponenten des Problems, das in der 
+          	Anforderungsphase identifiziert wurde. Weitere Informationen, siehe 
+            <xref linkend="ch.tut.analysis"/>.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.critic.de">
+
+        <glossterm>Kritik</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Kritik</primary></indexterm>
+          <para>
+          	Ein Prozess innerhalb von ArgoUML, der Hinweise anbietet, wie das 
+          	Design verbessert werden kann. Die Hinweise basieren auf den 
+          	Prinzipien der drei Theorien der kognitiven Psychologie 
+          	<emphasis>Reflektion während der Aktion</emphasis>, 
+          	<emphasis>Opportunistisches Design</emphasis> und 
+          	<emphasis>Verstehen und Problemlösung</emphasis>.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+	</glossdiv>
+    
+    <glossdiv>
+
+      <title>
+			<phrase>M</phrase>
+		</title>
+
+      <glossentry lang="en" id="gl.mealy.en">
 
         <glossterm>Mealy Machine</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Mealy Machine</primary></indexterm>
-          <para lang="en">A <emphasis>Statechart Diagram</emphasis> where actions 
+          <indexterm><primary>Mealy Machine</primary></indexterm>
+          <para>A <emphasis>Statechart Diagram</emphasis> where actions 
           are associated with <emphasis>States</emphasis>.</para>
 
         </glossdef>
 
       </glossentry>
 
-      <glossentry id="gl.method">
+      <glossentry lang="de" id="gl.mealy.de">
+
+        <glossterm>Mealy Machine</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Mealy Machine</primary></indexterm>
+          <para>
+          	Ein <emphasis>Zustandsdiagramm</emphasis>, in dem Aktionen mit 
+          	<emphasis>Zuständen</emphasis> verküpft sind.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.method.en">
 
         <glossterm>Method (of a Class or Object)</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Method</primary><secondary>of a 
+          <indexterm><primary>Method</primary><secondary>of a 
           Class</secondary></indexterm>
-          <indexterm lang="en"><primary>Method</primary><secondary>of an 
+          <indexterm><primary>Method</primary><secondary>of an 
           Object</secondary></indexterm>
-          <indexterm lang="en"><primary>Class Method</primary></indexterm>
-          <indexterm lang="en"><primary>Object Method</primary></indexterm>
-          <para lang="en">A method of a class or object is a specification of 
+          <indexterm><primary>Class Method</primary></indexterm>
+          <indexterm><primary>Object Method</primary></indexterm>
+          <para>A method of a class or object is a specification of 
           behavior encapsulated by that object.</para>
 
         </glossdef>
 
       </glossentry>
 
-      <glossentry id="gl.moore">
+      <glossentry lang="de" id="gl.method.de">
+
+        <glossterm>Methode (einer Klasse oder eines Objektes)</glossterm>
+
+        <glossdef>
+
+          <indexterm>
+          	<primary>Methode</primary>
+          	<secondary>einer Klasse</secondary>
+          </indexterm>
+          <indexterm>
+          	<primary>Methode</primary>
+          	<secondary>eines Objektes</secondary></indexterm>
+          <indexterm><primary>Klassenmethode</primary></indexterm>
+          <indexterm><primary>Objektmethode</primary></indexterm>
+          <para>
+          	Eine Methode einer Klasse oder eines Objektes ist eine Spezifikation 
+          	des Verhaltens, gekapselt durch das Objekt.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.moore.en">
 
         <glossterm>Moore Machine</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Moore Machine</primary></indexterm>
-          <para lang="en">A <emphasis>Statechart Diagram</emphasis> where actions 
+          <indexterm><primary>Moore Machine</primary></indexterm>
+          <para>A <emphasis>Statechart Diagram</emphasis> where actions 
           are associated with <emphasis>Transitions</emphasis>.</para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.moore.de">
+
+        <glossterm>Moore Machine</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Moore Machine</primary></indexterm>
+          <para>
+          	Ein <emphasis>Zustandsdiagramm</emphasis>, in dem Aktionen mit 
+          	<emphasis>Transitionen</emphasis> verknüpft sind.
+          </para>
 
         </glossdef>
 
@@ -74068,19 +74774,19 @@ available at http://www.opencontent.org/openpub/.
     <glossdiv>
 
       <title>
-			<phrase lang="en">O</phrase>
+			<phrase>O</phrase>
 		</title>
 
-      <glossentry id="gl.object">
+      <glossentry lang="en" id="gl.object.en">
 
         <glossterm>Object</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Object</primary></indexterm>
-          <para lang="en">An instance of a <emphasis>Class</emphasis>.</para>
+          <indexterm><primary>Object</primary></indexterm>
+          <para>An instance of a <emphasis>Class</emphasis>.</para>
 
-          <para lang="en">Classes and objects in UML are represented on 
+          <para>Classes and objects in UML are represented on 
           <emphasis>Activity Diagrams</emphasis>, <emphasis>Class 
           Diagrams</emphasis>, <emphasis>Collaboration 
           Diagrams</emphasis> and <emphasis>Sequence 
@@ -74090,71 +74796,159 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.ocl">
+      <glossentry lang="de" id="gl.object.de">
+
+        <glossterm>Objekt</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Objekt</primary></indexterm>
+          <para>Eine Instanz einer <emphasis>Klasse</emphasis>.</para>
+
+          <para>
+          	Klassen und Objekte werden in der UML in <emphasis>
+          	Aktivitätsdiagrammen</emphasis>, <emphasis>Klassendiagrammen
+          	</emphasis>, <emphasis>Kollaborationsdiagrammen</emphasis> und  
+          	<emphasis>Sequenzdiagrammen</emphasis> dargestellt.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.ocl.en">
 
         <glossterm>OCL</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>OCL</primary></indexterm>
-          <indexterm lang="en"><primary>Object Constraint 
+          <indexterm><primary>OCL</primary></indexterm>
+          <indexterm><primary>Object Constraint 
           Language</primary></indexterm>
-          <para lang="en">Object Constraint Language. A language for describing 
+          <para>Object Constraint Language. A language for describing 
           constraints within UML.</para>
 
         </glossdef>
 
       </glossentry>
 
-      <glossentry id="gl.omg">
+      <glossentry lang="de" id="gl.ocl.de">
+
+        <glossterm>OCL</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>OCL</primary></indexterm>
+          <indexterm><primary>Object Constraint Language</primary></indexterm>
+          <para>
+          	Object Constraint Language. Eine Sprache zur Beschreibung von 
+          	Bedingungen in der UML. 
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.omg.en">
 
         <glossterm>OMG</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>OMG</primary></indexterm>
-          <indexterm lang="en"><primary>Object Management 
+          <indexterm><primary>OMG</primary></indexterm>
+          <indexterm><primary>Object Management 
           Group</primary></indexterm>
-          <para lang="en">The Object Management Group. An international industry 
+          <para>The Object Management Group. An international industry 
           standardization body. Best known for CORBA and UML.</para>
 
         </glossdef>
 
       </glossentry>
 
-      <glossentry id="gl.ooad">
+      <glossentry lang="de" id="gl.omg.de">
 
-        <glossterm>OOA&amp;D</glossterm>
+        <glossterm>OMG</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>OOA&amp;D</primary></indexterm>
-          <indexterm lang="en"><primary>Design</primary><secondary>Object 
-          Oriented</secondary></indexterm>
-          <indexterm lang="en"><primary>Analysis</primary><secondary>Object 
-          Oriented</secondary></indexterm>
-          <para lang="en">Object Oriented Analysis and Design. An approach to 
-          software problem analysis and design based on objects, which 
-          encapsulate both data and code. See See 
-          <xref linkend="s2.ooad"/> or any standard textbook on 
-          Software Engineering.</para>
-
-          <para lang="en">UML is a notation to support OOA&amp;D.</para>
+          <indexterm><primary>OMG</primary></indexterm>
+          <indexterm>
+          	<primary>Object Management Group</primary>
+          </indexterm>
+          <para>
+          	Die Object Management Group. Ein internationales 
+          	Standardisierungsgremium der Industrie. Am Besten bekannt durch 
+          	CORBA und UML. 
+          </para>
 
         </glossdef>
 
       </glossentry>
 
-      <glossentry id="gl.oppdesign">
+      <glossentry lang="en" id="gl.ooad.en">
+
+        <glossterm>OOA&amp;D</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>OOA&amp;D</primary></indexterm>
+          <indexterm><primary>Design</primary><secondary>Object 
+          Oriented</secondary></indexterm>
+          <indexterm><primary>Analysis</primary><secondary>Object 
+          Oriented</secondary></indexterm>
+          <para>Object Oriented Analysis and Design. An approach to 
+          software problem analysis and design based on objects, which 
+          encapsulate both data and code. See See 
+          <xref linkend="s2.ooad"/> or any standard textbook on 
+          Software Engineering.</para>
+
+          <para>UML is a notation to support OOA&amp;D.</para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.ooad.de">
+
+        <glossterm>OOA&amp;D</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>OOA&amp;D</primary></indexterm>
+          <indexterm>
+          	<primary>Design</primary>
+          	<secondary>objektorientiert</secondary>
+          </indexterm>
+          <indexterm>
+          	<primary>Analyse</primary>
+          	<secondary>objektorientiert</secondary>
+          </indexterm>
+          <para>
+          	Objektorientierte Analyse und Design. Ein Ansatz, um Softwareprobleme 
+          	zu analysieren und basierend auf Objekten zu entwerfen, der sowohl 
+          	die Daten als auch den Code kapselt. Siehe 
+          	<xref linkend="s2.ooad"/> oder jedes andere Buch über  
+          	Software Engineering.
+          </para>
+
+          <para>
+          	UML ist eine Notation, welche die OOA&amp;D unterstützt.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.oppdesign.en">
 
         <glossterm>Opportunistic Design</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Opportunistic Design</primary></indexterm>
-          <indexterm lang="en">
+          <indexterm><primary>Opportunistic Design</primary></indexterm>
+          <indexterm>
           <primary>Design</primary><secondary>Opportunistic</secondary></indexterm>
-          <para lang="en">A theory within cognitive psychology suggesting that 
+          <para>A theory within cognitive psychology suggesting that 
           although designers plan and describe their work in an 
           ordered, hierarchical fashion, in actuality, they choose 
           successive tasks based on the criteria of cognitive cost. 
@@ -74166,22 +74960,47 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
+      <glossentry lang="de" id="gl.oppdesign.de">
+
+        <glossterm>Opportunistisches Design</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Opportunistisches Design</primary></indexterm>
+          <indexterm>
+          	<primary>Design</primary>
+          	<secondary>opportunistisch</secondary>
+          </indexterm>
+          <para>
+          	Eine Theorie aus der kognitiven Psychologie, die aussagt, dass obwohl 
+          	Designer ihre Arbeit auf eine geordnete, hierarchische Art planen 
+          	und beschreiben, sie aufeinanderfolgende Tätigkeiten auf Basis der 
+          	Kriterien der kognitiven Kosten auswählen. Einfach gesagt, Designer 
+          	folgen nicht ihren eigenen Plänen und Reihenfolgen, sondern wählen 
+          	ihre Schritte danach, welche davon mental weniger aufwändig sind im 
+          	Gegensatz zu den Alternativen.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
     </glossdiv>
 
     <glossdiv>
 
       <title>
-			<phrase lang="en">P</phrase>
-		</title>
+			<phrase>P</phrase>
+	  </title>
 
-      <glossentry id="gl.pane">
+      <glossentry lang="en" id="gl.pane.en">
 
         <glossterm>Pane</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Pane</primary></indexterm>
-          <para lang="en">A sub-window within the main window of the ArgoUML user 
+          <indexterm><primary>Pane</primary></indexterm>
+          <para>A sub-window within the main window of the ArgoUML user 
           interface.</para>
 
         </glossdef>
@@ -74193,18 +75012,18 @@ available at http://www.opencontent.org/openpub/.
     <glossdiv>
 
       <title>
-			<phrase lang="en">R</phrase>
-		</title>
+			<phrase>R</phrase>
+	  </title>
 
-      <glossentry id="gl.relusecase">
+      <glossentry lang="en" id="gl.relusecase.en">
 
         <glossterm>Realization Use Case</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Realization Use Case</primary></indexterm>
-          <indexterm lang="en"><primary>Use Case Realization</primary></indexterm>
-          <para lang="en">A <emphasis>Use Case</emphasis> where the <emphasis>Use 
+          <indexterm><primary>Realization Use Case</primary></indexterm>
+          <indexterm><primary>Use Case Realization</primary></indexterm>
+          <para>A <emphasis>Use Case</emphasis> where the <emphasis>Use 
           Case Diagram</emphasis> and <emphasis>Use Case 
           Specification</emphasis> are in the language of the solution 
           domain, rather than the problem domain.</para>
@@ -74213,14 +75032,34 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.reflection">
+      <glossentry lang="de" id="gl.relusecase.de">
+
+        <glossterm>Realisation Anwendungsfall</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Realisation Anwendungsfall</primary></indexterm>
+          <indexterm><primary>Anwendungsfall Realisierung</primary></indexterm>
+          <para>
+          	Ein <emphasis>Anwendungsfall</emphasis> bei dem das <emphasis> 
+          	Anwendungsfalldiagramm</emphasis> und die <emphasis>
+			Anwendungsfallspezifikation</emphasis> in der Sprache des 
+			Lösungsbereiches und nicht in der Sprache des Problembereiches 
+			beschrieben wurde. 
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.reflection.en">
 
         <glossterm>Reflection-in-Action</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Reflection-in-Action</primary></indexterm>
-          <para lang="en">A theory within cognitive psychology which observes 
+          <indexterm><primary>Reflection-in-Action</primary></indexterm>
+          <para>A theory within cognitive psychology which observes 
           that designers of complex systems do not conceive a design 
           fully-formed. Instead, they must construct a partial design, 
           evaluate, reflect on, and revise it, until they are ready to 
@@ -74232,15 +75071,36 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.requirements">
+      <glossentry lang="de" id="gl.reflection.de">
+
+        <glossterm>Reflektion-während-Aktion</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Reflektion-während-Aktion</primary></indexterm>
+          <para>
+          	Eine Theorie innerhalb der kognitiven Psychologie, die beobachtete, 
+          	dass Designer komplexer Systeme ein Design in seiner Gesamtheit 
+          	nicht vollständig begreifen. Stattdessen müssen sie Teilentwürfe 
+          	konstruieren, evaluieren, reflektieren und überarbeiten, bis sie 
+          	in der Lage sind ihn zu erweitern. Als Entwickler arbeiten sie 
+          	spielerisch mit dem Entwurf, dadurch verbessert sich ihr mentales 
+          	Modell der Problemsituation und ihr Design.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.requirements.en">
 
         <glossterm>Requirement Capturing</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Requirement 
+          <indexterm><primary>Requirement 
           Capturing</primary></indexterm>
-          <para lang="en">Requirement capturing is the process of identifying 
+          <para>Requirement capturing is the process of identifying 
           what the <quote>customer</quote> wants from the proposed 
           system. See <xref linkend="ch.tut.reqs"/> for a fuller 
           description.</para>
@@ -74249,15 +75109,15 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.responsibility">
+      <glossentry lang="en" id="gl.responsibility.en">
 
         <glossterm>Responsibility</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Responsibility</primary></indexterm>
-          <para lang="en">S
-            ome behavior for which an object is held accountable.
+          <indexterm><primary>Responsibility</primary></indexterm>
+          <para>
+            Some behavior for which an object is held accountable.
             A responsibility denotes the obligation of an object to provide a
             certain behavior.
           </para>
@@ -74271,17 +75131,17 @@ available at http://www.opencontent.org/openpub/.
     <glossdiv>
 
       <title>
-			<phrase lang="en">S</phrase>
+			<phrase>S</phrase>
 		</title>
 
-      <glossentry id="gl.scenario">
+      <glossentry lang="en" id="gl.scenario.en">
 
         <glossterm>Scenario</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Scenario</primary></indexterm>
-          <para lang="en">
+          <indexterm><primary>Scenario</primary></indexterm>
+          <para>
             A specific sequence of actions that illustrates behavior.
           </para>
 
@@ -74289,16 +75149,31 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.seqdiag">
+      <glossentry lang="de" id="gl.scenario.de">
+
+        <glossterm>Szenario</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Szenario</primary></indexterm>
+          <para>
+          	Eine spezifische Abfolge von Aktionen, die das Verhalten illustriert.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.seqdiag.en">
 
         <glossterm>Sequence Diagram</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Sequence Diagram</primary></indexterm>
-          <indexterm lang="en">
+          <indexterm><primary>Sequence Diagram</primary></indexterm>
+          <indexterm>
           <primary>Diagram</primary><secondary>Sequence</secondary></indexterm>
-          <para lang="en">A UML Diagram showing the dynamic behavior as messages 
+          <para>A UML Diagram showing the dynamic behavior as messages 
           are passed between objects. Equivalent to a 
           <emphasis>Collaboration Diagram</emphasis>. Which 
           representation is appropriate depends on the problem under 
@@ -74309,30 +75184,71 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.sgml">
+      <glossentry lang="de" id="gl.seqdiag.de">
+
+        <glossterm>Sequenzdiagramm</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Sequenzdiagramm</primary></indexterm>
+          <indexterm>
+          	<primary>Diagramm</primary>
+          	<secondary>Sequenz</secondary>
+          </indexterm>
+          <para>
+          	Ein UML-Diagramm, welches das dynamische Verhalten darstellt, wie 
+          	Botschaften, die zwischen Objekten ausgetauscht werden. Ähnlich dem 
+          	<emphasis>Kollaborationsdiagramm</emphasis>. Welche Darstellung 
+          	angemessen ist, hängt von dem betrachteten Problem ab. Weitere 
+          	Informationen, siehe <xref linkend="s1.umlseqdiags"/>.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.sgml.en">
 
         <glossterm>SGML</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>SGML</primary></indexterm>
-          <indexterm lang="en"><primary>Standard Graphical Markup 
+          <indexterm><primary>SGML</primary></indexterm>
+          <indexterm><primary>Standard Graphical Markup 
           Language</primary></indexterm>
-          <para lang="en">Standard Graphical Markup Language. Defined by ISO 
+          <para>Standard Graphical Markup Language. Defined by ISO 
           8879:1986.</para>
 
         </glossdef>
 
       </glossentry>
 
-      <glossentry id="gl.simula67">
+      <glossentry lang="de" id="gl.sgml.de">
+
+        <glossterm>SGML</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>SGML</primary></indexterm>
+          <indexterm>
+          	<primary>Standard Graphical Markup Language</primary>
+          </indexterm>
+          <para>
+          	Standard Graphical Markup Language. In ISO 
+            8879:1986 definiert.</para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.simula67.en">
 
         <glossterm>Simula&nbsp;67</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>Simula&nbsp;67</primary></indexterm>
-          <para lang="en">A procedural programming language intended for 
+          <indexterm><primary>Simula&nbsp;67</primary></indexterm>
+          <para>A procedural programming language intended for 
           simulation. Noted for its introduction of 
           <emphasis>objects</emphasis> and 
           <emphasis>coroutines</emphasis>.</para>
@@ -74341,14 +75257,33 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.state">
+      <glossentry lang="de" id="gl.simula67.de">
+
+        <glossterm>Simula&nbsp;67</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Simula&nbsp;67</primary></indexterm>
+          <para>
+          	Eine prozedurale Programmiersprache für Simulationen. 
+          A procedural programming language intended for 
+          simulation. Aufgeführt wegen seiner Einführung in 
+          <emphasis>Objekte</emphasis> und 
+          <emphasis>Co-Routinen</emphasis>.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.state.en">
 
         <glossterm>State</glossterm>
 
         <glossdef>
 
-          <indexterm lang="en"><primary>State</primary></indexterm>
-          <para lang="en">Within a <emphasis>Statechart Diagram</emphasis> a one 
+          <indexterm><primary>State</primary></indexterm>
+          <para>Within a <emphasis>Statechart Diagram</emphasis> a one 
           of the possible configurations of the machine.</para>
 
         </glossdef>
@@ -74583,6 +75518,73 @@ available at http://www.opencontent.org/openpub/.
 			<phrase lang="en">V</phrase>
 		</title>
 
+      <glossentry lang="de" id="gl.responsibility.de">
+
+        <glossterm>Verantwortlichkeit</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Verantwortlichkeit</primary></indexterm>
+          <para>
+          	Ein Verhalten, für das ein Objekt verantwortlich ist. Eine 
+          	Verantwortlichkeit bezeichnet die Verpflichtung eines Objektes, ein 
+          	bestimmtes Verhalten sicherzustellen.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.comprehension.de">
+
+        <glossterm>Verstehen und Problemlösung</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Verstehen</primary></indexterm>
+          <indexterm><primary>Problemlösung</primary></indexterm>
+          <para>
+          	Eine Designvisualisierungstheorie innerhalb der kognitiven 
+          	Psychologie. Die Theorie besagt, dass Designer den Schritt  
+          	zwischen Ihrem mentalen Modell und dem Problem oder der Situation 
+          	und dem formalen Modell der Lösung oder des Systems überbrücken 
+          	müssen.
+          </para>
+
+          <para>
+          	Diese Theorie besagt, dass Programmierer einen Vorteil haben von:
+          </para>
+
+          <orderedlist>
+
+            <listitem>
+
+              <para>
+              	Mehrere Darstellungen wie die syntaktische Zerlegung eines 
+              	Programmes, Zustandstransitionen, Steuerflüsse und Datenflüsse. 
+              	Diese erlauben es dem Programmierer die Elemente und Beziehungen 
+              	des Problemes und der Lösung besser zu identifizieren und 
+              	können somit die Zuordnung zwischen ihren Situationsmodellen 
+              	und dem ausführenden Systemmodellen leichter herstellen.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+              	Vertraute Aspekte eines Situationsmodelles, verbessert die 
+              	Fähigkeiten des Designers, die Lösung zu formulieren.
+              </para>
+
+            </listitem>
+
+          </orderedlist>
+
+        </glossdef>
+
+      </glossentry>
+
       <glossentry id="gl.vision">
 
         <glossterm>Vision Document</glossterm>
@@ -74680,6 +75682,30 @@ available at http://www.opencontent.org/openpub/.
 
     </glossdiv>
 
+	<glossdiv>
+		<title>
+			<phrase lang="de">Z</phrase>
+		</title>
+		
+      <glossentry lang="de" id="gl.state.de">
+
+        <glossterm>Zustand</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Zustand</primary></indexterm>
+          <para>
+          	Innerhalb eines <emphasis>Zustandsdiagrammes</emphasis> eine der 
+          	möglichen Konfigurationen des Automaten.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+		
+	</glossdiv>
+	
   </glossary>
 
   <appendix id="app.casestudy">
