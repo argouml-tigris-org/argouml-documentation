@@ -73852,6 +73852,60 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
+      <glossentry lang="de" id="gl.usecase.de">
+
+        <glossterm>Anwendungsfall</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Anwendungsfall</primary></indexterm>
+          <para>
+          	Eine UML-Notation, welche die Anforderungen an ein System oder 
+          	Subsystem beinhaltet. Weitere Informationen, siehe 
+			<xref linkend="s1.tut.req_process_output"/>.
+           </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.usecasediag.de">
+
+        <glossterm>Anwendungsfalldiagramm</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Anwendungsfalldiagramm</primary></indexterm>
+          <indexterm>
+          	<primary>Diagramm</primary>
+          	<secondary>Anwendungsfall</secondary>
+          </indexterm>
+          <para>
+          	Ein UML-Diagramm, welches die Beziehungen zwischen Akteuren und 
+          	Anwendungsfällen darstellt. Weitere Informationen, siehe 
+          	<xref linkend="s1.tut.req_process_output"/>.
+           </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.ucspec.de">
+
+        <glossterm>Anwendungsfallspezifikation</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Anwendungsfallspezifikation</primary></indexterm>
+          <para>
+          	Das Dokument beinhaltet die detaillierten Anforderungen eines 
+          	Anwendungsfalles.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
       <glossentry lang="en" id="gl.assocclass.en">
 
         <glossterm>Association Class</glossterm>
@@ -74171,6 +74225,24 @@ available at http://www.opencontent.org/openpub/.
       <title>
 			<phrase>E</phrase>
 	  </title>
+
+      <glossentry lang="de" id="gl.supspec.de">
+
+        <glossterm>Ergänzende Anforderungsspezifikation</glossterm>
+
+        <glossdef>
+
+          <indexterm>
+          	<primary>Ergänzende Anforderungsspezifikation</primary>
+          </indexterm>
+          <para>
+          	Das Dokument beinhaltet nicht-funktionale Anforderungen, die nicht 
+          	mit einem Anwendungsfall verknüpft werden können.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
 
       <glossentry lang="en" id="gl.extends.en">
 
@@ -75290,7 +75362,7 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.statediag">
+      <glossentry lang="en" id="gl.statediag.en">
 
         <glossterm>Statechart Diagram</glossterm>
 
@@ -75309,7 +75381,7 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.stereotype">
+      <glossentry lang="en" id="gl.stereotype.en">
 
         <glossterm>Stereotypes and Stereotyping</glossterm>
 
@@ -75335,7 +75407,37 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.supspec">
+      <glossentry lang="de" id="gl.stereotype.de">
+
+        <glossterm>Stereotypen und Stereotypisieren</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Stereotyp</primary></indexterm>
+          <indexterm><primary>Stereotypisieren</primary></indexterm>
+          <para>
+          	In UML kann jedem Modellelement ein <emphasis>Stereotyp</emphasis> 
+          	gegeben werden, um seine Beziehung mit einer bestimmten Rolle im 
+          	Design darzustellen. Ein Stereotyp <literal>spqr</literal> wird 
+          	allgemein in der Notation <literal>&lt;&lt;spqr&gt;&gt;</literal> 
+          	dargestellt.  
+          </para>
+
+          <para>
+          	Ein Stereotyp definiert einen Namensraum innerhalb des Entwurfes. 
+          	Beispiele für Stereotypen sind <literal>&lt;&lt;business&gt;&gt;
+          	</literal> und <literal>&lt;&lt;realization&gt;&gt;</literal> für 
+          	Anwendungsfälle, um zwischen Anwendungsfällen der Anforderungsphase, 
+          	die in den Begrifflichkeiten des Problembereiches definiert sind und 
+          	den Anwendungsfällen der Analysephase, die in den Begrifflichkeiten 
+          	des Lösungsbereiches definiert wurden, zu unterscheiden.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.supspec.en">
 
         <glossterm>Supplementary Requirement Specification</glossterm>
 
@@ -75350,7 +75452,7 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.svg">
+      <glossentry lang="en" id="gl.svg.en">
 
         <glossterm>SVG</glossterm>
 
@@ -75365,7 +75467,24 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.sysseqdiag">
+      <glossentry lang="de" id="gl.svg.de">
+
+        <glossterm>SVG</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>SVG</primary></indexterm>
+          <para>
+          	Skalierbares Vektor-Grafik-Format. Eine Standarddarstellung von 
+          	grafischen Diagrammen die Vektoren verwendet. ArgoUML kann Diagramme 
+          	in SVG exportieren.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.sysseqdiag.en">
 
         <glossterm>System Sequence Diagram</glossterm>
 
@@ -75384,7 +75503,29 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.sysstatediag">
+      <glossentry lang="de" id="gl.sysseqdiag.de">
+
+        <glossterm>Systemsequenzdiagramm</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Systemsequenzdiagramm</primary></indexterm>
+          <indexterm>
+          	<primary>Diagramm</primary>
+          	<secondary>Systemsequenz</secondary>
+          </indexterm>
+          <para>
+          	Ein <emphasis>Sequenzdiagramm</emphasis> zeigt in der Analysephase 
+          	das dynamische Verhalten des Systems als Ganzes. Weitere 
+          	Informationen, siehe 
+          	<xref linkend="ch.tut.analysis"/>.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.sysstatediag.en">
 
         <glossterm>System Statechart Diagram</glossterm>
 
@@ -75403,15 +75544,37 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
+      <glossentry lang="de" id="gl.sysstatediag.de">
+
+        <glossterm>Systemzustandsdiagramm</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Systemzustandsdiagramm</primary></indexterm>
+          <indexterm>
+          	<primary>Diagramm</primary>
+          	<secondary>Systemzustand</secondary>
+          </indexterm>
+          <para>
+          	Ein <emphasis>Zustandsdiagramm</emphasis> zeigt in der Analysephase 
+          	das dynamische Verhalten eines aktiven Systemobjektes der 
+          	obersten Ebene. Weitere Informationen, siehe
+          	<xref linkend="ch.tut.analysis"/>.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
     </glossdiv>
 
     <glossdiv>
 
       <title>
-			<phrase lang="en">T</phrase>
-		</title>
+			<phrase>T</phrase>
+	  </title>
 
-      <glossentry id="gl.todo">
+      <glossentry lang="en" id="gl.todo.en">
 
         <glossterm>To-Do List</glossterm>
 
@@ -75425,7 +75588,23 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.transition">
+      <glossentry lang="de" id="gl.todo.de">
+
+        <glossterm>To-Do Liste</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>To-Do Liste</primary></indexterm>
+          <para>
+          	Eine Eigenschaft von ArgoUML, die es dem Anwender erlaubt, 
+          	Aktivitäten aufzunehmen, die noch vervollständigt werden müssen.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.transition.en">
 
         <glossterm>Transition</glossterm>
 
@@ -75439,15 +75618,31 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
+      <glossentry lang="de" id="gl.transition.de">
+
+        <glossterm>Transition</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Transition</primary></indexterm>
+          <para>
+          	Die Änderung zwischen <emphasis>Zuständen</emphasis> in einem 
+          	<emphasis>Zustandsdiagramm</emphasis>.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
     </glossdiv>
 
     <glossdiv>
 
       <title>
-			<phrase lang="en">U</phrase>
-		</title>
+			<phrase>U</phrase>
+	  </title>
 
-      <glossentry id="gl.uml">
+      <glossentry lang="en" id="gl.uml.en">
 
         <glossterm>UML</glossterm>
 
@@ -75463,7 +75658,26 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.usecase">
+      <glossentry lang="de" id="gl.uml.de">
+
+        <glossterm>UML</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>UML</primary></indexterm>
+          <para>
+          	Universal Modeling Language. Eine grafische Notation für OOA&amp;D-
+          	Prozesse, standardisiert durch die OMG. ArgoUML unterstützt 
+          	UML&nbsp;1.4. UML&nbsp;2.0 befindet sich in den abschliessenden 
+          	Runden der Standardisierung und sollte im Verlauf des Jahres 2006 
+          	vollständig sein.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.usecase.en">
 
         <glossterm>Use Case</glossterm>
 
@@ -75478,7 +75692,7 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.usecasediag">
+      <glossentry lang="en" id="gl.usecasediag.en">
 
         <glossterm>Use Case Diagram</glossterm>
 
@@ -75495,7 +75709,7 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.ucspec">
+      <glossentry lang="en" id="gl.ucspec.en">
 
         <glossterm>Use Case Specification</glossterm>
 
@@ -75515,7 +75729,7 @@ available at http://www.opencontent.org/openpub/.
     <glossdiv>
 
       <title>
-			<phrase lang="en">V</phrase>
+			<phrase>V</phrase>
 		</title>
 
       <glossentry lang="de" id="gl.responsibility.de">
@@ -75585,7 +75799,7 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.vision">
+      <glossentry lang="en" id="gl.vision.en">
 
         <glossterm>Vision Document</glossterm>
 
@@ -75599,13 +75813,29 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
+      <glossentry lang="de" id="gl.vision.de">
+
+        <glossterm>Visions-Dokument</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Visions-Dokument</primary></indexterm>
+          <para>
+          	Das Toplevel-Dokument, das beschreibt, was das zu entwickelnde 
+          	System leisten können soll.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
     </glossdiv>
 
     <glossdiv>
 
       <title>
-			<phrase lang="en">W</phrase>
-		</title>
+			<phrase>W</phrase>
+	  </title>
 
       <glossentry id="gl.w3c">
 
@@ -75697,6 +75927,27 @@ available at http://www.opencontent.org/openpub/.
           <para>
           	Innerhalb eines <emphasis>Zustandsdiagrammes</emphasis> eine der 
           	möglichen Konfigurationen des Automaten.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.statediag.de">
+
+        <glossterm>Zustandsdiagramm</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Zustandsdiagram</primary></indexterm>
+          <indexterm>
+          	<primary>Diagramm</primary>
+          	<secondary>Zustand</secondary>
+          </indexterm>
+          <para>
+          	Ein UML-Diagramm, welches das dynamische Verhalten eines aktiven 
+          	<emphasis>Objektes</emphasis> darstellt. Weitere Informationen,  
+          	siehe <xref linkend="s1.umlstatediags"/>.
           </para>
 
         </glossdef>
