@@ -76687,6 +76687,9 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en"><literal>Attribute</literal> tagged values</phrase>
+			<phrase lang="de">
+				Eigenschaftswerte für <literal>Attribute</literal>
+			</phrase>
 		</title>
 
         <para lang="en">UML <literal>Attributes</literal> are mapped to <literal>
@@ -76694,17 +76697,27 @@ available at http://www.opencontent.org/openpub/.
         To make the tag definitions applicable to a C++ member variable 
         available we apply the <literal>cppAttribute</literal> stereotype to 
         it.</para>
+        <para lang="de">
+        	UML-<literal>Attribute</literal> werden auf die <literal>
+        	Membervariablen der Klassen</literal> zugeordnet. Um die Tag-
+        	Definitionen für die C++-Membervariablen verfügbar zu machen, 
+        	verwenden wird den Stereotypen <literal>cppAttribute</literal>. 
+        </para>
 
         <variablelist>
 
           <varlistentry>
 
-            <term lang="en"><literal>pointer</literal></term>
+            <term><literal>pointer</literal></term>
 
             <listitem>
 
               <para lang="en"><literal>true</literal> - the type of the member 
               variable will be a pointer to the attribute type.</para>
+              <para lang="de">
+              	<literal>true</literal> - der Typ der Membervariable wird ein 
+              	Zeiger auf den Attributtyp sein.
+              </para>
 
               <para lang="en">For example, if you have the UML <literal>
               Attribute</literal>: <literal>name: 
@@ -76712,9 +76725,19 @@ available at http://www.opencontent.org/openpub/.
               pointer</literal> tagged value set to true, the generated 
               member variable would be: <literal>std::string* 
               name;</literal></para>
+              <para lang="de">
+              	Zum Beispiel: Wenn Sie das UML-<literal>Attribut</literal>: 
+              	<literal>name:std::string</literal> mit dem Eigenschaftswert 
+              	<literal>pointer</literal> auf true haben, ist die generierte 
+              	Membervariable: <literal>std::string*name;</literal>
+              </para>
 
               <para lang="en"><literal>false</literal> (default) - no pointer 
               modifier is applied.</para>
+              <para lang="de">
+              	<literal>false</literal> (Standard) - es wird kein Zeiger 
+              	angewendet.
+              </para>
 
             </listitem>
 
@@ -76722,15 +76745,23 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>reference</literal></term>
+            <term><literal>reference</literal></term>
 
             <listitem>
 
               <para lang="en"><literal>true</literal> - the type of the member 
               variable will be a reference to the attribute type.</para>
+              <para lang="de">
+              	<literal>true</literal> - der Typ der Membervariable wird eine 
+              	Referenz auf den Attributtyp sein.
+              </para>
 
               <para lang="en"><literal>false</literal> (default) - no reference 
               modifier is applied.</para>
+              <para lang="de">
+              	<literal>false</literal> (Standard) - es wird keine Referenz 
+              	angewendet.
+              </para>
 
             </listitem>
 
@@ -76738,7 +76769,7 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>usage</literal></term>
+            <term><literal>usage</literal></term>
 
             <listitem>
 
@@ -76746,6 +76777,12 @@ available at http://www.opencontent.org/openpub/.
               types to a pre-declaration in the header, and the include 
               of the remote class header in the header of the generated 
               class.</para>
+              <para lang="de">
+              	<literal>header</literal> - wird zu Klassentypen mit einer 
+              	Vordeklaration im Header führen, und zum Einfügen des 
+              	Remote-Klassenheaders (-kopfes) in den Header (Kopf) der 
+              	generierten Klasse.
+              </para>
 
             </listitem>
 
@@ -76753,7 +76790,7 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>MultiplicityType</literal></term>
+            <term><literal>MultiplicityType</literal></term>
 
             <listitem>
 
@@ -76762,6 +76799,13 @@ available at http://www.opencontent.org/openpub/.
               corresponding STL container, if the <literal>
               Multiplicity</literal> range of the attribute is variable 
               (for fixed size ranges this setting is ignored).</para>
+              <para lang="de">
+              	<literal>list || slist || vector || map || stack || 
+              stringmap</literal> - wird eine Kardinalität als korrespondierenden 
+              STL-Container definieren, wenn der <literal>Kardinalitäts</literal>-
+              Bereich des Attributes variabel ist (bei festen Bereichen wird 
+              die Einstellung ignoriert).
+              </para>
 
             </listitem>
 
@@ -76769,7 +76813,7 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>set</literal></term>
+            <term><literal>set</literal></term>
 
             <listitem>
 
@@ -76778,6 +76822,13 @@ available at http://www.opencontent.org/openpub/.
               function (call by reference is used for class-types, else 
               call by value); place the function in the given 
               visibility area.</para>
+              <para lang="de">
+              	<literal>private || protected || public</literal> - erzeugt 
+              	eine einfache Funktion, um das Attribut durch eine Funktion zu 
+              	setzen (Aufruf per Referenz wird für Klassentypen anstelle von 
+              	Aufruf per Wert verwendet); plaziert die Funktion in den 
+              	angegebenen Sichtbarkeitsbereich.
+              </para>
 
             </listitem>
 
@@ -76785,12 +76836,16 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>get</literal></term>
+            <term><literal>get</literal></term>
 
             <listitem>
 
               <para lang="en"><literal>private || protected || public</literal> - 
               as for <literal>set</literal>.</para>
+              <para lang="de">
+              	<literal>private || protected || public</literal> - 
+              	wie bei <literal>set</literal>.
+              </para>
 
             </listitem>
 
@@ -76804,42 +76859,73 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en"><literal>Parameters</literal></phrase>
+			<phrase lang="de"><literal>Parameter</literal></phrase>
 		</title>
         
         <para lang="en">To make the tag definitions applicable to a C++ argument 
         available we apply the <literal>cppParameter</literal> stereotype to 
         it.
         </para>
+        <para lang="de">
+        	Um eine Tag-Definitionen für ein C++-Argument verfügbar zu machen, 
+        	wenden wir den Stereotyp <literal>cppParameter</literal> auf ihn an.
+        </para>
 
         <sect3>
 
           <title>
 			<phrase lang="en">Variable passing semantics</phrase>
-		</title>
+			<phrase lang="de">Übergabesemantik Variable</phrase>
+		  </title>
 
           <para lang="en">If a <literal>Parameter</literal> for an <literal>
           Operation</literal> is marked as <literal>out</literal> or 
           <literal>inout</literal> the variable will be passed by 
           reference (default) or pointer (needs tagged value <literal>
           pointer</literal> - see above), otherwise by value.</para>
+          <para lang="de">
+          	Wenn ein <literal>Parameter</literal> für eine <literal>Operation
+          	</literal> als <literal>out</literal> oder <literal>inout</literal> 
+          	gekennzeichnet ist, wird die Variable per Referenz (Standard) oder 
+          	Zeiger (benötigt den Eigenschaftswert <literal>pointer</literal> - 
+          	siehe oben) übergeben. Im anderen Fall per Wert. 
+          </para>
 
           <para lang="en">Return values in UML are simply <literal>
           Parameters</literal> marked as <literal>return</literal>, 
           therefore everything here applies to them, except where 
           explicitly noted.</para>
+          <para lang="de">
+          	Rückgabewerte sind in UML einfach <literal>Parameter</literal>, 
+          	gekennzeichnet mit <literal>return</literal>. Also alles, was hier 
+          	für sie gilt, sofern nicht ausdrücklich darauf hingewiesen.
+          </para>
 
-          <warning>
-
-            <para lang="en">Note that UML allows multiple return values. This is 
-            possible to support in C++ as out parameters, but, 
-            currently the generator doesn&apos;t supports it.</para>
-
-            <para lang="en">This problem is being handled in 
-            <ulink url="http://argouml.tigris.org/issues/show_bug.cgi?id=3553">
-            issue #3553 - handle multiple return 
-            parameters</ulink>.</para>
-
-          </warning>
+		  <para>
+	          <warning>
+	
+	            <para lang="en">Note that UML allows multiple return values. This is 
+	            possible to support in C++ as out parameters, but, 
+	            currently the generator doesn&apos;t supports it.</para>
+	            <para lang="de">
+	            	Beachten Sie, dass UML mehrere Rückgabewerte erlaubt. Dies 
+	            	ist möglich, und wird in C++ durch out-Parameter unterstützt, 
+	            	aber, es wird derzeit vom Generator nicht unterstützt.
+	            </para>
+	
+	            <para lang="en">This problem is being handled in 
+	            <ulink url="http://argouml.tigris.org/issues/show_bug.cgi?id=3553">
+	            issue #3553 - handle multiple return 
+	            parameters</ulink>.</para>
+	            <para lang="de">
+	            	Dieses Problem wird unter 
+	            	<ulink url="http://argouml.tigris.org/issues/show_bug.cgi?id=3553">
+	            	issue #3553 - handle multiple return parameters</ulink> 
+	            	behandelt.
+	            </para>
+	
+	          </warning>
+          </para>
 
         </sect3>
 
@@ -76847,18 +76933,25 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en"><literal>Parameter</literal> tagged values</phrase>
-		</title>
+			<phrase lang="de">
+				Eigenschaftswerte für <literal>Parameter</literal>
+			</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
-              <term lang="en"><literal>pointer</literal></term>
+              <term><literal>pointer</literal></term>
 
               <listitem>
 
                 <para lang="en"><literal>true || false</literal> (default) - same 
                 as for <literal>Attributes</literal>.</para>
+                <para lang="de">
+                	<literal>true || false</literal> (Standard) - das gleiche 
+                	wie bei <literal>Attribute</literal>. 
+                </para>
 
               </listitem>
 
@@ -76866,11 +76959,12 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term lang="en"><literal>reference</literal></term>
+              <term><literal>reference</literal></term>
 
               <listitem>
 
                 <para lang="en">ditto</para>
+                <para lang="de">dto.</para>
 
               </listitem>
 
@@ -76886,29 +76980,42 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en"><literal>Generalization</literal></phrase>
+			<phrase lang="de"><literal>Generalisierung</literal></phrase>
 		</title>
         
         <para lang="en">To make the tag definitions applicable to a C++ generalization 
         available we apply the <literal>cppGeneralization</literal> 
         stereotype to it.
         </para>
+        <para lang="de">
+        	Um die Tag-Definition für eine C++-Generalisierung zur Verfügung zu 
+        	stellen, wenn wir den Stereotypen <literal>cppGeneralization
+        	</literal> an.	
+        </para>
 
         <sect3>
 
           <title>
 			<phrase lang="en"><literal>Generalization</literal> tagged values</phrase>
-		</title>
+			<phrase lang="de">
+				Eigenschaftswerte für <literal>Generalisierung</literal>
+			</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
-              <term lang="en"><literal>cpp_virtual_inheritance</literal></term>
+              <term><literal>cpp_virtual_inheritance</literal></term>
 
               <listitem>
 
                 <para lang="en"><literal>true || false</literal> (default) - used to 
                 specify virtual inheritance.</para>
+                <para lang="de">
+                	<literal>true || false</literal> (Standard) - wird zur 
+                	Spezifikation der virtuellen Vererbung verwendet.
+                </para>
 
               </listitem>
 
@@ -76916,13 +77023,18 @@ available at http://www.opencontent.org/openpub/.
 
             <varlistentry>
 
-              <term lang="en"><literal>cpp_inheritance_visibility</literal></term>
+              <term><literal>cpp_inheritance_visibility</literal></term>
 
               <listitem>
 
                 <para lang="en"><literal>public</literal> (default)<literal> || private 
                 || protected</literal> &ndash; use this to specify the 
                 inheritance visibility of the generalization.</para>
+                <para lang="de">
+                	<literal>public</literal> (Standard)<literal> || private 
+                	|| protected</literal> &ndash; wird verwendet, um die 
+                	Sichtbarkeit der Vererbung zu spezifizieren. 
+                </para>
 
               </listitem>
 
@@ -76938,30 +77050,44 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en"><literal>Realization</literal></phrase>
+			<phrase lang="de"><literal>Realisierung</literal></phrase>
 		</title>
         
         <para lang="en">To make the tag definitions applicable to a C++ realization 
         available we apply the <literal>cppRealization</literal> 
         stereotype to it.
         </para>
+        <para lang="de">
+        	Um die Tag-Definition für die C++-Realisierung zur Verfügung zu 
+        	stellen, wenden wir den Stereotypen <literal>cppRealization</literal> 
+        	an.
+        </para>
 
         <sect3>
 
           <title>
 			<phrase lang="en"><literal>Realization</literal> tagged values</phrase>
-		</title>
+			<phrase lang="de">
+				Eigenschaftswerte für <literal>Realisierung</literal>
+			</phrase>
+		  </title>
 
           <variablelist>
 
             <varlistentry>
 
-              <term lang="en"><literal>cpp_inheritance_visibility</literal></term>
+              <term><literal>cpp_inheritance_visibility</literal></term>
 
               <listitem>
 
                 <para lang="en"><literal>public</literal> (default)<literal> || private 
                 || protected</literal> &ndash; use this to specify the 
                 inheritance visibility of the generalization.</para>
+                <para lang="de">
+                	<literal>public</literal> (Standard)<literal> || private 
+                	|| protected</literal> &ndash; wird verwendet, um die 
+                	Sichtbarkeit der Vererbung zu spezifizieren.
+                </para>
 
               </listitem>
 
@@ -76977,10 +77103,15 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Preserved sections</phrase>
+			<phrase lang="de">Geschützte Abschnitte</phrase>
 		</title>
 
         <para lang="en">With each code generation, special comments around the 
         member function definitions will be generated like this:</para>
+        <para lang="de">
+        	Bei jeder Codegenerierung werden spezielle Kommentare vor und nach 
+        	den Funktionsdefinitionen generiert:
+        </para>
 
         <programlisting>
   function Testclass::Testclass()
@@ -76995,9 +77126,22 @@ available at http://www.opencontent.org/openpub/.
         because the sections are recognized by this comment syntax. As 
         the curly braces are placed within the preserved area, 
         attribute initializers are preserved on constructors.</para>
+        <para lang="de">
+        	Der gesamte Code, der von Ihnen zwischen den &quot;begin&quot;- und 
+        	&quot;end&quot;-Zeilen eingefügt wird, bleibt erhalten, wenn Sie 
+        	den Code erneut generieren. Bitte ändern Sie nichts innerhalb dieser 
+        	Zeilen, weil die Abschnitte durch diese Kommentarsyntax erkannt 
+        	werden. Da die, geschweiften Klammern innerhalb des geschützten 
+        	Bereiches platziert wurden, bleibt auch die Attributinitalisierung 
+        	in den Konstruktoren erhalten.
+        </para>
 
         <para lang="en">This also works if you change Method Names after the 
         generation.</para>
+        <para lang="de">
+        	Die passiert auch, wenn Sie die Methodennamen nach dem Generieren 
+        	ändern.
+        </para>
 
         <programlisting>
   void newOperation(std::string test = &quot;fddsaffa&quot;)
@@ -77010,6 +77154,11 @@ available at http://www.opencontent.org/openpub/.
         the class is generated, the lost code - i.e., the whole member 
         function definition - will be added as comment to the end of 
         the file.</para>
+        <para lang="de">
+        	Wenn Sie eine Operation im Modell löschen. Da nächste Mal, wenn die 
+        	Klasse generiert wird, wird der gelöschte Code - z.B. die ganze 
+        	Funktionsdefinition - als Kommentar am Ende der Datei hinzugefügt. 
+        </para>
 
       </sect2>
 
@@ -77020,30 +77169,41 @@ available at http://www.opencontent.org/openpub/.
   <appendix id="app.hardlimits">
 
     <title>
-			<phrase lang="en">Limits and Shortcomings</phrase>
-		</title>
+		<phrase lang="en">Limits and Shortcomings</phrase>
+		<phrase lang="de">Beschränkungen und Mängel</phrase>
+	</title>
 
     <para lang="en">As all products, ArgoUML has some limits. Those important to 
     the user are listed in this section.</para>
+    <para lang="de">
+    	Wie bei allen Produkten hat auch ArgoUML einige Beschränkungen. Die für 
+    	den Anwender wichtigen, sind in diesem Abschnitt aufgelistet.
+    </para>
 
     <sect1>
 
       <title>
-			<phrase lang="en">Diagram Canvas Size</phrase>
-		</title>
+		<phrase lang="en">Diagram Canvas Size</phrase>
+		<phrase lang="de">Größe der Diagramm-Leinwand</phrase>
+	 </title>
 
       <para lang="en">Due to the underlying diagram editing software, the canvas 
       size for diagrams is limited to 6000 units in height and 
       width.</para>
+      <para lang="de">
+      	Auf Grund der zugrunde liegenden Grafiksoftware, ist die Leinwandgröße 
+      	für Diagramme auf 6000 Einheiten in der Höhe und in der Breite begrenzt.
+      </para>
 
     </sect1>
 
     <sect1>
 
       <title>
-			<phrase lang="en">Missing functions</phrase>
-		</title>
-      <para lang="en"></para>
+		<phrase lang="en">Missing functions</phrase>
+		<phrase lang="de">Fehlende Funktionen</phrase>
+	  </title>
+      <para></para>
 
 
     </sect1>
@@ -77054,6 +77214,7 @@ available at http://www.opencontent.org/openpub/.
 
     <title>
       <phrase lang="en">Open Publication License</phrase>
+      <phrase lang="de">Open Publication Lizenz</phrase>
     </title>
     
     <para>
@@ -77064,11 +77225,16 @@ available at http://www.opencontent.org/openpub/.
       <ulink url="http://www.opencontent.org/openpub/">
       http://www.opencontent.org/openpub/</ulink>.
     </para>
+    <para lang="de">
+    	Dieser Anhang enthält die Lizenzversion, die bei diesem Anwenderhandbuch 
+    	zur Anwendung kommt; z.B. Open Publication Lizenz v1.0
+    </para>
 
     <sect1>
 
       <title>
         <phrase lang="en">Introduction</phrase>
+        <phrase lang="de">Einleitung</phrase>
       </title>
 
       <!--  Unmodified from the Open Publication License: -->
@@ -77078,10 +77244,22 @@ available at http://www.opencontent.org/openpub/.
       to, and that this license or an incorporation of it by reference 
       (with any options elected by the author(s) and/or publisher) is 
       displayed in the reproduction.</para>
+      <para lang="de">
+      	Arbeiten auf Basis der Open Publication Lizenz dürfen als Ganzes oder 
+      	in Teilen auf jedem physikalischen oder elektronischen Medium 
+      	vervielfältigt oder verteilt werden, vorausgesetzt, die Bedingungen 
+      	dieser Lizenz werden eingehalten und das diese Lizenz oder ein Verweis 
+      	auf diese Lizenz (mit jeder, von den Autor(en) und/oder Herausgebern 
+      	gewählten Option) in die Reproduktion aufgenommen wird.
+      </para>
 
       <!--  Unmodified from the Open Publication License: -->
       <para lang="en">Proper form for an incorporation by reference is as 
       follows:</para>
+      <para lang="de">
+      	Die richtige Form für die Aufnahme von Informationen mittels Verweis 
+      	lautet wie folgt:
+      </para>
 
       <!--  Unmodified from the Open Publication License: -->
       <blockquote>
@@ -77092,12 +77270,25 @@ available at http://www.opencontent.org/openpub/.
         License, vX.Y or later (the latest version is presently 
         available at <ulink url="http://www.opencontent.org/openpub/">
         http://www.opencontent.org/openpub/</ulink>).</para>
+        <para lang="de">
+        	Copyright (c) &lt;Jahr&gt; von Name des &lt;Autors&gt; oder 
+        	&lt;Zeichnungsberechtigten&gt;. Dieses Material darf nur unter den 
+        	Voraussetzungen und den Bedingungen, die in der Open Publication 
+        	Lizenz, vX.Y oder später (die letzte Version ist aktuell verfügbar 
+        	unter <ulink url="http://www.opencontent.org/openpub/">
+        	http://www.opencontent.org/openpub/</ulink>) beschrieben sind, 
+        	verteilt werden.
+        </para>
 
       </blockquote>
 
       <!--  Unmodified from the Open Publication License: -->
       <para lang="en">Commercial redistribution of Open Publication-licensed 
       material is permitted.</para>
+      <para lang="de">
+      	Die kommerzielle Weiterverbreitung von Open Publication lizensiertem 
+      	Material ist erlaubt.
+      </para>
 
       <!--  Unmodified from the Open Publication License: -->
       <para lang="en">Any publication in standard (paper) book form shall require 
@@ -77106,18 +77297,30 @@ available at http://www.opencontent.org/openpub/.
       book. On all outer surfaces of the book the original 
       publisher&apos;s name shall be as large as the title of the work 
       and cited as possessive with respect to the title.</para>
+      <para lang="de">
+      	Jegliche Publikation im Standard-(Papier-) Buch-Format erfordert das 
+      	Zitieren der Original-Herausgeber und Autoren. Der Namen der Herausgeber 
+      	und Autoren erscheinen auf allen äußeren Deckflächen des Buches. 
+      	Auf allen äußeren Deckflächen des Buches soll der Name des 
+      	Original-Herausgebers genauso groß sein, wie der Titel der Arbeit und so 
+      	hervorgehoben benannt werden wie der Titel.
+      </para>
 
     </sect1>
 
     <sect1>
 
       <title>
-			<phrase lang="en">Copyright</phrase>
-		</title>
+		<phrase>Copyright</phrase>
+	  </title>
 
       <!--  Unmodified from the Open Publication License: -->
       <para lang="en">The copyright to each Open Publication is owned by its 
       author(s) or designee.</para>
+      <para lang="de">
+      	Das Copyright jeder Open Publication gehört dem Autor(en) oder den 
+      	Zeichnungsberechtigten.
+      </para>
 
     </sect1>
 
@@ -77125,11 +77328,17 @@ available at http://www.opencontent.org/openpub/.
 
       <title>
 			<phrase lang="en">Scope Of License</phrase>
-		</title>
+			<phrase lang="de">Bezugsbereich der Lizenz</phrase>
+	  </title>
 
       <!--  Unmodified from the Open Publication License: -->
       <para lang="en">The following license terms apply to all Open Publication 
       works, unless otherwise explicitly stated in the document.</para>
+      <para lang="de">
+      	Die folgenden Lizenzbestimmungen gelten für alle 
+      	Open-Publication-Arbeiten, sofern nicht explizit anders lautend im 
+      	Dokument erwähnt.
+      </para>
 
       <!--  Unmodified from the Open Publication License: -->
       <para lang="en">Mere aggregation of Open Publication works or a portion of 
@@ -77138,11 +77347,24 @@ available at http://www.opencontent.org/openpub/.
       The aggregate work shall contain a notice specifying the 
       inclusion of the Open Publication material and appropriate 
       copyright notice.</para>
+      <para lang="de">
+      	Das Zusammenfassen von Open-Publication-Arbeiten oder Teilen einer 
+      	Open-Publication-Arbeit mit anderen Arbeiten oder Programmen auf dem 
+      	gleichen Medium, kann nicht dazu führen, dass diese Lizenz auf diese 
+      	anderen Arbeiten anzuwenden ist. Die zusammengefaßte Arbeit sollte einen 
+      	Hinweis enthalten, der auf die Einbeziehung von Open-Publication-Material 
+      	hinweist und eine geeignete Copyright-Vermerk enthält.
+      </para>
 
       <!--  Unmodified from the Open Publication License: -->
       <para lang="en">SEVERABILITY. If any part of this license is found to be 
       unenforceable in any jurisdiction, the remaining portions of the 
       license remain in force.</para>
+      <para lang="de">
+      	SALVATORISCHE KLAUSEL. Wenn irgendein Teil dieser Lizenz in der 
+      	Rechtssprechung eines Staates nicht vollstreckbar ist, bleiben die 
+      	restlichen Teile der Lizenz in Kraft.
+      </para>
 
       <!--  Unmodified from the Open Publication License: -->
       <para lang="en">NO WARRANTY. Open Publication works are licensed and 
@@ -77150,6 +77372,13 @@ available at http://www.opencontent.org/openpub/.
       express or implied, including, but not limited to, the implied 
       warranties of merchantability and fitness for a particular 
       purpose or a warranty of non-infringement.</para>
+      <para lang="de">
+      	KEINE GARANTIE. Open-Publication-Arbeiten werden ohne jegliche Garantie 
+      	lizensiert und verbreitet. Sie sind weder ausdrücklich noch 
+      	stillschweigend, einschließlich, aber nicht beschränkt auf die 
+      	stillschweigende Garantie der Markttauglichkeit und der Eignung für 
+      	einen bestimmten Zweck oder eine Garantie der Nicht-Verletzung.
+      </para>
 
     </sect1>
 
@@ -77157,12 +77386,18 @@ available at http://www.opencontent.org/openpub/.
 
       <title>
 			<phrase lang="en">Requirements On Modified Works</phrase>
-		</title>
+			<phrase lang="de">Anforderungen an modifizierte Arbeiten</phrase>
+	  </title>
 
       <!--  Unmodified from the Open Publication License: -->
       <para lang="en">All modified versions of documents covered by this license, 
       including translations, anthologies, compilations and partial 
       documents, must meet the following requirements:</para>
+      <para lang="de">
+      	Alle modifizierten Versionen, die durch diese Lizenz abgedeckt werden, 
+      	einschließlich Übersetzungen, Anthologien, Zusammenstellungen und 
+      	Teildokumenten, müssen die folgenden Voraussetzungen erfüllen:
+      </para>
 
       <orderedlist>
 
@@ -77170,6 +77405,9 @@ available at http://www.opencontent.org/openpub/.
 
           <!--  Unmodified from the Open Publication License: -->
           <para lang="en">The modified version must be labeled as such.</para>
+          <para lang="de">
+          	Die modifizierte Version muss als solche gekennzeichnet werden.
+          </para>
 
         </listitem>
 
@@ -77178,6 +77416,10 @@ available at http://www.opencontent.org/openpub/.
           <!--  Unmodified from the Open Publication License: -->
           <para lang="en">The person making the modifications must be identified 
           and the modifications dated.</para>
+          <para lang="de">
+          	Die Person, die die Änderung vornahm muss identifiziert und die 
+          	Änderungen müssen mit einem Datum versehen sein.
+          </para>
 
         </listitem>
 
@@ -77187,6 +77429,11 @@ available at http://www.opencontent.org/openpub/.
           <para lang="en">Acknowledgement of the original author and publisher if 
           applicable must be retained according to normal academic 
           citation practices.</para>
+          <para lang="de">
+          	Danksagungen der Original-Autoren und Herausgeber müssen ggf. 
+          	beibehalten werden und den üblichen akademischen Zitat-Praktiken 
+          	entsprechen.
+          </para>
 
         </listitem>
 
@@ -77195,6 +77442,10 @@ available at http://www.opencontent.org/openpub/.
           <!--  Unmodified from the Open Publication License: -->
           <para lang="en">The location of the original unmodified document must 
           be identified.</para>
+          <para lang="de">
+          	Der Ablageort des originalen unmodifizierten Dokumentes muss benannt 
+          	werden.
+          </para>
 
         </listitem>
 
@@ -77205,6 +77456,10 @@ available at http://www.opencontent.org/openpub/.
           may not be used to assert or imply endorsement of the 
           resulting document without the original author&apos;s (or 
           authors&apos;) permission.</para>
+          <para lang="de">
+          	Der ursprüngliche Name des Autors (oder der Autoren) darf ohne 
+          	dessen Billigung in dem modifzierten Dokument nicht verwendet werden. 
+          </para>
 
         </listitem>
 
@@ -77216,12 +77471,17 @@ available at http://www.opencontent.org/openpub/.
 
       <title>
 			<phrase lang="en">Good-Practice Recommendations</phrase>
-		</title>
+			<phrase lang="de">Empfehlungen für die gute Praxis</phrase>
+	  </title>
 
       <!--  Unmodified from the Open Publication License: -->
       <para lang="en">In addition to the requirements of this license, it is 
       requested from and strongly recommended of redistributors 
       that:</para>
+      <para lang="de">
+      	Zusätzlich zu den Anforderungen dieser Lizenz, wird den Distributoren 
+      	dringend empfohlen, dass:
+      </para>
 
       <orderedlist>
 
@@ -77234,6 +77494,15 @@ available at http://www.opencontent.org/openpub/.
           before your manuscript or media freeze, to give the authors 
           time to provide updated documents. This notification should 
           describe modifications, if any, made to the document.</para>
+          <para lang="de">
+          	Wenn Sie Open-Publication-Arbeiten als Hardcopy oder auf CD-ROM, 
+          	sollten Sie mindestens dreißig Tage bevor Ihr Manuskript oder das 
+          	Medium endgültig fertiggestellt ist, eine E-Mail-Benachrichtigung an 
+          	die Autoren senden, in der Sie Ihre Absicht der Weiterverteilung 
+          	ankündigen, um den Autoren Zeit zu geben, die aktualisierten 
+          	Dokumente zu sichten. Diese Ankündigung sollte die im Dokument 
+          	vorgenommenen Änderungen beschreiben.
+          </para>
 
         </listitem>
 
@@ -77243,6 +77512,11 @@ available at http://www.opencontent.org/openpub/.
           <para lang="en">All substantive modifications (including deletions) be 
           either clearly marked up in the document or else described in 
           an attachment to the document.</para>
+          <para lang="de">
+          	Alle substantiellen Modifikationen (einschließlich Löschungen) sind 
+          	entweder deutlich im Dokument oder in einem Anhang zu dem Dokument 
+          	zu beschreiben.
+          </para>
 
         </listitem>
 
@@ -77253,6 +77527,12 @@ available at http://www.opencontent.org/openpub/.
           it is considered good form to offer a free copy of any 
           hardcopy and CD-ROM expression of an Open 
           Publication-licensed work to its author(s).</para>
+          <para lang="de">
+          	Schließlich, obwohl nicht erforderlich unter dieser Lizenz, wird es 
+          	als guter Stil angesehen eine kostenlose Kopie einer unter Open 
+          	Publication lizensierten Arbeit als Hardcopy- und CD-ROM an den 
+          	Autor(en) zu senden.
+          </para>
 
         </listitem>
 
@@ -77265,8 +77545,8 @@ available at http://www.opencontent.org/openpub/.
   <appendix id="app.crc">
 
     <title>
-			<phrase lang="en">The CRC Card Methodology</phrase>
-		</title>
+		<phrase lang="en">The CRC Card Methodology</phrase>
+	</title>
 
     <para lang="en">
       A CRC card is ostensibly an index card that is used to represent
