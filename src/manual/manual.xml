@@ -75837,7 +75837,7 @@ available at http://www.opencontent.org/openpub/.
 			<phrase>W</phrase>
 	  </title>
 
-      <glossentry id="gl.w3c">
+      <glossentry lang="en" id="gl.w3c.en">
 
         <glossterm>W3C</glossterm>
 
@@ -75853,7 +75853,25 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.waterfall">
+      <glossentry lang="de" id="gl.w3c.de">
+
+        <glossterm>W3C</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>W3C</primary></indexterm>
+          <para>
+          	Das World Wide Web Konsortium, 
+          	<ulink url="http://www.w3c.org">www.w3c.org</ulink>. Ein 
+          	internationales Standardisierungsgremium für alle Dinge, die mit  
+          	dem Word Wide Web zu tun haben.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.waterfall.en">
 
         <glossterm>Waterfall Design Process</glossterm>
 
@@ -75872,15 +75890,37 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
+      <glossentry lang="de" id="gl.waterfall.de">
+
+        <glossterm>Wasserfall-Designprozess</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>Wasserfall-Designprozess</primary></indexterm>
+          <indexterm>
+          	<primary>Designprozess</primary>
+          	<secondary>Wasserfall</secondary>
+          </indexterm>
+          <para>
+          	Ein Designprozess, bei dem jede Phase (Anforderungen, Analyse, 
+          	Design, Build, Test) vollständig bearbeitet wird, bevor die 
+          	nächste beginnt. Weitere Informationen, siehe 
+          	<xref linkend="s2.proctypes"/>.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
     </glossdiv>
 
     <glossdiv>
 
       <title>
-			<phrase lang="en">X</phrase>
-		</title>
+			<phrase>X</phrase>
+	  </title>
 
-      <glossentry id="gl.xmi">
+      <glossentry lang="en" id="gl.xmi.en">
 
         <glossterm>XMI</glossterm>
 
@@ -75896,7 +75936,25 @@ available at http://www.opencontent.org/openpub/.
 
       </glossentry>
 
-      <glossentry id="gl.xml">
+      <glossentry lang="de" id="gl.xmi.de">
+
+        <glossterm>XMI</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>XMI</primary></indexterm>
+          <para>
+          	XML-Model Interchange format. Ein Format für die Speicherung von 
+          	UML-Modellen in einer Datei. Aktuell unvollständig, weil sie nicht 
+          	alle grafischen Layoutinformationen enthält, so dass sie durch 
+          	Dateien ergänzt werden muss, die diese Informationen enthalten.
+          </para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="en" id="gl.xml.en">
 
         <glossterm>XML</glossterm>
 
@@ -75905,6 +75963,22 @@ available at http://www.opencontent.org/openpub/.
           <indexterm lang="en"><primary>XML</primary></indexterm>
           <para lang="en">eXtensible Markup Language. A simplified derivative of 
           SGML defined by W3C</para>
+
+        </glossdef>
+
+      </glossentry>
+
+      <glossentry lang="de" id="gl.xml.de">
+
+        <glossterm>XML</glossterm>
+
+        <glossdef>
+
+          <indexterm><primary>XML</primary></indexterm>
+          <para>
+          	eXtensible Markup Language. Eine, durch die W3C vereinfachte 
+          	Ableitung von SGML.
+          </para>
 
         </glossdef>
 
@@ -75962,17 +76036,23 @@ available at http://www.opencontent.org/openpub/.
   <appendix id="app.casestudy">
 
     <title>
-			<phrase lang="en">Supplementary Material for the Case Study</phrase>
-		</title>
+		<phrase lang="en">Supplementary Material for the Case Study</phrase>
+		<phrase lang="de">Ergänzendes Material für die Fallstudie</phrase>
+	</title>
 
     <sect1>
 
       <title>
-			<phrase lang="en">Introduction</phrase>
-		</title>
+		<phrase lang="en">Introduction</phrase>
+		<phrase lang="de">Einleitung</phrase>
+	  </title>
 
       <para lang="en">The case study requires various material (mostly documents) 
       that live alongside the design diagram</para>
+      <para lang="de">
+      	Die Fallstudie erfordert verschiedene Materialien (meist Dokumente), die 
+      	neben dem Designdiagramm existieren. 
+      </para>
 
     </sect1>
 
@@ -75980,32 +76060,44 @@ available at http://www.opencontent.org/openpub/.
 
       <title>
 			<phrase lang="en">Requirements Documents (To be written)</phrase>
-		</title>
+			<phrase lang="de">Anforderungsdokumente (Noch zu beschreiben)</phrase>
+	  </title>
 
       <remark lang="en">To be written...</remark>
+      <remark lang="de">Noch zu beschreiben...</remark>
       <sect2>
 
         <title>
 			<phrase lang="en">Vision Document (To be written)</phrase>
+			<phrase lang="de">Visionsdokument (Noch zu beschreiben)</phrase>
 		</title>
 
         <remark lang="en">To be written...</remark>
+        <remark lang="de">Noch zu beschreiben...</remark>
       </sect2>
 
       <sect2>
 
         <title>
 			<phrase lang="en">Use Case Specifications (To be written)</phrase>
+			<phrase lang="de">
+				Anwendungsfall-Spezifikationen (Noch zu beschreiben)
+			</phrase>
 		</title>
 
         <remark lang="en">To be written...</remark>
+        <remark lang="de">Noch zu beschreiben...</remark>
         <sect3>
 
-          <title>
-			<phrase lang="en">UC Specification 1 (To be written)</phrase>
-		</title>
+	        <title>
+				<phrase lang="en">UC Specification 1 (To be written)</phrase>
+				<phrase lang="de">
+					UC Spezifikation 1 (Noch zu beschreiben)
+				</phrase>
+			</title>
 
-          <remark lang="en">To be written...</remark>
+          	<remark lang="en">To be written...</remark>
+        	<remark lang="de">Noch zu beschreiben...</remark>
         </sect3>
 
       </sect2>
@@ -76013,11 +76105,16 @@ available at http://www.opencontent.org/openpub/.
       <sect2>
 
         <title>
-			<phrase lang="en">Supplementary Requirements Specification (To be 
-        written)</phrase>
+			<phrase lang="en">
+				Supplementary Requirements Specification (To be written)
+			</phrase>
+			<phrase lang="de">
+				Ergänzende Anforderungsspezifikation (Noch zu beschreiben)
+			</phrase>
 		</title>
 
         <remark lang="en">To be written...</remark>
+        <remark lang="de">Noch zu beschreiben...</remark>
       </sect2>
 
     </sect1>
@@ -76027,16 +76124,19 @@ available at http://www.opencontent.org/openpub/.
   <appendix id="app.umlres">
 
     <title>
-			<phrase lang="en">UML resources</phrase>
-		</title>
+		<phrase lang="en">UML resources</phrase>
+		<phrase lang="de">UML-Ressourcen</phrase>
+	</title>
 
     <sect1>
 
       <title>
-			<phrase lang="en">The UML specs (To be written)</phrase>
-		</title>
+		<phrase lang="en">The UML specs (To be written)</phrase>
+		<phrase lang="de">Die UML-Spezifikationen (Noch zu beschreiben)</phrase>
+	  </title>
 
       <para lang="en">To be written...</para>
+      <para lang="de">Noch zu beschreiben...</para>
 
     </sect1>
 
@@ -76044,17 +76144,23 @@ available at http://www.opencontent.org/openpub/.
 
       <title>
 			<phrase lang="en">UML related papers (To be written)</phrase>
-		</title>
+			<phrase lang="de">UML-Papiere (Noch zu beschreiben)</phrase>
+	  </title>
 
       <para lang="en">To be written...</para>
+      <para lang="de">Noch zu beschreiben...</para>
 
       <sect2>
 
         <title>
 			<phrase lang="en">UML action specifications (To be written)</phrase>
+			<phrase lang="de">
+				UML-Aktionsspezifikationen (Noch zu beschreiben)
+			</phrase>
 		</title>
 
         <para lang="en">To be written...</para>
+      	<para lang="de">Noch zu beschreiben...</para>
 
       </sect2>
 
@@ -76063,10 +76169,12 @@ available at http://www.opencontent.org/openpub/.
     <sect1>
 
       <title>
-			<phrase lang="en">UML related websites (To be written)</phrase>
-		</title>
+		<phrase lang="en">UML related websites (To be written)</phrase>
+		<phrase lang="de">UML-Webseiten (Noch zu beschreiben)</phrase>
+	  </title>
 
       <para lang="en">To be written...</para>
+      <para lang="de">Noch zu beschreiben...</para>
 
     </sect1>
 
@@ -76075,26 +76183,33 @@ available at http://www.opencontent.org/openpub/.
   <appendix id="app.umlcase">
 
     <title>
-			<phrase lang="en">UML Conforming CASE Tools</phrase>
-		</title>
+		<phrase lang="en">UML Conforming CASE Tools</phrase>
+		<phrase lang="de">UML-konforme CASE Tools</phrase>
+	</title>
 
     <sect1>
 
       <title>
-			<phrase lang="en">Other Open Source Projects (To be written)</phrase>
-		</title>
+		<phrase lang="en">Other Open Source Projects (To be written)</phrase>
+		<phrase lang="de">
+			Andere Open Source Projekte (Noch zu beschreiben)
+		</phrase>
+	  </title>
 
       <para lang="en">To be written...</para>
+      <para lang="de">Noch zu beschreiben...</para>
 
     </sect1>
 
     <sect1>
 
       <title>
-			<phrase lang="en">Commercial Tools (To be written)</phrase>
-		</title>
+		<phrase lang="en">Commercial Tools (To be written)</phrase>
+		<phrase lang="de">Kommerzielle Werkzeuge (Noch zu beschreiben)</phrase>
+	  </title>
 
       <para lang="en">To be written...</para>
+      <para lang="de">Noch zu beschreiben...</para>
 
     </sect1>
 
@@ -76103,18 +76218,25 @@ available at http://www.opencontent.org/openpub/.
   <appendix id="app.cppmod">
 
     <title>
-			<phrase lang="en">The C++ Module</phrase>
-		</title>
+		<phrase lang="en">The C++ Module</phrase>
+		<phrase lang="de">Das C++ Modul</phrase>
+	</title>
 
     <para lang="en">The ArgoUML C++ Module (C++ module) provides C++ code 
     generation functionalities and C++ notation within ArgoUML. It 
     works the same way as the other languages&apos; modules.</para>
+    <para lang="de">
+    	Das ArgoUML C++-Modul (C++-Modul) enthält Funktionalitäten zur 
+    	C++-Codegenerierung und die C++-Notation. Es arbeitet auf die gleiche 
+    	Weise wie die anderen Sprachmodule.
+    </para>
 
     <sect1>
 
       <title>
-			<phrase lang="en">Modeling for C++</phrase>
-		</title>
+		<phrase lang="en">Modeling for C++</phrase>
+		<phrase lang="de">Modellieren für C++</phrase>
+	  </title>
 
       <para lang="en">The C++ programming language has constructs that 
       aren&apos;t contained by default in UML. Examples are pointers, 
@@ -76124,6 +76246,16 @@ available at http://www.opencontent.org/openpub/.
       C++ notation in UML diagrams, the C++ module uses conventions in 
       the use of the extension features of UML, such as tagged values, 
       stereotypes and data types.</para>
+      <para lang="de">
+      	Die C++-Programmiersprache hat Konstrukte, die in UML nicht standardmäßig 
+      	enthalten sind. Beispiele sind Zeiger, globale Funktionen und Variablen, 
+      	Referenzen und das überladen von Operatoren. Um uns in die Lage zu 
+      	versetzen, diese Konstrukte in unseren Modellen anwenden zu können und 
+      	in der Lage zu sein, die Vorteile dieser Konstrukte bei der 
+      	Codegeneration und C++-Notation in UML-Diagrammen einsetzen zu können, 
+      	benutzen die C++-Module die Erweiterungseigenschaften von UML, wie 
+      	Eigenschaftswerte, Stereotypen und Datentypen. 
+      </para>
 
       <para lang="en">Since UML and C++ are object oriented, there is an obvious 
       correspondence between the UML model elements and C++ structural 
@@ -76132,6 +76264,15 @@ available at http://www.opencontent.org/openpub/.
       not be described here, since it is assumed that an ArgoUML user 
       that wants to model for C++ has basic knowledge of both C++ and 
       UML.</para>
+      <para lang="de">
+      	Weil UML und C++ objektorientiert sind, gibt es eine offensichtliche 
+      	Korrespondenz zwischen den UML-Modellelementen und den strukturellen 
+      	C++-Konstrukten, z.B. die UML-<literal>Klasse</literal> entspricht der 
+      	C++-<literal>Klasse</literal>. Diese offensichtlichen Beziehungen 
+      	werden hier nicht beschrieben, weil angenommen wird, dass ein ArgoUML-
+      	Anwender, der für C++ modellieren will, ein grundlegendes Wissen über 
+      	C++ und UML hat.
+      </para>
       
       <para lang="en">The C++ module comes with a UML profile for C++, which defines 
       <link linkend="s1.ref.stereotype"><literal>Stereotypes</literal></link> 
@@ -76144,11 +76285,27 @@ available at http://www.opencontent.org/openpub/.
       that model the C++ built-in types, such as 
       <literal>unsigned long int</literal>.
       </para>
+      <para lang="de">
+      	Das C++-Modul enthält ein UML-Profil für C++, das 
+      	<link linkend="s1.ref.stereotype"><literal>Stereotypen</literal></link> 
+      	und <link linkend="s1.ref.tagdefinition"><literal>Eigenschaftswerte
+      	</literal></link> definiert, die das Modellieren von C++-spezifischen 
+      	Konstrukten wie Zeiger und Referenzen ermöglichen. Es enthält auch 
+      	<link linkend="s1.ref.datatype"><literal>Datentypen</literal></link>, die 
+      	die eingebauten C++-Typen wie <literal>unsigned long int</literal> 
+      	modellieren.
+      </para>
       
       <para lang="en">To have these constructs available in our model, we need to 
       configure the UML profile for C++ in the model explicitly via the Project
       Properties dialog, in the Profiles tab
       (see <xref linkend="s2.ref.menu_properties"/>).
+      </para>
+      <para lang="de">
+      	Um diese Konstrukte in unserem Modell verfügbar zu haben, müssen wir 
+      	das UML-Profil für C++ im Modell ausdrücklich über den Dialog 
+      	Projekteigenschaften im Register Profile konfigurieren können (siehe
+      	<xref linkend="s2.ref.menu_properties"/>).
       </para>
 
       <para lang="en">Tagged values are one of the main means by which we can 
@@ -76164,9 +76321,27 @@ available at http://www.opencontent.org/openpub/.
       it, them you add the tagged value <literal>reference</literal> with the 
       value <literal>true</literal>.
       </para>
+      <para lang="de">
+      	Eigenschaftswerte ist eines der wichtigsten Mittel, über die wir das 
+      	Verhalten bei der Codegenerierung definieren können. Sie haben einen 
+      	Namen - die Eigenschaft - und einen Wert, und sind einem Modellelement 
+      	zugewiesen. Für jedes der möglichen Eigenschaftswerte enthält das 
+      	C++-Profil eine Eigenschaftswert-Definition, die in einem Stereotypen 
+      	enthalten ist und auf die Modellelemente angewendet werden kann, zu 
+      	denen wir den Wert eines Eigenschaftswertes definieren wollen, um ein 
+      	spezielles Verhalten zu spezifizieren.
+      	Um, zum Beispiel, zu definieren, dass der Parameter <literal>x</literal> 
+      	eine Referenz ist, nehmen Sie den Stereotypen <literal>cppParameter
+      	</literal> und fügen diesem den Eigenschaftswert <literal>reference
+      	</literal> mit dem Wert <literal>true</literal> hinzu. 
+      </para>
 
       <para lang="en">The tagged values in use for the C++ module have two 
       categories:</para>
+      <para lang="de">
+      	Die Eigenschaftswerte, die im C++-Modul verwendet werden, sind in zwei 
+      	Kategorien unterteilt:
+      </para>
 
       <itemizedlist>
 
@@ -76174,6 +76349,10 @@ available at http://www.opencontent.org/openpub/.
 
           <para lang="en">free format values - any <literal>String</literal> is 
           valid, except the empty <literal>String</literal></para>
+          <para lang="de">
+          	Werte in einem freiem Format - jeder <literal>String</literal> ist 
+          	gültig, ausser dem leeren <literal>String</literal>.
+          </para>
 
         </listitem>
 
@@ -76183,6 +76362,12 @@ available at http://www.opencontent.org/openpub/.
           restrictions, e.g., be one of <literal>true</literal> or 
           <literal>false</literal> (abbreviated to <literal>true || 
           false</literal>)</para>
+          <para lang="de">
+          	Formatierte Werte - der Wert muss einigen Beschränkungen gehorchen, 
+          	z.B. ein Wert aus <literal>true</literal> oder 
+          	<literal>false</literal> sein (abgekürzt: <literal>true || 
+          	false</literal>).
+          </para>
 
         </listitem>
 
@@ -76195,6 +76380,15 @@ available at http://www.opencontent.org/openpub/.
       one model element, a default value is assumed by the code 
       generator. In the bellow documentation the default value is 
       marked.</para>
+      <para lang="de">
+      	Bei Eigenschaftswerten vom Typ <literal>Boolean</literal> sind nur die 
+      	Werte &quot;<literal>true</literal>&quot; or &quot;
+      	<literal>false</literal>&quot; anwendbar. Wenn ein Eigenschaftswert 
+      	vom Typ <literal>Boolean</literal> nicht existiert oder für ein 
+      	Modellelement ungültig ist, wird vom Codegenerator ein Standardwert 
+      	angenommen. In der nachfolgenden Dokumentation ist der Standardwert 
+      	jeweils markiert.
+      </para>
 
       <para lang="en">Free format tagged values are only significant if present 
       and if the value isn&apos;t an empty <literal>String</literal>. 
@@ -76203,15 +76397,32 @@ available at http://www.opencontent.org/openpub/.
       value is invalid. If the value is invalid, no assumptions are 
       made; the generator will trace the problem and ignore the tagged 
       value.</para>
+      <para lang="de">
+      	Eigenschaftswerte im freien Format sind nur signifikant, wenn sie 
+      	vorhanden sind und wenn der Wert kein leerer <literal>String</literal> 
+      	ist. Wenn der Wert einer Sortierung folgen muss, wird die ausdrücklich 
+      	erwähnt. In diesem Fall gibt es eine Chance, dass der Wert ungültig ist. 
+      	Wenn der Wert ungültig ist, wird keine Annahme getroffen; der 
+      	Generator wird das Problem verfolgen und den Eigenschaftswert 
+      	ignorieren.
+      </para>
 
       <sect2>
 
         <title>
 			<phrase lang="en"><literal>Class</literal> tagged values</phrase>
+			<phrase lang="de">
+				Eigenschaftswerte für eine <literal>Klasse</literal>
+			</phrase>
 		</title>
         
         <para lang="en">To make the tag definitions applicable to a C++ class available 
         we apply the <literal>cppClass</literal> stereotype to it.
+        </para>
+        <para lang="de">
+        	Um eine Eigenschaftswert-Definitionen für eine C++-Klasse zur 
+        	Verfügung zu stellen, wenden wird den Stereotypen 
+        	<literal>cppClass</literal> auf die Klasse an.
         </para>
 
         <variablelist>
@@ -76219,15 +76430,26 @@ available at http://www.opencontent.org/openpub/.
           <varlistentry>
 
             <term lang="en"><literal>constructor</literal></term>
+            <term lang="de"><literal>Konstruktor</literal></term>
 
             <listitem>
 
               <para lang="en"><literal>true</literal> - generates a default 
               constructor for the <literal>class</literal>.</para>
+              <para lang="de">
+              	<literal>true</literal> - generiert einen Standardkonstruktor 
+              	für die <literal>Klasse</literal>.
+              </para>
 
               <para lang="en"><literal>false</literal> (default) - no default 
               constructor is generated, unless it is explicitly modeled 
               with the <literal>&laquo;create&raquo;</literal> stereotype.</para>
+              <para lang="de">
+              	<literal>false</literal> (Standard) - es wird kein 
+              	Standardkonstruktor generiert, es sei denn, er wurde ausdrücklich 
+              	mit dem Stereotypen <literal>&laquo;create&raquo;</literal> 
+              	modelliert.
+              </para>
 
             </listitem>
 
@@ -76235,23 +76457,39 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>header_incl</literal></term>
+            <term><literal>header_incl</literal></term>
 
             <listitem>
 
               <para lang="en">Name of the file to include in the header.</para>
+              <para lang="de">
+              	Name der Datei, die in den Kopf eingefügt werden soll.
+              </para>
 
-              <note>
-
-                <para lang="en">If we desire to have multiple headers included 
-                this way, just use multiple tagged values with <literal>
-                header_incl</literal> as the tag.</para>
-
-                <para lang="en">Other tagged values used for C++ modeling may 
-                also be used this way. This note won&apos;t be repeated 
-                in those cases.</para>
-
-              </note>
+			  <para>
+	              <note>
+	
+	                <para lang="en">If we desire to have multiple headers included 
+	                this way, just use multiple tagged values with <literal>
+	                header_incl</literal> as the tag.</para>
+	                <para lang="de">
+	                	Wenn wir mehrere Header auf diesem Wege einfügen wollen, 
+	                	verwenden Sie mehrere Eigenschaftswerte mit der 
+	                	Bezeichnung (Tag) <literal>header_incl</literal>.
+	                </para>
+	
+	                <para lang="en">Other tagged values used for C++ modeling may 
+	                also be used this way. This note won&apos;t be repeated 
+	                in those cases.</para>
+	                <para lang="de">
+	                	Andere, für die C++-Modellierung verwendete 
+	                	Eigenschaftswerte können auch auf diesem Weg verwendet 
+	                	werden. Dieser Hinweis wird in diesen Fällen nicht 
+	                	wiederholt werden.  
+	                </para>
+	
+	              </note>
+              </para>
 
             </listitem>
 
@@ -76259,12 +76497,16 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>source_incl</literal></term>
+            <term><literal>source_incl</literal></term>
 
             <listitem>
 
               <para lang="en">Name of the file to include in the source (
               <literal>.cpp</literal> file).</para>
+              <para lang="de">
+              	Der Name der Datei, die in die Quelldatei (<literal>.cpp
+              	</literal>-Datei) eingefügt werden soll.
+              </para>
 
             </listitem>
 
@@ -76272,7 +76514,7 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>typedef_public</literal></term>
+            <term><literal>typedef_public</literal></term>
 
             <listitem>
 
@@ -76281,6 +76523,12 @@ available at http://www.opencontent.org/openpub/.
               typedef</literal> line in the public area of the <literal>
               class</literal> with <literal>typedef &lt;source type&gt; 
               &lt;type name&gt;</literal>.</para>
+              <para lang="de">
+              	<literal>&lt;source type&gt;&lt;type_name&gt;</literal> - 
+              	erzeugt eine <literal>typedef</literal>-Zeile im Public-Bereich 
+              	der <literal>Klasse</literal> mit <literal>typedef &lt;source 
+              	type&gt;&lt;type name&gt;</literal>.
+              </para>
 
             </listitem>
 
@@ -76288,12 +76536,16 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>typedef_protected</literal></term>
+            <term><literal>typedef_protected</literal></term>
 
             <listitem>
 
               <para lang="en">Same as <literal>typedef_public</literal>, but, in 
               <literal>protected</literal> area.</para>
+              <para lang="de">
+              	Wie bei <literal>typedef_public</literal>, aber im  
+              	<literal>protected</literal>-Bereich.
+              </para>
 
             </listitem>
 
@@ -76301,12 +76553,16 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>typedef_private</literal></term>
+            <term><literal>typedef_private</literal></term>
 
             <listitem>
 
               <para lang="en">Same as <literal>typedef_public</literal>, but, in 
               the <literal>private</literal> area.</para>
+              <para lang="de">
+              	Wie bei <literal>typedef_public</literal>, aber im  
+              	<literal>private</literal>-Bereich.
+              </para>
 
             </listitem>
 
@@ -76314,12 +76570,16 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>typedef_global_header</literal></term>
+            <term><literal>typedef_global_header</literal></term>
 
             <listitem>
 
               <para lang="en">Same as <literal>typedef_public</literal>, but, in 
               the global area of the header.</para>
+              <para lang="de">
+              	Wie bei <literal>typedef_public</literal>, aber im  
+              	globalen Bereich es Headers (Kopfes).
+              </para>
 
             </listitem>
 
@@ -76327,12 +76587,16 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>typedef_global_source</literal></term>
+            <term><literal>typedef_global_source</literal></term>
 
             <listitem>
 
               <para lang="en">Same as <literal>typedef_global_source</literal>, 
               but, in the source file.</para>
+              <para lang="de">
+              	Wie bei <literal>typedef_global_source</literal>, aber in der 
+              	Quelldatei.
+              </para>
 
             </listitem>
 
@@ -76340,7 +76604,7 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>TemplatePath</literal></term>
+            <term><literal>TemplatePath</literal></term>
 
             <listitem>
 
@@ -76353,6 +76617,16 @@ available at http://www.opencontent.org/openpub/.
               no such tag is specified, the templates are searched in 
               the subdirectory of the root directory for the code 
               generation.</para>
+              <para lang="de">
+              	<literal>Directory</literal> - sucht im angegebenen Verzeichnis 
+              	nach den Templatedateien &quot;header_template&quot; und 
+              	&quot;cpp_template&quot;, die oben in die entsprechende Datei 
+              	eingefügt werden. Die folgenden Tags der Templatedatei werden 
+              	durch folgende Modellwerte ersetzt: |FILENAME|, |DATE|, |YEAR|, 
+              	|AUTHOR|, |EMAIL|. Wenn kein solches Tag spezifiziert wurde, 
+              	werden die Templates im Unterverzeichnis des Wurzelverzeichnisses 
+              	für die Codegenerierung gesucht. 
+              </para>
 
             </listitem>
 
@@ -76360,12 +76634,16 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>email</literal></term>
+            <term><literal>email</literal></term>
 
             <listitem>
 
               <para lang="en"><literal>name@domain.country</literal> - replaces 
               the tag |EMAIL| of the template file.</para>
+              <para lang="de">
+              	<literal>name@domain.country</literal> - ersetzt das Tag 
+              	|EMAIL| der Templatedatei.
+              </para>
 
             </listitem>
 
@@ -76373,19 +76651,29 @@ available at http://www.opencontent.org/openpub/.
 
           <varlistentry>
 
-            <term lang="en"><literal>author</literal></term>
+            <term><literal>author</literal></term>
 
             <listitem>
 
               <para lang="en"><literal>name</literal> - replaces the tag |AUTHOR| 
               of the template file.</para>
+              <para lang="de">
+              	<literal>name</literal> - ersetzt das Tag |AUTHOR| der 
+              	Templatedatei.
+              </para>
 
-              <note>
-
-                <para lang="en">You may simply use the Author property in the 
-                documentation property panel.</para>
-
-              </note>
+			  <para>
+	              <note>
+	
+	                <para lang="en">You may simply use the Author property in the 
+	                documentation property panel.</para>
+	                <para lang="de">
+	                	Sie können einfach die Autor-Eigenschaft im Register 
+	                	Dokumentation verwenden.
+	                </para>
+	
+	              </note>
+              </para>
 
             </listitem>
 
