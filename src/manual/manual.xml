@@ -47207,7 +47207,7 @@ available at http://www.opencontent.org/openpub/.
 				<phrase lang="en">
 					Example use of a discriminator with generalization
             	</phrase>
-				<phrase lang="en">
+				<phrase lang="de">
 					Beispiel eines Diskrimintators mit Generalisierung
             	</phrase>
 		</title>
@@ -77546,6 +77546,7 @@ available at http://www.opencontent.org/openpub/.
 
     <title>
 		<phrase lang="en">The CRC Card Methodology</phrase>
+		<phrase lang="de">Die CRC-Karten Methode</phrase>
 	</title>
 
     <para lang="en">
@@ -77553,6 +77554,13 @@ available at http://www.opencontent.org/openpub/.
       classes, their responsibilities, and the interactions between them.
       The term CRC card is also used to refer to a methodology for object
       oriented modeling based on their use.
+    </para>
+    <para lang="de">
+    	Eine CRC-Karte ist vordergründig eine Indexkarte, die verwendet wird, 
+    	um Klassen, deren Verantwortlichkeiten und die Interaktionen zwischen 
+    	Ihnen darzustellen. Der Begriff CRC-Karte wird auch benutzt, um sich 
+    	auf eine Methode für die objektorientierte Modellierung auf der 
+    	Basis ihrer Verwendung zu beziehen.
     </para>
 
     <para lang="en">
@@ -77564,6 +77572,18 @@ available at http://www.opencontent.org/openpub/.
       <ulink url="http://www.csc.calpoly.edu/~dbutler/tutorials/winter96/crc_b/"/>.
       The CRC card methodology was originally designed as a teaching tool but
       has proved useful as a modeling tool as well.
+    </para>
+    <para lang="de">
+    	Kent Beck und Ward Cunningham führten die CRC-Karten in ihres 
+    	Papiers "Ein Labor für die Lehre im Objektorientierten Denken" 
+    	ein, die auf der OOPSLA-Konferenz (Objektorientierten Programmierung, 
+    	Systeme, Sprachen (Languages) &amp; Anwendungen) 1989 vorgestellt 
+    	wurde.
+    	Ein Tutorial zum Thema finden Sie unter 
+    	<ulink url="http://www.csc.calpoly.edu/~dbutler/tutorials/winter96/crc_b/"/>. 
+    	Der CRC-Karten-Methode wurde ursprünglich als ein pädagogisches 
+    	Instrument entworfen, aber es hat sich genauso als gutes 
+    	Modellierungswerkzeug erwiesen.
     </para>
 
     <para lang="en">
@@ -77581,6 +77601,21 @@ available at http://www.opencontent.org/openpub/.
       discussion.
       It is widely believed that the terminology was chosen because CRC are
       the initials of Ward Cunningham's son.
+    </para>
+    <para lang="de">
+    	Die drei Teile der CRC Abkürzung wurden von den Autoren des Papiers 
+    	genutzt, um die wesentlichen Aspekte der objektorientierten Modellierung 
+    	darzustellen. Der Begriff bezieht sich auf den Vertrag, den die in der 
+    	Diskussion befindliche Klasse dem Rest der Welt (Interface-und 
+    	Vertrag sind ähnliche Konzepte) bietet. Verantwortlichkeiten modellieren 
+    	die Dinge, die eine Klasse tun kann. Dienstleistungen, Methoden oder 
+    	Operationen ergeben sich aus diesen. Der Begriff Kollaboratoren bezieht 
+    	sich Klassen, deren Dienste die in der Diskussion stehende Klasse 
+    	nutzen wird. Kent Beck versuchte erfolglos den Begriff Helfer anstelle 
+    	von Kollaboratoren zu verwenden, um Klassen darzustellen, die die in 
+    	der Diskussion stehende Klasse unterstützt. Es ist allgemeine Ansicht, 
+    	dass der Begriff gewählt wurde, weil CRC die Initialen von Ward 
+    	Cunningham's Sohn sind.
     </para>
 
     <para lang="en">
@@ -77616,11 +77651,56 @@ available at http://www.opencontent.org/openpub/.
       </itemizedlist>
     </para>
 
+    <para lang="de">
+      Warum CRC-Karten verwenden?
+      <itemizedlist>
+        <listitem>
+        	<para lang="de">
+        		Sie sind portabel.
+        		Es sind keine Rechner erforderlich, so dass sie überall 
+        		verwendet werden können.
+        		Auch ausserhalb des Büros.
+          	</para>
+        </listitem>
+        <listitem>
+	        <para lang="de">
+	        	Sie ermöglichen es den Teilnehmern aus erster Hand zu erfahren, 
+	        	wie das System funktioniert. Kein Computer-Tool kann die 
+	        	Interaktion ersetzen, die durch das physische abholen der Karten 
+	        	und das Spielen der Objektrolle geschieht.
+	        </para>
+        </listitem>
+        <listitem>
+	        <para lang="de">
+	        	Sie sind nützliche Werkzeuge, um Personen im objektorientierten 
+	        	Paradigma zu unterrichten.
+	        </para>
+        </listitem>
+        <listitem>
+	        <para lang="de">
+	        	Sie kann als eine Methode sich selbst oder als Front-End zu 
+	        	einem formellen Verfahren, wie Booch, Wirfs-Brock, Jacobson, usw. 
+	        	verwendet werden. Obwohl CRC-Karten für den Unterricht erstellt 
+	        	wurden, haben sie sich für vieles mehr nützlich erwiesen.
+	        </para>
+        </listitem>
+        <listitem>
+	        <para lang="en">
+	        	Sie wurden zu einer anerkannten Methode für Analyse und Design. 
+	        	Der größte Faktor für ihren Erfolg ist die Tatsache, dass sie in 
+	        	einer informellen und ungefährlichen Umgebung stattfinet, die 
+	        	produktiv für das Arbeiten und Lernen ist.
+	        </para>
+        </listitem>
+      </itemizedlist>
+    </para>
+
     <sect1>
 
       <title>
 			<phrase lang="en">The Card</phrase>
-		</title>
+			<phrase lang="de">Die Karte</phrase>
+	</title>
 
       <para lang="en">
         The exact format of the card can be customized to the preferences of
@@ -77641,6 +77721,23 @@ available at http://www.opencontent.org/openpub/.
         This initial set should be whatever (if anything) is
         immediately obvious.
       </para>
+      <para lang="de">
+      	Das genaue Format der Karte kann an die Präferenzen der Gruppe angepasst 
+      	werden, aber die minimal erforderlichen Informationen ist der Name der 
+      	Klasse, die Unterklassen und Oberklassen, seine Verantwortlichkeiten und 
+      	die Kollaboratoren für jede dieser Verantwortlichkeiten. Die Rückseite 
+      	der Karte kann für eine Beschreibung der Klasse verwendet werden. 
+      	Während der Design-Phase können die Attribute der Klasse auf der 
+      	Rückseite wiedergegeben werden. Eine Möglichkeit die Karte zu 
+      	interpretieren ist, dass die Vorderseite die öffentlichen Informationen, 
+      	und die Rückseite die gekapselten, Implementierungsdetails enthält. 
+      	Wenn eine eine Klasse definiert wird, wird eine Karte für diese Klasse 
+      	mit dem entsprechenden Namen erstellt. Wenn eine Klasse einer Person  
+      	zugeordnet ist, legt die Person (oder die Gruppe) einen grundlegenden 
+      	Satz von Verantwortlichkeiten für die Klasse fest. Dieser grundlegende 
+      	Satz von Verantwortlichkeiten sollte alles umfassen, was (wenn überhaupt) 
+      	sofort klar ist.
+      </para>
 
     </sect1>
 
@@ -77648,12 +77745,18 @@ available at http://www.opencontent.org/openpub/.
 
       <title>
 			<phrase lang="en">The Group</phrase>
-		</title>
+			<phrase lang="de">Die Gruppe</phrase>
+	  </title>
 
       <para lang="en">
         Whether they are implicitly or explicitly defined the requirements
         for the system need to be familiar to the people participating
         in the group.
+      </para>
+      <para lang="de">
+      	Unabhängig davon, ob sie implizit oder explizit definierte Anforderungen 
+      	an das System kennen, müssen Sie mit den Menschen in der Gruppe vertraut 
+      	sein.
       </para>
 
       <para lang="en">
@@ -77664,11 +77767,24 @@ available at http://www.opencontent.org/openpub/.
         If there are more than six people, one solution is to have the extra
         people be present strictly as observers.
       </para>
+      <para lang="de">
+      	Die ideale Gruppengröße für eine CRC-Karten-Sitzung beträgt fünf oder 
+      	sechs Personen. Die Größe erlaubt es jedem, produktiv an der Sitzung 
+      	teilzunehmen. In größeren Gruppen ist die Produktivität durch mehr 
+      	Mißverständnisse eingeschränkt und die individuelle Teilnahme ist 
+      	geringer. Wenn es mehr als sechs Personen sind, ist ein mögliche Lösung, 
+      	die zusätzliche Person als Beobachter einzusetzen.
+      </para>
 
       <para lang="en">
         The group five or six people in the core group should be composed of
         developers, domain experts, and an object-oriented
         technology facilitator.
+      </para>
+      <para lang="de">
+      	Die Gruppe von fünf oder sechs Personen der Kerngruppe sollte aus 
+      	Entwicklern, Fachexperten und einem objektorientierten Technologie-
+      	Moderator bestehen.
       </para>
 
     </sect1>
@@ -77677,13 +77793,20 @@ available at http://www.opencontent.org/openpub/.
 
       <title>
 			<phrase lang="en">The Session</phrase>
-		</title>
+			<phrase lang="de">Die Sitzung</phrase>
+	</title>
 
       <para lang="en">
         Before starting a session a part of the problem needs to be selected
         for the session to focus on.
         Essentially, this means picking the set of classes that are
         to be used.
+      </para>
+      <para lang="de">
+      	Bevor Sie mit der Sitzung beginnen, muss ein Teil des Problems für die 
+      	Sitzung ausgewählt werden, auf dem der Focus liegen soll.
+      	Im Wesentlichen bedeutet dies das Kommissionieren einer Menge von 
+      	zu verwendenden Klassen. 
       </para>
 
       <para lang="en">
@@ -77692,6 +77815,12 @@ available at http://www.opencontent.org/openpub/.
         Start with scenarios that are part of the systems normal operation
         first, and then exceptional scenarios, like error recover, later.
       </para>
+      <para lang="de">
+      	Wählen Sie die Szenarien aus, die Sie durchgehen wollen und die die 
+      	ausgewählten Klassen verwenden. Beginnen Sie mit den Szenarien, die Teil 
+      	des normalen Betriebs des Systems ist zuerst, und dann außergewöhnlichen 
+      	Szenarien, wie zum Beispiel Fehlererkennung.
+      </para>
 
       <para lang="en">
         Assign each class to a member of the group.
@@ -77699,6 +77828,12 @@ available at http://www.opencontent.org/openpub/.
         They are the owner of that class for the session.
         Each person records the name of their class on a card.
         One class per card.
+      </para>
+      <para lang="de">
+      	Weisen Sie jede Klasse einem Gruppenmitglied zu. Jede Person sollte für 
+      	mindestens eine Klasse verantwortlich sein. Sie sind der Eigentümer der 
+      	Klasse in dieser Sitzung. Jede Person schreibt den Namen Ihrer Klasse 
+      	auf die Karte. Eine Klasse pro Karte.
       </para>
 
       <para lang="en">
@@ -77717,6 +77852,21 @@ available at http://www.opencontent.org/openpub/.
         and assign it to someone.
         This is the fundamental procedure of the scenario execution.
       </para>
+      <para lang="de">
+      	Das Szenarien durchspielen ist das Herz einer CRC-Kartensitzung. Um ein 
+      	Szenario durchzuspielen, adressieren Sie jede darin enthaltene Aktion 
+      	ein mal. Zuerst entscheiden Sie sich, welche Klasse für diese Funktion 
+      	verantwortlich ist. Der Eigentümer der Klasse nimmt seine Karte und 
+      	hält Sie nach oben. 
+      	Wenn ein Karte oben ist, ist Sie ein Objekt, das Dinge ausführen kann. 
+      	Der Eigentümer gibt bekannt, was er zur Erfüllung der Verantwortlichkeit 
+      	benötigt. Die Verantwortlichkeit wird, wenn möglich, in kleinere 
+      	Aufgaben unterteilt. Diese kleineren Aufgaben können von dem Objekt 
+      	erfüllt werden, wenn sie angemessen ist, oder sie kann durch die 
+      	Interaktion mit anderen Objekten (Kollaboratoren) erfüllt werden. 
+      	Wenn keine entsprechende Klasse existiert, müssen Sie eine erstellen und 
+      	diese einer Person zuweisen.
+      </para>
 
     </sect1>
 
@@ -77724,13 +77874,19 @@ available at http://www.opencontent.org/openpub/.
 
       <title>
 			<phrase lang="en">The Process</phrase>
-		</title>
+			<phrase lang="de">Der Prozess</phrase>
+	  </title>
 
 
       <para lang="en">
         CRC Cards are used in the Analysis and Design phases.
         The process for these phases differ primarily in how the classes
         and scenarios are chosen.
+      </para>
+      <para lang="de">
+      	CRC-Karten werden in der Phase Analyse und Design verwendet. Der Prozess 
+      	für diese Phasen unterscheidet sich primär dadurch, wie die Klassen 
+      	und Szenarien ausgewählt werden.
       </para>
 
       <para lang="en">
@@ -77740,6 +77896,14 @@ available at http://www.opencontent.org/openpub/.
         Additionally in the Analysis phase the very first session starts with
         no classes or scenarios to select from so a special session creates
         them.
+      </para>
+      <para lang="de">
+      	In der Analysephase sind die Klassen und Szenarien aus dem 
+      	Problembereich und werden allgemein von den Anforderungen abgeleitet. 
+      	In der Designphase werden Klassen und Szenarien des Lösungsbereiches 
+      	hinzugefügt. In der Analysephase beginnt die allererste Sitzung ohne 
+      	Klassen und Szenarien, um sie in einer speziellen Sitzung auszuwählen 
+      	und zu erstellen. 
       </para>
 
     </sect1>
@@ -77751,6 +77915,11 @@ available at http://www.opencontent.org/openpub/.
     <para lang="en">The use of the index in the document is done a little at 
     random and cannot be trusted. Please help in suggesting new index 
     entries!</para>
+    <para lang="de">
+    	Die Erstellung des Index im Dokument ist ein wenig nach dem 
+    	Zufallsprinzip entstanden und noch nicht vertrauenswürdig. Bitte helfen 
+    	Sie neue Index-Einträge auszuwählen!
+    </para>
 
   </index>
 
