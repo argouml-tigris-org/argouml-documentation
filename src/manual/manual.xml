@@ -163,7 +163,7 @@ available at http://www.opencontent.org/openpub/.
 	    designs.
     </para>
 	<para lang="de"> 
-		Softwaredesign ist eine kognitiv herausfordernde Tätigkeit.
+		Softwaredesign ist eine geistig herausfordernde Tätigkeit.
 		Designer müssen Ihre Entwürfe manuell eingeben. Aber die grundlegende
 		Schwierigkeit ist, entscheidungenorientiert statt dateneingabeorientiert 
 		zu arbeiten. Wenn Designer ihre entscheidungsorientierten Fähigkeiten 
@@ -288,25 +288,25 @@ available at http://www.opencontent.org/openpub/.
 		3 kognitive Theorien beschrieben:
 		<orderedlist>
 			<listitem>
+				<para lang="de">Reflektion-während-Aktion;</para>
 				<indexterm lang="de">
 					<primary>Reflektion-während-Aktion</primary>
 				</indexterm>
-				<para lang="de">Reflektion-während-Aktion;</para>
 			</listitem>
 			<listitem>
+				<para lang="de">Opportunistisches Design; und</para>
 				<indexterm lang="de">
 					<primary>Opportunistisches Design</primary>
 				</indexterm>
-				<para lang="de">Opportunistisches Design; und</para>
 			</listitem>
 			<listitem>
+				<para lang="de">Verständnis und Problemlösung.</para>
 				<indexterm lang="de">
 					<primary>Verständnis</primary>
 				</indexterm>
 				<indexterm lang="de">
 					<primary>Problemlösung</primary>
 				</indexterm>
-				<para lang="de">Verständnis und Problemlösung.</para>
 			</listitem>
 		</orderedlist>
 	</para>
@@ -403,8 +403,8 @@ available at http://www.opencontent.org/openpub/.
     </para>
 	<para lang="de">
 		ArgoUML wurde ursprünglich durch eine kleine Gruppe von Leuten als
-		Forschungsprojekt entwickelt. ArgoUML hat viele Funktionen, die es
-		sehr speziell machen. Aber es implementiert nicht alle Funktionen,
+		Forschungsprojekt entwickelt. ArgoUML hat viele Eigenschaften, die es
+		besonders machen. Aber es implementiert nicht alle Funktionen,
 		kommerzieller CASE-Tools.
 	</para>
     <para lang="es">
@@ -493,7 +493,7 @@ available at http://www.opencontent.org/openpub/.
 	    Vanpeperstraete und Andreas Rueckert geschriebenen hinzugefügt wurde. 
 	    Er fügte auch einige Dinge aus anderen Dokumenten ein, namentlich aus 
 	    dem Programmierhandbuch von Markus Klink und Linus Tolke, der 
-	    Kurzanleitung von Kunle Odutola, sowie der FAQ von Denny Daniels.
+	    Kurzanleitung von Kunle Odutola, sowie die FAQ von Denny Daniels.
 	    Im Zusammenhang mit der Version 0.14 wurden Änderungen durch Linus Tolke 
 	    und Michiel van der Wulp vorgenommen. Diese Änderungen passten das 
 	    Handbuch an die neuen Funktionen und das neue Erscheinungsbild von 
@@ -573,7 +573,7 @@ available at http://www.opencontent.org/openpub/.
     </para>
     <para lang="de">
       Das Handbuch ist in DocBook/XML geschrieben und sowohl als 
-      <indexterm lang="de"><primary>XML</primary></indexterm>, 
+      <indexterm lang="de"><primary>XML</primary></indexterm>  
       HTML als auch als PDF verfügbar.
     </para>
     <para lang="es">
@@ -591,8 +591,8 @@ available at http://www.opencontent.org/openpub/.
     	to find out more.
     </para>
     <para lang="de">
-    	Das ArgoUML-Projekt heisst alle willkommen, die sich beteiligen wollen. 
-    	Mehr finden Sie unter der
+    	Das ArgoUML-Projekt begrüßt all diejenigen, die tiefer eingebunden 
+    	werden wollen. Mehr finden Sie unter der
     	<ulink url="http://argouml.tigris.org/">Projekt-Webseite</ulink>.
     </para>
     <para lang="es">
@@ -697,8 +697,7 @@ available at http://www.opencontent.org/openpub/.
 	        Durchstarten der OOA&amp;D ermöglichten. Diese Sprachen enthielten 
 	        eine Unterstützung für Beides, der OO- und der prozeduralen 
 	        Programmierung. Die objektorientierte 
-	        <emphasis>Programmierung</emphasis> wurde zur 
-	        Hauptentwicklungsrichtung.
+	        <emphasis>Programmierung</emphasis> wurde zum Mainstream.
         </para>
         <para lang="es">
           El soporte de objetos en un lenguaje de programación empezó con
@@ -753,7 +752,7 @@ available at http://www.opencontent.org/openpub/.
 	        Gekoppelt mit der Fähigkeit, Systeme auf einer sehr hohen 
 	        Abstraktionsebene zu entwerfen, ermöglichte der toolbasierte 
 	        OOA&amp;D-Ansatz die Implementierung sehr viel komplexerer Systeme 
-	        als bisher möglich.
+	        als es bisher möglich war.
         </para>
         <para lang="es">
           Es el desarrollo durante la decada de 1990 de herramientas para
@@ -809,11 +808,11 @@ available at http://www.opencontent.org/openpub/.
 	        communicating OO concepts.
         </para>
         <para lang="de">
-	        Während der 80&apos;er Jahre wurden einige OOA&amp;D-
-	        Vorgehensmethoden und -Notationen von unterschiedlichen Forscherteams 
-	        entwickelt. Es wurde klar, dass es viele gemeinsame Themenbereiche 
-			gab und so wurde während der 90&apos;er Jahre eine vereinheitlichte 
-	        OOA&amp;D-Notation unter der Schirmherrschaft der 
+	        Während der 80&apos;er Jahre wurden einige 
+	        OOA&amp;D-Vorgehensmethoden und -Notationen von unterschiedlichen 
+	        Forscherteams entwickelt. Es wurde klar, dass es viele gemeinsame 
+	        Themenbereiche gab und so wurde während der 90&apos;er Jahre eine 
+	        vereinheitlichte OOA&amp;D-Notation unter der Schirmherrschaft der 
 	        <ulink url="http://www.omg.org">Object Management Group</ulink> 
 	        entwickelt. Dieser Standard wurde als Unified Modeling Language 
 	        (UML&mdash;Einheitliche Modellierungssprache) bekannt, und ist heute 
@@ -1487,11 +1486,11 @@ available at http://www.opencontent.org/openpub/.
         <para lang="de">
 	        Diese Themen werden in
 	        <ulink url="http://argouml-stats.tigris.org/documentation/defaulthtml/cookbook/">
-	        Das Programmierhandbuch (Cookbook)</ulink>, 
-	        <ulink url="http://argouml.tigris.org/faqs/users.html">Die  
-	        FAQ</ulink>, und 
+	        <quote>Das Programmierhandbuch (Cookbook)</quote></ulink>, 
+	        <ulink url="http://argouml.tigris.org/faqs/users.html"><quote>Die 
+	        FAQ</quote></ulink> und 
 	        <ulink url="http://argouml-stats.tigris.org/documentation/quick-guide-0.22/">
-	        Die Kurzanleitung</ulink> beschrieben.
+	        <quote>Die Kurzanleitung</quote></ulink> beschrieben.
         </para>
         <para lang="es">
           Estos están cubiertos en <ulink
@@ -1563,7 +1562,7 @@ available at http://www.opencontent.org/openpub/.
 	        Finally a case study is used to give examples of the concepts in use.
         </para>
         <para lang="de">
-	        Für jedes auftretende UML-Konzept wird dessen Anwendung erläutert. 
+	        Für jedes einzelne UML-Konzept wird dessen Anwendung erläutert. 
 	        Anschliessend wird dessen Einsatz innerhalb von ArgoUML beschrieben. 
 	        Zum Schluss wird eine Fallstudie benutzt, um Beispiele für diese 
 	        Konzepte zu geben.
@@ -1674,12 +1673,12 @@ available at http://www.opencontent.org/openpub/.
         </para>
         <para lang="de">
 	        Es ist ein vollständiges <xref linkend="glossary"/> vorhanden. 
-	        <xref linkend="app.casestudy"/> enthält Material, die die 
+	        <xref linkend="app.casestudy"/> enthält Material, das die 
 	        im Dokument durchgehend benutzte Fallstudie unterstützt. 
 	        <xref linkend="app.umlres"/> und <xref linkend="app.umlcase"/> 
 	        verweisen auf Hintergrundinformationen über UML und UML-CASE-Tools. 
-	        <xref linkend="app.legal"/> ist eine Kopie der &quot;GNU Free 
-	        Documentation License&quot;.
+	        <xref linkend="app.legal"/> ist eine Kopie der &quot;GNU Freien  
+	        Dokumentations Lizenz&quot;.
         </para>
         <para lang="es">
           Se proporciona un <xref linkend="glossary" /> completo.
@@ -2284,12 +2283,6 @@ available at http://www.opencontent.org/openpub/.
           </listitem>
 
           <listitem>
-            <indexterm lang="en"><primary>Analysis</primary></indexterm> 
-            <indexterm lang="de"><primary>Analyse</primary></indexterm>
-            <indexterm lang="es">
-              <primary>Analysis</primary>
-            </indexterm>
-
             <para lang="en">
 	            Analysis. We take the requirements and start to 
 	            recast them in the language of a putative solution&mdash;the 
@@ -2319,13 +2312,15 @@ available at http://www.opencontent.org/openpub/.
               que es conocido como <emphasis>abstracción</emphasis>.
             </para>
 
+            <indexterm lang="en"><primary>Analysis</primary></indexterm> 
+            <indexterm lang="de"><primary>Analyse</primary></indexterm>
+            <indexterm lang="es">
+              <primary>Analysis</primary>
+            </indexterm>
+
           </listitem>
 
           <listitem>
-            <indexterm lang="en"><primary>Design</primary></indexterm>
-            <indexterm lang="de"><primary>Design</primary></indexterm>
-            <indexterm lang="es"><primary>Design</primary></indexterm>
-
             <para lang="en">
 	            Design. We take the specification from the Analysis 
 	            phase and construct the solution in full detail. We are 
@@ -2347,6 +2342,10 @@ available at http://www.opencontent.org/openpub/.
               del problema a su <emphasis>realización</emphasis>
               en terminos concretos.
             </para>
+
+            <indexterm lang="en"><primary>Design</primary></indexterm>
+            <indexterm lang="de"><primary>Design</primary></indexterm>
+            <indexterm lang="es"><primary>Design</primary></indexterm>
 
           </listitem>
 
@@ -2631,8 +2630,8 @@ available at http://www.opencontent.org/openpub/.
             </para>
             <para lang="de">
 	            In den letzten Jahren wurde ein neuer Ansatz verwendet, dessen 
-	            Ziel es war, einen minimalen Teil Code fertigzustellen und 
-	            schnellstmöglichst ausführen zu können, um Probleme im 
+	            Ziel es war, einen kleinen Teil des Codes fertigzustellen und 
+	            schnellstmöglichst auszuführen, um Probleme im 
 	            Entwicklungszyklus sehr schnell aufzudecken.
             </para>
             <para lang="es">
@@ -3075,15 +3074,16 @@ available at http://www.opencontent.org/openpub/.
 	              functionality.
               </para>
               <para lang="de">
-	              Wenn Sie ein Produkt per Vertrag für einen Kunden erstellen, 
-	              ist der Endpunkt wohl definiert. Jedoch, wenn Sie ein neues 
-	              Produkt für den Markt entwickeln, kann es eine Strategie sein, 
-	              die Produktveröffentlichung zu nehmen und den Zeitpunkt für 
+	              Wenn Sie ein Produkt auf Basis eines Vertrages für einen 
+	              Kunden erstellen, ist der Endpunkt wohl definiert. Wenn Sie 
+	              jedoch ein neues Produkt für den Markt entwickeln, kann die 
+	              Strategie verwendet werden, das Datum der 
+	              Produktveröffentlichung zu nehmen und den Zeitpunkt für 
 	              das Ende des Engieering zu bestimmen (einige Zeit vorher). 
 	              Dieser Zeitraum wird dann in Iterationen unterteilt. In 
 	              dieser Zeit wird so viel von dem Produkt entwickelt wie 
 	              möglich. Der iterative Prozess ist sehr effektiv, wenn der 
-	              Zeitpunkt der Markteinführung wichtiger ist als die exakte 
+	              Zeitpunkt der Markteinführung wichtiger ist, als die exakte 
 	              Funktionalität.
               </para>
               <para lang="es">
@@ -3242,7 +3242,7 @@ available at http://www.opencontent.org/openpub/.
           	  A Development Process for This Tutorial
             </phrase>
             <phrase lang="de">
-          	  Ein Entwicklungsprozess für dieses Übungshandbuch
+          	  Der Entwicklungsprozess für dieses Übungshandbuch
             </phrase>
             <phrase lang="es">
               Un Proceso de Desarrollo para este Manual
@@ -3259,10 +3259,10 @@ available at http://www.opencontent.org/openpub/.
           </para>
           <para lang="de">
 	          In dieser Übungsanleitung wollen wir einen reduzierten, iterativen 
-	          Prozess mit rekursiver Entwicklung verwenden, der mit RUP lose 
+	          Prozess mit rekursiver Entwicklung verwenden, der mit dem RUP lose 
 	          gekoppelt ist. 
 	          Die Fallstudie bringt uns durch die erste Iteration, am Ende des 
-	          Abschnittes der Übungsanleitung werden wir sehen, wie das Projekt 
+	          Abschnittes Übungsanleitung werden wir sehen, wie das Projekt 
 	          vollständig entwickelt wird.
           </para>
           <para lang="es">
@@ -3334,8 +3334,8 @@ available at http://www.opencontent.org/openpub/.
 	            system&apos;s behavior in the problem domain.
             </para>
             <para lang="de">
-	            Unsere Anforderungsaufnahme wird das UML-Konzept 
-	            der <emphasis>Anwendungsfälle</emphasis> verwenden. Beginnend 
+	            Um unsere Anforderungen zu erfassen, verwenden wir das 
+	            UML-Konzept der <emphasis>Anwendungsfälle</emphasis>. Beginnend 
 	            mit einem <emphasis>Visions-Dokument</emphasis> werden wir sehen, 
 	            wie Anwendungsfälle entwickelt werden können, um alle Aspekte  
 	            des Systemverhaltens im Problembereich zu beschreiben.
