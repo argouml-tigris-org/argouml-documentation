@@ -2938,30 +2938,32 @@ available at http://www.opencontent.org/openpub/.
 
               </itemizedlist>
 
-              <note>
-
-                <para lang="en">
-                It should be clear that testing is an integral 
-                part of all phases. Even in the early phases the 
-                requirements and design should be tested, and this is 
-                facilitated by a good CASE tool.
-                </para>
-                <para lang="de">
-                Es sollte klar sein, dass Testen ein integraler Bestandteil 
-                aller Phasen ist. Gerade in den frühen Phasen sollten die 
-                Anforderungen und das Design getestet werden. Und dies wird 
-                durch ein gutes CASE-Tool unterstützt.
-                </para>
-                <para lang="es">
-                  Debería estar claro que la prueba es una parte integral
-                  de todas las fases.
-                  Incluso en las fases tempranas los requerimientos y
-                  el diseño deberian ser probados, 
-                  y esto es facilitado por una buena herramienta CASE.
-                </para>
-
-              </note>
-
+			  <para>
+	              <note>
+	
+	                <para lang="en">
+	                It should be clear that testing is an integral 
+	                part of all phases. Even in the early phases the 
+	                requirements and design should be tested, and this is 
+	                facilitated by a good CASE tool.
+	                </para>
+	                <para lang="de">
+	                Es sollte klar sein, dass Testen ein integraler Bestandteil 
+	                aller Phasen ist. Gerade in den frühen Phasen sollten die 
+	                Anforderungen und das Design getestet werden. Und dies wird 
+	                durch ein gutes CASE-Tool unterstützt.
+	                </para>
+	                <para lang="es">
+	                  Debería estar claro que la prueba es una parte integral
+	                  de todas las fases.
+	                  Incluso en las fases tempranas los requerimientos y
+	                  el diseño deberian ser probados, 
+	                  y esto es facilitado por una buena herramienta CASE.
+	                </para>
+	
+	              </note>
+			  </para>
+			  
               <para lang="en">
 	              We shall use an iterative process in this manual, 
 	              that is loosely based on the RUP.
@@ -7372,106 +7374,108 @@ available at http://www.opencontent.org/openpub/.
               <xref linkend="ch.ref.detpane"/> zu lesen.
             </para>
 
-            <note>
-
-              <itemizedlist>
-                <listitem lang="es">
-                  <para lang="es">
-                    Taréa de Lectura.
-                  </para>
-                </listitem>
-
-                <listitem>
-	                <para lang="en">To-Do Item.
-	                  Discuss differences with other tabs about locations of
-	                  items selected.
-	                  Hold particulars for discussion of To-Do Pane.
-	                </para>
-                	<para lang="de">
-                		Zu bearbeiten.
-                		Diskutiert die Unterschiede zu den anderen Registern je 
-                		markiertem Element.
-                		Beinhaltet die Einzelheiten für die Diskussion im 
-                		"Zu bearbeiten"-Fenster.
-                  	</para>
-                  <para lang="es">
-                    Item Taréas Pendientes. 
-                    Trata las diferencias con otras etiquetas 
-                    sobre localizaciones de items seleccionados.
-                    Mantiene detalles para tratarlos en 
-                    el Panel de Taréas Pendientes.
-                  </para>
-                </listitem>
-
-                <listitem>
-                	<para lang="en">Properties,</para>
-                	<para lang="de">Eigenschaften,</para>
-                  <para lang="es">Propiedades,</para>
-                </listitem>
-
-                <listitem>
-                	<para lang="en">Documentation,</para>
-                	<para lang="de">Dokumentation,</para>
-                  <para lang="es">Documentación,</para>
-                </listitem>
-
-                <listitem>
-                	<para lang="en">Presentation,</para>
-                	<para lang="de">Darstellung,</para>
-                  <para lang="es">Presentación,</para>
-                </listitem>
-
-                <listitem>
-                	<para lang="en">Source,</para>
-                	<para lang="de">Quellcode,</para>
-                  <para lang="es">Fuente,</para>
-                </listitem>
-
-                <listitem>
-                	<para lang="en">Constraints,</para>
-                	<para lang="de">Bedingungen,</para>
-                  <para lang="es">Constantes,</para>
-                </listitem>
-
-                <listitem>
-                	<para lang="en">Stereotype,</para>
-                	<para lang="de">Stereotypen,</para>
-                  <para lang="es">Estereotipo,</para>
-                </listitem>
-
-                <listitem>
-                	<para lang="en">Tagged Values,</para>
-                	<para lang="de">Eigenschaftswerte,</para>
-                  <para lang="es">Valores Etiquetados,</para>
-                </listitem>
-
-                <listitem>
-                	<para lang="en">Checklist.</para>
-                	<para lang="de">Checkliste.</para>
-                  <para lang="es">
-                    Lista de Validación.
-                  </para>
-                </listitem>
-
-                <listitem>
-	                <para lang="en">
-	                  Remove "images/tutorial/detailsoverview.gif" from file 
-	                  system.
-	                </para>
-                	<para lang="de">
-                  		Entfernen Sie "images/tutorial/detailsoverview.gif" 
-                  		aus dem Dateisystem.
-                	</para>
-                  <para lang="es">
-                    Elimina "images/tutorial/detailsoverview.gif" del sistema 
-                    de archivos.
-                  </para>
-                </listitem>
-
-              </itemizedlist>
-
-            </note>
-
+			<para>
+	            <note>
+	
+	              <itemizedlist>
+	                <listitem lang="es">
+	                  <para lang="es">
+	                    Taréa de Lectura.
+	                  </para>
+	                </listitem>
+	
+	                <listitem>
+		                <para lang="en">To-Do Item.
+		                  Discuss differences with other tabs about locations of
+		                  items selected.
+		                  Hold particulars for discussion of To-Do Pane.
+		                </para>
+	                	<para lang="de">
+	                		Zu bearbeiten.
+	                		Diskutiert die Unterschiede zu den anderen Registern je 
+	                		markiertem Element.
+	                		Beinhaltet die Einzelheiten für die Diskussion im 
+	                		"Zu bearbeiten"-Fenster.
+	                  	</para>
+	                  <para lang="es">
+	                    Item Taréas Pendientes. 
+	                    Trata las diferencias con otras etiquetas 
+	                    sobre localizaciones de items seleccionados.
+	                    Mantiene detalles para tratarlos en 
+	                    el Panel de Taréas Pendientes.
+	                  </para>
+	                </listitem>
+	
+	                <listitem>
+	                	<para lang="en">Properties,</para>
+	                	<para lang="de">Eigenschaften,</para>
+	                  <para lang="es">Propiedades,</para>
+	                </listitem>
+	
+	                <listitem>
+	                	<para lang="en">Documentation,</para>
+	                	<para lang="de">Dokumentation,</para>
+	                  <para lang="es">Documentación,</para>
+	                </listitem>
+	
+	                <listitem>
+	                	<para lang="en">Presentation,</para>
+	                	<para lang="de">Darstellung,</para>
+	                  <para lang="es">Presentación,</para>
+	                </listitem>
+	
+	                <listitem>
+	                	<para lang="en">Source,</para>
+	                	<para lang="de">Quellcode,</para>
+	                  <para lang="es">Fuente,</para>
+	                </listitem>
+	
+	                <listitem>
+	                	<para lang="en">Constraints,</para>
+	                	<para lang="de">Bedingungen,</para>
+	                  <para lang="es">Constantes,</para>
+	                </listitem>
+	
+	                <listitem>
+	                	<para lang="en">Stereotype,</para>
+	                	<para lang="de">Stereotypen,</para>
+	                  <para lang="es">Estereotipo,</para>
+	                </listitem>
+	
+	                <listitem>
+	                	<para lang="en">Tagged Values,</para>
+	                	<para lang="de">Eigenschaftswerte,</para>
+	                  <para lang="es">Valores Etiquetados,</para>
+	                </listitem>
+	
+	                <listitem>
+	                	<para lang="en">Checklist.</para>
+	                	<para lang="de">Checkliste.</para>
+	                  <para lang="es">
+	                    Lista de Validación.
+	                  </para>
+	                </listitem>
+	
+	                <listitem>
+		                <para lang="en">
+		                  Remove "images/tutorial/detailsoverview.gif" from file 
+		                  system.
+		                </para>
+	                	<para lang="de">
+	                  		Entfernen Sie "images/tutorial/detailsoverview.gif" 
+	                  		aus dem Dateisystem.
+	                	</para>
+	                  <para lang="es">
+	                    Elimina "images/tutorial/detailsoverview.gif" del sistema 
+	                    de archivos.
+	                  </para>
+	                </listitem>
+	
+	              </itemizedlist>
+	
+	            </note>
+			</para>
+			
           </sect3>
 
           <sect3>
@@ -7491,58 +7495,60 @@ available at http://www.opencontent.org/openpub/.
               <xref linkend="ch.ref.todopane"/> zu lesen.
             </para>
 
-            <note>
-
-              <itemizedlist>
-                <listitem lang="es">
-                  <para>Taréa de Lectura.</para>
-                </listitem>
-
-                <listitem>
-                	<para lang="en">Describe priorities.</para>
-                	<para lang="de">Beschreibt Prioritäten.</para>
-                	<para lang="es">Describe prioridades.</para>
-                </listitem>
-
-                <listitem>
-                	<para lang="en">Resolving items.</para>
-                	<para lang="de">Löst Elemente auf.</para>
-                	<para lang="es">Resolver items.</para>
-                </listitem>
-
-                <listitem>
-	                <para lang="en">
-	                	Relation to ToDo Item tab in details pane.
-	                </para>
-                	<para lang="de">
-                		Beziehung zum "Zu bearbeiten"-Register im Detail-
-                		Fenster.
-                	</para>
-                	<para lang="es">
-                	  Relationa a una etiqueta de Item Pendiente 
-                	  en el panel de detalles.
-                	</para>
-                </listitem>
-
-                <listitem>
-	                <para lang="en">
-	                  Remove "images/tutorial/todooverview.gif" from file system.
-	                </para>
-	                <para lang="de">
-	                  Entfernen Sie "images/tutorial/todooverview.gif" aus dem 
-	                  Dateisystem.
-	                </para>
-	                <para lang="es">
-	                  Elimina "images/tutorial/todooverview.gif" del sistema 
-	                  de archivos.
-	                </para>
-	                  
-                </listitem>
-
-              </itemizedlist>
-
-            </note>
-
+			<para>
+	            <note>
+	
+	              <itemizedlist>
+	                <listitem lang="es">
+	                  <para>Taréa de Lectura.</para>
+	                </listitem>
+	
+	                <listitem>
+	                	<para lang="en">Describe priorities.</para>
+	                	<para lang="de">Beschreibt Prioritäten.</para>
+	                	<para lang="es">Describe prioridades.</para>
+	                </listitem>
+	
+	                <listitem>
+	                	<para lang="en">Resolving items.</para>
+	                	<para lang="de">Löst Elemente auf.</para>
+	                	<para lang="es">Resolver items.</para>
+	                </listitem>
+	
+	                <listitem>
+		                <para lang="en">
+		                	Relation to ToDo Item tab in details pane.
+		                </para>
+	                	<para lang="de">
+	                		Beziehung zum "Zu bearbeiten"-Register im Detail-
+	                		Fenster.
+	                	</para>
+	                	<para lang="es">
+	                	  Relationa a una etiqueta de Item Pendiente 
+	                	  en el panel de detalles.
+	                	</para>
+	                </listitem>
+	
+	                <listitem>
+		                <para lang="en">
+		                  Remove "images/tutorial/todooverview.gif" from file system.
+		                </para>
+		                <para lang="de">
+		                  Entfernen Sie "images/tutorial/todooverview.gif" aus dem 
+		                  Dateisystem.
+		                </para>
+		                <para lang="es">
+		                  Elimina "images/tutorial/todooverview.gif" del sistema 
+		                  de archivos.
+		                </para>
+		                  
+	                </listitem>
+	
+	              </itemizedlist>
+	
+	            </note>
+			</para>
+			
           </sect3>
 
           <!-- sect3 id="s3.tut.mouse">
@@ -9056,26 +9062,28 @@ available at http://www.opencontent.org/openpub/.
                 <ulink url="http://www.adobe.com">adobe.com</ulink>
               </para>
 
-              <note>
-
-                <para lang="en">
-	                You will not have scroll bars for your SVG unless 
-	                it is embedded in HTML. Good luck and let us know 
-	                what you find!
-                </para>
-                <para lang="de">
-                	Sie wollen keine Scrollleisten für Ihre SVG haben, es sei 
-                	denn Sie sind in HTML eingebettet. Viel Glück und lassen Sie 
-                	es uns wissen, was Sie das finden!
-                </para>
-                <para lang="es">
-                  No tendras barras de desplazamiento para tu SVG 
-                  a menos que este embebido en HTML. 
-                  ¡Buena suerte y haznos saber que encuentras!
-                </para>
-
-              </note>
-
+			  <para>
+	              <note>
+	
+	                <para lang="en">
+		                You will not have scroll bars for your SVG unless 
+		                it is embedded in HTML. Good luck and let us know 
+		                what you find!
+	                </para>
+	                <para lang="de">
+	                	Sie wollen keine Scrollleisten für Ihre SVG haben, es sei 
+	                	denn Sie sind in HTML eingebettet. Viel Glück und lassen Sie 
+	                	es uns wissen, was Sie das finden!
+	                </para>
+	                <para lang="es">
+	                  No tendras barras de desplazamiento para tu SVG 
+	                  a menos que este embebido en HTML. 
+	                  ¡Buena suerte y haznos saber que encuentras!
+	                </para>
+	
+	              </note>
+			  </para>
+			  
             </sect4>
 
           </sect3>
@@ -10179,29 +10187,32 @@ available at http://www.opencontent.org/openpub/.
           los requerimientos del sistema mas y mas.
         </para>
 
-        <note>
 
-          <para lang="en">
-	          The only part of the requirements notation specified by 
-	          the UML standard is the use case diagram. The remainder is 
-	          process specific. The process described in this chapter draws 
-	          heavily on the Rational Unified Process.
-          </para>
-          <para lang="de">
-          	Der einzige Teil der vom UML-Standard spezifizierten 
-          	Anforderungsnotation ist das Anwendungsfalldiagramm.  Der Rest ist 
-          	prozessspezifisch. Der in diesem Kapitel beschriebene Prozess ist 
-          	sehr stark an den Rational Unified Prozess angelehnt.
-          </para>
-          <para lang="es">
-            La unica parte de la notación de los requerimientos especificada 
-            por el estandar UML es el diagrama de casos de uso. 
-            El resto es especifico del proceso. 
-            El proceso descrito en este capitulo está 
-            muy inspirado en el Rational Unified Process.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">
+		          The only part of the requirements notation specified by 
+		          the UML standard is the use case diagram. The remainder is 
+		          process specific. The process described in this chapter draws 
+		          heavily on the Rational Unified Process.
+	          </para>
+	          <para lang="de">
+	          	Der einzige Teil der vom UML-Standard spezifizierten 
+	          	Anforderungsnotation ist das Anwendungsfalldiagramm.  Der Rest ist 
+	          	prozessspezifisch. Der in diesem Kapitel beschriebene Prozess ist 
+	          	sehr stark an den Rational Unified Prozess angelehnt.
+	          </para>
+	          <para lang="es">
+	            La unica parte de la notación de los requerimientos especificada 
+	            por el estandar UML es el diagrama de casos de uso. 
+	            El resto es especifico del proceso. 
+	            El proceso descrito en este capitulo está 
+	            muy inspirado en el Rational Unified Process.
+	          </para>
+	
+	        </note>
+        </para>
 
       </sect1>
 
@@ -11134,24 +11145,26 @@ available at http://www.opencontent.org/openpub/.
             y los actores que son externos.
           </para>
 
-          <note>
-
-            <para lang="en">
-	            Not all analysts like to use a box around the use 
-	            cases. It is a matter of personal choice.
-            </para>
-            <para lang="de">
-            	Nicht alle Analytiker möchten einen Rahmen um die 
-            	Anwendungsfälle verwenden. Dies ist ein Fall persönlicher 
-            	Vorlieben.
-            </para>
-            <para lang="es">
-              No todos los analisis gustan de usar un cuadro alrededor 
-              de los casos de uso. 
-              Es un asunto de opción personal.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">
+		            Not all analysts like to use a box around the use 
+		            cases. It is a matter of personal choice.
+	            </para>
+	            <para lang="de">
+	            	Nicht alle Analytiker möchten einen Rahmen um die 
+	            	Anwendungsfälle verwenden. Dies ist ein Fall persönlicher 
+	            	Vorlieben.
+	            </para>
+	            <para lang="es">
+	              No todos los analisis gustan de usar un cuadro alrededor 
+	              de los casos de uso. 
+	              Es un asunto de opción personal.
+	            </para>
+	
+	          </note>
+          </para>
 
           <figure float="1" id="fig.tut.atm_use_case_diagram_basic">
 
@@ -12308,24 +12321,26 @@ available at http://www.opencontent.org/openpub/.
                 y cualquier contexto con respecto a su participación.
               </para>
 
-              <note>
-
-                <para lang="en">
-	                This should not be a description of the actor. 
-	                That should be associated with the actor on the use 
-	                case diagram.
-                </para>
-                <para lang="de">
-                	Dies sollte keine Beschreibung des Akteurs sein. Diese sollte 
-                	mit dem Akteur im Anwendungsfalldiagramm verknüpft sein.
-                </para>
-                <para lang="es">
-                  Esto no debería ser una descripción del actor. 
-                  Eso debería estar asociado con el actor en 
-                  el diagrama de casos de uso.
-                </para>
-
-              </note>
+			  <para>
+	              <note>
+	
+	                <para lang="en">
+		                This should not be a description of the actor. 
+		                That should be associated with the actor on the use 
+		                case diagram.
+	                </para>
+	                <para lang="de">
+	                	Dies sollte keine Beschreibung des Akteurs sein. Diese sollte 
+	                	mit dem Akteur im Anwendungsfalldiagramm verknüpft sein.
+	                </para>
+	                <para lang="es">
+	                  Esto no debería ser una descripción del actor. 
+	                  Eso debería estar asociado con el actor en 
+	                  el diagrama de casos de uso.
+	                </para>
+	
+	              </note>
+              </para>
 
             </listitem>
 
@@ -13012,27 +13027,29 @@ available at http://www.opencontent.org/openpub/.
               caso de uso incluido.
             </para>
 
-            <note>
-
-              <para lang="en">The first step is not a condition. We take as our 
-              basic flow the case where the customer does want a 
-              receipt. The case where the customer does not want a 
-              receipt will be an alternative flow.</para>
-              <para lang="de">
-              	Der erste Schritt ist keine Bedingung. Wir nehmen als unseren 
-              	Standardablauf den Fall, wo der Kunden eine Quittung haben 
-              	möchte. Der Fall, wo der Kunde keine Quittung haben will, wird 
-              	ein alternativer Ablauf sein.
-              </para>
-              <para lang="es">
-                El primer paso no es una condición.
-                Tomamos como nuestro flujo básico el caso donde 
-                el consumidor quiere un recibo. 
-                El caso donde de consumidor no quiere un recibo 
-                será un flujo alternativo.
-              </para>
-
-            </note>
+			<para>
+	            <note>
+	
+	              <para lang="en">The first step is not a condition. We take as our 
+	              basic flow the case where the customer does want a 
+	              receipt. The case where the customer does not want a 
+	              receipt will be an alternative flow.</para>
+	              <para lang="de">
+	              	Der erste Schritt ist keine Bedingung. Wir nehmen als unseren 
+	              	Standardablauf den Fall, wo der Kunden eine Quittung haben 
+	              	möchte. Der Fall, wo der Kunde keine Quittung haben will, wird 
+	              	ein alternativer Ablauf sein.
+	              </para>
+	              <para lang="es">
+	                El primer paso no es una condición.
+	                Tomamos como nuestro flujo básico el caso donde 
+	                el consumidor quiere un recibo. 
+	                El caso donde de consumidor no quiere un recibo 
+	                será un flujo alternativo.
+	              </para>
+	
+	            </note>
+            </para>
 
           </sect3>
 
@@ -13316,41 +13333,43 @@ available at http://www.opencontent.org/openpub/.
           	Information nicht aufnehmen.
           </para>
 
-          <note>
-
-            <para lang="en">Some analysts like to place non-functional 
-            requirements in a section at the end of each use case 
-            specification, containing the non-functional requirements 
-            relevant to the use case.</para>
-            <para lang="de">
-            	Einige Analytiker plazieren nicht-funktionale Anforderungen in 
-            	einem Abschnitt am Ende einer jeden Anwendungsfallspezifikation, 
-            	der die nicht-funktionalen, anwendungsfallbezogenen 
-            	Anforderungen enthält.
-            </para>
-
-            <para lang="en">
-              This can cause some problems.
-              First key non-functional requirements (for example about
-              performance) may need to appear in many use cases and it is bad
-              practice to replicate information.
-              Secondly there are invariably some non-functional requirements
-              that are system wide and need a system wide document.
-              Hence my preference for a single supplementary requirements
-              specification.
-            </para>
-            <para lang="de">
-            	Dies kann einige Probleme verursachen. Der erste Punkt ist, dass 
-            	nicht-funktionale Anforderungen (zum Beispiel über die 
-            	Performance) in vielen Anwendungsfällen erscheinen muß und es 
-            	ist eine schlechte Praxis, Informationen zu replizieren.
-            	Zweitens gibt es einige invariable systemweite nicht-funktionale 
-            	Anforderungen, die ein systemweites Dokument erfordern.
-            	Daher meine Präferenz für eine einzige ergänzende 
-            	Anforderungsdokumentation.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">Some analysts like to place non-functional 
+	            requirements in a section at the end of each use case 
+	            specification, containing the non-functional requirements 
+	            relevant to the use case.</para>
+	            <para lang="de">
+	            	Einige Analytiker plazieren nicht-funktionale Anforderungen in 
+	            	einem Abschnitt am Ende einer jeden Anwendungsfallspezifikation, 
+	            	der die nicht-funktionalen, anwendungsfallbezogenen 
+	            	Anforderungen enthält.
+	            </para>
+	
+	            <para lang="en">
+	              This can cause some problems.
+	              First key non-functional requirements (for example about
+	              performance) may need to appear in many use cases and it is bad
+	              practice to replicate information.
+	              Secondly there are invariably some non-functional requirements
+	              that are system wide and need a system wide document.
+	              Hence my preference for a single supplementary requirements
+	              specification.
+	            </para>
+	            <para lang="de">
+	            	Dies kann einige Probleme verursachen. Der erste Punkt ist, dass 
+	            	nicht-funktionale Anforderungen (zum Beispiel über die 
+	            	Performance) in vielen Anwendungsfällen erscheinen muß und es 
+	            	ist eine schlechte Praxis, Informationen zu replizieren.
+	            	Zweitens gibt es einige invariable systemweite nicht-funktionale 
+	            	Anforderungen, die ein systemweites Dokument erfordern.
+	            	Daher meine Präferenz für eine einzige ergänzende 
+	            	Anforderungsdokumentation.
+	            </para>
+	
+	          </note>
+          </para>
 
           <para lang="en">There should be a section for each of the main areas of 
           non-functional requirements. The checklist provided by Ian 
@@ -13763,17 +13782,19 @@ available at http://www.opencontent.org/openpub/.
 	 				Erweiterungspunkte hinzugefügt.
                 </para>
 
-                <note>
-
-                  <para lang="en">The <literal>Add Extension Point</literal> icon 
-                  is grayed out and unusable until a use case is 
-                  selected.</para>
-                  <para lang="de">
-                  	Das Symbol <literal>Erweiterungspunkt hinzufügen</literal> 
-                  	ist inaktiv, bis ein Anwendungsfall markiert ist.
-				  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The <literal>Add Extension Point</literal> icon 
+	                  is grayed out and unusable until a use case is 
+	                  selected.</para>
+	                  <para lang="de">
+	                  	Das Symbol <literal>Erweiterungspunkt hinzufügen</literal> 
+	                  	ist inaktiv, bis ein Anwendungsfall markiert ist.
+					  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -14130,22 +14151,24 @@ available at http://www.opencontent.org/openpub/.
                 	</literal> zu entfernen.
 	            </para>
 
-                <note>
-
-                  <para lang="en">This may seem counter-intuitive, but in fact 
-                  associations by default are navigable in both 
-                  directions (when no arrows are shown). This process 
-                  is <emphasis>turning off</emphasis> navigation at one 
-                  end, rather than turning it on at the other.</para>
-                  <para lang="de">
-                  	Dies erscheint anti-intuitiv, aber tatsächlich sind 
-                  	Assoziationen standardmäßig in beide Richtungen navigierbar 
-                  	(wenn keine Pfeile angezeigt werden). Dieser Prozess ist 
-                  	eher das <emphasis>Ausschalten</emphasis> der Navigation 
-                  	an einem Ende, als das Einschalten am anderen Ende.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">This may seem counter-intuitive, but in fact 
+	                  associations by default are navigable in both 
+	                  directions (when no arrows are shown). This process 
+	                  is <emphasis>turning off</emphasis> navigation at one 
+	                  end, rather than turning it on at the other.</para>
+	                  <para lang="de">
+	                  	Dies erscheint anti-intuitiv, aber tatsächlich sind 
+	                  	Assoziationen standardmäßig in beide Richtungen navigierbar 
+	                  	(wenn keine Pfeile angezeigt werden). Dieser Prozess ist 
+	                  	eher das <emphasis>Ausschalten</emphasis> der Navigation 
+	                  	an einem Ende, als das Einschalten am anderen Ende.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -14457,22 +14480,24 @@ available at http://www.opencontent.org/openpub/.
 	            Anwendungsfall markiert werden (Taste&nbsp;1 loslassen).
             </para>
 
-            <note>
-
-              <para lang="en">This is the reverse of the include relationship, 
-              but reflects the way that designer&apos;s tend to think. 
-              The fact that the extend icon&apos;s arrow points upward 
-              (the opposite of the include icon) should help remind you 
-              of this.</para>
-              <para lang="de">
-              	Dies ist gegenüber der Include-Beziehung genau umgekehrt, 
-              	reflektiert aber die Art und Weise, wie Designer denken. Die 
-              	Tatsache, dass der Pfeil des Extend-Symboles nach oben zeigt (
-              	im Gegensatz zum Include-Symbol) sollte Ihnen helfen, sich daran 
-              	zu erinnern.
-              </para>
-
-            </note>
+			<para>
+	            <note>
+	
+	              <para lang="en">This is the reverse of the include relationship, 
+	              but reflects the way that designer&apos;s tend to think. 
+	              The fact that the extend icon&apos;s arrow points upward 
+	              (the opposite of the include icon) should help remind you 
+	              of this.</para>
+	              <para lang="de">
+	              	Dies ist gegenüber der Include-Beziehung genau umgekehrt, 
+	              	reflektiert aber die Art und Weise, wie Designer denken. Die 
+	              	Tatsache, dass der Pfeil des Extend-Symboles nach oben zeigt (
+	              	im Gegensatz zum Include-Symbol) sollte Ihnen helfen, sich daran 
+	              	zu erinnern.
+	              </para>
+	
+	            </note>
+            </para>
 
             <para lang="en">To set a condition for the extend relationship, 
             select the extend relationship in the editing pane 
@@ -14878,26 +14903,28 @@ available at http://www.opencontent.org/openpub/.
           	Diagramme in diesem Kapitel verwendet wurde.
           </para>
 
-          <note>
-
-            <para lang="en">The editing pane in ArgoUML has a grid to which 
-            objects snap to aid in drawing. The size of this grid and 
-            its effect may be altered through the <literal>
-            View</literal> menu (using <literal>Adjust Grid</literal> 
-            and <literal>Adjust Grid Snap</literal>). This is described 
-            fully in the reference manual (see 
-            <xref linkend="ch.ref.menu"/>).</para>
-            <para lang="de">
-	            Das Editierfenster in ArgoUML hat ein Gitter, in das Objekte 
-	            beim Zeichnen einrasten. Die Größe dieses Gitters und seine 
-	            Auswirkungen können durch das <literal>Ansicht</literal>-Menü 
-	            (verwenden Sie <literal>Raster einstellen</literal> und 
-	            <literal>Einrasten einstellen</literal>) verändert werden. Dies 
-	            ist im Referenzhandbuch vollständig beschrieben (siehe 
-	            <xref linkend="ch.ref.menu"/>).
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">The editing pane in ArgoUML has a grid to which 
+	            objects snap to aid in drawing. The size of this grid and 
+	            its effect may be altered through the <literal>
+	            View</literal> menu (using <literal>Adjust Grid</literal> 
+	            and <literal>Adjust Grid Snap</literal>). This is described 
+	            fully in the reference manual (see 
+	            <xref linkend="ch.ref.menu"/>).</para>
+	            <para lang="de">
+		            Das Editierfenster in ArgoUML hat ein Gitter, in das Objekte 
+		            beim Zeichnen einrasten. Die Größe dieses Gitters und seine 
+		            Auswirkungen können durch das <literal>Ansicht</literal>-Menü 
+		            (verwenden Sie <literal>Raster einstellen</literal> und 
+		            <literal>Einrasten einstellen</literal>) verändert werden. Dies 
+		            ist im Referenzhandbuch vollständig beschrieben (siehe 
+		            <xref linkend="ch.ref.menu"/>).
+	            </para>
+	
+	          </note>
+          </para>
 
         </sect2>
 
@@ -17322,14 +17349,16 @@ available at http://www.opencontent.org/openpub/.
 			</phrase>
 		</title>
 
-        <note>
-
-          <para lang="en">Sequence diagrams does not work in ArgoUML version 
-          0.14.</para>
-          <para lang="de">Sequenzdiagramme funktionieren in der ArgoUML-Version 
-          0.14 nicht.</para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">Sequence diagrams does not work in ArgoUML version 
+	          0.14.</para>
+	          <para lang="de">Sequenzdiagramme funktionieren in der ArgoUML-Version 
+	          0.14 nicht.</para>
+	
+	        </note>
+        </para>
 
         <remark lang="en">To be written...</remark>
         <remark lang="de">Noch zu beschreiben...</remark>
@@ -21186,24 +21215,26 @@ available at http://www.opencontent.org/openpub/.
           	genau wie <literal>Projekt speichern unter...</literal>.
           </para>
 
-          <note>
-
-            <para lang="en">In certain circumstances, there is nothing to save, 
-            and this menuitem is downlighted. E.g. when the user did 
-            not yet alter a loaded project. The presence of a 
-            <quote>*</quote> in the titlebar of ArgoUML&apos;s window 
-            indicates that the current project is <quote>dirty</quote> 
-            (has been altered), and can be saved.</para>
-            <para lang="de">
-           		Unter bestimmten Umständen gibt es nichts zu speichern. Dann ist 
-           		diese Menüoption deaktiviert. Z.B. wenn der Anwender das geladene 
-           		Projekt nicht verändert hat. Die Präsenz eines <quote>*</quote> 
-           		in der Titelzeile von ArgoUML zeigt an, dass das aktuelle 
-           		Projekt <quote>ungesichert</quote> ist (geändert wurde) und 
-           		gespeichert werden kann.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">In certain circumstances, there is nothing to save, 
+	            and this menuitem is downlighted. E.g. when the user did 
+	            not yet alter a loaded project. The presence of a 
+	            <quote>*</quote> in the titlebar of ArgoUML&apos;s window 
+	            indicates that the current project is <quote>dirty</quote> 
+	            (has been altered), and can be saved.</para>
+	            <para lang="de">
+	           		Unter bestimmten Umständen gibt es nichts zu speichern. Dann ist 
+	           		diese Menüoption deaktiviert. Z.B. wenn der Anwender das geladene 
+	           		Projekt nicht verändert hat. Die Präsenz eines <quote>*</quote> 
+	           		in der Titelzeile von ArgoUML zeigt an, dass das aktuelle 
+	           		Projekt <quote>ungesichert</quote> ist (geändert wurde) und 
+	           		gespeichert werden kann.
+	            </para>
+	
+	          </note>
+          </para>
 
         </sect2>
 
@@ -25041,31 +25072,35 @@ available at http://www.opencontent.org/openpub/.
 
           </itemizedlist>
 
-          <note>
-
-            <para lang="en">There is no option to turn off snap to grid 
-            altogether</para>
-            <para lang="de">
-            	Es gibt keine Option das Einrasten auf das Gitter abzustellen.
-            </para>
-
-          </note>
-
-          <note>
-
-            <para lang="en">If you wish to align existing elements to changed
-            snap boundaries, 
-            you can use the <literal>
-            Arrange &gt; Align To Grid Snap</literal> menu (see 
-            <xref linkend="s2.ref.menu_align"/>).</para>
-            <para lang="de">
-            	Wenn Sie existierende Elemente auf geänderte Einrastbereiche  
-            	ausrichten wollen, können Sie das Menü <literal>Anordnen &gt; 
-            	Am Gitter ausrichten</literal> verwenden (siehe  
-            	<xref linkend="s2.ref.menu_align"/>).
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">There is no option to turn off snap to grid 
+	            altogether</para>
+	            <para lang="de">
+	            	Es gibt keine Option das Einrasten auf das Gitter abzustellen.
+	            </para>
+	
+	          </note>
+          </para>
+	
+		  <para>
+		      <note>
+	
+	            <para lang="en">If you wish to align existing elements to changed
+	            snap boundaries, 
+	            you can use the <literal>
+	            Arrange &gt; Align To Grid Snap</literal> menu (see 
+	            <xref linkend="s2.ref.menu_align"/>).</para>
+	            <para lang="de">
+	            	Wenn Sie existierende Elemente auf geänderte Einrastbereiche  
+	            	ausrichten wollen, können Sie das Menü <literal>Anordnen &gt; 
+	            	Am Gitter ausrichten</literal> verwenden (siehe  
+	            	<xref linkend="s2.ref.menu_align"/>).
+	            </para>
+	
+	          </note>
+          </para>
 
         </sect2>
 
@@ -26227,18 +26262,20 @@ available at http://www.opencontent.org/openpub/.
         	Informationen der Klassendiagramme auf.
         </para>
 
-        <note>
-
-          <para lang="en">Without any plugin modules installed, ArgoUML supports 
-          only code generation of Java. ArgoUML V0.20 supports the 
-          following languages by plugin: C#, C++, php4, php5.</para>
-          <para lang="de">
-          	Ohne installierte Plugin-Module unterstützt ArgoUML nur die 
-          	Codegenerierung mit Java. ArgoUML V0.20 unterstützt die folgenden 
-          	Sprachen per Plugin: C#, C++, php4, php5.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">Without any plugin modules installed, ArgoUML supports 
+	          only code generation of Java. ArgoUML V0.20 supports the 
+	          following languages by plugin: C#, C++, php4, php5.</para>
+	          <para lang="de">
+	          	Ohne installierte Plugin-Module unterstützt ArgoUML nur die 
+	          	Codegenerierung mit Java. ArgoUML V0.20 unterstützt die folgenden 
+	          	Sprachen per Plugin: C#, C++, php4, php5.
+	          </para>
+	
+	        </note>
+        </para>
 
         <warning>
 
@@ -26440,54 +26477,58 @@ available at http://www.opencontent.org/openpub/.
         	http://argouml.tigris.org/docs/robbins_dissertation/</ulink>.
         </para>
 
-        <note>
+		<para>
+	        <note>
+	
+	          <para lang="en">A word about terminology: The 
+	          <emphasis>critics</emphasis> are background processes, which 
+	          evaluate the current model according to various 
+	          <quote>good</quote> design criteria. There is one critic for 
+	          every design criterion.</para>
+	          <para lang="de">
+	          	Ein Wort zur Terminilogie: Die <emphasis>Kritiken</emphasis> sind 
+	          	Hintergrundprozesse, die das aktuelle Modell anhand verschiedener 
+	          	<quote>guter</quote> Designkriterien überprüfen. Es gibt jeweils 
+	          	eine Kritik für jedes Designkriterium.
+	          </para>
+	
+	          <para lang="en">The output of a critic is a 
+	          <emphasis>critique</emphasis>&mdash;a statement about some aspect 
+	          of the model that does not appear to follow good design 
+	          practice.</para>
+	          <para lang="de">
+	          	Die Ausgabe einer Kritik ist eine <emphasis>kritische Beschreibung
+	          	</emphasis>&mdash; eine Ausführung zu einigen Aspekten des Modelles, 
+	          	die nicht der guten Designpraxis zu folgen scheinen. 
+	          </para>
+	
+	          <para lang="en">Finally a critique will generally suggest how the bad 
+	          design issue it has identified can be rectified, by raising a 
+	          <emphasis>to-do item</emphasis>.</para>
+	          <para lang="de">
+	          	Zum Schluss wird die kritische Beschreibung generell durch ein 
+	          	hochgestelltes <emphasis>"zu bearbeiten"-Element </emphasis> 
+	          	empfehlen, wie der identifizierte, schlechte Designansatz berichtigt 
+	          	werden kann.
+	          </para>
+	
+	        </note>
+        </para>
 
-          <para lang="en">A word about terminology: The 
-          <emphasis>critics</emphasis> are background processes, which 
-          evaluate the current model according to various 
-          <quote>good</quote> design criteria. There is one critic for 
-          every design criterion.</para>
-          <para lang="de">
-          	Ein Wort zur Terminilogie: Die <emphasis>Kritiken</emphasis> sind 
-          	Hintergrundprozesse, die das aktuelle Modell anhand verschiedener 
-          	<quote>guter</quote> Designkriterien überprüfen. Es gibt jeweils 
-          	eine Kritik für jedes Designkriterium.
-          </para>
-
-          <para lang="en">The output of a critic is a 
-          <emphasis>critique</emphasis>&mdash;a statement about some aspect 
-          of the model that does not appear to follow good design 
-          practice.</para>
-          <para lang="de">
-          	Die Ausgabe einer Kritik ist eine <emphasis>kritische Beschreibung
-          	</emphasis>&mdash; eine Ausführung zu einigen Aspekten des Modelles, 
-          	die nicht der guten Designpraxis zu folgen scheinen. 
-          </para>
-
-          <para lang="en">Finally a critique will generally suggest how the bad 
-          design issue it has identified can be rectified, by raising a 
-          <emphasis>to-do item</emphasis>.</para>
-          <para lang="de">
-          	Zum Schluss wird die kritische Beschreibung generell durch ein 
-          	hochgestelltes <emphasis>"zu bearbeiten"-Element </emphasis> 
-          	empfehlen, wie der identifizierte, schlechte Designansatz berichtigt 
-          	werden kann.
-          </para>
-
-        </note>
-
-        <note>
-
-          <para lang="en">The critics run as asynchronous processes in parallel 
-          with the main ArgoUML tool. Changes typically take a second 
-          or two to propagate as the critics wake up.</para>
-          <para lang="de">
-          	Die Kritiken sind asynchrone Prozesse die parallel zum Hauptprozess 
-          	von ArgoUML ablaufen. Änderungen benötigen üblicherweise eine oder 
-          	zwei Sekunden bis die Kritiken verfügbar sind.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">The critics run as asynchronous processes in parallel 
+	          with the main ArgoUML tool. Changes typically take a second 
+	          or two to propagate as the critics wake up.</para>
+	          <para lang="de">
+	          	Die Kritiken sind asynchrone Prozesse die parallel zum Hauptprozess 
+	          	von ArgoUML ablaufen. Änderungen benötigen üblicherweise eine oder 
+	          	zwei Sekunden bis die Kritiken verfügbar sind.
+	          </para>
+	
+	        </note>
+        </para>
 
         <sect2>
 
@@ -26582,16 +26623,18 @@ available at http://www.opencontent.org/openpub/.
           	niedrigste Priorität)
           </para>
 
-          <note>
-
-            <para lang="en">The sliders are set by default to <literal>
-            High</literal> for all design categories.</para>
-            <para lang="de">
-            	Die Regler sind für alle Designkategorien standardmäßig auf 
-            	<literal>Hoch</literal> eingestellt.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">The sliders are set by default to <literal>
+	            High</literal> for all design categories.</para>
+	            <para lang="de">
+	            	Die Regler sind für alle Designkategorien standardmäßig auf 
+	            	<literal>Hoch</literal> eingestellt.
+	            </para>
+	
+	          </note>
+          </para>
 
         </sect2>
 
@@ -26823,19 +26866,21 @@ available at http://www.opencontent.org/openpub/.
           	sein kann).
           </para>
 
-          <note>
-
-            <para lang="en">In the headline you may see the text <literal>
-            &lt;ocl&gt;self&lt;/ocl&gt;</literal>, which will be 
-            replaced by the name of the model element in question when the 
-            critic is triggered.</para>
-            <para lang="de">
-            	Im Titel können Sie den Text <literal>&lt;ocl&gt;self&lt;/ocl&gt;
-            	</literal> sehen, der durch den Namen des in Frage kommenden 
-            	Modellelementes ersetzt wird, wenn die Kritik ausgelöst wird. 
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">In the headline you may see the text <literal>
+	            &lt;ocl&gt;self&lt;/ocl&gt;</literal>, which will be 
+	            replaced by the name of the model element in question when the 
+	            critic is triggered.</para>
+	            <para lang="de">
+	            	Im Titel können Sie den Text <literal>&lt;ocl&gt;self&lt;/ocl&gt;
+	            	</literal> sehen, der durch den Namen des in Frage kommenden 
+	            	Modellelementes ersetzt wird, wenn die Kritik ausgelöst wird. 
+	            </para>
+	
+	          </note>
+          </para>
 
           <para lang="en">The next field is a drop-down selector, labeled 
           <literal>Priority:</literal>. The three options available are 
@@ -26892,20 +26937,22 @@ available at http://www.opencontent.org/openpub/.
           	für den Bereich, erscheint auf der rechten Seite ein Schieberegler.
           </para>
 
-          <note>
-
-            <para lang="en">In this text area you may see the text <literal>
-            &lt;ocl&gt;self&lt;/ocl&gt;</literal>, which will be 
-            replaced by the name of the model element in question when the 
-            critic is triggered.</para>
-            <para lang="de">
-            	In diesem Textbereich können Sie den Text <literal>
-            	&lt;ocl&gt;self&lt;/ocl&gt;</literal> vorfinden, der durch den 
-            	Namen des in Frage kommenden Modellelementes ersetzt wird, wenn 
-            	die Kritik ausgelöst wird.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">In this text area you may see the text <literal>
+	            &lt;ocl&gt;self&lt;/ocl&gt;</literal>, which will be 
+	            replaced by the name of the model element in question when the 
+	            critic is triggered.</para>
+	            <para lang="de">
+	            	In diesem Textbereich können Sie den Text <literal>
+	            	&lt;ocl&gt;self&lt;/ocl&gt;</literal> vorfinden, der durch den 
+	            	Namen des in Frage kommenden Modellelementes ersetzt wird, wenn 
+	            	die Kritik ausgelöst wird.
+	            </para>
+	
+	          </note>
+          </para>
 
           <para lang="en">The last field is a drop-down selector labeled <literal>
           Use Clarifier</literal>, with three options, <literal>
@@ -27461,19 +27508,21 @@ available at http://www.opencontent.org/openpub/.
           	das Modellelement dort hervorgehoben. 
           </para>
 
-          <note>
-
-            <para lang="en">If the model element is part of a diagram other than that 
-            currently displayed in the Editing Pane, there will be 
-            <emphasis>no</emphasis> change of diagram in the Editing 
-            Pane.</para>
-            <para lang="de">
-            	Wenn das Modellelement Teil eines, vom aktuell im Editierfenster 
-            	angezeigten, abweichenden Diagrammes ist, gibt es <emphasis>
-            	keine</emphasis> Änderung des Diagrammes im Editierfenster.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">If the model element is part of a diagram other than that 
+	            currently displayed in the Editing Pane, there will be 
+	            <emphasis>no</emphasis> change of diagram in the Editing 
+	            Pane.</para>
+	            <para lang="de">
+	            	Wenn das Modellelement Teil eines, vom aktuell im Editierfenster 
+	            	angezeigten, abweichenden Diagrammes ist, gibt es <emphasis>
+	            	keine</emphasis> Änderung des Diagrammes im Editierfenster.
+	            </para>
+	
+	          </note>
+          </para>
 
           <para lang="en">Where button&nbsp;2 click has been used to bring up a 
           context sensitive pop-up menu (see below), button&nbsp;1 click is 
@@ -29979,16 +30028,18 @@ available at http://www.opencontent.org/openpub/.
 	              besitzenden Anwendungsfalles ausgewählt wird.
               </para>
 
-              <note>
-
-                <para lang="en">This tool is grayed out except when a use case is 
-                selected.</para>
-                <para lang="de">
-                	Dieses Werkzeug ist deaktiviert, es sei denn, ein 
-                	Anwendungsfall ist markiert.
-                </para>
-
-              </note>
+			  <para>
+	              <note>
+	
+	                <para lang="en">This tool is grayed out except when a use case is 
+	                selected.</para>
+	                <para lang="de">
+	                	Dieses Werkzeug ist deaktiviert, es sei denn, ein 
+	                	Anwendungsfall ist markiert.
+	                </para>
+	
+	              </note>
+              </para>
 
             </listitem>
 
@@ -30378,16 +30429,18 @@ available at http://www.opencontent.org/openpub/.
 	              Nutzung des Registers Eigenschaften.
               </para>
 
-              <note>
-
-                <para lang="en">This tool is grayed out except when a class is 
-                selected.</para>
-                <para lang="de">
-                	Dieses Werkzeug ist deaktiviert, außer wenn eine Klasse 
-                	markiert ist.
-                </para>
-
-              </note>
+			  <para>
+	              <note>
+	
+	                <para lang="en">This tool is grayed out except when a class is 
+	                selected.</para>
+	                <para lang="de">
+	                	Dieses Werkzeug ist deaktiviert, außer wenn eine Klasse 
+	                	markiert ist.
+	                </para>
+	
+	              </note>
+              </para>
 
             </listitem>
 
@@ -30424,16 +30477,18 @@ available at http://www.opencontent.org/openpub/.
 	              Nutzung des Registers Eigenschaften.
               </para>
 
-              <note>
-
-                <para lang="en">This tool is grayed out except when a class or 
-                interface is selected.</para>
-                <para lang="de">
-                	Dieses Werkzeug ist deaktiviert, es sei denn, eine Klasse 
-                	oder eine Schnittstelle ist markiert.
-                </para>
-
-              </note>
+			  <para>
+	              <note>
+	
+	                <para lang="en">This tool is grayed out except when a class or 
+	                interface is selected.</para>
+	                <para lang="de">
+	                	Dieses Werkzeug ist deaktiviert, es sei denn, eine Klasse 
+	                	oder eine Schnittstelle ist markiert.
+	                </para>
+	
+	              </note>
+              </para>
 
             </listitem>
             
@@ -30935,16 +30990,18 @@ available at http://www.opencontent.org/openpub/.
 	              Assoziatationstyp eine Nachricht hinzu. 
               </para>
 
-              <note>
-
-                <para lang="en">This tool is grayed out except when an 
-                association role is selected.</para>
-                <para lang="de">
-                	Dieses Werkzeug ist deaktiviert, es sei denn, eine 
-                	Assoziation ist markiert.
-                </para>
-
-              </note>
+			  <para>
+	              <note>
+	
+	                <para lang="en">This tool is grayed out except when an 
+	                association role is selected.</para>
+	                <para lang="de">
+	                	Dieses Werkzeug ist deaktiviert, es sei denn, eine 
+	                	Assoziation ist markiert.
+	                </para>
+	
+	              </note>
+              </para>
 
             </listitem>
 
@@ -31814,16 +31871,18 @@ available at http://www.opencontent.org/openpub/.
 			<xref linkend="ch.ref.entdeploy"/>).
  		  </para>
 
-          <note>
-
-            <para lang="en">Remember that ArgoUML&apos;s deployment diagrams are 
-            also used for component diagrams.</para>
-            <para lang="de">
-            	Erinnern Sie sich daran, dass ArgoUML&apos;s Verteilungsdiagramme 
-            	auch als Komponentendiagramme verwendet werden.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">Remember that ArgoUML&apos;s deployment diagrams are 
+	            also used for component diagrams.</para>
+	            <para lang="de">
+	            	Erinnern Sie sich daran, dass ArgoUML&apos;s Verteilungsdiagramme 
+	            	auch als Komponentendiagramme verwendet werden.
+	            </para>
+	
+	          </note>
+          </para>
 
           <itemizedlist>
 
@@ -33216,18 +33275,20 @@ available at http://www.opencontent.org/openpub/.
               	dynamischem Verhalten gesetzt. 
               </para>
 
-              <note>
-
-                <para lang="en">This really ought to be set automatically for 
-                model elements with state machines or activity 
-                diagrams.</para>
-                <para lang="de">
-                	Dies sollte natürlich automatisch bei Modellelementen 
-                	mit Zustandsautomaten oder Aktivitätsdiagrammen gesetzt 
-                	werden.
-                </para>
-
-              </note>
+			  <para>
+	              <note>
+	
+	                <para lang="en">This really ought to be set automatically for 
+	                model elements with state machines or activity 
+	                diagrams.</para>
+	                <para lang="de">
+	                	Dies sollte natürlich automatisch bei Modellelementen 
+	                	mit Zustandsautomaten oder Aktivitätsdiagrammen gesetzt 
+	                	werden.
+	                </para>
+	
+	              </note>
+              </para>
 
             </listitem>
 
@@ -33428,42 +33489,46 @@ available at http://www.opencontent.org/openpub/.
 
           </itemizedlist>
 
-          <note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">UML does permit an association to be non-navigable in 
+	            both directions. ArgoUML will allow this, but you will have 
+	            to set each of the association ends navigation property, 
+	            reached from the property tab of the association - and the 
+	            diagram does not show any arrows in this case.</para>
+	            <para lang="de">
+	            	UML erlaubt keine nicht-navigierbaren Assoziation in beide 
+	            	Richtungen. ArgoUML wird dies zulassen, aber Sie müssen die 
+	            	Navigationseigenschaft aller über den Reiter Eigenschaften der 
+	            	Assoziation erreichbaren Assoziationsenden einstellen - und das 
+	            	Diagramm wird in diesem Fall keine Pfeile anzeigen.  
+	            </para>
+	
+	            <para lang="en">This is considered bad design practice (it will 
+	            trigger a critic in ArgoUML), so is only of theoretical 
+	            interest.</para>
+	            <para lang="de">
+	              Dies wird als schlechte Design-Praxis betrachtet (es wird in 
+	              ArgoUML eine Kritik auslösen), so dass dies nur von theoretischem 
+	              Interesse ist.
+	            </para>
+	
+	          </note>
+          </para>
 
-            <para lang="en">UML does permit an association to be non-navigable in 
-            both directions. ArgoUML will allow this, but you will have 
-            to set each of the association ends navigation property, 
-            reached from the property tab of the association - and the 
-            diagram does not show any arrows in this case.</para>
-            <para lang="de">
-            	UML erlaubt keine nicht-navigierbaren Assoziation in beide 
-            	Richtungen. ArgoUML wird dies zulassen, aber Sie müssen die 
-            	Navigationseigenschaft aller über den Reiter Eigenschaften der 
-            	Assoziation erreichbaren Assoziationsenden einstellen - und das 
-            	Diagramm wird in diesem Fall keine Pfeile anzeigen.  
-            </para>
-
-            <para lang="en">This is considered bad design practice (it will 
-            trigger a critic in ArgoUML), so is only of theoretical 
-            interest.</para>
-            <para lang="de">
-              Dies wird als schlechte Design-Praxis betrachtet (es wird in 
-              ArgoUML eine Kritik auslösen), so dass dies nur von theoretischem 
-              Interesse ist.
-            </para>
-
-          </note>
-
-          <note>
-
-            <para lang="en">UML does not permit navigability from an interface to 
-            a class. ArgoUML does not prevent this.</para>
-            <para lang="de">
-            	UML erlaubt keine Navigierbarkeit von einer Schnittstelle zu 
-            	einer Klasse. ArgoUML verhindert dies nicht.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">UML does not permit navigability from an interface to 
+	            a class. ArgoUML does not prevent this.</para>
+	            <para lang="de">
+	            	UML erlaubt keine Navigierbarkeit von einer Schnittstelle zu 
+	            	einer Klasse. ArgoUML verhindert dies nicht.
+	            </para>
+	
+	          </note>
+          </para>
 
         </sect2>
 
@@ -34161,16 +34226,18 @@ available at http://www.opencontent.org/openpub/.
 
           </itemizedlist>
 
-          <note>
-
-            <para lang="en">Not all to-do items have wizards. If there is no 
-            wizard all three buttons will remain grayed out.</para>
-            <para lang="de">
-              Nicht alle Zu-Bearbeiten-Elemente haben Assistenten. Wenn es 
-              keinen Assistenten gibt, sind alle drei Schaltflächen deaktiviert.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">Not all to-do items have wizards. If there is no 
+	            wizard all three buttons will remain grayed out.</para>
+	            <para lang="de">
+	              Nicht alle Zu-Bearbeiten-Elemente haben Assistenten. Wenn es 
+	              keinen Assistenten gibt, sind alle drei Schaltflächen deaktiviert.
+	            </para>
+	
+	          </note>
+          </para>
           
           <para lang="en">
           The ArgoUML wizards are <emphasis>non-modal</emphasis>, i.e. 
@@ -35958,24 +36025,26 @@ available at http://www.opencontent.org/openpub/.
           nützlich sind.
         </para>
 
-        <note>
-
-          <para lang="en">The tag <literal>documentation</literal> is defined for 
-          the top UML metaclass, <literal>Element</literal> and is so 
-          available to all model elements. In ArgoUML documentation values 
-          are provided through the <literal>Documentation</literal> 
-          tab, rather than by using the <literal>
-          Tagged Values</literal> tab.</para>
-          <para lang="de">
-            Die Tag-<literal>Dokumentation</literal> ist für die Top-UML-
-            Metaklasse <literal>Element</literal> definiert und ist so in allen 
-            Modellelementen verfügbar. In ArgoUML sind Dokumentationswerte im 
-            Register <literal>Dokumentation</literal> enthalten, so dass diese 
-            nicht mit Hilfe der <literal>Eigenschaftswerte</literal> definiert 
-            werden müssen. 
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">The tag <literal>documentation</literal> is defined for 
+	          the top UML metaclass, <literal>Element</literal> and is so 
+	          available to all model elements. In ArgoUML documentation values 
+	          are provided through the <literal>Documentation</literal> 
+	          tab, rather than by using the <literal>
+	          Tagged Values</literal> tab.</para>
+	          <para lang="de">
+	            Die Tag-<literal>Dokumentation</literal> ist für die Top-UML-
+	            Metaklasse <literal>Element</literal> definiert und ist so in allen 
+	            Modellelementen verfügbar. In ArgoUML sind Dokumentationswerte im 
+	            Register <literal>Dokumentation</literal> enthalten, so dass diese 
+	            nicht mit Hilfe der <literal>Eigenschaftswerte</literal> definiert 
+	            werden müssen. 
+	          </para>
+	
+	        </note>
+        </para>
 
         <para lang="en">The <literal>Tagged Values</literal> tab in ArgoUML 
         comprises a two column table, with a combo-box on 
@@ -36583,18 +36652,20 @@ available at http://www.opencontent.org/openpub/.
         	Designers <emphasis>ausschliessen</emphasis>.
         </para>
 
-        <note>
-
-          <para lang="en">The critics are asynchronous processes that run in 
-          parallel with the main ArgoUML tool. Changes typically take a 
-          second or two to propagate as the critics wake up.</para>
-          <para lang="de">
-          	Die Kritiken sind asynchrone Prozesse, die parallel zu ArgoUML 
-          	ablaufen. Änderungen benötigen eine oder zwei Sekunden, bis die 
-          	Kritiken erneut erzeugt wurden.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">The critics are asynchronous processes that run in 
+	          parallel with the main ArgoUML tool. Changes typically take a 
+	          second or two to propagate as the critics wake up.</para>
+	          <para lang="de">
+	          	Die Kritiken sind asynchrone Prozesse, die parallel zu ArgoUML 
+	          	ablaufen. Änderungen benötigen eine oder zwei Sekunden, bis die 
+	          	Kritiken erneut erzeugt wurden.
+	          </para>
+	
+	        </note>
+        </para>
 
         <sect2>
 
@@ -36887,16 +36958,18 @@ available at http://www.opencontent.org/openpub/.
           	haben. Dies ist in UML nicht erlaubt.
           </para>
 
-          <note>
-
-            <para lang="en">The problem may be caused by inheritance of an 
-            attribute through a generalization relationship.</para>
-            <para lang="de">
-            	Das Problem kann durch vererben eines Attributes über eine 
-            	Vererbungsbeziehung verursacht werden.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">The problem may be caused by inheritance of an 
+	            attribute through a generalization relationship.</para>
+	            <para lang="de">
+	            	Das Problem kann durch vererben eines Attributes über eine 
+	            	Vererbungsbeziehung verursacht werden.
+	            </para>
+	
+	          </note>
+          </para>
 
         </sect2>
 
@@ -36971,22 +37044,24 @@ available at http://www.opencontent.org/openpub/.
           	einigen funktionalen OO-Sprachen unvorteilhaft sein.
           </para>
 
-          <note>
-
-            <para lang="en">Some purists would argue that the comparison should 
-            really differentiate between in, out and in-out parameters. 
-            However no practical programming language can do this when 
-            resolving an overloaded method invocation, so this critic 
-            lumps them all together.</para>
-            <para lang="de">
-            	Einige Puristen würden argumentieren, dass der Vergleich 
-            	zwischen Ein-, Aus- und Ein-Ausgabeparametern differenzieren 
-            	sollte. Jedoch kann keine praktische Programmiersprache so etwas 
-            	tun, wenn sie einen überladenen Methodenaufruf auflöst. Aus 
-            	diese Grund behandelt diese Kritik sie alle pauschal.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">Some purists would argue that the comparison should 
+	            really differentiate between in, out and in-out parameters. 
+	            However no practical programming language can do this when 
+	            resolving an overloaded method invocation, so this critic 
+	            lumps them all together.</para>
+	            <para lang="de">
+	            	Einige Puristen würden argumentieren, dass der Vergleich 
+	            	zwischen Ein-, Aus- und Ein-Ausgabeparametern differenzieren 
+	            	sollte. Jedoch kann keine praktische Programmiersprache so etwas 
+	            	tun, wenn sie einen überladenen Methodenaufruf auflöst. Aus 
+	            	diese Grund behandelt diese Kritik sie alle pauschal.
+	            </para>
+	
+	          </note>
+          </para>
 
         </sect2>
 
@@ -37367,16 +37442,18 @@ available at http://www.opencontent.org/openpub/.
           	Klassen mit einem Großbuchstaben beginnen.
           </para>
 
-          <note>
-
-            <para lang="en">Although not triggering this critic, the same 
-            convention should apply to interfaces.</para>
-            <para lang="de">
-            	Obwohl sie diese Kritik nicht auslöst, sollte die gleiche 
-            	Konvention auf Schnittstellen angewendet werden.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">Although not triggering this critic, the same 
+	            convention should apply to interfaces.</para>
+	            <para lang="de">
+	            	Obwohl sie diese Kritik nicht auslöst, sollte die gleiche 
+	            	Konvention auf Schnittstellen angewendet werden.
+	            </para>
+	
+	          </note>
+          </para>
 
         </sect2>
 
@@ -37606,16 +37683,18 @@ available at http://www.opencontent.org/openpub/.
         	Kritiken, die sich auf Schnittstellen und Subklassen beziehen.
         </para>
 
-        <note>
-
-          <para lang="en">It is not clear why this category has the name 
-          <quote>Planned Extensions</quote>.</para>
-          <para lang="de">
-          	Es ist nicht klar, warum diese Kategorie den Namen <quote>Geplante 
-          	Erweiterungen</quote> hat.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">It is not clear why this category has the name 
+	          <quote>Planned Extensions</quote>.</para>
+	          <para lang="de">
+	          	Es ist nicht klar, warum diese Kategorie den Namen <quote>Geplante 
+	          	Erweiterungen</quote> hat.
+	          </para>
+	
+	        </note>
+        </para>
 
         <para lang="en">The current version of ArgoUML has three critics in this 
         category.</para>
@@ -38944,17 +39023,19 @@ available at http://www.opencontent.org/openpub/.
           	weist Pakete auf, die erzeugt wurden, Dinge hinein zu tun.
           </para>
 
-          <note>
-
-            <para lang="en">This will always trigger when you first create a 
-            package, since you cannot create one that is not 
-            empty!</para>
-            <para lang="de">
-            	Diese Kritik wird immer ausgelöst, wenn Sie erstmalig ein Paket 
-            	erzeugen, da Sie kein Paket erzeugen können, das nicht leer ist.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">This will always trigger when you first create a 
+	            package, since you cannot create one that is not 
+	            empty!</para>
+	            <para lang="de">
+	            	Diese Kritik wird immer ausgelöst, wenn Sie erstmalig ein Paket 
+	            	erzeugen, da Sie kein Paket erzeugen können, das nicht leer ist.
+	            </para>
+	
+	          </note>
+          </para>
 
         </sect2>
 
@@ -39711,15 +39792,17 @@ available at http://www.opencontent.org/openpub/.
         	package auf (siehe <xref linkend="s1.ref.package"/>).
         </para>
 
-        <note>
-
-          <para lang="en">ArgoUML is restricted to one model within the 
-          tool.</para>
-          <para lang="de">
-          	ArgoUML ist auf ein Modell beschränkt.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">ArgoUML is restricted to one model within the 
+	          tool.</para>
+	          <para lang="de">
+	          	ArgoUML ist auf ein Modell beschränkt.
+	          </para>
+	
+	        </note>
+        </para>
 
         <para lang="en">Standard data types, classes and packages are loaded (the 
         default, see <xref linkend="ch.ref.entbuiltin"/>) as 
@@ -40164,22 +40247,24 @@ available at http://www.opencontent.org/openpub/.
                 	geschrieben.
                 </para>
 
-                <note>
-
-                  <para lang="en">The default name supplied to a new model by 
-                  ArgoUML, <literal>untitledModel</literal>, is thus 
-                  erroneous and guarantees that ArgoUML always starts 
-                  up with at least one problem being reported by the 
-                  design critics.</para>
-                  <para lang="de">
-                  	Der Standardname, der einem neuen Modell in ArgoUML 
-                  	zugwiesen wird ist <literal>unbenanntesModell</literal>. Er 
-                  	ist daher fehlerfrei und garantiert, dass ArgoUML immer 
-                  	mit mindestens einem Problem startet, was durch die Design-
-                  	Kritiken ausgestellt wird. 
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The default name supplied to a new model by 
+	                  ArgoUML, <literal>untitledModel</literal>, is thus 
+	                  erroneous and guarantees that ArgoUML always starts 
+	                  up with at least one problem being reported by the 
+	                  design critics.</para>
+	                  <para lang="de">
+	                  	Der Standardname, der einem neuen Modell in ArgoUML 
+	                  	zugwiesen wird ist <literal>unbenanntesModell</literal>. Er 
+	                  	ist daher fehlerfrei und garantiert, dass ArgoUML immer 
+	                  	mit mindestens einem Problem startet, was durch die Design-
+	                  	Kritiken ausgestellt wird. 
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -40440,18 +40525,20 @@ available at http://www.opencontent.org/openpub/.
                 	<emphasis>generalisiert</emphasis>.
                 </para>
 
-                <note>
-
-                  <para lang="en">Since there is only one model in ArgoUML there 
-                  is no sensible specialization or generalization that 
-                  could be created.</para>
-                  <para lang="de">
-                  	Da es in ArgoUML nur ein Modell gibt, gibt es keine 
-                  	Spezialisierung oder Generalisierung, die erzeugt werden 
-                  	könnte.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">Since there is only one model in ArgoUML there 
+	                  is no sensible specialization or generalization that 
+	                  could be created.</para>
+	                  <para lang="de">
+	                  	Da es in ArgoUML nur ein Modell gibt, gibt es keine 
+	                  	Spezialisierung oder Generalisierung, die erzeugt werden 
+	                  	könnte.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -40471,18 +40558,20 @@ available at http://www.opencontent.org/openpub/.
                 	für welches Modell diese Modell eine Generalisierung ist).
                 </para>
 
-                <note>
-
-                  <para lang="en">Since there is only one model in ArgoUML there 
-                  is no sensible specialization or generalization that 
-                  could be created.</para>
-                  <para lang="de">
-                  	Da es in ArgoUML nur ein Modell gibt, gibt es keine 
-                  	Spezialisierung oder Generalisierung, die erzeugt werden 
-                  	könnte.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">Since there is only one model in ArgoUML there 
+	                  is no sensible specialization or generalization that 
+	                  could be created.</para>
+	                  <para lang="de">
+	                  	Da es in ArgoUML nur ein Modell gibt, gibt es keine 
+	                  	Spezialisierung oder Generalisierung, die erzeugt werden 
+	                  	könnte.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -40584,16 +40673,18 @@ available at http://www.opencontent.org/openpub/.
         	Typen</emphasis>.
         </para>
 
-        <note>
-
-          <para lang="en">Also <literal>void</literal> is implemented as a 
-          datatype within ArgoUML</para>
-          <para lang="de">
-          	Auch <literal>void</literal> ist als Datentyp innerhalb von ArgoUML 
-          	definiert.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">Also <literal>void</literal> is implemented as a 
+	          datatype within ArgoUML</para>
+	          <para lang="de">
+	          	Auch <literal>void</literal> ist als Datentyp innerhalb von ArgoUML 
+	          	definiert.
+	          </para>
+	
+	        </note>
+        </para>
 
         <para lang="en">Within ArgoUML new datatypes may be created using the 
         <literal>New datatype</literal> button on the property tabs of 
@@ -41134,21 +41225,23 @@ available at http://www.opencontent.org/openpub/.
 	                formale Konvention hierfür. 
                 </para>
 
-                <note>
-
-                  <para lang="en">The default name supplied for a newly created 
-                  datatype is the empty string <quote />. Datatypes 
-                  with empty string names will appear with the name 
-                  <literal>(Unnamed Datatype)</literal> in the 
-                  explorer.</para>
-                  <para lang="de">
-                  	Der Standardname neu erzeugter Datentypen ist ein leerer 
-                  	String <quote />. Datentypen mit leeren String-Namen 
-                  	erscheinen im Explorer unter <literal>(Unbenannte Datentypen)
-                  	</literal>.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The default name supplied for a newly created 
+	                  datatype is the empty string <quote />. Datatypes 
+	                  with empty string names will appear with the name 
+	                  <literal>(Unnamed Datatype)</literal> in the 
+	                  explorer.</para>
+	                  <para lang="de">
+	                  	Der Standardname neu erzeugter Datentypen ist ein leerer 
+	                  	String <quote />. Datentypen mit leeren String-Namen 
+	                  	erscheinen im Explorer unter <literal>(Unbenannte Datentypen)
+	                  	</literal>.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -41214,18 +41307,20 @@ available at http://www.opencontent.org/openpub/.
                     	spezialisiert werden muss.
                     </para>
 
-                    <note>
-
-                      <para lang="en">ArgoUML provides no mechanism for 
-                      specializing datatypes, so this check box is of 
-                      little use.</para>
-                      <para lang="de">
-                      	ArgoUML enthält keine Mechanismen, um Datentypen 
-                      	zu spezialisieren, so dass dieses Markierfeld wenig 
-                      	genutzt wird.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">ArgoUML provides no mechanism for 
+	                      specializing datatypes, so this check box is of 
+	                      little use.</para>
+	                      <para lang="de">
+	                      	ArgoUML enthält keine Mechanismen, um Datentypen 
+	                      	zu spezialisieren, so dass dieses Markierfeld wenig 
+	                      	genutzt wird.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -42092,21 +42187,23 @@ available at http://www.opencontent.org/openpub/.
                 	gibt es allerdings keine formale Konvention. 
                 </para>
 
-                <note>
-
-                  <para lang="en">The default name supplied for a newly created 
-                  datatype is the empty string <quote />. Enumerations 
-                  with empty string names will appear with the name 
-                  <literal>(Unnamed Enumeration)</literal> in the 
-                  explorer.</para>
-                  <para lang="de">
-                  	Der Standardname für einen neu erzeugten Datentyp ist ein 
-                  	leerer String <quote />. Enumerationen mit einem leeren 
-                  	String als Namen, wird mit dem Namen <literal>(Unbenannte 
-                  	Enumeration)</literal> im Explorer erscheinen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The default name supplied for a newly created 
+	                  datatype is the empty string <quote />. Enumerations 
+	                  with empty string names will appear with the name 
+	                  <literal>(Unnamed Enumeration)</literal> in the 
+	                  explorer.</para>
+	                  <para lang="de">
+	                  	Der Standardname für einen neu erzeugten Datentyp ist ein 
+	                  	leerer String <quote />. Enumerationen mit einem leeren 
+	                  	String als Namen, wird mit dem Namen <literal>(Unbenannte 
+	                  	Enumeration)</literal> im Explorer erscheinen.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -42708,18 +42805,20 @@ available at http://www.opencontent.org/openpub/.
                     	bedeutet, dass sie es nicht kann. 
                     </para>
 
-                    <note>
-
-                      <para lang="en">This indicates any element with this 
-                      stereotype has the <literal>derived</literal> tag 
-                      set accordingly.</para>
-                      <para lang="de">
-                      	Dies zeigt jedes Element mit diesem Stereotypen an, 
-                      	dessen Eigenschaftswert entsprechend auf <literal>
-                      	derived</literal> gesetzt wurde.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">This indicates any element with this 
+	                      stereotype has the <literal>derived</literal> tag 
+	                      set accordingly.</para>
+	                      <para lang="de">
+	                      	Dies zeigt jedes Element mit diesem Stereotypen an, 
+	                      	dessen Eigenschaftswert entsprechend auf <literal>
+	                      	derived</literal> gesetzt wurde.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -42940,15 +43039,17 @@ available at http://www.opencontent.org/openpub/.
                 	<literal>object model</literal>).
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce any naming convention 
-                  for stereotypes</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt keine Namenskonvention für Stereotypen. 
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce any naming convention 
+	                  for stereotypes</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonvention für Stereotypen. 
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -43546,16 +43647,18 @@ available at http://www.opencontent.org/openpub/.
         	im Explorer erzeugt.
         </para>
 
-        <note>
-
-          <para lang="en">ArgoUML uses its deployment diagram to create the UML 
-          1.4 component, deployment and object diagrams.</para>
-          <para lang="de">
-          	ArgoUML verwendet sein Verteilungsdiagramm, um die UML&nbsp;1.4-
-          	Komponenten, Verteilung- und Objektdiagramme zu erzeugen.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">ArgoUML uses its deployment diagram to create the UML 
+	          1.4 component, deployment and object diagrams.</para>
+	          <para lang="de">
+	          	ArgoUML verwendet sein Verteilungsdiagramm, um die UML&nbsp;1.4-
+	          	Komponenten, Verteilung- und Objektdiagramme zu erzeugen.
+	          </para>
+	
+	        </note>
+        </para>
 
         <caution>
 
@@ -43910,26 +44013,28 @@ available at http://www.opencontent.org/openpub/.
           	Erweiterungspunkten.
           </para>
 
-          <note>
-
-            <para lang="en">Earlier versions of ArgoUML (0.9 and earlier) 
-            implemented extend and include relationships by using a 
-            stereotyped dependency relationship. Although such diagrams 
-            will show correctly on the diagram, they will not link 
-            correctly to the use cases, and should be replaced by 
-            proper extend and include relationships using the current 
-            system.</para>
-            <para lang="de">
-            	Frühere Versionen von ArgoUML (0.9 und früher) implementierten 
-            	extend- und include-Beziehungen mit Hilfe einer stereotypisierten 
-            	Abhängigkeitsbeziehung. Obwohl solche Diagramme korrekt im 
-            	Diagramm dargestellt werden, werden sie nicht richtig mit den 
-            	Anwendungsfällen verbunden, und Sie sollten diese durch die 
-            	richtigen extend- und include-Beziehungen im aktuellen System 
-            	ersetzen.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">Earlier versions of ArgoUML (0.9 and earlier) 
+	            implemented extend and include relationships by using a 
+	            stereotyped dependency relationship. Although such diagrams 
+	            will show correctly on the diagram, they will not link 
+	            correctly to the use cases, and should be replaced by 
+	            proper extend and include relationships using the current 
+	            system.</para>
+	            <para lang="de">
+	            	Frühere Versionen von ArgoUML (0.9 und früher) implementierten 
+	            	extend- und include-Beziehungen mit Hilfe einer stereotypisierten 
+	            	Abhängigkeitsbeziehung. Obwohl solche Diagramme korrekt im 
+	            	Diagramm dargestellt werden, werden sie nicht richtig mit den 
+	            	Anwendungsfällen verbunden, und Sie sollten diese durch die 
+	            	richtigen extend- und include-Beziehungen im aktuellen System 
+	            	ersetzen.
+	            </para>
+	
+	          </note>
+          </para>
 
         </sect2>
 
@@ -44175,20 +44280,22 @@ available at http://www.opencontent.org/openpub/.
                     abgeleitet werden oder <literal>false</literal> bedeutet, 
                     er kann es nicht.</para>
 
-                    <note>
-
-                      <para lang="en">Derived actors have limited value, since 
-                      they sit outside the system being designed. They 
-                      may have their value in analysis to introduce 
-                      useful names or concepts.</para>
-                      <para lang="de">
-                      	Abgeleitete Akteure haben nur einen eingeschränkten 
-                      	Wert, da sie außerhalb des Systems designed wurden. 
-                      	Sie können Ihren Wert bei der Analyse haben, um 
-                      	nützliche Namen oder Konzepte einzuführen.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived actors have limited value, since 
+	                      they sit outside the system being designed. They 
+	                      may have their value in analysis to introduce 
+	                      useful names or concepts.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Akteure haben nur einen eingeschränkten 
+	                      	Wert, da sie außerhalb des Systems designed wurden. 
+	                      	Sie können Ihren Wert bei der Analyse haben, um 
+	                      	nützliche Namen oder Konzepte einzuführen.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -44440,15 +44547,17 @@ available at http://www.opencontent.org/openpub/.
                 	RemoteSensor</literal>.
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce any naming convention 
-                  for actors</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt keine Namenskonventionen für Akteure.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce any naming convention 
+	                  for actors</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonventionen für Akteure.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -44964,17 +45073,19 @@ available at http://www.opencontent.org/openpub/.
                     	false</literal> bedeutet, dass er es nicht kann.
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived use cases still have their value in 
-                      analysis to introduce useful names or 
-                      concepts.</para>
-                      <para lang="de">
-                      	Abgeleitete Anwendungsfälle haben ihren Wert in der 
-                      	Analyse, um nützliche Namen oder Konzepte einzuführen.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived use cases still have their value in 
+	                      analysis to introduce useful names or 
+	                      concepts.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Anwendungsfälle haben ihren Wert in der 
+	                      	Analyse, um nützliche Namen oder Konzepte einzuführen.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -45324,16 +45435,18 @@ available at http://www.opencontent.org/openpub/.
                 	Anwendungsfalle im Diagramm angezeigt.
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce any naming convention 
-                  for use cases</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt keine Namenskonventionen für 
-                  	Anwendungsfälle.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce any naming convention 
+	                  for use cases</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonventionen für 
+	                  	Anwendungsfälle.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -45815,15 +45928,17 @@ available at http://www.opencontent.org/openpub/.
                 	Erweiterungspunkte dieses Anwendungsfalles auf.
                 </para>
 
-                <note>
-
-                  <para lang="en">Extension points are listed by their location 
-                  point rather than their name.</para>
-				  <para lang="de">
-				  	Erweiterungspunkte werden nicht anhand ihrer Namen sondern 
-				  	anhand des Erstellungsortes gelistet.
-				  </para>
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">Extension points are listed by their location 
+	                  point rather than their name.</para>
+					  <para lang="de">
+					  	Erweiterungspunkte werden nicht anhand ihrer Namen sondern 
+					  	anhand des Erstellungsortes gelistet.
+					  </para>
+	                </note>
+                </para>
 
                 <para lang="en">Where an extension point has been created (see 
                 below), button&nbsp;1 Double Click will navigate to that 
@@ -46087,15 +46202,17 @@ available at http://www.opencontent.org/openpub/.
 	                    false</literal> bedeutet, er kann es nicht.
                     </para>
 
-                    <note>
-
-                      <para lang="en">It is not clear how derived extension 
-                      points could have any value in analysis.</para>
-					  <para lang="de">
-					  	Es ist nicht klar, wie abgeleitete Erweiterungspunkte 
-					  	einen Wert in der Analyse aufweisen können.
-					  </para>
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">It is not clear how derived extension 
+	                      points could have any value in analysis.</para>
+						  <para lang="de">
+						  	Es ist nicht klar, wie abgeleitete Erweiterungspunkte 
+						  	einen Wert in der Analyse aufweisen können.
+						  </para>
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -46311,16 +46428,18 @@ available at http://www.opencontent.org/openpub/.
 
                 </tip>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce any naming convention 
-                  for extension points.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt keine Namenskonvention für 
-                  	Erweiterungspunkte.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce any naming convention 
+	                  for extension points.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonvention für 
+	                  	Erweiterungspunkte.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -46564,22 +46683,24 @@ available at http://www.opencontent.org/openpub/.
         	OO-Programmierung.
         </para>
 
-        <note>
-
-          <para lang="en">It is easy to confuse <emphasis>extends</emphasis> 
-          relationships between use cases with generalization. However 
-          extends is about augmenting a use case&apos;s behavior at a 
-          specific point. Generalization is about specializing the 
-          behavior throughout the use case.</para>
-          <para lang="de">
-          	Es geht sehr schnell, eine <emphasis>extends</emphasis>-Beziehung 
-          	zwischen Anwendungsfällen mit einer Generalisierung zu verwechseln. 
-          	Jedoch extends erweitert das Verhalten eines Anwendungsfalles in 
-          	einem speziellen Punkt. Während eine Generalisierung das Verhalten 
-          	über den ganzen Anwendungsfall spezialisiert.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">It is easy to confuse <emphasis>extends</emphasis> 
+	          relationships between use cases with generalization. However 
+	          extends is about augmenting a use case&apos;s behavior at a 
+	          specific point. Generalization is about specializing the 
+	          behavior throughout the use case.</para>
+	          <para lang="de">
+	          	Es geht sehr schnell, eine <emphasis>extends</emphasis>-Beziehung 
+	          	zwischen Anwendungsfällen mit einer Generalisierung zu verwechseln. 
+	          	Jedoch extends erweitert das Verhalten eines Anwendungsfalles in 
+	          	einem speziellen Punkt. Während eine Generalisierung das Verhalten 
+	          	über den ganzen Anwendungsfall spezialisiert.
+	          </para>
+	
+	        </note>
+        </para>
 
         <para lang="en">Within the UML metamodel, <literal>
         Generalization</literal> is a sub-class of <literal>
@@ -46692,20 +46813,22 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="en">Standard tab.</para>
                 <para lang="de">Standard-Register.</para>
 
-                <note>
-
-                  <para lang="en">The values in the "bounds" field 
-                    of the generalization are not editable, 
-                    since they are determined by 
-                    the properties of the endpoints of the line.
-                  </para>
-                  <para lang="de">
-                  	Die Werte im Feld "Begrenzung" der Generalisierung kann nicht 
-                  	editiert werden, weil sie durch die Eigenschaften der 
-                  	Endpunkte der Linie bestimmt werden.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The values in the "bounds" field 
+	                    of the generalization are not editable, 
+	                    since they are determined by 
+	                    the properties of the endpoints of the line.
+	                  </para>
+	                  <para lang="de">
+	                  	Die Werte im Feld "Begrenzung" der Generalisierung kann nicht 
+	                  	editiert werden, weil sie durch die Eigenschaften der 
+	                  	Endpunkte der Linie bestimmt werden.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -46760,20 +46883,22 @@ available at http://www.opencontent.org/openpub/.
 	                    false</literal> wenn sie es nicht kann.
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived generalizations still have their 
-                      value in analysis to introduce useful names or 
-                      concepts, and in design to avoid 
-                      re-computation.</para>
-                      <para lang="de">
-	                      Abgeleitete Generalisierungen haben Ihren Wert in der 
-	                      Analyse, um nützliche Namen oder Konzepte einzuführen 
-	                      und im Design, um eine wiederholte Berechnung zu 
-	                      verhindern.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived generalizations still have their 
+	                      value in analysis to introduce useful names or 
+	                      concepts, and in design to avoid 
+	                      re-computation.</para>
+	                      <para lang="de">
+		                      Abgeleitete Generalisierungen haben Ihren Wert in der 
+		                      Analyse, um nützliche Namen oder Konzepte einzuführen 
+		                      und im Design, um eine wiederholte Berechnung zu 
+		                      verhindern.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -46955,26 +47080,30 @@ available at http://www.opencontent.org/openpub/.
 
                 </tip>
 
-                <note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce any naming convention 
+	                  for associations.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonvention für Assoziationen.
+	                  </para>
+	
+	                </note>
+                </para>
 
-                  <para lang="en">ArgoUML does not enforce any naming convention 
-                  for associations.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt keine Namenskonvention für Assoziationen.
-                  </para>
-
-                </note>
-
-                <note>
-
-                  <para lang="en">There is no representation of the name of a 
-                  generalization on the diagram.</para>
-                  <para lang="de">
-                  	Es gibt keine Darstellung des Namens einer Generalisierung 
-                  	im Diagramm.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">There is no representation of the name of a 
+	                  generalization on the diagram.</para>
+	                  <para lang="de">
+	                  	Es gibt keine Darstellung des Namens einer Generalisierung 
+	                  	im Diagramm.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -47329,16 +47458,18 @@ available at http://www.opencontent.org/openpub/.
           	folgende.
           </para>
 
-          <note>
-
-            <para lang="en">There is no source tab, since there is no source code 
-            that could be generated for an extend relationship.</para>
-            <para lang="de">
-            	Es gibt kein Register Quellcode, da es keinen Quellcode gibt, 
-            	der für eine Extend-Beziehung generiert werden könnte.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">There is no source tab, since there is no source code 
+	            that could be generated for an extend relationship.</para>
+	            <para lang="de">
+	            	Es gibt kein Register Quellcode, da es keinen Quellcode gibt, 
+	            	der für eine Extend-Beziehung generiert werden könnte.
+	            </para>
+	
+	          </note>
+          </para>
 
           <variablelist>
 
@@ -47406,20 +47537,22 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="en">Standard tab</para>
                 <para lang="de">Standard-Register</para>
 
-                <note>
-
-                  <para lang="en">
-                    The values in the "bounds" field of the extend
-                    are not editable, since they are determined 
-                    by the properties of the endpoints of the line.
-                  </para>
-                  <para lang="de">
-                  	Die Werte im Feld "Begrenzung" von Extend ist nicht editierbar, 
-                  	weil sie durch die Eigenschaften der Endpunkte dieser 
-                  	Linie bestimmt werden.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">
+	                    The values in the "bounds" field of the extend
+	                    are not editable, since they are determined 
+	                    by the properties of the endpoints of the line.
+	                  </para>
+	                  <para lang="de">
+	                  	Die Werte im Feld "Begrenzung" von Extend ist nicht editierbar, 
+	                  	weil sie durch die Eigenschaften der Endpunkte dieser 
+	                  	Linie bestimmt werden.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -47474,18 +47607,20 @@ available at http://www.opencontent.org/openpub/.
                     	false</literal>, wenn sie nicht abgeleitet werden kann.
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived extend relationships could have 
-                      their value in analysis to introduce useful names 
-                      or concepts.</para>
-                      <para lang="de">
-                      	Abgeleitete Extend-Beziehungen können ihren Wert in der 
-                      	Analyse haben, um nützliche Namen oder Konzepte 
-                      	einzuführen.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived extend relationships could have 
+	                      their value in analysis to introduce useful names 
+	                      or concepts.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Extend-Beziehungen können ihren Wert in der 
+	                      	Analyse haben, um nützliche Namen oder Konzepte 
+	                      	einzuführen.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -47745,16 +47880,18 @@ available at http://www.opencontent.org/openpub/.
 
                 </tip>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce any naming convention 
-                  for extend relationships.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt keine Namenskonvention für Extend-
-                  	Beziehungen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce any naming convention 
+	                  for extend relationships.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonvention für Extend-
+	                  	Beziehungen.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -47895,44 +48032,46 @@ available at http://www.opencontent.org/openpub/.
                 	wird, wenn die Bedingung eintritt.
                 </para>
 
-                <note>
-
-                  <para lang="en">If the condition
-                  is fulfilled, the sequence obeyed by the use-case instance 
-                  is extended to include the sequence of the extending use case.
-                  The different parts of the extending use case are inserted 
-                  at the locations defined by the sequence of extension points 
-                  in the relationship -- one part at each referenced 
-                  extension point. 
-                  Note that the condition is only evaluated once: 
-                  at the first referenced extension point, 
-                  and if it is fulfilled all of the extending use case 
-                  is inserted in the original sequence.</para>
-                  <para lang="de">
-                  	Wenn die Bedingung erfüllt ist, wird die Sequenz der
-                  	Anwendungsfall-Instanz durch das Einbinden der Sequenz des 
-                  	erweiternden Anwendungsfalles erweitert. Die 
-                  	unterschiedlichen Teile des erweiternden Anwendungsfalles 
-                  	werden an den durch die Abfolge der Erweiterungspunkte in 
-                  	der Beziehung bestimmten Stellen eingefügt - ein Teil an 
-                  	jedem referenzierten Erweiterungspunkt.
-                  	Beachten Sie, dass die Bedingung nur einmal geprüft wird:
-                  	nämlich am ersten referenzierten Erweiterungspunkt. Wenn sie 
-                  	erfüllt ist, werden alle erweiternden Anwendungsfälle in 
-                  	die Original-Sequenz eingefügt. 
-                  </para>
-                  <para lang="en">Hence, the sequence of the extension points is 
-                  irrelevant, except for the position of the first one; 
-                  since that one determines 
-                  where the condition is evaluated.
-                  </para>
-                  <para lang="de">
-                  	Daher ist die Reihenfolge der Erweiterungspunkte irrelevant, 
-                  	ausser der Position des ersten Erweiterungspunktes; weil 
-                  	dieser bestimmt, wo die Bedingung geprüft wird.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">If the condition
+	                  is fulfilled, the sequence obeyed by the use-case instance 
+	                  is extended to include the sequence of the extending use case.
+	                  The different parts of the extending use case are inserted 
+	                  at the locations defined by the sequence of extension points 
+	                  in the relationship -- one part at each referenced 
+	                  extension point. 
+	                  Note that the condition is only evaluated once: 
+	                  at the first referenced extension point, 
+	                  and if it is fulfilled all of the extending use case 
+	                  is inserted in the original sequence.</para>
+	                  <para lang="de">
+	                  	Wenn die Bedingung erfüllt ist, wird die Sequenz der
+	                  	Anwendungsfall-Instanz durch das Einbinden der Sequenz des 
+	                  	erweiternden Anwendungsfalles erweitert. Die 
+	                  	unterschiedlichen Teile des erweiternden Anwendungsfalles 
+	                  	werden an den durch die Abfolge der Erweiterungspunkte in 
+	                  	der Beziehung bestimmten Stellen eingefügt - ein Teil an 
+	                  	jedem referenzierten Erweiterungspunkt.
+	                  	Beachten Sie, dass die Bedingung nur einmal geprüft wird:
+	                  	nämlich am ersten referenzierten Erweiterungspunkt. Wenn sie 
+	                  	erfüllt ist, werden alle erweiternden Anwendungsfälle in 
+	                  	die Original-Sequenz eingefügt. 
+	                  </para>
+	                  <para lang="en">Hence, the sequence of the extension points is 
+	                  irrelevant, except for the position of the first one; 
+	                  since that one determines 
+	                  where the condition is evaluated.
+	                  </para>
+	                  <para lang="de">
+	                  	Daher ist die Reihenfolge der Erweiterungspunkte irrelevant, 
+	                  	ausser der Position des ersten Erweiterungspunktes; weil 
+	                  	dieser bestimmt, wo die Bedingung geprüft wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
                 <para lang="en">Where an extension point has been created, 
                 button&nbsp;1 double click will navigate to that 
@@ -48118,16 +48257,18 @@ available at http://www.opencontent.org/openpub/.
           	Die aktiven Detail-Register für Include-Beziehungen sind folgende.
           </para>
 
-          <note>
-
-            <para lang="en">There is no source tab, since there is no source code 
-            that could be generated for an include relationship.</para>
-            <para lang="de">
-            	Es gibt kein Register Quellcode, weil es keinen Quellcode gibt, 
-            	der für eine Include-Beziehung generiert werden könnte.
-            </para>
-
-          </note>
+		  <para>
+	          <note>
+	
+	            <para lang="en">There is no source tab, since there is no source code 
+	            that could be generated for an include relationship.</para>
+	            <para lang="de">
+	            	Es gibt kein Register Quellcode, weil es keinen Quellcode gibt, 
+	            	der für eine Include-Beziehung generiert werden könnte.
+	            </para>
+	
+	          </note>
+          </para>
 
           <variablelist>
 
@@ -48195,21 +48336,23 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="en">Standard tab</para>
                 <para lang="de">Standard-Register</para>
 
-                <note>
-
-                  <para lang="en">
-                    The values in the "bounds" field of the 
-                    include relationships
-                    are not editable, since they are determined 
-                    by the properties of the endpoints of the line.
-                  </para>
-                  <para lang="de">
-                  	Die Werte im Feld "Begrenzung" der Include-Beziehung sind nicht 
-                  	editierbar, weil sie durch die Eigenschaften der Endpunkte 
-                  	der Linie bestimmt werden.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">
+	                    The values in the "bounds" field of the 
+	                    include relationships
+	                    are not editable, since they are determined 
+	                    by the properties of the endpoints of the line.
+	                  </para>
+	                  <para lang="de">
+	                  	Die Werte im Feld "Begrenzung" der Include-Beziehung sind nicht 
+	                  	editierbar, weil sie durch die Eigenschaften der Endpunkte 
+	                  	der Linie bestimmt werden.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -48251,18 +48394,20 @@ available at http://www.opencontent.org/openpub/.
                     	werden.
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived include relationships could have 
-                      their value in analysis to introduce useful names 
-                      or concepts.</para>
-                      <para lang="de">
-                      	Abgeleitete Incldue-Beziehungen können ihren Wert in der 
-                      	Analyse haben, um nützliche Namen oder Konzepte 
-                      	einzubinden.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived include relationships could have 
+	                      their value in analysis to introduce useful names 
+	                      or concepts.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Incldue-Beziehungen können ihren Wert in der 
+	                      	Analyse haben, um nützliche Namen oder Konzepte 
+	                      	einzubinden.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -48446,16 +48591,18 @@ available at http://www.opencontent.org/openpub/.
 
                 </tip>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce any naming convention 
-                  for include relationships.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt keine Namenskonvention für Include-
-                  	Beziehungen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce any naming convention 
+	                  for include relationships.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonvention für Include-
+	                  	Beziehungen.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -48796,19 +48943,21 @@ available at http://www.opencontent.org/openpub/.
         	Namensraum</literal> und <literal>GeneralisierbaresElement</literal>.
         </para>
 
-        <note>
-
-          <para lang="en">ArgoUML also implements the UML <literal>
-          Model</literal> model element as a sub-class of package, but 
-          <emphasis>not</emphasis> the <literal>Subsystem</literal> 
-          model element.</para>
-          <para lang="de">
-          	ArgoUML implementiert auch das UML-Modellelement <literal>Modell
-          	</literal> als Subklasse von Paket, aber <emphasis>nicht</emphasis> 
-          	das Modellelement <literal>Subsystem</literal>.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">ArgoUML also implements the UML <literal>
+	          Model</literal> model element as a sub-class of package, but 
+	          <emphasis>not</emphasis> the <literal>Subsystem</literal> 
+	          model element.</para>
+	          <para lang="de">
+	          	ArgoUML implementiert auch das UML-Modellelement <literal>Modell
+	          	</literal> als Subklasse von Paket, aber <emphasis>nicht</emphasis> 
+	          	das Modellelement <literal>Subsystem</literal>.
+	          </para>
+	
+	        </note>
+        </para>
 
         <para lang="en">ArgoUML also implements some less common aspects of UML 
         model management. In particular the relationship UML 1.4 
@@ -48970,18 +49119,20 @@ available at http://www.opencontent.org/openpub/.
 	                    von anderen Elementen abgeleitet werden kann.
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived packages still have their value in 
-                      analysis to introduce useful names or concepts, 
-                      and in design to avoid re-computation.</para>
-                      <para lang="de">
-                      	Abgeleitete Pakete haben Ihren Wert in der Analyse, um 
-                      	nützliche Namen oder Konzepte einzufügen und im Design, 
-                      	um eine wiederholte Verarbeitung zu verhindern.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived packages still have their value in 
+	                      analysis to introduce useful names or concepts, 
+	                      and in design to avoid re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Pakete haben Ihren Wert in der Analyse, um 
+	                      	nützliche Namen oder Konzepte einzufügen und im Design, 
+	                      	um eine wiederholte Verarbeitung zu verhindern.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -49300,18 +49451,20 @@ available at http://www.opencontent.org/openpub/.
                 	geschrieben und enthält keinerlei Satzzeichen. 
                 </para>
 
-                <note>
-
-                  <para lang="en">By default a new package has no name defined. 
-                  The package will appear with the name <literal>(Unnamed 
-                  Package)</literal> in the explorer.</para>
-                  <para lang="de">
-                  	Standardmäßig hat ein neues Paket keinen definierten Namen. 
-                  	Das Paket wird mit dem Namen <literal>(unbenanntes Paket)
-                  	</literal> im Explorer erscheinen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">By default a new package has no name defined. 
+	                  The package will appear with the name <literal>(Unnamed 
+	                  Package)</literal> in the explorer.</para>
+	                  <para lang="de">
+	                  	Standardmäßig hat ein neues Paket keinen definierten Namen. 
+	                  	Das Paket wird mit dem Namen <literal>(unbenanntes Paket)
+	                  	</literal> im Explorer erscheinen.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -49997,39 +50150,43 @@ available at http://www.opencontent.org/openpub/.
 	                    wenn sie nicht abgeleitet werden kann. 
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived classes still have their value in 
-                      analysis to introduce useful names or concepts, 
-                      and in design to avoid re-computation.</para>
-                      <para lang="de">
-                      	Abgeleitete Klassen haben ihren Wert bei der Analyse, 
-                      	um nützliche Namen oder Konzepte einzubinden und in der 
-                      	Analyse, um die wiederholte Verarbeitung zu verhindern.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived classes still have their value in 
+	                      analysis to introduce useful names or concepts, 
+	                      and in design to avoid re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Klassen haben ihren Wert bei der Analyse, 
+	                      	um nützliche Namen oder Konzepte einzubinden und in der 
+	                      	Analyse, um die wiederholte Verarbeitung zu verhindern.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-                  <para lang="de">
-                  	Die UML <literal>Element</literal> Metaklasse, aus der alle 
-                  	anderen Modellelemente abgeleitet werden, enthält das 
-                  	Eigenschaftselement <literal>documentation</literal>, das 
-                  	durch das Register <literal>Dokumentation</literal> in 
-                  	ArgoUML bearbeitet wird.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML <literal>Element</literal> Metaklasse, aus der alle 
+	                  	anderen Modellelemente abgeleitet werden, enthält das 
+	                  	Eigenschaftselement <literal>documentation</literal>, das 
+	                  	durch das Register <literal>Dokumentation</literal> in 
+	                  	ArgoUML bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -50214,19 +50371,21 @@ available at http://www.opencontent.org/openpub/.
                 	sie diese mit ihrem Eigentümer teilt.
                 </para>
 
-                <note>
-
-                  <para lang="en">Inner class is not a separate concept in UML. 
-                  This is a convenient shorthand for creating a class 
-                  that is restricted to the namespace of its owning 
-                  class.</para>
-                  <para lang="de">
-                  	Die innere Klasse ist kein separates Konzept in der UML. Sie 
-                  	ist eine praktische Abkürzung für eine Klasse, die auf 
-                  	den Namensraum seiner Eigentümerklasse beschränkt ist.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">Inner class is not a separate concept in UML. 
+	                  This is a convenient shorthand for creating a class 
+	                  that is restricted to the namespace of its owning 
+	                  class.</para>
+	                  <para lang="de">
+	                  	Die innere Klasse ist kein separates Konzept in der UML. Sie 
+	                  	ist eine praktische Abkürzung für eine Klasse, die auf 
+	                  	den Namensraum seiner Eigentümerklasse beschränkt ist.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -50389,16 +50548,18 @@ available at http://www.opencontent.org/openpub/.
                 	wechselnde Groß-/Kleinschreibung</quote> getrennt werden. 
                 </para>
 
-                <note>
-
-                  <para lang="en">The ArgoUML critics will complain about class 
-                  names that do not have an initial capital.</para>
-                  <para lang="de">
-                  	Die ArgoUML-Kritik wird sich über Klassennamen beschweren, 
-                  	die nicht mit einem Großbuchstaben beginnen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The ArgoUML critics will complain about class 
+	                  names that do not have an initial capital.</para>
+	                  <para lang="de">
+	                  	Die ArgoUML-Kritik wird sich über Klassennamen beschweren, 
+	                  	die nicht mit einem Großbuchstaben beginnen.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -51133,22 +51294,24 @@ available at http://www.opencontent.org/openpub/.
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-                  <para lang="de">
-                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
-                  	anderen Modellelemente abgeleitet sind, enthält den 
-                  	Eigenschaftswert <literal>documentation</literal>, der in 
-                  	ArgoUML über das Register <emphasis>Dokumentation</emphasis> 
-                  	verwaltet wird.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
+	                  	anderen Modellelemente abgeleitet sind, enthält den 
+	                  	Eigenschaftswert <literal>documentation</literal>, der in 
+	                  	ArgoUML über das Register <emphasis>Dokumentation</emphasis> 
+	                  	verwaltet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -51534,17 +51697,19 @@ available at http://www.opencontent.org/openpub/.
                 	Groß-/Kleinschreibung getrennt sind.
                 </para>
 
-                <note>
-
-                  <para lang="en">The ArgoUML critics will complain about 
-                  attribute names that do not have an initial lower 
-                  case letter.</para>
-                  <para lang="de">
-                  	Die ArgoUML-Kritiken werden sich über Attributnamen 
-                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The ArgoUML critics will complain about 
+	                  attribute names that do not have an initial lower 
+	                  case letter.</para>
+	                  <para lang="de">
+	                  	Die ArgoUML-Kritiken werden sich über Attributnamen 
+	                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -51615,31 +51780,33 @@ available at http://www.opencontent.org/openpub/.
                 	ist deaktiviert).
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML presents a number of predefined ranges 
-                  for multiplicity for easy access. The user may also 
-                  enter any user defined range that follows the UML 
-                  syntax, such as <quote>1..3,7,10</quote>.</para>
-                  <para lang="de">
-                  	ArgoUML stellt eine Anzahl vordefinierter 
-                  	Kardinalitätsbereiche für die vereinfachte Auswahl zur 
-                  	Verfügung. Der Anwender kann aber jeden benutzerdefinierten 
-                  	Bereich eingeben, der der UML-Syntax folgt, wie z.B. 
-                  	<quote>1..3,7,10</quote>. 
-                  </para>
-
-                  <para lang="en">The value <literal>1..1</literal> is equivalent 
-                  to the default (exactly one scalar instance). The 
-                  selection <literal>0..1</literal> indicates an 
-                  optional scalar attribute.</para>
-                  <para lang="de">
-                  	Der Wert <literal>1..1</literal> entspricht dem Standard 
-                  	(exact einer skalaren Instanz). Die Auswahl <literal>0..1
-                  	</literal> kennzeichnet ein optional skalares Attribut.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML presents a number of predefined ranges 
+	                  for multiplicity for easy access. The user may also 
+	                  enter any user defined range that follows the UML 
+	                  syntax, such as <quote>1..3,7,10</quote>.</para>
+	                  <para lang="de">
+	                  	ArgoUML stellt eine Anzahl vordefinierter 
+	                  	Kardinalitätsbereiche für die vereinfachte Auswahl zur 
+	                  	Verfügung. Der Anwender kann aber jeden benutzerdefinierten 
+	                  	Bereich eingeben, der der UML-Syntax folgt, wie z.B. 
+	                  	<quote>1..3,7,10</quote>. 
+	                  </para>
+	
+	                  <para lang="en">The value <literal>1..1</literal> is equivalent 
+	                  to the default (exactly one scalar instance). The 
+	                  selection <literal>0..1</literal> indicates an 
+	                  optional scalar attribute.</para>
+	                  <para lang="de">
+	                  	Der Wert <literal>1..1</literal> entspricht dem Standard 
+	                  	(exact einer skalaren Instanz). Die Auswahl <literal>0..1
+	                  	</literal> kennzeichnet ein optional skalares Attribut.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -51890,18 +52057,20 @@ available at http://www.opencontent.org/openpub/.
                 	<xref linkend="s1.ref.interface_class"/>).
                 </para>
 
-                <note>
-
-                  <para lang="en">A type must be declared (it can be <literal>
-                  void</literal>). By default ArgoUML supplies <literal>
-                  int</literal> as the type.</para>
-                  <para lang="de">
-                  	Ein Typ muss dekariert werden (er kann <literal>void
-                  	</literal> sein). Standardmäßig ist in ArgoUML <literal>
-                  	int</literal> als Typ voreingestellt.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">A type must be declared (it can be <literal>
+	                  void</literal>). By default ArgoUML supplies <literal>
+	                  int</literal> as the type.</para>
+	                  <para lang="de">
+	                  	Ein Typ muss dekariert werden (er kann <literal>void
+	                  	</literal> sein). Standardmäßig ist in ArgoUML <literal>
+	                  	int</literal> als Typ voreingestellt.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -52307,41 +52476,45 @@ available at http://www.opencontent.org/openpub/.
                     	
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived operations still have their value 
-                      in analysis to introduce useful names or 
-                      concepts, and in design to avoid 
-                      re-computation.</para>
-                      <para lang="de">
-                      	Abgeleitete Operationen können Ihren Wert in der 
-                      	Analyse besitzen, um nützliche Namen oder Konzepte 
-                      	einzuführen. Im Design, um die wiederholte Verarbeitung 
-                      	zu verhindern.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived operations still have their value 
+	                      in analysis to introduce useful names or 
+	                      concepts, and in design to avoid 
+	                      re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Operationen können Ihren Wert in der 
+	                      	Analyse besitzen, um nützliche Namen oder Konzepte 
+	                      	einzuführen. Im Design, um die wiederholte Verarbeitung 
+	                      	zu verhindern.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-                  <para lang="de">
-                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
-                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
-                  	Eigenschaftswert <literal>documentation</literal>, der in 
-                  	ArgoUML im Register <emphasis>Dokumentation</emphasis> 
-                  	verwaltet wird.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
+	                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
+	                  	Eigenschaftswert <literal>documentation</literal>, der in 
+	                  	ArgoUML im Register <emphasis>Dokumentation</emphasis> 
+	                  	verwaltet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -52683,17 +52856,19 @@ available at http://www.opencontent.org/openpub/.
                 	die durch Groß-/Kleinschreibung getrennt sind.
                 </para>
 
-                <note>
-
-                  <para lang="en">The ArgoUML critics will complain about 
-                  operation names that do not have an initial lower 
-                  case letter.</para>
-                  <para lang="de">
-                  	Die ArgoUML-Kritiken werden sich über Operationsnamen 
-                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The ArgoUML critics will complain about 
+	                  operation names that do not have an initial lower 
+	                  case letter.</para>
+	                  <para lang="de">
+	                  	Die ArgoUML-Kritiken werden sich über Operationsnamen 
+	                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
+	                  </para>
+	
+	                </note>
+                </para>
 
                 <tip>
 
@@ -53500,22 +53675,24 @@ available at http://www.opencontent.org/openpub/.
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-                  <para lang="de">
-                  	Die UML-Metaklasse <literal>Element</literal>, von dem alle 
-                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
-                  	Eigenschaftswert <literal>documentation</literal>. Dieser 
-                  	wird in ArgoUML durch das Register <emphasis>Dokumentation
-                  	</emphasis> verwaltet.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von dem alle 
+	                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
+	                  	Eigenschaftswert <literal>documentation</literal>. Dieser 
+	                  	wird in ArgoUML durch das Register <emphasis>Dokumentation
+	                  	</emphasis> verwaltet.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -53789,17 +53966,19 @@ available at http://www.opencontent.org/openpub/.
                 	getrennt werden. 
                 </para>
 
-                <note>
-
-                  <para lang="en">The ArgoUML critics do not complain about 
-                  parameter names that do not have an initial lower 
-                  case letter.</para>
-                  <para lang="de">
-                  	Die ArgoUML-Kritiken werden sich nicht über Parameternamen 
-                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The ArgoUML critics do not complain about 
+	                  parameter names that do not have an initial lower 
+	                  case letter.</para>
+	                  <para lang="de">
+	                  	Die ArgoUML-Kritiken werden sich nicht über Parameternamen 
+	                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -53917,23 +54096,25 @@ available at http://www.opencontent.org/openpub/.
                 	machen.
                 </para>
 
-                <note>
-
-                  <para lang="en">A type must be declared (it can be <literal>
-                  void</literal>, but this only makes sense for a 
-                  return parameter). By default ArgoUML supplies 
-                  <literal>int</literal> as the type the first time a 
-                  parameter is created, and thereafter the type of the 
-                  most recently created parameter.</para>
-                  <para lang="de">
-                  	Ein Typ muss deklariert sein (er kann <literal>void
-                  	</literal> sein, dies macht aber nur für Return-Parameter 
-                  	Sinn). Standardmäßig ist <literal>int</literal> beim 
-                  	Erzeugen eines Parameters voreingestellt und daher der Typ 
-                  	des am häufigsten erzeugten Parameters. 
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">A type must be declared (it can be <literal>
+	                  void</literal>, but this only makes sense for a 
+	                  return parameter). By default ArgoUML supplies 
+	                  <literal>int</literal> as the type the first time a 
+	                  parameter is created, and thereafter the type of the 
+	                  most recently created parameter.</para>
+	                  <para lang="de">
+	                  	Ein Typ muss deklariert sein (er kann <literal>void
+	                  	</literal> sein, dies macht aber nur für Return-Parameter 
+	                  	Sinn). Standardmäßig ist <literal>int</literal> beim 
+	                  	Erzeugen eines Parameters voreingestellt und daher der Typ 
+	                  	des am häufigsten erzeugten Parameters. 
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -54048,15 +54229,17 @@ available at http://www.opencontent.org/openpub/.
                     	Ergebnisse von der Operation zurückzugeben.
                     </para>
 
-                    <note>
-
-                      <para lang="en">This is the default for any new 
-                      parameter.</para>
-                      <para lang="de">
-                      	Dies ist der Standard für jeden neuen Parameter.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">This is the default for any new 
+	                      parameter.</para>
+	                      <para lang="de">
+	                      	Dies ist der Standard für jeden neuen Parameter.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -54069,18 +54252,20 @@ available at http://www.opencontent.org/openpub/.
                     	Ergebnis des Aufrufes.
                     </para>
 
-                    <note>
-
-                      <para lang="en">There is nothing to stop you declaring more 
-                      than one return parameter (some programming 
-                      languages support this concept).</para>
-                      <para lang="de">
-                      	Es gibt nichts, was Sie davon abhält mehr als einen 
-                      	Return-Parameter zu deklarieren (einige 
-                      	Programmiersprachen unterstützen so ein Konzept).
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">There is nothing to stop you declaring more 
+	                      than one return parameter (some programming 
+	                      languages support this concept).</para>
+	                      <para lang="de">
+	                      	Es gibt nichts, was Sie davon abhält mehr als einen 
+	                      	Return-Parameter zu deklarieren (einige 
+	                      	Programmiersprachen unterstützen so ein Konzept).
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                     <tip>
 
@@ -54354,39 +54539,43 @@ available at http://www.opencontent.org/openpub/.
                     	werden kann.
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived signals still have their value in 
-                      analysis to introduce useful names or concepts, 
-                      and in design to avoid re-computation.</para>
-                      <para lang="de">
-                      	Abgeleitete Signale haben Ihren Wert in der Analyse, um 
-                      	nützliche Namen oder Konzepte einzubinden und im Design, 
-                      	um eine Wiederverarbeitung zu vermeiden.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived signals still have their value in 
+	                      analysis to introduce useful names or concepts, 
+	                      and in design to avoid re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Signale haben Ihren Wert in der Analyse, um 
+	                      	nützliche Namen oder Konzepte einzubinden und im Design, 
+	                      	um eine Wiederverarbeitung zu vermeiden.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-                  <para lang="de">
-                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
-                  	anderen Modellelemente abgeleitet werden, beinhaltet einen 
-                  	Eigenschaftswert <literal>documentation</literal>. Dieser 
-                  	wird in ArgoUML im Register <literal>Dokumentation</literal> 
-                  	bearbeitet.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
+	                  	anderen Modellelemente abgeleitet werden, beinhaltet einen 
+	                  	Eigenschaftswert <literal>documentation</literal>. Dieser 
+	                  	wird in ArgoUML im Register <literal>Dokumentation</literal> 
+	                  	bearbeitet.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -54601,17 +54790,19 @@ available at http://www.opencontent.org/openpub/.
                 	sind.
                 </para>
 
-                <note>
-
-                  <para lang="en">The ArgoUML critics do not complain about 
-                  signal names that do not have an initial upper case 
-                  letter.</para>
-                  <para lang="de">
-                  	Die ArgoUML-Kritiken beschweren sich nicht über Signalnamen, 
-                  	die nicht mit einem Großbuchstaben beginnen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The ArgoUML critics do not complain about 
+	                  signal names that do not have an initial upper case 
+	                  letter.</para>
+	                  <para lang="de">
+	                  	Die ArgoUML-Kritiken beschweren sich nicht über Signalnamen, 
+	                  	die nicht mit einem Großbuchstaben beginnen.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -54862,18 +55053,20 @@ available at http://www.opencontent.org/openpub/.
         	Kontext klar ersichtlich ist.
         </para>
 
-        <note>
-
-          <para lang="en">ArgoUML provides no specific way of showing the 
-          direction of the association as described in the UML 1.4 
-          standard. The naming should attempt to make this clear.</para>
-          <para lang="de">
-          	ArgoUML enthält keinen spezifischen Weg, die Richtung der 
-          	Assoziation darzustellen, wie im UML&nbsp;1.4-Standard beschrieben. 
-          	Die Benennung sollte versuchen, dies klarzustellen. 
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">ArgoUML provides no specific way of showing the 
+	          direction of the association as described in the UML 1.4 
+	          standard. The naming should attempt to make this clear.</para>
+	          <para lang="de">
+	          	ArgoUML enthält keinen spezifischen Weg, die Richtung der 
+	          	Assoziation darzustellen, wie im UML&nbsp;1.4-Standard beschrieben. 
+	          	Die Benennung sollte versuchen, dies klarzustellen. 
+	          </para>
+	
+	        </note>
+        </para>
 
         <para lang="en">The association contains at least two ends, which may be 
         navigated to via the association property sheet. See 
@@ -55021,20 +55214,22 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="en">Standard tab.</para>
                 <para lang="de">Standard-Register.</para>
 
-                <note>
-
-                  <para lang="en">The values for the bounds of the Association 
-                  have no meaning, since they are determined by the 
-                  location of the connected items. Changing them has no 
-                  effect on the diagram.</para>
-                  <para lang="de">
-                  	Die Werte für die Begrenzung der Assoziation haben keine 
-                  	Bedeutung, weil sie durch die Lage der verbundenen Elemente 
-                  	bestimmt werden. Eine Änderung hat keine Auswirkung auf das 
-                  	Diagramm.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The values for the bounds of the Association 
+	                  have no meaning, since they are determined by the 
+	                  location of the connected items. Changing them has no 
+	                  effect on the diagram.</para>
+	                  <para lang="de">
+	                  	Die Werte für die Begrenzung der Assoziation haben keine 
+	                  	Bedeutung, weil sie durch die Lage der verbundenen Elemente 
+	                  	bestimmt werden. Eine Änderung hat keine Auswirkung auf das 
+	                  	Diagramm.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -55126,40 +55321,44 @@ available at http://www.opencontent.org/openpub/.
                     	bedeutet, sie kann es nicht.
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived associations still have their value 
-                      in analysis to introduce useful names or 
-                      concepts, and in design to avoid 
-                      re-computation.</para>
-                      <para lang="de">
-                      	Abgeleitete Assoziationen haben ihren Wert in der 
-                      	Analyse, um nützliche Namen oder Konzepte einzubinden 
-                      	und im Design, um eine Wiederverarbeitung zu verhindern.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived associations still have their value 
+	                      in analysis to introduce useful names or 
+	                      concepts, and in design to avoid 
+	                      re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Assoziationen haben ihren Wert in der 
+	                      	Analyse, um nützliche Namen oder Konzepte einzubinden 
+	                      	und im Design, um eine Wiederverarbeitung zu verhindern.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-                  <para lang="de">
-                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
-                  	anderen Modellelemente abgeleitet werden, beinhaltet einen 
-                  	Eigenschaftswert <literal>documentation</literal>. Dieser 
-                  	wird in ArgoUML im Register <literal>Dokumentation</literal> 
-                  	bearbeitet.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
+	                  	anderen Modellelemente abgeleitet werden, beinhaltet einen 
+	                  	Eigenschaftswert <literal>documentation</literal>. Dieser 
+	                  	wird in ArgoUML im Register <literal>Dokumentation</literal> 
+	                  	bearbeitet.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -55358,15 +55557,17 @@ available at http://www.opencontent.org/openpub/.
                 	</literal>. 
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce any naming convention 
-                  for associations.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt keine Namenskonvention für Assoziationen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce any naming convention 
+	                  for associations.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonvention für Assoziationen.
+	                  </para>
+	
+	                </note>
+                </para>
 
                 <tip>
 
@@ -55529,18 +55730,20 @@ available at http://www.opencontent.org/openpub/.
                 	angezeigt.
                 </para>
 
-                <note>
-
-                  <para lang="en">The only representation of association ends on 
-                  a diagram is that their name appears at the relevant 
-                  end of the corresponding association.</para>
-                  <para lang="de">
-                  	Die einzige Darstellung von Assoziationsenden im Diagramm 
-                  	ist, dass deren Name am relevanten Ende der entsprechenden 
-                  	Assoziation erscheint.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The only representation of association ends on 
+	                  a diagram is that their name appears at the relevant 
+	                  end of the corresponding association.</para>
+	                  <para lang="de">
+	                  	Die einzige Darstellung von Assoziationsenden im Diagramm 
+	                  	ist, dass deren Name am relevanten Ende der entsprechenden 
+	                  	Assoziation erscheint.
+	                  </para>
+	
+	                </note>
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click on an association end will 
                 navigate to that end.</para>
@@ -55654,16 +55857,18 @@ available at http://www.opencontent.org/openpub/.
 
         </tip>
 
-        <note>
-
-          <para lang="en">ArgoUML does not currently support showing qualifiers 
-          on the diagram, as described in the UML&nbsp;1.3 standard.</para>
-          <para lang="de">
-          	ArgoUML unterstützt aktuell nicht das Anzeigen von Qualifizierern 
-          	im Diagramm, wie im UML&nbsp;1.3-Standard beschrieben.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">ArgoUML does not currently support showing qualifiers 
+	          on the diagram, as described in the UML&nbsp;1.3 standard.</para>
+	          <para lang="de">
+	          	ArgoUML unterstützt aktuell nicht das Anzeigen von Qualifizierern 
+	          	im Diagramm, wie im UML&nbsp;1.3-Standard beschrieben.
+	          </para>
+	
+	        </note>
+        </para>
 
         <sect2>
 
@@ -55851,22 +56056,24 @@ available at http://www.opencontent.org/openpub/.
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-                  <para lang="de">
-                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
-                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
-                  	Eigenschaftswert <literal>documentation</literal>, der in 
-                  	ArgoUML im Register <emphasis>Dokumentation</emphasis> 
-                  	bearbeitet wird.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
+	                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
+	                  	Eigenschaftswert <literal>documentation</literal>, der in 
+	                  	ArgoUML im Register <emphasis>Dokumentation</emphasis> 
+	                  	bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -56070,22 +56277,24 @@ available at http://www.opencontent.org/openpub/.
                 	Löscht das markierte Assoziationsende aus dem Modell.
                 </para>
 
-                <note>
-
-                  <para lang="en">This button is downlighted for binary 
-                  associations, since an association needs at least 
-                  <emphasis>two</emphasis> ends. Only for N-ary 
-                  associations, this button is accessable, and deletes 
-                  just one end from the association.</para>
-                  <para lang="de">
-                  	Diese Schaltfläche ist bei binären Assoziationen deaktiviert, 
-                  	weil eine Assoziation mindestens <emphasis>zwei</emphasis> 
-                  	Enden benötigt. Nur für N-fache Assoziationen ist diese 
-                  	Schaltfläche zugreifbar und löscht nur ein Ende aus der 
-                  	Assoziation.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">This button is downlighted for binary 
+	                  associations, since an association needs at least 
+	                  <emphasis>two</emphasis> ends. Only for N-ary 
+	                  associations, this button is accessable, and deletes 
+	                  just one end from the association.</para>
+	                  <para lang="de">
+	                  	Diese Schaltfläche ist bei binären Assoziationen deaktiviert, 
+	                  	weil eine Assoziation mindestens <emphasis>zwei</emphasis> 
+	                  	Enden benötigt. Nur für N-fache Assoziationen ist diese 
+	                  	Schaltfläche zugreifbar und löscht nur ein Ende aus der 
+	                  	Assoziation.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -56148,16 +56357,18 @@ available at http://www.opencontent.org/openpub/.
                 	durch das Ziel-Ende referenziert wird.
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce any naming convention 
-                  for association ends.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt keine Namenskonvention für 
-                  	Assoziationsenden.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce any naming convention 
+	                  for association ends.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonvention für 
+	                  	Assoziationsenden.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -56381,29 +56592,31 @@ available at http://www.opencontent.org/openpub/.
                     	vom anderen Ende aus erreicht werden kann.
                     </para>
 
-                    <note>
-
-                      <para lang="en">The UML 1.4 standard provides a number of 
-                      options for how navigation is displayed on an 
-                      association end. ArgoUML uses option 3, which 
-                      means that arrow heads are shown at the end of an 
-                      association, when navigation is enabled at only 
-                      one end, to indicate the direction in which 
-                      navigation is possible. This means that the 
-                      default, with both ends navigable has no 
-                      arrows.</para>
-                      <para lang="de">
-                      	Der UML&nbsp;1.4-Standard bietet eine Anzahl Optionen an, 
-                      	wie die Navigation an einem Assoziationsende angezeigt 
-                      	wird. ArgoUML verwendet die Option 3, was bedeutet, 
-                      	dass Pfeile am Ende einer Assoziation angezeigt werden, 
-                      	bei der die Navigation nur an einem Ende aktiviert ist, 
-                      	um die Richtung anzuzeigen, in der die Navigation möglich 
-                      	ist. Das bedeutet, dass der Standard, mit beiden Enden 
-                      	navigierbar, keine Pfeile aufweist.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">The UML 1.4 standard provides a number of 
+	                      options for how navigation is displayed on an 
+	                      association end. ArgoUML uses option 3, which 
+	                      means that arrow heads are shown at the end of an 
+	                      association, when navigation is enabled at only 
+	                      one end, to indicate the direction in which 
+	                      navigation is possible. This means that the 
+	                      default, with both ends navigable has no 
+	                      arrows.</para>
+	                      <para lang="de">
+	                      	Der UML&nbsp;1.4-Standard bietet eine Anzahl Optionen an, 
+	                      	wie die Navigation an einem Assoziationsende angezeigt 
+	                      	wird. ArgoUML verwendet die Option 3, was bedeutet, 
+	                      	dass Pfeile am Ende einer Assoziation angezeigt werden, 
+	                      	bei der die Navigation nur an einem Ende aktiviert ist, 
+	                      	um die Richtung anzuzeigen, in der die Navigation möglich 
+	                      	ist. Das bedeutet, dass der Standard, mit beiden Enden 
+	                      	navigierbar, keine Pfeile aufweist.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -56607,26 +56820,28 @@ available at http://www.opencontent.org/openpub/.
                 	ausgefüllten Diamanten dargestellt.
                 </para>
 
-                <note>
-
-                  <para lang="en">You may not have aggregation at both ends of an 
-                  association. ArgoUML does not enforce this 
-                  constraint.</para>
-                  <para lang="de">
-                  	Sie dürfen nicht an beiden Enden einer Assoziation eine 
-                  	Aggregation haben. ArgoUML erzwingt diese Bedingung nicht.
-                  </para>
-
-                  <para lang="en">The <quote>whole</quote> end of a composite 
-                  aggregation should have a multiplicity of one. 
-                  ArgoUML does not enforce this constraint.</para>
-                  <para lang="de">
-                  	Das <quote>Ganzes</quote>-Ende einer untrennbaren 
-                  	Aggregation sollte die Kardinalität eins haben. ArgoUML 
-                  	erzwingt diese Bedingung nicht.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">You may not have aggregation at both ends of an 
+	                  association. ArgoUML does not enforce this 
+	                  constraint.</para>
+	                  <para lang="de">
+	                  	Sie dürfen nicht an beiden Enden einer Assoziation eine 
+	                  	Aggregation haben. ArgoUML erzwingt diese Bedingung nicht.
+	                  </para>
+	
+	                  <para lang="en">The <quote>whole</quote> end of a composite 
+	                  aggregation should have a multiplicity of one. 
+	                  ArgoUML does not enforce this constraint.</para>
+	                  <para lang="de">
+	                  	Das <quote>Ganzes</quote>-Ende einer untrennbaren 
+	                  	Aggregation sollte die Kardinalität eins haben. ArgoUML 
+	                  	erzwingt diese Bedingung nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -56839,21 +57054,23 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="en">Standard tab</para>
                 <para lang="de">Standard-Register</para>
 
-                <note>
-
-                  <para lang="en">
-                    The values in the "bounds" field of the 
-                    dependency
-                    are not editable, since they are determined 
-                    by the properties of the endpoints of the line.
-                  </para>
-                  <para lang="de">
-                  	Die Werte im Feld "Begrenzung" der Abhängigkeit sind nicht 
-                  	editierbar, weil sie durch die Eigenschaften der 
-                  	Linienendpunkte bestimmt werden.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">
+	                    The values in the "bounds" field of the 
+	                    dependency
+	                    are not editable, since they are determined 
+	                    by the properties of the endpoints of the line.
+	                  </para>
+	                  <para lang="de">
+	                  	Die Werte im Feld "Begrenzung" der Abhängigkeit sind nicht 
+	                  	editierbar, weil sie durch die Eigenschaften der 
+	                  	Linienendpunkte bestimmt werden.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -56896,18 +57113,20 @@ available at http://www.opencontent.org/openpub/.
 	                    <literal>false</literal>, sie kann es nicht. 
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived dependencies still have their value 
-                      in analysis to introduce useful names or 
-                      concepts.</para>
-                      <para lang="de">
-                      	Abgeleitete Abhängigkeiten können ihren Wert in der 
-                      	Analyse haben, um nützliche Namen oder Konzepte 
-                      	einzuführen.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived dependencies still have their value 
+	                      in analysis to introduce useful names or 
+	                      concepts.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Abhängigkeiten können ihren Wert in der 
+	                      	Analyse haben, um nützliche Namen oder Konzepte 
+	                      	einzuführen.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
@@ -57091,26 +57310,30 @@ available at http://www.opencontent.org/openpub/.
 
                 </tip>
 
-                <note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce any naming convention 
+	                  for associations.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonvention für Abhängigkeiten.
+	                  </para>
+	
+	                </note>
+                </para>
 
-                  <para lang="en">ArgoUML does not enforce any naming convention 
-                  for associations.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt keine Namenskonvention für Abhängigkeiten.
-                  </para>
-
-                </note>
-
-                <note>
-
-                  <para lang="en">There is no representation of the name of a 
-                  dependency on the diagram.</para>
-                  <para lang="de">
-                  	Es gibt keine Darstellung des Namens einer Abhängigkeit im 
-                  	Diagramm.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">There is no representation of the name of a 
+	                  dependency on the diagram.</para>
+	                  <para lang="de">
+	                  	Es gibt keine Darstellung des Namens einer Abhängigkeit im 
+	                  	Diagramm.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -57300,18 +57523,20 @@ available at http://www.opencontent.org/openpub/.
         	(siehe <xref linkend="s1.ref.generalization_use_case"/>).
         </para>
 
-        <note>
-
-          <para lang="en">Within the context of classes, generalization and 
-          specialization are the UML terms describing class 
-          inheritance.</para>
-          <para lang="de">
-          	Innerhalb des Kontextes von Klassen sind die Generalisierung und die 
-          	Spezialisierung UML-Begriffe, welche die Klassenvererbung 
-          	beschreiben.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">Within the context of classes, generalization and 
+	          specialization are the UML terms describing class 
+	          inheritance.</para>
+	          <para lang="de">
+	          	Innerhalb des Kontextes von Klassen sind die Generalisierung und die 
+	          	Spezialisierung UML-Begriffe, welche die Klassenvererbung 
+	          	beschreiben.
+	          </para>
+	
+	        </note>
+        </para>
 
       </sect1>
 
@@ -57548,41 +57773,45 @@ available at http://www.opencontent.org/openpub/.
                     	sie es nicht kann. 
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived interfaces still have their value 
-                      in analysis to introduce useful names or 
-                      concepts, and in design to avoid 
-                      re-computation.</para>
-                      <para lang="de">
-                      	Abgeleitete Schnittstellen können ihren Wert in der 
-                      	Analyse haben, um nützliche Namen oder Konzepte 
-                      	einzuführen und im Design, um eine Wiederverarbeitung zu 
-                      	verhindern.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived interfaces still have their value 
+	                      in analysis to introduce useful names or 
+	                      concepts, and in design to avoid 
+	                      re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Schnittstellen können ihren Wert in der 
+	                      	Analyse haben, um nützliche Namen oder Konzepte 
+	                      	einzuführen und im Design, um eine Wiederverarbeitung zu 
+	                      	verhindern.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-                  <para lang="de">
-                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
-                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
-                  	Eigenschaftswert <literal>documentation</literal>, der in 
-                  	ArgoUML im Register <emphasis>Dokumentation</emphasis> 
-                  	bearbeitet wird.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der alle 
+	                  	anderen Modellelemente abgeleitet werden, beinhaltet den 
+	                  	Eigenschaftswert <literal>documentation</literal>, der in 
+	                  	ArgoUML im Register <emphasis>Dokumentation</emphasis> 
+	                  	bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -57839,18 +58068,20 @@ available at http://www.opencontent.org/openpub/.
                 	getrennt sind.
                 </para>
 
-                <note>
-
-                  <para lang="en">Unlike classes, the ArgoUML critics will not 
-                  complain about interface names that do not have an 
-                  initial capital.</para>
-                  <para lang="de">
-                  	Wie bei Klassen werden sich die ArgoUML-Kritiken nicht 
-                  	beschweren, wenn die Schnittstellennamen nicht mit einem 
-                  	Großbuchstaben beginnen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">Unlike classes, the ArgoUML critics will not 
+	                  complain about interface names that do not have an 
+	                  initial capital.</para>
+	                  <para lang="de">
+	                  	Wie bei Klassen werden sich die ArgoUML-Kritiken nicht 
+	                  	beschweren, wenn die Schnittstellennamen nicht mit einem 
+	                  	Großbuchstaben beginnen.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -58090,25 +58321,27 @@ available at http://www.opencontent.org/openpub/.
                 	dieser Schnittstelle verbunden sind.
                 </para>
 
-                <note>
-
-                  <para lang="en">Associations between classes and interfaces 
-                  <emphasis>must</emphasis> be navigable 
-                  <emphasis>only</emphasis> from the class to the 
-                  interface. ArgoUML will create associations between 
-                  classes and interfaces with the correct navigability, 
-                  but does not prevent the user from altering 
-                  this.</para>
-                  <para lang="de">
-                  	Assoziationen zwischen Klassen und Schnittstellen 
-                  	<emphasis>dürfen nur</emphasis> von der Klasse zur 
-                  	Schnittstelle navigierbar sein. ArgoUML wird Assoziationen 
-                  	zwischen Klassen und Schnittstellen mit der korrekten 
-                  	Navigierbarkeit erzeugen, verhindert aber nicht, wenn der 
-                  	Anwender versucht, dies zu ändern. 
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">Associations between classes and interfaces 
+	                  <emphasis>must</emphasis> be navigable 
+	                  <emphasis>only</emphasis> from the class to the 
+	                  interface. ArgoUML will create associations between 
+	                  classes and interfaces with the correct navigability, 
+	                  but does not prevent the user from altering 
+	                  this.</para>
+	                  <para lang="de">
+	                  	Assoziationen zwischen Klassen und Schnittstellen 
+	                  	<emphasis>dürfen nur</emphasis> von der Klasse zur 
+	                  	Schnittstelle navigierbar sein. ArgoUML wird Assoziationen 
+	                  	zwischen Klassen und Schnittstellen mit der korrekten 
+	                  	Navigierbarkeit erzeugen, verhindert aber nicht, wenn der 
+	                  	Anwender versucht, dies zu ändern. 
+	                  </para>
+	
+	                </note>
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
@@ -58304,21 +58537,23 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="en">Standard tab.</para>
                 <para lang="de">Standard-Register.</para>
 
-                <note>
-
-                  <para lang="en">
-                    The values in the "bounds" field of the 
-                    abstraction
-                    are not editable, since they are determined 
-                    by the properties of the endpoints of the line.
-                  </para>
-                  <para lang="de">
-                  	Der Werte im Feld "Begrenzung der Abstraktion sind nicht 
-                  	editierbar, weil sie durch die Eigenschaften der 
-                  	Linienendpunkte bestimmt werden.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">
+	                    The values in the "bounds" field of the 
+	                    abstraction
+	                    are not editable, since they are determined 
+	                    by the properties of the endpoints of the line.
+	                  </para>
+	                  <para lang="de">
+	                  	Der Werte im Feld "Begrenzung der Abstraktion sind nicht 
+	                  	editierbar, weil sie durch die Eigenschaften der 
+	                  	Linienendpunkte bestimmt werden.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -58377,40 +58612,44 @@ available at http://www.opencontent.org/openpub/.
                     	</literal>, wenn sie es nicht kann. 
                     </para>
 
-                    <note>
-
-                      <para lang="en">Derived abstractions still have their value 
-                      in analysis to introduce useful names or 
-                      concepts, and in design to avoid 
-                      re-computation.</para>
-                      <para lang="de">
-                      	Abgeleitete Abstraktionen haben ihren Wert in der 
-                      	Analyse, um nützliche Namen oder Konzepte einzuführen 
-                      	und im Design um eine Wiederverarbeitung zu verhindern.
-                      </para>
-
-                    </note>
+					<para>
+	                    <note>
+	
+	                      <para lang="en">Derived abstractions still have their value 
+	                      in analysis to introduce useful names or 
+	                      concepts, and in design to avoid 
+	                      re-computation.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Abstraktionen haben ihren Wert in der 
+	                      	Analyse, um nützliche Namen oder Konzepte einzuführen 
+	                      	und im Design um eine Wiederverarbeitung zu verhindern.
+	                      </para>
+	
+	                    </note>
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <note>
-
-                  <para lang="en">The UML <literal>Element</literal> metaclass 
-                  from which all other model elements are derived includes 
-                  the tagged element <literal>documentation</literal> 
-                  which is handled by the <emphasis>documentation 
-                  tab</emphasis> under ArgoUML</para>
-                  <para lang="de">
-                  	Die UML-Metaklasse <literal>Element</literal>, von der 
-                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
-                  	den Eigenschaftswert <literal>documentation</literal>, der 
-                  	in ArgoUML im Register <emphasis>Dokumentation</emphasis> 
-                  	bearbeitet wird.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">The UML <literal>Element</literal> metaclass 
+	                  from which all other model elements are derived includes 
+	                  the tagged element <literal>documentation</literal> 
+	                  which is handled by the <emphasis>documentation 
+	                  tab</emphasis> under ArgoUML</para>
+	                  <para lang="de">
+	                  	Die UML-Metaklasse <literal>Element</literal>, von der 
+	                  	alle anderen Modellelemente abgeleitet werden, beinhaltet 
+	                  	den Eigenschaftswert <literal>documentation</literal>, der 
+	                  	in ArgoUML im Register <emphasis>Dokumentation</emphasis> 
+	                  	bearbeitet wird.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -58632,16 +58871,18 @@ available at http://www.opencontent.org/openpub/.
                 	enthält).
                 </para>
 
-                <note>
-
-                  <para lang="en">Although this is a text area there is no 
-                  mechanism for adding more than one supplier.</para>
-                  <para lang="de">
-                  	Obwohl dies ein Textbereich ist, gibt es keinen Mechanismus, 
-                  	mehr als einen Lieferanten hinzuzufügen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">Although this is a text area there is no 
+	                  mechanism for adding more than one supplier.</para>
+	                  <para lang="de">
+	                  	Obwohl dies ein Textbereich ist, gibt es keinen Mechanismus, 
+	                  	mehr als einen Lieferanten hinzuzufügen.
+	                  </para>
+	
+	                </note>
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
@@ -58670,16 +58911,18 @@ available at http://www.opencontent.org/openpub/.
                 	ist dies das Ende, das die Spezifikation enthält).
                 </para>
 
-                <note>
-
-                  <para lang="en">Although this is a text area there is no 
-                  mechanism for adding more than one client.</para>
-                  <para lang="de">
-                  	Obwohl dies ein Textbereich ist, gibt es keinen Mechanismus 
-                  	mehr als einen Client hinzuzufügen.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">Although this is a text area there is no 
+	                  mechanism for adding more than one client.</para>
+	                  <para lang="de">
+	                  	Obwohl dies ein Textbereich ist, gibt es keinen Mechanismus 
+	                  	mehr als einen Client hinzuzufügen.
+	                  </para>
+	
+	                </note>
+                </para>
 
                 <para lang="en">Button&nbsp;1 double click navigates to the selected 
                 entry.</para>
@@ -64458,15 +64701,17 @@ available at http://www.opencontent.org/openpub/.
                 	unterscheiden.
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt diese Namenskonvention nicht.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -64868,15 +65113,17 @@ available at http://www.opencontent.org/openpub/.
                 	des Namens zu unterscheiden.
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt diese Namenskonvention nicht.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
                 <tip>
 
@@ -65049,16 +65296,18 @@ available at http://www.opencontent.org/openpub/.
         	<literal>State</literal>.
         </para>
 
-        <note>
-
-          <para lang="en">A final state is a true state (with all its 
-          attributes), <emphasis>not</emphasis> a pseudostate.</para>
-          <para lang="de">
-          	Ein Endzustand ist ein richtiger Zustand (mit all seinen Attributen), 
-          	<emphasis>kein</emphasis> Pseudozustand.
-          </para>
-
-        </note>
+		<para>
+	        <note>
+	
+	          <para lang="en">A final state is a true state (with all its 
+	          attributes), <emphasis>not</emphasis> a pseudostate.</para>
+	          <para lang="de">
+	          	Ein Endzustand ist ein richtiger Zustand (mit all seinen Attributen), 
+	          	<emphasis>kein</emphasis> Pseudozustand.
+	          </para>
+	
+	        </note>
+        </para>
 
         <para lang="en">Completion at the top level implies termination (i.e. 
         destruction) of the owning object instance.</para>
@@ -65344,15 +65593,17 @@ available at http://www.opencontent.org/openpub/.
                 	unterscheiden.
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt diese Namenskonvention nicht.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
                 <tip>
 
@@ -68440,16 +68691,18 @@ available at http://www.opencontent.org/openpub/.
                 	Assoziationsrolle mit dem Zielende referenziert werden kann.
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce any naming convention 
-                  for association end roles.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt keine Namenskonventionen für Rollen 
-                  	Assoziationsenden.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce any naming convention 
+	                  for association end roles.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt keine Namenskonventionen für Rollen 
+	                  	Assoziationsenden.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -69881,15 +70134,17 @@ available at http://www.opencontent.org/openpub/.
                 	Wörter innerhalb des Namens zu unterscheiden.
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-                  <para lang="de">
-                  	ArgoUML erzwingt diese Namenskonvention nicht.
-                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+	                  <para lang="de">
+	                  	ArgoUML erzwingt diese Namenskonvention nicht.
+	                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
@@ -72633,15 +72888,17 @@ available at http://www.opencontent.org/openpub/.
                 	des Namens zu unterscheiden.
                 </para>
 
-                <note>
-
-                  <para lang="en">ArgoUML does not enforce this naming 
-                  convention.</para>
-	                  <para lang="de">
-	                  	ArgoUML erzwingt diese Namenskonvention nicht.
-	                  </para>
-
-                </note>
+				<para>
+	                <note>
+	
+	                  <para lang="en">ArgoUML does not enforce this naming 
+	                  convention.</para>
+		                  <para lang="de">
+		                  	ArgoUML erzwingt diese Namenskonvention nicht.
+		                  </para>
+	
+	                </note>
+                </para>
 
               </listitem>
 
