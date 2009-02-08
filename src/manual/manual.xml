@@ -7376,102 +7376,103 @@ available at http://www.opencontent.org/openpub/.
 
 			<para>
 	            <note>
-	
-	              <itemizedlist>
-	                <listitem lang="es">
-	                  <para lang="es">
-	                    Taréa de Lectura.
-	                  </para>
-	                </listitem>
-	
-	                <listitem>
-		                <para lang="en">To-Do Item.
-		                  Discuss differences with other tabs about locations of
-		                  items selected.
-		                  Hold particulars for discussion of To-Do Pane.
-		                </para>
-	                	<para lang="de">
-	                		Zu bearbeiten.
-	                		Diskutiert die Unterschiede zu den anderen Registern je 
-	                		markiertem Element.
-	                		Beinhaltet die Einzelheiten für die Diskussion im 
-	                		"Zu bearbeiten"-Fenster.
-	                  	</para>
-	                  <para lang="es">
-	                    Item Taréas Pendientes. 
-	                    Trata las diferencias con otras etiquetas 
-	                    sobre localizaciones de items seleccionados.
-	                    Mantiene detalles para tratarlos en 
-	                    el Panel de Taréas Pendientes.
-	                  </para>
-	                </listitem>
-	
-	                <listitem>
-	                	<para lang="en">Properties,</para>
-	                	<para lang="de">Eigenschaften,</para>
-	                  <para lang="es">Propiedades,</para>
-	                </listitem>
-	
-	                <listitem>
-	                	<para lang="en">Documentation,</para>
-	                	<para lang="de">Dokumentation,</para>
-	                  <para lang="es">Documentación,</para>
-	                </listitem>
-	
-	                <listitem>
-	                	<para lang="en">Presentation,</para>
-	                	<para lang="de">Darstellung,</para>
-	                  <para lang="es">Presentación,</para>
-	                </listitem>
-	
-	                <listitem>
-	                	<para lang="en">Source,</para>
-	                	<para lang="de">Quellcode,</para>
-	                  <para lang="es">Fuente,</para>
-	                </listitem>
-	
-	                <listitem>
-	                	<para lang="en">Constraints,</para>
-	                	<para lang="de">Bedingungen,</para>
-	                  <para lang="es">Constantes,</para>
-	                </listitem>
-	
-	                <listitem>
-	                	<para lang="en">Stereotype,</para>
-	                	<para lang="de">Stereotypen,</para>
-	                  <para lang="es">Estereotipo,</para>
-	                </listitem>
-	
-	                <listitem>
-	                	<para lang="en">Tagged Values,</para>
-	                	<para lang="de">Eigenschaftswerte,</para>
-	                  <para lang="es">Valores Etiquetados,</para>
-	                </listitem>
-	
-	                <listitem>
-	                	<para lang="en">Checklist.</para>
-	                	<para lang="de">Checkliste.</para>
-	                  <para lang="es">
-	                    Lista de Validación.
-	                  </para>
-	                </listitem>
-	
-	                <listitem>
-		                <para lang="en">
-		                  Remove "images/tutorial/detailsoverview.gif" from file 
-		                  system.
-		                </para>
-	                	<para lang="de">
-	                  		Entfernen Sie "images/tutorial/detailsoverview.gif" 
-	                  		aus dem Dateisystem.
-	                	</para>
-	                  <para lang="es">
-	                    Elimina "images/tutorial/detailsoverview.gif" del sistema 
-	                    de archivos.
-	                  </para>
-	                </listitem>
-	
-	              </itemizedlist>
+				  <para>
+		              <itemizedlist>
+		                <listitem lang="es">
+		                  <para lang="es">
+		                    Taréa de Lectura.
+		                  </para>
+		                </listitem>
+		
+		                <listitem>
+			                <para lang="en">To-Do Item.
+			                  Discuss differences with other tabs about locations of
+			                  items selected.
+			                  Hold particulars for discussion of To-Do Pane.
+			                </para>
+		                	<para lang="de">
+		                		Zu bearbeiten.
+		                		Diskutiert die Unterschiede zu den anderen Registern je 
+		                		markiertem Element.
+		                		Beinhaltet die Einzelheiten für die Diskussion im 
+		                		"Zu bearbeiten"-Fenster.
+		                  	</para>
+		                  <para lang="es">
+		                    Item Taréas Pendientes. 
+		                    Trata las diferencias con otras etiquetas 
+		                    sobre localizaciones de items seleccionados.
+		                    Mantiene detalles para tratarlos en 
+		                    el Panel de Taréas Pendientes.
+		                  </para>
+		                </listitem>
+		
+		                <listitem>
+		                	<para lang="en">Properties,</para>
+		                	<para lang="de">Eigenschaften,</para>
+		                  <para lang="es">Propiedades,</para>
+		                </listitem>
+		
+		                <listitem>
+		                	<para lang="en">Documentation,</para>
+		                	<para lang="de">Dokumentation,</para>
+		                  <para lang="es">Documentación,</para>
+		                </listitem>
+		
+		                <listitem>
+		                	<para lang="en">Presentation,</para>
+		                	<para lang="de">Darstellung,</para>
+		                  <para lang="es">Presentación,</para>
+		                </listitem>
+		
+		                <listitem>
+		                	<para lang="en">Source,</para>
+		                	<para lang="de">Quellcode,</para>
+		                  <para lang="es">Fuente,</para>
+		                </listitem>
+		
+		                <listitem>
+		                	<para lang="en">Constraints,</para>
+		                	<para lang="de">Bedingungen,</para>
+		                  <para lang="es">Constantes,</para>
+		                </listitem>
+		
+		                <listitem>
+		                	<para lang="en">Stereotype,</para>
+		                	<para lang="de">Stereotypen,</para>
+		                  <para lang="es">Estereotipo,</para>
+		                </listitem>
+		
+		                <listitem>
+		                	<para lang="en">Tagged Values,</para>
+		                	<para lang="de">Eigenschaftswerte,</para>
+		                  <para lang="es">Valores Etiquetados,</para>
+		                </listitem>
+		
+		                <listitem>
+		                	<para lang="en">Checklist.</para>
+		                	<para lang="de">Checkliste.</para>
+		                  <para lang="es">
+		                    Lista de Validación.
+		                  </para>
+		                </listitem>
+		
+		                <listitem>
+			                <para lang="en">
+			                  Remove "images/tutorial/detailsoverview.gif" from file 
+			                  system.
+			                </para>
+		                	<para lang="de">
+		                  		Entfernen Sie "images/tutorial/detailsoverview.gif" 
+		                  		aus dem Dateisystem.
+		                	</para>
+		                  <para lang="es">
+		                    Elimina "images/tutorial/detailsoverview.gif" del sistema 
+		                    de archivos.
+		                  </para>
+		                </listitem>
+		
+		              </itemizedlist>
+	              </para>
 	
 	            </note>
 			</para>
@@ -23254,15 +23255,17 @@ available at http://www.opencontent.org/openpub/.
           	bestimmt werden kann.
           </para>
 
-          <tip>
-            <para lang="en">This is a text file, which you can edit to configure
-            	ArgoUML.
-            </para>
-            <para lang="de">
-            	Dies ist eine Textdatei, die Sie zum Konfigurieren von ArgoUML 
-            	bearbeiten können.
-            </para>
-          </tip>
+		  <para>
+	          <tip>
+	            <para lang="en">This is a text file, which you can edit to configure
+	            	ArgoUML.
+	            </para>
+	            <para lang="de">
+	            	Dies ist eine Textdatei, die Sie zum Konfigurieren von ArgoUML 
+	            	bearbeiten können.
+	            </para>
+	          </tip>
+          </para>
           
           <figure float="1" id="fig.ref.menu_settings">
 
@@ -23379,17 +23382,19 @@ available at http://www.opencontent.org/openpub/.
                 	anzeigen. 
                 </para>
 
-                <tip>
-
-                  <para lang="en">The splash panel can be seen by using the Help 
-                  menu (see <xref linkend="s2.ref.menu_help_about"/>
-                  ).</para>
-                  <para lang="de">
-                  	Das Start-Fenster kann auch im Hilfe-Menü angesehen werden 
-                  	(siehe <xref linkend="s2.ref.menu_help_about"/>).
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">The splash panel can be seen by using the Help 
+	                  menu (see <xref linkend="s2.ref.menu_help_about"/>
+	                  ).</para>
+	                  <para lang="de">
+	                  	Das Start-Fenster kann auch im Hilfe-Menü angesehen werden 
+	                  	(siehe <xref linkend="s2.ref.menu_help_about"/>).
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -24829,27 +24834,29 @@ available at http://www.opencontent.org/openpub/.
 			zugehörigen Elementes. 
           </para>
 
-          <tip>
-
-            <para lang="en">Enlarging the dialog vertically shows that the 
-            &quot;Related Items&quot; part changes in size, but not the 
-            Search results part. However, between them is a divider 
-            line and when hovering over this line, the mouse pointer 
-            changes into a sizing icon, and the border between these 2 
-            areas can be moved up or down to redistribute the space in 
-            the window.</para>
-            <para lang="de">
-            	Wenn Sie den Dialog vertikal vergrössern, zeigt es sich, dass 
-            	der Teil &quot;Zugehörige Elemente&quot; ebenfalls seine Größe 
-            	ändert, aber nicht der Teil mit den Suchergebnissen. Zwischen 
-            	diesen Teilen befindet sich jedoch eine Trennlinie. Wenn Sie die 
-            	Maus darüber bewegen, verwandelt sich der Mauszeiger in das 
-            	Grössenveränderungs-Symbol und die Begrenzung zwischen diesen 
-            	beiden Bereichen kann nach oben oder nach unten bewegt werden, 
-            	um den Platz im Fenster aufzuteilen.
-            </para>
-
-          </tip>
+		  <para>
+	          <tip>
+	
+	            <para lang="en">Enlarging the dialog vertically shows that the 
+	            &quot;Related Items&quot; part changes in size, but not the 
+	            Search results part. However, between them is a divider 
+	            line and when hovering over this line, the mouse pointer 
+	            changes into a sizing icon, and the border between these 2 
+	            areas can be moved up or down to redistribute the space in 
+	            the window.</para>
+	            <para lang="de">
+	            	Wenn Sie den Dialog vertikal vergrössern, zeigt es sich, dass 
+	            	der Teil &quot;Zugehörige Elemente&quot; ebenfalls seine Größe 
+	            	ändert, aber nicht der Teil mit den Suchergebnissen. Zwischen 
+	            	diesen Teilen befindet sich jedoch eine Trennlinie. Wenn Sie die 
+	            	Maus darüber bewegen, verwandelt sich der Mauszeiger in das 
+	            	Grössenveränderungs-Symbol und die Begrenzung zwischen diesen 
+	            	beiden Bereichen kann nach oben oder nach unten bewegt werden, 
+	            	um den Platz im Fenster aufzuteilen.
+	            </para>
+	
+	          </tip>
+          </para>
 
           <warning>
 
@@ -25239,20 +25246,22 @@ available at http://www.opencontent.org/openpub/.
           	sondern auch auf eine Klasse, Schnittstelle, Anwendungsfall, usw..
           </para>
 
-          <tip>
-
-            <para lang="en">This does not prevent model elements from other 
-            namespaces/packages appearing on the diagram. They can be 
-            added from the explorer using <literal>Add to 
-            Diagram</literal> from the button&nbsp;2 pop-up menu.</para>
-            <para lang="de">
-            	Das verhindert nicht, dass Modellelemente aus anderen 
-            	Namensräumen/Paketen im Diagramm erscheinen. Sie können im 
-            	Explorer mit Hilfe des Popup-Menüs <literal>Zum Diagramm 
-            	hinzufügen</literal> hinzugefügt werden.
-            </para>
-
-          </tip>
+		  <para>
+	          <tip>
+	
+	            <para lang="en">This does not prevent model elements from other 
+	            namespaces/packages appearing on the diagram. They can be 
+	            added from the explorer using <literal>Add to 
+	            Diagram</literal> from the button&nbsp;2 pop-up menu.</para>
+	            <para lang="de">
+	            	Das verhindert nicht, dass Modellelemente aus anderen 
+	            	Namensräumen/Paketen im Diagramm erscheinen. Sie können im 
+	            	Explorer mit Hilfe des Popup-Menüs <literal>Zum Diagramm 
+	            	hinzufügen</literal> hinzugefügt werden.
+	            </para>
+	
+	          </tip>
+          </para>
 
         </sect2>
 
@@ -25305,20 +25314,22 @@ available at http://www.opencontent.org/openpub/.
           	sondern auch auf eine Klasse, Schnittstelle, Anwendungsfall, usw..
           </para>
 
-          <tip>
-
-            <para lang="en">This does not prevent model elements from other 
-            namespaces/packages appearing on the diagram. They can be 
-            added from the explorer using <literal>Add to 
-            Diagram</literal> from the button&nbsp;2 pop-up menu.</para>
-            <para lang="de">
-            	Das verhindert nicht, dass Modellelemente aus anderen 
-            	Namensräumen/Paketen im Diagramm erscheinen. Sie können im 
-            	Explorer mit Hilfe des Popup-Menüs <literal>Zum Diagramm 
-            	hinzufügen</literal> hinzugefügt werden.
-            </para>
-
-          </tip>
+		  <para>
+	          <tip>
+	
+	            <para lang="en">This does not prevent model elements from other 
+	            namespaces/packages appearing on the diagram. They can be 
+	            added from the explorer using <literal>Add to 
+	            Diagram</literal> from the button&nbsp;2 pop-up menu.</para>
+	            <para lang="de">
+	            	Das verhindert nicht, dass Modellelemente aus anderen 
+	            	Namensräumen/Paketen im Diagramm erscheinen. Sie können im 
+	            	Explorer mit Hilfe des Popup-Menüs <literal>Zum Diagramm 
+	            	hinzufügen</literal> hinzugefügt werden.
+	            </para>
+	
+	          </tip>
+          </para>
 
         </sect2>
 
@@ -25445,22 +25456,24 @@ available at http://www.opencontent.org/openpub/.
           	Paketes erstellt.
           </para>
 
-          <tip>
-
-            <para lang="en">This does not prevent model elements from other 
-            namespaces/packages appearing on the diagram. They can 
-            added from the explorer by 
-            dragging or by 
-            using <literal>Add to Diagram</literal> 
-            from the button&nbsp;2 pop-up menu.</para>
-            <para lang="de">
-            	Das verhindert nicht, dass Modellelemente aus anderen 
-            	Namensräumen/Paketen im Diagramm erscheinen. Sie können im 
-            	Explorer mit Hilfe des Popup-Menüs <literal>Zum Diagramm 
-            	hinzufügen</literal> hinzugefügt werden.
-            </para>
-
-          </tip>
+		  <para>
+	          <tip>
+	
+	            <para lang="en">This does not prevent model elements from other 
+	            namespaces/packages appearing on the diagram. They can 
+	            added from the explorer by 
+	            dragging or by 
+	            using <literal>Add to Diagram</literal> 
+	            from the button&nbsp;2 pop-up menu.</para>
+	            <para lang="de">
+	            	Das verhindert nicht, dass Modellelemente aus anderen 
+	            	Namensräumen/Paketen im Diagramm erscheinen. Sie können im 
+	            	Explorer mit Hilfe des Popup-Menüs <literal>Zum Diagramm 
+	            	hinzufügen</literal> hinzugefügt werden.
+	            </para>
+	
+	          </tip>
+          </para>
 
         </sect2>
 
@@ -25660,21 +25673,23 @@ available at http://www.opencontent.org/openpub/.
 	          namespace of the package.-->
 	       </para>
 
-          <tip>
-
-            <para lang="en">Model elements from other 
-            namespaces/packages can be
-            added from the explorer by
-            dragging or by
-            using <literal>Add to Diagram</literal> 
-            from the button&nbsp;2 pop-up menu.</para>
-            <para lang="de">
-            	Modellelemente aus anderen Namensräumen/Paketen können vom 
-            	Explorer aus durch ziehen oder durch das Popup-Menü <literal>Zum 
-            	Diagramm hinzufügen</literal> hinzugefügt werden.
-            </para>
-
-          </tip>
+		  <para>
+	          <tip>
+	
+	            <para lang="en">Model elements from other 
+	            namespaces/packages can be
+	            added from the explorer by
+	            dragging or by
+	            using <literal>Add to Diagram</literal> 
+	            from the button&nbsp;2 pop-up menu.</para>
+	            <para lang="de">
+	            	Modellelemente aus anderen Namensräumen/Paketen können vom 
+	            	Explorer aus durch ziehen oder durch das Popup-Menü <literal>Zum 
+	            	Diagramm hinzufügen</literal> hinzugefügt werden.
+	            </para>
+	
+	          </tip>
+          </para>
 
         </sect2>
 
@@ -25890,31 +25905,33 @@ available at http://www.opencontent.org/openpub/.
 	              ).
               </para>
 
-              <tip>
-
-                <para lang="en">The alignment is to the current <emphasis>grid 
-                snap</emphasis> setting, which may be smaller, larger 
-                or the same as the displayed grid. Since items are 
-                aligned to the grid snap boundary any way when you 
-                place them, this menu entry has no effect unless you 
-                have either changed the grid snap to a larger value or 
-                used one of the other <literal>Arrange</literal> menu 
-                entries to push items off their initial 
-                positions.</para>
-                <para lang="de">
-                	Die Ausrichtung erfolgt bezogen auf die aktuelle <emphasis>
-                	Gittereinrast</emphasis>-Einstellung. Diese kann kleiner,
-                	größer oder identisch mit dem dargestellten Gitter sein.
-                	Seitdem die elemente an den Gittereinrastgrenzen ausgerichtet 
-                	werden hat dieser Menüeintrag solange keine Auswirkungen bis 
-                	Sie entweder die Gittereinrasteinstellungen auf einen 
-                	größeren Wert eingestellt haben oder einen der anderen 
-                	<literal>Anordnen</literal>-Menüeinträge verwendet haben, 
-                	um die Elemente aus ihren ursprünglichen Positionen zu 
-                	bewegen.
-                </para>
-
-              </tip>
+			  <para>
+	              <tip>
+	
+	                <para lang="en">The alignment is to the current <emphasis>grid 
+	                snap</emphasis> setting, which may be smaller, larger 
+	                or the same as the displayed grid. Since items are 
+	                aligned to the grid snap boundary any way when you 
+	                place them, this menu entry has no effect unless you 
+	                have either changed the grid snap to a larger value or 
+	                used one of the other <literal>Arrange</literal> menu 
+	                entries to push items off their initial 
+	                positions.</para>
+	                <para lang="de">
+	                	Die Ausrichtung erfolgt bezogen auf die aktuelle 
+	                	<emphasis>Gittereinrast</emphasis>-Einstellung. Diese 
+	                	kann kleiner, größer oder identisch mit dem 
+	                	dargestellten Gitter sein. Seitdem die elemente an den 
+	                	Gittereinrastgrenzen ausgerichtet werden hat dieser 
+	                	Menüeintrag solange keine Auswirkungen bis Sie entweder 
+	                	die Gittereinrasteinstellungen auf einen größeren Wert 
+	                	eingestellt haben oder einen der anderen <literal>
+	                	Anordnen</literal>-Menüeinträge verwendet haben, um die 
+	                	Elemente aus ihren ursprünglichen Positionen zu bewegen.
+	                </para>
+	
+	              </tip>
+              </para>
 
             </listitem>
 
@@ -26713,24 +26730,26 @@ available at http://www.opencontent.org/openpub/.
           	niedrigste Priorität).
           </para>
 
-          <tip>
-
-            <para lang="en">It may be useful to think of this function as very 
-            similar to <literal>Design Issues...</literal> (see 
-            <xref linkend="s2.ref.menu_design_issues"/>), but with 
-            grouping of critics according to the outcomes of OOA&amp;D 
-            rather than grouping according to the structure of 
-            UML.</para>
-            <para lang="de">
-            	Es kann nützlich sein, über diese Funktion ähnlich zu denken wie 
-            	bei <literal>Design-Wichtungen</literal>  
-            	(siehe <xref linkend="s2.ref.menu_design_issues"/>), 
-            	aber mit der Gruppierung der Kritiken gemäß dem Ergebnis der 
-            	OOA&amp;D und nicht mit der Gruppierung gemäß der Struktur der 
-            	UML.
-            </para>
-
-          </tip>
+		  <para>
+	          <tip>
+	
+	            <para lang="en">It may be useful to think of this function as very 
+	            similar to <literal>Design Issues...</literal> (see 
+	            <xref linkend="s2.ref.menu_design_issues"/>), but with 
+	            grouping of critics according to the outcomes of OOA&amp;D 
+	            rather than grouping according to the structure of 
+	            UML.</para>
+	            <para lang="de">
+	            	Es kann nützlich sein, über diese Funktion ähnlich zu denken 
+	            	wie bei <literal>Design-Wichtungen</literal>  
+	            	(siehe <xref linkend="s2.ref.menu_design_issues"/>), 
+	            	aber mit der Gruppierung der Kritiken gemäß dem Ergebnis der 
+	            	OOA&amp;D und nicht mit der Gruppierung gemäß der Struktur 
+	            	der UML.
+	            </para>
+	
+	          </tip>
+          </para>
 
           <warning>
 
@@ -27029,17 +27048,19 @@ available at http://www.opencontent.org/openpub/.
 	              die Kritik wieder aktivieren. Ansonsten ist sie deaktiviert. 
 	          </para>
 
-              <tip>
-
-                <para lang="en">You can tell a snoozed critic, because in the 
-                list on the left it will be indicated in the third 
-                column.</para>
-                <para lang="de">
-                	Sie können eine deaktivierte Kritik erkennen, da dies in der 
-                	linken Liste in der dritten Spalte angezeigt wird.
-                </para>
-
-              </tip>
+			  <para>
+	              <tip>
+	
+	                <para lang="en">You can tell a snoozed critic, because in the 
+	                list on the left it will be indicated in the third 
+	                column.</para>
+	                <para lang="de">
+	                	Sie können eine deaktivierte Kritik erkennen, da dies in der 
+	                	linken Liste in der dritten Spalte angezeigt wird.
+	                </para>
+	
+	              </tip>
+              </para>
 
             </listitem>
 
@@ -28418,26 +28439,28 @@ available at http://www.opencontent.org/openpub/.
           	Die PNG und GIF-Formate und die Auflösung <literal>Standard
           	</literal> werden empfohlen.
           </para>
-          
-          <tip>
-          
-	          <para lang="en">Some applications (such as Doors from Telelogic) 
-	          require the background color 
-	          of the generated graphics to be adapted (else the image is empty). 
-	          This can be done with a tool like IrfanView; 
-	          it is as easy as clicking its paste button, 
-	          and then its copy button.
-	          </para>
-          	<para lang="de">
-          		Einige Anwendungen (wie z.B. Doors von Telelogic) erfordern es, 
-          		dass die Hintergrundfarbe der generierten Grafik angepasst 
-          		wird (es sei denn, das Bild ist leer). Dies kann mit einem Tool 
-          		wie IrfanView durchgeführt werden; es ist genauso leicht wie 
-          		das Klicken dessen Schaltfläche Einfügen und dann dessen 
-          		Schaltfläche Kopieren.
-          	</para>
+
+		  <para>       
+	          <tip>
 	          
-          </tip>
+		          <para lang="en">Some applications (such as Doors from Telelogic) 
+		          require the background color 
+		          of the generated graphics to be adapted (else the image is empty). 
+		          This can be done with a tool like IrfanView; 
+		          it is as easy as clicking its paste button, 
+		          and then its copy button.
+		          </para>
+	          	<para lang="de">
+	          		Einige Anwendungen (wie z.B. Doors von Telelogic) erfordern 
+	          		es, dass die Hintergrundfarbe der generierten Grafik angepasst 
+	          		wird (es sei denn, das Bild ist leer). Dies kann mit einem 
+	          		Tool wie IrfanView durchgeführt werden; es ist genauso leicht 
+	          		wie das Klicken auf die Schaltfläche Einfügen und dann auf 
+	          		die Schaltfläche Kopieren.
+	          	</para>
+		          
+	          </tip>
+          </para>   
           
         </sect2>
          
@@ -29377,18 +29400,21 @@ available at http://www.opencontent.org/openpub/.
 
           </itemizedlist>
 
-          <tip>
-
-            <para lang="en">Additional control of model element layout is provided 
-            through the <literal>Arrange</literal> menu (see 
-            <xref linkend="s1.ref.menu_arrange"/>).</para>
-            <para lang="de">
-            	Zusätzliche Beeinflussungsmöglichkeiten des Modellelementelayout 
-            	sind über das Menü <literal>Anordnen</literal> verfügbar (siehe  
-            	<xref linkend="s1.ref.menu_arrange"/>).
-            </para>
-
-          </tip>
+		  <para>
+	          <tip>
+	
+	            <para lang="en">Additional control of model element layout is provided 
+	            through the <literal>Arrange</literal> menu (see 
+	            <xref linkend="s1.ref.menu_arrange"/>).</para>
+	            <para lang="de">
+	            	Zusätzliche Beeinflussungsmöglichkeiten des 
+	            	Modellelementelayout sind über das Menü <literal>
+	            	Anordnen</literal> verfügbar (siehe  
+	            	<xref linkend="s1.ref.menu_arrange"/>).
+	            </para>
+	
+	          </tip>
+          </para>
 
         </sect2>
 
@@ -29495,20 +29521,22 @@ available at http://www.opencontent.org/openpub/.
           	Diagramme zu verbessern.
           </para>
 
-          <tip>
-
-            <para lang="en">These drawing tools provide a useful way to partially 
-            support some of the UML features (such as general purpose 
-            notes) that are missing from the current release of 
-            ArgoUML.</para>
-            <para lang="de">
-            	Diese Zeichen-Symbole stellen einen nützlichen Weg dar, 
-            	einige der in der aktuellen Release von ArgoUML fehlenden 
-            	UML-Eigenschaften (wie z.B. generelle Zweck-Hinweise )teilweise 
-            	zu unterstützen.
-            </para>
-
-          </tip>
+		  <para>
+	          <tip>
+	
+	            <para lang="en">These drawing tools provide a useful way to partially 
+	            support some of the UML features (such as general purpose 
+	            notes) that are missing from the current release of 
+	            ArgoUML.</para>
+	            <para lang="de">
+	            	Diese Zeichen-Symbole stellen einen nützlichen Weg dar, 
+	            	einige der in der aktuellen Release von ArgoUML fehlenden 
+	            	UML-Eigenschaften (wie z.B. generelle Zweck-Hinweise )
+	            	teilweise zu unterstützen.
+	            </para>
+	
+	          </tip>
+          </para>
 
           <para lang="en">Eight tools are provided, all grouped into one 
           drop-down widget. See 
@@ -34029,22 +34057,24 @@ available at http://www.opencontent.org/openpub/.
               nachfolgendem Textbereich beschreiben.
             </para>
 
-            <tip>
-
-              <para lang="en">If you wish to resolve a to-do item (that is 
-              generated by a critic) by following its recommendations, 
-              just make the recommended changes and the to-do item will 
-              disappear of its own accord. There is no need to use this 
-              dialog.</para>
-              <para lang="de">
-                Wenn Sie ein Zu-Bearbeiten-Element auflösen wollen (das durch 
-                eine Kritik generiert wurde) indem Sie dessen Empfehlung folgen, 
-                dann führen Sie die empfohlenen Änderungen durch und das Zu-
-                Bearbeiten-Element wird von selbst verschwinden. Es gibt dann 
-                keine Notwendigkeit, diesen Dialog zu verwenden.
-              </para>
-
-            </tip>
+			<para>
+	            <tip>
+	
+	              <para lang="en">If you wish to resolve a to-do item (that is 
+	              generated by a critic) by following its recommendations, 
+	              just make the recommended changes and the to-do item will 
+	              disappear of its own accord. There is no need to use this 
+	              dialog.</para>
+	              <para lang="de">
+	                Wenn Sie ein Zu-Bearbeiten-Element auflösen wollen (das durch 
+	                eine Kritik generiert wurde) indem Sie dessen Empfehlung 
+	                folgen, dann führen Sie die empfohlenen Änderungen durch und 
+	                das Zu-Bearbeiten-Element wird von selbst verschwinden. Es 
+	                gibt dann keine Notwendigkeit, diesen Dialog zu verwenden.
+	              </para>
+	
+	            </tip>
+            </para>
 
             <warning>
 
@@ -34116,19 +34146,21 @@ available at http://www.opencontent.org/openpub/.
               <xref linkend="s2.ref.menu_browse_critics"/>).
             </para>
 
-            <tip>
-
-              <para lang="en">Some common critics can fire the whole time as you 
-              build a big diagram. Some users find it useful to snooze 
-              these critics until the diagram has been completed.</para>
-              <para lang="de">
-                Einige Kritiken können während der gesamten Erstellungszeit eines 
-                grossen Diagrammes erscheinen. Einige Anwender finden es daher 
-                nützlich, diese Kritiken zu deaktivieren bis das Diagramm 
-                vollständig ist.
-              </para>
-
-            </tip>
+			<para>
+	            <tip>
+	
+	              <para lang="en">Some common critics can fire the whole time as you 
+	              build a big diagram. Some users find it useful to snooze 
+	              these critics until the diagram has been completed.</para>
+	              <para lang="de">
+	                Einige Kritiken können während der gesamten Erstellungszeit 
+	                eines grossen Diagrammes erscheinen. Einige Anwender finden 
+	                es daher nützlich, diese Kritiken zu deaktivieren bis das 
+	                Diagramm vollständig ist.
+	              </para>
+	
+	            </tip>
+            </para>
 
           </listitem>
 
@@ -34659,20 +34691,22 @@ available at http://www.opencontent.org/openpub/.
           
         </itemizedlist>
 
-        <tip>
-
-          <para lang="en">ArgoUML is not primarily a documentation system. For 
-          model elements that require heavy documentation, notably use 
-          cases, the use of the <literal>See:</literal> field to point 
-          to external documents is more practical.</para>
-          <para lang="de">
-            ArgoUML ist primär kein Dokumentationssystem. Bei Modellelementen, 
-            die eine umfangreiche Dokumentation erfordern, zum Beispiel 
-            Anwendungsfälle, verwenden Sie das Feld <literal>Siehe:</literal>, 
-            um auf externe Dokumente zu verweisen. Dies ist praktischer.
-          </para>
-
-        </tip>
+		<para>
+	        <tip>
+	
+	          <para lang="en">ArgoUML is not primarily a documentation system. For 
+	          model elements that require heavy documentation, notably use 
+	          cases, the use of the <literal>See:</literal> field to point 
+	          to external documents is more practical.</para>
+	          <para lang="de">
+	            ArgoUML ist primär kein Dokumentationssystem. Bei Modellelementen, 
+	            die eine umfangreiche Dokumentation erfordern, zum Beispiel 
+	            Anwendungsfälle, verwenden Sie das Feld <literal>Siehe:</literal>, 
+	            um auf externe Dokumente zu verweisen. Dies ist praktischer.
+	          </para>
+	
+	        </tip>
+        </para>
 
       </sect1>
 
@@ -40045,20 +40079,22 @@ available at http://www.opencontent.org/openpub/.
                 	das Register Eigenschaften des Paketes.
                 </para>
 
-                <tip>
-
-                  <para lang="en">While it can make sense to create Packages of 
-                  the model this way, it is usually a lot clearer to 
-                  create them within diagrams where you want 
-                  them.</para>
-                  <para lang="de">
-                  	Da es Sinn machen kann, Pakete für diese Modell auf diese 
-                  	Weise zu erzeugen, ist es gewöhnlich deutlich klarer, diese 
-                  	innerhalb der Diagramme zu erzeugen, wenn Sie welche 
-                  	benötigen.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">While it can make sense to create Packages of 
+	                  the model this way, it is usually a lot clearer to 
+	                  create them within diagrams where you want 
+	                  them.</para>
+	                  <para lang="de">
+	                  	Da es Sinn machen kann, Pakete für diese Modell auf diese 
+	                  	Weise zu erzeugen, ist es gewöhnlich deutlich klarer, 
+	                  	diese innerhalb der Diagramme zu erzeugen, wenn Sie 
+	                  	welche benötigen.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -41019,18 +41055,20 @@ available at http://www.opencontent.org/openpub/.
                 	Datentyp.
                 </para>
 
-                <tip>
-
-                  <para lang="en">While it can make sense to create datatypes 
-                  this way, it can be clearer to create them within the 
-                  package or model where you want them.</para>
-                  <para lang="de">
-                  	Obwohl es Sinn machen kann, Datentypen auf diesem Weg zu 
-                  	erzeugen, kann es klarer sein, diese innerhalb eines Paketes 
-                  	oder Modelles, wo sie sie benötigen, zu erzeugen.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">While it can make sense to create datatypes 
+	                  this way, it can be clearer to create them within the 
+	                  package or model where you want them.</para>
+	                  <para lang="de">
+	                  	Obwohl es Sinn machen kann, Datentypen auf diesem Weg zu 
+	                  	erzeugen, kann es klarer sein, diese innerhalb eines 
+	                  	Paketes oder Modelles, wo sie sie benötigen, zu erzeugen.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -41337,18 +41375,20 @@ available at http://www.opencontent.org/openpub/.
                     	oberster Ebene handelt. 
                     </para>
 
-                    <tip>
-
-                      <para lang="en">You can define the specialization of 
-                      datatypes in a class diagram 
-                      by drawing generalizations between them.</para>
-                      <para lang="de">
-                      	Sie können die Spezialisierung eines Datentyps in 
-                      	einem Klassendiagramm definieren, indem Sie 
-                      	Generalisierungen zwischen ihnen einzeichnen.
-                      </para>
-
-                    </tip>
+					<para>
+	                    <tip>
+	
+	                      <para lang="en">You can define the specialization of 
+	                      datatypes in a class diagram 
+	                      by drawing generalizations between them.</para>
+	                      <para lang="de">
+	                      	Sie können die Spezialisierung eines Datentyps in 
+	                      	einem Klassendiagramm definieren, indem Sie 
+	                      	Generalisierungen zwischen ihnen einzeichnen.
+	                      </para>
+	
+	                    </tip>
+                    </para>
 
                   </listitem>
 
@@ -43867,18 +43907,20 @@ available at http://www.opencontent.org/openpub/.
                 	Nummer, also <literal>Anwendungsfalldiagramm 1</literal>.
                 </para>
 
-                <tip>
-
-                  <para lang="en">This name is used to generate a filename when 
-                  activating the <quote>Save Graphics...</quote> 
-                  menu-item.</para>
-                  <para lang="de">
-                  	Dieser Name wird dazu verwendet, einen Dateinamen zu 
-                  	generieren, wenn Sie das Menü <quote>Speichere Grafiken...
-                  	</quote> aktivieren.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">This name is used to generate a filename when 
+	                  activating the <quote>Save Graphics...</quote> 
+	                  menu-item.</para>
+	                  <para lang="de">
+	                  	Dieser Name wird dazu verwendet, einen Dateinamen zu 
+	                  	generieren, wenn Sie das Menü <quote>Speichere 
+	                  	Grafiken...</quote> aktivieren.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
             </varlistentry>
@@ -44238,18 +44280,20 @@ available at http://www.opencontent.org/openpub/.
                     	gelöscht wird.
                     </para>
 
-                    <tip>
-
-                      <para lang="en">Actors sit outside the system, and so their 
-                      internal behavior is of little concern, and this 
-                      tagged value is best ignored.</para>
-                      <para lang="de">
-                      	Akteure sitzen außerhalb des Systems, so dass deren 
-                      	internes Verhalten von geringem Interesse. Dieser 
-                      	Eigenschaftwert sollte am Besten ignoriert werden.
-                      </para>
-
-                    </tip>
+					<para>
+	                    <tip>
+	
+	                      <para lang="en">Actors sit outside the system, and so their 
+	                      internal behavior is of little concern, and this 
+	                      tagged value is best ignored.</para>
+	                      <para lang="de">
+	                      	Akteure sitzen außerhalb des Systems, so dass deren 
+	                      	internes Verhalten von geringem Interesse. Dieser 
+	                      	Eigenschaftwert sollte am Besten ignoriert werden.
+	                      </para>
+	
+	                    </tip>
+                    </para>
 
                   </listitem>
 
@@ -44390,18 +44434,20 @@ available at http://www.opencontent.org/openpub/.
                 	dieses Akteurs.
                 </para>
 
-                <tip>
-
-                  <para lang="en">This method of creating a new actor may be 
-                  confusing. It is much better to create an actor on 
-                  the diagram.</para>
-                  <para lang="de">
-                  	Diese Methode, einen neuen Akteur zu erzeugen, kann 
-                  	irritierend sein. Es ist besser, einen Akteur im Diagramm 
-                  	zu erzeugen.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">This method of creating a new actor may be 
+	                  confusing. It is much better to create an actor on 
+	                  the diagram.</para>
+	                  <para lang="de">
+	                  	Diese Methode, einen neuen Akteur zu erzeugen, kann 
+	                  	irritierend sein. Es ist besser, einen Akteur im 
+	                  	Diagramm zu erzeugen.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -44445,18 +44491,20 @@ available at http://www.opencontent.org/openpub/.
                 	Signaleinganges.
                 </para>
 
-                <tip>
-
-                  <para lang="en">A reception is a declaration that the actor
-                  handles a signal, but the actual handling 
-                  is specified by a state machine.</para>
-                  <para lang="de">
-                  	Ein Signaleingang ist eine Deklaration, dass der Akteur ein 
-                  	Signal verarbeitet. Die aktuelle Verarbeitung wird aber 
-                  	mit einem Zustandsautomaten spezifiziert.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">A reception is a declaration that the actor
+	                  handles a signal, but the actual handling 
+	                  is specified by a state machine.</para>
+	                  <para lang="de">
+	                  	Ein Signaleingang ist eine Deklaration, dass der Akteur 
+	                  	ein Signal verarbeitet. Die aktuelle Verarbeitung wird 
+	                  	aber mit einem Zustandsautomaten spezifiziert.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -45022,23 +45070,25 @@ available at http://www.opencontent.org/openpub/.
                     wird.
                     </para>
 
-                    <tip>
-
-                      <para lang="en">In general the instantiation of use cases 
-                      is not a major aspect of any design method (they 
-                      are mostly concerned with requirements capture. 
-                      For most OOA&amp;D methodologies, this tag can 
-                      safely be ignored.</para>
-                      <para lang="de">
-                      	Im Allgemeinen ist die Instanziierung von 
-                      	Anwendungsfällen nicht der Hauptaspekt einer 
-                      	Designmethode (sie betreffen häufig die 
-                      	Anforderungserfassung). In den meisten OOA&amp;D-
-                      	Methoden kann diese Eigenschaft sicherlich ignoriert 
-                      	werden.
-                      </para>
-
-                    </tip>
+					<para>
+	                    <tip>
+	
+	                      <para lang="en">In general the instantiation of use cases 
+	                      is not a major aspect of any design method (they 
+	                      are mostly concerned with requirements capture. 
+	                      For most OOA&amp;D methodologies, this tag can 
+	                      safely be ignored.</para>
+	                      <para lang="de">
+	                      	Im Allgemeinen ist die Instanziierung von 
+	                      	Anwendungsfällen nicht der Hauptaspekt einer 
+	                      	Designmethode (sie betreffen häufig die 
+	                      	Anforderungserfassung). In den meisten OOA&amp;D-
+	                      	Methoden kann diese Eigenschaft sicherlich ignoriert 
+	                      	werden.
+	                      </para>
+	
+	                    </tip>
+                    </para>
 
                   </listitem>
 
@@ -45185,18 +45235,20 @@ available at http://www.opencontent.org/openpub/.
                 	Anwendungsfalles. 
                 </para>
 
-                <tip>
-
-                  <para lang="en">This method of creating a new use case can be 
-                  confusing. It is much better to create a new use case 
-                  on the diagram of your choice.</para>
-                  <para lang="de">
-                  	Diese Methode, einen Anwendungsfall zu erzeugen kann 
-                  	irritierend sein. Es ist viel besser, einen neuen 
-                  	Anwendungsfall im Diagramm Ihrer Wahl zu erzeugen.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">This method of creating a new use case can be 
+	                  confusing. It is much better to create a new use case 
+	                  on the diagram of your choice.</para>
+	                  <para lang="de">
+	                  	Diese Methode, einen Anwendungsfall zu erzeugen kann 
+	                  	irritierend sein. Es ist viel besser, einen neuen 
+	                  	Anwendungsfall im Diagramm Ihrer Wahl zu erzeugen.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -46413,20 +46465,23 @@ available at http://www.opencontent.org/openpub/.
                 	Textfeld. Der Name des Erweiterungspunktes.
                 </para>
 
-                <tip>
-
-                  <para lang="en">It is quite common to leave extension points 
-                  unnamed in use case analysis, since they are always 
-                  listed (within use cases and extend relationships) by 
-                  their location.</para>
-                  <para lang="de">
-                  	Sehr häufig werden die Erweiterungspunkte während der 
-                  	Anwendungsfallanalyse unbenannt gelassen, weil sie immer 
-                  	anhand ihrer Erstellungsorte (innerhalb des Anwendungsfalles 
-                  	und der erweiterten Beziehung) aufgelistet werden. 
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">It is quite common to leave extension points 
+	                  unnamed in use case analysis, since they are always 
+	                  listed (within use cases and extend relationships) by 
+	                  their location.</para>
+	                  <para lang="de">
+	                  	Sehr häufig werden die Erweiterungspunkte während der 
+	                  	Anwendungsfallanalyse unbenannt gelassen, weil sie immer 
+	                  	anhand ihrer Erstellungsorte (innerhalb des 
+	                  	Anwendungsfalles und der erweiterten Beziehung) 
+	                  	aufgelistet werden. 
+	                  </para>
+	
+	                </tip>
+                </para>
 
 				<para>
 	                <note>
@@ -46471,20 +46526,23 @@ available at http://www.opencontent.org/openpub/.
                 	Eigentümer-Anwendungsfalles.
                 </para>
 
-                <tip>
-
-                  <para lang="en">Extension points are always listed (within use 
-                  cases and extend relationships) by their location. 
-                  Typically this will be the number/name of the 
-                  paragraph in the specification.</para>
-                  <para lang="de">
-                  	Erweiterungspunkte werden immer anhand ihres Erstellungsortes 
-                  	(innerhalb des Anwendungsfalles und der erweiterten 
-                  	Beziehungen) aufgelistet. Typischerweise wird die Nummer/
-                  	der Name des Absatzes in der Spezifikation sein. 
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">Extension points are always listed (within use 
+	                  cases and extend relationships) by their location. 
+	                  Typically this will be the number/name of the 
+	                  paragraph in the specification.</para>
+	                  <para lang="de">
+	                  	Erweiterungspunkte werden immer anhand ihres 
+	                  	Erstellungsortes (innerhalb des Anwendungsfalles und der 
+	                  	erweiterten Beziehungen) aufgelistet. Typischerweise wird 
+	                  	die Nummer/der Name des Absatzes in der Spezifikation 
+	                  	sein. 
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -47069,16 +47127,18 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="en">Text box. The name of the generalization.</para>
                 <para lang="en">Textfeld. Der Name der Generalisierung.</para>
 
-                <tip>
-
-                  <para lang="en">It is quite common to leave generalizations 
-                  unnamed in use case analysis.</para>
-                  <para lang="de">
-                  	In der Anwendungsfallanalyse wird die Generalisierung sehr 
-                  	häufig nicht benannt.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">It is quite common to leave generalizations 
+	                  unnamed in use case analysis.</para>
+	                  <para lang="de">
+	                  	In der Anwendungsfallanalyse wird die Generalisierung 
+	                  	sehr häufig nicht benannt.
+	                  </para>
+	
+	                </tip>
+                </para>
 
 				<para>
 	                <note>
@@ -47139,39 +47199,42 @@ available at http://www.opencontent.org/openpub/.
                 	dieses Wertes.
                 </para>
 
-                <tip>
-
-                  <para lang="en">The empty string <quote /> is a valid entry 
-                  (and the default) for this field. The discriminator 
-                  is only of practical use in cases of multiple 
-                  inheritance. A (class diagram) example is shown in 
-                  <xref linkend="fig.discriminator_example"/>. Here 
-                  each type of user should inherit from two sorts of 
-                  user. One distinguishing between local or remote user 
-                  (which can be identified by one discriminator) and 
-                  one indicating their function as a user (identified 
-                  by a different discriminator).</para>
-                  <para lang="de">
-                  	Der leere String <quote /> ist ein gültiger Eintrag (und 
-                  	der Standard) für dieses Feld. Der Diskriminator ist nur im 
-                  	Falle einer Mehrfachvererbung von praktischem Nutzen. Ein 
-                  	(Klassendiagramm) Beispiel wird in 
-                  	<xref linkend="fig.discriminator_example"/> gezeigt. Hier 
-                  	soolte jeder Anwendertyp von zwei Anwenderarten erben. Eine, 
-                  	die zwischen localen und fernen Anwendern unterscheidet 
-                  	(die durch einen Diskriminator identifiziert werden können) 
-                  	und eine, welche die Funktion eines Anwenders angibt (durch 
-                  	einen anderen Diskriminator bezeichnet).
-                  </para>
-
-                  <para lang="en">There is little point in using this within a 
-                  use case diagram.</para>
-                  <para lang="de">
-                  	Dies ist ein kleiner Punkt, wie dies innerhalb eines 
-                  	Anwendungsfalldiagrammes genutzt werden kann.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">The empty string <quote /> is a valid entry 
+	                  (and the default) for this field. The discriminator 
+	                  is only of practical use in cases of multiple 
+	                  inheritance. A (class diagram) example is shown in 
+	                  <xref linkend="fig.discriminator_example"/>. Here 
+	                  each type of user should inherit from two sorts of 
+	                  user. One distinguishing between local or remote user 
+	                  (which can be identified by one discriminator) and 
+	                  one indicating their function as a user (identified 
+	                  by a different discriminator).</para>
+	                  <para lang="de">
+	                  	Der leere String <quote /> ist ein gültiger Eintrag (und 
+	                  	der Standard) für dieses Feld. Der Diskriminator ist nur 
+	                  	im Falle einer Mehrfachvererbung von praktischem Nutzen. 
+	                  	Ein (Klassendiagramm) Beispiel wird in 
+	                  	<xref linkend="fig.discriminator_example"/> gezeigt. 
+	                  	Hier sollte jeder Anwendertyp von zwei Anwenderarten 
+	                  	erben. Eine, die zwischen lokalen und fernen Anwendern 
+	                  	unterscheidet (die durch einen Diskriminator 
+	                  	identifiziert werden können) und eine, welche die 
+	                  	Funktion eines Anwenders angibt (durch einen anderen 
+	                  	Diskriminator bezeichnet).
+	                  </para>
+	
+	                  <para lang="en">There is little point in using this within a 
+	                  use case diagram.</para>
+	                  <para lang="de">
+	                  	Dies ist ein kleiner Punkt, wie dies innerhalb eines 
+	                  	Anwendungsfalldiagrammes genutzt werden kann.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -47309,20 +47372,22 @@ available at http://www.opencontent.org/openpub/.
                 	Dies ist der Typ der Subklasse der Generalisierung.
                 </para>
 
-                <tip>
-
-                  <para lang="en">This can be ignored for use case analysis. The 
-                  only sensible value to put in would be the child use 
-                  case type (as a classifier, this appears in the drop 
-                  down list.</para>
-                  <para lang="de">
-                  	Dies kann in der Anwendungsfallanalyse ignoriert werden.
-                  	Der einzige, einzugebende sensible Wert würde der Typ des 
-                  	Subklassen-Anwendungsfalles sein (wie ein Klassifizierer, 
-                  	der in der Drop-Down-Auswahlliste erscheint).
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">This can be ignored for use case analysis. The 
+	                  only sensible value to put in would be the child use 
+	                  case type (as a classifier, this appears in the drop 
+	                  down list.</para>
+	                  <para lang="de">
+	                  	Dies kann in der Anwendungsfallanalyse ignoriert werden.
+	                  	Der einzige, einzugebende sensible Wert würde der Typ des 
+	                  	Subklassen-Anwendungsfalles sein (wie ein Klassifizierer, 
+	                  	der in der Drop-Down-Auswahlliste erscheint).
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -47713,33 +47778,35 @@ available at http://www.opencontent.org/openpub/.
                 	Extend-Beziehung als dessen erste erweiternde Beziehung.
                 </para>
 
-                <tip>
-
-                  <para lang="en">While it is perfectly valid to create extension 
-                  points from an extend relationship, the created 
-                  extension point will have no associated use case (it 
-                  can subsequently be set up).</para>
-                  <para lang="de">
-                  	Es ist zwar völlig in Ordnung, einen Erweiterungspunkt von 
-                  	einer Extend-Beziehung aus zu erzeugen. Der erzeugte 
-                  	Erweiterungspunkt wird aber keinen mit ihm verknüpften 
-                  	Anwendungsfall aufweisen (er kann später eingerichtet 
-                  	werden). 
-                  </para>
-
-                  <para lang="en">It would be more usual to instead create the 
-                  extension point within a use case and subsequently 
-                  link to it from an extend relationship (see 
-                  <xref linkend="s2.ref.extend_property_fields"/> 
-                  below).</para>
-                  <para lang="de">
-                  	Üblicher wäre es, einen Erweiterungspunkt innerhalb eines 
-                  	Anwendungsfalles zu erzeugen und diesen anschliessend mit 
-                  	einer Extend-Beziehung zu verknüpfen (siehe
-                  	<xref linkend="s2.ref.extend_property_fields"/> unten.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">While it is perfectly valid to create extension 
+	                  points from an extend relationship, the created 
+	                  extension point will have no associated use case (it 
+	                  can subsequently be set up).</para>
+	                  <para lang="de">
+	                  	Es ist zwar völlig in Ordnung, einen Erweiterungspunkt 
+	                  	von einer Extend-Beziehung aus zu erzeugen. Der erzeugte 
+	                  	Erweiterungspunkt wird aber keinen mit ihm verknüpften 
+	                  	Anwendungsfall aufweisen (er kann später eingerichtet 
+	                  	werden). 
+	                  </para>
+	
+	                  <para lang="en">It would be more usual to instead create the 
+	                  extension point within a use case and subsequently 
+	                  link to it from an extend relationship (see 
+	                  <xref linkend="s2.ref.extend_property_fields"/> 
+	                  below).</para>
+	                  <para lang="de">
+	                  	Üblicher wäre es, einen Erweiterungspunkt innerhalb eines 
+	                  	Anwendungsfalles zu erzeugen und diesen anschliessend mit 
+	                  	einer Extend-Beziehung zu verknüpfen (siehe
+	                  	<xref linkend="s2.ref.extend_property_fields"/> unten.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -47869,16 +47936,18 @@ available at http://www.opencontent.org/openpub/.
                 	Textfeld. Der Name der Extend-Beziehung.
                 </para>
 
-                <tip>
-
-                  <para lang="en">It is quite common to leave extends unnamed in 
-                  use case analysis.</para>
-                  <para lang="de">
-                  	Sehr häufig läßt man die Extend-Beziehungen in der 
-                  	Anwendungsfall-Analyse unbenannt.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">It is quite common to leave extends unnamed in 
+	                  use case analysis.</para>
+	                  <para lang="de">
+	                  	Sehr häufig läßt man die Extend-Beziehungen in der 
+	                  	Anwendungsfall-Analyse unbenannt.
+	                  </para>
+	
+	                </tip>
+                </para>
 
 				<para>
 	                <note>
@@ -48580,16 +48649,18 @@ available at http://www.opencontent.org/openpub/.
                 	Textfeld. Der Name der Include-Beziehung.
                 </para>
 
-                <tip>
-
-                  <para lang="en">It is quite common to leave include 
-                  relationships unnamed in use case analysis.</para>
-                  <para lang="de">
-                  	Sehr häufig bleibt die Include-Beziehung in der Analyse 
-                  	unbenannt.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">It is quite common to leave include 
+	                  relationships unnamed in use case analysis.</para>
+	                  <para lang="de">
+	                  	Sehr häufig bleibt die Include-Beziehung in der Analyse 
+	                  	unbenannt.
+	                  </para>
+	
+	                </tip>
+                </para>
 
 				<para>
 	                <note>
@@ -49563,25 +49634,28 @@ available at http://www.opencontent.org/openpub/.
                     	kann, aber immer spezialisiert werden muss.
                     </para>
 
-                    <tip>
-
-                      <para lang="en">The meaning of <literal>abstract</literal> 
-                      applied to a package if not that clear. It might 
-                      mean that the package contains interfaces or 
-                      abstract classes without realizations. This is 
-                      probably better handled through stereotyping of 
-                      the package (for example <literal>
-                      &laquo;facade&raquo;</literal>).</para>
-                      <para lang="de">
-                      	Die Bedeutung von <literal>abstract</literal>, angewendet 
-                      	auf ein Paket ist nicht ganz klar. Es könnte bedeuten, 
-                      	dass das Paket Schnittstellen oder abstrakte Klassen 
-                      	ohne Realisierung enthält. Dies würde wahrscheinlich 
-                      	besser über Stereotypen auf das Paket gehandhabt (z.B. 
-                      	<literal>&laquo;facade&raquo;</literal>).
-                      </para>
-
-                    </tip>
+					<para>
+	                    <tip>
+	
+	                      <para lang="en">The meaning of <literal>abstract</literal> 
+	                      applied to a package if not that clear. It might 
+	                      mean that the package contains interfaces or 
+	                      abstract classes without realizations. This is 
+	                      probably better handled through stereotyping of 
+	                      the package (for example <literal>
+	                      &laquo;facade&raquo;</literal>).</para>
+	                      <para lang="de">
+	                      	Die Bedeutung von <literal>abstract</literal>, 
+	                      	angewendet auf ein Paket ist nicht ganz klar. Es 
+	                      	könnte bedeuten, dass das Paket Schnittstellen oder 
+	                      	abstrakte Klassen ohne Realisierung enthält. Dies 
+	                      	würde wahrscheinlich besser über Stereotypen auf das 
+	                      	Paket gehandhabt (z.B. <literal>
+	                      	&laquo;facade&raquo;</literal>).
+	                      </para>
+	
+	                    </tip>
+                    </para>
 
                   </listitem>
 
@@ -49605,22 +49679,24 @@ available at http://www.opencontent.org/openpub/.
                     	Paket auf oberster Ebene ist.
                     </para>
 
-                    <tip>
-
-                      <para lang="en">Within ArgoUML <literal>Root</literal> only 
-                      meaningfully applies to the Model, since all 
-                      packages sit within the model. This could be used 
-                      to emphasize that the Model is at the top 
-                      level.</para>
-                      <para lang="de">
-                      	Innerhalb von ArgoUML kann <literal>Root (Wurzel)
-                      	</literal> nur auf das Modell angewendet werden, da 
-                      	alle Pakete sich innerhalb des Modelles befinden. Dies 
-                      	kann dazu verwendet werden, um zu betonen, dass sich das 
-                      	Modell auf oberste Ebene befindet.
-                      </para>
-
-                    </tip>
+					<para>
+	                    <tip>
+	
+	                      <para lang="en">Within ArgoUML <literal>Root</literal> only 
+	                      meaningfully applies to the Model, since all 
+	                      packages sit within the model. This could be used 
+	                      to emphasize that the Model is at the top 
+	                      level.</para>
+	                      <para lang="de">
+	                      	Innerhalb von ArgoUML kann <literal>Root (Wurzel)
+	                      	</literal> nur auf das Modell angewendet werden, da 
+	                      	alle Pakete sich innerhalb des Modelles befinden. 
+	                      	Dies kann dazu verwendet werden, um zu betonen, dass 
+	                      	sich das Modell auf oberste Ebene befindet.
+	                      </para>
+	
+	                    </tip>
+                    </para>
 
                   </listitem>
 
@@ -51007,24 +51083,26 @@ available at http://www.opencontent.org/openpub/.
                 	navigiert zu diesem Modellelement.
                 </para>
 
-                <tip>
-
-                  <para lang="en">Most namespace hierarchies should be managed 
-                  through the package mechanism. Namespace hierarchies 
-                  through classes are best restricted to inner classes. 
-                  Conceivable datatypes, signals and interfaces could 
-                  also appear here, but actors and use cases would seem 
-                  of no value.</para>
-                  <para lang="de">
-                  	Die meisten Namensraumhierarchien sollten über den 
-                  	Paketmechanismus verwaltet werden. Namensraumhierarchien 
-                  	über Klassen sind am besten auf innere Klassen zu 
-                  	beschränken. Denkbare Datentypen, Signale und Schnittstellen 
-                  	können hier auch erscheinen, aber Akteure und 
-                  	Anwendungsfälle scheinen hier wertlos.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">Most namespace hierarchies should be managed 
+	                  through the package mechanism. Namespace hierarchies 
+	                  through classes are best restricted to inner classes. 
+	                  Conceivable datatypes, signals and interfaces could 
+	                  also appear here, but actors and use cases would seem 
+	                  of no value.</para>
+	                  <para lang="de">
+	                  	Die meisten Namensraumhierarchien sollten über den 
+	                  	Paketmechanismus verwaltet werden. Namensraumhierarchien 
+	                  	über Klassen sind am besten auf innere Klassen zu 
+	                  	beschränken. Denkbare Datentypen, Signale und 
+	                  	Schnittstellen können hier auch erscheinen, aber Akteure 
+	                  	und Anwendungsfälle scheinen hier wertlos.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -51459,16 +51537,18 @@ available at http://www.opencontent.org/openpub/.
                 	sofort in das Register Eigenschaften dieses Attributes.
                 </para>
 
-                <tip>
-
-                  <para lang="en">This is a very convenient way to add a number 
-                  of attributes, one after the other, to a class.</para>
-                  <para lang="de">
-                  	Dies ist ein sehr bequemer Weg, mehrere Attribute, eines 
-                  	nach dem anderen, zu der Klasse hinzuzufügen.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">This is a very convenient way to add a number 
+	                  of attributes, one after the other, to a class.</para>
+	                  <para lang="de">
+	                  	Dies ist ein sehr bequemer Weg, mehrere Attribute, eines 
+	                  	nach dem anderen, zu der Klasse hinzuzufügen.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -52605,16 +52685,19 @@ available at http://www.opencontent.org/openpub/.
                 	sofort in das Register Eigenschaften dieser Operation.
                 </para>
 
-                <tip>
-
-                  <para lang="en">This is a very convenient way to add a number 
-                  of operations, one after the other, to a class.</para>
-                  <para lang="de">
-                  	Dies ist ein sehr bequemer Weg, eine Anzahl von Operationen, 
-                  	eine nach der anderen, eine Klasse hinzuzufügen.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">This is a very convenient way to add a number 
+	                  of operations, one after the other, to a class.</para>
+	                  <para lang="de">
+	                  	Dies ist ein sehr bequemer Weg, eine Anzahl von 
+	                  	Operationen, eine nach der anderen, eine Klasse 
+	                  	hinzuzufügen.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -52870,22 +52953,24 @@ available at http://www.opencontent.org/openpub/.
 	                </note>
                 </para>
 
-                <tip>
-
-                  <para lang="en">If you wish to follow the Java convention of 
-                  constructors having the same name as the class, you 
-                  will violate this rule. Silence the critic by setting 
-                  the stereotype <literal>create</literal> for the 
-                  constructor operation.</para>
-                  <para lang="de">
-                  	Wenn Sie der Java-Konvention folgen wollen, dass 
-                  	Konstruktoren den gleichen Namen wie die Klasse haben, werden 
-                  	Sie diese Regel brechen. Bringen Sie diese Kritik zum 
-                  	Schweigen, indem Sie den Stereotypen <literal>create
-                  	</literal> für die Konstruktor-Operation vergeben. 
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">If you wish to follow the Java convention of 
+	                  constructors having the same name as the class, you 
+	                  will violate this rule. Silence the critic by setting 
+	                  the stereotype <literal>create</literal> for the 
+	                  constructor operation.</para>
+	                  <para lang="de">
+	                  	Wenn Sie der Java-Konvention folgen wollen, dass 
+	                  	Konstruktoren den gleichen Namen wie die Klasse haben, 
+	                  	werden Sie diese Regel brechen. Bringen Sie diese Kritik 
+	                  	zum Schweigen, indem Sie den Stereotypen <literal>create
+	                  	</literal> für die Konstruktor-Operation vergeben. 
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -52921,20 +53006,22 @@ available at http://www.opencontent.org/openpub/.
                 	</literal> und <literal>destroy</literal>.
                 </para>
 
-                <tip>
-
-                  <para lang="en">You should use <literal>create</literal> as the 
-                  stereotype for constructors, and <literal>
-                  destroy</literal> for destructors (which are called 
-                  <quote>finalize</quote> methods under Java).</para>
-                  <para lang="de">
-                  	Sie sollten <literal>create</literal> als Stereotyp für 
-                  	Konstruktoren und <literal>destroy</literal> für Destruktoren 
-                  	(die über die <quote>finalize</quote>-Methoden in Java 
-                  	aufgerufen werden).
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">You should use <literal>create</literal> as the 
+	                  stereotype for constructors, and <literal>
+	                  destroy</literal> for destructors (which are called 
+	                  <quote>finalize</quote> methods under Java).</para>
+	                  <para lang="de">
+	                  	Sie sollten <literal>create</literal> als Stereotyp für 
+	                  	Konstruktoren und <literal>destroy</literal> für 
+	                  	Destruktoren (die über die <quote>finalize</quote>
+	                  	-Methoden in Java aufgerufen werden).
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -53768,16 +53855,18 @@ available at http://www.opencontent.org/openpub/.
                 	Eigenschaften dieses Parameters.
                 </para>
 
-                <tip>
-
-                  <para lang="en">This is a convenient way to add a series of 
-                  parameters for the same operation.</para>
-                  <para lang="de">
-                  	Dies ist ein bequemer Weg, um eine Reihe von Parametern der 
-                  	gleichen Operation hinzuzufügen.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">This is a convenient way to add a series of 
+	                  parameters for the same operation.</para>
+	                  <para lang="de">
+	                  	Dies ist ein bequemer Weg, um eine Reihe von Parametern 
+	                  	der gleichen Operation hinzuzufügen.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -54267,24 +54356,26 @@ available at http://www.opencontent.org/openpub/.
 	                    </note>
                     </para>
 
-                    <tip>
-
-                      <para lang="en">The name of the return parameter does not 
-                      appear on the diagram, but it is convenient to 
-                      give it an appropriate name (such as the default 
-                      <literal>return</literal> to identify it in the 
-                      list of parameters on the operation property 
-                      tab.</para>
-                      <para lang="de">
-                      	Der Name des Return-Parameters erscheint nicht im 
-                      	Diagramm, aber es ist bequemer ihm einen entsprechenden 
-                      	Namen zu geben (wie z.B. Standard-<literal>return
-                      	</literal>, um ihn in der Liste der Parameter im 
-                      	Register Eigenschaften der Operation identifizieren 
-                      	zu können.
-                      </para>
-
-                    </tip>
+					<para>
+	                    <tip>
+	
+	                      <para lang="en">The name of the return parameter does not 
+	                      appear on the diagram, but it is convenient to 
+	                      give it an appropriate name (such as the default 
+	                      <literal>return</literal> to identify it in the 
+	                      list of parameters on the operation property 
+	                      tab.</para>
+	                      <para lang="de">
+	                      	Der Name des Return-Parameters erscheint nicht im 
+	                      	Diagramm, aber es ist bequemer ihm einen 
+	                      	entsprechenden Namen zu geben (wie z.B. Standard-
+	                      	<literal>return</literal>, um ihn in der Liste der 
+	                      	Parameter im Register Eigenschaften der Operation 
+	                      	identifizieren zu können.
+	                      </para>
+	
+	                    </tip>
+                    </para>
 
                   </listitem>
 
@@ -54343,24 +54434,26 @@ available at http://www.opencontent.org/openpub/.
         	Kollaborationsdiagrammen verknüpft werden.  
         </para>
 
-        <tip>
-
-          <para lang="en">In general there is limited value at present in 
-          defining signals within ArgoUML. It may prove more useful to 
-          define signals as classes, with a (user defined) stereotype 
-          of <literal>&laquo;signal&raquo;</literal> as suggested in the UML 1.4 
-          standard. This allows any dependency relationships between 
-          signals to be shown.</para>
-          <para lang="de">
-          	Generell hat es aktuell einen begrenzten Wert, Signale in ArgoUML 
-          	zu definieren. Es kann sich als nützlich erweisen, Signale als 
-          	Klassen mit einem (benutzerdefinierten) Stereotypen <literal>&laquo;
-          	signal&raquo;</literal> zu definieren, wie im UML 1.4-Standard 
-          	empfohlen. Dies erlaubt eine Abhängigkeitsbeziehung zwischen den 
-          	angezeigten Signalen.
-          </para>
-
-        </tip>
+		<para>
+	        <tip>
+	
+	          <para lang="en">In general there is limited value at present in 
+	          defining signals within ArgoUML. It may prove more useful to 
+	          define signals as classes, with a (user defined) stereotype 
+	          of <literal>&laquo;signal&raquo;</literal> as suggested in the UML 1.4 
+	          standard. This allows any dependency relationships between 
+	          signals to be shown.</para>
+	          <para lang="de">
+	          	Generell hat es aktuell einen begrenzten Wert, Signale in ArgoUML 
+	          	zu definieren. Es kann sich als nützlich erweisen, Signale als 
+	          	Klassen mit einem (benutzerdefinierten) Stereotypen <literal>
+	          	&laquo;signal&raquo;</literal> zu definieren, wie im 
+	          	UML 1.4-Standard empfohlen. Dies erlaubt eine 
+	          	Abhängigkeitsbeziehung zwischen den angezeigten Signalen.
+	          </para>
+	
+	        </tip>
+        </para>
 
         <sect2>
 
@@ -55569,22 +55662,24 @@ available at http://www.opencontent.org/openpub/.
 	                </note>
                 </para>
 
-                <tip>
-
-                  <para lang="en">Although the design critics will advise 
-                  otherwise, it is perfectly normal not to name 
-                  associations on a class diagram, since the 
-                  relationship is often obvious from the classes (or 
-                  class and interface) name.</para>
-                  <para lang="de">
-                  	Obwohl die Designkritiken dies fordern, ist es auf der 
-                  	anderen Seite normal, die Assoziationen in einem 
-                  	Klassendiagramm nicht zu benennen, da die Beziehung der 
-                  	Klassennamen (oder Klasse und Schnittstelle) sehr häufig 
-                  	offensichtlich ist.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">Although the design critics will advise 
+	                  otherwise, it is perfectly normal not to name 
+	                  associations on a class diagram, since the 
+	                  relationship is often obvious from the classes (or 
+	                  class and interface) name.</para>
+	                  <para lang="de">
+	                  	Obwohl die Designkritiken dies fordern, ist es auf der 
+	                  	anderen Seite normal, die Assoziationen in einem 
+	                  	Klassendiagramm nicht zu benennen, da die Beziehung der 
+	                  	Klassennamen (oder Klasse und Schnittstelle) sehr häufig 
+	                  	offensichtlich ist.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -55837,25 +55932,27 @@ available at http://www.opencontent.org/openpub/.
         	Diamant (trennbare Aggregation) angezeigt.   
         </para>
 
-        <tip>
-
-          <para lang="en">Although you can change attributes of association ends 
-          when creating a use case model, this is often not necessary. 
-          Many of the properties of an association end relate to its 
-          use in class diagrams, and are of limited relevance to use 
-          cases. The most useful attributes to consider altering are 
-          the name (used as the role name) and the multiplicity.</para>
-          <para lang="de">
-          	Obwohl sie die Attribute der Assoziationsenden beim Erzeugen eines 
-          	Anwendungsfallmodelles ändern können, ist dies oft nicht notwendig. 
-          	Viele der Eigenschaften eines Assoziationsendes beziehen sich auf 
-          	seine Nutzung in Klassendiagrammen und sind von begrenzter Relevanz 
-          	hinsichtlich der Anwendungsfälle. Die meisten nützlichen Attribute, 
-          	die geändert werden können sind der Name (als Rollenname verwendet) 
-          	und die Kardinalität.
-          </para>
-
-        </tip>
+		<para>
+	        <tip>
+	
+	          <para lang="en">Although you can change attributes of association ends 
+	          when creating a use case model, this is often not necessary. 
+	          Many of the properties of an association end relate to its 
+	          use in class diagrams, and are of limited relevance to use 
+	          cases. The most useful attributes to consider altering are 
+	          the name (used as the role name) and the multiplicity.</para>
+	          <para lang="de">
+	          	Obwohl sie die Attribute der Assoziationsenden beim Erzeugen 
+	          	eines Anwendungsfallmodelles ändern können, ist dies oft nicht 
+	          	notwendig. Viele der Eigenschaften eines Assoziationsendes 
+	          	beziehen sich auf seine Nutzung in Klassendiagrammen und sind 
+	          	von begrenzter Relevanz hinsichtlich der Anwendungsfälle. Die 
+	          	meisten nützlichen Attribute, die geändert werden können sind 
+	          	der Name (als Rollenname verwendet) und die Kardinalität.
+	          </para>
+	
+	        </tip>
+        </para>
 
 		<para>
 	        <note>
@@ -56033,24 +56130,26 @@ available at http://www.opencontent.org/openpub/.
 	                    false</literal>, wenn sie es nicht kann. 
                     </para>
 
-                    <tip>
-
-                      <para lang="en">Derived association ends still have their 
-                      value in analysis to introduce useful names or 
-                      concepts, and in design to avoid re-computation. 
-                      However the tag only makes sense for an 
-                      association end if it is also applied to the 
-                      parent association.</para>
-                      <para lang="de">
-                      	Abgeleitete Assoziationsenden haben Ihren Wert in der 
-                      	Analyse, um nützliche Namen oder Konzepte einzubinden 
-                      	und im Design, um eine Wiederverarbeitung zu verhindern. 
-                      	Der Eigenschaftswert macht bei einem Assoziationsende 
-                      	jedoch nur Sinn, wenn er auch auf die Eltern-Assoziation 
-                      	angewendet wird.  
-                      </para>
-
-                    </tip>
+					<para>
+	                    <tip>
+	
+	                      <para lang="en">Derived association ends still have their 
+	                      value in analysis to introduce useful names or 
+	                      concepts, and in design to avoid re-computation. 
+	                      However the tag only makes sense for an 
+	                      association end if it is also applied to the 
+	                      parent association.</para>
+	                      <para lang="de">
+	                      	Abgeleitete Assoziationsenden haben Ihren Wert in 
+	                      	der Analyse, um nützliche Namen oder Konzepte 
+	                      	einzubinden und im Design, um eine Wiederverarbeitung 
+	                      	zu verhindern. Der Eigenschaftswert macht bei einem 
+	                      	Assoziationsende jedoch nur Sinn, wenn er auch auf 
+	                      	die Eltern-Assoziation angewendet wird.  
+	                      </para>
+	
+	                    </tip>
+                    </para>
 
                   </listitem>
 
@@ -56492,21 +56591,23 @@ available at http://www.opencontent.org/openpub/.
                 	der Entität. 
                 </para>
 
-                <tip>
-
-                  <para lang="en">By default ArgoUML will select the class of the 
-                  model element to which the linkend is connected. However, 
-                  an association can be moved to another class by 
-                  selecting another entry here.</para>
-                  <para lang="de">
-                  	Standardmäßig wird ArgoUML die Klasse des Modellelementes 
-                  	markieren, mit der die Verknüpfung verbunden ist. Jedoch 
-                  	kann eine Assoziation zu einer anderen Klasse durch 
-                  	markieren des anderen Eintrages bewegt werden.
-                  	Modellelementen 
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">By default ArgoUML will select the class of the 
+	                  model element to which the linkend is connected. However, 
+	                  an association can be moved to another class by 
+	                  selecting another entry here.</para>
+	                  <para lang="de">
+	                  	Standardmäßig wird ArgoUML die Klasse des Modellelementes 
+	                  	markieren, mit der die Verknüpfung verbunden ist. Jedoch 
+	                  	kann eine Assoziation zu einer anderen Klasse durch 
+	                  	markieren des anderen Eintrages bewegt werden.
+	                  	Modellelementen 
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -57299,16 +57400,18 @@ available at http://www.opencontent.org/openpub/.
                 	Textfeld. Der Name der Abhängigkeit.
                 </para>
 
-                <tip>
-
-                  <para lang="en">It is quite common to leave dependencies 
-                  unnamed.</para>
-                  <para lang="de">
-                  	Es kommt sehr häufig vor, die Abhängigkeiten unbenannt 
-                  	zu lassen.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">It is quite common to leave dependencies 
+	                  unnamed.</para>
+	                  <para lang="de">
+	                  	Es kommt sehr häufig vor, die Abhängigkeiten unbenannt 
+	                  	zu lassen.
+	                  </para>
+	
+	                </tip>
+                </para>
 
 				<para>
 	                <note>
@@ -65125,18 +65228,20 @@ available at http://www.opencontent.org/openpub/.
 	                </note>
                 </para>
 
-                <tip>
-
-                  <para lang="en">Pseudostate names are not shown on the diagram 
-                  and it is not usually necessary to give them a 
-                  name.</para>
-                  <para lang="de">
-                  	Namen von Pseudozuständen werden im Diagramm nicht angezeigt 
-                  	und es ist normalerweise nicht notwendig ihnen einen Namen 
-                  	zu geben.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">Pseudostate names are not shown on the diagram 
+	                  and it is not usually necessary to give them a 
+	                  name.</para>
+	                  <para lang="de">
+	                  	Namen von Pseudozuständen werden im Diagramm nicht 
+	                  	angezeigt und es ist normalerweise nicht notwendig ihnen 
+	                  	einen Namen zu geben.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
@@ -65605,17 +65710,20 @@ available at http://www.opencontent.org/openpub/.
 	                </note>
                 </para>
 
-                <tip>
-
-                  <para lang="en">Final state names are shown on the diagram but 
-                  it is not usually necessary to give them a 
-                  name.</para>
-                  <para lang="de">
-                  	Endzustandnamen werden im Diagramm dargestellt, aber es ist 
-                  	normalerweise nicht notwendig, ihnen einen Namen zu geben.
-                  </para>
-
-                </tip>
+				<para>
+	                <tip>
+	
+	                  <para lang="en">Final state names are shown on the diagram but 
+	                  it is not usually necessary to give them a 
+	                  name.</para>
+	                  <para lang="de">
+	                  	Endzustandnamen werden im Diagramm dargestellt, aber es 
+	                  	ist normalerweise nicht notwendig, ihnen einen Namen zu 
+	                  	geben.
+	                  </para>
+	
+	                </tip>
+                </para>
 
               </listitem>
 
