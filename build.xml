@@ -209,7 +209,21 @@ What tools do I need to use this build file?
 
               tidy
   	      " />
-	
+
+  <target name="released-pdfs"
+          description="Create the pdf files that are included in the release."
+          depends="
+
+              quickguide-pdf-en,
+              manual-pdf-en,
+
+              quickguide-pdf-de,
+              manual-pdf-de,
+
+              tidy
+  	      " />
+
+
   <target name="init">
     <echo message="Using ${ant.version}"/>
 
