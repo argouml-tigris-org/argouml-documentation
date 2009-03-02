@@ -391,7 +391,9 @@ Please try updating your working copy.
     <sequential>
         <!-- We generate a property file. -->
       <copy file="src/@{doc}/@{doc}.xml"
-              tofile="src/@{doc}/@{doc}-generated.xml">
+            tofile="src/@{doc}/@{doc}-generated.xml"
+            encoding="UTF-8"
+      >
         <filterset>
           <filter token="VERSION" value="${argo.core.version}"/>
         </filterset>
