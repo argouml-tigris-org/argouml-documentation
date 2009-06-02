@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id$ -->
 <!--
-// Copyright (c) 1996-2008 The Regents of the University of California. All
+// Copyright (c) 1996-2009 The Regents of the University of California. All
 // Rights Reserved. Permission to use, copy, modify, and distribute this
 // software and its documentation without fee, and without a written
 // agreement is hereby granted, provided that the above copyright notice
@@ -65,7 +65,7 @@
 <book>
   <title>
     <phrase lang="en">&document-title;</phrase>
-    <phrase lang="de">document-title-de;</phrase>
+    <phrase lang="de">&document-title-de;</phrase>
     <phrase lang="es">ArgoUML Quick Guide</phrase>
     <phrase lang="sv">ArgoUML Snabbguide</phrase>
   </title>
