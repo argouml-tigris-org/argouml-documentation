@@ -92,7 +92,20 @@
 		gut, die OO-Programmierung war das Mindeste.
 	</para>
 	<para lang="sv">
-                Det var inte förrän...XXX...
+                Det var inte förrän OO-blandspråken såsom 
+                C++, Klassisk Ada och Objekt Pascal,
+                började komma på 80-talet som det stora flertalet
+                fick kännedom och och möjlighet att experimentera
+                med OO-teknologing.
+                Dessa språk kombinerade stöd för OO-programmering med
+                stöd för traditionell procedurell programmering.
+                Avsaknaden av stöd för procedurell programmering i 
+                rena OO-språk hade i många år hindrat anammandet av
+                OO-teknologin.
+                Resan, som hade börjat med införandet av objekt i
+                Simula på 1960-talet, var nu slutförd.
+                OO-teknologin var tillgänglig för det stora flertalet,
+                i alla fall OO-programmering.
 	</para>
 
 	<para lang="en">
@@ -118,6 +131,25 @@
 		auf einer sehr hohen Ebene zu designen, versetzt erfahrene OO-Praktiker 
 		in die Lage, sehr viel komplexere Systeme als vorher zu designen und 
 		erfolgreich zu implementieren.
+        </para>
+        <para lang="sv">
+                Simulering är den grundläggande förutsättningen för att
+                bygga upp OO-teknologin.
+                Ett OO-system designas och byggs upp i allt väsentligt
+                som en simulering av den riktiga världen med användandet
+                av mjukvaruartefakter.
+                Denna förutsättning är lika kraftfull som den är enkel.
+                Genom att designa och bygga mjukvarusystem på detta sätt,
+                kan man använda samma språk och idéer 
+                vid analysen, vid designen och vid implementationen av
+                ett OO-system.
+                Detta tillåter ett system att bli designat och testat,
+                eller korrektare simulerat, utan att man behöver 
+                bygga systemet först.
+                Denna möjlighet, parad med möjligheten att designa system
+                på en mycket hög nivå gav erfarna OO-användare styrkan
+                att designa och framgångsrikt implementera komplexare
+                system än vad som tidigare hade varit möjligt.
 	</para>
 
 	<para lang="en">
@@ -138,6 +170,11 @@
 		für die rasante Übernahme der OO-Technologie in die 
 		Hauptentwicklungsrichtung vorantrieb.
 	</para>
+        <para lang="sv">
+                Tillgängligheten av flera olika OO-metoder och???
+                det slutgiltiga anammandet av det standardiserade
+                språket för att kommunicera OO-koncept fortsatte???
+        </para>
 
 	<para lang="en">
 		ArgoUML was conceived as a tool and environment for use in the analysis and design of object-oriented software 
