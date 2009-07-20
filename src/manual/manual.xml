@@ -83,6 +83,7 @@ available at http://www.opencontent.org/openpub/.
       <year>2006</year>
       <year>2007</year>
       <year>2008</year>
+      <year>2009</year>
       <holder>Michiel van der Wulp</holder>
     </copyright>
     <copyright><year>2003</year><holder>Linus Tolke</holder></copyright>
@@ -18611,11 +18612,14 @@ available at http://www.opencontent.org/openpub/.
 
         <sect2>
 
-          <title>
-			<phrase lang="en">
-				Code aus Interaktionen und Zustandsautomaten generieren
-			</phrase>
-		  </title>
+            <title>
+                <phrase lang="en">
+                    Generating code from interactions and state machines
+                </phrase>
+                <phrase lang="de">
+                    Code aus Interaktionen und Zustandsautomaten generieren
+                </phrase>
+            </title>
 
           <indexterm lang="en">
           	<primary>Generating Code</primary>
@@ -21292,9 +21296,9 @@ available at http://www.opencontent.org/openpub/.
         <sect2 id="s2.ref.menu_revert_to_saved">
 
           <title>
-			<phrase lang="en">Revert to Saved</phrase>
-			<phrase lang="en">Projekt speichern rückgängig machen</phrase>
-		</title>
+              <phrase lang="en">Revert to Saved</phrase>
+              <phrase lang="de">Projekt speichern rückgängig machen</phrase>
+          </title>
 
           <para lang="en">This menu-item allows you to throw away all your recent 
           changes, and reload the last saved version of the current 
@@ -21917,7 +21921,7 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Export Graphics...</phrase>
-			<phrase lang="en">Grafik exportieren...</phrase>
+			<phrase lang="de">Grafik exportieren...</phrase>
 		  </title>
 
           <para lang="en">This menu entry brings up a dialog box allowing the 
@@ -23166,52 +23170,76 @@ available at http://www.opencontent.org/openpub/.
 
         </sect2>
 
-		<sect2 id="s2.menu_edit_configure_perspectives">
-		
-		<title>
-			<phrase lang="en">
-				<guiicon>
-					<inlinemediaobject>
-						<imageobject>
-          					<imagedata align="center"
-           						fileref="images/icons/nav_config.gif"
-           						format="GIF"/>
-           				</imageobject>
-           			</inlinemediaobject>
-           		</guiicon>
-           		Perspektiven konfigurieren...
-           </phrase>
-		</title>
-		
-		<para lang="en">This menu-item invokes the same dialog 
-		  as the button at the top of the explorer.
-		  See 
-          <xref linkend="s1.ref.configure_perspectives"/>.
-          for a complete description.</para>
-		<para lang="de">
-			Diese Menüoption ruft den gleichen Dialog auf, wie die Schaltfläche 
-			oben im Explorer. Die vollständige Beschreibung entnehmen Sie bitte  
-			<xref linkend="s1.ref.configure_perspectives"/>.
-        </para>
-		
-		</sect2>
+        <sect2 id="s2.menu_edit_configure_perspectives">
+
+            <title>
+                <phrase lang="en">
+                    <guiicon>
+                        <inlinemediaobject>
+                            <imageobject>
+                                <imagedata align="center"
+                                           fileref="images/icons/nav_config.gif"
+                                           format="GIF"/>
+                            </imageobject>
+                        </inlinemediaobject>
+                    </guiicon>
+                    Configure Perspectives...
+                </phrase>
+                <phrase lang="de">
+                    <guiicon>
+                        <inlinemediaobject>
+                            <imageobject>
+                                <imagedata align="center"
+                                           fileref="images/icons/nav_config.gif"
+                                           format="GIF"/>
+                            </imageobject>
+                        </inlinemediaobject>
+                    </guiicon>
+                    Perspektiven konfigurieren...
+                </phrase>
+            </title>
+
+            <para lang="en">This menu-item invokes the same dialog
+                as the button at the top of the explorer.
+                See
+                <xref linkend="s1.ref.configure_perspectives"/>.
+                for a complete description.</para>
+            <para lang="de">
+                Diese Menüoption ruft den gleichen Dialog auf, wie die Schaltfläche
+                oben im Explorer. Die vollständige Beschreibung entnehmen Sie bitte
+                <xref linkend="s1.ref.configure_perspectives"/>.
+            </para>
+
+        </sect2>
 
         <sect2 id="s2.ref.menu_settings">
 
           <title>
-			<phrase lang="en">
-				<guiicon>
-					<inlinemediaobject>
-						<imageobject>
-          					<imagedata align="center" 
-          						fileref="images/icons/settings.gif"
-           						format="GIF"/>
-           				</imageobject>
-           			</inlinemediaobject>
-           		</guiicon> 
-          		Einstellungen...
-          </phrase>
-		</title>
+              <phrase lang="en">
+                  <guiicon>
+                      <inlinemediaobject>
+                          <imageobject>
+                              <imagedata align="center"
+                                         fileref="images/icons/settings.gif"
+                                         format="GIF"/>
+                          </imageobject>
+                      </inlinemediaobject>
+                  </guiicon>
+                  Settings...
+              </phrase>
+            <phrase lang="de">
+                <guiicon>
+                    <inlinemediaobject>
+                        <imageobject>
+                            <imagedata align="center"
+                                        fileref="images/icons/settings.gif"
+                                        format="GIF"/>
+                        </imageobject>
+                    </inlinemediaobject>
+                </guiicon>
+                Einstellungen...
+            </phrase>
+          </title>
 
           <para lang="en">This menu entry brings up a dialog box, which allows 
           the user to set various options that control the behavior of 
@@ -28670,7 +28698,7 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Add All Classes in Namespace</phrase>
-			<phrase lang="en">Alle Klassen im Namensraum hinzufügen</phrase>
+			<phrase lang="de">Alle Klassen im Namensraum hinzufügen</phrase>
 		  </title>
 
           <para lang="en">This entry on the pop-up menu is available for Class 
@@ -44122,7 +44150,7 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Actor Details Tabs</phrase>
-			<phrase lang="en">Detail-Register Akteur</phrase>
+			<phrase lang="de">Detail-Register Akteur</phrase>
 		  </title>
 
           <indexterm lang="en"><primary>Actor Details Tabs</primary></indexterm>
