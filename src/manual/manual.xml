@@ -29048,6 +29048,7 @@ available at http://www.opencontent.org/openpub/.
 		  </title>
 
           <para lang="en">Where multiple selections are to be made, the CTRL key 
+          or SHIFT key
           is used with button&nbsp;1 to <emphasis>add</emphasis> unselected 
           model elements to the current selection. Where a model element is 
           already selected, it is removed from the current 
@@ -29060,34 +29061,17 @@ available at http://www.opencontent.org/openpub/.
           	Markierung entfernt.
           </para>
 
-          <para lang="en">Clicking Button&nbsp;1 while the SHIFT key is pressed, 
+          <para lang="en">Clicking Button&nbsp;1 while the ALT key
+          or the ALT-GR key is pressed, 
           invokes the broom tool, which causes the selected model elements 
           (and any others swept up with them) to be moved with the 
           broom tool (see <xref linkend="s2.ref.edit_layout"/>).</para>
           <para lang="de">
-          	Klicken auf die Taste&nbsp;1 während die Umschalttaste gedrückt ist, 
+          	Klicken auf die Taste&nbsp;1 während die ALT-GR taste gedrückt ist, 
           	aktiviert das Werkzeug Besen. Dieses veranlasst, dass die markierten 
           	Modellelemente (und alles andere mitbewegt wird) durch den Besen 
           	verschoben wird (siehe <xref linkend="s2.ref.edit_layout"/>).
 		  </para>
-
-        </sect2>
-
-        <sect2>
-
-          <title>
-			<phrase lang="en">Alt with Button&nbsp;1 motion</phrase>
-			<phrase lang="de">Alt Gr mit Taste&nbsp;1-Bewegung</phrase>
-		  </title>
-
-          <para lang="en">Button&nbsp;1 down anywhere in the diagram while the ALT key 
-          is pressed, allows to scroll the canvas in all directions 
-          with button&nbsp;1 motion.</para>
-          <para lang="de">
-          	Das Drücken der Taste&nbsp;1 im Diagramm, während die "ALT Gr"-Taste 
-          	gedrückt ist, erlaubt es, die Leinwand mit der Taste&nbsp;1-
-          	Bewegung in alle Richtungen zu scrollen.
-          </para>
 
         </sect2>
 
@@ -29127,8 +29111,6 @@ available at http://www.opencontent.org/openpub/.
 
         </sect2>
 
-        <sect2>
-
           <title>
 			<phrase lang="en">Button&nbsp;2 Double Click</phrase>
 			<phrase lang="de">Taste&nbsp;2-Doppelklick</phrase>
@@ -29157,6 +29139,27 @@ available at http://www.opencontent.org/openpub/.
           </para>
 
         </sect2>
+        
+        
+        <sect2>
+
+          <title>
+            <phrase lang="en">Middle Button motion</phrase>
+            <phrase lang="de">Alt Gr mit Taste&nbsp;1-Bewegung</phrase>
+          </title>
+
+          <para lang="en">Pressing the Middle mouse Button down 
+          anywhere in the diagram, allows to scroll the canvas in all directions 
+          with middle button motion.</para>
+          <para lang="de">
+            Das Drücken der mittlere Taste im Diagramm, während die "ALT Gr"-Taste 
+            gedrückt ist, erlaubt es, die Leinwand mit der Taste-
+            Bewegung in alle Richtungen zu scrollen.
+          </para>
+
+        </sect2>
+
+        <sect2>
 
       </sect1>
 
@@ -29407,11 +29410,12 @@ available at http://www.opencontent.org/openpub/.
 	              Weg, Dinge auszurichten. 
               </para>
 
-              <para lang="en">The Broom can also be invoked by using SHIFT with 
+              <para lang="en">The Broom can also be invoked by using 
+              ALT or ALT-GR with 
               button&nbsp;1 motion when the <literal>Select</literal> tool 
               is in use.</para>
               <para lang="de">
-              	Der Besen kann auch durch die Umschalttaste mit der 
+              	Der Besen kann auch durch die ALT oder ALT-GR taste mit der 
               	Taste&nbsp;1-Bewegung ausgelöst werden, wenn das Werkzeug 
               	<literal>Auswählen</literal> aktiv ist.
               </para>
