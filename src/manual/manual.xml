@@ -1317,7 +1317,7 @@ available at http://www.opencontent.org/openpub/.
         <para lang="de">
         Ein langfristiges Ziel ist es, diejenigen zu unterstützen, 
         </para>
-        <orderedlist numeration="lowerroman">
+        <orderedlist numeration="lowerroman" lang="de">
         	<listitem>
         		<para lang="de">
         			die das Design erlernen und mit einem OOA&amp;D-Prozess 
@@ -16133,7 +16133,7 @@ available at http://www.opencontent.org/openpub/.
           	<phrase lang="en">
           		Advanced Sequence Diagrams (To be written)
           	</phrase>
-          	<phrase lang="en">
+          	<phrase lang="de">
           		Erweiterte Sequenzdiagramme (Noch zu beschreiben)
           	</phrase>
           </title>
@@ -18083,7 +18083,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">Datatypes and Stereotypes (To be written)</phrase>
-			<phrase lang="en">
+			<phrase lang="de">
 				Datentypen und Stereotypen (Noch zu beschreiben)
 			</phrase>
 		</title>
@@ -38191,10 +38191,10 @@ available at http://www.opencontent.org/openpub/.
 			<phrase lang="en">
 				Composite Association End with Multiplicity &gt;1
 			</phrase>
-			<phrase lang="en">
+			<phrase lang="de">
 				Zusammengesetztes Assoziationsende mit der Kardinalität &gt;1
 			</phrase>
-		</title>
+		  </title>
 
           <para lang="en">An instance may not belong by composition to more than 
           one composite instance. You must change the multiplicity at 
@@ -39221,7 +39221,7 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Reduce Operations on &lt;model element&gt;</phrase>
-			<phrase lang="en">
+			<phrase lang="de">
 				Reduzieren Sie die Anzahl der Operationen im &lt;Modellelement&gt;
 			</phrase>
 		  </title>
@@ -49115,7 +49115,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Properties</literal></term>
-              <term lang="en"><literal>Eigenschaften</literal></term>
+              <term lang="de"><literal>Eigenschaften</literal></term>
 
               <listitem>
 
@@ -49123,7 +49123,7 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.package_property_toolbar"/> and 
                 <xref linkend="s2.ref.package_property_fields"/> 
                 below.</para>
-                <para lang="en">
+                <para lang="de">
                 	Siehe 
                 	<xref linkend="s2.ref.package_property_toolbar"/> und 
                 	<xref linkend="s2.ref.package_property_fields"/> 
@@ -49211,7 +49211,7 @@ available at http://www.opencontent.org/openpub/.
                     is redundant -it can be formally derived from other 
                     elements, or <literal>false</literal> meaning it 
                     cannot.</para>
-                    <para lang="en">
+                    <para lang="de">
 	                    <literal>derived</literal> (von der Superklasse 
 	                    <literal>ModelElement</literal>). Der Wert <literal>true
 	                    </literal> bedeutet, dass das Paket redundant ist - 
@@ -50063,7 +50063,7 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.class_property_toolbar"/> and 
                 <xref linkend="s2.ref.class_property_fields"/> 
                 below.</para>
-                <para lang="en">
+                <para lang="de">
 	                Siehe 
 	                <xref linkend="s2.ref.class_property_toolbar"/> und 
 	                <xref linkend="s2.ref.class_property_fields"/> 
@@ -50212,14 +50212,13 @@ available at http://www.opencontent.org/openpub/.
                     destroyed when an instance is destroyed or <literal>
                     persistent</literal>, marking state is preserved 
                     when an instance is destroyed.</para>
-                    <para lang="en">
+                    <para lang="de">
 	                    <literal>persistence</literal> (von der Superklasse
 	                    s<literal>Classifier</literal>). Die Werte  
 	                    <literal>transitory</literal>, gibt an, dass der Zustand 
 	                    gelöscht wurde, nachdem die Instanz gelöscht oder 
-	                    <literal>persistent</literal> wurde, indicating state is 
-	                    destroyed when an instance is destroyed or <literal>
-	                    persistent</literal>, mit der Kennzeichnung, dass der 
+	                    <literal>persistent</literal> wurde,
+	                    mit der Kennzeichnung, dass der 
 	                    Zustand erhalten bleibt, wenn die Instanz gelöscht wurde.
                     </para>
 
@@ -50719,7 +50718,7 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="en">Check box, with entries <literal>
                 Abstract</literal>, <literal>Leaf</literal>, <literal>
                 Root</literal>, and <literal>Active</literal>.</para>
-                <para lang="en">
+                <para lang="de">
 	                Markierfelder mit den Einträgen <literal>
 	                Abstract</literal>, <literal>Leaf</literal>, <literal>
 	                Root</literal> und <literal>Active</literal>.
@@ -51285,7 +51284,7 @@ available at http://www.opencontent.org/openpub/.
                 <xref linkend="s2.ref.attribute_property_toolbar"/> and 
                 <xref linkend="s2.ref.attribute_property_fields"/> 
                 below.</para>
-                <para lang="en">
+                <para lang="de">
 	                Siehe 
 	                <xref linkend="s2.ref.attribute_property_toolbar"/> und 
 	                <xref linkend="s2.ref.attribute_property_fields"/> 
@@ -51944,7 +51943,7 @@ available at http://www.opencontent.org/openpub/.
                 public</literal>, <literal>private</literal>, 
                 <literal>protected</literal> and 
                 <literal>package</literal>.</para>
-                <para lang="en">
+                <para lang="de">
 	                Auswahlfeld mit den vier Einträgen <literal>
 	                public</literal>, <literal>private</literal>, 
 	                <literal>protected</literal> und 
@@ -73608,7 +73607,7 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
             <phrase lang="en">Stereotypes defined in UML 1.4 and ArgoUML</phrase>
-            <phrase lang="en">UML 1.4 und ArgoUML definierte Stereotypen</phrase>
+            <phrase lang="de">UML 1.4 und ArgoUML definierte Stereotypen</phrase>
           </title>
 
           <tgroup cols="2">
