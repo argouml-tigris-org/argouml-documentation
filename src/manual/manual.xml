@@ -3604,7 +3604,7 @@ available at http://www.opencontent.org/openpub/.
         In der Einleitung listeten wir vier Dinge auf, die ArgoUML anders 
         machen:
         </para>
-        <orderedlist numeration="lowerroman">
+        <orderedlist lang="de" numeration="lowerroman">
         	<listitem>
         		<para lang="de">
         			es macht Gebrauch von den Ideen der kognitiven Psychologie, 
@@ -3662,7 +3662,7 @@ available at http://www.opencontent.org/openpub/.
             ArgoUML ist teilweise durch die drei Theorien der kognitiven 
             Psychologie inspiriert: 
             </para>
-            <orderedlist>
+            <orderedlist lang="de">
             	<listitem>
             		<para lang="de">Reflektion-während-Aktion,</para>
             	</listitem>
@@ -25228,31 +25228,22 @@ available at http://www.opencontent.org/openpub/.
         <sect2 id="s2.ref.create.diagram.use_case_diagram">
 
           <title>
-			<phrase lang="en">
-				<guiicon>
-					<inlinemediaobject>
-						<imageobject>
-          					<imagedata align="center"
+			<guiicon>
+			  <inlinemediaobject>
+				<imageobject>
+          		  <imagedata align="center"
            						fileref="images/icons/use_case_diagram.gif"
            						format="GIF"/>
-           				</imageobject>
-           			</inlinemediaobject>
-           		</guiicon> 
-          		New Use Case Diagram
-          </phrase>
+           		</imageobject>
+           	  </inlinemediaobject>
+           	</guiicon> 
+		    <phrase lang="en">
+          	  New Use Case Diagram
+            </phrase>
 			<phrase lang="de">
-				<guiicon>
-					<inlinemediaobject>
-						<imageobject>
-          					<imagedata align="center"
-           						fileref="images/icons/use_case_diagram.gif"
-           						format="GIF"/>
-           				</imageobject>
-           			</inlinemediaobject>
-           		</guiicon> 
-          		Anwendungsfalldiagramm
-          </phrase>
-		</title>
+          	  Anwendungsfalldiagramm
+            </phrase>
+	      </title>
 
           <para lang="en">This menu entry creates a blank use case diagram, and 
           selects that diagram in the editing pane. If a package is 
@@ -25296,31 +25287,22 @@ available at http://www.opencontent.org/openpub/.
         <sect2 id="s2.ref.create.diagram.class_diagram">
 
           <title>
+            <guiicon>
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata align="center"
+                             fileref="images/icons/class_diagram.gif"
+                             format="GIF"/>
+                </imageobject>
+              </inlinemediaobject>
+            </guiicon> 
 			<phrase lang="en">
-				<guiicon>
-					<inlinemediaobject>
-						<imageobject>
-          					<imagedata align="center"
-           						fileref="images/icons/class_diagram.gif"
-           						format="GIF"/>
-           				</imageobject>
-           			</inlinemediaobject>
-           		</guiicon> 
           		New Class Diagram
-          </phrase>
-			<phrase lang="en">
-				<guiicon>
-					<inlinemediaobject>
-						<imageobject>
-          					<imagedata align="center"
-           						fileref="images/icons/class_diagram.gif"
-           						format="GIF"/>
-           				</imageobject>
-           			</inlinemediaobject>
-           		</guiicon> 
+            </phrase>
+			<phrase lang="de">
           		Klassendiagramm
-          </phrase>
-		</title>
+            </phrase>
+          </title>
 
           <para lang="en">This menu entry creates a blank class diagram, and 
           selects that diagram in the editing pane. If a package is 
@@ -59746,7 +59728,7 @@ available at http://www.opencontent.org/openpub/.
             <varlistentry>
 
               <term lang="en"><literal>Classifier</literal></term>
-              <term lang="en"><literal>Klassifizierer</literal></term>
+              <term lang="de"><literal>Klassifizierer</literal></term>
 
               <listitem>
 
