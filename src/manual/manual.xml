@@ -7456,22 +7456,6 @@ available at http://www.opencontent.org/openpub/.
 		                    Lista de Validación.
 		                  </para>
 		                </listitem>
-		
-		                <listitem>
-			                <para lang="en">
-			                  Remove "images/tutorial/detailsoverview.gif" from file 
-			                  system.
-			                </para>
-		                	<para lang="de">
-		                  		Entfernen Sie "images/tutorial/detailsoverview.gif" 
-		                  		aus dem Dateisystem.
-		                	</para>
-		                  <para lang="es">
-		                    Elimina "images/tutorial/detailsoverview.gif" del sistema 
-		                    de archivos.
-		                  </para>
-		                </listitem>
-		
 		              </itemizedlist>
 	              </para>
 	
@@ -7529,21 +7513,6 @@ available at http://www.opencontent.org/openpub/.
 	                	  Relationa a una etiqueta de Item Pendiente 
 	                	  en el panel de detalles.
 	                	</para>
-	                </listitem>
-	
-	                <listitem>
-		                <para lang="en">
-		                  Remove "images/tutorial/todooverview.gif" from file system.
-		                </para>
-		                <para lang="de">
-		                  Entfernen Sie "images/tutorial/todooverview.gif" aus dem 
-		                  Dateisystem.
-		                </para>
-		                <para lang="es">
-		                  Elimina "images/tutorial/todooverview.gif" del sistema 
-		                  de archivos.
-		                </para>
-		                  
 	                </listitem>
 	
 	              </itemizedlist>
