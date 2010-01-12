@@ -5,7 +5,7 @@
 <bookinfo>
 <title>Slides (HTML) Parameter Reference</title>
 <releaseinfo role="meta">
-$Id: param.xweb,v 1.9 2005/06/17 08:38:11 xmldoc Exp $
+$Id$
 </releaseinfo>
 <author>
   <surname>Walsh</surname>
@@ -1340,7 +1340,7 @@ around all these parameters.</para>
 &lt;xsl:stylesheet exclude-result-prefixes="src" version="1.0"&gt;
 
 &lt;!-- ********************************************************************
-     $Id: param.xweb,v 1.9 2005/06/17 08:38:11 xmldoc Exp $
+     $Id$
      ********************************************************************
 
      This file is part of the DocBook Slides Stylesheet distribution.

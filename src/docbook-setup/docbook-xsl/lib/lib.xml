@@ -4,7 +4,7 @@
 <book>
 <bookinfo>
 <title>XSL Library Template Reference</title>
-<releaseinfo role="cvs">$Id: lib.xweb,v 1.13 2005/07/08 10:35:55 xmldoc Exp $
+<releaseinfo role="cvs">$Id$
 </releaseinfo>
 <corpauthor>DocBook Open Repository Team</corpauthor>
 <copyright>
@@ -1083,7 +1083,7 @@ around these functions.</para>
 <programlisting id="top">
 
 &lt;!-- ********************************************************************
-     $Id: lib.xweb,v 1.13 2005/07/08 10:35:55 xmldoc Exp $
+     $Id$
      ********************************************************************
 
      This file is part of the XSL DocBook Stylesheet distribution.

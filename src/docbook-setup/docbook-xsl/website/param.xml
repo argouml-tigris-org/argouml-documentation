@@ -5,7 +5,7 @@
 <bookinfo>
 <title>Website Parameter Reference</title>
 <releaseinfo role="meta">
-$Id: param.xweb,v 1.3 2005/06/28 12:33:37 xmldoc Exp $
+$Id$
 </releaseinfo>
 <author>
   <surname>Walsh</surname>
@@ -736,7 +736,7 @@ around all these parameters.</para>
 &lt;xsl:stylesheet exclude-result-prefixes="src" version="1.0"&gt;
 
 &lt;!-- ********************************************************************
-     $Id: param.xweb,v 1.3 2005/06/28 12:33:37 xmldoc Exp $
+     $Id$
      ********************************************************************
 
      This file is part of the DocBook XSL Stylesheets distribution.
