@@ -27274,24 +27274,25 @@ available at http://www.opencontent.org/openpub/.
             <listitem>
 
               <para lang="en"><literal>Legal</literal>. A statement of the 
-              FreeBSD license which covers all the ArgoUML 
+              license which covers all the ArgoUML 
               software.</para>
               <para lang="de">
               	<literal>Recht</literal>. 
-              	Ein Auszug der FreeBSD-Lizenz, der die gesamte ArgoUML-Software 
+              	Ein Auszug der Lizenz, der die gesamte ArgoUML-Software 
               	unterliegt.
               </para>
 
               <caution>
 
                 <para lang="en">The various documentation of the project are not 
-                all covered by FreeBSD (which is really meant for 
+                all covered by the mentioned license (which is really meant for 
                 software). In particular this manual is covered by the 
                 OpenPub license (see <xref linkend="app.legal"/>
                 ).</para>
                 <para lang="de">
-                	Die verschiedenen Projektdokumentationen unterliegen nicht 
-                	alle der FreeBSD-Lizenz (wie es für die Software der Fall 
+                	Die verschiedenen Projektdokumentationen unterliegen nicht
+                	<!--  TODO: Review the language after Linus brutally removed the mentioning of FreeBSD. -->
+                	alle der Lizenz (wie es für die Software der Fall 
                 	ist). Im speziellen unterliegt dieses Handbuch der 
                 	OpenPub-Lizenz (siehe <xref linkend="app.legal"/>).
                 </para>
