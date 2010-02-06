@@ -168,6 +168,41 @@ What tools do I need to use this build file?
     <create-pdf doc="manual" lang="es"/>
   </target>
   
+  <!-- targets for Chanise translation -->
+  <target name="quickguide-profile-zh" depends="prepare" >
+    <profile doc="quickguide" lang="zh" />
+  </target>
+  <target name="quickguide-htmlchunked-zh" depends="quickguide-profile-zh"
+  	      description="Generate quickguide-htmlchunked-zh" >
+    <create-htmlchunked doc="quickguide" lang="zh"/>
+  </target>
+  <target name="quickguide-htmlsingle-zh" depends="quickguide-profile-zh"
+    description="Generate quickguide-htmlsingle-zh" >
+    <create-htmlsingle doc="quickguide" lang="zh"/>
+  </target>
+  <target name="quickguide-pdf-zh" depends="jimi-check,quickguide-profile-zh"
+    description="Generate quickguide-pdf-zh" >
+  	<create-pdf doc="quickguide" lang="zh"/>
+  </target>
+  <target name="manual-profile-zh" depends="prepare" >
+    <profile doc="manual" lang="zh" />
+  </target>
+  <target name="manual-htmlchunked-zh" depends="manual-profile-zh"
+          description="Generate manual-htmlchunked-zh" >
+    <create-htmlchunked doc="manual" lang="zh"/>
+  </target>
+  <target name="manual-htmlsingle-zh" depends="manual-profile-zh"
+    description="Generate manual-htmlsingle-zh" >
+    <create-htmlsingle doc="manual" lang="zh"/>
+  </target>
+  <target name="manual-pdf-zh" depends="jimi-check,manual-profile-zh"
+    description="Generate manual-pdf-zh" >
+    <create-pdf doc="manual" lang="zh"/>
+  </target>
+  
+
+	
+	
   <!-- =================================================================== -->
   <!-- htmlchunked-en: Create Englished chunked HTML documentation only    -->
   <!-- =================================================================== -->
