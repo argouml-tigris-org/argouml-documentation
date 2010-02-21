@@ -4961,7 +4961,7 @@ available at http://www.opencontent.org/openpub/.
 
             <title>
               <phrase lang="en">ArgoUML Using Java Web Start</phrase>
-              <phrase lang="en">ArgoUML mit Java Web Start aufrufen</phrase>
+              <phrase lang="de">ArgoUML mit Java Web Start aufrufen</phrase>
               <phrase lang="es">ArgoUML Usando Java Web Start</phrase>
             </title>
 
@@ -9257,7 +9257,7 @@ available at http://www.opencontent.org/openpub/.
               	<phrase lang="en">
               		Importing Other XMI Formats into ArgoUML
               	</phrase>
-              	<phrase lang="en">
+              	<phrase lang="de">
               		Andere XMI-Formate in ArgoUML importieren
               	</phrase>
               	<phrase lang="es">
@@ -13480,7 +13480,7 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
           	<phrase lang="en">Actors</phrase>
-          	<phrase lang="en">Akteure</phrase>
+          	<phrase lang="de">Akteure</phrase>
           </title>
 
           <indexterm lang="en">
