@@ -68,6 +68,7 @@
     <phrase lang="de">&document-title-de;</phrase>
     <phrase lang="es">ArgoUML Quick Guide</phrase>
     <phrase lang="sv">ArgoUML Snabbguide</phrase>
+    <phrase lang="en">ArgoUML 快速入门</phrase>
   </title>
   <bookinfo>
 
@@ -83,6 +84,7 @@
       <phrase lang="de">&document-subtitle-de;</phrase>
       <phrase lang="es">Get started with ArgoUML @VERSION@</phrase>
       <phrase lang="sv">Komma igång med ArgoUML @VERSION@</phrase>
+      <phrase lang="zh">ArgoUML 快速入门 @VERSION@</phrase>
     </subtitle>
     <authorgroup>
       &author-kunle.odu;
@@ -112,6 +114,10 @@
       <year>2008</year>
       <holder>Översättare: Linus Tolke</holder>
     </copyright>
+    <copyright lang="zh">
+      <year>2008</year>
+      <holder>倪森 </holder>
+    </copyright>
 
     <legalnotice>
       <para lang="en">&open-content-license;</para>
@@ -123,6 +129,7 @@ a las condiciones dispuestos en la licencia abierta de publicacion
 está disponible en http://www.opencontent.org/openpub/) 
 </para>
       <para lang="sv">&open-content-license;</para>
+      <para lang="zh">&open-content-license;</para>
     </legalnotice>
 
   </bookinfo>
