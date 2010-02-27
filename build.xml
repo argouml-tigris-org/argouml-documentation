@@ -168,7 +168,7 @@ What tools do I need to use this build file?
     <create-pdf doc="manual" lang="es"/>
   </target>
   
-  <!-- targets for Chanise translation -->
+  <!-- targets for Chinese translation -->
   <target name="quickguide-profile-zh" depends="prepare" >
     <profile doc="quickguide" lang="zh" />
   </target>
