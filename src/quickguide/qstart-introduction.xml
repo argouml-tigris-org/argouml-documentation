@@ -49,6 +49,7 @@
   <title lang="en">Introduction</title>
   <title lang="de">Einleitung</title>
   <title lang="es">Introduccion</title>
+  <title lang="zh">介绍</title>  
 	<!--
 		===========================================================
 			 Chapter "INTRODUCTION" section 
@@ -58,7 +59,7 @@
     <title lang="en">Welcome to &argo;</title>
     <title lang="de">Willkommen bei &argo;</title>
     <title lang="es">Bienvenido a ArgoUML</title>
-
+    <title lang="zh">欢迎来到 &argo;</title>
     <para lang="en">
             &argo; is a powerful yet 
             easy-to-use interactive, graphical software design environment that supports the design, 
@@ -201,7 +202,7 @@ comprension y solucion de problemas
 		<title lang="en">About this guide...</title>
 		<title lang="de">Über diese Kurzanleitung...</title>
       <title lang="es">Acerca de Esta Guia...</title>
-
+		<title lang="zh">关于本入门...</title>
 		<para lang="en">
 			This guide - the &document-title;	- is provided to help you get up and running as quickly as 
 			possible with &argo;.

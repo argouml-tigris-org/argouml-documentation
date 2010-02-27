@@ -28,7 +28,7 @@
 	<title lang="en">Preface</title>
 	<title lang="de">Vorwort</title>
         <title lang="sv">Förord</title>
-
+	<title lang="en">前言</title>
 	<para lang="en">
 		1 April 2001
 	</para>
@@ -38,7 +38,10 @@
         <para lang="sv">
                 1:e april 2001
         </para>
-
+	<para lang="zh">
+		2001-4-1
+	</para>
+	
 	<para lang="en">
 		In the last decade of the last millenium, object-oriented (OO) technology finally completed it's 
 		transformation from a laboratory curiousity in the 1960s to become <emphasis>the</emphasis> mainstream 

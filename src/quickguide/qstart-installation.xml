@@ -31,12 +31,12 @@ Part of the QuickGuide: Installation.
 	<title lang="en">Installing ArgoUML</title>
 	<title lang="de">ArgoUML installieren</title>
   <title lang="es">Instalando ArgoUML</title>
-
+	<title lang="zh">安装  ArgoUML</title>
 	<sect1>
 		<title lang="en">System requirements</title>
 		<title lang="de">Systemanforderungen</title>
     <title lang="es">Instalando ArgoUML</title>
-
+		<title lang="zh">系统要求</title>
 			<para lang="en">
 Minimum system requirements:
 				<itemizedlist>
@@ -110,7 +110,7 @@ Minimum system requirements:
 		<title lang="en">Installation options</title>
 		<title lang="de">Installationsoptionen</title>
       <title lang="es">Opcion de Instalacio</title>
-
+		<title lang="zh">安装选项</title>
 		<para lang="en">
 			Now that you have a computer that can install and run ArgoUML effectively, you need to decide which 
 			of the installation options available is appropriate for you. You can choose from the following options:
@@ -515,7 +515,7 @@ en la linea de mando, o via un archivo batch.
     <title lang="en">Installing Auxiliary Modules</title>
     <title lang="de">Installieren zusätzlicher Module</title>
     <title lang="es">Instalando Modulos Auxiliares</title>
-
+    <title lang="zh">安装辅助模块</title>
     <para lang="en">
       The standard installation of ArgoUML 
       already comes with several modules 
@@ -577,7 +577,7 @@ en la linea de mando, o via un archivo batch.
     <title lang="en">Command Line Options</title>
     <title lang="de">Kommandozeilen-Optionen</title>
     <title lang="es">Opciones de Lia de Comandos</title>
-    
+    <title lang="zh">命令行选项</title>    
     <para lang="en">When starting ArgoUML from a command line, 
     there are several extra possibilities.
     Try typing:</para>
@@ -720,7 +720,8 @@ You can also set java settings which influence the behaviour of ArgoUML:
   <sect1>
     <title lang="en">Making .zargo-file clickable (on any Windows)</title>
     <title lang="de">Die .zargo-Datei anklickbar machen (unter Windows)</title>
-
+    <title lang="zh">使 .zargo文件双击打开 (仅仅Windows)</title>
+    
     <para lang="en">The Windows installer for ArgoUML 
     assigns the ".zargo" extension to the ArgoUML application, 
     so that double or single clicking on a ArgoUML project file 
@@ -745,7 +746,7 @@ You can also set java settings which influence the behaviour of ArgoUML:
     <title lang="en">Making .zargo-file clickable (on Windows XP)</title>
     <title lang="de">Die .zargo-Datei anklickbar machen (unter Windows XP)</title>
     <title lang="es">Haciend el archivo .zargo clickable (sobre Windows XP)</title>
-
+    <title lang="zh">使 .zargo文件双击打开(在Windows XP上)</title>
     <sect2info>
       <authorgroup>
         <author>
@@ -922,6 +923,8 @@ Please don't try it there - see the next chapter instead.
     <title lang="en">Making .zargo-file clickable (on Windows Vista)</title>
     <title lang="de">Die .zargo-Datei anklickbar machen (unter Windows Vista)</title>
     <title lang="es">Haciend el archivo .zargo clickable (sobre Windows Vista)</title>
+    <title lang="zh">使 .zargo文件双击打开(在Windows Vista上)</title>
+ 
     <sect2info>
       <authorgroup>
         <author>

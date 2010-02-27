@@ -30,28 +30,32 @@
 	<title lang="en">ArgoUML Principles</title>
 	<title lang="de">ArgoUML Prinzipien</title>
     <title lang="es">Principios de ArgoUML</title>
-
+    <title lang="zh">ArgoUML的原则</title>
 	<para lang="en">
     When ArgoUML starts, it shows an empty class diagram
     on which you can add various objects. ArgoUML works according the following
     principles:
-  </para>
+    </para>
 	<para lang="de">
 	Nach dem Start von ArgoUML wird ein leeres Klassendiagramm angezeigt, in 
 	das Sie die unterschiedlichsten Objekte hinzufügen können. ArgoUML 
 	arbeitet nach folgenden Prinzipien:
-  </para>
+    </para>
     <para lang="es">
       Cuando ArgoUML comienza, entonces se muestra un diagrama de clases vacio 
       al cual puede añadir varios objetos.
       ArgoUML trabaja de acuerdo a los siguientes principios:
     </para>
-
+	<para lang="zh">翻译为中文:
+    When ArgoUML starts, it shows an empty class diagram
+    on which you can add various objects. ArgoUML works according the following
+    principles:
+	</para>
   <section>
     <title lang="en">Project, Model and Diagram</title>
     <title lang="de">Projekt, Modell und Diagramm</title>
     <title lang="es">Proyecto, Modelo y Diagrama</title>
-
+    <title lang="zh">项目、模型、图形</title>
     <para lang="en">
       The file operations save and open handle one 
       <literal>project</literal> at a
@@ -73,6 +77,13 @@
       Un <literal>proyecto</literal> corresponde a un 
       <literal>modelo</literal> mas la informacion del diagrama
       i.e. todas las cosas que puedes editar a traves de la ventana ArgoUML.
+    </para>
+    <para lang="zh"> 未翻译的:
+      The file operations save and open handle one 
+      <literal>project</literal> at a
+      time. One <literal>project</literal> corresponds to a
+      <literal>model</literal> plus diagram information, 
+      i.e. everything you can edit within the ArgoUML window. 
     </para>
 
     <para lang="en">
@@ -183,7 +194,7 @@
     <title lang="en">Objects</title>
     <title lang="de">Objekte</title>
     <title lang="es">Objetos</title>
-
+    <title lang="zh">对象</title>
     <para lang="en">
       Select objects by left-clicking on them.
       The functionality of ArgoUML can be activated in the menu, 
@@ -209,7 +220,13 @@
       el boton derecho sobre un objeto.
       Muchos de estas funciones trabajan sobre los objetos seleccionados
     </para>
-
+    <para lang="zh">未翻译的:
+      Select objects by left-clicking on them.
+      The functionality of ArgoUML can be activated in the menu, 
+      in toolbars,
+      or in pop-up menus when right-clicking above an object.
+      Many of these functions work on the selected objects.
+    </para>
     <para lang="en">
       All diagrams have toolbars at the top which are used 
       to create objects on the diagram.
@@ -275,7 +292,7 @@
 		<title lang="en">Overview of the window</title>
 		<title lang="de">Überblick über das Fenster</title>
     <title lang="es">Resumen de la Ventana</title>
-
+   <title lang="zh">窗口概览</title>
 		<para lang="en">
       The top of the window contains a menu bar with commands available.
       In the <literal>File</literal> menu you can store the project or 
