@@ -187,9 +187,15 @@
 		Hauptentwicklungsrichtung vorantrieb.
 	</para>
         <para lang="sv">
-                Tillgängligheten av flera olika OO-metoder och???
-                det slutgiltiga anammandet av det standardiserade
-                språket för att kommunicera OO-koncept fortsatte???
+                Tillgängligheten av flera olika OO-metoder och
+                det slutgiltiga anammandet av Unified Modelling Language (UML) som 
+                det standardiserade språket för att kommunicera OO-koncept fortsatte
+                att införa OO-teknologin som norm.
+                Framgången för det objekt-baserade språket Visual Basic och den
+                samtidiga utvecklingen och blixt-snabba anammandet av 
+                det objekt-orienterade programspråket Java var katalysatorn som
+                behövdes för de sista stegen av anammandet av OO-teknologin som
+                norm.
         </para>
 
 	<para lang="en">
@@ -265,6 +271,44 @@
 			</listitem>
 		</itemizedlist>
 	</para>
+	<para lang="sv">
+	    ArgoUML skapades som ett verktyg för och en verktygsomgivning
+	    för att använda vid analys och design av objekt-orienterade
+	    mjukvarusystem.
+	    I detta avseende liknar det flera av de kommerciella 
+	    programvaruutvecklingsverktygen som säljs som verktyg för att 
+	    modellera mjukvarusystem.
+	    ArgoUML har några viktiga skillnader från många av dessa verktyg:
+		<itemizedlist>
+			<listitem>
+				<para lang="sv">
+				    ArgoUML har flera funktioner som stödjer de kognitiva behoven hos
+				    objektorienterade mjukvaruutvecklare och arkitekter.
+				</para>
+			</listitem>
+			<listitem>
+				<para lang="sv">
+				    ArgoUML arbetar uteslutande med öppna standarder - UML, XMI, SVG, OCL med flera.
+				    I detta avseende är ArgoUML fortfarande (fem år efteråt) långt före många kommerciella verktyg.
+				</para>
+			</listitem>
+			<listitem>
+				<para lang="sv">
+				    ArgoUML är till 100% utvecklat i Java.
+				    Detta gör att ArgoUML kör på alla plattformar där det finns en tillförlitlig
+				    portering av Java2.
+				</para>
+			</listitem>
+			<listitem>
+				<para lang="sv">
+				    ArgoUML är Open Source.
+				    Tillgängligheten till källkoden gör att nya mjukvaruutvecklare och forskare
+				    har ett fungerande ramverk som de kan använda för vidare utveckling av
+				    CASE-verktygstekniker.
+				</para>
+			</listitem>
+		</itemizedlist>
+	</para>
 
 	<para lang="en">
 		In creating the ArgoUML development tool and environment, Jason Robbins and the rest of his research team at 
@@ -280,6 +324,16 @@
 		Werkzeug für das OO-Design zu produzieren und darüber hinaus als 
 		Testumgebung für die Evolution der Entwicklung und Forschung von 
 		OO-CASE-Tools.
+	</para>
+	<para lang="sv">
+	    Genom skapandet av utvecklingsverktyget och omgivningen ArgoUML har 
+	    Jason Robbins och resten av hans utvecklingsgrupp på UCL 
+	    utnyttjat den särställning som UML har som objekt-orienterat
+	    modelleringsspråk och Java såsom den mest framgångsrika 
+	    objekt-orienterade utvecklingsplattformen för att skapa ett stabilt
+	    verktyg för objekt-orienterad systemutveckling och
+	    att skapa förutsättningarna för utveckling av OO CASE-verktygt och 
+	    forskning.
 	</para>
 
 	<para>
