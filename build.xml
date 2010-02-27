@@ -168,6 +168,38 @@ What tools do I need to use this build file?
     <create-pdf doc="manual" lang="es"/>
   </target>
   
+  <!-- targets for Swedish translations -->
+  <target name="quickguide-profile-sv" depends="prepare" >
+    <profile doc="quickguide" lang="sv" />
+  </target>
+  <target name="quickguide-htmlchunked-sv" depends="quickguide-profile-sv"
+  	      description="Generate quickguide-htmlchunked-sv" >
+    <create-htmlchunked doc="quickguide" lang="sv"/>
+  </target>
+  <target name="quickguide-htmlsingle-sv" depends="quickguide-profile-sv"
+    description="Generate quickguide-htmlsingle-sv" >
+    <create-htmlsingle doc="quickguide" lang="sv"/>
+  </target>
+  <target name="quickguide-pdf-sv" depends="jimi-check,quickguide-profile-sv"
+    description="Generate quickguide-pdf-sv" >
+  	<create-pdf doc="quickguide" lang="sv"/>
+  </target>
+  <target name="manual-profile-sv" depends="prepare" >
+    <profile doc="manual" lang="sv" />
+  </target>
+  <target name="manual-htmlchunked-sv" depends="manual-profile-sv"
+          description="Generate manual-htmlchunked-sv" >
+    <create-htmlchunked doc="manual" lang="sv"/>
+  </target>
+  <target name="manual-htmlsingle-sv" depends="manual-profile-sv"
+    description="Generate manual-htmlsingle-sv" >
+    <create-htmlsingle doc="manual" lang="sv"/>
+  </target>
+  <target name="manual-pdf-sv" depends="jimi-check,manual-profile-sv"
+    description="Generate manual-pdf-sv" >
+    <create-pdf doc="manual" lang="sv"/>
+  </target>
+
   <!-- targets for Chinese translation -->
   <target name="quickguide-profile-zh" depends="prepare" >
     <profile doc="quickguide" lang="zh" />
@@ -217,8 +249,10 @@ What tools do I need to use this build file?
   <!-- docs: Generates all documentation in all formats and languages      -->
   <!-- =================================================================== -->
   <target name="docs" 
-          description="Create all versions of all documents."
-  	      depends="
+          description="Create all versions of all documents.
+          This target is used by the nightly build."
+
+          depends="
 	
   	      quickguide-htmlchunked-en,quickguide-htmlsingle-en,quickguide-pdf-en,
 	      manual-htmlchunked-en,manual-htmlsingle-en,manual-pdf-en,
@@ -229,7 +263,11 @@ What tools do I need to use this build file?
           quickguide-htmlchunked-es,quickguide-htmlsingle-es,quickguide-pdf-es,
           manual-htmlchunked-es,manual-htmlsingle-es,manual-pdf-es,
 
-          tidy
+          quickguide-htmlchunked-sv,quickguide-htmlsingle-sv,quickguide-pdf-sv,
+
+  	      quickguide-htmlchunked-zh,quickguide-htmlsingle-zh,quickguide-pdf-zh,
+
+  	      tidy
   	      " />
 	
   <!-- =================================================================== -->
