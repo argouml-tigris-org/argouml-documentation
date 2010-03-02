@@ -25,45 +25,6 @@ If you want to view the latest existing argouml documenation please use
 the 'nightly build' links on the left hand pane.
 </p>  
 
-<p>
-The English documentation is now active from this project!  The other translations
-are in the process of being migrated from their previous homes, into this project.
-</p>
-
-<div class="h3">
-<h3>Migration Aims</h3>
-<ul>
-<li>To reduce the workload of maintaining the documentation build process 
-seperately for each language.</li>
-<li>To improve the consistency between translations by having a common base 
-manual.</li>
-<li>To make it easier for contributors to set up new languages.</li>
-</ul>
-
-<div class="h3">
-<h3>Migration Plan</h3>
-<p>
-The migration plan is now nearly complete.
-</p>
-<ol>
-<li>[LT] Create the argouml-documentation project (done)</li>
-<li>[LT?] Make an announcement to all the dev lists of all translation 
-projects (done?)</li>
-<li>[LT/MVW] Grant roles in the argouml-documentation project for people from 
-all different languages that want to work with the documentation. (done?)</li>
-<li>[DT] Move the current English documentation to the argouml-documentation 
-project together with the tools. (done)</li>
-<li>[DT] Update the Cookbook and website with the new instructions. 
-(<a href="http://argouml-stats.tigris.org/documentation/defaulthtml/cookbook/ch02s08.html">done</a>)</li>
-<li>[DT(+LT?)] Update the build scripts to work with the new location (nightly build 
-and release scripts). (done)</li>
-<li>[???] Make a decision on how the structure of pictures for the
-separate languages are handled. (<a href="http://argouml-documentation.tigris.org/servlets/ReadMsg?list=dev&msgNo=12">done</a>)</li>
-<li>[DT] Update the tools to be able to build multiple translations. (done)</li>
-<li>[DT?] Migrate the German and Spanish translations into the argouml-documenation 
-project</li>
-</ol>
-
 <h3>Project Goals</h3>
 
 <ul>
@@ -85,17 +46,36 @@ describing how to use ArgoUML and it's features.</li>
 describing how to get up and running with the basics.</li>
 </ul>
 
-
-<h3>Related resources</h3>
-
-<ul>            
 <p>
-This project is part of the 
-<a href="http://argouml.tigris.org/">ArgoUML</a> project.
-<li><a href="http://argouml-stats.tigris.org/documentation/defaulthtml/cookbook/">ArgoUML 
-Cookbook</a> (ArgoUML developer's handbook).</li>
+To reduce the workload of maintaining the documentation build process
+seperately for each language and to improve the consistency between
+translations we have a common source document where the languages
+exists side by side.
 
-</ul>
+For each section, paragraph etc. the languages are sorted in the
+order: English, and then the languages in alphabetic order of their
+iso-639-1 two-letter code:
+  German (de), 
+  Spanish (es), 
+  Swedish (sv), and
+  Chinese (zh).
+</p>
+
+<p>
+Images that are for the English translation is located in a tree in
+the images subdirectory (in the quickguide and manual directories
+respectively).
+When language-specific images are added, make a subdirectory for
+each language and mimic the tree there. So:
+</p>
+<pre>
+manual/images
+manual/images/reference/activity_diagram.gif
+manual/images/de
+manual/images/de/reference/aktivitatsdiagramm.gif (of activity_diagram.gif)
+manual/images/es
+...
+</pre>
 
 </body>
 </html>
