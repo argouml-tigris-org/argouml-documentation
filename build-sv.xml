@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- $Id: build.xml 258 2010-03-28 21:23:44Z linus $ -->
+<!-- ArgoUML Manuals & Documentation Build file template for a language     -->
+<!--                                                                        -->
+<!-- The build-CODE.xml files are generated from the                        -->
+<!-- build-language-template.xml file using the create-import-files target. -->
+<!-- Don't edit them individually. Instead edit either the template file    -->
+<!-- or the creation rule.                                                  -->
+<!--                                                                        -->
+<!-- Modified: Linus Tolke     -->
+
+<project name="Swedish" default="htmlchunked-sv" basedir=".">
+  <target name="quickguide-profile-sv" depends="prepare" >
+    <profile doc="quickguide" lang="sv" />
+  </target>
+  <target name="quickguide-htmlchunked-sv" depends="quickguide-profile-sv"
+  	      description="Generate quickguide-htmlchunked-sv" >
+    <create-htmlchunked doc="quickguide" lang="sv"/>
+  </target>
+  <target name="quickguide-htmlsingle-sv" depends="quickguide-profile-sv"
+    description="Generate quickguide-htmlsingle-sv" >
+    <create-htmlsingle doc="quickguide" lang="sv"/>
+  </target>
+  <target name="quickguide-pdf-sv" depends="jimi-check,quickguide-profile-sv"
+    description="Generate quickguide-pdf-sv" >
+  	<create-pdf doc="quickguide" lang="sv"/>
+  </target>
+  <target name="manual-profile-sv" depends="prepare" >
+    <profile doc="manual" lang="sv" />
+  </target>
+  <target name="manual-htmlchunked-sv" depends="manual-profile-sv"
+          description="Generate manual-htmlchunked-sv" >
+    <create-htmlchunked doc="manual" lang="sv"/>
+  </target>
+  <target name="manual-htmlsingle-sv" depends="manual-profile-sv"
+    description="Generate manual-htmlsingle-sv" >
+    <create-htmlsingle doc="manual" lang="sv"/>
+  </target>
+  <target name="manual-pdf-sv" depends="jimi-check,manual-profile-sv"
+    description="Generate manual-pdf-sv" >
+    <create-pdf doc="manual" lang="sv"/>
+  </target>
+</project>

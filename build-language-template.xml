@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- $Id: build.xml 258 2010-03-28 21:23:44Z linus $ -->
+<!-- ArgoUML Manuals & Documentation Build file template for a language     -->
+<!--                                                                        -->
+<!-- The build-CODE.xml files are generated from the                        -->
+<!-- build-language-template.xml file using the create-import-files target. -->
+<!-- Don't edit them individually. Instead edit either the template file    -->
+<!-- or the creation rule.                                                  -->
+<!--                                                                        -->
+<!-- Modified: Linus Tolke     -->
+
+<project name="@LANGUAGE@" default="htmlchunked-@CODE@" basedir=".">
+  <target name="quickguide-profile-@CODE@" depends="prepare" >
+    <profile doc="quickguide" lang="@CODE@" />
+  </target>
+  <target name="quickguide-htmlchunked-@CODE@" depends="quickguide-profile-@CODE@"
+  	      description="Generate quickguide-htmlchunked-@CODE@" >
+    <create-htmlchunked doc="quickguide" lang="@CODE@"/>
+  </target>
+  <target name="quickguide-htmlsingle-@CODE@" depends="quickguide-profile-@CODE@"
+    description="Generate quickguide-htmlsingle-@CODE@" >
+    <create-htmlsingle doc="quickguide" lang="@CODE@"/>
+  </target>
+  <target name="quickguide-pdf-@CODE@" depends="jimi-check,quickguide-profile-@CODE@"
+    description="Generate quickguide-pdf-@CODE@" >
+  	<create-pdf doc="quickguide" lang="@CODE@"/>
+  </target>
+  <target name="manual-profile-@CODE@" depends="prepare" >
+    <profile doc="manual" lang="@CODE@" />
+  </target>
+  <target name="manual-htmlchunked-@CODE@" depends="manual-profile-@CODE@"
+          description="Generate manual-htmlchunked-@CODE@" >
+    <create-htmlchunked doc="manual" lang="@CODE@"/>
+  </target>
+  <target name="manual-htmlsingle-@CODE@" depends="manual-profile-@CODE@"
+    description="Generate manual-htmlsingle-@CODE@" >
+    <create-htmlsingle doc="manual" lang="@CODE@"/>
+  </target>
+  <target name="manual-pdf-@CODE@" depends="jimi-check,manual-profile-@CODE@"
+    description="Generate manual-pdf-@CODE@" >
+    <create-pdf doc="manual" lang="@CODE@"/>
+  </target>
+</project>

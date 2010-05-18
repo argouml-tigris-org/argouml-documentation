@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- $Id: build.xml 258 2010-03-28 21:23:44Z linus $ -->
+<!-- ArgoUML Manuals & Documentation Build file template for a language     -->
+<!--                                                                        -->
+<!-- The build-CODE.xml files are generated from the                        -->
+<!-- build-language-template.xml file using the create-import-files target. -->
+<!-- Don't edit them individually. Instead edit either the template file    -->
+<!-- or the creation rule.                                                  -->
+<!--                                                                        -->
+<!-- Modified: Linus Tolke     -->
+
+<project name="Chinese" default="htmlchunked-zh" basedir=".">
+  <target name="quickguide-profile-zh" depends="prepare" >
+    <profile doc="quickguide" lang="zh" />
+  </target>
+  <target name="quickguide-htmlchunked-zh" depends="quickguide-profile-zh"
+  	      description="Generate quickguide-htmlchunked-zh" >
+    <create-htmlchunked doc="quickguide" lang="zh"/>
+  </target>
+  <target name="quickguide-htmlsingle-zh" depends="quickguide-profile-zh"
+    description="Generate quickguide-htmlsingle-zh" >
+    <create-htmlsingle doc="quickguide" lang="zh"/>
+  </target>
+  <target name="quickguide-pdf-zh" depends="jimi-check,quickguide-profile-zh"
+    description="Generate quickguide-pdf-zh" >
+  	<create-pdf doc="quickguide" lang="zh"/>
+  </target>
+  <target name="manual-profile-zh" depends="prepare" >
+    <profile doc="manual" lang="zh" />
+  </target>
+  <target name="manual-htmlchunked-zh" depends="manual-profile-zh"
+          description="Generate manual-htmlchunked-zh" >
+    <create-htmlchunked doc="manual" lang="zh"/>
+  </target>
+  <target name="manual-htmlsingle-zh" depends="manual-profile-zh"
+    description="Generate manual-htmlsingle-zh" >
+    <create-htmlsingle doc="manual" lang="zh"/>
+  </target>
+  <target name="manual-pdf-zh" depends="jimi-check,manual-profile-zh"
+    description="Generate manual-pdf-zh" >
+    <create-pdf doc="manual" lang="zh"/>
+  </target>
+</project>

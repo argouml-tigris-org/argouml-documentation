@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- $Id: build.xml 258 2010-03-28 21:23:44Z linus $ -->
+<!-- ArgoUML Manuals & Documentation Build file template for a language     -->
+<!--                                                                        -->
+<!-- The build-CODE.xml files are generated from the                        -->
+<!-- build-language-template.xml file using the create-import-files target. -->
+<!-- Don't edit them individually. Instead edit either the template file    -->
+<!-- or the creation rule.                                                  -->
+<!--                                                                        -->
+<!-- Modified: Linus Tolke     -->
+
+<project name="Italian" default="htmlchunked-it" basedir=".">
+  <target name="quickguide-profile-it" depends="prepare" >
+    <profile doc="quickguide" lang="it" />
+  </target>
+  <target name="quickguide-htmlchunked-it" depends="quickguide-profile-it"
+  	      description="Generate quickguide-htmlchunked-it" >
+    <create-htmlchunked doc="quickguide" lang="it"/>
+  </target>
+  <target name="quickguide-htmlsingle-it" depends="quickguide-profile-it"
+    description="Generate quickguide-htmlsingle-it" >
+    <create-htmlsingle doc="quickguide" lang="it"/>
+  </target>
+  <target name="quickguide-pdf-it" depends="jimi-check,quickguide-profile-it"
+    description="Generate quickguide-pdf-it" >
+  	<create-pdf doc="quickguide" lang="it"/>
+  </target>
+  <target name="manual-profile-it" depends="prepare" >
+    <profile doc="manual" lang="it" />
+  </target>
+  <target name="manual-htmlchunked-it" depends="manual-profile-it"
+          description="Generate manual-htmlchunked-it" >
+    <create-htmlchunked doc="manual" lang="it"/>
+  </target>
+  <target name="manual-htmlsingle-it" depends="manual-profile-it"
+    description="Generate manual-htmlsingle-it" >
+    <create-htmlsingle doc="manual" lang="it"/>
+  </target>
+  <target name="manual-pdf-it" depends="jimi-check,manual-profile-it"
+    description="Generate manual-pdf-it" >
+    <create-pdf doc="manual" lang="it"/>
+  </target>
+</project>
