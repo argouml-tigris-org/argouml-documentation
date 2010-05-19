@@ -2,7 +2,7 @@
 <!-- $Id$ -->
 <!--
  *******************************************************************************
- * Copyright (c) 2009 Contributors - see below
+ * Copyright (c) 2009-2010 Contributors - see below
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -10,6 +10,7 @@
  *
  * Contributors:
  *    Linus Tolke
+ *    Yuri Cervoni yurop85@gmail.com - Italian translation.
  *******************************************************************************
  *
  * Some portions of this file was previously release using the BSD License:
@@ -70,8 +71,12 @@
   -->
   <!ENTITY document-title   'ArgoUML Quick Guide'>
   <!ENTITY document-subtitle  'Get started with ArgoUML @VERSION@'>
+
   <!ENTITY document-title-de   'ArgoUML Kurzanleitung'>
   <!ENTITY document-subtitle-de  'Beginnen Sie mit ArgoUML @VERSION@'>
+
+  <!ENTITY document-title-it   'Guida di introduzione a ArgoUML'>
+  <!ENTITY document-subtitle-it  'Comincia ad impare ArgoUML @VERSION@'>
 ]>
 
 
@@ -80,6 +85,7 @@
     <phrase lang="en">&document-title;</phrase>
     <phrase lang="de">&document-title-de;</phrase>
     <phrase lang="es">ArgoUML Quick Guide</phrase>
+    <phrase lang="it">&document-title-it;</phrase>
     <phrase lang="sv">ArgoUML Snabbguide</phrase>
     <phrase lang="zh">ArgoUML 快速入门</phrase>
   </title>
@@ -96,9 +102,11 @@
       <phrase lang="en">&document-subtitle;</phrase>
       <phrase lang="de">&document-subtitle-de;</phrase>
       <phrase lang="es">Get started with ArgoUML @VERSION@</phrase>
+	  <phrase lang="it">&document-subtitle-it;</phrase>
       <phrase lang="sv">Komma igång med ArgoUML @VERSION@</phrase>
       <phrase lang="zh">ArgoUML 快速入门 @VERSION@</phrase>
     </subtitle>
+
     <authorgroup>
       &author-kunle.odu;
       &author-anthony.ogu;
@@ -111,6 +119,7 @@
         <surname>van der Wulp</surname>
       </author>
     </authorgroup>
+
     <copyright>
       <year>2001</year>
       <holder>Kunle Odutola</holder>
@@ -122,6 +131,10 @@
     <copyright lang="de">
       <year lang="de">2008</year>
       <holder lang="de">Übersetzung: Harald Braun</holder>
+    </copyright>
+    <copyright lang="it">
+      <year lang="it">2010</year>
+      <holder lang="it">Yuri Cervoni yurop85@gmail.com</holder>
     </copyright>
     <copyright lang="sv">
       <year>2008</year>
@@ -141,6 +154,7 @@ a las condiciones dispuestos en la licencia abierta de publicacion
 (Open Publication License), v1.0 o superior (la version mas actual
 está disponible en http://www.opencontent.org/openpub/) 
 </para>
+	  <para lang="it">&open-content-license;</para>
       <para lang="sv">&open-content-license;</para>
       <para lang="zh">&open-content-license;</para>
     </legalnotice>
