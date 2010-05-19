@@ -40,6 +40,7 @@
 <preface>
 	<title lang="en">Preface</title>
 	<title lang="de">Vorwort</title>
+	<title lang="it">Prefazione</title>
         <title lang="sv">Förord</title>
 	<title lang="en">前言</title>
 	<para lang="en">
@@ -47,6 +48,9 @@
 	</para>
 	<para lang="de">
 		1. April 2001
+	</para>
+		<para lang="it">
+		1 Aprile 2001
 	</para>
         <para lang="sv">
                 1:e april 2001
@@ -72,6 +76,13 @@
 		-entwicklern und anderen, in den Softwareentwicklungsprozess 
 		involvierten Personen erforderte.
 	</para>
+	<para lang="it">
+Nell'ultimo decennio dello scorso millennio, la tecnologia object-oriented (OO) ha finalmente completato	
+la sua trasformazione da una curiosità di laboratorio nel 1960 per diventare  <emphasis>il</emphasis>
+principale aradigma dello sviluppo software. E 'stato un viaggio lungo e difficile - che si è chiuso nell' oscurità -
+in primo luogo perché la tecnologia OO richiedeva una svolta importante nel pensiero dei progettisti di sistemi,
+gli sviluppatori e tutti gli altri soggetti coinvolti nel ciclo di vita di sviluppo software.
+		</para>	
 	<para lang="sv">
 		I förra årtusendets sista decennium,
 		gick objektorienterad teknologi (OO) från att vara
