@@ -75,8 +75,8 @@
   <!ENTITY document-title-de   'ArgoUML Kurzanleitung'>
   <!ENTITY document-subtitle-de  'Beginnen Sie mit ArgoUML @VERSION@'>
 
-  <!ENTITY document-title-it   'Guida di introduzione a ArgoUML'>
-  <!ENTITY document-subtitle-it  'Comincia ad impare ArgoUML @VERSION@'>
+  <!ENTITY document-title-it   'Guida introduttiva ad ArgoUML'>
+  <!ENTITY document-subtitle-it  'inizia ad usare ArgoUML @VERSION@'>
 ]>
 
 
