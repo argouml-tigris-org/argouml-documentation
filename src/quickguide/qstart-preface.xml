@@ -118,6 +118,18 @@ gli sviluppatori e tutti gli altri soggetti coinvolti nel ciclo di vita di svilu
 		war nun für die Entwicklung verfügbar...
 		gut, die OO-Programmierung war das Mindeste.
 	</para>
+	<para lang="it">
+		Non è stato così fino all'introduzione di linguaggi OO-ibridi come il C + +, 
+		Classic Ada e Object Pascal avvenuta negli anni Ottanta 
+		quando questa tecnologia è  stata introdotta e data la possibilità di essere sperimenta.
+		Questi linguaggi mescolano il supporto per la programmazione OO con quello 
+		per la tradizionale programmazione procedurale. 
+		La mancanza della programmazione procedurale nei linguaggi OO aveva ostacolato 
+		l'adozione di tale tecnologia per molti anni. 
+		Il viaggio  iniziato con l'introduzione degli “oggetti” nel linguaggio di programmazione “Simula” nel 1960 
+		era ormai completato. La tecnologia OO era ora accessibile a tutti ... 
+		beh, la programmazione OO non è venuta meno!
+	</para>
 	<para lang="sv">
                 Det var inte förrän OO-blandspråken såsom 
                 C++, Klassisk Ada och Objekt Pascal,
@@ -159,6 +171,18 @@ gli sviluppatori e tutti gli altri soggetti coinvolti nel ciclo di vita di svilu
 		in die Lage, sehr viel komplexere Systeme als vorher zu designen und 
 		erfolgreich zu implementieren.
         </para>
+	   <para lang="it">
+	    	La simulazione è la premessa di base che sostiene la tecnologia OO. 
+	    	Un sistema OO è stato progettato e attuato essenzialmente come una simulazione del mondo reale 
+	    	utilizzando artefatti software. Questa premessa è tanto potente quanto è semplice. 
+	    	Con la progettazione e realizzazione di sistemi software in questo modo, 
+	    	lo stesso linguaggio e le idee possono essere utilizzate nell'analisi, 
+	    	progettazione e realizzazione di sistemi OO. Ciò ha permesso ad un sistema di essere progettato e testato 
+	    	(o più correttamente avvalersi che sistema venga simulato) senza dover costruire effettivamente 
+	    	il primo sistema. Questa caratteristica unita alla capacità di progettare sistemi ad un livello molto elevato 
+	    	ha permesso ad  esperti professionisti OO di progettare e implementare con successo sistemi 
+	    	più complessa di quanto fosse precedentemente possibile.
+        </para>
         <para lang="sv">
                 Simulering är den grundläggande förutsättningen för att
                 bygga upp OO-teknologin.
@@ -197,6 +221,13 @@ gli sviluppatori e tutti gli altri soggetti coinvolti nel ciclo di vita di svilu
 		für die rasante Übernahme der OO-Technologie in die 
 		Hauptentwicklungsrichtung vorantrieb.
 	</para>
+	<para lang="it">
+		La disponibilità di metodologie OO diverse e dell'eventuale adozione della Unified Modelling Language (UML), 
+		come linguaggio standard per comunicare i concetti OO consente di affermare la tecnologia OO come corrente principale. 
+		La popolarità del linguaggio object-based Visual Basic, lo sviluppo parallelo e l'adozione meteoriche 
+		di un linguaggio completamente orientato ad oggetti (Java) è stato il catalizzatore finale che ha alimentato 
+		la fase finale di una rapida adozione delle tecnologie OO come tendeza diffusa
+	</para>	
         <para lang="sv">
                 Tillgängligheten av flera olika OO-metoder och
                 det slutgiltiga anammandet av Unified Modelling Language (UML) som 
