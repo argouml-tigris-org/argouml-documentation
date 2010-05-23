@@ -313,6 +313,44 @@ gli sviluppatori e tutti gli altri soggetti coinvolti nel ciclo di vita di svilu
 			</listitem>
 		</itemizedlist>
 	</para>
+	<para lang="it">
+		ArgoUML è stato concepito come uno strumento e ambiente per l'analisi e 
+		la progettazione di sistemi software object-oriented. 
+		In questo senso esso è simile a molti dei tool commerciali “CASE” che vengono venduti 
+		come strumenti per la modellazione di sistemi software. 
+		ArgoUML ha una serie di funzioni molto importanti che si distinguono da molti di questi strumenti:
+		<itemizedlist>
+			<listitem>
+				<para lang="it">
+					ArgoUML include un numero di caratteristiche che supportano 
+					le esigenze conoscitive object-oriented di progettisti di software.
+				</para>
+			</listitem>
+			<listitem>
+				<para lang="it">
+					ArgoUML supporta gli standard aperti come UML, XMI, SVG, OCL e molti altri. 
+					A questo proposito, ArgoUML è all’avanguardia (di quasi 5 anni dalla sua intruduzione) 
+					rispetto a molti strumenti commerciali.
+				</para>
+			</listitem>
+			<listitem>
+				<para lang="it">
+					ArgoUML è applicazione Java 100%. 
+					Questo permette ad ArgoUML di funzionare su tutte le piattaforme 
+					per le quali un la virtual machine di Java2 è disponibile.
+				</para>
+			</listitem>
+			<listitem>
+				<para lang="it">
+					ArgoUML è un prodotto open source. 
+					La disponibilità del sorgente consente e assicura 
+					che una nuova generazione di progettisti di software e ricercatori 
+					hanno dimostrato che possono guidare lo sviluppo e l'evoluzione 
+					delle tecnologie di strumenti CASE.
+				</para>
+			</listitem>
+		</itemizedlist>
+	</para>	
 	<para lang="sv">
 	    ArgoUML skapades som ett verktyg för och en verktygsomgivning
 	    för att använda vid analys och design av objekt-orienterade
@@ -367,6 +405,14 @@ gli sviluppatori e tutti gli altri soggetti coinvolti nel ciclo di vita di svilu
 		Testumgebung für die Evolution der Entwicklung und Forschung von 
 		OO-CASE-Tools.
 	</para>
+	<para lang="it">
+		Nel creare lo strumento di sviluppo ArgoUML, 
+		Jason Robbins e il resto del suo gruppo di ricerca presso l’UCL 
+		hanno sfruttato i vantaggi di UML come la più diffusa di modellazione OO del linguaggio Java e 
+		come una delle piattaforme di sviluppo più produttive OO per produrre uno strumento solido 
+		per progettazione di sistemi OO e, come ulteriore banco di prova 
+		per l'evoluzione degli strumenti CASE OO di sviluppo e ricerca.
+	</para>	
 	<para lang="sv">
 	    Genom skapandet av utvecklingsverktyget och omgivningen ArgoUML har 
 	    Jason Robbins och resten av hans utvecklingsgrupp på UCL 
