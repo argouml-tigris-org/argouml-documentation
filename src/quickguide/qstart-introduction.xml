@@ -52,6 +52,7 @@
   <title lang="en">Introduction</title>
   <title lang="de">Einleitung</title>
   <title lang="es">Introduccion</title>
+  <title lang="it">Introduzione</title>
   <title lang="zh">介绍</title>  
 	<!--
 		===========================================================
@@ -62,6 +63,7 @@
     <title lang="en">Welcome to &argo;</title>
     <title lang="de">Willkommen bei &argo;</title>
     <title lang="es">Bienvenido a ArgoUML</title>
+    <title lang="it">Benvenuti in &argo;</title>   
     <title lang="zh">欢迎来到 &argo;</title>
     <para lang="en">
             &argo; is a powerful yet 
@@ -78,7 +80,10 @@ ArgoUML es un poderoso ambiente interactivo facil de usar,
 de diseño grafico de software que soporta el diseño,
 desarrollo y documentacion de aplicaciones de software orientadas a objeto.
 </para>
-
+    <para lang="it">
+            &argo; è un ambiente software di design grafico, potente, facile da usare, interattivo, che supporta la progettazione,
+            lo sviluppo e la documentazione di applicazioni software object-oriented.
+</para>
     <para lang="en">
 			If you are familiar with a family of software applications called Computer Aided Software 
 			Engineering (CASE) tools then you should find &argo; instantly familiar. 
@@ -94,7 +99,11 @@ como las de Ingeniería de Software Asistida por Computador
 (CASE, de sus siglas en ingles de Computer Aided Software Engineering)
 entonces de bería encontrar ArgoUML bastante familiar.
 </para>
-
+</para>
+    <para lang="it">
+			Se tu hai familiarità con applicazioni software chiamate Computer Aided Software 
+			Engineering (CASE) possono essere strumenti che potrebbero far diventare &argo; subito intuitivo.
+</para>
 
     <para lang="en">
 			The users of &argo; are software designers
