@@ -1152,6 +1152,7 @@ Si prega di non provare questo e vedere il capitolo successivo
 <command lang="it">
 "C:\Program Files\Java\j2re1.6.0_05\bin\javaw.exe" -jar "c:\ArgoUML\argouml.jar" "%L"
 </command>
+    </para>
 
     <para lang="en">
 		Substitute your path to your <filename>javaw.exe</filename> and 
