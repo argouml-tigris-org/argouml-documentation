@@ -715,11 +715,11 @@ java -jar argouml.jar
       desde la pagina de descarga del sitio web de ArgoUML.
 </para>
     <para lang="it">
-L'installazione standard di ArgoUML
-      viene fornita già con diversi moduli,
-	  ad esempio supporto per C ++, php e codice C#
-      In alcuni casi, è possibile aggiungere ulteriori funzionalità con l'aggiunta di un modulo di terze parti.
-      Per rendere possibile ciò, è innanzitutto necessario scaricare il modulo.	
+       L'installazione standard di ArgoUML
+       viene fornita già con diversi moduli,
+	   ad esempio supporto per C ++, php e codice C#
+       In alcuni casi, è possibile aggiungere ulteriori funzionalità con l'aggiunta di un modulo di terze parti.
+       Per rendere possibile ciò, è innanzitutto necessario scaricare il modulo.	
     </para>    
     <para lang="en">
       Unpack the downloaded file in the same directory as 
@@ -1071,6 +1071,12 @@ Si prega di non provare questo e vedere il capitolo successivo
       acepte la extension .zargo como representacion de
       un tipo de archivo valido.
     </para>
+    <para lang="it">
+		Per prima cosa, trovate un file Zargo, e fate clic col tasto destro del mouse su di esso.
+        Fate clic col il tasto sinistro sull'opzione del menù a tendina sun Apri o Apri con... .
+		A questo punto selezionate la voce "ArgoUML Model"e Windows aprirà il file con l'applicazione Blocco Note (notepad).
+        Questo è il modo di far accettare a Windows l'estensione .Zargo come file valido di sistema. 
+	</para>	
 
     <para lang="en">
 		Now, open Windows Explorer and from the menu select View->Options 
@@ -1102,7 +1108,14 @@ Si prega di non provare questo e vedere il capitolo successivo
       y entonces haga click en 
       el boton "Editar".
     </para>
-
+    <para lang="it">
+		Ora, aprite Esplora Risorse e selezionare dal menu Visualizza-> Opzioni
+		(su Windows XP: Strumenti-> Opzioni cartella ...).
+		Dovrete vedere una schermata con due (o più) schede di dialogo. 
+		Fare clic sulla finestra di dialogo "File Types", e scorrete l'elenco selezionando la voce desiderata
+		- nell'esempio "ArgoUML Model". Fate clic per selezionare il tipo di file e poi clic su "Modifica".
+	</para>
+	
     <para lang="en">
 		Now, click on the "Open" action and then the "Edit" button there. You will
 		then get a dialog that has a line for entering in the application action
@@ -1133,6 +1146,12 @@ Si prega di non provare questo e vedere il capitolo successivo
 "C:\Program Files\Java\j2re1.4.0_01\bin\javaw.exe" -jar "c:\ArgoUML\argouml.jar" "%L"
 </command>
     </para>
+    <para lang="it">
+		Adesso fate clic su "Open" e poi su "Edit". Otterrete una finestra di dialogo che vi farà inserire
+		l'azione per usare BloccoNote. Sostituire la linea con:
+<command lang="it">
+"C:\Program Files\Java\j2re1.6.0_05\bin\javaw.exe" -jar "c:\ArgoUML\argouml.jar" "%L"
+</command>
 
     <para lang="en">
 		Substitute your path to your <filename>javaw.exe</filename> and 
@@ -1154,6 +1173,13 @@ Si prega di non provare questo e vedere il capitolo successivo
       Haga click en OK, y haga click en OK, y haga click en OK (tres botones
       de tres diferentes niveles de dialogo).
     </para>
+    <para lang="it">
+		Sostituite il tuo percorso <filename>javaw.exe</filename> e 
+		<filename>argouml.jar</filename> i tuoi files se sono in una
+		posizione differete.
+		Cliccate su OK, poi su OK e ancora su OK.(Sono tre bottoni su 3 finestre di 
+		dialogo differenti).
+	</para>	
 
 	<para lang="en">
 		The %L in the above commandline is needed instead of %1 
@@ -1169,12 +1195,18 @@ Si prega di non provare questo e vedere il capitolo successivo
       porque esta es la forma para
       soportar extensiones de mas de tres caracteres.
     </para>
+	<para lang="it">
+		L'%L nella riga di comando è necessario invece di 1%
+		perché questo è l'unico modo per far riconosce al sistema un file che più
+		di tre caratteri per estensione.
+	</para>  
   </sect2>
 
   <sect2>
     <title lang="en">Making .zargo-file clickable (on Windows Vista)</title>
     <title lang="de">Die .zargo-Datei anklickbar machen (unter Windows Vista)</title>
     <title lang="es">Haciend el archivo .zargo clickable (sobre Windows Vista)</title>
+	<title lang="it">Crea un file .zargo eseguibile (su Windows Vista)</title>	
     <title lang="zh">使 .zargo文件双击打开(在Windows Vista上)</title>
  
     <sect2info>
@@ -1208,6 +1240,17 @@ Si prega di non provare questo e vedere il capitolo successivo
         start javaw -cp "argouml.jar" org.argouml.application.Main %1 /B</command>
       Ersetzen Sie "C:\ArgoUML" mit dem entsprechenden Pfad.
     </para>
+    <para lang="it">1) Create un file batch "runargo.bat" 
+      nalla cartella di ArgoUML directory con scritto così:
+      something like this:
+      <command lang="it">
+        @echo off</command>
+      <command lang="it">
+        cd "C:\ArgoUML"</command>
+      <command lang="it">
+        start javaw -cp "argouml.jar" org.argouml.application.Main %1 /B</command>
+        Sostituisci "C:\ArgoUML" con la cartella in cui è stato installato Argo. 
+	  </para>
 
     <para lang="en">2) Associate your .zargo files with this batch file 
       (just double-click a .zargo
@@ -1216,6 +1259,8 @@ Si prega di non provare questo e vedere il capitolo successivo
       2) Verknüpfen Sie Ihre .zargo-Dateien mit dieser Batch-Datei (nur einen 
       Doppelklick auf eine .zargo-Datei ausführen und den Anweisungen folgen).
     </para>
+	<para lang="it"> 2) Associa il tuo file. Zargo con questo file batch
+      (Basta fare doppio clic sul file .Zargo e seguire le istruzioni). </para>	
   </sect2>
 
   </sect1>
