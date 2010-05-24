@@ -43,6 +43,7 @@
 	<title lang="en">ArgoUML Principles</title>
 	<title lang="de">ArgoUML Prinzipien</title>
     <title lang="es">Principios de ArgoUML</title>
+	<title lang="it">Principi di ArgoUML</title>
     <title lang="zh">ArgoUML的原则</title>
 	<para lang="en">
     When ArgoUML starts, it shows an empty class diagram
@@ -59,6 +60,11 @@
       al cual puede añadir varios objetos.
       ArgoUML trabaja de acuerdo a los siguientes principios:
     </para>
+	<para lang="it">
+    Quando lanciate ArgoUML, esso mostra un class diagram vuoto
+    al quale si possono aggiungere diversi oggetti. ArgoUML lavora secondo
+	i seguenti principi:
+    </para>	
 	<para lang="zh">翻译为中文:
     When ArgoUML starts, it shows an empty class diagram
     on which you can add various objects. ArgoUML works according the following
@@ -68,6 +74,7 @@
     <title lang="en">Project, Model and Diagram</title>
     <title lang="de">Projekt, Modell und Diagramm</title>
     <title lang="es">Proyecto, Modelo y Diagrama</title>
+	<title lang="en">Progetto, Modellazione e Diagramma</title>
     <title lang="zh">项目、模型、图形</title>
     <para lang="en">
       The file operations save and open handle one 
@@ -397,6 +404,9 @@
       La parte inferior izquierda contiene una lista de items Todo (por hacer) para 
       el modelo.
     </para>
+	<para lang="it">
+      la parte inferiore a sinistra contiene una lista di tutte le cose da fare per quel modello.
+    </para>	
 	</section>
 
 </chapter>

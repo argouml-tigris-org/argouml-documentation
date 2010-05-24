@@ -200,7 +200,37 @@ comprension y solucion de problemas
           </listitem>
         </itemizedlist>
 </para>
-
+    <para lang="it">
+			Gli utenti di &argo; sono software designers
+			&amp; progettisti, sviluppatori, 
+			business analysts, systems analysts e altre professione neli campo dell'analisi, design e 
+			del svuluppo del software.
+			Principali caratteristiche:
+			<itemizedlist>
+				<listitem>
+					<para lang="it">
+Standard aperti: XMI, SVG e PGML
+					</para>
+				</listitem>
+				<listitem>
+					<para lang="it">
+            Piattaforma 100% indipendente grazie all'esclusivo uso di Java
+					</para>
+				</listitem>
+				<listitem>
+					<para lang="it">
+            Open Source, che permette l'ampliamento e la personalizzazione del codice
+					</para>
+				</listitem>
+				<listitem>
+					<para lang="it">
+            Caratteristiche cognitive come:
+            riflessione nel corso dell'azione, design opportunistico,
+            comprensione e soluzione dei problemi
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
   </sect1>
 
 	<!--
@@ -213,6 +243,7 @@ comprension y solucion de problemas
 		<title lang="en">About this guide...</title>
 		<title lang="de">Über diese Kurzanleitung...</title>
       <title lang="es">Acerca de Esta Guia...</title>
+	  <title lang="en">Riguardo a questa guida...</title>
 		<title lang="zh">关于本入门...</title>
 		<para lang="en">
 			This guide - the &document-title;	- is provided to help you get up and running as quickly as 
@@ -249,6 +280,16 @@ Si necesita mayor detalle por favor mire en el
 User Manual<!-- no fue traducido -->
 </ulink>.
 </para>
-
+		<para lang="it">
+			Questa guida - il &document-title;	- è stata crata per aiutarti ad usare &argo; 
+			nel modo più rapido possibile.
+			Essa contiene  le istruzioni per 
+			ottenere, installare e far partire
+			&argo;, eseguire le funzioni più comuni
+			e ottenere altre informazioni su &argo;.
+Se avete bisogno di ulteriori informazioni, cercate
+<ulink url="http://argouml-stats.tigris.org/documentation/defaulthtml/manual/">
+Manuale utente
+</ulink>
 	</sect1>
 </chapter>
