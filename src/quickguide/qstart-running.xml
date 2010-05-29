@@ -74,7 +74,7 @@
     <title lang="en">Project, Model and Diagram</title>
     <title lang="de">Projekt, Modell und Diagramm</title>
     <title lang="es">Proyecto, Modelo y Diagrama</title>
-	<title lang="en">Progetto, Modellazione e Diagramma</title>
+	<title lang="it">Progetto, Modellazione e Diagramma</title>
     <title lang="zh">项目、模型、图形</title>
     <para lang="en">
       The file operations save and open handle one 
@@ -98,6 +98,13 @@
       <literal>modelo</literal> mas la informacion del diagrama
       i.e. todas las cosas que puedes editar a traves de la ventana ArgoUML.
     </para>
+    <para lang="it">
+      Le operazione da eseguire su un 
+      <literal>progetto</literal> al momento sono: Salva, Apri e Gestisci
+	  . Un <literal>progetto</literal> corrisponde a un
+      <literal>modello</literal> oltre alle informazioni sul diagramma, 
+      per esempio ogni volta che tu modifichi una finestra in ArgoUML. 
+    </para>	
     <para lang="zh"> 未翻译的:
       The file operations save and open handle one 
       <literal>project</literal> at a
@@ -147,7 +154,20 @@
       <literal>modelo</literal> - no necesita 
       ningun diagrama para esto.
     </para>
-
+    <para lang="it">
+      Il <literal>modello</literal> possono contenere 
+      ogetti (ModelElements) che formanano la completa descrizione
+	  dell'UML che il sistema sta descrivendo
+      Tutti gli ModelElements potrebbero essere presenti su un diagramma, 
+      ma questo non è obbligatorio
+      Quindi, il <literal>modello</literal> 
+      salvato in ArgoUML è indipendente dal contenuto del diagramma.
+      Ciò può essere spiegato con la possibilità di generare 
+      codice di programmazione dal 
+      <literal>modello</literal> - tu non hai bisogno
+	  di diagrammi per questo
+    </para>
+	
     <para lang="en">
       An ArgoUML <literal>project</literal> also contains 
       all diagram information, i.e.
@@ -172,6 +192,14 @@
       su ubicacion, color, etc. 
       Algunos ModelElements aparecen sobre multiples diagramas,
       algunos solo en uno o ninguno.
+    </para>
+    <para lang="it">
+      Un <literal>progetto</literal> ArgoUML contiene anche tutte
+	  le informazioni del diagramma, vale a dire
+      le forme per rappresentare le varie UML ModelElements, 
+      la loro posizione, colore ecc..
+      Alcuni ModelElements appaiono su più diagrammi. alcuni in 
+	  uno altri in nessuno.
     </para>
 
     <para lang="en">
@@ -208,12 +236,23 @@
       con una herramienta externa
       que entiende XMI.
     </para>
-  </section>
+    <para lang="it">
+      Quindi, salvando e aprendo tutti i progetti,
+	  vengono conservare a tutte le informazioni.
+      C'è un solo modo per salvare le informazioni 
+      del <literal>modello</literal>. 
+      Dal menù Strumenti" -> "Esporta come XMI...". 
+      Questo può essere utile quando il codice 
+	  di programmazione viene generato da uno
+	  strumento esterno che usa XMI
+    </para>
+	</section>
 
   <section>
     <title lang="en">Objects</title>
     <title lang="de">Objekte</title>
     <title lang="es">Objetos</title>
+	<title lang="it">Oggetti</title>
     <title lang="zh">对象</title>
     <para lang="en">
       Select objects by left-clicking on them.
@@ -240,6 +279,13 @@
       el boton derecho sobre un objeto.
       Muchos de estas funciones trabajan sobre los objetos seleccionados
     </para>
+    <para lang="it">
+	  Selezioniamo gli oggetti facendo clic su di essi.
+      La funzionalità di ArgoUML può essere attivata nel menu,
+      nella barre degli strumenti,
+      o nel menu pop-up facendo clic col tasto destro del mouse sopra un oggetto.
+      Molte di queste funzioni operano sugli oggetti selezionati.
+    </para>
     <para lang="zh">未翻译的:
       Select objects by left-clicking on them.
       The functionality of ArgoUML can be activated in the menu, 
@@ -259,6 +305,10 @@
       Todos los diagramas tienen barras de herramientas en
       el tope las cuales son usadas
       para crear objetos en el diagrama.
+    </para>
+    <para lang="it">
+      Tutti i diagrammi hanno una barra degli strumenti in alto che viene usata
+	  per creare oggetti sul diagramma.
     </para>
 
     <para lang="en">
@@ -306,13 +356,29 @@
       y seleccionando el item "Adicionar a Diagrama"
       en el menu pop-up al hacer click con el boton derecho.
     </para>
-  </section>
+    <para lang="it">
+	  La maggior parte degli oggetti può essere aggiunta a un diagramma o rimosso da un diagramma senza
+      eliminare il <literal>modello</literal>! 
+      
+	  Selezioniamo un oggetto in un diagramma, e poi la voce di menu
+      "Modifica" -> "Rimuovi dal diagramma" cancella l'oggetto dal diagramma,
+      ma l'oggetto rimane intatto nel modello,
+      che può essere visto nel nella struttura ad albero a sinistra.
+      Una volta rimosso, e il l'oggetto può essere aggiunto successivamente al diagramma
+      (O in qualsiasi altro diagramma)
+      selezionando il file nella struttura ad albero e selezionando la voce "Aggiungi al diagramma"
+      nel menu del tasto destro pop-up.
+      In alternativa, è possibile trascinare gli oggetti
+      nell'albero e lasciare il clic del mouse su un oggetto diagramma.
+</para>
+	</section>
 
 	<section>
 		<title lang="en">Overview of the window</title>
 		<title lang="de">Überblick über das Fenster</title>
-    <title lang="es">Resumen de la Ventana</title>
-   <title lang="zh">窗口概览</title>
+		<title lang="es">Resumen de la Ventana</title>
+		<title lang="it">Panoramica sull' IDE</title>
+		<title lang="zh">窗口概览</title>
 		<para lang="en">
       The top of the window contains a menu bar with commands available.
       In the <literal>File</literal> menu you can store the project or 
@@ -328,6 +394,11 @@
       El tope de la ventabna contiene una barra de menus con los comandos disponibles.
       En el menu <literal>Archivo</literal> puede guardar el proyecto o
       abrir otro proyecto en lugar de eso.
+    </para>
+		<para lang="it">
+      La parte superiore della finestra contiene una barra dei menu con i comandi disponibili.
+      Il menù<literal> File </literal> consente di memorizzare il progetto o
+      aprire un altro progetto.
     </para>
 
 		<para lang="en">
@@ -350,7 +421,13 @@
       a traves de los filtros de los objetos que se estan mostrando,
       y la estructura en la cual ellos estan siendo mostrados.
     </para>
-
+		<para lang="it">
+      La parte superiore sinistra della finestra di ArgoUML mostra un modello ad albero
+      di diagrammi e oggetti.
+      Questa disposizione può essere adattata alle proprie esigenze
+      filtrando gli oggetti che vengono mostrati,
+      e la struttura in cui vengono visualizzati.		
+    </para>
 		<para lang="en">
       The upper right part of ArgoUML shows the current diagram (one at a time).
       You can drag and drop the objects in the diagrams,
@@ -373,7 +450,12 @@
       que aparecen cuando pasa por encima del objetos seleccionados
       para crear nuevos objetos conectado a los objetos que ya estan presentes.
     </para>
-
+	<para lang="it">
+      La parte superiore destra della ArgoUML mostra il diagramma usato attualmente (uno alla volta).
+      Puoi trascinare e rilasciare gli oggetti nei diagrammi,
+      e si può usare i "link veloci" che appaiono quando si passa sopra un oggetto selezionato
+      per creare nuovi oggetti collegati già ad oggetti presenti.
+    </para>
 		<para lang="en">
       The lower right part contains various details of the currently selected 
       object: You select the object in one of the upper
@@ -391,7 +473,12 @@
       actualmente seleccionado: Selecciones el objeto en uno de sus niveles superiores
       y escoja que detalles desea examinar usando los tabuladores.
     </para>
-
+		<para lang="it">
+      La parte in basso a destra contiene i vari dettagli sull'oggetto selezionato:
+	  si seleziona l'oggetto in uno dei livelli superiori si e sceglie quali dati si desidera
+	  esaminare attraverso le schede.		
+    </para>
+	
 		<para lang="en">
       The lower left part contains a list of all ToDo items for this
       model.
