@@ -3,7 +3,7 @@
 "../docbook-setup/docbookx/docbookx.dtd">
 <!-- $Id$ -->
 <!--
-Copyright (c) 1996-2008 by copyright holders as listed below
+Copyright (c) 1996-2010 by copyright holders as listed below
 in the book/bookinfo/copyright tag. 
 This material may be distributed only subject to 
 the terms and conditions set forth in the Open Publication 
@@ -85,6 +85,7 @@ available at http://www.opencontent.org/openpub/.
       <year>2007</year>
       <year>2008</year>
       <year>2009</year>
+      <year>2010</year>
       <holder>Michiel van der Wulp</holder>
     </copyright>
     <copyright><year>2003</year><holder>Linus Tolke</holder></copyright>
@@ -4850,7 +4851,7 @@ available at http://www.opencontent.org/openpub/.
 
                 <para lang="en">
                 	Run ArgoUML directly from the Web Site using Java 
-                	Web Start. This is the easiest option.
+                	Web Start. This is the easiest option for occasional use.
                 </para>
                 <para lang="de">
 	                Sie starten ArgoUML direkt von der Web Seite mit Hilfe von 
@@ -9148,8 +9149,9 @@ available at http://www.opencontent.org/openpub/.
               <indexterm><primary>XMI</primary></indexterm>
               <para lang="en">
 	              In the <literal>Export project to XMI</literal> dialog, but 
+	              be
 	              sure to clear the selection of <literal>Save with diagram 
-	              data</literal>literal>.
+	              data</literal>.
               </para>
               <para lang="de">
               	Im <literal>Exportiere als XMI...</literal>, aber stellen Sie 
