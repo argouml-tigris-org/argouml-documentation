@@ -33766,14 +33766,17 @@ available at http://www.opencontent.org/openpub/.
 			<phrase lang="de">Notation Parsen</phrase>
           </title>
           <!-- TODO: Add a similar chapter to describe non-UML notation language parsing. -->
-          <para lang="en">This chapter describes 
+          <para lang="en">(to be written)
+          <!--This chapter describes 
             the detailed syntax of the notation 
             in the UML 
             for each and every place 
             where you can edit a text on the diagram.
+            -->
           </para>
           <para lang="de">(noch zu beschreiben)</para>
           <!-- TODO: Describe all Notation providers' syntax. -->
+          <!-- 
           <sect3>
             <title>
               <phrase lang="en">EBNF syntax</phrase>
@@ -33799,6 +33802,7 @@ available at http://www.opencontent.org/openpub/.
               
             </programlisting>
           </sect3>
+          -->
         </sect2>
 
       </sect1>
