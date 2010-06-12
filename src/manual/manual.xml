@@ -33675,10 +33675,10 @@ available at http://www.opencontent.org/openpub/.
         </para>
         
         <programlisting lang="en">
-        	+Order(customerID : int,items : List) : void {sequential}
+          + order(customerID : Integer, items : List) : Boolean {sequential}
         </programlisting>
         <programlisting lang="de">
-        	+Auftrag(kundenID : int,positionen : List) : void {sequential}
+          + auftrag(kundenID : Integer, positionen : List) : Boolean {sequential}
         </programlisting>
         
         <para lang="en">An association (e.g. between two classes) is showing many
@@ -33761,13 +33761,44 @@ available at http://www.opencontent.org/openpub/.
         </sect2>
 
         <sect2>
-        <title>
-			<phrase lang="en">Notation Parsing</phrase>
+          <title>
+			<phrase lang="en">UML Notation Parsing</phrase>
 			<phrase lang="de">Notation Parsen</phrase>
-		</title>
-        <para lang="en">(to be written)</para>
-        <para lang="de">(noch zu beschreiben)</para>
-        <!-- TODO: Describe all Notation providers' syntax. -->
+          </title>
+          <!-- TODO: Add a similar chapter to describe non-UML notation language parsing. -->
+          <para lang="en">This chapter describes 
+            the detailed syntax of the notation 
+            in the UML 
+            for each and every place 
+            where you can edit a text on the diagram.
+          </para>
+          <para lang="de">(noch zu beschreiben)</para>
+          <!-- TODO: Describe all Notation providers' syntax. -->
+          <sect3>
+            <title>
+              <phrase lang="en">EBNF syntax</phrase>
+            </title>
+            <para lang="en">(to be completed)</para>
+            <programlisting>
+              [ "+" | "-" | "#" ] name [ "[" multiplicity "]" ] : type [= initial-value] ["{" property "}"]
+              
+              
+              "ArgoUML Notation in UML" {
+                attribute-notation      = [ visibilty ] [ name ] [ "[" multiplicity "]" ] [ ":" type ] [ "=" initial-value] ["{" property-string "}"].
+                visibility                   = "+" | "-" | "#" | "~".
+                name                      = identifier .
+                type                        = identifier .
+                initial-value              = expression .
+                property-string        = property { property } .
+                property                 = identifier . 
+                identifier                 = character { character } .
+    
+              } "This syntax is written in EBNF."
+              
+              
+              
+            </programlisting>
+          </sect3>
         </sect2>
 
       </sect1>
