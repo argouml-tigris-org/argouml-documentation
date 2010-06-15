@@ -14863,10 +14863,8 @@ available at http://www.opencontent.org/openpub/.
           <para lang="en">The rectangle tool can be used to draw the boundary 
           box. Use the button 2 context-sensitive <literal>
           Ordering</literal> pop-up menu to place it behind everything 
-          else. However there is no way to change its fill color from 
-          the default white. You may therefore prefer to draw the 
-          boundary box as four lines. This is the method used for the 
-          diagrams in this chapter.</para>
+          else. Then change its fill color from 
+          the default white to "No Fill" in the presentation panel.</para>
           <para lang="de">
           	Das Rechteck kann verwendet werden, um die Grenzen des Systems 
           	darzustellen. Nutzen Sie das Taste 2-kontextsensitive Popup-
