@@ -40,7 +40,7 @@ What tools do I need to use this build file?
 
 <project name="ArgoDocs" default="htmlchunked-en" basedir=".">
 
-  <property name="argo.core.version" value="PRE-0.30.1"/>
+  <property name="argo.core.version" value="0.30.2.beta1"/>
 
   <!-- we really need an absolute path for argo.root.dir -->
   <property name="argo.root.dir" value="${basedir}/../.."/>
