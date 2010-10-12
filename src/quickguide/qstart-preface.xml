@@ -266,8 +266,8 @@ gli sviluppatori e tutti gli altri soggetti coinvolti nel ciclo di vita di svilu
 			</listitem>
 			<listitem>
 				<para lang="en">
-					ArgoUML is an open source product. The availability of the source permits ensures that a new 
-					generation of software designers and researchers now have a proven framework from which they 
+					ArgoUML is an open source product. The availability of the source ensures that a new 
+					generation of software designers and researchers will now have a proven framework from which they 
 					can drive the development and evolution of CASE tools technologies.
 				</para>
 			</listitem>
@@ -393,7 +393,7 @@ gli sviluppatori e tutti gli altri soggetti coinvolti nel ciclo di vita di svilu
 	<para lang="en">
 		In creating the ArgoUML development tool and environment, Jason Robbins and the rest of his research team at 
 		UCL leveraged the benefits of UML as the most prevalent OO modelling language and Java as one of the most 
-		productive OO development platforms to produce a solid tool for OO systems design and, further a testbed for
+		productive OO development platforms to produce a solid tool for OO systems design and further a testbed for
 		the evolution of OO CASE tools development and research.
 	</para>
 	<para lang="de">
