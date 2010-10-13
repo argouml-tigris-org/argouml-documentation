@@ -2,7 +2,7 @@
 <!-- $Id$ -->
 <!--
  *******************************************************************************
- * Copyright (c) 2008 Contributors - see below
+ * Copyright (c) 2008-2010 Contributors - see below
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -53,6 +53,7 @@
   <title lang="de">Einleitung</title>
   <title lang="es">Introduccion</title>
   <title lang="it">Introduzione</title>
+  <title lang="sv">Introduktion</title>
   <title lang="zh">介绍</title>  
 	<!--
 		===========================================================
@@ -63,8 +64,10 @@
     <title lang="en">Welcome to &argo;</title>
     <title lang="de">Willkommen bei &argo;</title>
     <title lang="es">Bienvenido a ArgoUML</title>
-    <title lang="it">Benvenuti in &argo;</title>   
+    <title lang="it">Benvenuti in &argo;</title>
+    <title lang="sv">Välkommen till ArgoUML</title>   
     <title lang="zh">欢迎来到 &argo;</title>
+
     <para lang="en">
             &argo; is a powerful yet 
             easy-to-use interactive, graphical software design environment that supports the design, 
@@ -84,6 +87,12 @@ desarrollo y documentacion de aplicaciones de software orientadas a objeto.
             &argo; è un ambiente software di design grafico, potente, facile da usare, interattivo, che supporta la progettazione,
             lo sviluppo e la documentazione di applicazioni software object-oriented.
 </para>
+    <para lang="sv">
+ArgoUML är en kraftfull men lättanvänd interaktiv grafisk
+mjukvarudesignomgivning som stödjer design, utveckling och 
+dokumentation av objektorienterade mjukvaruapplikationer.
+</para>
+
     <para lang="en">
 			If you are familiar with a family of software applications called Computer Aided Software 
 			Engineering (CASE) tools then you should find &argo; instantly familiar. 
@@ -102,6 +111,11 @@ entonces de bería encontrar ArgoUML bastante familiar.
     <para lang="it">
 			Se tu hai familiarità con applicazioni software chiamate Computer Aided Software 
 			Engineering (CASE) possono essere strumenti che potrebbero far diventare &argo; subito intuitivo.
+</para>
+    <para lang="sv">
+Om du är bekant med mjukvaruapplikationer som brukar kallas CASE-verktyg
+(verktyg för Datorstödd mjukvaruutveckling - Computer Aided Software Engineering)
+kommer du genast att finna dig tillrätta i ArgoUML.
 </para>
 
     <para lang="en">
