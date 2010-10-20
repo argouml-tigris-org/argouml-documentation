@@ -77,9 +77,9 @@
 	<title lang="it">Progetto, Modellazione e Diagramma</title>
     <title lang="zh">项目、模型、图形</title>
     <para lang="en">
-      The file operations save and open handle one 
+      The file operations save and open one 
       <literal>project</literal> at a
-      time. One <literal>project</literal> corresponds to a
+      time. One <literal>project</literal> is composed of a
       <literal>model</literal> plus diagram information, 
       i.e. everything you can edit within the ArgoUML window. 
     </para>
