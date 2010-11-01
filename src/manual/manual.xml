@@ -42703,13 +42703,7 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en">New stereotypes are added from the property tab of almost 
         any model element. Properties of existing stereotypes can be reached 
-        by selecting the property tab for any model element with that 
-        stereotype and using the navigate button (
-        <guiicon><inlinemediaobject><imageobject>
-        <imagedata align="center"
-         fileref="images/icons/navigate_stereotype.gif"
-         format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-        within the property tab.</para>
+        by selecting it in the explorer.</para>
         <para lang="de">
         	Neue Stereotypen werden von fast jedem Modellelement über das 
         	Register Eigenschaften hinzugefügt. Eigenschaften existierender 
@@ -42879,6 +42873,31 @@ available at http://www.opencontent.org/openpub/.
                     </para>
 
                   </listitem>
+                  <listitem>
+                    <para lang="en">
+                      documentation
+                    </para>
+                  </listitem>
+                  <listitem>
+                    <para lang="en">
+                      persistence
+                    </para>
+                  </listitem>
+                  <listitem>
+                    <para lang="en">
+                      persistent
+                    </para>
+                  </listitem>
+                  <listitem>
+                    <para lang="en">
+                      semantics
+                    </para>
+                  </listitem>
+                  <listitem>
+                    <para lang="en">
+                      usage
+                    </para>
+                  </listitem>
 
                 </itemizedlist>
 
@@ -42987,37 +43006,6 @@ available at http://www.opencontent.org/openpub/.
 
               <term lang="en"><guiicon><inlinemediaobject><imageobject>
               <imagedata align="center"
-               fileref="images/icons/tag_definition.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Tag Definition</literal></term>
-              <term lang="de"><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/tag_definition.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Neue Eigenschafts-Definition</literal></term>
-
-              <listitem>
-
-                <para lang="en">This creates a new tag definition (see 
-                <xref linkend="s1.ref.tagdefinition"/>) within the model 
-                (which appears on no diagram), navigating immediately 
-                to the properties tab for that tagdefinition.</para>
-                <para lang="de">
-                	Erzeugt innerhalb des Modelles (das in keinem Diagramm 
-                	erscheint) eine neue Eigenschafts-Definition (siehe 
-                	<xref linkend="s1.ref.tagdefinition"/>) und springt sofort 
-                	in das Register Eigenschaften dieser Eigenschafts-
-                	Definition. 
-                </para>
-
-              </listitem>
-
-            </varlistentry>
-
-            <varlistentry>
-
-              <term lang="en"><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
               <literal>Delete</literal></term>
@@ -43113,84 +43101,7 @@ available at http://www.opencontent.org/openpub/.
 
             </varlistentry>
 
-            <varlistentry>
-
-              <term lang="en"><literal>Base Class</literal></term>
-              <term lang="de"><literal>Basisklasse</literal></term>
-
-              <listitem>
-
-                <indexterm lang="en"><primary>Stereotype Base 
-                Class</primary></indexterm>
-                <indexterm lang="de">
-                	<primary>Stereotyp Basisklasse</primary>
-                </indexterm>
-                <indexterm lang="en"><primary>Base Class</primary><secondary>of 
-                Stereotype</secondary></indexterm>
-                <indexterm lang="de">
-                	<primary>Basisklasse</primary>
-                	<secondary>von Stereotypen</secondary>
-                </indexterm>
-                <para lang="en">Drop down selector. Any stereotype must be 
-                derived from one of the metaclasses in the UML 
-                metamodel <!--
-                <literal>Abstraction</literal>, <literal>
-                Actor</literal>, <literal>Association</literal>, 
-                <literal>AssociationEnd</literal>, <literal>
-                Attribute</literal>, <literal>
-                BehavioralFeature</literal>, <literal>
-                CallEvent</literal>, <literal>Class</literal>, <literal>
-                Classifier</literal>, <literal>Collaboration</literal>, 
-                <literal>Comment</literal>, <literal>
-                Component</literal>, <literal>Constraint</literal>, 
-                <literal>DataType</literal>, <literal>
-                Exception</literal>, <literal>Flow</literal>, <literal>
-                Generalization</literal>, <literal>Interface</literal>, 
-                <literal>Link</literal>, <literal>Model</literal>, 
-                <literal>ModelElement</literal>, <literal>
-                Node</literal>, <literal>NodeInstance</literal>, 
-                <literal>ObjectFlowState</literal>, <literal>
-                Operation</literal>, <literal>Package</literal>, 
-                <literal>Permission</literal>, <literal>
-                Signal</literal>, <literal>Subsystem</literal> and 
-                <literal>Usage</literal>) -->
-                or the model element classes that 
-                derive from them. The stereotype will then be available 
-                to model elements that derive from that same metaclass or 
-                that model element.</para>
-                <para lang="de">
-                	Kombinationsfeld. Jeder Stereotyp muss von einer der 
-                	Metaklassen des UML-Metamodelles  
-                <!--
-	                <literal>Abstraction</literal>, <literal>
-	                Actor</literal>, <literal>Association</literal>, 
-	                <literal>AssociationEnd</literal>, <literal>
-	                Attribute</literal>, <literal>
-	                BehavioralFeature</literal>, <literal>
-	                CallEvent</literal>, <literal>Class</literal>, <literal>
-	                Classifier</literal>, <literal>Collaboration</literal>, 
-	                <literal>Comment</literal>, <literal>
-	                Component</literal>, <literal>Constraint</literal>, 
-	                <literal>DataType</literal>, <literal>
-	                Exception</literal>, <literal>Flow</literal>, <literal>
-	                Generalization</literal>, <literal>Interface</literal>, 
-	                <literal>Link</literal>, <literal>Model</literal>, 
-	                <literal>ModelElement</literal>, <literal>
-	                Node</literal>, <literal>NodeInstance</literal>, 
-	                <literal>ObjectFlowState</literal>, <literal>
-	                Operation</literal>, <literal>Package</literal>, 
-	                <literal>Permission</literal>, <literal>
-	                Signal</literal>, <literal>Subsystem</literal> and 
-	                <literal>Usage</literal>) -->
-                	oder der Modellelementklassen abgeleitet werden, die von 
-                	diesen abgeleitet sind. Der Stereotyp wird dann für die 
-                	Modellelemente verfügbar sein, die von der gleichen 
-                	Metaklasse oder von diesem Modellelement abgeleitet wurden. 
-                </para>
-
-              </listitem>
-
-            </varlistentry>
+          
 
             <varlistentry>
 
@@ -43416,7 +43327,7 @@ available at http://www.opencontent.org/openpub/.
 
             </varlistentry>
 
-            <varlistentry>
+            <!--varlistentry>
 
               <term lang="en"><literal>Extended Elements</literal></term>
               <term lang="de"><literal>Erweiterte Elemente</literal></term>
@@ -43428,6 +43339,44 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="de">
                 	Textbereich. Listet alle Modellelemente auf, die mit diesem 
                 	Stereotypen versehen wurden.
+                </para>
+
+              </listitem>
+
+            </varlistentry-->
+
+            <varlistentry>
+
+              <term lang="en"><literal>Base Class</literal></term>
+              <term lang="de"><literal>Basisklasse</literal></term>
+
+              <listitem>
+
+                <indexterm lang="en"><primary>Stereotype Base 
+                Class</primary></indexterm>
+                <indexterm lang="de">
+                    <primary>Stereotyp Basisklasse</primary>
+                </indexterm>
+                <indexterm lang="en"><primary>Base Class</primary><secondary>of 
+                Stereotype</secondary></indexterm>
+                <indexterm lang="de">
+                    <primary>Basisklasse</primary>
+                    <secondary>von Stereotypen</secondary>
+                </indexterm>
+                <para lang="en">Drop down selector. Any stereotype must be 
+                derived from one of the metaclasses in the UML 
+                metamodel 
+                or the model element classes that 
+                derive from them. The stereotype will then be available 
+                to model elements that derive from that same metaclass or 
+                that model element.</para>
+                <para lang="de">
+                    Kombinationsfeld. Jeder Stereotyp muss von einer der 
+                    Metaklassen des UML-Metamodelles  
+                    oder der Modellelementklassen abgeleitet werden, die von 
+                    diesen abgeleitet sind. Der Stereotyp wird dann für die 
+                    Modellelemente verfügbar sein, die von der gleichen 
+                    Metaklasse oder von diesem Modellelement abgeleitet wurden. 
                 </para>
 
               </listitem>
@@ -43722,8 +43671,11 @@ available at http://www.opencontent.org/openpub/.
 
           <para lang="en">Statechart and activity diagrams are associated with a 
           particular class or operation (or the latter also with a 
-          package), and can only be created when this modelelement has 
-          been selected.</para>
+          package), of which they model the behavior. 
+          This is called the context of the behavior diagram.
+          If these diagrams are created with this modelelement
+          selected, then their context is automatically set. 
+          Otherwise, you can set the context manually.</para>
           <para lang="de">
           	Zustands- und Aktivitätsdiagramme sind mit einer bestimmten Klasse 
           	oder Operation verknüpft (oder letzten Endes auch mit einem Paket) 
