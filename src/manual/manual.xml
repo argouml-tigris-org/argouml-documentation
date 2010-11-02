@@ -716,7 +716,7 @@ available at http://www.opencontent.org/openpub/.
 	        An OO system is designed and implemented as a 
 	        <emphasis>simulation</emphasis> of the real world using 
 	        software artifacts. This premise is as powerful as it is 
-	        simple. By using an OO approach to <emphasis>design</emphasis> 
+	        simple. By using an OO <emphasis>design</emphasis> approach, 
 	        a system can be designed and tested (or more correctly 
 	        simulated) without having to actually build the system 
 	        first.
@@ -740,7 +740,7 @@ available at http://www.opencontent.org/openpub/.
 
 
         <para lang="en">
-	        It is the development during the 1990's of tools to 
+	        It was the development during the 1990's of tools to 
 	        support Object Oriented <emphasis>analysis</emphasis> and 
 	        <emphasis>design</emphasis> that moved this approach into the 
 	        mainstream. When coupled with the ability to design systems at 
@@ -869,7 +869,7 @@ available at http://www.opencontent.org/openpub/.
               Es ist frei.
             </para>
             <para lang="es">
-              == Translation is missing == 
+              Es gratis. 
             </para>
 
           </listitem>
@@ -940,7 +940,7 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en">
 	            ArgoUML is an open source project. The availability 
 	            of the source ensures that a new generation of software 
-	            designers and researchers now have a proven framework from 
+	            designers and researchers will have a proven framework from 
 	            which they can drive the development and evolution of CASE 
 	            tool technologies.
             </para>
@@ -1079,7 +1079,7 @@ available at http://www.opencontent.org/openpub/.
           	discuss the directions the project should take. Although
           	controversial at times, these discussions are always kept
           	nice and friendly (no flame-wars and such), so newbies
-          	should not hesitate and participate in them. You'll
+          	should not hesitate to participate in them. You'll
           	always get a warm welcome there.
           </para>
           <para lang="de">
@@ -5849,7 +5849,7 @@ available at http://www.opencontent.org/openpub/.
                       <emphasis>File=&gt;Import XMI</emphasis> action.
                       It will ask you whether you want to save the changes
                       you have just made.
-                      Click on "No" and then in the file choosed that
+                      Click on "No" and then in the file chooser that
                       comes up select the "DeleteThis.xmi" file that you
                       just wrote out.
                       Observe that the name of the model has reverted back
@@ -5904,7 +5904,7 @@ available at http://www.opencontent.org/openpub/.
                       Perform a
                       <emphasis>File=&gt;Export Graphics</emphasis> action.
                       When the file chooser opens it defaults to the last
-                      name you saved something to
+                      name you used to save something 
                       (even from a project no longer open).
                       The file chooser allows you to select from a number
                       of formats.
@@ -25350,14 +25350,14 @@ available at http://www.opencontent.org/openpub/.
           If a class is 
           currently selected, a sequence diagram and a collaboration
           will be created
-          that represent the behaviour of that class. 
+          that represent the behavior of that class. 
           This means that the created elements 
           will be shown within the class in the 
           explorer hierarchy (under Package-centric view) and model elements 
           created on the diagram will be created within the namespace 
           of the collaboration. A sequence diagram may 
           not only represent the behavior of a class, but 
-          also of any other classifier, such as interface, use case, etc.
+          also of any other classifier, such as an interface, use case, etc.
           It is also possible to make sequence diagrams for an operation.
           </para>
           <para lang="de">
@@ -25443,7 +25443,7 @@ available at http://www.opencontent.org/openpub/.
 	            namespaces/packages appearing on the diagram. They can 
 	            added from the explorer by 
 	            dragging or by 
-	            using <literal>Add to Diagram</literal> 
+	            using <literal>Add to Diagram </literal> 
 	            from the button 2 pop-up menu.</para>
 	            <para lang="de">
 	            	Das verhindert nicht, dass Modellelemente aus anderen 
@@ -25581,7 +25581,7 @@ available at http://www.opencontent.org/openpub/.
             packages, classifiers (including use cases) 
             and behavioral features. Suitable model elements are e.g. a 
             class, a use case, an operation, and a package. 
-            If such element is not selected at the time the
+            If such an element is not selected at the time the
            <literal>New Activity Diagram</literal> 
             menu is activated,
             then an unattached  
@@ -25660,7 +25660,7 @@ available at http://www.opencontent.org/openpub/.
 	            namespaces/packages can be
 	            added from the explorer by
 	            dragging or by
-	            using <literal>Add to Diagram</literal> 
+	            using <literal>Add to Diagram </literal> 
 	            from the button 2 pop-up menu.</para>
 	            <para lang="de">
 	            	Modellelemente aus anderen Namensräumen/Paketen können vom 
@@ -29263,9 +29263,8 @@ available at http://www.opencontent.org/openpub/.
 
         </itemizedlist>
         
-        <para lang="en">Some of the tools that are generally not all used so often, 
-        are combined in a dropdown, 
-        to take less space on the toolbar. 
+        <para lang="en">Some of the tools that are generally not used very often 
+        are combined in a dropdown to conserve space on the toolbar. 
         See e.g. <xref linkend="fig.ref.edit_graphical_tools"/>.
         Press the symbol at the right of the tool to pop it open.
         These drop-down tools remember their last used tool persistently. 
