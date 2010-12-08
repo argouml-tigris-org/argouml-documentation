@@ -571,7 +571,7 @@ Please try updating your working copy.
       <echo message="Building PDF for src/@{doc}/@{doc}.fo..."/>
 
       <java classname="org.apache.fop.apps.Fop"
-              maxmemory="176M"
+              maxmemory="512M"
               fork="yes"
 	          taskname="fop"
               dir="."
