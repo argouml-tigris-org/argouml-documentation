@@ -208,7 +208,7 @@
       There is a way to only save the 
       <literal>model</literal> information
       though, which is by the menu 
-      "Tools" -> "Export as XMI...". 
+      "File" -> "Export XMI...". 
       This may be usefull e.g. 
       when generating programming code 
       with an external tool 
@@ -323,7 +323,8 @@
       (or any other diagram for that matter)
       by selecting it in the explorer 
       and selecting the item "Add to Diagram" 
-      in the right-click pop-up menu. 
+      in the right-click pop-up menu 
+      (then click in the diagram to place the item). 
       Alternatively, you can drag objects 
       from the explorer and drop them onto a diagram.
     </para>
