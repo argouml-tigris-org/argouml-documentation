@@ -4837,7 +4837,7 @@ available at http://www.opencontent.org/openpub/.
             </title>
 
             <para lang="en">
-            	You have three options for obtaining ArgoUML.
+            	You have a few different options for obtaining ArgoUML.
             </para>
             <para lang="de">
             	Es gibt drei Optionen, wie Sie ArgoUML bekommen können.
@@ -8080,12 +8080,12 @@ available at http://www.opencontent.org/openpub/.
               </title>
 
               <para lang="en">
-                For now ArgoUML; saves diagrams using an earlier
+                For now ArgoUML saves diagrams using an earlier
                 proposed standard, <emphasis>Precision Graphics Markup 
                 Language (PGML)</emphasis>.
                 However it has the option to export graphical data as SVG
                 for those who can make use of it.
-                When ArgoUML; supports UML 2.0, it will store
+                When ArgoUML supports UML 2.0, it will store
                 diagrams using the UML 2.0 Diagram Interchange format.
               </para>
               <para lang="de">
@@ -8099,12 +8099,12 @@ available at http://www.opencontent.org/openpub/.
                 2.0 Diagramm Austausch Format gespeichert.
               </para>
               <para lang="es">
-                Por ahora ArgoUML; guarda diagramas usando un estandar 
+                Por ahora ArgoUML guarda diagramas usando un estandar 
                 propuesto recientemente, 
                 <emphasis>Precision Graphics Markup Language (PGML)</emphasis>. 
                 Sin embargo, tiene la opción de exportar datos gráficos 
                 como SVG para aquellos que quieran hacer uso de ello. 
-                Cuando ArgoUML; soporte UML 2.0, 
+                Cuando ArgoUML soporte UML 2.0, 
                 almacenará diagramas usando el 
                 UML 2.0 Diagram Interchange format.
               </para>
@@ -33672,7 +33672,7 @@ available at http://www.opencontent.org/openpub/.
         </para>
         
         <programlisting lang="en">
-          + order(customerID : Integer, items : List) : Boolean {sequential}
+          + «interactive» order(customerID : Integer, items : List) : Boolean {sequential}
         </programlisting>
         <programlisting lang="de">
           + auftrag(kundenID : Integer, positionen : List) : Boolean {sequential}
