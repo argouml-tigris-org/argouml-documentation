@@ -86,7 +86,7 @@
     <para lang="de">
        Die Dateioperationen Speichern und Öffnen bearbeiten ein 	
        <literal>Projekt</literal>. 
-       Ein <literal>Projekt</literal> enthält ein  
+       Ein <literal>Projekt</literal> besteht aus einem  
        <literal>Modell</literal> plus Diagramm-Informationen. Zum 
        Beispiel alles, was Sie innerhalb des ArgoUML-Fensters 
        bearbeiten können.
@@ -216,8 +216,8 @@
     </para>
     <para lang="de">
       Daraus folgt, dass das Speichern und Öffnen von 
-      Projekten all diese Informationen beinhaltet.
-      Es gibt einen Weg, nur die Informationen eines 
+      Projekten beinhaltet all diese Informationen.
+      Es gibt einen Weg, nur die Informationen des 
       <literal>Modells</literal> zu speichern. Dies geschieht 
       über das Menü "Datei" -> "Exportiere als XMI...".
       Dies ist nützlich, wenn Sie den Programmcode 
@@ -338,8 +338,9 @@
       auf der linken Seite.
       Nach dem Entfernen kann das Element erneut in das Diagramm ( oder in 
       ein anderes Diagramm) eingefügt werden. Sie markieren es hierfür im 
-      Explorer und wählen über das Popup-Menü den Eintrag 
-      "Zum Diagramm hinzufügen" aus. Alternativ dazu können Sie Objekte vom 
+      Explorer und wählen über das Popup-Menü (Mausklick rechts) den Eintrag 
+      "Zum Diagramm hinzufügen" aus (dann klicken Sie in das Diagramm, um das Element zu platzieren). 
+      Alternativ dazu können Sie Objekte vom 
       Explorer in das Diagramm ziehen und dort loslassen.
     </para>
     <para lang="es">

@@ -749,7 +749,7 @@ available at http://www.opencontent.org/openpub/.
 	        possible.
         </para>
         <para lang="de">
-	        Es ist die Entwicklung von Tools während der 90'er Jahre, die 
+	        Es war die Entwicklung von Tools während der 90'er Jahre, die 
 	        die objektorientierte <emphasis>Analyse</emphasis> und das 
 	        objektorientierte <emphasis>Design </emphasis> vorantrieben. 
 	        Gekoppelt mit der Fähigkeit, Systeme auf einer sehr hohen 
@@ -947,7 +947,7 @@ available at http://www.opencontent.org/openpub/.
             <para lang="de">
 	            ArgoUML ist ein Open-Source-Projekt. Die Verfügbarkeit des 
 	            Quellcodes stellt sicher, dass eine neue Generation von 
-	            Softwaredesignern und -forschern jetzt ein bewährtes Framework 
+	            Softwaredesignern und -forschern ein bewährtes Framework 
 	            hat, auf deren Basis sie die Entwicklung und Evolution von 
 	            CASE-Tooltechnologien vorantreiben können.
 			</para>
@@ -4840,7 +4840,7 @@ available at http://www.opencontent.org/openpub/.
             	You have a few different options for obtaining ArgoUML.
             </para>
             <para lang="de">
-            	Es gibt drei Optionen, wie Sie ArgoUML bekommen können.
+            	Sie haben ein paar unterschiedliche Optionen, wie Sie ArgoUML bekommen können.
             </para>
             <para lang="es">Tienes tres opciones para obtener ArgoUML.</para>
 
@@ -4855,7 +4855,7 @@ available at http://www.opencontent.org/openpub/.
                 </para>
                 <para lang="de">
 	                Sie starten ArgoUML direkt von der Web Seite mit Hilfe von 
-	                Java Web Start. Dies ist die einfachste Möglichkeit.
+	                Java Web Start. Dies ist die einfachste Möglichkeit für den gelegentlichen Einsatz.
                 </para>
                 <para lang="es">
                   Ejecutar ArgoUML directamente desde el Sitio Web usando
@@ -5869,8 +5869,8 @@ available at http://www.opencontent.org/openpub/.
                       Aktion aus. 
                       Sie wird sie fragen, ob Sie Ihre vorher gemachten 
                       Änderungen speichern möchten.
-                      Klicken Sie auf "Nein" und markieren Sie dann die 
-                      "DeleteThis.xmi"-Datei, die Sie gerade erzeugt haben.
+                      Klicken Sie auf "Nein" und markieren Sie dann in der kommenden Dateiauswahl die 
+                      "DeleteThis.xmi"-Datei, die Sie gerade weggeschrieben haben.
                       Überprüfen Sie den Namen des importierten Modelles mit dem 
                       von Ihnen gespeicherten.
                     </para>
@@ -14869,10 +14869,8 @@ available at http://www.opencontent.org/openpub/.
           	Das Rechteck kann verwendet werden, um die Grenzen des Systems 
           	darzustellen. Nutzen Sie das Taste 2-kontextsensitive Popup-
           	Menü <literal>Reihenfolge</literal>, um diese hinter alle anderen 
-          	Elemente zu plazieren. Es gibt jedoch keinen Weg, die Füllfarbe zu 
-          	ändern. Sie werden es daher vorziehen, die Systemgrenzen aus vier 
-          	einzelnen Linien zu zeichnen. Dies ist die Methode, die für die 
-          	Diagramme in diesem Kapitel verwendet wurde.
+          	Elemente zu plazieren. Dann ändern Sie die Füllfarbe von Standard-Weiss 
+          	in "Keine Füllfarbe" im Darstellungsfenster. 
           </para>
 
 		  <para>
@@ -25596,7 +25594,7 @@ available at http://www.opencontent.org/openpub/.
           	einschliesslich Anwendungsfällen) und Verhaltenseigenschaften. 
           	Passende Modellelemente sind z.B. eine Klasse, ein Anwendungsfall, 
           	eine Operation und ein Paket. Wenn ein solches Element zum Zeitpunkt 
-          	des aktivierens des Menüs <literal>Neues Aktivitätsdiagramm</literal> 
+          	des aktivieren des Menüs <literal>Neues Aktivitätsdiagramm</literal> 
           	nicht markiert ist, wird ein ungebundener Aktivitätsgraph erstellt. 
           	Um ein korrektes UML-Modell zu erhalten, müssen Sie den Kontext des 
           	Aktivitätsgraphen im Detailfenster angeben.
@@ -29274,8 +29272,8 @@ available at http://www.opencontent.org/openpub/.
         </para>
         <para lang="de">
         	Einige Werkzeuge, die normalerweise nicht so oft verwendet werden, 
-        	sind in ein Pulldown-Menü aufgenommen worden, damit sie in der 
-        	Werkzeugleiste weniger Platz beanspruchen. Siehe z.B. 
+        	sind in ein Pulldown-Menü aufgenommen worden, um mehr Platz in der 
+        	Werkzeugleiste zu erhalten. Siehe z.B. 
 			<xref linkend="fig.ref.edit_graphical_tools"/>.
 			Das Drücken des Symboles auf der rechten Seite des Werkzeuges öffnet 
 			das Pulldown-Menü. Diese Pulldown-Werkzeuge erinnern sich dauerhaft, 
@@ -33675,7 +33673,7 @@ available at http://www.opencontent.org/openpub/.
           + «interactive» order(customerID : Integer, items : List) : Boolean {sequential}
         </programlisting>
         <programlisting lang="de">
-          + auftrag(kundenID : Integer, positionen : List) : Boolean {sequential}
+          + «interactive» auftrag(kundenID : Integer, positionen : List) : Boolean {sequential}
         </programlisting>
         
         <para lang="en">An association (e.g. between two classes) is showing many
@@ -33777,8 +33775,10 @@ available at http://www.opencontent.org/openpub/.
           <sect3>
             <title>
               <phrase lang="en">EBNF syntax</phrase>
+              <phrase lang="de">Die EBNF-Syntax</phrase>
             </title>
             <para lang="en">(to be completed)</para>
+            <para lang="de">(zu vervollständigen)</para>
             <programlisting>
               [ "+" | "-" | "#" ] name [ "[" multiplicity "]" ] : type [= initial-value] ["{" property "}"]
               
@@ -42706,14 +42706,7 @@ available at http://www.opencontent.org/openpub/.
         <para lang="de">
         	Neue Stereotypen werden von fast jedem Modellelement über das 
         	Register Eigenschaften hinzugefügt. Eigenschaften existierender 
-        	Stereotypen können durch Auswahl des Registers Eigenschaften eines 
-        	jeden Modellelementes mit diesem Stereotypen mit Hilfe der 
-        	Navigationsschaltfläche erreicht werden (
-        	<guiicon><inlinemediaobject><imageobject>
-        	<imagedata align="center"
-         	fileref="images/icons/navigate_stereotype.gif"
-         	format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-        	im Register Eigenschaften.
+        	Stereotypen können durch Markieren im Explorer erreicht werden.
         </para>
 
         <sect2>
@@ -42876,9 +42869,15 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en">
                       documentation
                     </para>
+                    <para lang="de">
+                      dokumentation
+                    </para>
                   </listitem>
                   <listitem>
                     <para lang="en">
+                      persistence
+                    </para>
+                    <para lang="de">
                       persistence
                     </para>
                   </listitem>
@@ -42886,14 +42885,23 @@ available at http://www.opencontent.org/openpub/.
                     <para lang="en">
                       persistent
                     </para>
+                    <para lang="de">
+                      persistent
+                    </para>
                   </listitem>
                   <listitem>
                     <para lang="en">
                       semantics
                     </para>
+                    <para lang="de">
+                      semantics
+                    </para>
                   </listitem>
                   <listitem>
                     <para lang="en">
+                      usage
+                    </para>
+                    <para lang="de">
                       usage
                     </para>
                   </listitem>
@@ -43677,9 +43685,12 @@ available at http://www.opencontent.org/openpub/.
           Otherwise, you can set the context manually.</para>
           <para lang="de">
           	Zustands- und Aktivitätsdiagramme sind mit einer bestimmten Klasse 
-          	oder Operation verknüpft (oder letzten Endes auch mit einem Paket) 
-          	und können nur erzeugt werden, wenn dieses Modellelement markiert 
-          	wurde.
+          	oder Operation verknüpft (oder letzten Endes auch mit einem Paket), 
+          	mit denen das Verhalten modelliert wird.
+          	Dies wird als Kontext des Verhaltensdiagrammes bezeichnet. Wenn diese 
+          	Diagramme mit dem markierten Modellelement erzeugt werden, dann wird 
+          	deren Kontext automatisch gesetzt. Ansonsten können Sie den Kontext 
+          	manuell setzen.
           </para>
 
         </caution>
