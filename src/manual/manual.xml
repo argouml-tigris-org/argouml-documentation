@@ -1620,9 +1620,9 @@ available at http://www.opencontent.org/openpub/.
         </para>
         <para lang="de">
 	        <xref linkend="ch.ref.critics"/> beschreibt Details aller im 
-	        System vorhandenen kognitiven Kritiken. Unter Umständen wird ArgoUML 
+	        System vorhandenen kognitiven Hinweise. Unter Umständen wird ArgoUML 
 	        direkt auf dieses Handbuch verweisen, wenn es die Hilfestellung zu 
-	        einer Kritik gibt.
+	        einem Hinweis gibt.
         </para>
         <para lang="es">
           <xref linkend="ch.ref.critics" /> da detalles de todas las
@@ -3981,7 +3981,7 @@ available at http://www.opencontent.org/openpub/.
 	                Designtool, die das aktuelle Design gegen  
 	                <quote>best practice</quote>-Entwurfsmodelle überprüfen. 
 	                Diese Prozesse sind als 
-	                <emphasis>Design-Kritiken</emphasis> bekannt.
+	                <emphasis>Design-Hinweise</emphasis> bekannt.
                 </para>
                 <para lang="es">
                   El uso de procesos ejecutandose en paralelo con la
@@ -4005,7 +4005,7 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="de">
 	                Die Nutzung von <emphasis><quote>zu bearbeiten Listen</quote> 
 	                </emphasis>, die dem Anwender Vorschläge aus den  
-	                Designkritiken unterbreiten und es ihm auch erlauben, 
+	                Design-Hinweisen unterbreiten und es ihm auch erlauben, 
 	                Bereiche für künftige Aktionen aufzuzeichnen.
                 </para>
                 <para lang="es">
@@ -6916,12 +6916,12 @@ available at http://www.opencontent.org/openpub/.
                 </para>
                 <para lang="de">
 	                <indexterm lang="de">
-	                	<primary>Menü Kritik</primary>
+	                	<primary>Menü Hinweise</primary>
 	                </indexterm>
-	                Menü: <emphasis>Kriterien</emphasis>. Das Menü <emphasis>
-	                Kriterien</emphasis> erlaubt es Ihnen, die Prüfkriterien ein- 
+	                Menü: <emphasis>Hinweise</emphasis>. Das Menü <emphasis>
+	                Hinweise</emphasis> erlaubt es Ihnen, die Prüfhinweise ein- 
 	                und auszuschalten, die Wichtung der Designvorgaben und 
-	                Designziele festzulegen und die verfügbaren Kriterien 
+	                Designziele festzulegen und die verfügbaren Hinweise 
 	                anzusehen.
 				</para>
                 <para lang="es">
@@ -9428,7 +9428,7 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
           	<phrase lang="en">Working With Design Critics</phrase>
-          	<phrase lang="de">Arbeiten mit Design-Kritiken</phrase>
+          	<phrase lang="de">Arbeiten mit Design-Hinweisen</phrase>
           	<phrase lang="es">Trabajando Con Criticas de Diseño</phrase>
           </title>
 
@@ -9438,7 +9438,7 @@ available at http://www.opencontent.org/openpub/.
             See <xref linkend="tut.cog.psych"/>
           </para>
           <para lang="de">
-          	Designkritiken sind Teil der praktischen Anwendung der Theorie der 
+          	Design-Hinweise sind Teil der praktischen Anwendung der Theorie der 
           	Kognitiven Psychologie, die in ArgoUML implementiert ist. Siehe 
             <xref linkend="tut.cog.psych"/>
           </para>
@@ -9447,7 +9447,7 @@ available at http://www.opencontent.org/openpub/.
 
             <title>
             	<phrase lang="en">Messages From the Design Critics</phrase>
-            	<phrase lang="de">Meldungen von den Design-Kritiken</phrase>
+            	<phrase lang="de">Meldungen von den Design-Hinweisen</phrase>
             	<phrase lang="es">
             	  Los Mensajes del Panel de Taréas Pendientes 
             	  de las Criticas de diseño
@@ -9605,7 +9605,7 @@ available at http://www.opencontent.org/openpub/.
             	Die Antwort ist simpel und ist gleichzeitig eines der wichtigsten 
             	Punkte von ArgoUML. Während Sie mit Ihrem UML-Modell arbeiten, 
             	wird Ihre Arbeit kontinuierlich durch ein Stück Code, <emphasis>
-            	Design-Kritik</emphasis> genannt, gemonitort. Das ist ähnlich 
+            	Design-Hinweis</emphasis> genannt, gemonitort. Das ist ähnlich 
             	einem persönlichen Mentor, der Ihnen über die Schulter sieht und 
             	Sie jedesmal darauf hinweist, wenn er irgendetwas fragwürdiges 
             	in Ihrem Design sieht. 
@@ -9634,10 +9634,10 @@ available at http://www.opencontent.org/openpub/.
 	            Revise Package Name UntitledModel</literal> item.
             </para>
             <para lang="de">
-            	Kritiken sind etwas völlig unaufdringliches. Sie geben Ihnen eine 
+            	Hinweise sind etwas völlig unaufdringliches. Sie geben Ihnen eine 
             	freundliche Warnung, aber Sie zwingen Sie nicht in Design-
             	Prinzipien, denen Sie nicht folgen wollen. Lassen Sie uns einen 
-            	Blick darauf werfen, was die Kritiken uns mitteilen.
+            	Blick darauf werfen, was die Hinweise uns mitteilen.
             	Klicken Sie auf das 
 				<guiicon>
 					<inlinegraphic
@@ -9686,7 +9686,7 @@ available at http://www.opencontent.org/openpub/.
 	              	Revise Package Name UntitledModel</literal>
 	              </phrase>
 	              <phrase lang="de">
-					ArgoUML-Fenster zeigt das Kritik-Element <literal>Überprüfen 
+					ArgoUML-Fenster zeigt das Hinweis-Element <literal>Überprüfen 
 					Sie den Paketnamen unbenanntesModell</literal>
 	              </phrase>
 	              <phrase lang="es">
@@ -9741,7 +9741,7 @@ available at http://www.opencontent.org/openpub/.
             	erzeugte Standard-Paket wird <literal>unbenanntesModell</literal>
             	genannt und verletzt daher ein Designprinzip. (Aktuell kann dies 
             	als Bug von ArgoUML betrachtet werden, aber es kommt gerade 
-            	gelegen, um die arbeitsweise von Kritiken zu demonstrieren).
+            	gelegen, um die Arbeitsweise von Hinweisen zu demonstrieren).
             </para>
             <para lang="es">
               Lo que ArgoUML está intentando decirte es que normalmente, 
@@ -9761,7 +9761,7 @@ available at http://www.opencontent.org/openpub/.
             </para>
             <para lang="de">
             	An diesem Punkt können Sie wählen, ob Sie den Paketnamen manuell 
-            	ändern oder durch die Design-Kritik stillschweigend dieses eine 
+            	ändern oder durch den Design-Hinweis stillschweigend dieses eine 
             	Mal oder immer ändern wollen.
             </para>
             <para lang="es">
@@ -9781,7 +9781,7 @@ available at http://www.opencontent.org/openpub/.
             </para>
             <para lang="de">
             	Wir werden nichts davon tun (wir kommen darauf zurück, wenn wir 
-            	über die Design-Kritiken detaillierter sprechen), aber wir 
+            	über die Design-Hinweise detaillierter sprechen), aber wir 
             	werden eine andere einfache Funktion von ArgoUML nutzen - 
             	die Autokorrektur-Funktion.
             </para>
@@ -9823,7 +9823,7 @@ available at http://www.opencontent.org/openpub/.
             		Design Critics at Work: The Rename Package Wizard
             	</phrase>
             	<phrase lang="de">
-            		Design-Kritiken bei der Arbeit: Der Paket-Umbenennungs- 
+            		Design-Hinweise bei der Arbeit: Der Paket-Umbenennungs- 
             		Assistent
             	</phrase>
             	<phrase lang="es">
@@ -9862,7 +9862,7 @@ available at http://www.opencontent.org/openpub/.
 	              	the Package
 	              </phrase>
 	              <phrase lang="de">
-	              	Das ArgoUML-Fenster zeigt den Kritik-Assistenten, zur 
+	              	Das ArgoUML-Fenster zeigt den Hinweis-Assistenten, zur 
 	              	Umbenennung des Paketes
 	              </phrase>
 	              <phrase lang="es">
@@ -9884,7 +9884,7 @@ available at http://www.opencontent.org/openpub/.
 	            the To-Do list.
             </para>
             <para lang="de">
-            	Beobachten Sie nun, wie die Design-Kritik im "zu bearbeiten"-
+            	Beobachten Sie nun, wie der Design-Hinweis im "zu bearbeiten"-
             	Fenster verschwindet und es verbleibt nur der Hinweis <literal>
             	Fügen Sie dem Paket einkaufsmodell Elemente hinzu</literal> in 
             	der "zu bearbeiten"-Liste.
@@ -20808,8 +20808,8 @@ available at http://www.opencontent.org/openpub/.
             <listitem>
 
               <para lang="de">
-              	Das Menü <emphasis>Kritiken</emphasis> ist speziell für die 
-              	Einstellungen der Kritiken, die für alle Projekte gelten.
+              	Das Menü <emphasis>Hinweise</emphasis> ist speziell für die 
+              	Einstellungen der Hinweise, die für alle Projekte gelten.
               </para>
 
             </listitem>
@@ -20934,7 +20934,7 @@ available at http://www.opencontent.org/openpub/.
             	der Konvention entspricht (die meisten Prozesse erwarten, dass 
             	Modelle aus Kleinbuchstaben gebildet werden sollten). ArgoUML 
             	erlaubt es Ihnen Groß- und Kleinbuchstaben zu verwenden, aber 
-            	eine Kritik wird Sie warnen, dass dies nicht der Konvention 
+            	ein Hinweis wird Sie warnen, dass dies nicht der Konvention 
             	entspricht. Siehe <xref linkend="s1.ref.model"/>.
             </para>
 
@@ -26454,7 +26454,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">The Critique Menu</phrase>
-			<phrase lang="de">Das Menü Kritiken</phrase>
+			<phrase lang="de">Das Menü Hinweise</phrase>
 		</title>
 
         <para lang="en">This menu controls one of ArgoUML's unique 
@@ -26465,7 +26465,7 @@ available at http://www.opencontent.org/openpub/.
         http://argouml.tigris.org/docs/robbins_dissertation/</ulink>.</para>
         <para lang="de">
         	Dieses Menü steuert eines von ArgoUML's 
-        	Alleinstellungsmerkmalen; die Verwendung von Kritiken, um den 
+        	Alleinstellungsmerkmalen; die Verwendung von Hinweisen, um den 
         	Designer anzuleiten. Die dahinterstehende Theorie ist ausführlich 
         	in Jason Robbins' PhD-Dissertation beschrieben 
         	<ulink url="http://argouml.tigris.org/docs/robbins_dissertation/">
@@ -26481,10 +26481,10 @@ available at http://www.opencontent.org/openpub/.
 	          <quote>good</quote> design criteria. There is one critic for 
 	          every design criterion.</para>
 	          <para lang="de">
-	          	Ein Wort zur Terminilogie: Die <emphasis>Kritiken</emphasis> sind 
+	          	Ein Wort zur Terminilogie: Die <emphasis>Hinweise</emphasis> sind 
 	          	Hintergrundprozesse, die das aktuelle Modell anhand verschiedener 
 	          	<quote>guter</quote> Designkriterien überprüfen. Es gibt jeweils 
-	          	eine Kritik für jedes Designkriterium.
+	          	einen Hinweis für jedes Designkriterium.
 	          </para>
 	
 	          <para lang="en">The output of a critic is a 
@@ -26492,7 +26492,7 @@ available at http://www.opencontent.org/openpub/.
 	          of the model that does not appear to follow good design 
 	          practice.</para>
 	          <para lang="de">
-	          	Die Ausgabe einer Kritik ist eine <emphasis>kritische Beschreibung
+	          	Die Ausgabe eines Hinweises ist eine <emphasis>kritische Beschreibung
 	          	</emphasis> - eine Ausführung zu einigen Aspekten des Modelles, 
 	          	die nicht der guten Designpraxis zu folgen scheinen. 
 	          </para>
@@ -26517,9 +26517,9 @@ available at http://www.opencontent.org/openpub/.
 	          with the main ArgoUML tool. Changes typically take a second 
 	          or two to propagate as the critics wake up.</para>
 	          <para lang="de">
-	          	Die Kritiken sind asynchrone Prozesse die parallel zum Hauptprozess 
+	          	Die Hinweise sind asynchrone Prozesse die parallel zum Hauptprozess 
 	          	von ArgoUML ablaufen. Änderungen benötigen üblicherweise eine oder 
-	          	zwei Sekunden bis die Kritiken verfügbar sind.
+	          	zwei Sekunden bis die Hinweise verfügbar sind.
 	          </para>
 	
 	        </note>
@@ -26529,7 +26529,7 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Toggle Auto-Critique</phrase>
-			<phrase lang="de">Kritiken ein-/ausschalten</phrase>
+			<phrase lang="de">Hinweise ein-/ausschalten</phrase>
 		  </title>
 
           <para lang="en">This is a check box, controlling whether the critics 
@@ -26538,10 +26538,10 @@ available at http://www.opencontent.org/openpub/.
           critics (the only others being those the designer has added 
           by hand) are hidden in the to-do pane.</para>
           <para lang="de">
-          	Dies ist ein Markierfeld, welches steuert, ob die Kritiken 
+          	Dies ist ein Markierfeld, welches steuert, ob die Hinweise  
           	eingeschaltet sind. Standardmäßig ist das Feld markiert. Ist es 
-          	nicht markiert, sind alle Kritiken ausgeschaltet und jedes, durch 
-          	die Kritiken generierte "zu bearbeiten"-Element (alle, außer den 
+          	nicht markiert, sind alle Hinweise ausgeschaltet und jedes, durch 
+          	die Hinweise generierte "zu bearbeiten"-Element (alle, außer den 
           	vom Designer von Hand erstellten) wird im "Zu bearbeiten"-Fenster 
           	versteckt.
           </para>
@@ -26561,7 +26561,7 @@ available at http://www.opencontent.org/openpub/.
           ).</para>
           <para lang="de">
           	Dieser Menüeintrag öffnet einen Dialog, der steuert, wie die mit 
-          	einem bestimmten Designbereich verknüpften Kritiken angewendet 
+          	einem bestimmten Designbereich verknüpften Hinweise angewendet 
           	werden (siehe <xref linkend="fig.ref.menu_design_issues"/>).
           </para>
 
@@ -26588,9 +26588,9 @@ available at http://www.opencontent.org/openpub/.
           in each category are discussed in detail in the chapter on 
           critics (<xref linkend="ch.ref.critics"/>).</para>
           <para lang="de">
-          	ArgoUML kategorisiert Kritiken je nachdem wie die Designwichtungen 
-          	diese adressieren. Es gibt 16 solcher Kategorien. Die Kritiken in 
-          	jeder Kategorie werden detailliert im Kapitel über Kritiken (
+          	ArgoUML kategorisiert Hinweise je nachdem wie die Designwichtungen 
+          	diese adressieren. Es gibt 16 solcher Kategorien. Die Hinweise in 
+          	jeder Kategorie werden detailliert im Kapitel über Hinweise (
           	<xref linkend="ch.ref.critics"/>) diskutiert.
           </para>
 
@@ -26601,9 +26601,9 @@ available at http://www.opencontent.org/openpub/.
           to-do pane.</para>
           <para lang="de">
           	Die Schieberegler können für jede Kategorie eingestellt werden, um 
-          	die Kritiken zu steuern, die in dieser Kategorie ausgelöst werden. 
-          	Das verschieben eines Reglers auf <literal>Aus</literal> schaltet 
-          	alle Kritiken dieser Kategorie ab und entfernt alle damit verbundenen 
+          	die Hinweise zu steuern, die in dieser Kategorie ausgelöst werden. 
+          	Das Verschieben eines Reglers auf <literal>Aus</literal> schaltet 
+          	alle Hinweise dieser Kategorie ab und entfernt alle damit verbundenen 
           	"zu bearbeiten"-Elemente aus dem "Zu bearbeiten"-Fenster.
           </para>
 
@@ -26613,9 +26613,9 @@ available at http://www.opencontent.org/openpub/.
           priority).</para>
           <para lang="de">
           	Das Einstellen des Reglers auf einen höher priorisierten Wert, wird 
-          	alle auf oder über dieser Priorität befindlichen Kritiken innerhalb 
-          	der Design...kategorie freischalten (<literal>Aus</literal> ist die 
-          	niedrigste Priorität)
+          	alle auf oder über dieser Priorität befindlichen Hinweise innerhalb 
+          	der Design-Hinweiskategorie freischalten (<literal>Aus</literal> ist 
+          	die niedrigste Priorität)
           </para>
 
 		  <para>
@@ -26674,7 +26674,7 @@ available at http://www.opencontent.org/openpub/.
           	ArgoUML verfolgt das Konzept, dass Designer eine Anzahl von 
           	Designzielen haben, die sie erreichen wollen (zum Beispiel eine 
           	gute strukturelle Darstellung, eine detaillierte 
-          	Verhaltensdarstellung usw.). Kritiken sind mit einem oder mehreren 
+          	Verhaltensdarstellung usw.). Hinweise sind mit einem oder mehreren 
           	Zielen verknüpft.
           </para>
 
@@ -26690,9 +26690,9 @@ available at http://www.opencontent.org/openpub/.
           zero will disable all critics in that goal, and remove all 
           associated to-do items from the to-do pane.</para>
           <para lang="de">
-          	Um die Kritiken, die das jeweilige Ziel beeinflussen zu steuern, 
+          	Um die Hinweise, die das jeweilige Ziel beeinflussen zu steuern, 
           	können die Schieberegler für jedes Designziel eingestellt werden. 
-          	Das Einstellen des Reglers auf Null, wird alle Kritiken dieses 
+          	Das Einstellen des Reglers auf Null, wird alle Hinweise dieses 
           	Zieles ausschalten und alle damit verknüpften "Zu bearbeiten"-
           	Elemente aus dem "Zu bearbeiten"-Fenster entfernen.
           </para>
@@ -26703,7 +26703,7 @@ available at http://www.opencontent.org/openpub/.
           lowest).</para>
           <para lang="de">
           	Die Einstellung eines Reglers auf einen höheren Wert wird alle 
-          	Kritiken auf oder über der Priorität innerhalb der 
+          	Hinweise auf oder über der Priorität innerhalb der 
           	Designwichtungskategorie freigeben (1 ist die höchste und 5 die 
           	niedrigste Priorität).
           </para>
@@ -26721,9 +26721,9 @@ available at http://www.opencontent.org/openpub/.
 	            	Es kann nützlich sein, über diese Funktion ähnlich zu denken 
 	            	wie bei <literal>Design-Wichtungen</literal>  
 	            	(siehe <xref linkend="s2.ref.menu_design_issues"/>), 
-	            	aber mit der Gruppierung der Kritiken gemäß dem Ergebnis der 
-	            	OOA&amp;D und nicht mit der Gruppierung gemäß der Struktur 
-	            	der UML.
+	            	aber mit der Gruppierung der Hinweise entsprechend dem 
+	            	Ergebnis der OOA&amp;D und nicht mit der Gruppierung  
+	            	entsprechend der Struktur von UML.
 	            </para>
 	
 	          </tip>
@@ -26739,7 +26739,7 @@ available at http://www.opencontent.org/openpub/.
             	Die Version 0.20 von ArgoUML enthält ein einziges Designziel mit 
             	der Bezeichnung <literal>Nicht spezifiziert</literal>. Der 
             	Regler ist standardmäßig auf die Priorität 1 eingestellt. Jedoch 
-            	enthält es keine Kritiken und hat somit keine Auswirkungen.
+            	enthält es keine Hinweise und hat somit keine Auswirkungen.
             </para>
 
           </warning>
@@ -26750,7 +26750,7 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Browse Critics...</phrase>
-			<phrase lang="de">Kritiken anzeigen...</phrase>
+			<phrase lang="de">Hinweise anzeigen...</phrase>
 		  </title>
 
           <para lang="en">This menu entry brings up a dialog box controlling the 
@@ -26758,7 +26758,7 @@ available at http://www.opencontent.org/openpub/.
           <xref linkend="fig.ref.menu_browse_critics"/>).</para>
           <para lang="de">
           	Dieser Menüeintrag öffnet einen Dialog, der die individuellen 
-          	Kritiken steuert (siehe 
+          	Hinweise steuert (siehe 
           	<xref linkend="fig.ref.menu_browse_critics"/>).
           </para>
 
@@ -26770,7 +26770,7 @@ available at http://www.opencontent.org/openpub/.
             		Browse Critics...</literal>.
             	</phrase>
 				<phrase lang="de">
-					Der Dialog für <literal>Kritiken anzeigen...</literal>.
+					Der Dialog für <literal>Hinweise anzeigen...</literal>.
             	</phrase>
 			</title>
 
@@ -26793,17 +26793,17 @@ available at http://www.opencontent.org/openpub/.
           is checked <emphasis>and</emphasis> the critic has not been 
           snoozed.</para>
           <para lang="de">
-          	Dieser Dialog steuert das Verhalten der einzelnen Kritiken. Links 
-          	befindet sich eine Liste aller Kritiken, um diese individuell ein- 
-          	oder ausschalten zu können. Für jede Kritik gibt es drei Spalten, 
+          	Dieser Dialog steuert das Verhalten der einzelnen Hinweise. Links 
+          	befindet sich eine Liste aller Hinweise, um diese individuell ein- 
+          	oder ausschalten zu können. Für jeden Hinweis gibt es drei Spalten, 
           	beschriftet mit <literal>Aktiv</literal>, <literal>Titel</literal> 
           	und <literal>deaktiviert</literal>. Die erste davon ist ein 
           	Markierfeld, das mit Taste 1-Klicks verändert werden kann. Die 
-          	zweite ist der Titel der Kritik und die dritte zeigt an, wenn die 
-          	Kritik im "Zu bearbeiten"-Fenster deaktiviert wurde (siehe 
-          	<xref linkend="ch.ref.todopane"/>. Eine Kritik ist nur dann wirklich 
+          	zweite ist der Titel des Hinweises und die dritte zeigt an, wenn der 
+          	Hinweis im "Zu bearbeiten"-Fenster deaktiviert wurde (siehe 
+          	<xref linkend="ch.ref.todopane"/>. Ein Hinweis ist nur dann wirklich 
           	aktiv, wenn das Markierfeld in der ersten Spalte markiert ist 
-          	<emphasis>und</emphasis> die Kritik nicht deaktiviert wurde.
+          	<emphasis>und</emphasis> der Hinweis nicht deaktiviert wurde.
           </para>
 
           <para lang="en">Any critic for which the box in the first column is 
@@ -26811,9 +26811,9 @@ available at http://www.opencontent.org/openpub/.
           to-do items associated with that critic will be removed from 
           the to-do pane.</para>
           <para lang="de">
-          	Jede Kritik, bei der das Markierfeld in der ersten Spalte nicht 
+          	Jeder Hinweis, bei dem das Markierfeld in der ersten Spalte nicht 
           	markiert ist, ist inaktiv und wird nicht ausgelöst. Zusätzlich wird 
-          	jedes, mit dieser Kritik verknüpfte "Zu bearbeiten"-Element aus dem 
+          	jedes, mit diesem Hinweis verknüpfte "Zu bearbeiten"-Element aus dem 
           	"Zu bearbeiten"-Fenster entfernt.
           </para>
 
@@ -26822,9 +26822,9 @@ available at http://www.opencontent.org/openpub/.
           described in detail by design issue category in the chapter 
           on critics (see <xref linkend="ch.ref.critics"/>).</para>
           <para lang="de">
-          	Die Version 0.26 von ArgoUML umfasst 90 Kritiken, einige davon sind 
+          	Die Version 0.26 von ArgoUML umfasst 90 Hinweise, einige davon sind 
           	unvollständig implementiert. Sie sind je Designwichtungskategorie 
-          	im Kapitel Kritiken detailliert beschrieben (siehe 
+          	im Kapitel Hinweise detailliert beschrieben (siehe 
           	<xref linkend="ch.ref.critics"/>).
 		  </para>
 
@@ -26834,9 +26834,9 @@ available at http://www.opencontent.org/openpub/.
           the left will populate the fields for that critic.</para>
           <para lang="de">
           	Rechts von der Liste gibt es eine Reihe von Feldern, mit 
-          	<literal>Details Kritik</literal> bezeichnet, die eine detaillierte 
-          	Kontrolle über die einzelnen Kritiken gibt. Das Markieren einer 
-          	Kritik in der linken Liste wird die Felder für diese Kritik befüllen.
+          	<literal>Details zum Hinweis</literal> bezeichnet, die eine detaillierte 
+          	Kontrolle über die einzelnen Hinweise gibt. Das Markieren eines 
+          	Hinweises in der linken Liste wird die Felder für diesen Hinweis füllen.
           </para>
 
           <para lang="en">The first field on the right is titled <literal>Critic 
@@ -26846,10 +26846,10 @@ available at http://www.opencontent.org/openpub/.
           about the critic.</para>
           <para lang="de">
           	Das erste Feld rechts ist mit <literal>Klasse:</literal> bezeichnet.
-          	Darauf folgt der vollständige Name der Klasse in ArgoUML, welche die 
-          	Kritik implementiert. Dieser Name kann aus eindeutiger Bezeichner 
-          	für diese Kritik verwendet werden, z.B. bei der Kommunikation über 
-          	diese Kritik.
+          	Darauf folgt der vollständige Name der Klasse in ArgoUML, welche den 
+          	Hinweis implementiert. Dieser Name kann aus eindeutiger Bezeichner 
+          	für diesen Hinweis verwendet werden, z.B. bei der Kommunikation über 
+          	diesen Hinweis.
           </para>
 
           <para lang="en">The first field below this title is a text box labeled 
@@ -26859,7 +26859,7 @@ available at http://www.opencontent.org/openpub/.
           <para lang="de">
           	Das erste Feld danach ist ein Textfeld mit der Beschriftung 
           	<literal>Titel:</literal>. Dieses Textfeld beinhaltet den 
-          	vollständigen Titel der Kritik (der in der linken Liste abgeschnitten  
+          	vollständigen Titel des Hinweises (der in der linken Liste abgeschnitten  
           	sein kann).
           </para>
 
@@ -26873,7 +26873,7 @@ available at http://www.opencontent.org/openpub/.
 	            <para lang="de">
 	            	Im Titel können Sie den Text <literal>&lt;ocl&gt;self&lt;/ocl&gt;
 	            	</literal> sehen, der durch den Namen des in Frage kommenden 
-	            	Modellelementes ersetzt wird, wenn die Kritik ausgelöst wird. 
+	            	Modellelementes ersetzt wird, wenn der Hinweis ausgelöst wird. 
 	            </para>
 	
 	          </note>
@@ -26892,9 +26892,9 @@ available at http://www.opencontent.org/openpub/.
           	beschriftetes Pull-down-Menü. Die drei verfügbaren Optionen sind 
           	<literal>Hoch</literal>, <literal>Mittel</literal> und <literal>
           	Niedrig</literal> und spezifizieren die Prioritätskategorie eines 
-          	jeden "Zu bearbeiten"-Elementes dieser Kritik. Dies ändert nich die 
+          	jeden "Zu bearbeiten"-Elementes dieser Hinweise. Dies ändert nich die 
           	Priorität bereits existierender "Zu bearbeiten"-Elemente. Nur die 
-          	neu generierten. Die Änderung der Priorität einer Kritik wird nicht 
+          	neu generierten. Die Änderung der Priorität eines Hinweises wird nicht 
           	dauerhaft gespeichert.
           </para>
 
@@ -26930,7 +26930,7 @@ available at http://www.opencontent.org/openpub/.
           <para lang="de">
           	Das nächste Textfeld ist mit <literal>Beschreibung:</literal> 
           	bezeichnet und ist ein Textbereich mit einer detaillierten 
-          	Beschreibung dessen, was die Kritik bedeutet. Ist der Text zu gross 
+          	Beschreibung dessen, was der Hinweis bedeutet. Ist der Text zu gross 
           	für den Bereich, erscheint auf der rechten Seite ein Schieberegler.
           </para>
 
@@ -26945,7 +26945,7 @@ available at http://www.opencontent.org/openpub/.
 	            	In diesem Textbereich können Sie den Text <literal>
 	            	&lt;ocl&gt;self&lt;/ocl&gt;</literal> vorfinden, der durch den 
 	            	Namen des in Frage kommenden Modellelementes ersetzt wird, wenn 
-	            	die Kritik ausgelöst wird.
+	            	der Hinweis ausgelöst wird.
 	            </para>
 	
 	          </note>
@@ -26968,9 +26968,9 @@ available at http://www.opencontent.org/openpub/.
           from critics to clarifiers somewhat customizable.</para>
           <para lang="de">
           	Kennzeichen sind Symbole und rote Wellenlinien in aktuellen 
-          	Diagrammen, um den Artefakt zu kennzeichnen, auf den sich die Kritik 
+          	Diagrammen, um den Artefakt zu kennzeichnen, auf den sich der Hinweis 
           	bezieht. Die ursprüngliche Absicht war es, die Verbindung zwischen 
-          	den Kritiken und den Kennzeichen etwas flexibler zu machen.
+          	den Hinweisen und den Kennzeichen etwas flexibler zu machen.
           </para>
 
           <para lang="en">For example one user might make a <literal>Missing 
@@ -26980,11 +26980,11 @@ available at http://www.opencontent.org/openpub/.
           clarifier's disabled would still produce feedback that 
           is listed in the to-do pane.</para>
           <para lang="de">
-          	Ein Benutzer möchte z.B. die Kritik <literal>Fehlender Name
+          	Ein Benutzer möchte z.B. den Hinweis <literal>Fehlender Name
           	</literal> mit einem roten Unterstrich angezeigt bekommen, ein 
           	anderer Benutzer möchte die Kennzeichen ausschalten oder mit einer 
           	grünen Wellenlinie oder einem blauen Fragezeichen bezeichnet haben. 
-          	Kritiken, bei denen die Kennzeichen ausgeschaltet sind, würden 
+          	Hinweise, bei denen die Kennzeichen ausgeschaltet sind, würden 
           	immer noch im "Zu bearbeiten"-Fenster aufgelistetes Feedback 
           	erzeugen.
           </para>
@@ -27019,11 +27019,11 @@ available at http://www.opencontent.org/openpub/.
               back up again. Otherwise it is grayed out.</para>
               <para lang="de">
 	              <literal>Aktivieren</literal>.
-	              Es ist möglich, eine Kritik im "Zu bearbeiten"-Fenster zu 
+	              Es ist möglich, einen Hinweis im "Zu bearbeiten"-Fenster zu 
 	              deaktivieren ( siehe <xref linkend="ch.ref.todopane"/>), was 
-	              die Kritik für eine bestimmte Zeit ausschaltet. Wenn die Kritik 
-	              deaktiviert wurde, wird diese Schaltfläche aktiviert und wird 
-	              die Kritik wieder aktivieren. Ansonsten ist sie deaktiviert. 
+	              den Hinweis für eine bestimmte Zeit ausschaltet. Wenn der Hinweis 
+	              deaktiviert wurde, wird diese Schaltfläche aktiviert und der 
+	              Hinweis wieder aktiviert. Ansonsten ist sie deaktiviert. 
 	          </para>
 
 			  <para>
@@ -27033,7 +27033,7 @@ available at http://www.opencontent.org/openpub/.
 	                list on the left it will be indicated in the third 
 	                column.</para>
 	                <para lang="de">
-	                	Sie können eine deaktivierte Kritik erkennen, da dies in der 
+	                	Sie können einen deaktivierten Hinweis erkennen, da dies in der 
 	                	linken Liste in der dritten Spalte angezeigt wird.
 	                </para>
 	
@@ -27051,9 +27051,9 @@ available at http://www.opencontent.org/openpub/.
               of critic properties.</para>
               <para lang="de">
               	<literal>Erweitert</literal>. Diese Schaltfläche veranlasst 
-              	ArgoUML einige zusätzliche Spalten in der Tabelle der Kritiken 
+              	ArgoUML einige zusätzliche Spalten in der Tabelle der Hinweise 
               	anzuzeigen. Sie erlauben eine detailliertere Untersuchung der 
-              	Eigenschaften einer Kritik.
+              	Eigenschaften eines Hinweises.
               </para>
 
             </listitem>
@@ -31213,8 +31213,8 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="de">
                 	Es gibt nichts zu stoppen, wenn Sie dem Diagramm mehr als 
                 	einen Startzustand oder zusammengesetzten Zustand hinzufügen. 
-                	So etwas zu tun ist bedeutungslos und es wird eine der 
-                	Kritiken erscheinen.
+                	So etwas zu tun ist bedeutungslos und es wird ein Hinweis 
+                	erscheinen.
                 </para>
 
               </caution>
@@ -31274,7 +31274,7 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="de">
                 	Eine wohlgeformte Kreuzung sollte mindestens eine kommende 
                 	und mindestens ein ausgehende Transition haben. ArgoUML 
-                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	erzwingt dies nicht, aber es erscheint ein Hinweis bei 
                 	jeder Kreuzung, die dieser Regel nicht folgt.
                 </para>
 
@@ -31311,7 +31311,7 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="de">
                 	Eine wohlgeformte Entscheidung sollte mindestens eine kommende 
                 	und mindestens ein ausgehende Transition haben. ArgoUML 
-                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	erzwingt dies nicht, aber es erscheint ein Hinweis bei 
                 	jeder Entscheidung, die dieser Regel nicht folgt.
                 </para>
 
@@ -31348,7 +31348,7 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="de">
                 	Eine wohlgeformte Gabelung sollte genau eine kommende 
                 	und und zwei oder mehr ausgehende Transitionen haben. ArgoUML 
-                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	erzwingt dies nicht, aber es erscheint ein Hinweis bei 
                 	jeder Gabelung, die dieser Regel nicht folgt.
                 </para>
 
@@ -31385,7 +31385,7 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="de">
                 	Eine wohlgeformte Vereinigung sollte genau eine kommende 
                 	und zwei oder mehr ausgehende Transitionen haben. ArgoUML 
-                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	erzwingt dies nicht, aber es erscheint ein Hinweis bei 
                 	jeder Vereinigung, die dieser Regel nicht folgt.
                 </para>
 
@@ -31646,7 +31646,7 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="de">
                 	Es gibt nichts, was Sie daran hindert, dem Diagramm mehr 
                 	als einen Startknoten hinzuzufügen. Wenn Sie es doch tun, 
-                	ist es bedeutunglos und es wird eine der Kritiken ausgelöst.
+                	ist es bedeutunglos und es wird einer der Hinweise ausgelöst.
                 </para>
 
               </caution>
@@ -31708,7 +31708,7 @@ available at http://www.opencontent.org/openpub/.
                 	Ein wohlgeformter Entscheidungs-/Verbindungsknoten sollte 
                 	eine eingehende Transition und zwei oder mehrere ausgehende 
                 	Transitionen aufweisen. ArgoUML erzwingt dies nicht, aber 
-                	es wird eine ArgoUML-Kritik bei jedem Entscheidungs-/
+                	es wird ein ArgoUML-Hinweis bei jedem Entscheidungs-/
                 	Verbindungsknoten ausgelöst, der dieser Regel nicht 
                 	entspricht.
                 </para>
@@ -31746,8 +31746,8 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="de">
                 	Ein wohlgeformte Gabelung sollte eine eingehende Transition 
                 	und zwei oder mehrere ausgehende Transitionen aufweisen. 
-                	ArgoUML erzwingt dies nicht, aber es wird eine ArgoUML-
-                	Kritik bei jeder Gabelung ausgelöst, die dieser Regel nicht 
+                	ArgoUML erzwingt dies nicht, aber es wird ein ArgoUML-
+                	Hinweis bei jeder Gabelung ausgelöst, die dieser Regel nicht 
                 	entspricht.
                 </para>
 
@@ -31784,8 +31784,8 @@ available at http://www.opencontent.org/openpub/.
                 <para lang="de">
                 	Ein wohlgeformte Vereinigung sollte eine eingehende Transition 
                 	und zwei oder mehrere ausgehende Transitionen aufweisen. 
-                	ArgoUML erzwingt dies nicht, aber es wird eine ArgoUML-
-                	Kritik bei jeder Vereinigung ausgelöst, die dieser Regel nicht 
+                	ArgoUML erzwingt dies nicht, aber es wird ein ArgoUML-
+                	Hinweis bei jeder Vereinigung ausgelöst, die dieser Regel nicht 
                 	entspricht.
                 </para>
 
@@ -32510,7 +32510,7 @@ available at http://www.opencontent.org/openpub/.
         problem on the editing pane. The graphical techniques used for 
         highlighting are called <emphasis>Clarifiers</emphasis></para>
         <para lang="de">
-        	Eine Schlüsseleigenschaft von ArgoUML sind die Kritiken, die parallel 
+        	Eine Schlüsseleigenschaft von ArgoUML sind die Hinweise, die parallel 
         	zum ArgoUML-Werkzeug arbeiten. Wenn diese ein Problem finden, 
         	erzeugen sie ein Zu-Bearbeiten-Element und heben das Problem im 
         	Editierfenster hervor. Die für das Hervorheben verwendete grafische 
@@ -32538,8 +32538,8 @@ available at http://www.opencontent.org/openpub/.
              		</inlinemediaobject>
              	</guiicon>).
             Wird in der oberen linken Ecke eines Modellelementes angezeigt und 
-            signalisiert eine Kritik zu diesem Modellelement. Das Bewegen der 
-            Maus über dieses Symbol blendet die Überschrift der Kritik ein. 
+            signalisiert einen Hinweis zu diesem Modellelement. Das Bewegen der 
+            Maus über dieses Symbol blendet die Überschrift des Hinweises ein. 
 		    </para>
 
           </listitem>
@@ -32565,7 +32565,7 @@ available at http://www.opencontent.org/openpub/.
              			</imageobject>
              		</inlinemediaobject>
              	</guiicon>). 
-             	Wird für Kritiken verwendet, die spezifisch für Subkomponenten 
+             	Wird für Hinweise verwendet, die spezifisch für Subkomponenten 
              	von grafischen Modellelementen sind. Zum Beispiel unterstreichen 
              	sie die Attribute einer Klasse mit einem Problem.
             </para>
@@ -32600,7 +32600,7 @@ available at http://www.opencontent.org/openpub/.
              	wenn ein Zu-Bearbeiten-Element im Zu-Bearbeiten-Fenster 
              	(siehe <xref linkend="ch.ref.todopane"/>) durch einen 
              	Taste 1 Doppelklick hervorgehoben wird.
-             	Die durchgehende Linie kennzeichnet alle von der Kritik 
+             	Die durchgehende Linie kennzeichnet alle von dem Hinweis  
              	betroffenen Modellelemente. Zum Beispiel alle Stimuli, die sich 
              	außerhalb der Reihenfolge befinden.
 			</para>
@@ -32694,7 +32694,7 @@ available at http://www.opencontent.org/openpub/.
 
           <title>
 			<phrase lang="en">Critiques</phrase>
-			<phrase lang="de">Kritiken</phrase>
+			<phrase lang="de">Hinweise</phrase>
 		  </title>
 
           <para lang="en">This sub-menu gives list of all the critics that have 
@@ -32704,7 +32704,7 @@ available at http://www.opencontent.org/openpub/.
           ToDoItem</literal> tab of the details pane. A solid colored 
           line indicates the offending element.</para>
           <para lang="de">
-          	Dieses Untermenü gibt eine Liste aller Kritiken aus, die von diesem 
+          	Dieses Untermenü gibt eine Liste aller Hinweise aus, die von diesem 
           	Modellelement ausgelöst wurden. Die Auswahl eines der Menüeinträge 
           	bewirkt, daß der Eintrag im Zu-Bearbeiten-Fenster hervorgehoben 
           	und die ausführliche Erläuterung im Detailfenster des 
@@ -33518,7 +33518,7 @@ available at http://www.opencontent.org/openpub/.
 	            interest.</para>
 	            <para lang="de">
 	              Dies wird als schlechte Design-Praxis betrachtet (es wird in 
-	              ArgoUML eine Kritik auslösen), so dass dies nur von theoretischem 
+	              ArgoUML einen Hinweis auslösen), so dass dies nur von theoretischem 
 	              Interesse ist.
 	            </para>
 	
@@ -33898,14 +33898,14 @@ available at http://www.opencontent.org/openpub/.
         <para lang="de">
           Dieses Register erlaubt die Steuerung über die verschiedenen, vom 
           Anwender erzeugten Zu-Bearbeiten-Einträge oder automatisch von ArgoUML 
-          generierten Kritiken (wird detaillierter im Abschnitt <literal>
-          Kritiken</literal>-Menü diskutiert. Siehe 
+          generierten Hinweisen (wird detaillierter im Abschnitt <literal>
+          Hinweise</literal>-Menü diskutiert. Siehe 
           <xref linkend="s1.ref.menu_critique"/>). 
           <xref linkend="fig.ref.details_to_do"/> zeigt einen typischen 
           Ausschnitt. 
           Das Zu-Bearbeiten-Element wird mit der Taste 1 im Detailbereich 
           markiert (siehe <xref linkend="ch.ref.todopane"/>) oder mit Hilfe des 
-          kontextsensitiven Popup-Menüs <literal>Kritiken</literal> im 
+          kontextsensitiven Popup-Menüs <literal>Hinweise</literal> im 
           Editierfenster. 
         </para>
 
@@ -33932,8 +33932,8 @@ available at http://www.opencontent.org/openpub/.
         through the <literal>Browse critics...</literal> menu (see 
         <xref linkend="s2.ref.menu_browse_critics"/>).</para>
         <para lang="de">
-          Benutzerspezifische Anpassungen des Verhaltens von Kritiken ist über 
-          das <literal>Kritiken anzeigen...</literal>-Menü möglich (siehe
+          Benutzerspezifische Anpassungen des Verhaltens von Hinweisen ist über 
+          das <literal>Hinweise anzeigen...</literal>-Menü möglich (siehe
           <xref linkend="s2.ref.menu_browse_critics"/>).
         </para>
 
@@ -33969,9 +33969,9 @@ available at http://www.opencontent.org/openpub/.
              		</imageobject>
              	</inlinemediaobject>
               </guiicon> 
-              <literal>Neue Kritik...</literal> Öffnet ein Dialogfenster (siehe  
+              <literal>Neuer Hinweis...</literal> Öffnet ein Dialogfenster (siehe  
               <xref linkend="fig.ref.details_new_to_do"/>), das es Ihnen erlaubt, 
-              Ihre eigene Kritik zu schreiben, mit eigener Überschrift (die im 
+              Ihren eigenen Hinweis zu schreiben, mit eigener Überschrift (die im 
               Zu-Bearbeiten-Bereich erscheint), eigener Priorität für den 
               Zu-Bearbeiten-Bereich, Referenz-URL und detaillierter Beschreibung 
               für weitere Informationen.
@@ -33984,7 +33984,7 @@ available at http://www.opencontent.org/openpub/.
 					Dialog box for <literal>New To Do Item</literal>
                 </phrase>
 				<phrase lang="de">
-					Dialogfenster für <literal>Neue Kritik</literal>
+					Dialogfenster für <literal>Neuer Hinweis</literal>
 				</phrase>
 			  </title>
 
@@ -34019,9 +34019,9 @@ available at http://www.opencontent.org/openpub/.
                   </imageobject>
                  </inlinemediaobject>
               </guiicon> 
-              <literal>Kritik auflösen...</literal> Öffnet einen Dialog, der 
+              <literal>Hinweis löschen...</literal> Öffnet einen Dialog, der 
               es dem Anwender ermöglicht, das markierte Zu-Bearbeiten-Element 
-              aufzulösen (siehe <xref linkend="fig.ref.details_resolve_to_do"/>). 
+              zu löschen (siehe <xref linkend="fig.ref.details_resolve_to_do"/>). 
               Dies ist ein wichtiger Dialog, weil er es erlaubt, die 
               Zu-Bearbeiten-Elemente auf andere Art und Weise zu behandeln, wie 
               im Zu-Bearbeiten-Element empfohlen (was der Grund ihrer Existenz 
@@ -34036,7 +34036,7 @@ available at http://www.opencontent.org/openpub/.
             <para lang="de">
               Dieses Dialogfenster ist für folgende Fälle gedacht: Löschen von 
               Zu-Bearbeiten-Elementen, die manuell erzeugt wurden, verhindern, 
-              dass sich eine Kritik nur auf ein Objekt bezieht und auflösen von 
+              dass sich ein Hinweis nur auf ein Objekt bezieht und auflösen von 
               ganzen Kategorien von Zu-Bearbeiten-Elementen durch herabstufen 
               von Designbedingungen oder Designzielen. 
             </para>
@@ -34048,7 +34048,7 @@ available at http://www.opencontent.org/openpub/.
 					Dialog box for <literal>Resolve Item</literal>
 				</phrase>
 				<phrase lang="de">
-					Dialogfenster für <literal>Kritik auflösen</literal>
+					Dialogfenster für <literal>Kritik löschen</literal>
 				</phrase>
 			  </title>
 
@@ -34083,8 +34083,8 @@ available at http://www.opencontent.org/openpub/.
 	              disappear of its own accord. There is no need to use this 
 	              dialog.</para>
 	              <para lang="de">
-	                Wenn Sie ein Zu-Bearbeiten-Element auflösen wollen (das durch 
-	                eine Kritik generiert wurde) indem Sie dessen Empfehlung 
+	                Wenn Sie ein Zu-Bearbeiten-Element löschen wollen (das durch 
+	                einen Hinweis generiert wurde) indem Sie dessen Empfehlung 
 	                folgen, dann führen Sie die empfohlenen Änderungen durch und 
 	                das Zu-Bearbeiten-Element wird von selbst verschwinden. Es 
 	                gibt dann keine Notwendigkeit, diesen Dialog zu verwenden.
@@ -34114,7 +34114,7 @@ available at http://www.opencontent.org/openpub/.
               <para lang="de">
                 Wenn eine generiertes Zu-Bearbeiten-Element aufgelöst wird, dann 
                 gibt es keinen Weg dies ungeschehen zu machen (es sei denn, 
-                durch erneutes erzeugen des Kritik-auslösenden Objektes).
+                durch erneutes Erzeugen des Hinweis-auslösenden Objektes).
               </para>
 
             </warning>
@@ -34141,10 +34141,10 @@ available at http://www.opencontent.org/openpub/.
              	  </imageobject>
              	</inlinemediaobject>
               </guiicon> 
-              <literal>Kritik deaktivieren</literal> Dies unterdrückt die 
-              Aktivität der Kritik, die das aktuelle Zu-Bearbeiten-Element 
-              generiert. Das Zu-Bearbeiten-Element (und alle anderen von der 
-              Kritik generierten Zu-Bearbeiten-Elemente) werden aus dem Bereich 
+              <literal>Hinweis deaktivieren</literal> Dies unterdrückt die 
+              Aktivität des Hinweises, die das aktuelle Zu-Bearbeiten-Element 
+              generiert. Das Zu-Bearbeiten-Element (und alle anderen von diesem 
+              Hinweis generierten Zu-Bearbeiten-Elemente) werden aus dem Bereich 
               Zu-Bearbeiten verschwinden.
             </para>
 
@@ -34155,10 +34155,10 @@ available at http://www.opencontent.org/openpub/.
             Critique &gt; Browse Critics...</literal> menu (see 
             <xref linkend="s2.ref.menu_browse_critics"/>).</para>
             <para lang="de">
-              Die Kritik wird nach einer gewissen Zeit wieder aufleben. Zu Beginn 
+              Der Hinweis wird nach einer gewissen Zeit wieder aufleben. Zu Beginn 
               ist diese Periode auf 10 Minuten eingestellt, aber sie wird bei 
-              jedem Anklicken der Schaltfläche verdoppelt. Die Kritik kann 
-              ausdrücklich durch <literal>Kritiken &gt; Kritiken anzeigen...
+              jedem Anklicken der Schaltfläche verdoppelt. Der Hinweis kann 
+              ausdrücklich durch <literal>Hinweise &gt; Hinweise anzeigen...
               </literal> wieder zum Leben erweckt werden (siehe 
               <xref linkend="s2.ref.menu_browse_critics"/>).
             </para>
@@ -34170,9 +34170,9 @@ available at http://www.opencontent.org/openpub/.
 	              build a big diagram. Some users find it useful to snooze 
 	              these critics until the diagram has been completed.</para>
 	              <para lang="de">
-	                Einige Kritiken können während der gesamten Erstellungszeit 
+	                Einige Hinweise können während der gesamten Erstellungszeit 
 	                eines grossen Diagrammes erscheinen. Einige Anwender finden 
-	                es daher nützlich, diese Kritiken zu deaktivieren bis das 
+	                es daher nützlich, diese Hinweise zu deaktivieren bis das 
 	                Diagramm vollständig ist.
 	              </para>
 	
@@ -34198,7 +34198,7 @@ available at http://www.opencontent.org/openpub/.
           <literal>Next&gt;</literal> button.
           </para>
           <para lang="de">
-            Einige der am häufigsten vorkommenden Kritiken haben einen 
+            Einige der am häufigsten vorkommenden Hinweise haben einen 
           <quote>Assistenten</quote>, der dabei hilft, das Problem zu lösen.
           Der Assistent umfasst im <literal>Zu-Bearbeiten-Element</literal> eine 
           Reihe von Seiten (eine oder mehrere), die Sie Schritt für Schritt 
@@ -36278,7 +36278,7 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">This pane provides access to the advice that comes from 
         the critics processes running within ArgoUML.</para>
         <para lang="de">
-          Dieser Bereich hat Zugriff auf die Ergebnisse des Kritikenprozesses, 
+          Dieser Bereich hat Zugriff auf die Ergebnisse des Hinweisprozesses, 
           der innerhalb von ArgoUML abläuft.
         </para>
 
@@ -36297,8 +36297,8 @@ available at http://www.opencontent.org/openpub/.
         discussion of the <literal>Critique</literal> menu (see 
         <xref linkend="s1.ref.menu_critique"/>).</para>
         <para lang="de">
-          Mehr Informationen über Kritiken können Sie in der Diskussion des 
-          <literal>Kritiken</literal>-Menüs (siehe 
+          Mehr Informationen über Hinweise können Sie in der Diskussion des 
+          <literal>Hinweise</literal>-Menüs (siehe 
           <xref linkend="s1.ref.menu_critique"/>) finden.
         </para>
 
@@ -36490,9 +36490,9 @@ available at http://www.opencontent.org/openpub/.
               Standardeinstellung. Die Zu-Bearbeiten-Elemente werden nach 
               Priorität in drei Hierarchien organisiert: <literal>Hoch</literal>, 
               <literal>Mittel</literal> und <literal>Niedrig</literal>. 
-              Die Priorität, die mit den durch eine bestimmte Kritik generierten 
+              Die Priorität, die mit dem die durch eine bestimmten Hinweis generierten 
               Zu-Bearbeiten-Elementen verknüpft sind, können über das Menü 
-              <literal>Kritiken &gt; Kritiken anzeigen...</literal> geändert 
+              <literal>Hinweise &gt; Hinweise anzeigen...</literal> geändert 
               werden (siehe <xref linkend="s2.ref.menu_browse_critics"/>).
             </para>
 
@@ -36532,7 +36532,7 @@ available at http://www.opencontent.org/openpub/.
               <literal>Modularität</literal>, <literal>
               Expected Usage</literal>, <literal>Methoden</literal>, 
               <literal>Codegenerierung</literal> und <literal>
-              Stereotypen</literal>. Die Details der Kritiken in jeder 
+              Stereotypen</literal>. Die Details der Hinweise in jeder 
               Kategorie werden in <xref linkend="s2.ref.menu_design_issues"/> 
               diskutiert.
             </para>
@@ -36547,7 +36547,7 @@ available at http://www.opencontent.org/openpub/.
             hierarchies by goal.</para>
             <para lang="de">
               <literal>Nach Ziel</literal>. ArgoUML verfolgt das Konzept, dass 
-              Kritiken entsprechend der sie beeinflussenden Benutzerziele 
+              Hinweise entsprechend der sie beeinflussenden Benutzerziele 
               gruppiert werden. Diese Darstellung gruppiert die Zu-Bearbeiten-
               Elemente in einer Hierarchie entsprechend der Ziele.
             </para>
@@ -36579,7 +36579,7 @@ available at http://www.opencontent.org/openpub/.
               werden hierarchisch entsprechend des Modellelementes organisiert, 
               welches das Problem verursachte. Zu-Bearbeiten-Elemente, die 
               manuell mit der Schaltfläche &quot;Neues Zu-Bearbeiten-Element&quot; 
-              erzeugt wurden (z.B. nicht durch eine Kritik) werden hier nicht 
+              erzeugt wurden (z.B. nicht durch einen Hinweis) werden hier nicht 
               aufgelistet.
             </para>
 
@@ -36594,8 +36594,8 @@ available at http://www.opencontent.org/openpub/.
             is guaranteed to be a unique name.</para>
             <para lang="de">
               <literal>Nach Kurzbezeichnung</literal>. Die Zu-Bearbeiten-Elemente 
-              werden danach hierarchisch organisiert, welche Kritik das 
-              Zu-Bearbeiten-Element generierte. Der Klassenname der Kritik 
+              werden danach hierarchisch organisiert, welcher Hinweis das 
+              Zu-Bearbeiten-Element generierte. Der Klassenname des Hinweises 
               wird anstelle seiner Überschrift aufgelistet.
             </para>
 
@@ -36618,8 +36618,8 @@ available at http://www.opencontent.org/openpub/.
             items.</para>
             <para lang="de">
               <literal>Nach Wissensgebiet</literal>. ArgoUML hat das Konzept, 
-              dass Kritiken einen Ausschnitt eines Wissensgebietes reflektieren.
-              Diese Darstellungsoptionen gruppieren die Kritiken entsprechend 
+              dass Hinweise einen Ausschnitt eines Wissensgebietes reflektieren.
+              Diese Darstellungsoptionen gruppieren die Hinweise entsprechend 
               der Kategorie des Wissensgebietes: <literal>
               Entwurf</literal>, <literal>Korrektheit</literal>, 
               <literal>Vollständigkeit</literal>, <literal>
@@ -36664,7 +36664,7 @@ available at http://www.opencontent.org/openpub/.
 
         <title>
 			<phrase lang="en">The Critics</phrase>
-			<phrase lang="de">Die Kritiken</phrase>
+			<phrase lang="de">Die Hinweise</phrase>
 		</title>
 
       <sect1>
@@ -36696,7 +36696,7 @@ available at http://www.opencontent.org/openpub/.
         they do not <emphasis>impose</emphasis> a decision on the 
         designer.</para>
         <para lang="de">
-        	Kritiken sind einer der Hauptarten mit denen diese Ideen 
+        	Hinweise sind einer der Hauptarten mit denen diese Ideen 
         	implementiert wurden. Im Hintergrund laufend, bieten Sie dem 
         	Designer Ratschläge an, die akzeptiert oder ignoriert werden 
         	können. Der Schlüsselpunkt ist, dass sie keine Entscheidung des 
@@ -36710,9 +36710,9 @@ available at http://www.opencontent.org/openpub/.
 	          parallel with the main ArgoUML tool. Changes typically take a 
 	          second or two to propagate as the critics wake up.</para>
 	          <para lang="de">
-	          	Die Kritiken sind asynchrone Prozesse, die parallel zu ArgoUML 
+	          	Die Hinweise sind asynchrone Prozesse, die parallel zu ArgoUML 
 	          	ablaufen. Änderungen benötigen eine oder zwei Sekunden, bis die 
-	          	Kritiken erneut erzeugt wurden.
+	          	Hinweise erneut erzeugt wurden.
 	          </para>
 	
 	        </note>
@@ -36730,9 +36730,9 @@ available at http://www.opencontent.org/openpub/.
           various <quote>good</quote> design criteria. There is one 
           critic for every design criterion.</para>
           <para lang="de">
-          Die <emphasis>Kritiken</emphasis> sind Hintergrundprozesse, die das 
+          Die <emphasis>Hinweise</emphasis> sind Hintergrundprozesse, die das 
           aktuelle Modell anhand verschiedener <quote>guter</quote> 
-          Designkriterien überprüfen. Es gibt eine Kritik für jedes 
+          Designkriterien überprüfen. Es gibt einen Hinweis für jedes 
           Designkriterium. 
           </para>
 
@@ -36741,7 +36741,7 @@ available at http://www.opencontent.org/openpub/.
           of the model that does not appear to follow good design 
           practice.</para>
           <para lang="de">
-          	Die Ausgabe einer Kritik ist eine <emphasis>Kritik</emphasis> - 
+          	Die Ausgabe eines Hinweises ist ein <emphasis>Hinweis</emphasis> - 
           	eine Anweisung über einige Aspekte des Modelles, die nicht der 
           	guten Designpraxis folgen.
           </para>
@@ -36750,7 +36750,7 @@ available at http://www.opencontent.org/openpub/.
           design issue it has identified can be rectified, by raising a 
           <emphasis>to-do item</emphasis>.</para>
           <para lang="de">
-          	Natürlich wird eine Kritik nur vorschlagen, wie der gefundene 
+          	Natürlich wird ein Hinweis nur vorschlagen, wie der gefundene 
           	Designmangel behoben werden kann, in dem es ein <emphasis>
           	Zu-Bearbeiten-Element</emphasis> erzeugt.
           </para>
@@ -36768,15 +36768,15 @@ available at http://www.opencontent.org/openpub/.
           issue they address (some critics may be in more than one 
           category). At present there are 16 such categories.</para>
           <para lang="de">
-          	ArgoUML kategorisiert Kritiken entsprechend der von ihnen 
-          	adressierten Designmängel (einige Kritiken können in mehr als 
+          	ArgoUML kategorisiert Hinweise entsprechend der von ihnen 
+          	adressierten Designmängel (einige Hinweise können in mehr als 
           	einer Kategorie erscheinen). Aktuell gibt es 16 solcher Kategorien.
           </para>
 
           <para lang="en">Within this manual the descriptions of critics are 
           grouped in sections by design issue.</para>
           <para lang="de">
-          	In diesen Handbuch sind die Beschreibungen der Kritiken entsprechend 
+          	In diesen Handbuch sind die Beschreibungen der Hinweise entsprechend 
           	ihres Designmangels in Abschnitten gruppiert.
           </para>
 
@@ -36794,13 +36794,13 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">These are critics that do not fit into any other 
         category.</para>
         <para lang="de">
-        	Diese Kritiken passen zu keiner der anderen Kategorien.
+        	Diese Hinweise passen zu keiner der anderen Kategorien.
         </para>
 
         <para lang="en">ArgoUML has no critics in this category. Maybe some will 
         be added in later versions.</para>
         <para lang="de">
-        	ArgoUML hat keine Kritik mit dieser Kategorie. Vielleicht werden 
+        	ArgoUML hat keinen Hinweis mit dieser Kategorie. Vielleicht werden 
         	einige in späteren Versionen hinzugefügt.
         </para>
 
@@ -36816,12 +36816,12 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">These are critics concerning how classes are chosen and 
         used.</para>
         <para lang="de">
-        	Dies sind Kritiken, die sich darauf beziehen, wie Klassen ausgewählt 
+        	Dies sind Hinweise, die sich darauf beziehen, wie Klassen ausgewählt 
         	und verwendet wurden.
         </para>
 
         <para lang="en">ArgoUML has the following critics in this category.</para>
-        <para lang="de">ArgoUML hat die folgenden Kritiken in dieser Kategorie.</para>
+        <para lang="de">ArgoUML hat die folgenden Hinweise in dieser Kategorie.</para>
 
         <sect2 id="critics.CrNonAggDataType">
 
@@ -36920,8 +36920,8 @@ available at http://www.opencontent.org/openpub/.
           i.e. the maximum number of classes
           allowed before this critic fires.  </para>
           <para lang="de">
-          	Der Assistent dieser Kritik erlaubt das Setzen eines Schwellwertes, 
-          	z.B. die maximale Anzahl von Klassen, ab der die Kritik ausgelöst 
+          	Der Assistent dieses Hinweises erlaubt das Setzen eines Schwellwertes, 
+          	z.B. die maximale Anzahl von Klassen, ab der der Hinweis ausgelöst 
           	wird.
           </para>
 
@@ -36934,7 +36934,7 @@ available at http://www.opencontent.org/openpub/.
             <para lang="de">
             	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
             	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
-            	denn, man erzeugt mehr Klassen, bis die Kritik erneut ausgelöst 
+            	denn, man erzeugt mehr Klassen, bis der Hinweis erneut ausgelöst 
             	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
             	seinen Standardwert: 20.
             </para>
@@ -36971,8 +36971,8 @@ available at http://www.opencontent.org/openpub/.
         current version of ArgoUML has 18 critics in this 
         category.</para>
         <para lang="de">
-        	Dies sind Kritiken, die sich auf die Benennung von Modellelementen 
-        	beziehen. Die aktuelle Version von ArgoUML hat 18 Kritiken in dieser 
+        	Dies sind Hinweise, die sich auf die Benennung von Modellelementen 
+        	beziehen. Die aktuelle Version von ArgoUML hat 18 Hinweise in dieser 
         	Kategorie.
         </para>
 
@@ -37053,7 +37053,7 @@ available at http://www.opencontent.org/openpub/.
 
           <para lang="en">In comparing signatures, this critic considers:</para>
           <para lang="de">
-          	Beim Vergleichen von Signaturen betrachtet die Kritik:
+          	Beim Vergleichen von Signaturen betrachtet der Hinweis:
           </para>
 
           <orderedlist>
@@ -37108,7 +37108,7 @@ available at http://www.opencontent.org/openpub/.
 	            	zwischen Ein-, Aus- und Ein-Ausgabeparametern differenzieren 
 	            	sollte. Jedoch kann keine praktische Programmiersprache so etwas 
 	            	tun, wenn sie einen überladenen Methodenaufruf auflöst. Aus 
-	            	diese Grund behandelt diese Kritik sie alle pauschal.
+	            	diese Grund behandelt dieser Hinweis sie alle pauschal.
 	            </para>
 	
 	          </note>
@@ -37351,7 +37351,7 @@ available at http://www.opencontent.org/openpub/.
             model elements <literal>var1</literal>, <literal>var2</literal> 
             etc.</para>
             <para lang="de">
-            	Diese Kritik kann manchmal störend sein, da es manchmal nützlich 
+            	Dieser Hinweis kann manchmal störend sein, da es manchmal nützlich 
             	und gutes Design ist, eine Serie von Modellelemente <literal>
             	var1</literal>, <literal>var2</literal> usw. zu haben.
             </para>
@@ -37361,7 +37361,7 @@ available at http://www.opencontent.org/openpub/.
             dismiss the resulting to-do items through the to-do pane 
             (see <xref linkend="ch.ref.todopane"/>).</para>
             <para lang="de">
-            	Es ist wichtig sich daran zu erinnern, dass Kritiken Anleitungen 
+            	Es ist wichtig sich daran zu erinnern, dass Hinweise Anleitungen 
             	anbieten, die nicht immer korrekt sein müssen. ArgoUML läßt es 
             	zu, dass Sie die entsprechenden Zu-Bearbeiten-Elemente über den 
             	Zu-Bearbeiten-Bereich verlassen (siehe 
@@ -37384,7 +37384,7 @@ available at http://www.opencontent.org/openpub/.
           entity has not met this requirement.</para>
           <para lang="de">
           	Alle Modellelementnamen in ArgoUML dürfen nur aus Buchstaben, 
-          	Ziffern und Unterstrichen bestehen. Diese Kritik weist Sie darauf hin, 
+          	Ziffern und Unterstrichen bestehen. Dieser Hinweis weist Sie darauf hin, 
           	dass eine Entität nicht dieser Anforderung entspricht.
           </para>
 
@@ -37439,8 +37439,8 @@ available at http://www.opencontent.org/openpub/.
             <para lang="de">
             	Der Java und C++-Konvention folgend, geben die meisten Designer 
             	Ihren Konstruktoren den gleichen Namen wie der Klasse, die mit 
-            	einem Grossbuchstaben gebinnt. In ArgoUML wird dies diese 
-            	Kritik auslösen, es sei denn, der Konstruktor erhält den 
+            	einem Grossbuchstaben gebinnt. In ArgoUML wird dies diesen 
+            	Hinweis auslösen, es sei denn, der Konstruktor erhält den 
             	Stereotyp <literal>«create»</literal>.
             </para>
 
@@ -37449,7 +37449,7 @@ available at http://www.opencontent.org/openpub/.
             dismiss the resulting to-do items through the to-do pane 
             (see <xref linkend="ch.ref.todopane"/>).</para>
             <para lang="de">
-            	Es ist wichtig sich daran zu erinnern, dass Kritiken Anleitungen 
+            	Es ist wichtig sich daran zu erinnern, dass Hinweise Anleitungen 
             	anbieten, die nicht immer korrekt sein müssen. ArgoUML läßt es 
             	zu, dass Sie die entsprechenden Zu-Bearbeiten-Elemente über den 
             	Zu-Bearbeiten-Bereich verlassen (siehe 
@@ -37499,7 +37499,7 @@ available at http://www.opencontent.org/openpub/.
 	            <para lang="en">Although not triggering this critic, the same 
 	            convention should apply to interfaces.</para>
 	            <para lang="de">
-	            	Obwohl sie diese Kritik nicht auslöst, sollte die gleiche 
+	            	Obwohl sie diesen Hinweis nicht auslöst, sollte die gleiche 
 	            	Konvention auf Schnittstellen angewendet werden.
 	            </para>
 	
@@ -37537,14 +37537,14 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en">Critics concerning attributes of classes.</para>
         <para lang="de">
-        	Kritiken, die sich auf die Attribute von Klassen beziehen.
+        	Hinweise, die sich auf die Attribute von Klassen beziehen.
         </para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
         <para lang="de">
         	Die aktuelle Version von ArgoUML hat in dieser Kategorie die 
-        	folgenden Kritiken.
+        	folgenden Hinweise.
         </para>
 
         <sect2>
@@ -37561,7 +37561,7 @@ available at http://www.opencontent.org/openpub/.
           category (see <xref linkend="critics.CrAttrNameConflict"/>
           ).</para>
           <para lang="de">
-          	Diese Kritik wurde in einer früheren Designmangel-Kategorie 
+          	Dieser Hinweis wurde in einer früheren Designmangel-Kategorie 
           	diskutiert (siehe <xref linkend="critics.CrAttrNameConflict"/>).
           </para>
 
@@ -37698,9 +37698,9 @@ available at http://www.opencontent.org/openpub/.
           i.e. the maximum number of attributes 
           allowed before this critic fires.  </para>
           <para lang="de">
-          	Der Assistent dieser Kritik erlaubt das Einstellen eines 
+          	Der Assistent dieses Hinweises erlaubt das Einstellen eines 
           	Schwellwertes, z.B. die maximal erlaubte Anzahl von Attributen 
-          	bevor diese Kritik ausgelöst wird.
+          	bevor dieser Hinweis ausgelöst wird.
           </para>
 
           <caution>
@@ -37712,7 +37712,7 @@ available at http://www.opencontent.org/openpub/.
             <para lang="de">
             	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
             	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
-            	denn, man erzeugt mehr Attribute, bis die Kritik erneut ausgelöst 
+            	denn, man erzeugt mehr Attribute, bis der Hinweis erneut ausgelöst 
             	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
             	seinen Standardwert: 7.
             </para>
@@ -37731,7 +37731,7 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en">Critics concerning interfaces and subclasses.</para>
         <para lang="de">
-        	Kritiken, die sich auf Schnittstellen und Subklassen beziehen.
+        	Hinweise, die sich auf Schnittstellen und Subklassen beziehen.
         </para>
 
 		<para>
@@ -37750,7 +37750,7 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">The current version of ArgoUML has three critics in this 
         category.</para>
         <para lang="de">
-        	Die aktuelle Version von ArgoUML hat drei Kritiken in dieser 
+        	Die aktuelle Version von ArgoUML hat drei Hinweise in dieser 
         	Kategorie.
         </para>
 
@@ -37836,11 +37836,11 @@ available at http://www.opencontent.org/openpub/.
 		</title>
 
         <para lang="en">Critics concerning state machines.</para>
-        <para lang="de">Kritiken, die sich auf Zustandsautomaten beziehen.</para>
+        <para lang="de">Hinweise, die sich auf Zustandsautomaten beziehen.</para>
 
         <para lang="en">ArgoUML has the following critics in this category.</para>
         <para lang="de">
-        	ArgoUML hat die folgenden Kritiken in dieser Kategorie.
+        	ArgoUML hat die folgenden Hinweise in dieser Kategorie.
         </para>
 
         <sect2 id="critics.CrTooManyTransitions">
@@ -37863,9 +37863,9 @@ available at http://www.opencontent.org/openpub/.
           i.e. the maximum number of transitions 
           allowed before this critic fires.  </para>
           <para lang="de">
-          	Der Assistenz dieser Kritik erlaubt das Einstellen eines 
+          	Der Assistenz dieses Hinweises erlaubt das Einstellen eines 
           	Schwellwertes, z.B. die maximale Anzahl von Transitionen bevor 
-          	diese Kritik ausgelöst wird.
+          	dieser Hinweis ausgelöst wird.
           </para>
 
           <caution>
@@ -37877,7 +37877,7 @@ available at http://www.opencontent.org/openpub/.
             <para lang="de">
             	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
             	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
-            	denn, man erzeugt mehr Transitionen, bis die Kritik erneut ausgelöst 
+            	denn, man erzeugt mehr Transitionen, bis der Hinweis erneut ausgelöst 
             	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
             	seinen Standardwert: 10.
             </para>
@@ -37911,9 +37911,9 @@ available at http://www.opencontent.org/openpub/.
           i.e. the maximum number of states 
           allowed before this critic fires.  </para>
           <para lang="de">
-          	Der Assistenz dieser Kritik erlaubt die Einstellung eines 
+          	Der Assistenz dieses Hinweises erlaubt die Einstellung eines 
           	Schwellwertes, z.B. die maximale Anzahl von erlaubten Zuständen 
-          	bevor diese Kritik ausgelöst wird.
+          	bevor dieser Hinweis ausgelöst wird.
           </para>
 
           <caution>
@@ -37925,7 +37925,7 @@ available at http://www.opencontent.org/openpub/.
             <para lang="de">
             	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
             	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
-            	denn, man erzeugt mehr Zustände, bis die Kritik erneut ausgelöst 
+            	denn, man erzeugt mehr Zustände, bis der Hinweis erneut ausgelöst 
             	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
             	seinen Standardwert: 20.
             </para>
@@ -38125,7 +38125,7 @@ available at http://www.opencontent.org/openpub/.
             guard -the transition is always taken when the trigger is 
             invoked.</para>
             <para lang="de">
-            	Es ist nicht klar, ob dies eine gültige Kritik ist. Es ist 
+            	Es ist nicht klar, ob dies ein gültiger Hinweis ist. Es ist 
             	sicherlich akzeptabel, eine Transistion ohne Wächter zu haben 
             	 - die Transition wird immer genommen, wenn das Signal 
             	ausgelöst wird.
@@ -38146,7 +38146,7 @@ available at http://www.opencontent.org/openpub/.
           category (see <xref linkend="critics.CrNodesOverlap"/>
           ).</para>
           <para lang="de">
-          	Diese Kritik wurde unter einer früheren Design-Kategorie diskutiert 
+          	Dieser Hinweis wurde unter einer früheren Design-Kategorie diskutiert 
           	( siehe <xref linkend="critics.CrNodesOverlap"/>).
           </para>
 
@@ -38224,7 +38224,7 @@ available at http://www.opencontent.org/openpub/.
 		</title>
 
         <para lang="en">Critics concerning design pattern usage in ArgoUML.</para>
-        <para lang="de">Kritiken über die Nutzung von Designmustern in ArgoUML.</para>
+        <para lang="de">Hinweise über die Nutzung von Designmustern in ArgoUML.</para>
 
         <para lang="en">These relate to the use of patterns as described by the 
         so called <quote>Gang of Four</quote>. ArgoUML also uses this 
@@ -38234,9 +38234,9 @@ available at http://www.opencontent.org/openpub/.
         <para lang="de">
           Diese beziehen sich auf die Nutzung von Mustern, wie sie durch die 
           sogenannte <quote>Viererbande</quote> beschrieben wurden. ArgoUML 
-          nutzt diese Kategorie auch für Kritiken, die sich auf Verteilungs- 
+          nutzt diese Kategorie auch für Hinweise, die sich auf Verteilungs- 
           und Sequenzdiagramme beziehen. Die aktuelle Version von ArgoUML hat 
-          die folgenden Kritiken in dieser Kategorie.
+          die folgenden Hinweise in dieser Kategorie.
         </para>
 
         <sect2 id="critics.CrConsiderSingleton">
@@ -38668,7 +38668,7 @@ available at http://www.opencontent.org/openpub/.
             describing a link without a stimulus, possibly created by a 
             tool other than ArgoUML.</para>
             <para lang="de">
-            	Das Auslösen dieser Kritik weist auf schwerwiegendes Probleme hin, 
+            	Das Auslösen dieses Hinweises weist auf schwerwiegendes Probleme hin, 
             	da ArgoUML keine Mechanismen für das Erzeugen einer Verknüpfung 
             	ohne einen Auslöseimpuls enthält. Es weist wahrscheinlich 
             	darauf hin, dass das Diagramm durch Laden eines defekten 
@@ -38728,12 +38728,12 @@ available at http://www.opencontent.org/openpub/.
 		</title>
 
         <para lang="en">Critics concerning associations in ArgoUML.</para>
-        <para lang="de">Kritiken, die sich in ArgoUML auf Assoziationen beziehen.</para>
+        <para lang="de">Hinweise, die sich in ArgoUML auf Assoziationen beziehen.</para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
         <para lang="de">
-        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	Die aktuelle Version von ArgoUML hat die folgenden Hinweise in 
         	dieser Kategorie.
         </para>
 
@@ -38756,7 +38756,7 @@ available at http://www.opencontent.org/openpub/.
             <para lang="en">This critic is meaningless in the V0.14 version of 
             ArgoUML which does not support association classes.</para>
             <para lang="de">
-            	Diese Kritik ist in der V0.14 von ArgoUML bedeutungslos, da 
+            	Dieser Hinweis ist in der V0.14 von ArgoUML bedeutungslos, da 
             	sie Assoziationsklassen nicht unterstützt.
             </para>
 
@@ -38846,8 +38846,8 @@ available at http://www.opencontent.org/openpub/.
           	Wenn eine Assoziation zwischen einer Klasse und einer Schnittstelle 
           	in ArgoUML erzeugt wird, ist diese standardmäßig nur von der Klasse 
           	zur Schnittstelle navigierbar. Jedoch verhindert es ArgoUML nicht, 
-          	wenn die Navigierbarkeit danach fehlerhaft geändert wird. Was diese 
-          	Kritik auslösen würde.
+          	wenn die Navigierbarkeit danach fehlerhaft geändert wird. Was diesen  
+          	Hinweis auslösen würde.
           </para>
 
         </sect2>
@@ -38887,7 +38887,7 @@ available at http://www.opencontent.org/openpub/.
           category (see <xref linkend="critics.CrSubclassReference"/>
           ).</para>
           <para lang="de">
-          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	Dieser Hinweis wird unter einer früheren Designkategorie diskutiert 
           	(siehe <xref linkend="critics.CrSubclassReference"/>).
           </para>
 
@@ -38915,7 +38915,7 @@ available at http://www.opencontent.org/openpub/.
           i.e. the maximum number of associations 
           allowed before this critic fires.  </para>
           <para lang="de">
-          	Der Assistent dieser Kritik erlaubt das Einstellen eines 
+          	Der Assistent dieses Hinweises erlaubt das Einstellen eines 
           	Schwellwertes, z.B. die maximale Anzahl von erlaubten Assoziationen 
           	bevor diese Kritk ausgelöst wird.
           </para>
@@ -38929,7 +38929,7 @@ available at http://www.opencontent.org/openpub/.
             <para lang="de">
             	Diese Zahl wird nicht dauerhaft gespeichert. Es gibt keinen 
             	Weg sie zu reduzieren, nachdem sie nach oben gesetzt wurde. Es 
-            	sei denn, man erzeugt mehr Assoziationen bis die Kritik erneut 
+            	sei denn, man erzeugt mehr Assoziationen bis der Hinweis erneut 
             	ausgelöst wird. Ein Restart von ArgoUML setzt diese Zahl auf 
             	seinen Standard zurück: 7.
             </para>
@@ -38948,7 +38948,7 @@ available at http://www.opencontent.org/openpub/.
           category (see <xref linkend="critics.CrZeroLengthEdge"/>
           ).</para>
           <para lang="de">
-          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	Dieser Hinweis wird in einer früheren Designkategorie diskutiert 
           	(siehe <xref linkend="critics.CrZeroLengthEdge"/>).
           </para>
 
@@ -38966,7 +38966,7 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">Critics concerning instantiation of classifiers in 
         ArgoUML.</para>
         <para lang="de">
-        	Kritiken, die sich auf das Bilden von Instanzen bei Klassifizierern 
+        	Hinweise, die sich auf das Bilden von Instanzen bei Klassifizierern 
         	in ArgoUML beziehen.
         </para>
 
@@ -38988,14 +38988,14 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en">Critics concerning modular development in ArgoUML.</para>
         <para lang="de">
-        	Kritiken, die sich auf die modulare Entwicklung in ArgoUML 
+        	Hinweise, die sich auf die modulare Entwicklung in ArgoUML 
         	beziehen.
 		</para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
         <para lang="de">
-        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	Die aktuelle Version von ArgoUML hat die folgenden Hinweise in 
         	dieser Kategorie.
         </para>
 
@@ -39031,7 +39031,7 @@ available at http://www.opencontent.org/openpub/.
           association, and recreate it on a diagram, whose namespace 
           includes those of all the attached classifiers.</para>
           <para lang="de">
-          	Diese Kritik wird ausgelöst, wenn eine Assoziation nicht mit diesem 
+          	Dieser Hinweis wird ausgelöst, wenn eine Assoziation nicht mit diesem 
           	Kriterium übereinstimmt. Die Lösung ist, die Assoziation zu löschen 
           	und im Diagramm neu zu erzeugen, sodass der Namensraum alle 
           	zugewiesenen Klassifizierer enthält.
@@ -39045,9 +39045,9 @@ available at http://www.opencontent.org/openpub/.
             namespaces of the attached classifiers is different, even 
             though they are part of the same namespace hierarchy.</para>
             <para lang="de">
-            	Diese Kritik kann in der aktuellen Implementierung von ArgoUML 
+            	Dieser Hinweis kann in der aktuellen Implementierung von ArgoUML 
             	keine hierarchischen Namensräume verarbeiten. Als Konsequenz 
-            	daraus, wird die Kritik für Assoziationen ausgelöst, bei denen 
+            	daraus, wird der Hinweis für Assoziationen ausgelöst, bei denen 
             	der sich unmittelbare Namensraum der zugewiesenen Klassifizierer 
             	von dem der Assoziation unterscheidet, auch wenn sie Teil der 
             	gleichen Namensraumhierarchie sind. 
@@ -39081,7 +39081,7 @@ available at http://www.opencontent.org/openpub/.
 	            package, since you cannot create one that is not 
 	            empty!</para>
 	            <para lang="de">
-	            	Diese Kritik wird immer ausgelöst, wenn Sie erstmalig ein Paket 
+	            	Dieser Hinweis wird immer ausgelöst, wenn Sie erstmalig ein Paket 
 	            	erzeugen, da Sie kein Paket erzeugen können, das nicht leer ist.
 	            </para>
 	
@@ -39102,14 +39102,14 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">Critics concerning generally accepted good practice in 
         ArgoUML.</para>
         <para lang="de">
-        	Kritiken, die sich auf eine generell akzeptierte, gute Praxis 
+        	Hinweise, die sich auf eine generell akzeptierte, gute Praxis 
         	beziehen.
         </para>
 
         <para lang="en">The current version of ArgoUML has one critic in this 
         category.</para>
         <para lang="de">
-        	Die aktuelle Version von ArgoUML hat eine Kritik in dieser 
+        	Die aktuelle Version von ArgoUML hat einen Hinweis in dieser 
         	Kategorie.
         </para>
 
@@ -39124,7 +39124,7 @@ available at http://www.opencontent.org/openpub/.
           category (see <xref linkend="critics.CrNodesOverlap"/>
           ).</para>
           <para lang="de">
-          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	Dieser Hinweis wird in einer früheren Designkategorie diskutiert 
           	(siehe <xref linkend="critics.CrNodesOverlap"/>).
           </para>
 
@@ -39140,12 +39140,12 @@ available at http://www.opencontent.org/openpub/.
 		</title>
 
         <para lang="en">Critics concerning operations in ArgoUML.</para>
-        <para lang="de">Kritiken, die sich auf Operationen in ArgoUML beziehen.</para>
+        <para lang="de">Hinweise, die sich auf Operationen in ArgoUML beziehen.</para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
         <para lang="de">
-        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	Die aktuelle Version von ArgoUML hat die folgenden Hinweise in 
         	dieser Kategorie.
         </para>
 
@@ -39162,7 +39162,7 @@ available at http://www.opencontent.org/openpub/.
           category (see <xref linkend="critics.CrOperNameConflict"/>
           ).</para>
           <para lang="de">
-          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	Dieser Hinweis wird in einer früheren Designkategorie diskutiert 
           	(siehe <xref linkend="critics.CrOperNameConflict"/>).
           </para>
 
@@ -39226,9 +39226,9 @@ available at http://www.opencontent.org/openpub/.
           i.e. the maximum number of operations 
           allowed before this critic fires.  </para>
           <para lang="de">
-          	Der Assistent dieser Kritik erlaubt das Setzen eines Schwellwertes, 
-          	z.B. die maximale Anzahl von erlaubten Operationen bevor diese 
-          	Kritik ausgelöst wird.
+          	Der Assistent dieses Hinweises erlaubt das Setzen eines Schwellwertes, 
+          	z.B. die maximale Anzahl von erlaubten Operationen bevor dieser 
+          	Hinweis ausgelöst wird.
           </para>
 
           <caution>
@@ -39240,8 +39240,8 @@ available at http://www.opencontent.org/openpub/.
             <para lang="de">
             	Diese Anzahl wird nicht dauerhaft gespeichert. Es gibt keinen 
             	Weg diese Anzahl zu reduzieren, nachdem sei einmal hochgesetzt 
-            	wurde. Außer, Sie erzeugen weitere Operationen bis diese 
-            	Kritik erneut ausgelöst wird. Der Neustart von ArgoUML setzt 
+            	wurde. Außer, Sie erzeugen weitere Operationen bis dieser 
+            	Hinweis erneut ausgelöst wird. Der Neustart von ArgoUML setzt 
             	diese Anzahl auf den Standardwert: 20 zurück. 
             </para>
           </caution>
@@ -39259,13 +39259,13 @@ available at http://www.opencontent.org/openpub/.
 
         <para lang="en">Critics concerning code generation in ArgoUML.</para>
         <para lang="de">
-        	Kritiken, die sich auf die Code-Generierung in ArgoUML beziehen.
+        	Hinweise, die sich auf die Code-Generierung in ArgoUML beziehen.
         </para>
 
         <para lang="en">The current version of ArgoUML has one critic in this 
         category.</para>
         <para lang="de">
-        	Die aktuelle Version von ArgoUML hat eine Kritik in dieser 
+        	Die aktuelle Version von ArgoUML hat einen Hinweis in dieser 
         	Kategorie.
         </para>
 
@@ -39300,12 +39300,12 @@ available at http://www.opencontent.org/openpub/.
 		</title>
 
         <para lang="en">Critics concerning stereotypes in ArgoUML.</para>
-        <para lang="de">Kritiken, die sich auf Stereotypen in ArgoUML beziehen.</para>
+        <para lang="de">Hinweise, die sich auf Stereotypen in ArgoUML beziehen.</para>
 
         <para lang="en">The current version of ArgoUML has no critics in this 
         category.</para>
         <para lang="de">
-        	Die aktuelle Version von ArgoUML hat keine Kritiken in dieser 
+        	Die aktuelle Version von ArgoUML hat keine Hinweise in dieser 
         	Kategorie.
         </para>
 
@@ -39321,14 +39321,14 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">Critics concerning generalization and specialization in 
         ArgoUML.</para>
         <para lang="de">
-        	Kritiken, die sich mit der Generalisierung und Spezialisierung in 
+        	Hinweise, die sich mit der Generalisierung und Spezialisierung in 
         	ArgoUML befassen.
         </para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
         <para lang="de">
-        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	Die aktuelle Version von ArgoUML hat die folgenden Hinweise in 
         	dieser Kategorie.
         </para>
 
@@ -39345,7 +39345,7 @@ available at http://www.opencontent.org/openpub/.
           category (see <xref linkend="critics.CrAttrNameConflict"/>
           ).</para>
           <para lang="de">
-          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	Dieser Hinweis wird unter einer früheren Designkategorie diskutiert 
           	(siehe <xref linkend="critics.CrAttrNameConflict"/>).
           </para>
 
@@ -39375,9 +39375,9 @@ available at http://www.opencontent.org/openpub/.
             current release of ArgoUML (the only one so marked). It 
             will not trigger unless made active.</para>
             <para lang="de">
-            	Diese Kritik ist in der aktuellen Release von ArgoUML 
-            	standardmäßig als inaktiv markiert (die einzige so markierte 
-            	Kritik). Sie wird nicht ausgelöst, bis sie aktiviert wird.
+            	Dieser Hinweis ist in der aktuellen Release von ArgoUML 
+            	standardmäßig als inaktiv markiert (der Einzige so markierte 
+            	Hinweis). Sie wird nicht ausgelöst, bis sie aktiviert wird.
             </para>
 
           </caution>
@@ -39395,7 +39395,7 @@ available at http://www.opencontent.org/openpub/.
           category (see <xref linkend="critics.CrClassMustBeAbstract"/>
           ).</para>
           <para lang="de">
-          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	Dieser Hinweis wird in einer früheren Designkategorie diskutiert 
           	(siehe <xref linkend="critics.CrClassMustBeAbstract"/>).
           </para>
 
@@ -39530,7 +39530,7 @@ available at http://www.opencontent.org/openpub/.
           category (see <xref linkend="critics.CrMultipleInheritance"/>
           ).</para>
           <para lang="de">
-          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	Dieser Hinweis wird unter einer früheren Designkategorie diskutiert 
           	(siehe <xref linkend="critics.CrMultipleInheritance"/>).
           </para>
 
@@ -39547,7 +39547,7 @@ available at http://www.opencontent.org/openpub/.
           category (see <xref linkend="critics.CrZeroLengthEdge"/>
           ).</para>
           <para lang="de">
-          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	Dieser Hinweis wird unter einer früheren Designkategorie diskutiert 
           	(siehe <xref linkend="critics.CrZeroLengthEdge"/>).
           </para>
 
@@ -39565,14 +39565,14 @@ available at http://www.opencontent.org/openpub/.
         <para lang="en">Critics concerning containment in ArgoUML, that is where 
         one model element forms a component part of another.</para>
         <para lang="de">
-        	Kritiken, die sich auf das Containment in ArgoUML beziehen. D.h., 
+        	Hinweise, die sich auf das Containment in ArgoUML beziehen. D.h., 
         	wo ein Modellelement den Komponententeil eines anderen bildet.
         </para>
 
         <para lang="en">The current version of ArgoUML has the following critics 
         in this category.</para>
         <para lang="de">
-        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	Die aktuelle Version von ArgoUML hat die folgenden Hinweise in 
         	dieser Kategorie.
         </para>
 
@@ -39648,7 +39648,7 @@ available at http://www.opencontent.org/openpub/.
           property sheet.</para>
           <para lang="de">
           	Um dies zu lösen, identifizieren Sie das <quote>Teil</quote>-Ende 
-          	der Assoziation und verwenden Sie im Kritikassistenten die 
+          	der Assoziation und verwenden Sie im Hinweisassistenten die 
           	Schaltfläche <literal>Weiter &gt;</literal>, setzen seine 
           	Aggregation manuell mit Hilfe des Taste 2-Popup-Menüs oder des 
           	Eigenschaftsregisters auf <literal>none</literal>.
@@ -39760,7 +39760,7 @@ available at http://www.opencontent.org/openpub/.
           category (see <xref linkend="critics.CrNonAggDataType"/>
           ).</para>
           <para lang="de">
-          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	Dieser Hinweis wird unter einer früheren Designkategorie diskutiert 
           	(siehe <xref linkend="critics.CrNonAggDataType"/>).
           </para>
 
@@ -40313,7 +40313,7 @@ available at http://www.opencontent.org/openpub/.
 	                  	zugwiesen wird ist <literal>unbenanntesModell</literal>. Er 
 	                  	ist daher fehlerfrei und garantiert, dass ArgoUML immer 
 	                  	mit mindestens einem Problem startet, was durch die Design-
-	                  	Kritiken ausgestellt wird. 
+	                  	Hinweise ausgestellt wird. 
 	                  </para>
 	
 	                </note>
@@ -50609,7 +50609,7 @@ available at http://www.opencontent.org/openpub/.
 	                  <para lang="en">The ArgoUML critics will complain about class 
 	                  names that do not have an initial capital.</para>
 	                  <para lang="de">
-	                  	Die ArgoUML-Kritik wird sich über Klassennamen beschweren, 
+	                  	Die ArgoUML-Hinweise werden sich über Klassennamen beschweren, 
 	                  	die nicht mit einem Großbuchstaben beginnen.
 	                  </para>
 	
@@ -51763,7 +51763,7 @@ available at http://www.opencontent.org/openpub/.
 	                  attribute names that do not have an initial lower 
 	                  case letter.</para>
 	                  <para lang="de">
-	                  	Die ArgoUML-Kritiken werden sich über Attributnamen 
+	                  	Die ArgoUML-Hinweise werden sich über Attributnamen 
 	                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
 	                  </para>
 	
@@ -52925,7 +52925,7 @@ available at http://www.opencontent.org/openpub/.
 	                  operation names that do not have an initial lower 
 	                  case letter.</para>
 	                  <para lang="de">
-	                  	Die ArgoUML-Kritiken werden sich über Operationsnamen 
+	                  	Die ArgoUML-Hinweise werden sich über Operationsnamen 
 	                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
 	                  </para>
 	
@@ -52943,7 +52943,7 @@ available at http://www.opencontent.org/openpub/.
 	                  <para lang="de">
 	                  	Wenn Sie der Java-Konvention folgen wollen, dass 
 	                  	Konstruktoren den gleichen Namen wie die Klasse haben, 
-	                  	werden Sie diese Regel brechen. Bringen Sie diese Kritik 
+	                  	werden Sie diese Regel brechen. Bringen Sie diesen Hinweis 
 	                  	zum Schweigen, indem Sie den Stereotypen <literal>create
 	                  	</literal> für die Konstruktor-Operation vergeben. 
 	                  </para>
@@ -54041,7 +54041,7 @@ available at http://www.opencontent.org/openpub/.
 	                  parameter names that do not have an initial lower 
 	                  case letter.</para>
 	                  <para lang="de">
-	                  	Die ArgoUML-Kritiken werden sich nicht über Parameternamen 
+	                  	Die ArgoUML-Hinweise werden sich nicht über Parameternamen 
 	                  	beschweren, die nicht mit einem Kleinbuchstaben beginnen.
 	                  </para>
 	
@@ -54869,7 +54869,7 @@ available at http://www.opencontent.org/openpub/.
 	                  signal names that do not have an initial upper case 
 	                  letter.</para>
 	                  <para lang="de">
-	                  	Die ArgoUML-Kritiken beschweren sich nicht über Signalnamen, 
+	                  	Die ArgoUML-Hinweise beschweren sich nicht über Signalnamen, 
 	                  	die nicht mit einem Großbuchstaben beginnen.
 	                  </para>
 	
@@ -55650,7 +55650,7 @@ available at http://www.opencontent.org/openpub/.
 	                  relationship is often obvious from the classes (or 
 	                  class and interface) name.</para>
 	                  <para lang="de">
-	                  	Obwohl die Designkritiken dies fordern, ist es auf der 
+	                  	Obwohl die Designhinweise dies fordern, ist es auf der 
 	                  	anderen Seite normal, die Assoziationen in einem 
 	                  	Klassendiagramm nicht zu benennen, da die Beziehung der 
 	                  	Klassennamen (oder Klasse und Schnittstelle) sehr häufig 
@@ -58157,7 +58157,7 @@ available at http://www.opencontent.org/openpub/.
 	                  complain about interface names that do not have an 
 	                  initial capital.</para>
 	                  <para lang="de">
-	                  	Wie bei Klassen werden sich die ArgoUML-Kritiken nicht 
+	                  	Wie bei Klassen werden sich die ArgoUML-Hinweise nicht 
 	                  	beschweren, wenn die Schnittstellennamen nicht mit einem 
 	                  	Großbuchstaben beginnen.
 	                  </para>
@@ -58467,7 +58467,7 @@ available at http://www.opencontent.org/openpub/.
                   critics will complain if this is not the case.</para>
                   <para lang="de">
                   	Alle Operationen in einer Schnittstelle <emphasis>müssen
-                  	</emphasis> public sein. Die ArgoUML-Kritiken werden sich 
+                  	</emphasis> public sein. Die ArgoUML-Hinweise werden sich 
                   	darüber beschweren, wenn dies nicht der Fall ist.
                   </para>
 
@@ -65339,7 +65339,7 @@ available at http://www.opencontent.org/openpub/.
         	Als Konsequenz daraus ist es nicht möglich, ankommende Transitionen 
         	zu haben. ArgoUML wird sie solche Transitionen nicht erzeugen lassen 
         	und wenn Sie ein Modell importieren, das solche Transitionen aufweist, 
-        	wird sich eine Kritik beschweren.
+        	wird sich ein Hinweis beschweren.
         </para>
 
         <para lang="en">There can be at most one initial pseudostate in a 
@@ -68349,7 +68349,7 @@ available at http://www.opencontent.org/openpub/.
 	          	Eine Rolle Assoziationsende sollte die gleichen, oder <quote>
 	          	genauer</quote> Attributwerte haben, wie das Basis-
 	          	Assoziationsende. Insbesondere seine Navigierbarkeit sollte 
-	          	nicht mehr Allgemein sein. Es gibt noch keine Kritik in ArgoUML, 
+	          	nicht mehr Allgemein sein. Es gibt noch keinen Hinweis in ArgoUML, 
 	          	die eine Erläuterung zu dieser Regel bietet.
 	          </para>
 	
@@ -73388,7 +73388,7 @@ available at http://www.opencontent.org/openpub/.
         <para lang="de">
         	Dieses Kapitel beschreibt ArgoUML's eingebaute Profile, die 
         	Datentypen, Aufzählungen, Klassen, Schnittstellen, Stereotypen, 
-        	Tag-Definitionen und Kritiken enthalten.
+        	Tag-Definitionen und Hinweise enthalten.
         </para>
         
         <para lang="en">Datatypes, enumerations, classes and interfaces 
@@ -73417,7 +73417,7 @@ available at http://www.opencontent.org/openpub/.
 		safeguarding constraints specific to the profile's target application.
 		</para>
 		<para lang="de">
-			Kritiken wurden in Profile eingebunden, um geschützte 
+			Hinweise wurden in Profile eingebunden, um geschützte 
 			Randbedingungen in Profilen der Zielapplikation zu unterstützen.
 		</para>
 		
@@ -75056,11 +75056,11 @@ available at http://www.opencontent.org/openpub/.
 
       <glossentry lang="de" id="gl.critic.de">
 
-        <glossterm>Kritik</glossterm>
+        <glossterm>Hinweis</glossterm>
 
         <glossdef>
 
-          <indexterm><primary>Kritik</primary></indexterm>
+          <indexterm><primary>Hinweis</primary></indexterm>
           <para>
           	Ein Prozess innerhalb von ArgoUML, der Hinweise anbietet, wie das 
           	Design verbessert werden kann. Die Hinweise basieren auf den 
