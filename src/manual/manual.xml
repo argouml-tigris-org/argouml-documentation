@@ -3,7 +3,7 @@
 "../docbook-setup/docbookx/docbookx.dtd">
 <!-- $Id$ -->
 <!--
-Copyright (c) 1996-2010 by copyright holders as listed below
+Copyright (c) 1996-2011 by copyright holders as listed below
 in the book/bookinfo/copyright tag. 
 This material may be distributed only subject to 
 the terms and conditions set forth in the Open Publication 
@@ -86,6 +86,7 @@ available at http://www.opencontent.org/openpub/.
       <year>2008</year>
       <year>2009</year>
       <year>2010</year>
+      <year>2011</year>
       <holder>Michiel van der Wulp</holder>
     </copyright>
     <copyright><year>2003</year><holder>Linus Tolke</holder></copyright>
@@ -28636,8 +28637,12 @@ available at http://www.opencontent.org/openpub/.
 			<phrase lang="de">Neuer Stereotyp</phrase>
 		</title>
 
-          <para lang="en">This entry on the pop-up menu is available ...
-          (to be written)</para>
+          <para lang="en">This entry on the pop-up menu is available
+            whenever a model element is selected that may contain a stereotype, 
+            which is only the case for a package or model.
+            After activating this menu the model element will own a 
+            new stereotype.
+          </para>
           <para lang="de">
           	Dieser Eintrag im Popup-Menü ist verfügbar ...
           	(Noch zu beschreiben)
