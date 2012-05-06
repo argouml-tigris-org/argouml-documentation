@@ -125,7 +125,25 @@ What tools do I need to use this build file?
 
 
   <!-- =================================================================== -->
-  <!-- htmlchunked-en: Create English chunked HTML documentation only    -->
+  <!-- all-languages: Used to verify more or less only the syntax          -->
+  <!-- =================================================================== -->
+
+  <target name="all-languages"
+          description="Build the simplest version of all documents in all languages"
+          depends="
+            quickguide-htmlchunked-en, manual-htmlchunked-en,
+
+            quickguide-htmlchunked-de, manual-htmlchunked-de,
+            quickguide-htmlchunked-es, manual-htmlchunked-es,
+            quickguide-htmlchunked-it, manual-htmlchunked-it,
+            quickguide-htmlchunked-sv, manual-htmlchunked-sv,
+            quickguide-htmlchunked-zh, manual-htmlchunked-zh,
+
+            tidy"/>
+
+
+  <!-- =================================================================== -->
+  <!-- htmlchunked-en: Create English chunked HTML documentation only      -->
   <!-- =================================================================== -->
 
   <target name="htmlchunked-en" 
