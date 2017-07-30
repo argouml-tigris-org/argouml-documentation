@@ -28622,7 +28622,7 @@ available at http://www.opencontent.org/openpub/.
           package. After activating this menu the model element will own a 
           new package.</para>
           <para lang="de">
-          	Dieser Eintrag im Popup-Menü ist verfügbar, wannimmer ein 
+          	Dieser Eintrag im Popup-Menü ist verfügbar, wenn ein 
           	Modellelement markiert ist, das ein Paket enthalten darf, z.B. ein 
           	Paket. Nach dem Aktivieren dieses Menüs wird das Modellelement ein 
           	neues Paket enthalten.
@@ -28644,8 +28644,10 @@ available at http://www.opencontent.org/openpub/.
             new stereotype.
           </para>
           <para lang="de">
-          	Dieser Eintrag im Popup-Menü ist verfügbar ...
-          	(Noch zu beschreiben)
+          	Dieser Eintrag im Popup-Menü ist verfügbar, wenn ein
+          	Modellelement markiert ist, das ein Stereotyp enthalten kann, was
+          	nur bei Paketen oder Modellen der Fall ist. Nach dem Aktivieren 
+          	dieses Menüs wird das Modellelement einen neuen Stereotypen enthalten.
           </para>
 
         </sect2>
